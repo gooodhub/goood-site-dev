@@ -1,2 +1,2 @@
 # goood-site-front
-Goood's website frontend
+Source de la partie front du site Goood
