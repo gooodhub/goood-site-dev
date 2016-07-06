@@ -24,9 +24,9 @@ header, footer, section {
     padding: 20 0;
 }
 section{
-    padding-left: 20%;
-    padding-right: 20%;
     text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 header{
     padding-top: 50; 
@@ -73,26 +73,27 @@ h1{
 
 #accroche{
 background-image: url(images/cadre-bulle.png);
-width:1026;
-height:505;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 821px;
+height: 404pxpx;
 margin: 0 auto;
 text-align: center;
 }
 #accroche .constat{
 font-family: 'Open Sans';
 font-weight: 800;
-font-size: 96;
+font-size: 80;
 text-transform: uppercase; 
+padding-top: 25px;
 color: #fc4c02;
-width:1000;
-height:280;
 margin: 0 auto;
 }
 #accroche .pire{
 font-family: 'Open Sans';
 font-weight: 800;
 color: #ffffff;
-font-size: 48; 
+font-size: 40; 
 width:600;
 height:200;
 margin: 0 auto;
