@@ -65,6 +65,7 @@ h1{
 .section-orange{
     background-color: #fc4c02;
      color: #1D3F51;
+     font-weight: 400;
 }
 
 .section-orange a{
@@ -134,5 +135,5 @@ font-size: 14;
 }
 
 #mce-EMAIL{
-    width: 50%;
+    width: 60%;
 }
