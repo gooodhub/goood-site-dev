@@ -75,7 +75,7 @@ const buildApp = metalsmith(__dirname)
   // Routing
   .use(permalinks({
     pattern: ':title',
-    relative: true,
+    relative: false,
   }))
   ;
 
