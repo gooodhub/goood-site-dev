@@ -1,0 +1,139 @@
+
+body{
+    background-color: #ffffff;
+    font-family: 'Open Sans';
+font-weight: 300;
+font-size: 20;
+color: #1D3F51;
+padding: 0;
+margin: 0 auto;
+}
+em{
+    font-style: italic;
+    font-weight: 300;
+}
+strong{
+font-weight: 500;
+}
+header, footer{
+    background-color: #1D3F51;
+    color: #ffffff;
+}
+header, footer, section {
+    margin: 0 auto;
+    padding: 20 0;
+}
+section{
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+header{
+    padding-top: 50; 
+}
+footer{
+    padding-bottom: 10;
+    text-align: center;
+}
+a{
+ color: #fc4c02;
+ text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1, h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+h3, h4{
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+h5, h6{
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+h1{
+    font-size: 36;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sous-titre{
+    font-size: 50%;
+}
+.section-orange{
+    background-color: #fc4c02;
+     color: #1D3F51;
+     font-weight: 400;
+}
+
+.section-orange a{
+ color: #ffffff;
+ }
+
+#accroche{
+background-image: url(images/cadre-bulle.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 821px;
+height: 404pxpx;
+margin: 0 auto;
+text-align: center;
+}
+#accroche .constat{
+font-family: 'Open Sans';
+font-weight: 800;
+font-size: 80;
+text-transform: uppercase; 
+padding-top: 25px;
+color: #fc4c02;
+margin: 0 auto;
+}
+#accroche .pire{
+font-family: 'Open Sans';
+font-weight: 800;
+color: #ffffff;
+font-size: 40; 
+width:600;
+height:200;
+margin: 0 auto;
+}
+#logo{
+    margin: 0 auto;
+    text-align: center;
+}
+#video{
+    margin: 0 auto;
+    text-align: center;
+}
+#contacts .contacts-group{
+    margin: 0;
+    padding: 10;
+    float: left;
+    width: 45%;
+}
+#contacts .vcard{
+    text-align: left;
+    margin: 10 auto;
+    padding: 10;
+    border: solid 1px #1D3F51;
+}
+footer{
+    clear:left;
+}
+#mc_embed_signup{
+    margin: 20 auto 0;
+    text-align: center;
+
+}
+#mc_embed_signup *{
+    
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 14; 
+}
+
+#mce-EMAIL{
+    width: 60%;
+}
