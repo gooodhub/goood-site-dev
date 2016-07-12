@@ -6,6 +6,7 @@ const sass = require('metalsmith-sass');
 const autoprefixer = require('metalsmith-autoprefixer');
 const permalinks = require('metalsmith-permalinks');
 const path = require('path');
+const rootPath = require('metalsmith-rootpath');
 const webpackPlugin = require('metalsmith-webpack');
 const webpack = require('webpack');
 
@@ -29,6 +30,7 @@ const sassParams = () => {
 
 const buildApp = metalsmith(__dirname)
   .destination('./dist')
+  .use(rootPath())
 
   // HTML
   .use(markdown())
@@ -73,7 +75,7 @@ const buildApp = metalsmith(__dirname)
   // Routing
   .use(permalinks({
     pattern: ':title',
-    relative: false,
+    relative: true,
   }))
   ;
 
