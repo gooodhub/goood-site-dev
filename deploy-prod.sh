@@ -7,5 +7,5 @@ rm -rf .git/
 git init
 git remote add origin $GITURL
 git add .
-git commit -am "Deploy"
+git commit -am "Deploy production"
 git push origin master --force

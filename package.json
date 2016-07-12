@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index",
-    "deploy": "./deploy.sh",
+    "deploy-release": "./deploy-release.sh",
+    "deploy-prod": "./deploy-prod.sh",
     "test": ""
   },
   "author": "Kilix",
