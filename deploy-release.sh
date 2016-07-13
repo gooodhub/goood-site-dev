@@ -1,5 +1,5 @@
 set -e
-GITURL=https://github.com/gooodhub/goood-site-front.git
+GITURL=https://github.com/gooodhub/goood-site-dev.git
 npm install
 NODE_ENV=production node index.js
 cd dist

@@ -39,9 +39,9 @@ body {
   pointer-events: none; /* fixing FF img drag */
 }
 
-.slide-0 { background: #D70230; height: 2000px;}
-.slide-1 { background: #770D1C; }
-.slide-2 { background: #1F356E; }
-.slide-3 { background: #122C58; }
-.slide-4 { background: #0B0A10; }
-.slide-5 { background: #86A076; }
+.slide:nth-child(0) { background: #D70230; height: 2000px;}
+.slide:nth-child(1) { background: #770D1C; }
+.slide:nth-child(2) { background: #1F356E; }
+.slide:nth-child(3) { background: #122C58; }
+.slide:nth-child(4) { background: #0B0A10; }
+.slide:nth-child(5) { background: #86A076; }
