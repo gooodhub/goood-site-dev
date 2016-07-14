@@ -2,17 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Goood</title>
+  <title>{{ title }}</title>
   <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
   <div class="main-wrapper">
     <div class="wrap">
-        <div class="slide" id="home">
-
-          <p>Hello Test
-      <a href="/a-propos-de-goood.html">A propos</a></p>
-        </div>
+      {{> @partial-block }}
     </div>
   </div>
   <script src="/js/bundle.js"></script>
