@@ -7,14 +7,16 @@ then
 rm -rf dist
 fi
 git clone $GITURL dist
+cd dist
 echo "Récup dist.Appuyez sur entree"
 read dummy
 echo "rm "
-ls -a | grep -v '.*' | xargs rm -rf
+ls -a | grep -v '^\.$' | grep -v '^\.\.$' | grep -v '^\.git$' | xargs rm -rf
 cd ..
 echo "npm install"
 npm install
 NODE_ENV=production node index.js
+cd dist
 echo "git add"
 git add .
 git commit -am "$commitmsg"
