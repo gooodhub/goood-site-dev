@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index",
-    "deploy-release": "./deploy-release.sh",
+    "deploy-beta": "./deploy-beta.sh",
     "deploy-prod": "./deploy-prod.sh",
     "test": ""
   },

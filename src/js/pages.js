@@ -15,4 +15,8 @@ export default [
     slug: 'page-3',
     path: '/page-3',
   },
+  {
+    slug: 'a-propos-de-goood',
+    path: '/a-propos-de-goood',
+  },
 ];

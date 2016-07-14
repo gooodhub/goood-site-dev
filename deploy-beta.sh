@@ -7,5 +7,5 @@ rm -rf .git/
 git init
 git remote add origin $GITURL
 git add .
-git commit -am "Deploy release"
+git commit -am "Deploiement en béta"
 git push origin master:gh-pages --force
