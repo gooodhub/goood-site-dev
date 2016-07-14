@@ -4,6 +4,7 @@ npm install
 NODE_ENV=production node index.js
 cd dist
 rm -rf .git/
+cp ../CNAME .
 git init
 git remote add origin $GITURL
 git add .
