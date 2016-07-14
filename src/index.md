@@ -6,4 +6,4 @@ permalink: false
 ---
 
 Hello Goood.
-[A propos](/a-propos-de-goood)
+[A propos](/a-propos-de-goood.html)
