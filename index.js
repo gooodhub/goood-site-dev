@@ -57,7 +57,10 @@ const buildApp = metalsmith(__dirname)
         {
           test: /\.js$/,
           exclude: /node_modules/,
-          loader: 'babel?presets[]=es2015',
+          loader: 'babel',
+          query: {
+            presets: ['es2015', 'stage-0'],
+          },
         },
       ],
     },
@@ -77,7 +80,7 @@ const buildApp = metalsmith(__dirname)
     pattern: ':slug',
     relative: false,
   }))
-  ;
+;
 
 // Live reload
 if (__DEV__) {
