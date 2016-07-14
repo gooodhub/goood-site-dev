@@ -1,18 +1,51 @@
-export default [
-  {
-    slug: 'home',
-    path: '/',
+const Page = {
+  position: null,
+
+  slug: '',
+
+  path: '/',
+
+  getDOMElement() {
+    return document.getElementById(this.slug);
   },
-  {
-    slug: 'page-1',
-    path: '/page-1',
+
+  onEnterCompleted() {
+    console.info(`${this.slug} onEnterCompleted`);
   },
-  {
-    slug: 'page-2',
-    path: '/page-2',
+
+  onLeaveCompleted() {
+    console.info(`${this.slug} onLeaveCompleted`);
   },
-  {
-    slug: 'page-3',
-    path: '/page-3',
-  },
-];
+};
+
+const pages = [];
+
+pages.push({
+  ...Page,
+  position: 0,
+  slug: 'home',
+  path: '/',
+});
+
+pages.push({
+  ...Page,
+  position: 1,
+  slug: 'page-1',
+  path: '/page-1/',
+});
+
+pages.push({
+  ...Page,
+  position: 2,
+  slug: 'page-2',
+  path: '/page-2/',
+});
+
+pages.push({
+  ...Page,
+  position: 3,
+  slug: 'page-3',
+  path: '/page-3/',
+});
+
+export default pages;
