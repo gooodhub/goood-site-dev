@@ -45,3 +45,25 @@ body {
 .slide:nth-child(3) { background: #122C58; }
 .slide:nth-child(4) { background: #0B0A10; }
 .slide:nth-child(5) { background: #86A076; }
+
+
+#log {
+  position: fixed;
+  bottom: 20px;
+  width: 400px;
+  z-index: 200;
+  color: white;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  opacity: .4;
+  pointer-events: none;
+
+  .info {
+    opacity: .5;
+  }
+
+  .error {
+    color: red;
+  }
+}
