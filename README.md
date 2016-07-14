@@ -28,16 +28,16 @@ npm run dev
 ## Deployer
 
 ```bash
-npm run deploy-release
+npm run deploy-beta
 ```
-Compile les fichiers et déploie sur le repo [goood-site-front](https://github.com/gooodhub/goood-site-front)
+Compile les fichiers et déploie sur le repo [goood-site-dev](https://github.com/gooodhub/goood-site-dev)
 
-Visible sur: https://gooodhub.github.io/goood-site-front/
+Visible sur: http://beta.goood.pro
 
 
 ```bash
 npm run deploy-prod
 ```
-Compile les fichiers et déploie sur le repo [gooodhub.github.io](https://github.com/gooodhub/gooodhub.github.io)
+Compile les fichiers et déploie sur le repo [goood-site-prod](https://github.com/gooodhub/goood-site-prod)
 
-Visible sur: https://gooodhub.github.io/
+Visible sur: http://www.goood.pro/
