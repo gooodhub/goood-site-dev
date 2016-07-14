@@ -12,8 +12,7 @@ cd dist
 fi
 git init
 git remote add origin $GITURL
-echo "git pull"
-git pull origin master:gh-pages
+git pull origin gh-pages
 echo "rm "
 ls -a | grep -v '.*' | xargs rm -rf
 cd ..
