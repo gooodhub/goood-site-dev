@@ -48,4 +48,11 @@ pages.push({
   path: '/page-3/',
 });
 
+pages.push({
+  ...Page,
+  position: 4,
+  slug: 'a-propos-de-goood',
+  path: '/a-propos-de-goood/',
+});
+
 export default pages;

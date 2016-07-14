@@ -1,3 +1,5 @@
+echo "Entrez le descriptif des changements et tapez [ENTER]: "
+read commitmsg
 set -e
 GITURL=https://github.com/gooodhub/goood-site-dev.git
 npm install
@@ -7,5 +9,5 @@ rm -rf .git/
 git init
 git remote add origin $GITURL
 git add .
-git commit -am "Deploy release"
+git commit -am "$commitmsg"
 git push origin master:gh-pages --force
