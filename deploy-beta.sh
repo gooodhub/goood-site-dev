@@ -1,4 +1,4 @@
-echo -n "Entrez le descriptif des changements et tapez [ENTER]: "
+echo "Entrez le descriptif des changements et tapez [ENTER]: "
 read commitmsg
 set -e
 GITURL=https://github.com/gooodhub/goood-site-dev.git
@@ -9,5 +9,5 @@ rm -rf .git/
 git init
 git remote add origin $GITURL
 git add .
-git commit -am $commitmsg
+git commit -am "$commitmsg"
 git push origin master:gh-pages --force
