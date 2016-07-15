@@ -1,5 +1,4 @@
 import Hammer from 'hammerjs';
-// import './oncssanimationend';
 
 // const reqAnimationFrame = (function() {
 //   return window[Hammer.prefixed(window, 'requestAnimationFrame')] || function(callback) {
@@ -7,14 +6,10 @@ import Hammer from 'hammerjs';
 //   };
 // })();
 
-
-/**
-* Return correct property according to direction
-*/
+// Return property according to correct direction
 function dirProp(direction, hProp, vProp) {
   return (direction & Hammer.DIRECTION_HORIZONTAL) ? hProp : vProp;
 }
-
 
 /**
 * Carousel
@@ -22,7 +17,7 @@ function dirProp(direction, hProp, vProp) {
 * @param direction
 * @constructor
 */
-export default function createCarousel({ container, currentIndex, onMovePaneEnd, onTransitionEnd }) {
+const createCarousel = ({ container, currentIndex, onMovePaneEnd, onTransitionEnd }) => {
   const direction = Hammer.DIRECTION_HORIZONTAL;
   const panes = [...container.children];
   const hammer = new Hammer.Manager(container);
@@ -35,24 +30,15 @@ export default function createCarousel({ container, currentIndex, onMovePaneEnd,
 
   movePane(currentIndex);
 
-  // resize event
+  // Resize event
   window.addEventListener('resize', () => {
     containerSize = container[dirProp(direction, 'offsetWidth', 'offsetHeight')];
     movePane(currentIndex);
   });
 
-  // wrap event cursor
-  container.addEventListener('mousedown', function moudedown() {
-    this.style.cursor = '-moz-grabbing';
-    this.style.cursor = '-webkit-grabbing';
-    this.style.cursor = 'grabbing';
-  });
-
-  container.addEventListener('mouseup', function mouseup() {
-    this.style.cursor = '-moz-grab';
-    this.style.cursor = '-webkit-grab';
-    this.style.cursor = 'grab';
-  });
+  // Add Event cursor
+  container.addEventListener('mousedown', () => container.classList.add('grabbing'));
+  container.addEventListener('mouseup', () => container.classList.remove('grabbing'));
 
   panes.map((p, i) => {
     p.addEventListener('transitionend', () => {
@@ -63,7 +49,7 @@ export default function createCarousel({ container, currentIndex, onMovePaneEnd,
   });
 
   /**
-  * move a pane
+  * Move a pane
   * @param {Number} showIndex
   * @param {Boolean} [animate]
   * @param {Number} [percent] percentage visible
@@ -101,7 +87,7 @@ export default function createCarousel({ container, currentIndex, onMovePaneEnd,
   }
 
   /**
-  * handle pan
+  * Handle pan
   * @param {Object} ev
   */
   function onPan(ev) {
@@ -124,4 +110,7 @@ export default function createCarousel({ container, currentIndex, onMovePaneEnd,
   return {
     movePane,
   };
-}
+};
+
+
+export default createCarousel;

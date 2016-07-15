@@ -11,11 +11,13 @@ body {
 
   overflow: hidden;
   position: relative;
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
   cursor: grab;
 
   overflow: auto;
+
+  &--grabbing {
+    cursor: grabbing;
+  }
 }
 
 .wrap.animate > .slide {
