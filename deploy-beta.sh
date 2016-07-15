@@ -1,8 +1,9 @@
 echo "########## Déploiement en béta ##########" 
-read "Entrez le descriptif des changements et tapez [ENTRÉE]: " commitmsg
-if test commitmsg -eq ""
+echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
+read commitmsg
+if test "$commitmsg" = ""
 then
-    echo "Commit message empty. Exiting."
+    echo "Le message de commit ne peut pas être vide. Arrêt."
     exit -1
 fi
 set -e
