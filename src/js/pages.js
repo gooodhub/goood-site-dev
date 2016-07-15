@@ -1,20 +1,20 @@
 const Page = {
   position: null,
 
-  slug: '',
+  id: '',
 
   path: '/',
 
   getDOMElement() {
-    return document.getElementById(this.slug);
+    return document.getElementById(this.id);
   },
 
   onEnterCompleted() {
-    console.info(`${this.slug} onEnterCompleted`);
+    console.info(`${this.id} onEnterCompleted`);
   },
 
   onLeaveCompleted() {
-    console.info(`${this.slug} onLeaveCompleted`);
+    console.info(`${this.id} onLeaveCompleted`);
   },
 };
 
@@ -23,36 +23,36 @@ const pages = [];
 pages.push({
   ...Page,
   position: 0,
-  slug: 'home',
+  id: 'home',
   path: '/',
 });
 
 pages.push({
   ...Page,
   position: 1,
-  slug: 'page-1',
+  id: 'page-1',
   path: '/page-1/',
 });
 
 pages.push({
   ...Page,
   position: 2,
-  slug: 'page-2',
+  id: 'page-2',
   path: '/page-2/',
 });
 
 pages.push({
   ...Page,
   position: 3,
-  slug: 'page-3',
+  id: 'page-3',
   path: '/page-3/',
 });
 
 pages.push({
   ...Page,
   position: 4,
-  slug: 'a-propos-de-goood',
-  path: '/a-propos.html',
+  id: 'a-propos-de-goood',
+  path: '/a-propos-de-goood/',
 });
 
 export default pages;
