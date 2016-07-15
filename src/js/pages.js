@@ -52,7 +52,7 @@ pages.push({
   ...Page,
   position: 4,
   slug: 'a-propos-de-goood',
-  path: '/a-propos-de-goood/',
+  path: '/a-propos.html',
 });
 
 export default pages;

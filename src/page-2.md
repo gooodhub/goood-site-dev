@@ -1,7 +1,7 @@
 ---
 title: Seconde page
 slug: page-2
-description: Description here
+description: Description de la deuxième page
 layout: page-2.html
 ---
 
