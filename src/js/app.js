@@ -29,12 +29,10 @@ const goood = () => {
   .then((currentIndex) => {
     carousel = createCarousel({
       container: carouselWrapper,
-      onMovePaneEnd: triggerPushState,
+      onTransitionStart: triggerPushState,
       onTransitionEnd: bindEvents,
       currentIndex,
     });
-
-    console.log(carousel);
   });
 
   /**
@@ -43,13 +41,11 @@ const goood = () => {
   * @param {Number} index
   * @param {Number} prevIndex
   */
-  function triggerPushState(index, prevIndex) {
-    currentPage = pagesData.find((p) => p.position === index);
-    previousPage = pagesData.find((p) => p.position === prevIndex);
+  function triggerPushState(index) {
+    const path = pagesData.find((p) => p.position === index).path;
 
-    if (history.getCurrentLocation().pathname !== currentPage.path) {
-      history.push(currentPage.path);
-      canBindEvents = true;
+    if (history.getCurrentLocation().pathname !== path) {
+      history.push(path);
     }
   }
 
@@ -59,7 +55,10 @@ const goood = () => {
   * @param {Number} index
   * @param {Number} prevIndex
   */
-  function bindEvents() {
+  function bindEvents(index, prevIndex) {
+    currentPage = pagesData.find((p) => p.position === index);
+    previousPage = pagesData.find((p) => p.position === prevIndex);
+
     if (canBindEvents) {
       previousPage.getDOMElement().innerHTML = '';
       previousPage.onLeaveCompleted();
@@ -70,21 +69,32 @@ const goood = () => {
 
   /**
   * Triggered on every pushState
+  * Select .slide element from body and append in the currentPage
   * @param {Number} index
   * @param {Number} prevIndex
   */
   function changePage(location) {
+    const page = pagesData.find((p) => p.path === location.pathname);
+
+    if (location.action === 'POP') carousel.showPane(page.position);
+    canBindEvents = true;
+
     loadPage(location.pathname)
     .then(body => {
       const bodyEl = toDomElement(body);
       const content = bodyEl.querySelector('.slide').innerHTML;
 
       document.title = bodyEl.title;
-      currentPage.getDOMElement().innerHTML = content;
+      page.getDOMElement().innerHTML = content;
     })
     ;
   }
 
+  /**
+  * Fetch page according to path - If page in cache, return cache instead
+  * @param {String} path
+  * @return {String} HTMLString
+  */
   function loadPage(path) {
     if (cache[path]) {
       console.log(`${path} data from cache`);
