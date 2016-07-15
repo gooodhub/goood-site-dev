@@ -1,5 +1,4 @@
 import Hammer from 'hammerjs';
-// import './oncssanimationend';
 
 // const reqAnimationFrame = (function() {
 //   return window[Hammer.prefixed(window, 'requestAnimationFrame')] || function(callback) {
@@ -7,121 +6,105 @@ import Hammer from 'hammerjs';
 //   };
 // })();
 
-
-/**
-* Return correct property according to direction
-*/
-function dirProp(direction, hProp, vProp) {
-  return (direction & Hammer.DIRECTION_HORIZONTAL) ? hProp : vProp;
-}
-
-
 /**
 * Carousel
 * @param container
 * @param direction
 * @constructor
 */
-export default function createCarousel({ container, currentIndex, onMovePaneEnd, onTransitionEnd }) {
+const createCarousel = ({ container, currentIndex, onTransitionStart, onTransitionEnd }) => {
   const direction = Hammer.DIRECTION_HORIZONTAL;
-  const panes = [...container.children];
+  const panesCount = [...container.children].length;
   const hammer = new Hammer.Manager(container);
 
   let prevIndex = null;
-  let containerSize = container[dirProp(direction, 'offsetWidth', 'offsetHeight')];
+  let containerSize = document.documentElement.offsetWidth;
+
+  container.style.width = `${document.documentElement.offsetWidth * panesCount}px`;
+  showPane(currentIndex, false);
+
+  // Resize event
+  window.addEventListener('resize', () => {
+    container.style.width = `${document.documentElement.offsetWidth * panesCount}px`;
+    containerSize = document.documentElement.offsetWidth;
+  });
+
+  // Add Event cursor
+  container.addEventListener('mousedown', () => container.classList.add('grabbing'));
+  container.addEventListener('mouseup', () => container.classList.remove('grabbing'));
+  container.addEventListener('transitionend', () => onTransitionEnd(currentIndex, prevIndex));
 
   hammer.add(new Hammer.Pan({ direction, threshold: 10 }));
-  hammer.on('panstart panmove panend pancancel', Hammer.bindFn(onPan, this));
-
-  movePane(currentIndex);
-
-  // resize event
-  window.addEventListener('resize', () => {
-    containerSize = container[dirProp(direction, 'offsetWidth', 'offsetHeight')];
-    movePane(currentIndex);
-  });
-
-  // wrap event cursor
-  container.addEventListener('mousedown', function moudedown() {
-    this.style.cursor = '-moz-grabbing';
-    this.style.cursor = '-webkit-grabbing';
-    this.style.cursor = 'grabbing';
-  });
-
-  container.addEventListener('mouseup', function mouseup() {
-    this.style.cursor = '-moz-grab';
-    this.style.cursor = '-webkit-grab';
-    this.style.cursor = 'grab';
-  });
-
-  panes.map((p, i) => {
-    p.addEventListener('transitionend', () => {
-      if (i === currentIndex) {
-        onTransitionEnd(currentIndex, prevIndex);
-      }
-    });
-  });
+  hammer.on('panstart panleft panright panend swipeleft swiperight', Hammer.bindFn(onPan, this));
 
   /**
-  * move a pane
+  * Show a pane by index
   * @param {Number} showIndex
-  * @param {Boolean} [animate]
-  * @param {Number} [percent] percentage visible
   */
-  function movePane(showIndex, animate = false, percent = 0) {
-    showIndex = Math.max(0, Math.min(showIndex, panes.length - 1));
+  function showPane(showIndex, animate = true) {
+    showIndex = Math.max(0, Math.min(showIndex, panesCount - 1));
+    prevIndex = currentIndex;
+    currentIndex = showIndex;
 
+    const percent = -((100 / panesCount) * currentIndex);
+
+    onTransitionStart(currentIndex, prevIndex);
+    moveContainer(percent, animate);
+  }
+
+  function nextPane() { showPane(currentIndex + 1, true); }
+  function prevPane() { showPane(currentIndex - 1, true); }
+
+  /**
+  * Move the container
+  * @param {Number} [percent] percentage visible
+  * @param {Boolean} [animate]
+  */
+  function moveContainer(percent, animate) {
     const classList = container.classList;
+    classList.remove('animate');
     if (animate) {
-      if (!classList.contains('animate')) {
-        classList.add('animate');
-        onMovePaneEnd(showIndex, prevIndex);
-      }
-    } else {
-      if (classList.contains('animate')) {
-        classList.remove('animate');
-      }
+      classList.add('animate');
     }
 
-    panes.map((pane, i) => {
-      const pos = (containerSize / 100) * (((i - showIndex) * 100) + percent);
-      let translate = null;
-
-      if (direction & Hammer.DIRECTION_HORIZONTAL) {
-        translate = `translate3d(${pos}px, 0, 0)`;
-      } else {
-        translate = `translate3d(0, ${pos}px, 0)`;
-      }
-      pane.style.transform = translate;
-      pane.style.mozTransform = translate;
-      pane.style.webkitTransform = translate;
-    });
-
-    currentIndex = showIndex;
+    container.style.transform = `translate3d(${percent}%,0,0) scale3d(1,1,1)`;
   }
 
   /**
-  * handle pan
+  * Handle pan
   * @param {Object} ev
   */
   function onPan(ev) {
-    const delta = dirProp(direction, ev.deltaX, ev.deltaY);
-    let percent = (100 / containerSize) * delta;
-    let animate = false;
+    const delta = ev.deltaX;
 
-    if (ev.type === 'panend' || ev.type === 'pancancel') {
-      if (Math.abs(percent) > 20 && ev.type === 'panend') {
-        prevIndex = currentIndex;
-        currentIndex += (percent < 0) ? 1 : -1;
-      }
-      percent = 0;
-      animate = true;
+    if (ev.type === 'panleft' || ev.type === 'panright') {
+      // Stick to the finger
+      const paneOffset = - (100 / panesCount) * currentIndex;
+      const dragOffset = ((100 / containerSize) * delta) / panesCount;
+
+      moveContainer(paneOffset + dragOffset);
     }
 
-    movePane(currentIndex, animate, percent);
+    if (ev.type === 'swipeleft') nextPane();
+    if (ev.type === 'swiperight') prevPane();
+
+    if (ev.type === 'panend') {
+      if (Math.abs(delta) > containerSize * (20 / 100)) {
+        if (ev.direction === Hammer.DIRECTION_RIGHT) {
+          prevPane();
+        } else {
+          nextPane();
+        }
+      } else {
+        showPane(currentIndex, true);
+      }
+    }
   }
 
   return {
-    movePane,
+    showPane,
   };
-}
+};
+
+
+export default createCarousel;

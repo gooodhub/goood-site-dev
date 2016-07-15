@@ -6,15 +6,15 @@
 */
 const loadAllSlides = (currentSlide, slides) => {
   const currentId = currentSlide.id;
-  const currentPosition = slides.find(s => s.slug === currentId).position;
+  const currentPosition = slides.find(s => s.id === currentId).position;
 
   slides.map((s) => {
-    if (s.slug === currentId) return false;
+    if (s.id === currentId) return false;
 
     const insertAfter = (s.position > currentPosition);
     const template = (
       `
-        <div class="slide" id="${s.slug}">
+        <div class="slide" id="${s.id}">
         </div>
       `
     );
