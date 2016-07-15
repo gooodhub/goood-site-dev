@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index",
-    "deploy-beta": "./deploy-beta.sh",
+    "deploy-release": "./deploy-release.sh",
     "deploy-prod": "./deploy-prod.sh",
     "test": ""
   },
@@ -14,8 +14,10 @@
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
     "hammerjs": "^2.0.8",
     "handlebars": "^4.0.5",
+    "history": "^3.0.0",
     "metalsmith": "^2.1.0",
     "metalsmith-autoprefixer": "^1.1.0",
     "metalsmith-browser-sync": "^1.1.1",
@@ -25,9 +27,11 @@
     "metalsmith-rootpath": "^1.0.4",
     "metalsmith-sass": "^1.3.0",
     "metalsmith-webpack": "^1.0.3",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {
+    "babel-eslint": "^6.1.2",
     "eslint": "^3.0.1",
     "eslint-config-airbnb-base": "^4.0.0",
     "eslint-plugin-import": "^1.10.2"
