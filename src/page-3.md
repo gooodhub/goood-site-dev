@@ -1,7 +1,7 @@
 ---
 title: Troisième page
 slug: page-3
-description: Description here
+description: Description de la troisième page
 layout: page-3.html
 ---
 
