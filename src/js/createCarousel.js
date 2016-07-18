@@ -80,7 +80,13 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     if (ev.type === 'panleft' || ev.type === 'panright') {
       // Stick to the finger
       const paneOffset = - (100 / panesCount) * currentIndex;
-      const dragOffset = ((100 / containerSize) * delta) / panesCount;
+      let dragOffset = ((100 / containerSize) * delta) / panesCount;
+
+      // Slow down at the first and last pane
+      const maxPaneOffset = - (100 / panesCount) * (panesCount - 1);
+      if ((paneOffset + dragOffset) > 0 || (paneOffset + dragOffset) < maxPaneOffset) {
+        dragOffset *= 0.2;
+      }
 
       moveContainer(paneOffset + dragOffset);
     }
@@ -103,6 +109,8 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
 
   return {
     showPane,
+    nextPane,
+    prevPane,
   };
 };
 
