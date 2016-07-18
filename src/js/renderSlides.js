@@ -15,6 +15,11 @@ const loadAllSlides = (currentSlide, slides) => {
     const template = (
       `
         <div class="slide" id="${s.id}">
+          <div class="slide__header">
+            ${s.title}
+          </div>
+          <div class="slide__content">
+          </div>
         </div>
       `
     );
