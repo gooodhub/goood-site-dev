@@ -20,8 +20,6 @@ const goood = () => {
   const currentSlide = document.querySelector('.slide');
   const carouselWrapper = document.querySelector('.wrap');
 
-  logToHtml('#log'); // @TODO - Delete for prod
-
   // Save current page to cache
   cache[document.location.pathname] = document.documentElement.innerHTML;
 
@@ -33,6 +31,11 @@ const goood = () => {
       onTransitionEnd: bindEvents,
       currentIndex,
     });
+
+    // @TODO - Delete for prod
+    logToHtml('#log');
+    document.getElementById('next').addEventListener('click', carousel.nextPane);
+    document.getElementById('prev').addEventListener('click', carousel.prevPane);
   });
 
   /**
@@ -60,7 +63,7 @@ const goood = () => {
     previousPage = pagesData.find((p) => p.position === prevIndex);
 
     if (canBindEvents) {
-      previousPage.getDOMElement().innerHTML = '';
+      previousPage.getDOMElement().querySelector('.slide__content').innerHTML = '';
       previousPage.onLeaveCompleted();
       currentPage.onEnterCompleted();
       canBindEvents = false;
@@ -82,10 +85,10 @@ const goood = () => {
     loadPage(location.pathname)
     .then(body => {
       const bodyEl = toDomElement(body);
-      const content = bodyEl.querySelector('.slide').innerHTML;
+      const content = bodyEl.querySelector('.slide__content').innerHTML;
 
       document.title = bodyEl.title;
-      page.getDOMElement().innerHTML = content;
+      page.getDOMElement().querySelector('.slide__content').innerHTML = content;
     })
     ;
   }

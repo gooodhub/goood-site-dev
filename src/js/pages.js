@@ -5,6 +5,8 @@ const Page = {
 
   path: '/',
 
+  title: 'Titre manquant',
+
   getDOMElement() {
     return document.getElementById(this.id);
   },

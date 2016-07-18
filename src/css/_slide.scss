@@ -1,0 +1,48 @@
+
+.wrap {
+  background-color: #222;
+  display: flex;
+  position: relative;
+  cursor: grab;
+
+  &--grabbing {
+    cursor: grabbing;
+  }
+
+  &.animate {
+    transition: all 450ms;
+  }
+}
+
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+
+  text-align: center;
+  font: bold 60px/250px 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #fff;
+  overflow: auto;
+
+
+  & img {
+    pointer-events: none; /* fixing FF img drag */
+  }
+
+  &__header {
+    height: 100vh;
+    background: rgba(black, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+.slide:nth-child(0) { background: #D70230; height: 2000px;}
+.slide:nth-child(1) { background: #770D1C; }
+.slide:nth-child(2) { background: #1F356E; }
+.slide:nth-child(3) { background: #122C58; }
+.slide:nth-child(4) { background: #0B0A10; }
+.slide:nth-child(5) { background: #86A076; }
