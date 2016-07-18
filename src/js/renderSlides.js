@@ -30,7 +30,7 @@ const loadAllSlides = (currentSlide, slides) => {
       currentSlide.insertAdjacentHTML('beforeBegin', template);
     }
   });
-  return Promise.resolve(currentPosition);
+  return Promise.resolve();
 };
 
 export default loadAllSlides;

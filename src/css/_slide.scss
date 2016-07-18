@@ -23,7 +23,7 @@
   text-align: center;
   font: bold 60px/250px 'Open Sans', Helvetica, Arial, sans-serif;
   color: #fff;
-  overflow: auto;
+  overflow: hidden;
 
 
   & img {
@@ -36,6 +36,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 1000ms;
+  }
+
+  &__content {
+    transition: transform 1000ms;
+    height: 3000px;
+  }
+
+  &--isSliding {
+
+    .slide__header {
+      transform: translateY(-100%);
+    }
+
+    .slide__content {
+      transform: translateY(-100vh);
+    }
+  }
+
+  &--isSlided {
+    overflow: auto;
   }
 
 }

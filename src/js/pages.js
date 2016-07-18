@@ -11,6 +11,18 @@ const Page = {
     return document.getElementById(this.id);
   },
 
+  getDOMHeader() {
+    return document.getElementById(this.id).querySelector('.slide__header');
+  },
+
+  getDOMContent() {
+    return document.getElementById(this.id).querySelector('.slide__content');
+  },
+
+  getScrollY() {
+    return document.getElementById(this.id).scrollTop;
+  },
+
   onEnterCompleted() {
     console.info(`${this.id} onEnterCompleted`);
   },

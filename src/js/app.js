@@ -12,31 +12,35 @@ const goood = () => {
   let canBindEvents = false;
   let carousel = null;
 
-  const history = createHistory();
-  // Trigger changePage() on every PushState
-  history.listen(changePage);
-
   const cache = {};
   const currentSlide = document.querySelector('.slide');
   const carouselWrapper = document.querySelector('.wrap');
+  const history = createHistory();
 
-  // Save current page to cache
-  cache[document.location.pathname] = document.documentElement.innerHTML;
+  history.listen(changePage); // Trigger changePage() on every PushState
+  cache[document.location.pathname] = document.documentElement.innerHTML; // Save current page to cache
+  currentPage = pagesData.find((p) => p.id === currentSlide.id);
 
   renderSlides(currentSlide, pagesData)
-  .then((currentIndex) => {
+  .then(() => init());
+
+  /**
+  * Once renderSlides is done, init app
+  */
+  function init() {
     carousel = createCarousel({
       container: carouselWrapper,
-      onTransitionStart: triggerPushState,
-      onTransitionEnd: bindEvents,
-      currentIndex,
+      currentIndex: currentPage.position,
+      onTransitionStart,
+      onTransitionEnd,
     });
+    bindEvents(currentPage);
 
     // @TODO - Delete for prod
     logToHtml('#log');
     document.getElementById('next').addEventListener('click', carousel.nextPane);
     document.getElementById('prev').addEventListener('click', carousel.prevPane);
-  });
+  }
 
   /**
   * Passed to createCarousel on move pane end
@@ -44,7 +48,7 @@ const goood = () => {
   * @param {Number} index
   * @param {Number} prevIndex
   */
-  function triggerPushState(index) {
+  function onTransitionStart(index) {
     const path = pagesData.find((p) => p.position === index).path;
 
     if (history.getCurrentLocation().pathname !== path) {
@@ -54,20 +58,29 @@ const goood = () => {
 
   /**
   * Passed to createCarousel on transition pane end
-  * Bind scripts events for current slide and unbind for previous slide
   * @param {Number} index
   * @param {Number} prevIndex
   */
-  function bindEvents(index, prevIndex) {
+  function onTransitionEnd(index, prevIndex) {
     currentPage = pagesData.find((p) => p.position === index);
     previousPage = pagesData.find((p) => p.position === prevIndex);
 
     if (canBindEvents) {
-      previousPage.getDOMElement().querySelector('.slide__content').innerHTML = '';
-      previousPage.onLeaveCompleted();
-      currentPage.onEnterCompleted();
+      bindEvents(currentPage, previousPage);
       canBindEvents = false;
     }
+  }
+
+  /**
+  * Bind scripts events for current slide and unbind for previous slide
+  */
+  function bindEvents() {
+    if (previousPage) {
+      previousPage.getDOMContent().innerHTML = '';
+      previousPage.onLeaveCompleted();
+    }
+    handleScrollBehaviour(currentPage);
+    currentPage.onEnterCompleted();
   }
 
   /**
@@ -88,7 +101,7 @@ const goood = () => {
       const content = bodyEl.querySelector('.slide__content').innerHTML;
 
       document.title = bodyEl.title;
-      page.getDOMElement().querySelector('.slide__content').innerHTML = content;
+      page.getDOMContent().innerHTML = content;
     })
     ;
   }
@@ -109,6 +122,45 @@ const goood = () => {
       cache[path] = response.text();
       return cache[path];
     });
+  }
+
+  function handleScrollBehaviour() {
+    let delta;
+    let animating = false;
+    const currentElement = currentPage.getDOMElement();
+    const currentElementClassList = currentElement.classList;
+
+    window.addEventListener('mousewheel', elementScroll);
+    window.addEventListener('DOMMouseScroll', elementScroll); // FF Support
+    currentElement.addEventListener('transitionend', toggleScroll);
+
+    function toggleScroll(e) {
+      if (e.target.parentNode.classList.contains('slide--isSliding')) {
+        animating = false;
+        currentElementClassList.add('slide--isSlided');
+      } else {
+        animating = false;
+        currentElement.classList.remove('slide--isSliding');
+        currentElementClassList.remove('slide--isSlided');
+      }
+    }
+
+    function elementScroll(e) {
+      // cross-browser wheel delta
+      delta = e.detail ? e.detail * (-120) : e.wheelDelta;
+
+      if (!animating) {
+        if (delta < 0 && currentPage.getScrollY() === 0 && !currentElementClassList.contains('slide--isSlided')) {
+          currentElement.classList.add('slide--isSliding');
+          animating = true;
+        }
+        if (delta > 0 && currentPage.getScrollY() === 0 && currentElementClassList.contains('slide--isSlided')) {
+          currentElement.classList.remove('slide--isSliding');
+          currentElement.classList.remove('slide--isSlided');
+          animating = true;
+        }
+      }
+    }
   }
 };
 
