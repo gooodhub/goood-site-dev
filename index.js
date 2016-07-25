@@ -5,6 +5,7 @@ const browserSync = require('metalsmith-browser-sync');
 const sass = require('metalsmith-sass');
 const autoprefixer = require('metalsmith-autoprefixer');
 const permalinks = require('metalsmith-permalinks');
+const collections = require('metalsmith-collections');
 const path = require('path');
 const rootPath = require('metalsmith-rootpath');
 const webpackPlugin = require('metalsmith-webpack');
@@ -33,6 +34,16 @@ const buildApp = metalsmith(__dirname)
   .use(rootPath())
 
   // HTML
+  .use(collections({
+    pages: {
+      pattern: 'pages/*.md',
+    },
+    subPages: {
+      pattern: 'subPages/*.md',
+      sortyBy: 'date',
+      reverse: true,
+    },
+  }))
   .use(markdown())
   .use(layouts({
     engine: 'handlebars',
@@ -79,6 +90,18 @@ const buildApp = metalsmith(__dirname)
   .use(permalinks({
     pattern: ':slug',
     relative: false,
+
+    linksets: [
+      {
+        match: { collection: 'subPages' },
+        pattern: ':parent/:slug',
+        date: 'mmddyy',
+      },
+      {
+        match: { collection: 'pages' },
+        pattern: ':slug',
+      },
+    ],
   }))
 ;
 

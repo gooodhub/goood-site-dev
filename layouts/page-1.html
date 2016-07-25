@@ -1,10 +1,12 @@
 {{#> layout }}
-  <div class="slide" id="page-1">
-    <div class="slide__header">
-      {{title}}
+  {{#*inline "content"}}
+    <div class="slide" id="page-1">
+      <div class="slide__header">
+        {{title}}
+      </div>
+      <div class="slide__content">
+        {{{ contents }}}
+      </div>
     </div>
-    <div class="slide__content">
-      {{{ contents }}}
-    </div>
-  </div>
+  {{/inline}}
 {{/layout}}

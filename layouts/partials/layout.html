@@ -15,7 +15,12 @@
   <!-- END TESTING PURPOSE ONLY -->
   <div class="main-wrapper">
     <div class="wrap">
-      {{> @partial-block }}
+      {{#> content }}
+      {{/content}}
+    </div>
+    <div class="subPageContainer">
+      {{#> subPage }}
+      {{/subPage}}
     </div>
   </div>
   <script src="/js/bundle.js"></script>

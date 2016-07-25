@@ -48,7 +48,9 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
 
     const percent = -((100 / panesCount) * currentIndex);
 
-    onTransitionStart(currentIndex, prevIndex);
+    if (animate) {
+      onTransitionStart(currentIndex, prevIndex);
+    }
     moveContainer(percent, animate);
   }
 

@@ -11,17 +11,24 @@ const goood = () => {
   let previousPage = null;
   let canBindEvents = false;
   let carousel = null;
+  let isSubPageOpened = false;
 
   const cache = {};
-  const currentSlide = document.querySelector('.slide');
+  const firstElement = document.querySelector('.slide') || document.querySelector('.subPage');
   const carouselWrapper = document.querySelector('.wrap');
   const history = createHistory();
 
   history.listen(changePage); // Trigger changePage() on every PushState
   cache[document.location.pathname] = document.documentElement.innerHTML; // Save current page to cache
-  currentPage = pagesData.find((p) => p.id === currentSlide.id);
+  currentPage =
+    pagesData.find((p) => p.id === firstElement.id) ||
+    pagesData.find((p) => p.id === firstElement.dataset.parent);
 
-  renderSlides(currentSlide, pagesData)
+  if (firstElement.classList.contains('subPage')) {
+    isSubPageOpened = true;
+  }
+
+  renderSlides(firstElement, pagesData)
   .then(() => init());
 
   /**
@@ -48,8 +55,11 @@ const goood = () => {
   * @param {Number} index
   * @param {Number} prevIndex
   */
-  function onTransitionStart(index) {
-    const path = pagesData.find((p) => p.position === index).path;
+  function onTransitionStart(index, prevIndex) {
+    currentPage = pagesData.find((p) => p.position === index);
+    previousPage = pagesData.find((p) => p.position === prevIndex);
+
+    const path = currentPage.path;
 
     if (history.getCurrentLocation().pathname !== path) {
       history.push(path);
@@ -61,10 +71,7 @@ const goood = () => {
   * @param {Number} index
   * @param {Number} prevIndex
   */
-  function onTransitionEnd(index, prevIndex) {
-    currentPage = pagesData.find((p) => p.position === index);
-    previousPage = pagesData.find((p) => p.position === prevIndex);
-
+  function onTransitionEnd() {
     if (canBindEvents) {
       bindEvents(currentPage, previousPage);
       canBindEvents = false;
@@ -90,20 +97,38 @@ const goood = () => {
   * @param {Number} prevIndex
   */
   function changePage(location) {
-    const page = pagesData.find((p) => p.path === location.pathname);
+    if (isSubPageOpened) {
+      document.querySelector('.subPageContainer').innerHTML = '';
+      isSubPageOpened = false;
+    }
 
-    if (location.action === 'POP') carousel.showPane(page.position);
-    canBindEvents = true;
+    // If subpage
+    if (location.pathname.split('/')[2]) {
+      loadPage(location.pathname)
+      .then(body => {
+        const bodyEl = toDomElement(body);
+        const content = bodyEl.querySelector('.subPageContainer').innerHTML;
 
-    loadPage(location.pathname)
-    .then(body => {
-      const bodyEl = toDomElement(body);
-      const content = bodyEl.querySelector('.slide__content').innerHTML;
+        document.title = bodyEl.title;
+        document.querySelector('.subPageContainer').innerHTML = content;
 
-      document.title = bodyEl.title;
-      page.getDOMContent().innerHTML = content;
-    })
-    ;
+        isSubPageOpened = true;
+      });
+    } else {
+      const page = pagesData.find((p) => p.path === location.pathname);
+
+      if (location.action === 'POP' && !isSubPageOpened) carousel.showPane(page.position);
+      canBindEvents = true;
+
+      loadPage(location.pathname)
+      .then(body => {
+        const bodyEl = toDomElement(body);
+        const content = bodyEl.querySelector('.slide__content').innerHTML;
+
+        document.title = bodyEl.title;
+        page.getDOMContent().innerHTML = content;
+      });
+    }
   }
 
   /**
@@ -123,6 +148,7 @@ const goood = () => {
       return cache[path];
     });
   }
+
 
   function handleScrollBehaviour() {
     let delta;
