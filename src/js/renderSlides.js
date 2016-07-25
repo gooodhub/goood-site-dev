@@ -1,4 +1,5 @@
-const renderTemplate = (slide) => (`
+const htmlSlide = (slide) =>
+`
   <div class="slide" id="${slide.id}">
     <div class="slide__header">
       ${slide.title}
@@ -6,7 +7,7 @@ const renderTemplate = (slide) => (`
     <div class="slide__content">
     </div>
   </div>
-`);
+`;
 
 /**
 * Prepend, or append page slide according to the current one.
@@ -15,27 +16,23 @@ const renderTemplate = (slide) => (`
 * @return currentPosition (stupid as f, but I got lazy)
 */
 const loadAllSlides = (currentSlide, slides) => {
+  // NEED REFACTO - Ugly, render first div
   if (currentSlide.classList.contains('subPage')) {
-    // NEED REFACTO - Ugly, render first div
-    document.querySelector('.wrap').innerHTML = renderTemplate(slides[0]);
+    document.querySelector('.wrap').innerHTML = htmlSlide(slides[0]);
     currentSlide = document.getElementById('home');
   }
 
   const currentId = currentSlide.id;
   const currentElement = slides.find(s => s.id === currentId);
-  const currentPosition = currentElement ? currentElement.position : -1;
+  const currentPosition = currentElement.position;
 
-  slides.map((s) => {
-    if (s.id === currentId) return false;
+  slides.map((slide) => {
+    if (slide.id === currentId) return false;
 
-    const insertAfter = (s.position > currentPosition);
-    const template = renderTemplate(s);
-
-    if (insertAfter) {
-      currentSlide.parentNode.insertAdjacentHTML('beforeEnd', template);
-    } else {
-      currentSlide.insertAdjacentHTML('beforeBegin', template);
-    }
+    currentElement.renderTemplate({
+      insertAfter: slide.position > currentPosition,
+      template: htmlSlide(slide),
+    });
   });
   return Promise.resolve();
 };

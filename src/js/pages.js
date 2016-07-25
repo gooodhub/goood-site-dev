@@ -30,6 +30,14 @@ const protoPage = {
   onLeaveCompleted() {
     console.info(`${this.id} onLeaveCompleted`);
   },
+
+  renderTemplate({ insertAfter, template }) {
+    if (insertAfter) {
+      this.getDOMElement().parentNode.insertAdjacentHTML('beforeEnd', template);
+    } else {
+      this.getDOMElement().insertAdjacentHTML('beforeBegin', template);
+    }
+  },
 };
 
 const createPage = (obj) => Object.assign(Object.create(protoPage), obj);
