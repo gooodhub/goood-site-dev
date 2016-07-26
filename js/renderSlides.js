@@ -1,3 +1,14 @@
+const htmlSlide = (slide) =>
+`
+  <div class="slide" id="${slide.id}">
+    <div class="slide__header">
+      ${slide.title}
+    </div>
+    <div class="slide__content">
+    </div>
+  </div>
+`;
+
 /**
 * Prepend, or append page slide according to the current one.
 * @param {Node} currentSlide
@@ -5,27 +16,25 @@
 * @return currentPosition (stupid as f, but I got lazy)
 */
 const loadAllSlides = (currentSlide, slides) => {
+  // NEED REFACTO - Ugly, render first div
+  if (currentSlide.classList.contains('subPage')) {
+    document.querySelector('.wrap').innerHTML = htmlSlide(slides[0]);
+    currentSlide = document.getElementById('home');
+  }
+
   const currentId = currentSlide.id;
-  const currentPosition = slides.find(s => s.id === currentId).position;
+  const currentElement = slides.find(s => s.id === currentId);
+  const currentPosition = currentElement.position;
 
-  slides.map((s) => {
-    if (s.id === currentId) return false;
+  slides.map((slide) => {
+    if (slide.id === currentId) return false;
 
-    const insertAfter = (s.position > currentPosition);
-    const template = (
-      `
-        <div class="slide" id="${s.id}">
-        </div>
-      `
-    );
-
-    if (insertAfter) {
-      currentSlide.parentNode.insertAdjacentHTML('beforeEnd', template);
-    } else {
-      currentSlide.insertAdjacentHTML('beforeBegin', template);
-    }
+    currentElement.renderTemplate({
+      insertAfter: slide.position > currentPosition,
+      template: htmlSlide(slide),
+    });
   });
-  return Promise.resolve(currentPosition);
+  return Promise.resolve();
 };
 
 export default loadAllSlides;

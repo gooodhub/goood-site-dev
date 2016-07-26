@@ -1,39 +1,66 @@
 import 'whatwg-fetch';
-import { createHistory } from 'history';
+import page from 'page';
 
 import createCarousel from './createCarousel';
 import renderSlides from './renderSlides';
 import pagesData from './pages';
-import { toDomElement, logToHtml } from './helpers';
+import { toDomElement } from './helpers';
+// import handleScrollBehaviour from './scrollBehaviour';
 
 const goood = () => {
   let currentPage = null;
   let previousPage = null;
   let canBindEvents = false;
   let carousel = null;
-
-  const history = createHistory();
-  // Trigger changePage() on every PushState
-  history.listen(changePage);
+  let isSubPageOpened = false;
 
   const cache = {};
-  const currentSlide = document.querySelector('.slide');
+  const firstElement = document.querySelector('.slide') || document.querySelector('.subPage');
   const carouselWrapper = document.querySelector('.wrap');
 
-  logToHtml('#log'); // @TODO - Delete for prod
+  // Init routing
+  page('/:slug?', changePage);
+  page('/:slug/:subSlug', changeSubPage);
+  page({
+    popstate: false,
+  });
 
-  // Save current page to cache
-  cache[document.location.pathname] = document.documentElement.innerHTML;
+  window.onpopstate = (e) => {
+    const path = e.state.path;
+    e.state.popstate = true;
+    page.replace(path, e.state);
+  };
 
-  renderSlides(currentSlide, pagesData)
-  .then((currentIndex) => {
+
+  cache[document.location.pathname] = document.documentElement.innerHTML; // Save current page to cache
+  currentPage =
+    pagesData.find((p) => p.id === firstElement.id) ||
+    pagesData.find((p) => p.id === firstElement.dataset.parent);
+
+  if (firstElement.classList.contains('subPage')) {
+    isSubPageOpened = true;
+  }
+
+  renderSlides(firstElement, pagesData)
+  .then(() => init());
+
+  /**
+  * Once renderSlides is done, init app
+  */
+  function init() {
     carousel = createCarousel({
       container: carouselWrapper,
-      onTransitionStart: triggerPushState,
-      onTransitionEnd: bindEvents,
-      currentIndex,
+      currentIndex: currentPage.position,
+      onTransitionStart,
+      onTransitionEnd,
     });
-  });
+    bindEvents(currentPage);
+
+    // @TODO - Delete for prod
+    // logToHtml('#log');
+    document.getElementById('next').addEventListener('click', carousel.nextPane);
+    document.getElementById('prev').addEventListener('click', carousel.prevPane);
+  }
 
   /**
   * Passed to createCarousel on move pane end
@@ -41,30 +68,39 @@ const goood = () => {
   * @param {Number} index
   * @param {Number} prevIndex
   */
-  function triggerPushState(index) {
-    const path = pagesData.find((p) => p.position === index).path;
+  function onTransitionStart(index, prevIndex) {
+    currentPage = pagesData.find((p) => p.position === index);
+    previousPage = pagesData.find((p) => p.position === prevIndex);
 
-    if (history.getCurrentLocation().pathname !== path) {
-      history.push(path);
+    const path = currentPage.path;
+
+    if (document.location.pathname !== path) {
+      page(path);
     }
   }
 
   /**
   * Passed to createCarousel on transition pane end
-  * Bind scripts events for current slide and unbind for previous slide
   * @param {Number} index
   * @param {Number} prevIndex
   */
-  function bindEvents(index, prevIndex) {
-    currentPage = pagesData.find((p) => p.position === index);
-    previousPage = pagesData.find((p) => p.position === prevIndex);
-
+  function onTransitionEnd() {
     if (canBindEvents) {
-      previousPage.getDOMElement().innerHTML = '';
-      previousPage.onLeaveCompleted();
-      currentPage.onEnterCompleted();
+      bindEvents(currentPage, previousPage);
       canBindEvents = false;
     }
+  }
+
+  /**
+  * Bind scripts events for current slide and unbind for previous slide
+  */
+  function bindEvents() {
+    if (previousPage) {
+      previousPage.getDOMContent().innerHTML = '';
+      previousPage.onLeaveCompleted();
+    }
+    // handleScrollBehaviour(currentPage);
+    currentPage.onEnterCompleted();
   }
 
   /**
@@ -73,22 +109,41 @@ const goood = () => {
   * @param {Number} index
   * @param {Number} prevIndex
   */
-  function changePage(location) {
-    const page = pagesData.find((p) => p.path === location.pathname);
+  function changePage(ctx) {
+    if (isSubPageOpened) {
+      document.querySelector('.subPageContainer').innerHTML = '';
+      isSubPageOpened = false;
+    }
 
-    if (location.action === 'POP') carousel.showPane(page.position);
+    const pageItem = pagesData.find((p) => p.path === ctx.pathname);
+
+    if (ctx.state.popstate && !isSubPageOpened) carousel.showPane(pageItem.position);
     canBindEvents = true;
 
-    loadPage(location.pathname)
+    loadPage(ctx.pathname)
     .then(body => {
       const bodyEl = toDomElement(body);
-      const content = bodyEl.querySelector('.slide').innerHTML;
+      const content = bodyEl.querySelector('.slide__content').innerHTML;
 
       document.title = bodyEl.title;
-      page.getDOMElement().innerHTML = content;
-    })
-    ;
+      pageItem.getDOMContent().innerHTML = content;
+    });
   }
+
+  function changeSubPage(ctx) {
+    // If subpage
+    loadPage(ctx.pathname)
+    .then(body => {
+      const bodyEl = toDomElement(body);
+      const content = bodyEl.querySelector('.subPageContainer').innerHTML;
+
+      document.title = bodyEl.title;
+      document.querySelector('.subPageContainer').innerHTML = content;
+
+      isSubPageOpened = true;
+    });
+  }
+
 
   /**
   * Fetch page according to path - If page in cache, return cache instead
