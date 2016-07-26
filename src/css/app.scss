@@ -1,12 +1,28 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:800,700';
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700';
+
+@import 'helpers/normalize';
+@import 'helpers/breakpoints';
+
 @import 'variables';
 
+@import 'buttons';
 @import 'slide';
 @import 'subPage';
 
 @import 'home';
 
+html {
+  @media #{$small-only} {
+    font-size: 80%;
+  }
+
+  font-size: 100%;
+}
+
 body {
   margin: 0;
+  @extend %contentFont;
 }
 
 .main-wrapper {
@@ -14,14 +30,37 @@ body {
 }
 
 .ham {
-  width: 65px;
-  height: 65px;
-  top: 20px;
-  right: 20px;
+  width: em(65);
+  height: em(65);
+  top: em(20);
+  right: em(20);
   border-radius: 4px;
   background-color: $primaryColor;
   position: fixed;
   z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    width: em(32);
+    height: em(32);
+  }
+}
+
+.logo {
+
+  width: 120px;
+  height: 60px;
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  z-index: 10;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 

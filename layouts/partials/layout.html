@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/css/app.css">
 </head>
@@ -9,12 +12,15 @@
   <!-- BEGIN TESTING PURPOSE ONLY -->
   <div id="log"></div>
   <div id="nextprev">
-    <div id="prev">Précédent</div>
-    <div id="next">Suivant</div>
+    <div id="prev"><</div>
+    <div id="next">></div>
   </div>
   <!-- END TESTING PURPOSE ONLY -->
+  <div class="logo">
+    {{svg "../images/logo-goood-mono.svg"}}
+  </div>
   <div class="ham">
-    
+    {{svg "../images/menu-ico.svg"}}
   </div>
   <div class="main-wrapper">
     <div class="wrap">

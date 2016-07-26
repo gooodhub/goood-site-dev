@@ -6,6 +6,7 @@ const sass = require('metalsmith-sass');
 const autoprefixer = require('metalsmith-autoprefixer');
 const permalinks = require('metalsmith-permalinks');
 const collections = require('metalsmith-collections');
+const metalSmithRegisterHelpers = require('metalsmith-register-helpers');
 const path = require('path');
 const rootPath = require('metalsmith-rootpath');
 const webpackPlugin = require('metalsmith-webpack');
@@ -34,6 +35,9 @@ const buildApp = metalsmith(__dirname)
   .use(rootPath())
 
   // HTML
+  .use(metalSmithRegisterHelpers({
+    directory: './src/helpers',
+  }))
   .use(collections({
     pages: {
       pattern: 'pages/*.md',
