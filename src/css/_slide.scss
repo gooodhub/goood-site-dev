@@ -23,7 +23,8 @@
   text-align: center;
   font: bold 60px/250px 'Open Sans', Helvetica, Arial, sans-serif;
   color: #fff;
-  overflow: hidden;
+  // overflow: hidden; // Uncomment when handleScrollBehaviour()
+  overflow: auto;
 
 
   & img {

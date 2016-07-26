@@ -1,5 +1,9 @@
+@import 'variables';
+
 @import 'slide';
 @import 'subPage';
+
+@import 'home';
 
 body {
   margin: 0;
@@ -8,6 +12,38 @@ body {
 .main-wrapper {
   overflow: hidden;
 }
+
+.ham {
+  width: 65px;
+  height: 65px;
+  top: 20px;
+  right: 20px;
+  border-radius: 4px;
+  background-color: $primaryColor;
+  position: fixed;
+  z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** TESTING PURPOSE ONLY **/
 #nextprev {
