@@ -1,0 +1,38 @@
+header p {
+  font-size: em(20);
+  color: $secondaryColor;
+  margin: 0;
+
+  @extend %headingBoldFont;
+
+  &:after {
+    content: '';
+    margin-top: 10px;
+    width: 22px;
+    height: 2px;
+    background: $secondaryColor;
+    display: block;
+  }
+}
+
+h1 {
+  font-size: em(42);
+  color: $primaryColor;
+  text-transform: uppercase;
+
+  @extend %headingExtraBoldFont;
+}
+
+p {
+  font-size: em(28);
+  line-height: em(36);
+}
+
+em {
+  font-style: normal;
+  color: $primaryColor;
+}
+
+strong {
+  font-weight: 600;
+}

@@ -27,6 +27,10 @@ $secondaryColor: #1d3f51;
   font-weight: 700;
 }
 
+%contentPadding {
+  padding: 15px;
+}
+
 @function em($pixels, $context: 16) {
   @return #{$pixels/$context}rem
 }

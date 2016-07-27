@@ -1,6 +1,9 @@
 {{#> layout }}
   {{#*inline "content"}}
-    <div class="slide" id="home">
+    <section class="slide" id="home">
+      <div class="logo">
+        {{svg "../images/logo-goood-mono.svg"}}
+      </div>
       <div class="slide__header">
         <div class="landing">
           <div class="landing__citation">
@@ -17,8 +20,30 @@
         </div>
       </div>
       <div class="slide__content">
-        {{{ contents }}}
+        <section class="videocontainer">
+          <div class="row">
+            <div class="videocontainer__content">
+              <header>
+                <p>
+                  Notre mission
+                </p>
+                <h1>
+                  Lutter contre le gâchis dans les entreprises
+                </h1>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia culpa sunt fugiat, optio, temporibus praesentium error distinctio dicta modi molestias et facilis pariatur, sequi mollitia! Velit laudantium nihil rerum iusto!
+              </p>
+              <p>
+                <em>Ensemble, </em><strong>nous pouvons lutter</strong>
+              </p>
+            </div>
+            <div class="videocontainer__video">
+
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
+    </section>
   {{/inline}}
 {{/layout}}

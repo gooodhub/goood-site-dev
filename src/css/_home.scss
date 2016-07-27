@@ -38,4 +38,49 @@
       }
     }
   }
+
+  .videocontainer {
+    margin-top: em(40);
+
+    &__content {
+      @extend %contentPadding;
+      flex: 1;
+
+      @media #{$medium-up} {
+        margin-left: em(-100);
+        align-self: center;
+      }
+    }
+
+    &__video {
+      background-color: rgba(black, .2);
+      height: 58vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0px 8px 65px 0 rgba(0, 0, 0, 0.18);
+
+      @media #{$medium-up} {
+        order: -1;
+        flex-basis: 58%;
+        max-width: 58%;
+        height: 44vw;
+        max-height: 590px;
+        align-self: center;
+      }
+
+      &:after {
+        content: '';
+        width: 80px;
+        height: 80px;
+        background-image: url(../images/lecture-ico.svg);
+        background-size: cover;
+
+        @media #{$medium-up} {
+          width: 130px;
+          height: 130px;
+        }
+      }
+    }
+  }
 }

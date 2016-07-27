@@ -7,22 +7,28 @@
 @import 'variables';
 
 @import 'buttons';
+@import 'typography';
+
 @import 'slide';
 @import 'subPage';
-
 @import 'home';
 
 html {
-  @media #{$small-only} {
+  font-size: 70%;
+
+  @media #{$medium-up} {
     font-size: 80%;
   }
 
-  font-size: 100%;
+  @media #{$large-up} {
+    font-size: 100%;
+  }
 }
 
 body {
   margin: 0;
   @extend %contentFont;
+  color: $secondaryColor;
 }
 
 .main-wrapper {
@@ -49,6 +55,9 @@ body {
 }
 
 .logo {
+  @media #{$small-only} {
+    display: none;
+  }
 
   width: 120px;
   height: 60px;
@@ -60,6 +69,18 @@ body {
   svg {
     width: 100%;
     height: 100%;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: 0 auto;
+
+  @media #{$medium-up} {
+    padding: 0 em(20);
+    flex-direction: row;
   }
 }
 
