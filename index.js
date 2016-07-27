@@ -6,12 +6,11 @@ const autoprefixer = require('metalsmith-autoprefixer');
 const permalinks = require('metalsmith-permalinks');
 const collections = require('metalsmith-collections');
 const metalSmithRegisterHelpers = require('metalsmith-register-helpers');
-const path = require('path');
 const rootPath = require('metalsmith-rootpath');
 const webpackPlugin = require('metalsmith-webpack');
-const webpack = require('webpack');
 
 const browserSync = require('./plugins/metalsmith-browser-sync');
+const webpackConfig = require('./webpack.conf.js');
 
 const __DEV__ = (process.env.NODE_ENV !== 'production');
 
@@ -59,36 +58,7 @@ const buildApp = metalsmith(__dirname)
   .use(autoprefixer())
 
   // JS - app.js to bundle.js using babel transpiler
-  .use(webpackPlugin({
-    devtool: __DEV__ ? 'inline-source-map' : 'cheap-module-source-map',
-    context: path.resolve(__dirname, 'src/js/'),
-    entry: './app.js',
-    output: {
-      path: path.resolve(__dirname, 'dist/js/'),
-      filename: 'bundle.js',
-    },
-    module: {
-      loaders: [
-        {
-          test: /\.js$/,
-          exclude: /node_modules/,
-          loader: 'babel',
-          query: {
-            presets: ['es2015', 'stage-0'],
-          },
-        },
-      ],
-    },
-    plugins: [
-      new webpack.optimize.DedupePlugin(),
-      new webpack.optimize.OccurenceOrderPlugin(),
-      new webpack.optimize.UglifyJsPlugin({
-        compress: {
-          warnings: false,
-        },
-      }),
-    ],
-  }))
+  .use(webpackPlugin(webpackConfig))
 
   // Routing
   .use(permalinks({

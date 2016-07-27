@@ -9,6 +9,7 @@
     "no-use-before-define": 0,
     "no-unused-vars": 1,
     "max-len": 0,
+    "no-new": 1,
     },
   "parserOptions": {
     "ecmaVersion": 6,

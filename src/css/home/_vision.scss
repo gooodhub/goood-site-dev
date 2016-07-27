@@ -1,0 +1,91 @@
+#home {
+  .vision {
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    // pointer-events: none;
+
+
+    header {
+      @extend %contentPadding;
+
+      background: $secondaryColor;
+
+      h1, p, p { color: white; }
+      p:after { background: white; }
+
+      @media #{$medium-up} {
+        text-align: center;
+        p:after {
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    }
+
+    &__leftSquare {
+      @extend %contentPadding;
+
+      background: $primaryColor;
+      color: white;
+
+      p {
+        margin: 0;
+      }
+
+      &__labels {
+        @extend %headingBoldFont;
+
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        font-size: em(23);
+
+        @media #{$medium-up} {
+          font-size: em(32);
+        }
+      }
+
+      &__bottomContent {
+        @media #{$small-only} {
+          display: none;
+        }
+      }
+    }
+
+    &__rightSquare {
+      position: relative;
+    }
+
+    &__bloc {
+
+      text-align: center;
+
+      &:nth-child(2), &:nth-child(3) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      &__icon {
+      }
+
+      &__title {
+        @extend %headingBoldFont;
+
+        font-size: em(32);
+        color: $primaryColor;
+        text-transform: uppercase;
+        padding: 0 em(32);
+
+        strong {
+          display: block;
+        }
+      }
+    }
+  }
+}

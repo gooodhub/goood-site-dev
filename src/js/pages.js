@@ -1,3 +1,5 @@
+import homePage from './pages/home';
+
 const protoPage = {
   position: null,
 
@@ -44,11 +46,7 @@ const createPage = (obj) => Object.assign(Object.create(protoPage), obj);
 
 const pages = [];
 
-pages.push(createPage({
-  position: 0,
-  id: 'home',
-  path: '/',
-}));
+pages.push(createPage(homePage));
 
 pages.push(createPage({
   position: 1,
