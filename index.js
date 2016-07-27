@@ -1,7 +1,6 @@
 const metalsmith = require('metalsmith');
 const layouts = require('metalsmith-layouts');
 const markdown = require('metalsmith-markdown');
-const browserSync = require('metalsmith-browser-sync');
 const sass = require('metalsmith-sass');
 const autoprefixer = require('metalsmith-autoprefixer');
 const permalinks = require('metalsmith-permalinks');
@@ -12,6 +11,7 @@ const rootPath = require('metalsmith-rootpath');
 const webpackPlugin = require('metalsmith-webpack');
 const webpack = require('webpack');
 
+const browserSync = require('./plugins/metalsmith-browser-sync');
 
 const __DEV__ = (process.env.NODE_ENV !== 'production');
 
