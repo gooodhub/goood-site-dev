@@ -110,6 +110,8 @@ const goood = () => {
   * @param {Number} prevIndex
   */
   function changePage(ctx) {
+    if (ctx.init) return;
+
     if (isSubPageOpened) {
       document.querySelector('.subPageContainer').innerHTML = '';
       isSubPageOpened = false;
