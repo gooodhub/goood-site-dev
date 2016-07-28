@@ -21,62 +21,83 @@ function onEnterCompleted() {
     container: '#home',
   });
 
-  const fromToTitle = className => ([
-    `.${className} .vision__bloc__title`,
-    0.5,
-    { x: -20, opacity: 0 },
-    { x: 0, opacity: 1 },
-  ]);
-
-  const toTitle = className => ([
-    `.${className} .vision__bloc__title`,
-    0.5,
-    { x: 20, opacity: 0, delay: 1 },
-  ]);
-
-  const fromToContent = className => ([
-    `.${className} .vision__bloc__content`,
-    0.5,
-    { x: 20, opacity: 0 },
-    { x: 0, opacity: 1 },
-  ]);
-
-  const toContent = className => ([
-    `.${className} .vision__bloc__content`,
-    0.5,
-    { x: -20, opacity: 0, delay: 1 },
-  ]);
+  /**
+  * Define animation for title
+  */
+  const fromToTitle = className => ([`.${className} .vision__bloc__title`, 0.5, { x: -20, opacity: 0 }, { x: 0, opacity: 1, delay: 0.3 }]);
+  const toTitle = className => ([`.${className} .vision__bloc__title`, 0.5, { x: 20, opacity: 0, delay: 1 }]);
 
   const animationTitle = new TimelineMax()
-    .fromTo(...fromToTitle('inspirant'))
-    .to(...toTitle('inspirant'))
-    .fromTo(...fromToTitle('innovant'))
-    .to(...toTitle('innovant'))
-    .fromTo(...fromToTitle('performant'))
-    .to(...toTitle('performant'));
+  // First item
+  .to(...toTitle('inspirant'))
+
+  // Second item
+  .fromTo(...fromToTitle('innovant'))
+  .to(...toTitle('innovant'))
+
+  // Third item
+  .fromTo(...fromToTitle('performant'));
+
+  /**
+  * Define animation for content
+  */
+  const fromToContent = className => ([`.${className} .vision__bloc__content`, 0.5, { x: 20, opacity: 0 }, { x: 0, opacity: 1, delay: 0.3 }]);
+  const toContent = className => ([`.${className} .vision__bloc__content`, 0.5, { x: -20, opacity: 0, delay: 1 }]);
 
   const animationContent = new TimelineMax()
-    .fromTo(...fromToContent('inspirant'))
-    .to(...toContent('inspirant'))
-    .fromTo(...fromToContent('innovant'))
-    .to(...toContent('innovant'))
-    .fromTo(...fromToContent('performant'))
-    .to(...toContent('performant'));
+  // First item
+  .to(...toContent('inspirant'))
 
+  // Second item
+  .fromTo(...fromToContent('innovant'))
+  .to(...toContent('innovant'))
+
+  // Third item
+  .fromTo(...fromToContent('performant'));
+
+
+  /**
+  * Define animation for icon
+  */
+  const fromToIcon = className => ([`.${className} .vision__bloc__icon`, 0.5, { opacity: 0 }, { opacity: 1, delay: 0.3 }]);
+  const toIcon = className => ([`.${className} .vision__bloc__icon`, 0.5, { opacity: 0, delay: 1 }]);
+
+  const animationIcon = new TimelineMax()
+    // First item
+    .to(...toIcon('inspirant'))
+
+    // Second item
+    .fromTo(...fromToIcon('innovant'))
+    .to(...toIcon('innovant'))
+
+    // Third item
+    .fromTo(...fromToIcon('performant'));
+
+  // Combine timelines
   const timeline = new TimelineMax();
   timeline
     .insert(animationTitle)
+    .insert(animationIcon)
     .insert(animationContent);
 
-  // create scene to pin and link animation
+  // Create scene to pin and link animation
   new ScrollMagic.Scene({
     triggerElement: '.vision',
     triggerHook: 'onLeave',
-    duration: '200%',
+    duration: '150%',
     offset: isMobile ? headerHeight : 0,
   })
   .setPin('.vision')
   .setTween(timeline)
   .addIndicators()
-  .addTo(controller);
+  .addTo(controller)
+  .on('progress', (e) => {
+    // console.log(e.progress.toFixed(2));
+
+    const progress = e.progress.toFixed(2);
+    [...document.querySelectorAll('.vision__leftSquare__label')].forEach(item => item.classList.remove('active'));
+    if (progress <= 0.35) document.querySelector('.vision__leftSquare__label.inspirant').classList.add('active');
+    if (progress > 0.35 && progress < 0.85) document.querySelector('.vision__leftSquare__label.innovant').classList.add('active');
+    if (progress >= 0.85) document.querySelector('.vision__leftSquare__label.performant').classList.add('active');
+  });
 }

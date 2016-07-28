@@ -36,4 +36,8 @@ $secondaryColor: #1d3f51;
 
 %sectionPadding {
   padding: em(10) 0;
+
+  @media #{$medium-up} {
+    padding: em(25) 0;
+  }
 }

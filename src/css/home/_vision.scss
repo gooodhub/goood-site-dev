@@ -1,12 +1,25 @@
 #home {
   .vision {
-
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
 
-    // pointer-events: none;
+    .row {
+      max-width: 900px;
+    }
 
+    @media #{$medium-up} {
+      margin-bottom: 30px;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 600px;
+        background: $secondaryColor;
+        z-index: -1;
+      }
+    }
 
     header {
       @extend %contentPadding;
@@ -24,68 +37,176 @@
         }
       }
     }
+  }
 
-    &__leftSquare {
-      @extend %contentPadding;
+
+  .vision__leftSquare {
+    @extend %contentPadding;
+
+    background: $primaryColor;
+    color: white;
+
+    p {
+      margin: 0;
+      font-size: em(24);
+      line-height: em(30);
+    }
+
+    @media #{$medium-up} {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+
+    &__labels {
+      @extend %headingBoldFont;
+
+      margin-top: em(30);
+      display: flex;
+      justify-content: space-between;
+      font-size: em(23);
+
+      @media #{$medium-up} {
+        font-size: em(32);
+        flex-direction: column;
+        margin-left: 50px;
+        margin-bottom: em(30);
+      }
+    }
+
+    &__label {
+      opacity: .3;
+      transition: opacity .5s ease;
+      position: relative;
+
+      &:before {
+        content: '';
+        width: 2px;
+        height: 0;
+        background: white;
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        border-radius: 4px;
+        transition: .5s ease;
+
+        @media #{$medium-up} {
+          height: 3px;
+          width: 0;
+          top: 17px;
+          left: auto;
+          right: -30%;
+
+        }
+      }
+
+      @media #{$medium-up} {
+        margin-bottom: 15px;
+      }
+
+
+      &.active {
+        opacity: 1;
+
+        &:before {
+          height: 25px;
+
+          @media #{$medium-up} {
+            height: 3px;
+            width: 70%;
+          }
+        }
+
+      }
+
+    }
+
+    &__bottomContent {
+      @media #{$small-only} {
+        display: none;
+      }
+
+      padding-bottom: 10px;
 
       background: $primaryColor;
       color: white;
 
       p {
-        margin: 0;
-      }
-
-      &__labels {
-        @extend %headingBoldFont;
-
-        margin-top: 30px;
-        display: flex;
-        justify-content: space-between;
-        font-size: em(23);
-
-        @media #{$medium-up} {
-          font-size: em(32);
-        }
-      }
-
-      &__bottomContent {
-        @media #{$small-only} {
-          display: none;
-        }
-      }
-    }
-
-    &__rightSquare {
-      position: relative;
-    }
-
-    &__bloc {
-
-      text-align: center;
-
-      &:nth-child(2), &:nth-child(3) {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-      }
-
-      &__icon {
-      }
-
-      &__title {
-        @extend %headingBoldFont;
-
-        font-size: em(32);
-        color: $primaryColor;
-        text-transform: uppercase;
-        padding: 0 em(32);
-
-        strong {
-          display: block;
-        }
+        margin-bottom: 15px;
       }
     }
   }
+
+  .vision__rightSquare {
+    position: relative;
+    background: white;
+
+    p {
+      font-size: em(24);
+      line-height: em(30);
+    }
+
+    @media #{$medium-up} {
+      flex-basis: 50%;
+      max-width: 50%;
+      transform: translateY(40px);
+    }
+  }
+
+  .vision__bloc {
+
+    text-align: center;
+    margin-top: em(30);
+
+    &:nth-child(2), &:nth-child(3) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    &__icon {
+      width: 100px;
+      height: 110px;
+      border: 2px solid $primaryColor;
+      margin: 0 auto;
+    }
+
+    &__title {
+      @extend %headingBoldFont;
+
+      font-size: em(32);
+      color: $primaryColor;
+      text-transform: uppercase;
+      padding: 0 em(32);
+
+      strong {
+        display: block;
+      }
+    }
+
+    &__content {
+      padding: 0 em(40)
+    }
+  }
+
+  .vision__bottomContent {
+    @extend %contentPadding;
+
+    padding-bottom: 10px;
+
+    background: $primaryColor;
+    color: white;
+
+    p {
+      margin: 0;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+
+.scrollmagic-pin-spacer {
+  pointer-events: none;
 }

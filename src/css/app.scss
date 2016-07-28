@@ -16,6 +16,10 @@
 @import 'home/mission';
 @import 'home/vision';
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 70%;
 

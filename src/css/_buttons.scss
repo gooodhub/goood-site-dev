@@ -18,3 +18,19 @@
     background: $primaryColor;
   }
 }
+
+.arrow-link {
+  @extend %contentBoldFont;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: em(19);
+  color: white;
+  text-decoration: none;
+
+  svg {
+    margin-left: 10px;
+    width: 17px;
+  }
+}
