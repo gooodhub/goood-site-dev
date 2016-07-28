@@ -1,0 +1,42 @@
+#home {
+  .chiffres {
+    @extend %contentPadding;
+
+    @media #{$medium-up} {
+      padding-top: 40px;
+      padding-bottom: 60px;
+    }
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .chiffre {
+    flex-basis: 50%;
+    max-width: 50%;
+    text-align: center;
+
+    @media #{$medium-up} {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+
+    &__nombre {
+      @extend %contentExtraBoldFont;
+
+      font-size: em(85);
+      color: $primaryColor;
+    }
+
+    &__content {
+      margin-top: 0;
+
+      max-width: 220px;
+      margin: 0 auto;
+
+      @media #{$medium-up} {
+        max-width: 250px;
+      }
+    }
+  }
+}

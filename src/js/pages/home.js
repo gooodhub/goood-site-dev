@@ -28,7 +28,7 @@ function onEnterCompleted() {
     new ScrollMagic.Scene({
       triggerElement: '.mission',
       triggerHook: 'onEnter',
-      duration: '230%',
+      duration: '200%',
     })
     .setTween(moveVideoContainer)
     .addIndicators()

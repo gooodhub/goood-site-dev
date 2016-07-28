@@ -231,6 +231,10 @@
     display: flex;
     flex-direction: column;
 
+    @media #{$medium-up} {
+      padding-bottom: 70px;
+    }
+
     p {
       text-align: center;
       padding: 0 em(40);
