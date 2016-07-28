@@ -17,6 +17,11 @@
     color: white;
     background: $primaryColor;
   }
+
+  &--secondary {
+    border: 3px solid $secondaryColor;
+    color: $secondaryColor;
+  }
 }
 
 .arrow-link {

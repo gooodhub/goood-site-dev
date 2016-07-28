@@ -41,3 +41,7 @@ $secondaryColor: #1d3f51;
     padding: em(25) 0;
   }
 }
+
+%shadow {
+  box-shadow: 0px 8px 65px 0 rgba(0, 0, 0, 0.18);
+}

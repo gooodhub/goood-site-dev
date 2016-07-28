@@ -13,12 +13,13 @@
     }
 
     &__video {
+      @extend %shadow;
+
       background-color: rgba(black, .2);
       height: 58vw;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0px 8px 65px 0 rgba(0, 0, 0, 0.18);
 
       @media #{$medium-up} {
         order: -1;

@@ -21,6 +21,20 @@ function onEnterCompleted() {
     container: '#home',
   });
 
+  if (!isMobile) {
+    const moveVideoContainer = new TimelineMax()
+    .fromTo('.mission__video', 1, { y: '30%' }, { y: '-30%' });
+    // Create scene to pin and link animation
+    new ScrollMagic.Scene({
+      triggerElement: '.mission',
+      triggerHook: 'onEnter',
+      duration: '230%',
+    })
+    .setTween(moveVideoContainer)
+    .addIndicators()
+    .addTo(controller);
+  }
+
   /**
   * Define animation for title
   */
