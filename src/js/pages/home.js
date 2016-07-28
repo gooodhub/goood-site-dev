@@ -39,11 +39,11 @@ function onEnterCompleted() {
   * Define animation for title
   */
   const fromToTitle = className => ([`.${className} .vision__bloc__title`, 0.5, { x: -20, opacity: 0 }, { x: 0, opacity: 1, delay: 0.3 }]);
-  const toTitle = className => ([`.${className} .vision__bloc__title`, 0.5, { x: 20, opacity: 0, delay: 1 }]);
+  const toTitle = (className, delay = 1) => ([`.${className} .vision__bloc__title`, 0.5, { x: 20, opacity: 0, delay }]);
 
   const animationTitle = new TimelineMax()
   // First item
-  .to(...toTitle('inspirant'))
+  .to(...toTitle('inspirant', 0))
 
   // Second item
   .fromTo(...fromToTitle('innovant'))
@@ -56,11 +56,11 @@ function onEnterCompleted() {
   * Define animation for content
   */
   const fromToContent = className => ([`.${className} .vision__bloc__content`, 0.5, { x: 20, opacity: 0 }, { x: 0, opacity: 1, delay: 0.3 }]);
-  const toContent = className => ([`.${className} .vision__bloc__content`, 0.5, { x: -20, opacity: 0, delay: 1 }]);
+  const toContent = (className, delay = 1) => ([`.${className} .vision__bloc__content`, 0.5, { x: -20, opacity: 0, delay }]);
 
   const animationContent = new TimelineMax()
   // First item
-  .to(...toContent('inspirant'))
+  .to(...toContent('inspirant', 0))
 
   // Second item
   .fromTo(...fromToContent('innovant'))
@@ -74,11 +74,11 @@ function onEnterCompleted() {
   * Define animation for icon
   */
   const fromToIcon = className => ([`.${className} .vision__bloc__icon`, 0.5, { opacity: 0 }, { opacity: 1, delay: 0.3 }]);
-  const toIcon = className => ([`.${className} .vision__bloc__icon`, 0.5, { opacity: 0, delay: 1 }]);
+  const toIcon = (className, delay = 1) => ([`.${className} .vision__bloc__icon`, 0.5, { opacity: 0, delay }]);
 
   const animationIcon = new TimelineMax()
     // First item
-    .to(...toIcon('inspirant'))
+    .to(...toIcon('inspirant', 0))
 
     // Second item
     .fromTo(...fromToIcon('innovant'))
@@ -110,8 +110,8 @@ function onEnterCompleted() {
 
     const progress = e.progress.toFixed(2);
     [...document.querySelectorAll('.vision__leftSquare__label')].forEach(item => item.classList.remove('active'));
-    if (progress <= 0.35) document.querySelector('.vision__leftSquare__label.inspirant').classList.add('active');
-    if (progress > 0.35 && progress < 0.85) document.querySelector('.vision__leftSquare__label.innovant').classList.add('active');
-    if (progress >= 0.85) document.querySelector('.vision__leftSquare__label.performant').classList.add('active');
+    if (progress <= 0.25) document.querySelector('.vision__leftSquare__label.inspirant').classList.add('active');
+    if (progress > 0.25 && progress < 0.75) document.querySelector('.vision__leftSquare__label.innovant').classList.add('active');
+    if (progress >= 0.75) document.querySelector('.vision__leftSquare__label.performant').classList.add('active');
   });
 }
