@@ -45,3 +45,18 @@ $secondaryColor: #1d3f51;
 %shadow {
   box-shadow: 0px 8px 65px 0 rgba(0, 0, 0, 0.18);
 }
+
+
+.small-only {
+  display: none;
+  @media #{$small-only} {
+    display: block;
+  }
+}
+
+.medium-up {
+  display: none;
+  @media #{$medium-up} {
+    display: block;
+  }
+}
