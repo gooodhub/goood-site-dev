@@ -70,22 +70,45 @@ function onEnterCompleted() {
   .fromTo(...fromToContent('performant'));
 
 
+  /*
+  * Define svg animation
+  */
+  const pathPrepare = (el, prepareDashoffset = true) => {
+    const lineLength = el.getTotalLength();
+    el.style.strokeDasharray = lineLength;
+    if (prepareDashoffset) el.style.strokeDashoffset = lineLength;
+  };
+
+  const getTotalLength = (className) => document.querySelector(`path#${className}Path`).getTotalLength() + 1;
+
+  pathPrepare(document.querySelector('path#inspirantPath'), false);
+  pathPrepare(document.querySelector('path#innovantPath'));
+  pathPrepare(document.querySelector('path#performantPath'));
+
   /**
   * Define animation for icon
   */
-  const fromToIcon = className => ([`.${className} .vision__bloc__icon`, 0.5, { opacity: 0 }, { opacity: 1, delay: 0.3 }]);
-  const toIcon = (className, delay = 1) => ([`.${className} .vision__bloc__icon`, 0.5, { opacity: 0, delay }]);
+  const fromToIcon = className => ([`path#${className}Path`, 0.5, { strokeDashoffset: getTotalLength(className), opacity: 0 }, { strokeDashoffset: 0, opacity: 1 }]);
+  const toIcon = (className, delay = 1) => ([`path#${className}Path`, 0.5, { strokeDashoffset: getTotalLength(className), opacity: 0, delay }]);
+
+  const fromToLine = (className) => ([`line#${className}Line`, 0.1, { scale: 0 }, { scale: 1 }]);
+  const toLine = (className, delay = 1) => ([`line#${className}Line`, 0.1, { scale: 0, delay }]);
 
   const animationIcon = new TimelineMax()
     // First item
+    .to(...toLine('inspirant', 0))
     .to(...toIcon('inspirant', 0))
 
     // Second item
     .fromTo(...fromToIcon('innovant'))
-    .to(...toIcon('innovant'))
+    .fromTo(...fromToLine('innovant'))
+    .to(...toLine('innovant'))
+    .to(...toIcon('innovant', 0))
 
     // Third item
+    .fromTo(...fromToLine('performant'))
     .fromTo(...fromToIcon('performant'));
+
 
   // Combine timelines
   const timeline = new TimelineMax();
