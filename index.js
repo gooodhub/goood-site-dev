@@ -35,7 +35,7 @@ const buildApp = metalsmith(__dirname)
 
   // HTML
   .use(metalSmithRegisterHelpers({
-    directory: './src/helpers',
+    directory: './layouts/helpers',
   }))
   .use(collections({
     pages: {

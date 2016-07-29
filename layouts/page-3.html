@@ -1,9 +1,7 @@
 {{#> layout }}
   {{#*inline "content"}}
     <div class="slide" id="page-3">
-      <div class="slide__header">
-        {{title}}
-      </div>
+      {{> slide-header title=title }}
       <div class="slide__content">
         {{{ contents }}}
       </div>

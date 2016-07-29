@@ -23,6 +23,7 @@
 
   // overflow: hidden; // Uncomment when handleScrollBehaviour()
   overflow: auto;
+  overflow-x: hidden;
 
 
   & img {
@@ -36,7 +37,38 @@
     align-items: center;
     justify-content: center;
     transition: transform 1000ms;
+
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
   }
+
+  &__title {
+    @extend %headingExtraBoldFont;
+
+    color: $primaryColor;
+    text-transform: uppercase;
+    font-size: em(48);
+    align-self: flex-end;
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    background-image: url('../images/ligne-titre.svg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100%;
+
+    @media #{$medium-up} {
+      font-size: em(62);
+      left: -10%;
+      bottom: 20%;
+      padding-bottom: 80px;
+    }
+  }
+
 
   &__content {
     transition: transform 1000ms;
@@ -60,7 +92,6 @@
 
 }
 
-.slide:nth-child(2) { background: #1F356E; }
 .slide:nth-child(3) { background: #122C58; }
 .slide:nth-child(4) { background: #0B0A10; }
 .slide:nth-child(5) { background: #86A076; }

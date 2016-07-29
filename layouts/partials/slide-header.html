@@ -1,0 +1,23 @@
+{{#if isHome}}
+<div class="slide__header">
+  <div class="landing">
+    <div class="landing__citation">
+      {{svg "./citation-damien.svg"}}
+    </div>
+    <div class="landing__buttons">
+      <button class="btn btn--primary">
+        Vision
+      </button>
+      <button class="btn">
+        Références
+      </button>
+    </div>
+  </div>
+</div>
+{{else}}
+<div class="slide__header">
+  <div class="slide__title">
+    {{title}}
+  </div>
+</div>
+{{/if}}

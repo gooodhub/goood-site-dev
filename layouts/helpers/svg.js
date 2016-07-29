@@ -2,6 +2,7 @@ const fs = require('fs');
 const handlebars = require('handlebars');
 const ltx = require('ltx');
 const resolve = require('resolve');
+const path = require('path');
 
 const nameToModule = {};
 const cache = {};
@@ -9,6 +10,7 @@ const cache = {};
 module.exports = function(name, opts) {
 
   const mod = nameToModule[name] || (nameToModule[name] = resolve.sync(name, {
+    basedir: path.resolve(__dirname, '../../src/images'),
     extensions: ['.svg'],
   }));
 

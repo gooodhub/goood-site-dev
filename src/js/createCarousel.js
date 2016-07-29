@@ -13,9 +13,9 @@ import Hammer from 'hammerjs';
 * @constructor
 */
 const createCarousel = ({ container, currentIndex, onTransitionStart, onTransitionEnd }) => {
-  const direction = Hammer.DIRECTION_HORIZONTAL;
   const panesCount = [...container.children].length;
   const hammer = new Hammer.Manager(container);
+  let isScrolling = false;
 
   let prevIndex = null;
   let containerSize = document.documentElement.offsetWidth;
@@ -34,8 +34,10 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
   container.addEventListener('mouseup', () => container.classList.remove('grabbing'));
   container.addEventListener('transitionend', () => onTransitionEnd(currentIndex, prevIndex));
 
-  hammer.add(new Hammer.Pan({ direction, threshold: 10 }));
-  hammer.on('panstart panleft panright panend swipeleft swiperight', Hammer.bindFn(onPan, this));
+  hammer.add(new Hammer.Pan());
+  hammer.on('panstart', Hammer.bindFn(onPanStart, this));
+  hammer.on('panup pandown panleft panright swipeleft swiperight', Hammer.bindFn(onPan, this));
+  hammer.on('panend', Hammer.bindFn(onPanEnd, this));
 
   /**
   * Show a pane by index
@@ -72,12 +74,18 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     container.style.transform = `translate3d(${percent}%,0,0) scale3d(1,1,1)`;
   }
 
+  function onPanStart(ev) {
+    if (ev.additionalEvent === 'panup' || ev.additionalEvent === 'pandown') isScrolling = true;
+  }
+
   /**
   * Handle pan
   * @param {Object} ev
   */
   function onPan(ev) {
     const delta = ev.deltaX;
+
+    if (isScrolling) return;
 
     if (ev.type === 'panleft' || ev.type === 'panright') {
       // Stick to the finger
@@ -95,17 +103,20 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
 
     if (ev.type === 'swipeleft') nextPane();
     if (ev.type === 'swiperight') prevPane();
+  }
 
-    if (ev.type === 'panend') {
-      if (Math.abs(delta) > containerSize * (20 / 100)) {
-        if (ev.direction === Hammer.DIRECTION_RIGHT) {
-          prevPane();
-        } else {
-          nextPane();
-        }
+  function onPanEnd(ev) {
+    const delta = ev.deltaX;
+    isScrolling = false;
+
+    if (Math.abs(delta) > containerSize * (20 / 100)) {
+      if (ev.direction === Hammer.DIRECTION_RIGHT) {
+        prevPane();
       } else {
-        showPane(currentIndex, true);
+        nextPane();
       }
+    } else {
+      showPane(currentIndex, true);
     }
   }
 

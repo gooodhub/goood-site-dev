@@ -50,8 +50,9 @@ pages.push(createPage(homePage));
 
 pages.push(createPage({
   position: 1,
-  id: 'page-1',
-  path: '/page-1/',
+  id: 'equipe',
+  title: 'Équipe et culture',
+  path: '/equipe-et-culture/',
 }));
 
 pages.push(createPage({

@@ -3,23 +3,9 @@
     <section class="slide" id="home">
       <div class="scroll-content">
         <div class="logo">
-          {{svg "../images/logo-goood-mono.svg"}}
+          {{svg "./logo-goood-mono.svg"}}
         </div>
-        <div class="slide__header">
-          <div class="landing">
-            <div class="landing__citation">
-              {{svg "../images/citation-damien.svg"}}
-            </div>
-            <div class="landing__buttons">
-              <button class="btn btn--primary">
-                Vision
-              </button>
-              <button class="btn">
-                Références
-              </button>
-            </div>
-          </div>
-        </div>
+        {{> slide-header isHome=true }}
         <div class="slide__content">
           <section class="mission">
             <div class="row">
@@ -69,14 +55,14 @@
                   </p>
                   <a href="#" class="arrow-link">
                     Notre démarche
-                    {{svg "../images/fleche-droite-ico.svg"}}
+                    {{svg "./fleche-droite-ico.svg"}}
                   </a>
                 </div>
               </div>
               <div class="vision__rightSquare">
                 <div class="vision__bloc inspirant">
                   <div class="vision__bloc__icon">
-                    {{svg "../images/inspirant.svg"}}
+                    {{svg "./inspirant.svg"}}
                   </div>
                   <h3 class="vision__bloc__title">Devenons <strong>Inspirants</strong></h3>
                   <p class="vision__bloc__content">
@@ -85,7 +71,7 @@
                 </div>
                 <div class="vision__bloc innovant">
                   <div class="vision__bloc__icon">
-                    {{svg "../images/innovant.svg"}}
+                    {{svg "./innovant.svg"}}
                   </div>
                   <h3 class="vision__bloc__title">Devenons <strong>Inspirants</strong></h3>
                   <p class="vision__bloc__content">
@@ -94,7 +80,7 @@
                 </div>
                 <div class="vision__bloc performant">
                   <div class="vision__bloc__icon">
-                    {{svg "../images/performant.svg"}}
+                    {{svg "./performant.svg"}}
                   </div>
                   <h3 class="vision__bloc__title">Devenons <strong>Inspirants</strong></h3>
                   <p class="vision__bloc__content">
@@ -103,7 +89,7 @@
                 </div>
                 <a href="#" class="arrow-link">
                   Voir les cas clients
-                  {{svg "../images/fleche-droite-ico.svg"}}
+                  {{svg "./fleche-droite-ico.svg"}}
                 </a>
               </div>
             </div>
@@ -114,7 +100,7 @@
             </p>
             <a href="#" class="arrow-link">
               Notre démarche
-              {{svg "../images/fleche-droite-ico.svg"}}
+              {{svg "./fleche-droite-ico.svg"}}
             </a>
           </div>
           <section class="download">
@@ -126,10 +112,10 @@
           <section class="progres">
             <div class="progres__bulle">
               <div class="small-only">
-                {{svg "../images/citation-femme-mobile.svg"}}
+                {{svg "./citation-femme-mobile.svg"}}
               </div>
               <div class="medium-up">
-                {{svg "../images/citation-femme-desktop.svg"}}
+                {{svg "./citation-femme-desktop.svg"}}
               </div>
             </div>
             <div class="progres__content">
