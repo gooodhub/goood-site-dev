@@ -1,38 +1,51 @@
-import ScrollMagic from 'ScrollMagic';
-import TimelineMax from 'TimelineMax';
+import ScrollMagic from 'ScrollMagic'; //eslint-disable-line
+import TimelineMax from 'TimelineMax'; //eslint-disable-line
 import MobileDetect from 'mobile-detect';
-require('debug.addIndicators'); //eslint-disable-line
+// require('debug.addIndicators'); //eslint-disable-line
 require('animation.gsap'); //eslint-disable-line
-
-const md = new MobileDetect(window.navigator.userAgent);
-const isMobile = !!md.mobile();
-const headerHeight = document.querySelector('.vision__header').clientHeight;
 
 export default {
   position: 0,
   id: 'home',
   path: '/',
   onEnterCompleted,
+  onLeaveCompleted,
+  scrollMagic: {
+    scenes: [],
+    controller: null,
+  },
 };
 
+function onLeaveCompleted() {
+  this.scrollMagic.controller.destroy(true);
+  this.scrollMagic.controller = null;
+  this.scrollMagic.scenes = [];
+}
+
 function onEnterCompleted() {
+
+  const md = new MobileDetect(window.navigator.userAgent);
+  const isMobile = !!md.mobile();
+  const headerHeight = document.querySelector('.vision__header').clientHeight;
   // init
-  const controller = new ScrollMagic.Controller({
+  this.scrollMagic.controller = new ScrollMagic.Controller({
     container: '#home',
   });
 
   if (!isMobile) {
     const moveVideoContainer = new TimelineMax()
     .fromTo('.mission__video', 1, { y: '30%' }, { y: '-30%' });
+
     // Create scene to pin and link animation
-    new ScrollMagic.Scene({
-      triggerElement: '.mission',
-      triggerHook: 'onEnter',
-      duration: '200%',
-    })
-    .setTween(moveVideoContainer)
-    .addIndicators()
-    .addTo(controller);
+    this.scrollMagic.scenes.push(
+      new ScrollMagic.Scene({
+        triggerElement: '.mission',
+        triggerHook: 'onEnter',
+        duration: '200%',
+      })
+      .setTween(moveVideoContainer)
+      .addTo(this.scrollMagic.controller)
+    );
   }
 
   /**
@@ -118,23 +131,24 @@ function onEnterCompleted() {
     .insert(animationContent);
 
   // Create scene to pin and link animation
-  new ScrollMagic.Scene({
-    triggerElement: '.vision',
-    triggerHook: 'onLeave',
-    duration: '150%',
-    offset: isMobile ? headerHeight : 0,
-  })
-  .setPin('.vision')
-  .setTween(timeline)
-  .addIndicators()
-  .addTo(controller)
-  .on('progress', (e) => {
-    // console.log(e.progress.toFixed(2));
+  this.scrollMagic.scenes.push(
+    new ScrollMagic.Scene({
+      triggerElement: '.vision',
+      triggerHook: 'onLeave',
+      duration: '150%',
+      offset: isMobile ? headerHeight : 0,
+    })
+    .setPin('.vision')
+    .setTween(timeline)
+    .addTo(this.scrollMagic.controller)
+    .on('progress', (e) => {
+      // console.log(e.progress.toFixed(2));
 
-    const progress = e.progress.toFixed(2);
-    [...document.querySelectorAll('.vision__leftSquare__label')].forEach(item => item.classList.remove('active'));
-    if (progress <= 0.25) document.querySelector('.vision__leftSquare__label.inspirant').classList.add('active');
-    if (progress > 0.25 && progress < 0.75) document.querySelector('.vision__leftSquare__label.innovant').classList.add('active');
-    if (progress >= 0.75) document.querySelector('.vision__leftSquare__label.performant').classList.add('active');
-  });
+      const progress = e.progress.toFixed(2);
+      [...document.querySelectorAll('.vision__leftSquare__label')].forEach(item => item.classList.remove('active'));
+      if (progress <= 0.25) document.querySelector('.vision__leftSquare__label.inspirant').classList.add('active');
+      if (progress > 0.25 && progress < 0.75) document.querySelector('.vision__leftSquare__label.innovant').classList.add('active');
+      if (progress >= 0.75) document.querySelector('.vision__leftSquare__label.performant').classList.add('active');
+    })
+  );
 }

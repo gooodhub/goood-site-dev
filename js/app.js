@@ -96,8 +96,9 @@ const goood = () => {
   */
   function bindEvents() {
     if (previousPage) {
-      previousPage.getDOMContent().innerHTML = '';
       previousPage.onLeaveCompleted();
+      previousPage.getDOMElement().scrollTop = 0;
+      previousPage.getDOMContent().innerHTML = '';
     }
     // handleScrollBehaviour(currentPage);
     currentPage.onEnterCompleted();
@@ -157,7 +158,7 @@ const goood = () => {
       console.log(`${path} data from cache`);
       return Promise.resolve(cache[path]);
     }
-    return fetch(location.pathname)
+    return fetch(path)
     .then(response => {
       console.log(`${path} data from fetching`);
       cache[path] = response.text();

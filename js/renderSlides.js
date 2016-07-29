@@ -1,9 +1,9 @@
+import headerTemplate from './headerTemplate';
+
 const htmlSlide = (slide) =>
 `
   <div class="slide" id="${slide.id}">
-    <div class="slide__header">
-      ${slide.title}
-    </div>
+    ${headerTemplate({ title: slide.title, isHome: slide.id === 'home' })}
     <div class="slide__content">
     </div>
   </div>
