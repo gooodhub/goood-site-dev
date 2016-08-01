@@ -20,6 +20,7 @@
 
 @import 'equipe/landing';
 @import 'equipe/competences-equipes.scss';
+@import 'equipe/portraits';
 @import 'equipe/culture.scss';
 
 
@@ -93,6 +94,8 @@ body {
   flex-direction: column;
   max-width: 1300px;
   margin: 0 auto;
+  position: relative;
+  flex-wrap: wrap;
 
   @media #{$medium-up} {
     padding: 0 em(20);

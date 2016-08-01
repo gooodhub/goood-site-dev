@@ -5,17 +5,33 @@
     flex-direction: column;
     position: relative;
 
+    .row {
+      position: relative;
+      @media #{$small-only} {
+        @include addSemiBackground(200px);
+      }
+    }
+
     &__content {
-      text-align: center;
+      padding: 0 20px;
+
       color: white;
       display: flex;
       flex-direction: column;
       max-width: 1000px;
       margin: 0 auto;
-      padding-bottom: 50px;
+      text-align: left;
+
+      padding-bottom: 10px;
 
       @media #{$small-only} {
         background: $primaryColor;
+      }
+
+      @media #{$medium-up} {
+        padding-bottom: 50px;
+        text-align: center;
+
       }
 
       .btn {
@@ -73,6 +89,11 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom center;
+      position: relative;
+
+      @media #{$small-only} {
+        margin: 10px;
+      }
 
       @media #{$medium-up} {
         height: auto;

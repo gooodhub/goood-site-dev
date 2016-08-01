@@ -46,6 +46,29 @@
             </div>
           </div>
         </section>
+        <section class="portraits">
+          <header>
+            <p>
+              Portraits
+            </p>
+            <h1>
+              Gooodiennes & Gooodiens
+            </h1>
+          </header>
+          <div class="portraits__container">
+            <div class="row">
+              {{#each portraits}}
+                <div
+                  class="portrait"
+                  style="background-image: url({{this.image}})"
+                  data-portrait="{{this.path}}"
+                >
+                  {{this.hashtag}}
+                </div>
+              {{/each}}
+            </div>
+          </div>
+        </section>
         <section class="culture">
           <header class="culture__header">
             <p>
@@ -83,9 +106,7 @@
                 </svg>
                 <div class="temoignage__bulle__content">
                   <p>
-                    Je me souviens de la première fois où j'ai rencontré l'équipe, c'était lors d'une réunion de cercle sociocratique. Il y a eu des rires, des larmes, de la complicité et de la chaleur humaine que je n'avais jamais ressenti dans un environnement professionnel auparavant et pour la première fois je me suis dit, "Hey mais en fait, je peux vraiment être moi! »
-Et donc, pour parler de Goood!, j'ai envie de mettre en avant l'AUTHENTICITE qui pour moi est une valeur très porteuse de sens. :)
-
+                    Je me souviens de la première fois où j'ai rencontré l'équipe, c'était lors d'une réunion de cercle sociocratique. Il y a eu des rires, des larmes, de la complicité et de la chaleur humaine que je n'avais jamais ressenti dans un environnement professionnel auparavant et pour la première fois je me suis dit, "Hey mais en fait, je peux vraiment être moi! ». Et donc, pour parler de Goood!, j'ai envie de mettre en avant l'AUTHENTICITE qui pour moi est une valeur très porteuse de sens. :)
                   </p>
                 </div>
               </div>

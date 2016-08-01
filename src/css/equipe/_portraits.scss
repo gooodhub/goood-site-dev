@@ -1,0 +1,61 @@
+#equipe .portraits {
+  header {
+    @extend %contentPadding;
+    background: $secondaryColor;
+    text-align: center;
+
+    @media #{$medium-up} {
+      padding-top: 100px;
+    }
+
+    h1, p, p { color: white; }
+    p:after { background: white; }
+
+    p:after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  @media #{$medium-up} {
+    position: relative;
+    @include addSemiBackground(300px, $secondaryColor);
+  }
+
+  @media #{$large-up} {
+    @include addSemiBackground(600px, $secondaryColor);
+  }
+
+  .row {
+    justify-content: center;
+    @include addSemiBackground(200px, $secondaryColor);
+  }
+}
+
+
+
+#equipe .portrait {
+  @extend %shadow;
+  @extend %headingExtraBoldFont;
+
+  font-size: em(34);
+  text-align: center;
+  text-transform: uppercase;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  margin-bottom: 30px;
+  height: 130vw;
+  padding-top: 50px;
+
+  color: $primaryColor;
+
+  @media #{$medium-up} {
+    margin: 0 1.5% 40px;
+    height: 38vw;
+    flex-basis: 30%;
+    max-width: 30%;
+    max-height: 490px;
+
+  }
+}

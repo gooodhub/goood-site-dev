@@ -46,6 +46,9 @@ const buildApp = metalsmith(__dirname)
       sortyBy: 'date',
       reverse: true,
     },
+    portraits: {
+      pattern: 'portraits/*.md',
+    },
   }))
   .use(markdown())
   .use(layouts({

@@ -102,6 +102,19 @@ svg path{
   stroke-width: inherit;
 }
 
+@mixin addSemiBackground($height, $color: $primaryColor) {
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $height;
+    background: $color;
+    z-index: -1;
+  }
+}
+
 
 .small-only {
   display: none;
