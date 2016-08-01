@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:800,700';
+@import 'https://fonts.googleapis.com/css?family=Raleway:900,700';
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700';
 
 @import 'helpers/normalize';
@@ -19,6 +19,8 @@
 @import 'home/chiffres';
 
 @import 'equipe/landing';
+@import 'equipe/competences-equipes.scss';
+@import 'equipe/culture.scss';
 
 
 * {
@@ -27,6 +29,8 @@
 
 html {
   font-size: 70%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   @media #{$medium-up} {
     font-size: 80%;

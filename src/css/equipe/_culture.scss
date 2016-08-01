@@ -1,0 +1,127 @@
+#equipe {
+  .culture {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &__content {
+      text-align: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding-bottom: 50px;
+
+      @media #{$small-only} {
+        background: $primaryColor;
+      }
+
+      .btn {
+        color: white;
+        border-color: white;
+        margin: 0 auto;
+      }
+
+      p{
+        margin-top: 0;
+      }
+    }
+
+    @media #{$medium-up} {
+      margin-bottom: 30px;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 500px;
+        background: $primaryColor;
+        z-index: -1;
+
+        @media #{$large-up} {height: 600px;}
+      }
+    }
+
+    header {
+      @extend %contentPadding;
+      padding-bottom: 0;
+
+      background: $primaryColor;
+
+      h1, p, p { color: white; }
+      p:after { background: white; }
+
+      @media #{$medium-up} {
+        text-align: center;
+        p:after {
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    }
+  }
+
+  .temoignage {
+    &__img {
+      @extend %shadow;
+
+      height: 500px;
+      background: url(/images/olivier-my.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+
+      @media #{$medium-up} {
+        height: auto;
+        flex-basis: 50%;
+        max-width: 50%;
+      }
+    }
+
+    &__content {
+      @extend %shadow;
+      @extend %contentPadding;
+      padding: 35px 30px;
+      background: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+
+      @media #{$medium-up} {
+        flex-basis: 50%;
+        max-width: 50%;
+      }
+
+      .btn {
+        margin: 0 auto;
+      }
+    }
+
+    &__title {
+      @extend %contentExtraBoldFont;
+      font-size: em(46);
+
+      span {
+        display: block;
+        font-size: em(25);
+      }
+    }
+
+    &__bulle {
+      @include constructBulle($secondaryColor, 25px, 10px, true);
+      margin-bottom: em(40);
+
+      &__content {
+        p {
+          line-height: em(36);
+          font-size: em(24);
+          text-align: left;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

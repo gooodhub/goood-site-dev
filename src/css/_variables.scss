@@ -7,7 +7,7 @@ $secondaryColor: #1d3f51;
 
 %headingExtraBoldFont {
   font-family: 'Raleway';
-  font-weight: 800;
+  font-weight: 900;
 }
 
 %headingBoldFont {
@@ -44,6 +44,62 @@ $secondaryColor: #1d3f51;
 
 %shadow {
   box-shadow: 0px 8px 65px 0 rgba(0, 0, 0, 0.18);
+}
+
+@mixin constructBulle($color, $padding, $strokeWidth: 12px,  $inversed: false) {
+  border: $strokeWidth solid $color;
+  padding: $padding;
+  border-radius: 10px;
+  position: relative;
+
+  @if $inversed == true {
+    margin-top: 40px;
+  }
+
+  use {
+    stroke: $color;
+    stroke-width: $strokeWidth;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__border {
+    bottom: -13px;
+    position: absolute;
+    width: 155px;
+    height: 208px;
+    right: -11px;
+    z-index: 0;
+
+    @if $inversed == true {
+      bottom: auto;
+      transform: rotateX(180deg);
+      top: -13px;
+    }
+  }
+
+  &__bottom {
+    bottom: 0;
+    position: absolute;
+    width: 100px;
+    height: 43px;
+    transform: translateY(100%);
+
+    @if $inversed == true {
+      bottom: auto;
+      top: 0;
+      transform: translateY(-100%) rotateX(180deg);
+      left: 40px;
+    }
+  }
+}
+
+svg path{
+  stroke: inherit;
+  stroke-width: inherit;
 }
 
 
