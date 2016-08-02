@@ -116,6 +116,38 @@
             </div>
           </div>
         </section>
+        <!-- Portraits Slide Container -->
+        <div class="portrait__slides-container">
+          <div class="portrait__slides__overlay"></div>
+          <div class="portrait__slides">
+            <div class="portrait__slides__close">✕</div>
+            <div class="portrait__slick">
+            {{#each portraits}}
+              <div class="portrait__slick-item">
+                <div
+                  class="portrait__slick-item__img"
+                  style="background-image: url({{this.image}})"
+                >
+                  {{> svg-bulle-texte texte1=bulle1 texte2=bulle2 texte3=bulle3 }}
+                </div>
+                <div class="portrait__slick-item__content">
+                  <div class="portrait__slick-item__prev">
+                    {{svg "./fleche-gauche-ico.svg"}}
+                  </div>
+                  <div class="portrait__slick-item__next">
+                    {{svg "./fleche-droite-ico.svg"}}
+                  </div>
+                  <div class="portrait__slick-item__title">
+                    {{name}}
+                    <span>{{job}}</span>
+                  </div>
+                  {{{contents}}}
+                </div>
+              </div>
+            {{/each}}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   {{/inline}}

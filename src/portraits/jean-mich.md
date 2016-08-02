@@ -1,6 +1,8 @@
 ---
 name: Aimerick Suzanon
-bulle: Lutter contre le gachis sans bullshit et troisième ligne #Doit faire 3 lignes max sinon ça pète
+bulle1: Coucou je m'opo
+bulle2: Coucou je m'opo
+bulle3: Coucou je m'opo
 image: /images/olivier-my.jpg
 hashtag: '#Loul'
 job: Coupeur de frites

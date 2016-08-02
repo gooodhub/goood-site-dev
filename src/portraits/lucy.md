@@ -1,6 +1,8 @@
 ---
 name: Riri Suzanon
-bulle: Lutter contre le gachis sans bullshit et troisième ligne #Doit faire 3 lignes max sinon ça pète
+bulle1: Coucou je m'iiii
+bulle2: Coucou je m'iiii
+bulle3: Coucou je m'iiii
 image: /images/olivier-my.jpg
 hashtag: '#Lucyde'
 job: Coupeur de fraises

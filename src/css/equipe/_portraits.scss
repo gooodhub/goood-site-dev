@@ -1,3 +1,5 @@
+@import 'flickity.min';
+
 #equipe .portraits {
   header {
     @extend %contentPadding;
@@ -47,8 +49,8 @@
   margin-bottom: 30px;
   height: 130vw;
   padding-top: 50px;
-
   color: $primaryColor;
+  position: relative;
 
   @media #{$medium-up} {
     margin: 0 1.5% 40px;
@@ -56,6 +58,204 @@
     flex-basis: 30%;
     max-width: 30%;
     max-height: 490px;
+  }
 
+  &:after {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(white, .7);
+    z-index: 1;
+    transition: .3s ease;
+    opacity: 0;
+  }
+
+  &:hover {
+    &:after {
+      opacity: 1;
+    }
+  }
+}
+
+#equipe .portrait__slides {
+  &-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba($secondaryColor, .7);
+  }
+
+  &__close {
+    font-size: em(33);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    line-height: em(28);
+    cursor: pointer;
+    color: $primaryColor;
+    z-index: 10;
+  }
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: white;
+  transition: all .5s ease;
+  transform: translateY(-40px);
+  opacity: 0;
+
+  @media #{$medium-up} {
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    max-width: 1330px;
+    max-height: 785px;
+    margin: auto;
+  }
+}
+
+#equipe .portrait__slick {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+#equipe .portrait__slick-item {
+  width: 100%;
+
+  @media #{$medium-up} {
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  &__img {
+    @extend %shadow;
+
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    text-align: center;
+
+    svg {
+      margin-top: 40px;
+      width: 90%;
+      height: auto;
+      max-width: 500px;
+
+      tspan {
+        @extend %headingExtraBoldFont;
+
+        text-transform: uppercase;
+      }
+    }
+
+    @media #{$medium-up} {
+      height: auto;
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
+
+  &__content {
+    padding: 30px;
+    position: relative;
+
+    p {
+      font-size: em(24);
+      line-height: em(36);
+    }
+
+    @media #{$medium-up} {
+      flex-basis: 50%;
+      max-width: 50%;
+      padding: 80px;
+    }
+  }
+
+  &__title {
+    @extend %headingExtraBoldFont;
+    font-size: em(40);
+    text-align: center;
+    margin-bottom: 40px;
+
+    span {
+      @extend %contentFont;
+
+      font-size: em(25);
+      color: $primaryColor;
+      display: block;
+    }
+  }
+
+  &__next, &__prev {
+    svg, path {
+      fill: $secondaryColor!important;
+    }
+
+    position: absolute;
+    top: 30px;
+    left: 20px;
+
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+
+    @media #{$medium-up} {
+      top: 90px;
+      left: 40px;
+      svg {
+        width: auto;
+        height: auto;
+      }
+    }
+  }
+
+  &__next {
+    right: 20px;
+    left: auto;
+
+    @media #{$medium-up} {
+      right: 40px;
+      left: auto;
+    }
+  }
+
+  @media #{$medium-up} {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.body--hasOverlay {
+  #equipe .portrait__slides {
+    transform: translateY(0);
+    opacity: 1;
   }
 }

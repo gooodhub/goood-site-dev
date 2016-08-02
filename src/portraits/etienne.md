@@ -1,6 +1,8 @@
 ---
 name: Aimerick Etienne
-bulle: Lutter contre le gachis sans bullshit et troisième ligne #Doit faire 3 lignes max sinon ça pète
+bulle1: Coucou kjkjelle kj
+bulle2: Couckjje m'appelle kj
+bulle3: Couckjkjm'appelle akjk
 image: /images/olivier-my.jpg
 hashtag: '#Etiennout'
 job: Coupeur de frites

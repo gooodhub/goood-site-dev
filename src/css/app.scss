@@ -48,6 +48,17 @@ body {
   color: $secondaryColor;
 }
 
+
+.body--hasOverlay {
+  .slide {
+    overflow: hidden;
+  }
+
+  .ham {
+    transform: translateX(150px);
+  }
+}
+
 .main-wrapper {
   overflow: hidden;
 }
@@ -64,6 +75,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform .5s cubic-bezier(.8,-0.86,.32,1.58);
 
   svg {
     width: em(32);
