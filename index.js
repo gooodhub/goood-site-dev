@@ -90,6 +90,7 @@ if (__DEV__) {
       'src/**/*.md',
       'layouts/**/*.html',
       'src/**/*.scss',
+      'src/**/*.svg',
       'src/**/*.js',
     ],
     port: 55555,

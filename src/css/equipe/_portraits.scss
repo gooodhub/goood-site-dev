@@ -51,6 +51,7 @@
   padding-top: 50px;
   color: $primaryColor;
   position: relative;
+  cursor: pointer;
 
   @media #{$medium-up} {
     margin: 0 1.5% 40px;
@@ -67,9 +68,13 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(white, .7);
+    // background-image:url('/images/plus-ico.svg');
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-color: rgba(white, .7);
     z-index: 1;
-    transition: .3s ease;
+    transition: .2s ease;
     opacity: 0;
   }
 

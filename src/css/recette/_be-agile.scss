@@ -1,0 +1,9 @@
+#recette-magique .be-agile {
+  &__gear {
+    svg {
+      width: 100%;
+      margin-top: em(-70);
+    }
+    margin-bottom: em(30);
+  }
+}

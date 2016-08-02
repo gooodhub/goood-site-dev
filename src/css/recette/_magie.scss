@@ -1,0 +1,43 @@
+#recette-magique {
+  .magie {
+    @extend %sectionPadding;
+    background: $secondaryColor;
+
+    header {
+      h1, p, p { color: white; }
+      p:after { background: white; }
+    }
+
+    &__content {
+      @extend %contentPadding;
+      flex: 1;
+
+      p {
+        color: white;
+      }
+
+      @media #{$medium-up} {
+        align-self: center;
+      }
+    }
+
+    &__img {
+      @extend %shadow;
+
+      background-color: rgba(black, .2);
+      height: 58vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+      @media #{$medium-up} {
+        flex-basis: 47%;
+        max-width: 47%;
+        height: 36vw;
+        max-height: 466px;
+        align-self: center;
+      }
+    }
+  }
+}
