@@ -34,10 +34,20 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
   container.addEventListener('mouseup', () => container.classList.remove('grabbing'));
   container.addEventListener('transitionend', () => onTransitionEnd(currentIndex, prevIndex));
 
-  hammer.add(new Hammer.Pan());
-  hammer.on('panstart', Hammer.bindFn(onPanStart, this));
-  hammer.on('panup pandown panleft panright swipeleft swiperight', Hammer.bindFn(onPan, this));
-  hammer.on('panend', Hammer.bindFn(onPanEnd, this));
+  bind();
+
+  function bind() {
+    hammer.add(new Hammer.Pan());
+    hammer.on('panstart', Hammer.bindFn(onPanStart, this));
+    hammer.on('panup pandown panleft panright swipeleft swiperight', Hammer.bindFn(onPan, this));
+    hammer.on('panend', Hammer.bindFn(onPanEnd, this));
+  }
+
+  function unbind() {
+    hammer.off('panstart', Hammer.bindFn(onPanStart, this));
+    hammer.off('panup pandown panleft panright swipeleft swiperight', Hammer.bindFn(onPan, this));
+    hammer.off('panend', Hammer.bindFn(onPanEnd, this));
+  }
 
   /**
   * Show a pane by index
@@ -124,6 +134,8 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     showPane,
     nextPane,
     prevPane,
+    bind,
+    unbind,
   };
 };
 

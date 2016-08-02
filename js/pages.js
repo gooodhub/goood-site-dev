@@ -1,4 +1,5 @@
 import homePage from './pages/home';
+import equipePage from './pages/equipe';
 
 const protoPage = {
   position: null,
@@ -48,12 +49,7 @@ const pages = [];
 
 pages.push(createPage(homePage));
 
-pages.push(createPage({
-  position: 1,
-  id: 'equipe',
-  title: 'Équipe et culture',
-  path: '/equipe-et-culture/',
-}));
+pages.push(createPage(equipePage));
 
 pages.push(createPage({
   position: 2,

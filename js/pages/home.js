@@ -23,7 +23,6 @@ function onLeaveCompleted() {
 }
 
 function onEnterCompleted() {
-
   const md = new MobileDetect(window.navigator.userAgent);
   const isMobile = !!md.mobile();
   const headerHeight = document.querySelector('.vision__header').clientHeight;
