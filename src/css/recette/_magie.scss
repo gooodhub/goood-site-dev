@@ -24,7 +24,7 @@
     &__img {
       @extend %shadow;
 
-      background-color: rgba(black, .2);
+      background-color: lighten(black, 80%);
       height: 58vw;
       display: flex;
       align-items: center;

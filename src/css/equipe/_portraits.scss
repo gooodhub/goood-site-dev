@@ -5,6 +5,7 @@
     @extend %contentPadding;
     background: $secondaryColor;
     text-align: center;
+    position: relative;
 
     @media #{$medium-up} {
       padding-top: 100px;

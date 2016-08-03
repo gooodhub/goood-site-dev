@@ -1,9 +1,159 @@
 #recette-magique .be-agile {
+  position: relative;
+
+  @media #{$medium-up} {
+    margin-bottom: 180px;
+  }
+
   &__gear {
     svg {
       width: 100%;
       margin-top: em(-70);
+
+      @media #{$medium-up} {
+        height: 49vw;
+        max-height: 550px;
+      }
+
     }
     margin-bottom: em(30);
+  }
+
+  &__punchline {
+    @extend %headingExtraBoldFont;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media #{$medium-up} {
+      top: 32%;
+    }
+
+    span {
+      display: block;
+      color: $secondaryColor;
+
+      &:nth-child(1) {
+        font-size: em(27);
+      }
+
+      &:nth-child(2) {
+        font-size: em(47);
+      }
+
+      &:nth-child(3) {
+        font-size: em(22);
+        color: $primaryColor;
+      }
+
+      &:nth-child(4) {
+        font-size: em(60);
+        color: $primaryColor;
+      }
+    }
+  }
+
+  &__sentence {
+    font-size: em(32);
+    color: $primaryColor;
+    position: absolute;
+
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 160px;
+    height: 75px;
+    text-align: center;
+    line-height: em(28);
+    background: white;
+
+    @media #{$medium-up} {
+
+      background: transparent;
+
+      &--left {
+        left: 5%;
+        transform: none;
+        top: 47%;
+        width: auto;
+        text-align: right;
+      }
+
+      &--right {
+        left: auto;
+        right: 5%;
+        transform: none;
+        top: 47%;
+        width: auto;
+        text-align: left;
+      }
+
+      &--bottom {
+        top: 110%;
+        width: auto;
+        text-align: center;
+      }
+    }
+
+    span {
+      display: block;
+    }
+
+    span:nth-child(2) {
+      margin-top: 5px;
+      color: $secondaryColor;
+      font-size: em(22);
+      line-height: em(22);
+      font-style: italic;
+    }
+  }
+}
+
+#recette-magique {
+  .orange {
+    background: $primaryColor;
+
+    .row {
+      @media #{$medium-up} {
+        height: 300px;
+      }
+    }
+
+    &__content {
+      @extend %contentPadding;
+      flex: 1;
+
+      p {
+        color: white;
+      }
+
+      @media #{$medium-up} {
+        align-self: center;
+      }
+    }
+
+    &__img {
+      @extend %shadow;
+
+      background-color: lighten(black, 80%);
+      height: 58vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+      @media #{$medium-up} {
+        order: -1;
+        flex-basis: 47%;
+        max-width: 47%;
+        height: 36vw;
+        max-height: 466px;
+        align-self: center;
+      }
+    }
   }
 }

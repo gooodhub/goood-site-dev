@@ -20,19 +20,21 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
   let prevIndex = null;
   let containerSize = document.documentElement.offsetWidth;
 
-  container.style.width = `${document.documentElement.offsetWidth * panesCount}px`;
   showPane(currentIndex, false);
+  resetContainers(currentIndex);
 
   // Resize event
   window.addEventListener('resize', () => {
-    container.style.width = `${document.documentElement.offsetWidth * panesCount}px`;
     containerSize = document.documentElement.offsetWidth;
   });
 
   // Add Event cursor
   container.addEventListener('mousedown', () => container.classList.add('grabbing'));
   container.addEventListener('mouseup', () => container.classList.remove('grabbing'));
-  container.addEventListener('transitionend', () => onTransitionEnd(currentIndex, prevIndex));
+  container.addEventListener('transitionend', () => {
+    resetContainers(currentIndex);
+    onTransitionEnd(currentIndex, prevIndex);
+  });
 
   bind();
 
@@ -49,21 +51,55 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     hammer.off('panend', Hammer.bindFn(onPanEnd, this));
   }
 
+  function resetContainers(currI) {
+    container.style.transform = null;
+    container.classList.remove('animate');
+
+    [...container.children].forEach(item => {
+      item.style.display = 'none';
+      item.style.left = null;
+      item.style.right = null;
+    });
+
+    const element = [...container.children][currI];
+    element.style.display = 'block';
+  }
+
+  function displayPrevNextSlides() {
+    const prevElement = [...container.children][currentIndex - 1] ? [...container.children][currentIndex - 1] : [...container.children][panesCount - 1];
+    const nextElement = [...container.children][currentIndex + 1] ? [...container.children][currentIndex + 1] : [...container.children][0];
+
+    prevElement.style.display = 'block';
+    prevElement.style.right = '100%';
+    prevElement.style.left = '-100%';
+
+    nextElement.style.display = 'block';
+    nextElement.style.right = '-100%';
+    nextElement.style.left = '100%';
+  }
+
   /**
   * Show a pane by index
   * @param {Number} showIndex
   */
   function showPane(showIndex, animate = true) {
-    showIndex = Math.max(0, Math.min(showIndex, panesCount - 1));
+    let distance = null;
+
+    if (showIndex === currentIndex) distance = 0;
+    if (showIndex > currentIndex) distance = -containerSize;
+    if (showIndex < currentIndex) distance = containerSize;
+
+    if (showIndex > panesCount - 1) showIndex = 0;
+    if (showIndex < 0) showIndex = panesCount - 1;
+
     prevIndex = currentIndex;
     currentIndex = showIndex;
 
-    const percent = -((100 / panesCount) * currentIndex);
 
     if (animate) {
       onTransitionStart(currentIndex, prevIndex);
     }
-    moveContainer(percent, animate);
+    moveContainer(distance, animate);
   }
 
   function nextPane() { showPane(currentIndex + 1, true); }
@@ -74,18 +110,20 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
   * @param {Number} [percent] percentage visible
   * @param {Boolean} [animate]
   */
-  function moveContainer(percent, animate) {
+  function moveContainer(distance, animate) {
     const classList = container.classList;
     classList.remove('animate');
     if (animate) {
       classList.add('animate');
     }
 
-    container.style.transform = `translate3d(${percent}%,0,0) scale3d(1,1,1)`;
+    container.style.transform = `translate3d(${distance}px,0,0) scale3d(1,1,1)`;
   }
 
   function onPanStart(ev) {
     if (ev.additionalEvent === 'panup' || ev.additionalEvent === 'pandown') isScrolling = true;
+
+    if (!isScrolling) displayPrevNextSlides();
   }
 
   /**
@@ -98,36 +136,27 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     if (isScrolling) return;
 
     if (ev.type === 'panleft' || ev.type === 'panright') {
-      // Stick to the finger
-      const paneOffset = - (100 / panesCount) * currentIndex;
-      let dragOffset = ((100 / containerSize) * delta) / panesCount;
-
-      // Slow down at the first and last pane
-      const maxPaneOffset = - (100 / panesCount) * (panesCount - 1);
-      if ((paneOffset + dragOffset) > 0 || (paneOffset + dragOffset) < maxPaneOffset) {
-        dragOffset *= 0.2;
-      }
-
-      moveContainer(paneOffset + dragOffset);
+      moveContainer(delta);
     }
 
     if (ev.type === 'swipeleft') nextPane();
     if (ev.type === 'swiperight') prevPane();
   }
-
+  
   function onPanEnd(ev) {
     const delta = ev.deltaX;
-    isScrolling = false;
 
-    if (Math.abs(delta) > containerSize * (20 / 100)) {
-      if (ev.direction === Hammer.DIRECTION_RIGHT) {
+    if (!isScrolling) {
+      if (delta > containerSize * (20 / 100)) {
         prevPane();
-      } else {
+      } else if (delta < -containerSize * (20 / 100)) {
         nextPane();
+      } else {
+        showPane(currentIndex, true);
       }
-    } else {
-      showPane(currentIndex, true);
     }
+
+    isScrolling = false;
   }
 
   return {

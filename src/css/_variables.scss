@@ -111,7 +111,7 @@ svg.use-svg path{
     right: 0;
     height: $height;
     background: $color;
-    z-index: -1;
+    z-index: 0;
   }
 }
 

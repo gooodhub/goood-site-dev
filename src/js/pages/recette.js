@@ -34,7 +34,19 @@ function onEnterCompleted() {
   pathPrepare(document.querySelector('path#gearPath'));
 
   const animationIcon = new TimelineMax()
-    .fromTo('path#gearPath', 1, { strokeDashoffset: getTotalLength('path#gearPath') }, { strokeDashoffset: 0 });
+    .fromTo('path#gearPath', 2.9, { strokeDashoffset: getTotalLength('path#gearPath') }, { strokeDashoffset: 0 })
+    .fromTo('line#gearLine', 0.1, { opacity: 0 }, { opacity: 1 });
+
+  const animationText = new TimelineMax()
+    .fromTo('.be-agile__sentence--left', 0.3, { opacity: 0 }, { opacity: 1, delay: 0.3 })
+    .fromTo('.be-agile__sentence--bottom', 0.3, { opacity: 0 }, { opacity: 1, delay: 0.3 })
+    .fromTo('.be-agile__sentence--right', 0.3, { opacity: 0 }, { opacity: 1, delay: 0.3 });
+
+  // Combine timelines
+  const timeline = new TimelineMax();
+  timeline
+    .insert(animationText)
+    .insert(animationIcon);
 
   // Create scene to pin and link animation
   this.scrollMagic.scenes.push(
@@ -44,7 +56,7 @@ function onEnterCompleted() {
       duration: '300%',
       offset: 200,
     })
-    .setTween(animationIcon)
+    .setTween(timeline)
     .addIndicators()
     .addTo(this.scrollMagic.controller)
   );
