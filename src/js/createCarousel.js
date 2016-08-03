@@ -29,14 +29,14 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
   });
 
   // Add Event cursor
-  container.addEventListener('mousedown', () => container.classList.add('grabbing'));
-  container.addEventListener('mouseup', () => container.classList.remove('grabbing'));
+  // container.addEventListener('mousedown', () => container.classList.add('grabbing'));
+  // container.addEventListener('mouseup', () => container.classList.remove('grabbing'));
   container.addEventListener('transitionend', () => {
     resetContainers(currentIndex);
     onTransitionEnd(currentIndex, prevIndex);
   });
 
-  bind();
+  // bind();
 
   function bind() {
     hammer.add(new Hammer.Pan());
@@ -83,6 +83,8 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
   * @param {Number} showIndex
   */
   function showPane(showIndex, animate = true) {
+    if (animate) displayPrevNextSlides();
+
     let distance = null;
 
     if (showIndex === currentIndex) distance = 0;
@@ -142,7 +144,7 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     if (ev.type === 'swipeleft') nextPane();
     if (ev.type === 'swiperight') prevPane();
   }
-  
+
   function onPanEnd(ev) {
     const delta = ev.deltaX;
 

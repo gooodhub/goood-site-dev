@@ -17,11 +17,16 @@ header p {
 }
 
 h1 {
-  font-size: em(42);
+  @extend %headingExtraBoldFont;
+
   color: $primaryColor;
   text-transform: uppercase;
 
-  @extend %headingExtraBoldFont;
+  font-size: 24px;
+  
+  @media #{$medium-up} {
+    font-size: em(42);
+  }
 }
 
 p {

@@ -3,12 +3,12 @@
   background-color: white;
   display: flex;
   position: relative;
-  cursor: grab;
+  // cursor: grab;
   height: 100vh;
 
-  &--grabbing {
-    cursor: grabbing;
-  }
+  //&--grabbing {
+  //  cursor: grabbing;
+  //}
 
   &.animate {
     transition: all 450ms;

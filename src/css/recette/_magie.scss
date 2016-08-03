@@ -3,6 +3,10 @@
     @extend %sectionPadding;
     background: $secondaryColor;
 
+    @media #{$small-only} {
+      padding: 0;
+    }
+
     header {
       h1, p, p { color: white; }
       p:after { background: white; }

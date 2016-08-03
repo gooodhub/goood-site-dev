@@ -48,7 +48,7 @@ const goood = () => {
   * Once renderSlides is done, init app
   */
   function init() {
-    carousel = window.carousel = createCarousel({
+    carousel = createCarousel({
       container: carouselWrapper,
       currentIndex: currentPage.position,
       onTransitionStart,
@@ -58,8 +58,8 @@ const goood = () => {
 
     // @TODO - Delete for prod
     // logToHtml('#log');
-    // document.getElementById('next').addEventListener('click', carousel.nextPane);
-    // document.getElementById('prev').addEventListener('click', carousel.prevPane);
+    document.getElementById('next').addEventListener('click', carousel.nextPane);
+    document.getElementById('prev').addEventListener('click', carousel.prevPane);
   }
 
   /**

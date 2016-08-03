@@ -1,3 +1,4 @@
+import Flickity from 'flickity';
 import ScrollMagic from 'ScrollMagic'; //eslint-disable-line
 require('debug.addIndicators'); //eslint-disable-line
 import TimelineMax from 'TimelineMax'; //eslint-disable-line
@@ -20,6 +21,38 @@ function onEnterCompleted() {
   this.scrollMagic.controller = new ScrollMagic.Controller({
     container: '#recette-magique',
   });
+
+  const demarcheCarousel = new Flickity('.demarche__carousel', {
+    accessibility: true,
+    resize: true,
+    pageDots: false,
+    prevNextButtons: false,
+    dragThreshold: 30,
+  });
+
+  const onCarouselSelect = () => {
+    [...document.querySelectorAll('.demarche-circle')].forEach(item => item.classList.remove('active'));
+    [...document.querySelectorAll('.demarche-circle')][demarcheCarousel.selectedIndex].classList.add('active');
+
+    [...document.querySelectorAll('.demarche__label')].forEach(item => item.classList.remove('demarche__label--active'));
+    [...document.querySelectorAll('.demarche__label')][demarcheCarousel.selectedIndex].classList.add('demarche__label--active');
+  };
+
+  demarcheCarousel.on('select', onCarouselSelect);
+
+  [...document.querySelectorAll('.demarche__item__prev')].forEach(item => item.addEventListener('click', () => demarcheCarousel.previous(true)));
+  [...document.querySelectorAll('.demarche__item__next')].forEach(item => item.addEventListener('click', () => demarcheCarousel.next(true)));
+
+  [...document.querySelectorAll('.demarche-circle')].forEach((item, i) => {
+    if (i === 0) item.classList.add('active');
+    item.addEventListener('click', () => demarcheCarousel.select(i));
+  });
+
+  [...document.querySelectorAll('.demarche__label')].forEach((item, i) => {
+    if (i === 0) item.classList.add('demarche__label--active');
+    item.addEventListener('click', () => demarcheCarousel.select(i));
+  });
+
 
   /*
   * Define svg animation

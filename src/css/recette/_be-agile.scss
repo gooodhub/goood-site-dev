@@ -2,7 +2,7 @@
   position: relative;
 
   @media #{$medium-up} {
-    margin-bottom: 180px;
+    margin-bottom: 210px;
   }
 
   &__gear {
@@ -116,6 +116,8 @@
 #recette-magique {
   .orange {
     background: $primaryColor;
+    position: relative;
+    z-index: 1;
 
     .row {
       @media #{$medium-up} {
