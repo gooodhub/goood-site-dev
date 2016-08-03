@@ -1,5 +1,6 @@
 import homePage from './pages/home';
 import equipePage from './pages/equipe';
+import recettePage from './pages/recette';
 
 const protoPage = {
   position: null,
@@ -51,11 +52,7 @@ pages.push(createPage(homePage));
 
 pages.push(createPage(equipePage));
 
-pages.push(createPage({
-  position: 2,
-  id: 'page-2',
-  path: '/page-2/',
-}));
+pages.push(createPage(recettePage));
 
 pages.push(createPage({
   position: 3,
