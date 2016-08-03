@@ -43,7 +43,6 @@ const createPortraitSlide = () => {
     element.style.display = 'block';
     element.style.top = `${container.scrollTop}px`;
     document.body.classList.add('body--hasOverlay');
-    window.carousel.unbind();
 
     portraitCarousel = new Flickity('.portrait__slick', {
       accessibility: true,
@@ -60,7 +59,6 @@ const createPortraitSlide = () => {
     element.style.display = 'none';
     document.body.classList.remove('body--hasOverlay');
 
-    window.carousel.bind();
     portraitCarousel.destroy();
   }
 
