@@ -1,8 +1,8 @@
 ---
-title: Troisième page
-slug: page-3
+title: Références
+slug: references
 description: Description de la troisième page
-layout: page-3.html
+layout: references.html
 ---
 
 Page 3

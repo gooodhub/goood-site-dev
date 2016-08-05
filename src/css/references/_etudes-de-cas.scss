@@ -1,0 +1,118 @@
+#references .etude {
+  position: relative;
+
+  &__content {
+    padding: 0 20px;
+    position: relative;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+
+    padding-bottom: 10px;
+
+    @media #{$small-only} {
+      background: $secondaryColor;
+    }
+
+    @media #{$medium-up} {
+      padding-bottom: 50px;
+      text-align: center;
+
+    }
+
+    .btn {
+      color: white;
+      border-color: white;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      @media #{$medium-up} {
+        margin: 0 20px;
+      }
+
+    }
+
+    p{
+      margin-top: 0;
+    }
+  }
+
+  @media #{$medium-up} {
+    margin-bottom: 30px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 500px;
+      background: $secondaryColor;
+      z-index: 0;
+
+      @media #{$large-up} {height: 600px;}
+    }
+  }
+
+  header {
+    @extend %contentPadding;
+    padding-bottom: 0;
+    position: relative;
+    overflow: auto;
+
+    background: $secondaryColor;
+
+    h1 {
+      max-width: 870px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1, p, p { color: white; }
+    p:after { background: white; }
+
+    @media #{$medium-up} {
+      text-align: center;
+      p:after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  &__groupe__btns {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+  }
+
+}
+
+#references .slide {
+  &__orange {
+    background: $primaryColor;
+    text-align: center;
+    padding: 30px;
+
+    svg {
+      width: 80px;height: 80px;
+      path { stroke: white; }
+    }
+
+    h3 {
+      @extend %headingExtraBoldFont;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: white;
+    }
+
+    p{
+      color: white;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}
