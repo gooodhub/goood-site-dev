@@ -3,7 +3,7 @@ name: Jéromne Veneziani
 bulle1: En affaires ce sont souvent 
 bulle2: les personnes les plus carrées
 bulle3: qui mènent les leur le plus rondement. (F. Blanche)
-image: /images/olivier-my.jpg
+image: /images/Jeromne-veneziani.jpg
 hashtag: '#BetterSafeThanSorry'
 job: Serreur de boulons© 
 facebook: 
