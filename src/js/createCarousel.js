@@ -38,6 +38,10 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
 
   // bind();
 
+
+  /**
+  * Bind hammer pan
+  */
   function bind() {
     hammer.add(new Hammer.Pan());
     hammer.on('panstart', Hammer.bindFn(onPanStart, this));
@@ -45,12 +49,21 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     hammer.on('panend', Hammer.bindFn(onPanEnd, this));
   }
 
+
+  /**
+  * Unbind hammer pan
+  */
   function unbind() {
     hammer.off('panstart', Hammer.bindFn(onPanStart, this));
     hammer.off('panup pandown panleft panright swipeleft swiperight', Hammer.bindFn(onPan, this));
     hammer.off('panend', Hammer.bindFn(onPanEnd, this));
   }
 
+
+  /**
+  * Delete translate, reset position
+  * @param {Number} currentIndex
+  */
   function resetContainers(currI) {
     container.style.transform = null;
     container.classList.remove('animate');
@@ -65,25 +78,41 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     element.style.display = 'block';
   }
 
-  function displayPrevNextSlides() {
-    const prevElement = [...container.children][currentIndex - 1] ? [...container.children][currentIndex - 1] : [...container.children][panesCount - 1];
-    const nextElement = [...container.children][currentIndex + 1] ? [...container.children][currentIndex + 1] : [...container.children][0];
 
-    prevElement.style.display = 'block';
-    prevElement.style.right = '100%';
-    prevElement.style.left = '-100%';
+  /**
+  * Display left and right slight when transitioned
+  */
+  function displayPrevNextSlides(oldIndex, newIndex) {
+    let prevElement = null;
+    let nextElement = null;
+    const children = [...container.children];
 
-    nextElement.style.display = 'block';
-    nextElement.style.right = '-100%';
-    nextElement.style.left = '100%';
+    if (newIndex > oldIndex) {
+      nextElement = children[newIndex];
+    } else {
+      prevElement = children[newIndex];
+    }
+
+    if (prevElement) {
+      prevElement.style.display = 'block';
+      prevElement.style.right = '100%';
+      prevElement.style.left = '-100%';
+    }
+
+    if (nextElement) {
+      nextElement.style.display = 'block';
+      nextElement.style.right = '-100%';
+      nextElement.style.left = '100%';
+    }
   }
+
 
   /**
   * Show a pane by index
   * @param {Number} showIndex
   */
   function showPane(showIndex, animate = true) {
-    if (animate) displayPrevNextSlides();
+    if (animate) displayPrevNextSlides(currentIndex, showIndex);
 
     let distance = null;
 
@@ -107,6 +136,7 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
   function nextPane() { showPane(currentIndex + 1, true); }
   function prevPane() { showPane(currentIndex - 1, true); }
 
+
   /**
   * Move the container
   * @param {Number} [percent] percentage visible
@@ -128,6 +158,7 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     if (!isScrolling) displayPrevNextSlides();
   }
 
+
   /**
   * Handle pan
   * @param {Object} ev
@@ -145,6 +176,10 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     if (ev.type === 'swiperight') prevPane();
   }
 
+
+  /**
+  * Handle end pan
+  */
   function onPanEnd(ev) {
     const delta = ev.deltaX;
 

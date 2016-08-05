@@ -1,0 +1,264 @@
+@mixin onCircle($angle, $containerWidth) {
+  transform:
+    rotate($angle)
+    translate($containerWidth)
+    rotate(- $angle);
+}
+
+$width: 80vw;
+$halfWidth: calc(80vw/2);
+
+$desktopWidth: 450px;
+$desktopHalfWidth: $desktopWidth/2;
+
+#recette-magique .benefices {
+  header {
+    @extend %contentPadding;
+    padding-bottom: 0;
+    position: relative;
+
+    h1 {
+      max-width: 870px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media #{$medium-up} {
+      text-align: center;
+      p:after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  &__content {
+    padding: 0 20px;
+    position: relative;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+
+    padding-bottom: 10px;
+
+    @media #{$medium-up} {
+      padding-bottom: 50px;
+      text-align: center;
+
+    }
+
+    p{
+      margin-top: 0;
+    }
+  }
+
+  &__big-circle {
+    width: $width;
+    height: $width;
+    margin: 0 auto;
+    background: $primaryColor;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+    @media #{$medium-up} {
+      width: $desktopWidth;
+      height: $desktopWidth;
+      margin-bottom: 150px;
+    }
+  }
+
+  &__title {
+    @extend %contentBoldFont;
+
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 130px;
+    font-size: 22px;
+    color: $secondaryColor;
+    transition: .5s ease;
+
+    @media #{$small-only} {
+      opacity: 0;
+      transition: .5s ease;
+      &--active { opacity: 1; }
+    }
+
+    @media #{$medium-up} {
+      &--active { text-shadow: 8px 8px 11px rgba(0, 0, 0, 0.22); }
+    }
+
+
+    span {
+      @extend %contentFont;
+      font-style: italic;
+
+      display: block;
+      font-size: 12px;
+      line-height: 12px;
+      color: white;
+    }
+
+    @media #{$medium-up} {
+      width: 165px;
+      top: 50%;
+      left: 50%;
+      color: $primaryColor;
+      margin-top: -40px;
+      font-size: 32px;
+
+      span {
+        color: $secondaryColor;
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+
+    &:nth-of-type(1) {
+      @media #{$medium-up} { @include onCircle(10deg, $desktopHalfWidth); margin-left: 50px; }
+    }
+
+    &:nth-of-type(2) {
+      @media #{$medium-up} { @include onCircle(70deg, $desktopHalfWidth); margin-left: 60px; margin-top: -20px; }
+
+    }
+
+    &:nth-of-type(3) {
+      @media #{$medium-up} { @include onCircle(130deg, $desktopHalfWidth); margin-left: -200px; margin-top: -20px; }
+    }
+
+    &:nth-of-type(4) {
+      @media #{$medium-up} { @include onCircle(180deg, $desktopHalfWidth); margin-left: -200px; margin-top: -60px;  }
+    }
+
+    &:nth-of-type(5) {
+      @media #{$medium-up} { @include onCircle(240deg, $desktopHalfWidth); margin-left: -200px; margin-top: -70px; }
+    }
+
+    &:nth-of-type(6) {
+      @media #{$medium-up} { @include onCircle(300deg, $desktopHalfWidth); margin-left: 60px; margin-top: -70px;  }
+    }
+  }
+
+  &__descr {
+    font-size: 20px;
+    line-height: 26px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 250px;
+    text-align: center;
+    color: white;
+
+    opacity: 0;
+    transition: .5s ease;
+    &--active { opacity: 1;}
+
+    @media #{$medium-up} {
+      top: 50%;
+      font-size: 28px;
+      line-height: 36px;
+      width: 360px;
+    }
+  }
+
+  &__circle {
+    width: 36px;
+    height: 36px;
+    background: $secondaryColor;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%; left: 50%;
+    margin-left: -18px;
+    margin-top: -18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+    @media #{$medium-up} {
+      width: 56px;
+      height: 56px;
+      margin-left: -28px;
+      margin-top: -28px;
+    }
+
+    svg {
+      width: 50%;
+      height: 50%;
+      transition: 0.5s ease;
+    }
+
+    &:hover {
+      width: 40px;
+      height: 40px;
+      margin-left: -20px;
+      margin-top: -20px;
+
+      @media #{$medium-up} {
+        width: 60px;
+        height: 60px;
+        margin-left: -30px;
+        margin-top: -30px;
+      }
+      box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.38);
+    }
+
+    &--active {
+      width: 50px!important;
+      height: 50px!important;
+      margin-left: -25px!important;
+      margin-top: -25px!important;
+      box-shadow: 0px 8px 32px 0 rgba(0, 0, 0, 0.38)!important;
+
+      @media #{$medium-up} {
+        width: 74px!important;
+        height: 74px!important;
+        margin-left: -37px!important;
+        margin-top: -37px!important;
+      }
+
+      svg {
+        transform: rotate(45deg);
+      }
+    }
+
+    &:nth-of-type(1) {
+      @include onCircle(165deg, $halfWidth);
+      @media #{$medium-up} { @include onCircle(10deg, $desktopHalfWidth); }
+    }
+
+    &:nth-of-type(2) {
+      @include onCircle(135deg, $halfWidth);
+      @media #{$medium-up} { @include onCircle(70deg, $desktopHalfWidth); }
+
+    }
+
+    &:nth-of-type(3) {
+      @include onCircle(105deg, $halfWidth);
+      @media #{$medium-up} { @include onCircle(130deg, $desktopHalfWidth); }
+    }
+
+    &:nth-of-type(4) {
+      @include onCircle(75deg, $halfWidth);
+      @media #{$medium-up} { @include onCircle(180deg, $desktopHalfWidth); }
+    }
+
+    &:nth-of-type(5) {
+      @include onCircle(45deg, $halfWidth);
+      @media #{$medium-up} { @include onCircle(240deg, $desktopHalfWidth); }
+    }
+
+    &:nth-of-type(6) {
+      @include onCircle(15deg, $halfWidth);
+      @media #{$medium-up} { @include onCircle(300deg, $desktopHalfWidth); }
+    }
+
+  }
+}
