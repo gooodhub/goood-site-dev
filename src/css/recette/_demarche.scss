@@ -11,6 +11,7 @@
 
     @media #{$medium-up} {
       padding-top: 100px;
+      padding-bottom: 10px;
     }
 
     h1 {
@@ -31,7 +32,6 @@
   &__item {
     text-align: center;
     padding: 0 em(20);
-    padding-bottom: 20px;
     width: 100%;
     position: relative;
 
@@ -91,7 +91,7 @@
       width: em(140);
       height: em(140);
       margin: 0 auto;
-      margin-bottom: em(35);
+      margin-bottom: em(20);
 
       svg {
         width: 100%;

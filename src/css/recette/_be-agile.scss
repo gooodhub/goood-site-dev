@@ -27,7 +27,7 @@
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
-    
+
     @media #{$medium-up} {
       top: 32%;
     }
@@ -79,8 +79,9 @@
         left: 5%;
         transform: none;
         top: 47%;
-        width: auto;
+        width: 200px;
         text-align: right;
+        @media #{$large-up} { width: 25%; }
       }
 
       &--right {
@@ -88,8 +89,10 @@
         right: 5%;
         transform: none;
         top: 47%;
-        width: auto;
+        width: 200px;
         text-align: left;
+        @media #{$large-up} { width: 25%; }
+
       }
 
       &--bottom {

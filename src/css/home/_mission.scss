@@ -1,5 +1,6 @@
 .mission {
   @extend %sectionPadding;
+  @media #{$small-only} { padding-bottom: 0; }
 
   &__content {
     @extend %contentPadding;

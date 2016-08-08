@@ -21,9 +21,10 @@ h1 {
 
   color: $primaryColor;
   text-transform: uppercase;
+  margin-bottom: 0;
 
   font-size: 24px;
-  
+
   @media #{$medium-up} {
     font-size: em(42);
   }

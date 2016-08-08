@@ -55,6 +55,10 @@ body {
   color: $secondaryColor;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 .body--hasOverlay {
   .slide {
@@ -72,11 +76,11 @@ body {
 
 .ham {
   @extend %shadow;
-  
+
   width: em(65);
   height: em(65);
-  top: em(20);
-  right: em(20);
+  top: em(30);
+  right: em(30);
   border-radius: 4px;
   background-color: $primaryColor;
   position: fixed;
@@ -95,7 +99,10 @@ body {
 
 .logo {
   @media #{$small-only} {
-    display: none;
+    width: 90px;
+    height: 40px;
+    top: 20px;
+    left: 20px;
   }
 
   width: 120px;

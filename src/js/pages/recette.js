@@ -1,6 +1,6 @@
 import Flickity from 'flickity';
 import ScrollMagic from 'ScrollMagic'; //eslint-disable-line
-require('debug.addIndicators'); //eslint-disable-line
+// require('debug.addIndicators'); //eslint-disable-line
 import TimelineMax from 'TimelineMax'; //eslint-disable-line
 
 
@@ -66,7 +66,6 @@ function onEnterCompleted() {
       offset: 200,
     })
     .setTween(timeline)
-    .addIndicators()
     .addTo(this.scrollMagic.controller)
   );
 
@@ -77,7 +76,6 @@ function onEnterCompleted() {
       duration: '250%',
     })
     .setPin('.be-agile')
-    .addIndicators()
     .addTo(this.scrollMagic.controller)
   );
 

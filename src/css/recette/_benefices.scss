@@ -37,13 +37,13 @@ $desktopHalfWidth: $desktopWidth/2;
     position: relative;
 
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: left;
 
     padding-bottom: 10px;
 
     @media #{$medium-up} {
-      padding-bottom: 50px;
+      margin: 30px auto;
       text-align: center;
 
     }

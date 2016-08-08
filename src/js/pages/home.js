@@ -31,6 +31,17 @@ function onEnterCompleted() {
     container: '#home',
   });
 
+
+  // change behaviour of controller to animate scroll instead of jump
+  this.scrollMagic.controller.scrollTo(newpos => {
+    new TimelineMax().to('#home', 0.5, { scrollTo: { y: newpos } });
+  });
+
+  document.querySelector('.btn.btn--vision').addEventListener('click', (e) => {
+    e.preventDefault();
+    this.scrollMagic.controller.scrollTo('#vision-section');
+  });
+
   if (!isMobile) {
     const moveVideoContainer = new TimelineMax()
     .fromTo('.mission__video', 1, { y: '30%' }, { y: '-30%' });

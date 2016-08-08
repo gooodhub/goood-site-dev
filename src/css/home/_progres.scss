@@ -9,7 +9,12 @@
   background-color: #d9e3e8;
 
   @media #{$medium-up} {
+    background-position: 70% 50%;
     background-image: url('../images/progres-background-desktop.jpg');
+  }
+
+  @media #{$large-up} {
+    background-position: top right;
   }
 
   &__bulle {
@@ -38,7 +43,7 @@
     @media #{$medium-up} {
       padding-left: 30px;
       padding-bottom: 30px;
-      max-width: 640px;
+      max-width: 50%;
     }
   }
 }
