@@ -9,15 +9,23 @@
   <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-  <div id="nextprev">
-    <a href="/">1</a>
-    <a href="/equipe-et-culture/">2</a>
-    <a href="/recette-magique/">3</a>
-    <a href="/references/">4</a>
-  </div>
   {{> svg-bulle}}
   <div class="ham">
     {{svg "./menu-ico.svg"}}
+  </div>
+  <div class="nav">
+    <div class="nav__container">
+      <div class="nav__logo">
+        {{svg "./logo-goood-couleur.svg"}}
+      </div>
+      <div class="nav__menu">
+        <a href="/">Vision</a>
+        <a href="/recette-magique/">Recette magique</a>
+        <a href="/references/">Références</a>
+        <a href="/equipe-et-culture/">Équipe et culture</a>
+        <a href="/contacts/">Contacts</a>
+      </div>
+    </div>
   </div>
   <div class="main-wrapper">
     <div class="wrap">

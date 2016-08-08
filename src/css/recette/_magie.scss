@@ -1,47 +1,45 @@
-#recette-magique {
-  .magie {
-    @extend %sectionPadding;
-    background: $secondaryColor;
+.magie {
+  @extend %sectionPadding;
+  background: $secondaryColor;
 
-    @media #{$small-only} {
-      padding: 0;
+  @media #{$small-only} {
+    padding: 0;
+  }
+
+  header {
+    h1, p, p { color: white; }
+    p:after { background: white; }
+  }
+
+  &__content {
+    @extend %contentPadding;
+    flex: 1;
+
+    p {
+      color: white;
     }
 
-    header {
-      h1, p, p { color: white; }
-      p:after { background: white; }
+    @media #{$medium-up} {
+      align-self: center;
     }
+  }
 
-    &__content {
-      @extend %contentPadding;
-      flex: 1;
+  &__img {
+    @extend %shadow;
 
-      p {
-        color: white;
-      }
-
-      @media #{$medium-up} {
-        align-self: center;
-      }
-    }
-
-    &__img {
-      @extend %shadow;
-
-      background-color: lighten(black, 80%);
-      height: 58vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    background-color: lighten(black, 80%);
+    height: 58vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
-      @media #{$medium-up} {
-        flex-basis: 47%;
-        max-width: 47%;
-        height: 36vw;
-        max-height: 466px;
-        align-self: center;
-      }
+    @media #{$medium-up} {
+      flex-basis: 47%;
+      max-width: 47%;
+      height: 36vw;
+      max-height: 466px;
+      align-self: center;
     }
   }
 }

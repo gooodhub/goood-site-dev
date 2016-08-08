@@ -1,4 +1,4 @@
-#recette-magique .be-agile {
+.be-agile {
   position: relative;
 
   @media #{$medium-up} {
@@ -27,7 +27,7 @@
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
-
+    
     @media #{$medium-up} {
       top: 32%;
     }
@@ -113,49 +113,47 @@
   }
 }
 
-#recette-magique {
-  .orange {
-    background: $primaryColor;
-    position: relative;
-    z-index: 1;
+.orange {
+  background: $primaryColor;
+  position: relative;
+  z-index: 1;
 
-    .row {
-      @media #{$medium-up} {
-        height: 300px;
-      }
+  .row {
+    @media #{$medium-up} {
+      height: 300px;
+    }
+  }
+
+  &__content {
+    @extend %contentPadding;
+    flex: 1;
+
+    p {
+      color: white;
     }
 
-    &__content {
-      @extend %contentPadding;
-      flex: 1;
-
-      p {
-        color: white;
-      }
-
-      @media #{$medium-up} {
-        align-self: center;
-      }
+    @media #{$medium-up} {
+      align-self: center;
     }
+  }
 
-    &__img {
-      @extend %shadow;
+  &__img {
+    @extend %shadow;
 
-      background-color: lighten(black, 80%);
-      height: 58vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    background-color: lighten(black, 80%);
+    height: 58vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
-      @media #{$medium-up} {
-        order: -1;
-        flex-basis: 47%;
-        max-width: 47%;
-        height: 36vw;
-        max-height: 466px;
-        align-self: center;
-      }
+    @media #{$medium-up} {
+      order: -1;
+      flex-basis: 47%;
+      max-width: 47%;
+      height: 36vw;
+      max-height: 466px;
+      align-self: center;
     }
   }
 }

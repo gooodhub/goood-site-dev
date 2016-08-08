@@ -1,46 +1,44 @@
-#home {
-  .progres {
-    @extend %contentPadding;
-    padding-bottom: 0;
+.progres {
+  @extend %contentPadding;
+  padding-bottom: 0;
 
-    background-image: url('../images/progres-background-mobile.jpg');
-    background-size: cover;
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-color: #d9e3e8;
+  background-image: url('../images/progres-background-mobile.jpg');
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-color: #d9e3e8;
+
+  @media #{$medium-up} {
+    background-image: url('../images/progres-background-desktop.jpg');
+  }
+
+  &__bulle {
+    svg { width: 100%; }
 
     @media #{$medium-up} {
-      background-image: url('../images/progres-background-desktop.jpg');
+      display: inline-block;
     }
 
-    &__bulle {
-      svg { width: 100%; }
-
-      @media #{$medium-up} {
-        display: inline-block;
-      }
-
-      @media #{$large-up} {
-        margin-left: 15%;
-      }
+    @media #{$large-up} {
+      margin-left: 15%;
     }
+  }
 
-    @media #{$small-only} {
-      &:after {
-        content: '';
-        display: block;
-        height: 265px;
-        background-image: url('../images/femme-mobile-bas.jpg');
-        background-size: cover;
-      }
+  @media #{$small-only} {
+    &:after {
+      content: '';
+      display: block;
+      height: 265px;
+      background-image: url('../images/femme-mobile-bas.jpg');
+      background-size: cover;
     }
+  }
 
-    &__content {
-      @media #{$medium-up} {
-        padding-left: 30px;
-        padding-bottom: 30px;
-        max-width: 640px;
-      }
+  &__content {
+    @media #{$medium-up} {
+      padding-left: 30px;
+      padding-bottom: 30px;
+      max-width: 640px;
     }
   }
 }

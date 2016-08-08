@@ -25,6 +25,7 @@ const goood = () => {
   // if (firstElement.classList.contains('subPage')) isSubPageOpened = true;
 
   initRouting();
+  bindNavMenu();
   renderSlides(firstElement, pagesData)
     .then(() => init());
 
@@ -46,6 +47,10 @@ const goood = () => {
     // document.getElementById('prev').addEventListener('click', carousel.prevPane);
   }
 
+  function bindNavMenu() {
+    document.querySelector('.ham').addEventListener('click', () => document.body.classList.toggle('body--hasMenuOpened'));
+    [...document.querySelectorAll('.nav a')].forEach(item => item.addEventListener('click', () => document.body.classList.toggle('body--hasMenuOpened')));
+  }
 
   /**
   * Init routing by declaring page.js function

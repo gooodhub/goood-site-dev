@@ -1,48 +1,44 @@
-#equipe {
-  .competences, .lequipe {
-    @extend %sectionPadding;
+.competences, .lequipe {
+  @extend %sectionPadding;
 
-    .btn {
-      margin-right: auto;
-    }
-
-    &__content {
-      @extend %contentPadding;
-      flex: 1;
-
-      @media #{$medium-up} {
-        align-self: center;
-        display: flex;
-        flex-direction: column;
-      }
-    }
-
-    &__img {
-      @extend %shadow;
-
-      background-color: rgba(black, .2);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      img {
-        width: 100%;
-      }
-
-      @media #{$medium-up} {
-        order: -1;
-        flex-basis: 45%;
-        max-width: 45%;
-        align-self: center;
-      }
-    }
+  .btn {
+    margin-right: auto;
   }
 
-  .lequipe__img {
+  &__content {
+    @extend %contentPadding;
+    flex: 1;
+
     @media #{$medium-up} {
-      order: 1;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
     }
   }
 
+  &__img {
+    @extend %shadow;
 
+    background-color: rgba(black, .2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+    }
+
+    @media #{$medium-up} {
+      order: -1;
+      flex-basis: 45%;
+      max-width: 45%;
+      align-self: center;
+    }
+  }
+}
+
+.lequipe__img {
+  @media #{$medium-up} {
+    order: 1;
+  }
 }

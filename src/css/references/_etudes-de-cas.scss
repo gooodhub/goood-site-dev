@@ -1,4 +1,4 @@
-#references .etude {
+.etude {
   position: relative;
 
 
@@ -93,13 +93,14 @@
 
 }
 
-#references .slide {
+.slide {
 
   &__orange {
     background: $primaryColor;
     text-align: center;
     padding: 30px;
     position: relative;
+    z-index: 1;
 
     @media #{$medium-up} {
       max-width: 24%;
@@ -244,5 +245,31 @@
       height: 17px;
       margin-top: 20px;
     }
+  }
+}
+
+.et-aussi {
+  @extend %contentBoldFont;
+
+  margin-top: 60px;
+  margin-bottom: 100px;
+  font-size: em(24);
+  color: $secondaryColor;
+  text-align: center;
+
+  div {
+    padding-bottom: 40px;
+  }
+
+  &__container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 130px;
+    max-height: 60px;
+    margin: 0 20px;
+    margin-bottom: 15px;
   }
 }

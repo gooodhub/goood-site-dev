@@ -1,6 +1,6 @@
 @import 'flickity.min';
 
-#equipe .portraits {
+.portraits {
   header {
     @extend %contentPadding;
     background: $secondaryColor;
@@ -37,7 +37,7 @@
 
 
 
-#equipe .portrait {
+.portrait {
   @extend %shadow;
   @extend %headingExtraBoldFont;
 
@@ -86,7 +86,7 @@
   }
 }
 
-#equipe .portrait__slides {
+.portrait__slides {
   &-container {
     display: none;
     position: absolute;
@@ -138,7 +138,7 @@
   }
 }
 
-#equipe .portrait__slick {
+.portrait__slick {
   position: absolute;
   top: 0;
   left: 0;
@@ -148,7 +148,7 @@
   overflow-x: hidden;
 }
 
-#equipe .portrait__slick-item {
+.portrait__slick-item {
   width: 100%;
 
   @media #{$medium-up} {
@@ -164,7 +164,7 @@
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: top center;
     position: relative;
     text-align: center;
 

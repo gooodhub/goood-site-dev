@@ -11,7 +11,7 @@ $halfWidth: calc(80vw/2);
 $desktopWidth: 450px;
 $desktopHalfWidth: $desktopWidth/2;
 
-#recette-magique .benefices {
+.benefices {
   header {
     @extend %contentPadding;
     padding-bottom: 0;
@@ -82,11 +82,9 @@ $desktopHalfWidth: $desktopWidth/2;
     color: $secondaryColor;
     transition: .5s ease;
 
-    @media #{$small-only} {
-      opacity: 0;
-      transition: .5s ease;
-      &--active { opacity: 1; }
-    }
+    opacity: 0;
+    transition: .5s ease;
+    &--active { opacity: 1; }
 
     @media #{$medium-up} {
       &--active { text-shadow: 8px 8px 11px rgba(0, 0, 0, 0.22); }

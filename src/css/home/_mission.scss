@@ -1,46 +1,44 @@
-#home {
-  .mission {
-    @extend %sectionPadding;
+.mission {
+  @extend %sectionPadding;
 
-    &__content {
-      @extend %contentPadding;
-      flex: 1;
+  &__content {
+    @extend %contentPadding;
+    flex: 1;
 
-      @media #{$medium-up} {
-        margin-left: em(-100);
-        align-self: center;
-      }
+    @media #{$medium-up} {
+      margin-left: em(-100);
+      align-self: center;
+    }
+  }
+
+  &__video {
+    @extend %shadow;
+
+    background-color: rgba(black, .2);
+    height: 58vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media #{$medium-up} {
+      order: -1;
+      flex-basis: 58%;
+      max-width: 58%;
+      height: 44vw;
+      max-height: 590px;
+      align-self: center;
     }
 
-    &__video {
-      @extend %shadow;
-
-      background-color: rgba(black, .2);
-      height: 58vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    &:after {
+      content: '';
+      width: 80px;
+      height: 80px;
+      background-image: url(../images/lecture-ico.svg);
+      background-size: cover;
 
       @media #{$medium-up} {
-        order: -1;
-        flex-basis: 58%;
-        max-width: 58%;
-        height: 44vw;
-        max-height: 590px;
-        align-self: center;
-      }
-
-      &:after {
-        content: '';
-        width: 80px;
-        height: 80px;
-        background-image: url(../images/lecture-ico.svg);
-        background-size: cover;
-
-        @media #{$medium-up} {
-          width: 130px;
-          height: 130px;
-        }
+        width: 130px;
+        height: 130px;
       }
     }
   }
