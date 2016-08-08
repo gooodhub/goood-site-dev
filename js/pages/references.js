@@ -1,5 +1,9 @@
 import Flickity from 'flickity';
 
+let refCarousel1 = null;
+let refCarousel2 = null;
+let refCarousel3 = null;
+
 export default {
   position: 3,
   id: 'references',
@@ -10,8 +14,6 @@ export default {
 };
 
 function onEnterCompleted() {
-  // Demarche section
-
   const carouselOptions = {
     accessibility: true,
     resize: true,
@@ -21,11 +23,13 @@ function onEnterCompleted() {
     watchCSS: true,
   };
 
-  const refCarousel1 = new Flickity('.slide__carousel--operations', carouselOptions);
-  const refCarousel2 = new Flickity('.slide__carousel--organisation', carouselOptions);
-  const refCarousel3 = new Flickity('.slide__carousel--offre', carouselOptions);
+  refCarousel1 = new Flickity('.slide__carousel--operations', carouselOptions);
+  refCarousel2 = new Flickity('.slide__carousel--organisation', carouselOptions);
+  refCarousel3 = new Flickity('.slide__carousel--offre', carouselOptions);
 }
 
 function onLeaveCompleted() {
-
+  refCarousel1.destroy();
+  refCarousel2.destroy();
+  refCarousel3.destroy();
 }
