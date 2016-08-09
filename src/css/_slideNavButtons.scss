@@ -1,0 +1,66 @@
+.slide-nav-buttons {
+  height: 80px;
+  display:flex;
+  flex-direction: row;
+
+  @media #{$medium-up} {
+    height: 200px;
+  }
+
+  a {
+    @extend %contentExtraBoldFont;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 6px;
+
+    & > span {
+      padding: 0 5px;
+    }
+
+    @media #{$medium-up} {
+      padding: 50px;
+      font-size: 60px;
+      line-height: 60px;
+
+      & > span {
+        padding: 0 20px;
+      }
+    }
+
+    &:before, &:after {
+      background-size: 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 15px;
+      height: 12px;
+
+      @media #{$medium-up} {
+        width: 37px;
+        height: 29px;
+      }
+    }
+  }
+
+  &__prev {
+    background: $secondaryColor;
+
+    &:before {
+      content: '';
+      background-image: url(/images/fleche-gauche-ico.svg);
+    }
+  }
+
+  &__next {
+    background: $primaryColor;
+    justify-content: flex-end;
+
+    &:after {
+      content: '';
+      background-image: url(/images/fleche-droite-ico.svg);
+    }
+  }
+}

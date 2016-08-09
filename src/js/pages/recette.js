@@ -5,7 +5,7 @@ import TimelineMax from 'TimelineMax'; //eslint-disable-line
 
 
 export default {
-  position: 2,
+  position: 1,
   id: 'recette-magique',
   title: 'Recette magique',
   path: '/recette-magique/',

@@ -50,17 +50,14 @@ const createPage = (obj) => Object.assign(Object.create(protoPage), obj);
 const pages = [];
 
 pages.push(createPage(homePage));
-
-pages.push(createPage(equipePage));
-
 pages.push(createPage(recettePage));
-
 pages.push(createPage(referencesPage));
-
+pages.push(createPage(equipePage));
 pages.push(createPage({
   position: 4,
-  id: 'a-propos-de-goood',
-  path: '/a-propos-de-goood/',
+  id: 'contact',
+  path: '/contact/',
+  title: 'Contact',
 }));
 
 export default pages;

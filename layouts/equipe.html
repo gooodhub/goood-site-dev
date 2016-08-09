@@ -123,7 +123,7 @@
           </div>
         </section>
         <!-- Portraits Slide Container -->
-        <div class="portrait__slides-container">
+        <section class="portrait__slides-container">
           <div class="portrait__slides__overlay"></div>
           <div class="portrait__slides">
             <div class="portrait__slides__close">✕</div>
@@ -153,7 +153,13 @@
             {{/each}}
             </div>
           </div>
-        </div>
+        </section>
+        {{> slide-nav-buttons
+          prevTitle = 'Références'
+          prevPath = '/references/'
+          nextTitle = 'Contacts'
+          nextPath = '/contact/'
+        }}
       </div>
     </div>
   {{/inline}}
