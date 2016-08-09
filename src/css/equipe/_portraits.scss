@@ -41,7 +41,7 @@
   @extend %shadow;
   @extend %headingExtraBoldFont;
 
-  font-size: em(34);
+  font-size: em(24);
   text-align: center;
   text-transform: uppercase;
   background-size: cover;
@@ -69,14 +69,19 @@
     left: 0;
     right: 0;
     bottom: 0;
-    // background-image:url('/images/plus-ico.svg');
+    background-image:url('/images/fleche-orange.svg');
     background-position: 50% 80%;
     background-repeat: no-repeat;
     background-size: 60px;
-    background-color: rgba(white, .7);
+    background-color: rgba(white, .2);
     z-index: 1;
     transition: .2s ease;
-    opacity: 0;
+    opacity: 1;
+
+    @media #{$medium-up} {
+      background-color: rgba(white, .7);
+      opacity: 0;
+    }
   }
 
   &:hover {
@@ -206,14 +211,14 @@
 
   &__title {
     @extend %headingExtraBoldFont;
-    font-size: em(40);
+    font-size: em(36);
     text-align: center;
     margin-bottom: 40px;
 
     span {
       @extend %contentFont;
 
-      font-size: em(25);
+      font-size: em(22);
       color: $primaryColor;
       display: block;
     }

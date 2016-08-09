@@ -62,7 +62,7 @@ function onEnterCompleted() {
     new ScrollMagic.Scene({
       triggerElement: '.be-agile',
       triggerHook: 'onEnter',
-      duration: '300%',
+      duration: '200%',
       offset: 200,
     })
     .setTween(timeline)
@@ -73,7 +73,7 @@ function onEnterCompleted() {
     new ScrollMagic.Scene({
       triggerElement: '.be-agile',
       triggerHook: 'onLeave',
-      duration: '250%',
+      duration: '150%',
     })
     .setPin('.be-agile')
     .addTo(this.scrollMagic.controller)

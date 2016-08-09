@@ -104,6 +104,7 @@ a {
     height: 40px;
     top: 20px;
     left: 20px;
+    z-index: 5;
   }
 
   width: 120px;
@@ -111,7 +112,6 @@ a {
   position: absolute;
   top: 35px;
   left: 40px;
-  z-index: 10;
 
   svg {
     width: 100%;
@@ -190,7 +190,7 @@ a {
     align-items: flex-start;
     flex-direction: column;
     margin-left: 30px;
-    margin-top: 100px;
+    margin-top: 20px;
 
     a {
       @extend %headingBoldFont;
@@ -204,6 +204,7 @@ a {
 
       @media #{$medium-up} {
         font-size: 30px;
+        margin-top: 60px;
       }
 
       &:before {

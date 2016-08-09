@@ -5,4 +5,4 @@ description: Description here
 layout: equipe.html
 ---
 
-Page 1
+Contenu libre page équipe

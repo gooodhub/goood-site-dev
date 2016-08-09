@@ -28,16 +28,12 @@
     .btn {
       color: white;
       border-color: white;
-      margin: 0 auto;
+      margin: 0 5px;
       margin-bottom: 20px;
       @media #{$medium-up} {
         margin: 0 20px;
       }
 
-    }
-
-    p{
-      margin-top: 0;
     }
   }
 
