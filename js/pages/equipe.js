@@ -1,7 +1,7 @@
 import Flickity from 'flickity';
 
 export default {
-  position: 1,
+  position: 3,
   id: 'equipe',
   title: 'Équipe et culture',
   path: '/equipe-et-culture/',

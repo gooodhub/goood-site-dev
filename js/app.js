@@ -80,6 +80,8 @@ const goood = () => {
     currentPage = pagesData.find((p) => p.position === index);
     previousPage = pagesData.find((p) => p.position === prevIndex);
 
+    currentPage.getDOMElement().scrollTop = 0;
+
     if (previousPage.path !== currentPage.path) {
       changePage(currentPage.path);
     }
@@ -105,7 +107,6 @@ const goood = () => {
   function bindEvents() {
     if (previousPage) {
       previousPage.onLeaveCompleted();
-      previousPage.getDOMElement().scrollTop = 0;
       previousPage.getDOMContent().innerHTML = '';
     }
     // handleScrollBehaviour(currentPage);

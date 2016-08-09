@@ -5,7 +5,7 @@ let refCarousel2 = null;
 let refCarousel3 = null;
 
 export default {
-  position: 3,
+  position: 2,
   id: 'references',
   path: '/references/',
   title: 'Références',

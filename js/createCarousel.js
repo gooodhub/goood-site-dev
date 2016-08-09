@@ -87,7 +87,9 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     let nextElement = null;
     const children = [...container.children];
 
-    if (newIndex > oldIndex) {
+    const next = isNext(oldIndex, newIndex);
+
+    if (next === 1) {
       nextElement = children[newIndex];
     } else {
       prevElement = children[newIndex];
@@ -106,6 +108,14 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     }
   }
 
+  function isNext(oldIndex, newIndex) {
+    if ((oldIndex === 0) && (newIndex === panesCount - 1)) return -1;
+    if ((newIndex === 0) && (oldIndex === panesCount - 1)) return 1;
+    if (newIndex === oldIndex) return 0;
+    if (newIndex > oldIndex) return 1;
+    if (newIndex < oldIndex) return -1;
+  }
+
 
   /**
   * Show a pane by index
@@ -115,10 +125,11 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
     if (animate) displayPrevNextSlides(currentIndex, showIndex);
 
     let distance = null;
+    const next = isNext(currentIndex, showIndex);
 
-    if (showIndex === currentIndex) distance = 0;
-    if (showIndex > currentIndex) distance = -containerSize;
-    if (showIndex < currentIndex) distance = containerSize;
+    if (next === 0) distance = 0;
+    if (next === 1) distance = -containerSize; // Forward
+    if (next === -1) distance = containerSize; // Backward
 
     if (showIndex > panesCount - 1) showIndex = 0;
     if (showIndex < 0) showIndex = panesCount - 1;
