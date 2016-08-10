@@ -51,7 +51,7 @@ function onEnterCompleted() {
       new ScrollMagic.Scene({
         triggerElement: '.mission',
         triggerHook: 'onEnter',
-        duration: '100%',
+        duration: '200%',
       })
       .setTween(moveVideoContainer)
       .addTo(this.scrollMagic.controller)
@@ -145,7 +145,7 @@ function onEnterCompleted() {
     new ScrollMagic.Scene({
       triggerElement: '.vision',
       triggerHook: 'onLeave',
-      duration: '150%',
+      duration: '80%',
       offset: isMobile ? headerHeight : 0,
     })
     .setPin('.vision')
