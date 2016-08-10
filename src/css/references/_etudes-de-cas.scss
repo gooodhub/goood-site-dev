@@ -200,6 +200,7 @@
       font-size: 22px;
       line-height: 30px;
       color: $secondaryColor;
+      height: 100px;
 
       &:after {
         content:'';
@@ -215,6 +216,7 @@
     &__img {
       margin: 0 30px;
       margin-top: 30px;
+      height: 100px;
       img {
         max-width: 190px;
         max-height: 75px;
@@ -234,11 +236,19 @@
       color: $primaryColor;
     }
 
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $secondaryColor;
+      margin-top: 20px;
+    }
+
     svg {
       path {fill: $secondaryColor!important;}
       width: 17px;
       height: 17px;
-      margin-top: 20px;
+      margin-left: 10px;
     }
   }
 }
