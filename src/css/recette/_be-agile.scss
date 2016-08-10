@@ -9,6 +9,8 @@
     svg {
       width: 100%;
       margin-top: em(-70);
+      position: relative;
+z-index: 3;
 
       @media #{$medium-up} {
         height: 49vw;

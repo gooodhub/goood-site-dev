@@ -1,3 +1,4 @@
+
 header p {
   font-size: em(20);
   color: $secondaryColor;
@@ -30,9 +31,21 @@ h1 {
   }
 }
 
+h5 {
+  font-size: em(27);
+  margin: 0;
+  color: $primaryColor;
+  @extend %headingExtraBoldFont;
+}
+
 p {
   font-size: em(28);
   line-height: em(33);
+
+  a {
+    color: $primaryColor;
+    text-decoration: underline;
+  }
 }
 
 em {

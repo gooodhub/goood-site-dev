@@ -47,6 +47,8 @@
 
   &__prev {
     background: $secondaryColor;
+    background-image: url(/images/previous-page-bg.jpg);
+    background-size: cover;
 
     &:before {
       content: '';
@@ -56,6 +58,8 @@
 
   &__next {
     background: $primaryColor;
+    background-image: url(/images/next-page-bg.jpg);
+    background-size: cover;
     justify-content: flex-end;
 
     &:after {

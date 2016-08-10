@@ -5,6 +5,8 @@
   &__content {
     @extend %contentPadding;
     flex: 1;
+    position: relative;
+    z-index: 2;
 
     @media #{$medium-up} {
       margin-left: em(-100);
@@ -15,7 +17,9 @@
   &__video {
     @extend %shadow;
 
-    background-color: rgba(black, .2);
+    background-image: url(/images/photo-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 58vw;
     display: flex;
     align-items: center;
