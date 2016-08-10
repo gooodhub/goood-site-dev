@@ -57,7 +57,7 @@ pages.push(createPage({
   position: 4,
   id: 'contact',
   path: '/contact/',
-  title: 'Contact',
+  title: 'Contacts',
 }));
 
 export default pages;
