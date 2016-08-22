@@ -225,15 +225,15 @@
 
     &__society {
       @extend %contentBoldFont;
-      margin-top: 20px;
-      font-size: 24px;
+      margin-top: 0px;
+      font-size: 20px;
       line-height: 30px;
       color: $secondaryColor;
     }
 
     &__descr {
-      font-size: 22px;
-      color: $primaryColor;
+      font-size: 14px;
+      color: $secondaryColor;
     }
 
     span {
