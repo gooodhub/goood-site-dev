@@ -8,7 +8,7 @@ export default {
   position: 2,
   id: 'references',
   path: '/references/',
-  title: 'Clients heureux',
+  title: 'Références<br />(clients heureux)',
   onEnterCompleted,
   onLeaveCompleted,
 };
