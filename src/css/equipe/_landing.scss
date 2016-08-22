@@ -1,23 +1,23 @@
 #equipe {
   .slide__header {
-    background-image: url('../images/header-equipe-th1.jpg');
+    background-image: url('../images/header-equipe-'+$theme+'.jpg');
   }
 }
 
 #contact {
   .slide__header {
-    background-image: url('../images/header-contact-th1.jpg');
+    background-image: url('../images/header-contact-'+$theme+'.jpg');
   }
 }
 
 #references {
   .slide__header {
-    background-image: url('../images/header-client-th1.jpg');
+    background-image: url('../images/header-client-'+$theme+'.jpg');
   }
 }
 
 #recette-magique {
   .slide__header {
-    background-image: url('../images/header-recette-th1.jpg');
+    background-image: url('../images/header-recette-'+$theme+'.jpg');
   }
 }

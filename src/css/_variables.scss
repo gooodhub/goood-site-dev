@@ -1,5 +1,6 @@
 $primaryColor: #fc4c02;
 $secondaryColor: #1d3f51;
+$theme: th1;
 
 @function em($pixels, $context: 16) {
   @return #{$pixels/$context}rem
