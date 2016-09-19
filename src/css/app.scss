@@ -113,8 +113,12 @@ a {
 
   background-image: url(/images/menu-ico.svg);
   background-position: center center;
-  background-size: 32px;
+  background-size: em(32);
   background-repeat: no-repeat;
+}
+
+.body--hasMenuOpened .ham {
+  background-image: url(/images/close.svg);
 }
 
 .logo {
