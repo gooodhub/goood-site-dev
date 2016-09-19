@@ -37,6 +37,8 @@ z-index: 3;
     span {
       display: block;
       color: $secondaryColor;
+      position: relative;
+      margin-bottom: -5px;
 
       &:nth-child(1) {
         font-size: em(27);
@@ -63,7 +65,7 @@ z-index: 3;
     color: $primaryColor;
     position: absolute;
 
-    top: 58%;
+    top: 54%;
     left: 50%;
     transform: translateX(-50%);
 

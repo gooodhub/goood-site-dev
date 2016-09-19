@@ -138,11 +138,12 @@
     stroke: transparent;
 
     &:hover {
-      transform: scale(1.2);
+      //transform: scale(1.2);
+      fill: rgba(white, .5);
     }
 
     &.active {
-      transform: scale(1.2);
+      //transform: scale(1.2);
       stroke: $secondaryColor;
     }
   }

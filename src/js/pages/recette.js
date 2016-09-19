@@ -1,6 +1,5 @@
 import Flickity from 'flickity';
 import ScrollMagic from 'ScrollMagic'; //eslint-disable-line
-// require('debug.addIndicators'); //eslint-disable-line
 import TimelineMax from 'TimelineMax'; //eslint-disable-line
 
 

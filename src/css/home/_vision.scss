@@ -256,9 +256,22 @@
 
 
 
+// Fix for fixed element scrolling
 
 .scrollmagic-pin-spacer {
   @media #{$small-only} {
     pointer-events: none;
+  }
+}
+
+.vision__leftSquare__labels {
+  @media #{$small-only} {
+    pointer-events: auto;
+  }
+}
+
+.arrow-link {
+  @media #{$small-only} {
+    pointer-events: auto;
   }
 }

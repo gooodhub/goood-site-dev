@@ -41,3 +41,13 @@ npm run deploy-prod
 Compile les fichiers et déploie sur le repo [goood-site-prod](https://github.com/gooodhub/goood-site-prod)
 
 Visible sur: http://www.goood.pro/
+
+## Plugins utilisés
+
+* [ScrollMagic](https://github.com/janpaepke/ScrollMagic)
+* [Flickity](https://github.com/metafizzy/flickity)
+* [ObjectFitImages](https://github.com/bfred-it/object-fit-images)
+* [MobileDetect](https://github.com/hgoebl/mobile-detect.js)
+* [Page](https://visionmedia.github.io/page.js/)
+* [HammerJS](https://github.com/hammerjs/hammer.js)
+* [BLazy](https://github.com/dinbror/blazy)

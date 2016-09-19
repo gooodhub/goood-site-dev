@@ -5,14 +5,12 @@ import createCarousel from './createCarousel';
 import renderSlides from './renderSlides';
 import pagesData from './pages';
 import { toDomElement } from './helpers';
-// import handleScrollBehaviour from './scrollBehaviour';
 
 const goood = () => {
   let currentPage = null;
   let previousPage = null;
   let canBindEvents = false;
   let carousel = null;
-  // let isSubPageOpened = false;
 
   const cache = {};
   const firstElement = document.querySelector('.slide') || document.querySelector('.subPage');
@@ -22,7 +20,6 @@ const goood = () => {
   currentPage =
     pagesData.find((p) => p.id === firstElement.id) ||
     pagesData.find((p) => p.id === firstElement.dataset.parent);
-  // if (firstElement.classList.contains('subPage')) isSubPageOpened = true;
 
   initRouting();
   bindNavMenu();
@@ -41,10 +38,6 @@ const goood = () => {
       onTransitionEnd,
     });
     bindEvents(currentPage);
-
-    // @TODO - Delete for prod
-    // document.getElementById('next').addEventListener('click', carousel.nextPane);
-    // document.getElementById('prev').addEventListener('click', carousel.prevPane);
   }
 
   function bindNavMenu() {
@@ -57,7 +50,6 @@ const goood = () => {
   */
   function initRouting() {
     page('/:slug?', slideTo);
-    // page('/:slug/:subSlug', changeSubPage);
     page({
       popstate: false,
     });
@@ -109,7 +101,6 @@ const goood = () => {
       previousPage.onLeaveCompleted();
       previousPage.getDOMContent().innerHTML = '';
     }
-    // handleScrollBehaviour(currentPage);
     currentPage.onEnterCompleted();
   }
 
@@ -156,33 +147,15 @@ const goood = () => {
   */
   function fetchPage(path) {
     if (cache[path]) {
-      console.log(`${path} data from cache`);
       return Promise.resolve(cache[path]);
     }
     return fetch(path)
       .then(response => {
-        console.log(`${path} data from fetching`);
         cache[path] = response.text();
         return cache[path];
       });
   }
-
-
-  // function changeSubPage(ctx) {
-  //   // If subpage
-  //   loadPage(ctx.pathname)
-  //   .then(body => {
-  //     const bodyEl = toDomElement(body);
-  //     const content = bodyEl.querySelector('.subPageContainer').innerHTML;
-  //
-  //     document.title = bodyEl.title;
-  //     document.querySelector('.subPageContainer').innerHTML = content;
-  //
-  //     isSubPageOpened = true;
-  //   });
-  // }
 };
-
 
 // Init App
 goood();
