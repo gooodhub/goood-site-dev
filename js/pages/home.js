@@ -140,14 +140,32 @@ function onEnterCompleted() {
     .insert(animationIcon)
     .insert(animationContent);
 
-  // Create scene to pin and link animation
+  // Create scene
+  const visionScene = new ScrollMagic.Scene({
+    triggerElement: '.vision',
+    triggerHook: 'onLeave',
+    duration: '140%',
+    offset: isMobile ? headerHeight : 0,
+  });
+
+  // Link on inspirant label
+  document.querySelector('.vision__leftSquare__label.inspirant').addEventListener('click', () => {
+    this.scrollMagic.controller.scrollTo(visionScene);
+  });
+
+  // Link on innovant label
+  document.querySelector('.vision__leftSquare__label.innovant').addEventListener('click', () => {
+    this.scrollMagic.controller.scrollTo(visionScene.scrollOffset() + (visionScene.duration() / 2));
+  });
+
+  // Link on performant label
+  document.querySelector('.vision__leftSquare__label.performant').addEventListener('click', () => {
+    this.scrollMagic.controller.scrollTo(visionScene.scrollOffset() + visionScene.duration());
+  });
+
+  // Pin and link animation
   this.scrollMagic.scenes.push(
-    new ScrollMagic.Scene({
-      triggerElement: '.vision',
-      triggerHook: 'onLeave',
-      duration: '80%',
-      offset: isMobile ? headerHeight : 0,
-    })
+    visionScene
     .setPin('.vision')
     .setTween(timeline)
     .addTo(this.scrollMagic.controller)

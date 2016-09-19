@@ -1,4 +1,6 @@
 import Flickity from 'flickity';
+import objectFitImages from 'object-fit-images';
+import Blazy from 'blazy';
 
 export default {
   position: 3,
@@ -11,18 +13,28 @@ export default {
 
 let portraitSlide = null;
 let portraitCarousel = null;
+let blazy = null;
 
 
 function onEnterCompleted() {
+  // Polyfill object fit for IE, etc
+  objectFitImages('img.portrait__img');
+
   // Create portrait modal
   portraitSlide = createPortraitModal();
 
   // Bind portraits
   [...document.querySelectorAll('#equipe .portrait')].forEach(item => item.addEventListener('click', portraitSlide.open));
+
+  // Init lazy loading
+  blazy = new Blazy({
+    container: '#equipe',
+  });
 }
 
 function onLeaveCompleted() {
   document.body.classList.remove('body--hasOverlay');
+  blazy.destroy();
 }
 
 
