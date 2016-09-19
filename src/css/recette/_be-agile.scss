@@ -59,7 +59,7 @@ z-index: 3;
   }
 
   &__sentence {
-    font-size: em(32);
+    font-size: em(30);
     color: $primaryColor;
     position: absolute;
 
@@ -67,8 +67,8 @@ z-index: 3;
     left: 50%;
     transform: translateX(-50%);
 
-    width: 160px;
-    height: 75px;
+    width: 200px;
+    height: 100px;
     text-align: center;
     line-height: em(28);
     background: white;
