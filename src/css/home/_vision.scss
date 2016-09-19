@@ -83,6 +83,7 @@
     opacity: .3;
     transition: opacity .5s ease;
     position: relative;
+    cursor: pointer;
 
     &:before {
       content: '';
@@ -101,7 +102,7 @@
         width: 0;
         top: 17px;
         left: auto;
-        right: -30%;
+        right: -20%;
 
       }
     }
@@ -111,7 +112,7 @@
     }
 
 
-    &.active {
+    &:hover, &.active {
       opacity: 1;
 
       &:before {
@@ -119,7 +120,7 @@
 
         @media #{$medium-up} {
           height: 3px;
-          width: 70%;
+          width: 55%;
         }
       }
 
