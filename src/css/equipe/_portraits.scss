@@ -44,8 +44,6 @@
   font-size: em(24);
   text-align: center;
   text-transform: uppercase;
-  background-size: cover;
-  background-repeat: no-repeat;
   margin: 10px;
   margin-bottom: 30px;
   height: 130vw;
@@ -53,6 +51,11 @@
   color: $primaryColor;
   position: relative;
   cursor: pointer;
+  background: white;
+
+  span {
+    position: relative;
+  }
 
   @media #{$medium-up} {
     margin: 0 1.5% 40px;
@@ -91,6 +94,16 @@
   }
 }
 
+.portrait__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-family: 'object-fit: cover;' // Polyfill
+}
+
 .portrait__slides {
   &-container {
     display: none;
@@ -112,7 +125,7 @@
   }
 
   &__close {
-    font-size: em(33);
+    font-size: 33px;
     position: absolute;
     top: 15px;
     right: 15px;

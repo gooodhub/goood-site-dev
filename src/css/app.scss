@@ -179,6 +179,7 @@ a {
     margin-left: 20px;
     margin-top: 20px;
     width: 100px;
+    display: block;
 
     @media #{$medium-up} {
       width: 130px;
@@ -244,5 +245,15 @@ a {
 .body--hasMenuOpened {
   .nav {
     transform: translateX(0);
+  }
+}
+
+.b-lazy {
+  transition: opacity 1s;
+  max-width: 100%;
+  opacity: 0;
+
+  &.b-loaded {
+    opacity: 1;
   }
 }
