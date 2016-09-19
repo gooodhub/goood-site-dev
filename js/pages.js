@@ -2,6 +2,7 @@ import homePage from './pages/home';
 import equipePage from './pages/equipe';
 import recettePage from './pages/recette';
 import referencesPage from './pages/references';
+import contactPage from './pages/contact';
 
 const protoPage = {
   position: null,
@@ -53,11 +54,6 @@ pages.push(createPage(homePage));
 pages.push(createPage(recettePage));
 pages.push(createPage(referencesPage));
 pages.push(createPage(equipePage));
-pages.push(createPage({
-  position: 4,
-  id: 'contact',
-  path: '/contact/',
-  title: 'Contacts',
-}));
+pages.push(createPage(contactPage));
 
 export default pages;

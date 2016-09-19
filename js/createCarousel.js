@@ -1,11 +1,5 @@
 import Hammer from 'hammerjs';
 
-// const reqAnimationFrame = (function() {
-//   return window[Hammer.prefixed(window, 'requestAnimationFrame')] || function(callback) {
-//     setTimeout(callback, 1000 / 60);
-//   };
-// })();
-
 /**
 * Carousel
 * @param container
@@ -29,8 +23,10 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
   });
 
   // Add Event cursor
-  // container.addEventListener('mousedown', () => container.classList.add('grabbing'));
-  // container.addEventListener('mouseup', () => container.classList.remove('grabbing'));
+  /*
+    container.addEventListener('mousedown', () => container.classList.add('grabbing'));
+    container.addEventListener('mouseup', () => container.classList.remove('grabbing'));
+  */
   container.addEventListener('transitionend', () => {
     resetContainers(currentIndex);
     onTransitionEnd(currentIndex, prevIndex);

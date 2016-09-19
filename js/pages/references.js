@@ -15,6 +15,7 @@ export default {
 
 function onEnterCompleted() {
   const carouselOptions = {
+    adaptiveHeight: true,
     accessibility: true,
     resize: true,
     pageDots: true,

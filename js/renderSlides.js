@@ -16,12 +16,6 @@ const htmlSlide = (slide) =>
 * @return currentPosition (stupid as f, but I got lazy)
 */
 const loadAllSlides = (currentSlide, slides) => {
-  // NEED REFACTO - Ugly, render first div
-  if (currentSlide.classList.contains('subPage')) {
-    document.querySelector('.wrap').innerHTML = htmlSlide(slides[0]);
-    currentSlide = document.getElementById('home');
-  }
-
   const currentId = currentSlide.id;
   const currentElement = slides.find(s => s.id === currentId);
   const currentPosition = currentElement.position;

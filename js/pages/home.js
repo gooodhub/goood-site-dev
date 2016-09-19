@@ -1,7 +1,6 @@
 import ScrollMagic from 'ScrollMagic'; //eslint-disable-line
 import TimelineMax from 'TimelineMax'; //eslint-disable-line
 import MobileDetect from 'mobile-detect';
-// require('debug.addIndicators'); //eslint-disable-line
 require('animation.gsap'); //eslint-disable-line
 
 export default {
@@ -26,22 +25,18 @@ function onEnterCompleted() {
   const md = new MobileDetect(window.navigator.userAgent);
   const isMobile = !!md.mobile();
   const headerHeight = document.querySelector('.vision__header').clientHeight;
+
   // init
   this.scrollMagic.controller = new ScrollMagic.Controller({
     container: '#home',
   });
-
 
   // change behaviour of controller to animate scroll instead of jump
   this.scrollMagic.controller.scrollTo(newpos => {
     new TimelineMax().to('#home', 0.5, { scrollTo: { y: newpos } });
   });
 
-  document.querySelector('.btn.btn--vision').addEventListener('click', (e) => {
-    e.preventDefault();
-    this.scrollMagic.controller.scrollTo('#vision-section');
-  });
-
+  // Parallax on video container
   if (!isMobile) {
     const moveVideoContainer = new TimelineMax()
     .fromTo('.mission__video', 1, { y: '30%' }, { y: '-30%' });
@@ -132,7 +127,6 @@ function onEnterCompleted() {
     .fromTo(...fromToLine('performant'))
     .fromTo(...fromToIcon('performant'));
 
-
   // Combine timelines
   const timeline = new TimelineMax();
   timeline
@@ -144,8 +138,14 @@ function onEnterCompleted() {
   const visionScene = new ScrollMagic.Scene({
     triggerElement: '.vision',
     triggerHook: 'onLeave',
-    duration: '140%',
+    duration: '120%',
     offset: isMobile ? headerHeight : 0,
+  });
+
+  // Vision button link on inspirant label
+  document.querySelector('.btn.btn--vision').addEventListener('click', (e) => {
+    e.preventDefault();
+    this.scrollMagic.controller.scrollTo(visionScene);
   });
 
   // Link on inspirant label
@@ -170,8 +170,6 @@ function onEnterCompleted() {
     .setTween(timeline)
     .addTo(this.scrollMagic.controller)
     .on('progress', (e) => {
-      // console.log(e.progress.toFixed(2));
-
       const progress = e.progress.toFixed(2);
       [...document.querySelectorAll('.vision__leftSquare__label')].forEach(item => item.classList.remove('active'));
       if (progress <= 0.25) document.querySelector('.vision__leftSquare__label.inspirant').classList.add('active');
