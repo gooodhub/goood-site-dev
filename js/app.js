@@ -37,7 +37,7 @@ const goood = () => {
       onTransitionStart,
       onTransitionEnd,
     });
-    bindEvents(currentPage);
+    bindEvents();
   }
 
   function bindNavMenu() {
@@ -55,7 +55,7 @@ const goood = () => {
     });
 
     window.onpopstate = (e) => {
-      const path = e.state.path;
+      const path = e.state ? e.state.path : null;
       e.state.popstate = true;
       page.replace(path, e.state);
     };
@@ -86,10 +86,7 @@ const goood = () => {
   * @param {Number} prevIndex
   */
   function onTransitionEnd() {
-    if (canBindEvents) {
-      bindEvents(currentPage, previousPage);
-      canBindEvents = false;
-    }
+
   }
 
 
@@ -136,6 +133,11 @@ const goood = () => {
 
         document.title = bodyEl.title;
         pageItem.getDOMContent().innerHTML = content;
+
+        if (canBindEvents) {
+          bindEvents();
+          canBindEvents = false;
+        }
       });
   }
 
@@ -149,8 +151,12 @@ const goood = () => {
     if (cache[path]) {
       return Promise.resolve(cache[path]);
     }
+
+    document.body.classList.add('body--isLoading');
+
     return fetch(path)
       .then(response => {
+        document.body.classList.remove('body--isLoading');
         cache[path] = response.text();
         return cache[path];
       });

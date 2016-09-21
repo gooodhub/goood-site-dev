@@ -67,7 +67,7 @@ const createPortraitModal = () => {
       accessibility: true,
       resize: true,
       pageDots: false,
-      dragThreshold: 30,
+      dragThreshold: 60,
       prevNextButtons: false,
     });
 
