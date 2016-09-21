@@ -1,4 +1,4 @@
-import Hammer from 'hammerjs';
+// import Hammer from 'hammerjs';
 
 /**
 * Carousel
@@ -8,7 +8,7 @@ import Hammer from 'hammerjs';
 */
 const createCarousel = ({ container, currentIndex, onTransitionStart, onTransitionEnd }) => {
   const panesCount = [...container.children].length;
-  const hammer = new Hammer.Manager(container);
+  // const hammer = new Hammer.Manager(container);
   let isScrolling = false;
 
   let prevIndex = null;
@@ -39,10 +39,10 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
   * Bind hammer pan
   */
   function bind() {
-    hammer.add(new Hammer.Pan());
-    hammer.on('panstart', Hammer.bindFn(onPanStart, this));
-    hammer.on('panup pandown panleft panright swipeleft swiperight', Hammer.bindFn(onPan, this));
-    hammer.on('panend', Hammer.bindFn(onPanEnd, this));
+    // hammer.add(new Hammer.Pan());
+    // hammer.on('panstart', Hammer.bindFn(onPanStart, this));
+    // hammer.on('panup pandown panleft panright swipeleft swiperight', Hammer.bindFn(onPan, this));
+    // hammer.on('panend', Hammer.bindFn(onPanEnd, this));
   }
 
 
@@ -50,9 +50,9 @@ const createCarousel = ({ container, currentIndex, onTransitionStart, onTransiti
   * Unbind hammer pan
   */
   function unbind() {
-    hammer.off('panstart', Hammer.bindFn(onPanStart, this));
-    hammer.off('panup pandown panleft panright swipeleft swiperight', Hammer.bindFn(onPan, this));
-    hammer.off('panend', Hammer.bindFn(onPanEnd, this));
+    // hammer.off('panstart', Hammer.bindFn(onPanStart, this));
+    // hammer.off('panup pandown panleft panright swipeleft swiperight', Hammer.bindFn(onPan, this));
+    // hammer.off('panend', Hammer.bindFn(onPanEnd, this));
   }
 
 
