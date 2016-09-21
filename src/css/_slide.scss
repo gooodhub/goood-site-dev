@@ -26,11 +26,14 @@
 
   // overflow: hidden; // Uncomment when handleScrollBehaviour()
   overflow: scroll;
-  -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 
   & img {
     pointer-events: none; /* fixing FF img drag */
+  }
+
+  &--iosFix {
+    -webkit-overflow-scrolling: touch;
   }
 
   &__header {

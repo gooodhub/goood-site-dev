@@ -96,9 +96,11 @@ const goood = () => {
   function bindEvents() {
     if (previousPage) {
       previousPage.onLeaveCompleted();
+      previousPage.getDOMElement().classList.remove('slide--iosFix');
       previousPage.getDOMContent().innerHTML = '';
     }
     currentPage.onEnterCompleted();
+    currentPage.getDOMElement().classList.add('slide--iosFix');
   }
 
 
