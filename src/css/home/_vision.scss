@@ -235,6 +235,7 @@
   @extend %contentPadding;
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   @media #{$medium-up} {
     padding-bottom: 70px;

@@ -125,14 +125,11 @@ z-index: 3;
   position: relative;
   z-index: 1;
 
-  .row {
-    @media #{$medium-up} {
-      height: 300px;
-    }
-  }
 
   &__content {
     @extend %contentPadding;
+    padding-top: 0;
+    padding-bottom: 0;
     flex: 1;
 
     p {
@@ -156,11 +153,12 @@ z-index: 3;
 
     @media #{$medium-up} {
       order: -1;
-      flex-basis: 47%;
-      max-width: 47%;
-      height: 36vw;
-      max-height: 466px;
-      align-self: center;
+      flex-basis: 35%;
+      max-width: 35%;
+      height: 26vw;
+      max-height: 320px;
+      margin: 0 50px;
+      transform: scale(1.2);
     }
   }
 }

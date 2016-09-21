@@ -24,9 +24,11 @@ function onEnterCompleted() {
     watchCSS: true,
   };
 
-  refCarousel1 = new Flickity('.slide__carousel--operations', carouselOptions);
-  refCarousel2 = new Flickity('.slide__carousel--organisation', carouselOptions);
-  refCarousel3 = new Flickity('.slide__carousel--offre', carouselOptions);
+  setTimeout(() => {
+    refCarousel1 = new Flickity('.slide__carousel--operations', carouselOptions);
+    refCarousel2 = new Flickity('.slide__carousel--organisation', carouselOptions);
+    refCarousel3 = new Flickity('.slide__carousel--offre', carouselOptions);
+  }, 0);
 }
 
 function onLeaveCompleted() {
