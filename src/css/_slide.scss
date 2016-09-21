@@ -25,7 +25,8 @@
   height: 100vh;
 
   // overflow: hidden; // Uncomment when handleScrollBehaviour()
-  overflow: auto;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 
   & img {
