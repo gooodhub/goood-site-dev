@@ -6,7 +6,7 @@ const __DEV__ = (process.env.NODE_ENV !== 'production');
 module.exports = {
   devtool: __DEV__ ? 'inline-source-map' : 'cheap-module-source-map',
   context: path.resolve(__dirname, 'src/js/'),
-  entry: './app.js',
+  entry: ['babel-polyfill', './app.js'],
   output: {
     path: path.resolve(__dirname, 'dist/js/'),
     filename: 'bundle.js',
