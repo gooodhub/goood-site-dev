@@ -15,13 +15,15 @@ const goood = () => {
   const cache = {};
   const firstElement = document.querySelector('.slide') || document.querySelector('.subPage');
   const carouselWrapper = document.querySelector('.wrap');
+  const isIE = !!navigator.userAgent.match(/Trident/g) || !!navigator.userAgent.match(/MSIE/g);
+
 
   cache[document.location.pathname] = document.documentElement.innerHTML; // Save current page to cache
   currentPage =
     pagesData.find((p) => p.id === firstElement.id) ||
     pagesData.find((p) => p.id === firstElement.dataset.parent);
 
-  initRouting();
+  !isIE && initRouting(); // Deactivate ajax routing for IE
   bindNavMenu();
   renderSlides(firstElement, pagesData)
     .then(() => init());
