@@ -2,9 +2,11 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  align-items: center;
 
   .row {
     max-width: 900px;
+    width: 100%;
   }
 
   @media #{$medium-up} {
@@ -26,6 +28,7 @@
   header {
     @extend %contentPadding;
     position: relative;
+    width: 100%;
 
     background: $secondaryColor;
 
