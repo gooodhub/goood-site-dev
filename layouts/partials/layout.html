@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="">
+  <meta name="description" content="{{ description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <title>{{ title }}</title>
@@ -24,6 +24,7 @@
         <a href="/recette-magique/">Recette magique</a>
         <a href="/references/">Références</a>
         <a href="/equipe-et-culture/">Équipe et culture</a>
+        <a href="/evenements-formations/">Événements et Formations</a>
         <a href="/contact/">Contacts</a>
       </div>
     </div>
@@ -32,6 +33,9 @@
     <div class="wrap">
       {{#> content }}
       {{/content}}
+    </div>
+    <div class="wrap">
+      {{ contents }}
     </div>
     <div class="subPageContainer">
       {{#> subPage }}
