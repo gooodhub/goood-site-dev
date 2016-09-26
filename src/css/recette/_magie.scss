@@ -27,6 +27,9 @@
   &__img {
     @extend %shadow;
 
+    background-size: cover;
+    background-position: right center;
+    background-image: url('/images/faire.jpg');
     background-color: lighten(black, 80%);
     height: 58vw;
     display: flex;

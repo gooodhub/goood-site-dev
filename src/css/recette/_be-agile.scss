@@ -144,6 +144,8 @@ z-index: 3;
   &__img {
     @extend %shadow;
 
+    background-size: cover;
+    background-image: url('/images/workshop.jpg');
     background-color: lighten(black, 80%);
     height: 58vw;
     display: flex;
