@@ -1,12 +1,32 @@
 ---
-title: Evénements et Formations
+title: Evts & formations
 slug: evenements-formations
 description: Retrouvez les prochaines dates de nos formations et des événements ouverts au public où vous pouvez nous rencontrer.
 layout: evenements.html
 ---
+# Rencontrons-nous #
+Chez Goood! on aime bien partager. Alors on s’investit dans des communautés proches de nos préoccupations : la diversité, le développement durable, le code, le software craftsmanship, l’agilité, la facilitation, les nouvelles formes d’organisations …
+Vous trouverez ci-dessous les [prochaines dates](#prochaines-dates) des événements que nous organisons, soutenons ou hébergeons. On s’y retrouve ?
 
-## Prochaines dates ##
-Nous sommes très actifs dans les communautés, en tant qu'organisateurs, sponsors, hêtes ou simples participants. Voici une liste non exhaustives des dates où vous pourrez nous croiser ces prochaines semaines. On s'y donne rendez-vous ?
+Une autre forme de partage, c’est la formation. Beaucoup de sessions sont organisées pour un client et privées mais il y a aussi quelques dates ouvertes à tous. 
+
+# Prochaines Formations inter-entreprises ouvertes #
+
+*Astuce : Pour découvrir l’étendue de notre offre de formation le mieux c’est de [télécharger notre catalogue](http://www.goood.pro/files/catalogue-formations-goood.pdf) et de [contacter Célia](formation@goood.pro).* 
+
+### Facilitation : les bases de ToP (en anglais) ###
+* Paris les 8, 9 et 10 octobre.
+
+### Agilité, Complexité et Management : le Management "3.0" ###
+* Paris les 7-8 Janvier puis 21 février et 17 Mars.
+
+### Fondamentaux des méthodes agiles ###
+* Paris le 9 Décembre.
+* Paris le 3 Février.
+* Lyon le 11 Janvier.
+
+<a name="prochaines-dates"></a>
+# Nous aimons, nous soutenons (événements publics) #
 
 ### Septembre ###
 * 27 septembre, Meetup [“Entreprise et Managers agiles”](http://www.meetup.com/fr-FR/entreprise-agile) : soirée autour de Jérémie Ruet sur l'agilité organisationnelle
@@ -36,7 +56,7 @@ Nous sommes très actifs dans les communautés, en tant qu'organisateurs, sponso
 ## Les groupes et communautés où nous sommes impliqués ##
 * Agile France 
 * Agile at Heart (Paris)
-* Agile Playground, dont nous sommes cofondateurs à Paris, a essaimé à Marseille, Lyon et [Sophia](http://www.meetup.com/Agile-Play-Ground/)
+* Agile Playground (dont nous sommes cofondateurs à Paris), a essaimé à Marseille, Lyon et [Sophia](http://www.meetup.com/Agile-Play-Ground/), groupes que nous soutenons ou organisons également.
 * Agile Playground Sophia
 * Agile en Seine
 * Agile Tour Marseille
