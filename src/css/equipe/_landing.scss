@@ -10,9 +10,15 @@
   }
 }
 
+#events {
+  .slide__header {
+    background-image: url('../images/header-events-'+$theme+'.jpg');
+  }
+}
+
 #references {
   .slide__header {
-    background-image: url('../images/header-client-'+$theme+'.jpg');
+    background-image: url('../images/header-clients-'+$theme+'.jpg');
   }
 }
 
