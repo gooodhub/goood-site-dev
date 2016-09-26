@@ -1,8 +1,8 @@
 ---
 name: Damien Thouvenin
-bulle1: Deviens ce que tu es ; fais ce que toi seul peux faire. (F. Nietzsche)
-bulle2: 
-bulle3: 
+bulle1: Deviens ce que tu es, 
+bulle2: fais ce que toi seul peux faire. 
+bulle3: (F. Nietzsche)
 image: /images/damien-thouvenin.jpg
 hashtag: '#CurieuxDeTout'
 job: Barbu Bavard

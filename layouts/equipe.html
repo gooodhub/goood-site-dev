@@ -150,6 +150,12 @@
                     <span>{{job}}</span>
                   </div>
                   {{{contents}}}
+                  <div class="portrait_links">
+                    {{#if blog}}<a href="{{blog}}" target="_new" class="portrait-link,blog" >{{blog}}</a>{{/if}}                                      
+                    {{#if twitter}}<a href="{{twitter}}" target="_new" class="portrait-link,twitter" >{{twitter}}</a>{{/if}}                  
+                    {{#if linkedin}}<a href="{{linkedin}}" target="_new" class="portrait-link,linkedin" >{{linkedin}}</a>{{/if}}                  
+                    {{#if facebook}}<a href="{{facebook}}" target="_new" class="portrait-link,facebook" >{{facebook}}</a>{{/if}}                  
+                  </div>
                 </div>
               </div>
             {{/each}}
