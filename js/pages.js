@@ -2,6 +2,7 @@ import homePage from './pages/home';
 import equipePage from './pages/equipe';
 import recettePage from './pages/recette';
 import referencesPage from './pages/references';
+import eventsPage from './pages/evenements';
 import contactPage from './pages/contact';
 
 const protoPage = {
@@ -54,6 +55,7 @@ pages.push(createPage(homePage));
 pages.push(createPage(recettePage));
 pages.push(createPage(referencesPage));
 pages.push(createPage(equipePage));
+pages.push(createPage(eventsPage));
 pages.push(createPage(contactPage));
 
 export default pages;
