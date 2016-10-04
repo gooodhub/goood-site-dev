@@ -4,7 +4,6 @@ slug: evenements-formations
 description: Retrouvez les prochaines dates de nos formations et des événements ouverts au public où vous pouvez nous rencontrer.
 layout: evenements.html
 ---
-# Rencontrons-nous #
 Chez Goood! on aime bien partager. Alors on s’investit dans des communautés proches de nos préoccupations : la diversité, le développement durable, le code, le software craftsmanship, l’agilité, la facilitation, les nouvelles formes d’organisations …
 Vous trouverez ci-dessous les [prochaines dates](#prochaines-dates) des événements que nous organisons, soutenons ou hébergeons. On s’y retrouve ?
 
