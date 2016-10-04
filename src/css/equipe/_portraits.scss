@@ -213,8 +213,9 @@
     overflow: auto;
 
     p {
-      font-size: em(24);
-      line-height: em(36);
+      font-size: em(20);
+      line-height: em(24);
+      text-align: justify;
     }
 
     @media #{$medium-up} {
