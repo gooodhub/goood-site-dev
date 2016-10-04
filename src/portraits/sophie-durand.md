@@ -3,7 +3,7 @@ name: Sophie Durand
 bulle1: 
 bulle2: 
 bulle3: 
-image: /images/sebastien-delest.jpg
+image: /images/portraits/sophie-durand.jpg
 hashtag: '#Lifehacking'
 job: Coach Agile
 facebook: 

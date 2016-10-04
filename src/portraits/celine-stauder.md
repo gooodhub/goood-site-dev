@@ -3,7 +3,7 @@ name: Céline Stauder
 bulle1: The future belongs to those who believe in the beauty of their dreams»
 bulle2: 
 bulle3: 
-image: /images/celine-stauder.jpg
+image: /images/portraits/celine-stauder.jpg
 hashtag: '#FocusSolution'
 job: Créatrice d'opportunités
 facebook: http://facebook.com

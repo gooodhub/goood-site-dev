@@ -3,7 +3,7 @@ name: Romain Vignes
 bulle1: “You are the average of the five people you spend the most time with.” – Jim Rohn
 bulle2: 
 bulle3: 
-image: /images/sebastien-delest.jpg
+image: /images/portraits/romain-vignes.jpg
 hashtag: '#Lifehacking'
 job: Coach Agile
 facebook: 

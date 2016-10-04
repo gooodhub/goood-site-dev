@@ -3,7 +3,7 @@ name: Nicolas VERDOT
 bulle1: Coucou je m'appelle aimerick
 bulle2: Coucou je m'appelle aimerick
 bulle3: Coucou je m'appelle aimerick
-image: /images/olivier-my.jpg
+image: /images/nicolas-verdot.jpg
 hashtag: '#Accessibilité'
 job: Coupeur de frites
 facebook: http://facebook.com

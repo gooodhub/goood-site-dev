@@ -3,7 +3,7 @@ name: Lionel Massiera
 bulle1: 
 bulle2: 
 bulle3: 
-image: /images/sebastien-delest.jpg
+image: /images/portraits/lionel-massiera.jpg
 hashtag: '#Lifehacking'
 job: Coach Agile
 facebook: 
