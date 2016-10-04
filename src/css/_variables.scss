@@ -7,28 +7,33 @@ $theme: th2;
 }
 
 %headingExtraBoldFont {
-  font-family: 'Raleway';
-  font-weight: 900;
+  font-family: 'Open Sans';
+  font-weight: 800;
 }
 
 %headingBoldFont {
-  font-family: 'Raleway';
+  font-family: 'Open Sans';
   font-weight: 700;
 }
 
 %contentFont {
-  font-family: 'Source Sans Pro', arial;
+  font-family: 'Open Sans', arial;
   font-weight: 400;
 }
 
+%contentLightFont {
+  font-family: 'Open Sans', arial;
+  font-weight: 300;
+}
+
 %contentBoldFont {
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   font-weight: 600;
 }
 
 %contentExtraBoldFont {
-  font-family: 'Source Sans Pro';
-  font-weight: 700;
+  font-family: 'Open Sans';
+  font-weight: 800;
 }
 
 %contentPadding {

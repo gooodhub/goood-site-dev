@@ -1,5 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:900,700';
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800';
 
 @import 'helpers/normalize';
 @import 'helpers/breakpoints';
@@ -31,6 +30,7 @@
 
 @import 'references/etudes-de-cas.scss';
 
+@import 'events';
 @import 'contact';
 
 @import 'footer';
@@ -253,10 +253,9 @@ a {
       margin-top: 15px;
       position: relative;
 
-
       @media #{$medium-up} {
         font-size: 30px;
-        margin-top: 30px;
+        margin-top: 20px;
       }
 
       &:before {
@@ -284,6 +283,14 @@ a {
           right: -40px;
           opacity: 1;
         }
+      }
+    }
+
+    a.secondary{
+      font-size: 12px;
+      @media #{$medium-up} {
+        font-size: 16px;
+        margin-top: 16px;
       }
     }
   }

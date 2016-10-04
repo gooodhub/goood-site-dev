@@ -1,0 +1,12 @@
+#events {
+  .intro {
+    @extend %contentPadding;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: em(22);
+    line-height: em(23);
+  }
+}
