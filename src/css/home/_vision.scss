@@ -199,7 +199,7 @@
   }
 
   &__title {
-    @extend %headingBoldFont;
+    @extend %contentBoldFont;
 
     font-size: em(32);
     color: $primaryColor;
@@ -208,6 +208,7 @@
 
     strong {
       display: block;
+      @extend %contentExtraBoldFont;
     }
   }
 
