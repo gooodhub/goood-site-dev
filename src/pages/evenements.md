@@ -56,17 +56,23 @@ Une autre forme de partage, c’est la formation. Beaucoup de sessions sont orga
 * Agile France 
 * Agile at Heart (Paris)
 * Agile Playground (dont nous sommes cofondateurs à Paris), a essaimé à Marseille, Lyon et [Sophia](http://www.meetup.com/Agile-Play-Ground/), groupes que nous soutenons ou organisons également.
-* Agile Playground Sophia
 * Agile en Seine
 * Agile Tour Marseille
 * Agile Tour Sophia-Antipolis
 * Alt.NeT France
+* [CJD](http://www.cjd.net)
+* [Entreprises et managers agiles](http://www.meetup.com/fr-FR/entreprise-agile/)
 * Esprit Agile (Aix-Marseille)
+* [FSharp Paris](https://fsharpparis.github.io/)
 * [Facilit’on Sophia](http://www.meetup.com/FacilitON/)  
 * Les Fourmis du changement ICA France
 * La Gribouille Academy
 * IAF France (International Association of Facilitators)
 * Lean-Kanban France
+* Les fourmis du changement
 * Mix-IT Lyon (Greg orga)
-* Paris Software Craftsmanship
+* [MOM 21](http://www.mom21.org/)
 * Paris Continuous Delivery 
+* Paris Software Craftsmanship
+* Paris Web
+* Ze Change Makers
