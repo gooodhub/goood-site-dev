@@ -1,9 +1,9 @@
 ---
-name: Sophie Durand
+name: Stéphanie Bonnet
 bulle1: 
 bulle2: 
 bulle3: 
-image: /images/portraits/sophieD.jpg
+image: /images/portraits/stephB.jpg
 hashtag: '#'
 job: 
 facebook: 

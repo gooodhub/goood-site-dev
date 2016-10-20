@@ -3,7 +3,7 @@ name: Sandrine Renouvel
 bulle1: 
 bulle2: 
 bulle3: 
-image: /images/portraits/sandrine-renouvel.jpg
+image: /images/portraits/sandrineR.jpg
 hashtag: '#'
 job: 
 facebook: 
