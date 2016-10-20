@@ -3,7 +3,7 @@ name: Damien Thouvenin
 bulle1: Deviens ce que tu es, 
 bulle2: fais ce que toi seul peux faire. 
 bulle3: (F. Nietzsche)
-image: /images/portraits/damien-thouvenin.jpg
+image: /images/portraits/damienT.jpg
 hashtag: '#CurieuxDeTout'
 job: Barbu Bavard
 facebook: 

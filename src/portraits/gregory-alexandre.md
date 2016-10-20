@@ -2,8 +2,8 @@
 name: Grégory Alexandre
 bulle1: « Pour ce qui est de l’avenir, 
 bulle2: il ne s’agit pas de le prévoir,
-bulle3:  mais de le rendre possible. » Antoine de St Exupéry
-image: /images/portraits/gregory-alexandre.jpg
+bulle3:  mais de le rendre possible. » St.Ex
+image: /images/portraits/gregoryA.jpg
 hashtag: '#WhatCanaillouForYou'
 job: Coach Agile
 facebook: 

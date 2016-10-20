@@ -1,17 +1,15 @@
 ---
 name: Célia Kevorkian 
-bulle1: “You are the average of the five people you spend the most time with.” – Jim Rohn
+bulle1: 
 bulle2: 
 bulle3: 
-image: /images/portraits/celia-kevorkian.jpg
-hashtag: '#Lifehacking'
-job: Coach Agile
+image: /images/portraits/celiaK.jpg
+hashtag: '#Danse'
+job: Business Développeuse
 facebook: 
-twitter: http://twitter.com/Delest
-linkedin: https://fr.linkedin.com/in/sebastiendelest
-blog: https://seb314.wordpress.com/
+twitter: 
+linkedin: 
+blog: 
 ---
 
-Sébastien aide les équipes à développer un fonctionnement agile (Scrum / Scrumban / Kanban) et les conseille sur la stratégie de test. Il s’intéresse beaucoup aux concepts d'intégration et de livraison continue qu'il utilise pour amener les équipes à profiter de tout leur potentiel.
 
-Où le croisier ? Aux différents Pokestops de la Défense.

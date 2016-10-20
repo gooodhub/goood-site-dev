@@ -3,7 +3,7 @@ name: Mija Rabeman
 bulle1: If my mind can conceive it, and 
 bulle2: my heart can believe it, then I 
 bulle3: can achieve it. Muhammad Ali
-image: /images/portraits/mija-rabemananjara.jpg
+image: /images/portraits/mijaR.jpg
 hashtag: '#lamijatouch'
 job: Agilitatrice apprenante
 facebook: http://facebook.com/mrabeman

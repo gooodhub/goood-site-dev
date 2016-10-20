@@ -1,17 +1,19 @@
 ---
 name: Delphine Kan
-bulle1: “You are the average of the five people you spend the most time with.” – Jim Rohn
+bulle1: 
 bulle2: 
 bulle3: 
-image: /images/portraits/delphine-kan.jpg
-hashtag: '#Lifehacking'
-job: Coach Agile
+image: /images/portraits/delphineK.jpg
+hashtag: '#Diversité'
+job: Orpailleuse
 facebook: 
-twitter: http://twitter.com/Delest
-linkedin: https://fr.linkedin.com/in/sebastiendelest
-blog: https://seb314.wordpress.com/
+twitter: 
+linkedin: 
+blog: 
 ---
 
-Sébastien aide les équipes à développer un fonctionnement agile (Scrum / Scrumban / Kanban) et les conseille sur la stratégie de test. Il s’intéresse beaucoup aux concepts d'intégration et de livraison continue qu'il utilise pour amener les équipes à profiter de tout leur potentiel.
+Delphine est “Orpailleuse” pour Goood! Elle écume les réseaux sociaux à la recherche des pépites qui viendront renforcer et diversifier les talents de Goood!
 
-Où le croisier ? Aux différents Pokestops de la Défense.
+Elle pilote ensuite l'intégration et le développement des collaborateurs pour que Goood! tienne sa promesse d'être une entreprise apprenante.
+
+Où la croiser ? A la salle de sport ou, peut-être, au salon du tatouage ...  
