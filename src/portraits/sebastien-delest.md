@@ -1,8 +1,8 @@
 ---
 name: Sébastien Delest
-bulle1: “You are the average of the five people you spend the most time with.” – Jim Rohn
-bulle2: 
-bulle3: 
+bulle1: “You are the average of the 
+bulle2: five people you spend the
+bulle3: most time with.” – Jim Rohn
 image: /images/portraits/sebD.jpg
 hashtag: '#Lifehacking'
 job: Coach Agile
