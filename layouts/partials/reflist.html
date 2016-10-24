@@ -1,0 +1,19 @@
+<div class="slide__carousel slide__carousel--{{key}}">
+	{{#each collection}}
+	<a class="slide__item" href="http://google.com" rel="download" title="cas {{client}}">
+		<div class="slide__item__title">
+			{{solution}}
+		</div>
+		<div class="slide__item__img">
+			<img src="{{this.image}}" alt="Logo client Goood! {{client}}">
+		</div>
+		<div class="slide__item__society">
+			{{demande}}
+		</div>
+		<div class="slide__item__descr">
+			{{{ contents }}}
+		</div>
+		<span class="slide__item__results">Enjeu : {{enjeu}}</span>
+	</a>
+	{{/each}}
+</div>

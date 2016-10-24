@@ -41,13 +41,17 @@ const buildApp = metalsmith(__dirname)
     pages: {
       pattern: 'pages/*.md',
     },
-    subPages: {
-      pattern: 'subPages/*.md',
-      sortyBy: 'date',
-      reverse: true,
-    },
     portraits: {
       pattern: 'portraits/*.md',
+    },
+    ref_ops: {
+      pattern: 'clients/operations/*.md',
+    },
+    ref_org: {
+      pattern: 'clients/organisation/*.md',
+    },
+    ref_offre: {
+      pattern: 'clients/offre/*.md',
     },
   }))
   .use(markdown())
@@ -87,7 +91,6 @@ if (__DEV__) {
   buildApp.use(browserSync({
     server: 'dist',
     files: [
-      'src/**/*.md',
       'layouts/**/*.html',
       'src/**/*.scss',
       'src/**/*.svg',

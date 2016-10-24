@@ -9,14 +9,12 @@
               Études de cas
             </p>
             <h1>
-              Chacuns de nos clients a une problématique unique
+              {{ h1 }}
             </h1>
           </header>
           <div class="etude__content">
             <p>
-              Voici quelques unes de nos références, organisées selon la
-              problématique soulevée par notre client, à chaque fois différente.
-              Nous intervenons pour tout type d’organisation sur des problématiques très diverses.
+              {{{ contents }}}
             </p>
             <div class="etude__groupe__btns">
               <a class="btn btn--primary" href="/recette-magique/" data-text="Démarche">
@@ -34,64 +32,12 @@
           <div class="row">
             <div class="slide__orange">
               {{svg "./performant.svg"}}
-              <h3>Operations</h3>
+              <h3>Opérations</h3>
               <p>
                 Revisiter les méthodes de travail et les outils ou les usages digitaux pour accélérer les opérations
               </p>
             </div>
-            <div class="slide__carousel slide__carousel--operations">
-              <a class="slide__item" href="http://google.com" rel="download">
-                <div class="slide__item__title">
-                  Logiciel sur mesure
-                </div>
-                <div class="slide__item__img">
-                  <img src="/images/serexim.png" alt="Logo client Goood! SEREXIM">
-                </div>
-                <div class="slide__item__society">
-                  Notre métier sur tablettes
-                </div>
-                <div class="slide__item__descr">
-                  Collecte de données sur le terrain et dématérialisation des flux d’information entre les clients et les experts
-                </div>
-                <span class="slide__item__results">
-                  Résultats : un CA qui augmente 2x plus vite que l'effectif
-                </span>
-              </a>
-              <a class="slide__item" href="http://google.com" rel="download">
-                <div class="slide__item__title">
-                  Refonte de l'organisation
-                </div>
-                <div class="slide__item__img">
-                  <img src="/images/soge.png" alt="Logo client Goood! Société Generale">
-                </div>
-                <div class="slide__item__society">
-                  Un S.I. qui évolue vite
-                </div>
-                <div class="slide__item__descr">
-                  Réorganisation des équipes IT, changement des pratiques d'ingénierie et des relations avec les front-office   
-                </div>
-                <span class="slide__item__results">
-                  Résultats : Un time-to-market divisé par 6 en 3 ans
-                </span>
-              </a>
-              <a class="slide__item" href="http://google.com" rel="download">
-                <div class="slide__item__title">
-                  Coaching agile
-                </div>
-                <div class="slide__item__img">
-                  <img src="/images/premierministre.png" alt="Logo client Goood! Services du 1er Ministre">
-                </div>
-                <div class="slide__item__society">
-                  Services du 1er Ministre
-                </div>
-                <div class="slide__item__descr">
-                  Projet VITAM
-                </div>
-                <span href="http://google.com" rel="download">
-                  Télécharger le cas en PDF {{svg "./fleche-droite-ico.svg"}}
-                </span>
-              </a>
-            </div>
+            {{> reflist key="operations" collection=ref_ops }}            
           </div>
           <div class="row">
             <div class="slide__orange">
@@ -101,59 +47,7 @@
                 Développer l’autonomie responsable pour fluidifier l’organisation
               </p>
             </div>
-            <div class="slide__carousel  slide__carousel--organisation">
-              <a class="slide__item">
-                <div class="slide__item__title">
-                  Facilitation
-                </div>
-                <div class="slide__item__img">
-                  <img src="/images/engie.png" alt="Logo client Goood! ENGIE">
-                </div>
-                <div class="slide__item__society">
-                  ENGIE
-                </div>
-                <div class="slide__item__descr">
-
-                </div>
-                <span href="http://google.com" rel="download">
-                  Télécharger le cas en PDF {{svg "./fleche-droite-ico.svg"}}
-                </span>
-              </a>
-              <a class="slide__item">
-                <div class="slide__item__title">
-                  Formation et coaching
-                </div>
-                <div class="slide__item__img">
-                  <img src="/images/voyagesncf.png" alt="Logo client Goood! Voyage-SNCF.com">
-                </div>
-                <div class="slide__item__society">
-                  Voyages-SNCF.com
-                </div>
-                <div class="slide__item__descr">
-
-                </div>
-                <span href="http://google.com" rel="download">
-                  Télécharger le cas en PDF {{svg "./fleche-droite-ico.svg"}}
-                </span>
-              </a>
-              <a class="slide__item" href="http://google.com" rel="download">
-                <div class="slide__item__title">
-                  Changement de modèles
-                </div>
-                <div class="slide__item__img">
-                  <img src="/images/lvmhfb.png" alt="Logo client Goood! LVMF Fragrance Brands">
-                </div>
-                <div class="slide__item__society">
-                  LVMH Fragrance Brands
-                </div>
-                <div class="slide__item__descr">
-
-                </div>
-                <span href="http://google.com" rel="download">
-                  Télécharger le cas en PDF {{svg "./fleche-droite-ico.svg"}}
-                </span>
-              </a>
-            </div>
+            {{> reflist key="organisation" collection=ref_org }}            
           </div>
           <div class="row">
             <div class="slide__orange">
@@ -163,68 +57,16 @@
                 Mobiliser l’éco-système pour co-créer une Offre en rupture
               </p>
             </div>
-            <div class="slide__carousel slide__carousel--offre">
-              <a class="slide__item">
-                <div class="slide__item__title">
-                  Co-Design Thinking
-                </div>
-                <div class="slide__item__img">
-                  <img src="/images/maif.png" alt="Logo client Goood! MAIF">
-                </div>
-                <div class="slide__item__society">
-                  MAIF
-                </div>
-                <div class="slide__item__descr">
-                  Projet 4+2
-                </div>
-                <span>
-                  Télécharger le cas en PDF {{svg "./fleche-droite-ico.svg"}}
-                </span>
-              </a>
-              <a class="slide__item" href="http://google.com" rel="download">
-                <div class="slide__item__title">
-                  Innovation digitale
-                </div>
-                <div class="slide__item__img">
-                  <img src="/images/pixelis.png" alt="Logo client Goood! Pixelis">
-                </div>
-                <div class="slide__item__society">
-                  PIXELIS
-                </div>
-                <div class="slide__item__descr">
-                  Projet SystemeU
-                </div>
-                <span>
-                  Télécharger le cas en PDF {{svg "./fleche-droite-ico.svg"}}
-                </span>
-              </a>
-              <a class="slide__item" href="http://google.com" rel="download">
-                <div class="slide__item__title">
-                  Lean Startup
-                </div>
-                <div class="slide__item__img">
-                  <img src="/images/loreal.png" alt="Logo client Goood! l'Oréal">
-                </div>
-                <div class="slide__item__society">
-                  L'Oréal
-                </div>
-                <div class="slide__item__descr">
-                  Projet ColorAndCo
-                </div>
-                <span>
-                  Télécharger le cas en PDF {{svg "./fleche-droite-ico.svg"}}
-                </span>
-              </a>
-            </div>
+            {{> reflist key="offre" collection=ref_offre }}            
           </div>
         </section>
         <section class="et-aussi">
-          <div>Et aussi</div>
+          <!--<div>Et aussi</div>
           <div class="et-aussi__container">
             <img src="/images/soge.png" alt="">
             <img src="/images/soge.png" alt="">
             <img src="/images/soge.png" alt="">
-          </div>
+          </div>-->
         </section>
         {{> slide-nav-buttons
           prevTitle = 'Recette magique'
