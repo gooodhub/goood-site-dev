@@ -179,8 +179,9 @@
       }
     }
   }
-
-
+&__item * {
+line-height: initial;
+}
   &__item {
     padding: 80px 30px 30px;
     text-align: center;
@@ -231,12 +232,12 @@
       color: $secondaryColor;
     }
 
-    &__descr {
+    &__descr p {
       font-size: 14px;
       color: $secondaryColor;
     }
 
-    span {
+    &__results {
       display: flex;
       justify-content: center;
       align-items: center;
