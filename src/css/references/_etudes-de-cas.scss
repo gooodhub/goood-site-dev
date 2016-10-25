@@ -244,6 +244,14 @@ line-height: initial;
       color: $secondaryColor;
       margin-top: 20px;
     }
+    &__hashtag {
+      font-style: italic;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $primaryColor;
+      margin-top: 10px;
+    }
 
     svg {
       path {fill: $secondaryColor!important;}
