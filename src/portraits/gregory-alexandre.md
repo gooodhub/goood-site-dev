@@ -7,7 +7,7 @@ image: /images/portraits/gregA.jpg
 hashtag: '#WhatCanaillouForYou'
 job: Coach Agile
 facebook: 
-twitter: http://twitter.com/gregalexandre
+twitter: https://twitter.com/gregalexandre
 linkedin: https://fr.linkedin.com/in/gregoryalexandre
 blog: http://blog.goood.pro
 ---

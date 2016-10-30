@@ -7,7 +7,7 @@ image: /images/portraits/gilles-rosenbaum.jpg
 hashtag: '#agile #lifehacker #photographie #comics #voyages #nature'
 job: Continuous improvment promoter
 facebook:
-twitter: http://twitter.com/g_rosenbaum
+twitter: https://twitter.com/g_rosenbaum
 linkedin: https://fr.linkedin.com/in/gillesrosenbaum
 blog: http://grosenbaum.fr
 ---
