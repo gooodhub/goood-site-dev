@@ -2,6 +2,7 @@
 #home {
   .slide__header {
     background-image: url('../images/home-background-'+$theme+'.jpg');
+    background-position-x: right; 
     display:flex;
     align-items: flex-end;
 
