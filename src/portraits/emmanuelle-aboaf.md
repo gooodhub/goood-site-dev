@@ -3,7 +3,7 @@ name: Emmanuelle Aboaf
 bulle1: Si tu baisses les bras, tu n'y arriveras pas. 
 bulle2: Si au contraire, tu ne baisses pas les bras, 
 bulle3: tu y arriveras !
-image: /images/portraits/emmanuelleaboaf.jpg
+image: /images/portraits/emmanuelleA.jpg
 hashtag: '#Sourdingue, #a11y'
 job: Développeuse Agile
 facebook: 

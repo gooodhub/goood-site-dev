@@ -3,7 +3,7 @@ name: Celia Kevorkian
 bulle1: «Lorsque je suis allé à l’école, ils m’ont demandé ce que je voulais être lorsque je serai grand. J’ai répondu « heureux ». Ils m’ont dit que je n’avais pas compris la question, j’ai répondu qu’ils n’avaient pas compris la vie» – John Lennon
 bulle2: 
 bulle3: 
-image: /images/portraits/celiakevorkian.jpg
+image: /images/portraits/celiaK.jpg
 hashtag: '#salsa'
 job: Détectrice de besoins
 facebook: 

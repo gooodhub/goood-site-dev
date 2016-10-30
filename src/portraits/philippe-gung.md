@@ -3,7 +3,7 @@ name: Philippe Gung
 bulle1: 
 bulle2: 
 bulle3: 
-image: /images/portraits/philippegung.jpg
+image: /images/portraits/philippeG.jpg
 hashtag: ''
 job: Artisan Logiciel
 facebook: 

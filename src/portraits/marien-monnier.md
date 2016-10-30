@@ -3,7 +3,7 @@ name: Marien Monnier
 bulle1: 
 bulle2: Pan ! Y'a plus de bug !
 bulle3: 
-image: /images/portraits/marienmonnier.jpg
+image: /images/portraits/marienM.jpg
 hashtag: '#AttrapezLesTous'
 job: Bug Exterminator
 facebook: 

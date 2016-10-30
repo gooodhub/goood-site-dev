@@ -3,7 +3,7 @@ name: Arnaud Gervais
 bulle1: “Je peux facilement me plaindre d'une 
 bulle2: situation que je construis 
 bulle3: et dont je profite” J.A Malarewicz
-image: /images/portraits/arnaudgervais.jpg
+image: /images/portraits/arnaudG.jpg
 hashtag: '#SystemiqueNonViolente'
 job: Coach Agile
 facebook: 

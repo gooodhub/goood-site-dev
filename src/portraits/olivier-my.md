@@ -3,7 +3,7 @@ name: Olivier My
 bulle1: “Happiness is a choice. 
 bulle2: Choose to be happy and you will be.” 
 bulle3: Dominique Bertolucci
-image: /images/portraits/olivierM.jpg
+image: /images/portraits/olivier-my.jpg
 hashtag: '#Chinois, #Happiness'
 job: Happiness Promoter
 facebook: https://www.facebook.com/oyo.my
