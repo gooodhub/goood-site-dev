@@ -95,6 +95,7 @@ if (__DEV__) {
       'src/**/*.scss',
       'src/**/*.svg',
       'src/**/*.js',
+      'src/**/*.jpg',
     ],
     port: 55555,
   }));

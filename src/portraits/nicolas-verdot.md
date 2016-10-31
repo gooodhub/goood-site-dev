@@ -4,7 +4,7 @@ bulle1: «Seul on va plus vite,
 bulle2: ...
 bulle3: ensemble on va plus loin»
 image: /images/portraits/nicoV.jpg
-hashtag: '#'
+hashtag: '#fourmis'
 job: Développeur d'Agilité
 facebook: 
 twitter: https://twitter.com/nverdot

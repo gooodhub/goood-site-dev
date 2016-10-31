@@ -4,6 +4,12 @@
   }
 }
 
+#career {
+  .slide__header {
+    background-image: url('../images/header-career-'+$theme+'.jpg');
+  }
+}
+
 #contact {
   .slide__header {
     background-image: url('../images/header-contact-'+$theme+'.jpg');

@@ -8,6 +8,7 @@
 @import 'buttons';
 @import 'typography';
 
+@import 'headers';
 @import 'slide';
 @import 'slideNavButtons';
 @import 'subPage';
@@ -18,10 +19,10 @@
 @import 'home/progres';
 @import 'home/chiffres';
 
-@import 'equipe/landing';
 @import 'equipe/competences-equipes.scss';
 @import 'equipe/portraits';
 @import 'equipe/culture.scss';
+@import 'equipe/calltoaction.scss';
 
 @import 'recette/magie.scss';
 @import 'recette/be-agile.scss';
