@@ -77,6 +77,67 @@
   }
 }
 
+.candidature {
+  &__img {
+    @extend %shadow;
+
+    height: 500px;
+    background: url(/images/coffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+
+    @media #{$small-only} {
+      margin: 10px;
+    }
+
+    @media #{$medium-up} {
+      height: auto;
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
+
+  &__content {
+    @extend %shadow;
+    @extend %contentPadding;
+    padding: 35px 30px;
+    background: white;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+
+    @media #{$medium-up} {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+    p, ul, li {
+       line-height: em(36);
+       font-size: em(24);
+       margin: 0;
+    }
+    p, ul{
+      margin-top: 0.7em;
+    }
+    .btn {
+      margin: 0 20%;
+      margin-top: 1em;
+    }
+  }
+
+  &__title {
+    @extend %contentExtraBoldFont;
+    font-size: em(46);
+
+    span {
+      display: block;
+      font-size: em(25);
+    }
+  }
+
+}
+
 .temoignage {
   &__img {
     @extend %shadow;

@@ -1,4 +1,4 @@
-.competences, .lequipe {
+.competences, .lequipe, .diversite, .profil, .process {
   @extend %sectionPadding;
   @media #{$small-only} { padding-bottom: 0; }
 
@@ -39,7 +39,7 @@
   }
 }
 
-.lequipe__img {
+.lequipe__img, .profil__img {
   @media #{$medium-up} {
     order: 1;
   }

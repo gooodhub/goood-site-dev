@@ -2,9 +2,9 @@
 <div class="slide" id="career">
 	{{> slide-header title=title }}
 	<div class="slide__content">
-		<section class="lequipe">
+		<section class="diversite">
 			<div class="row">
-				<div class="lequipe__content">
+				<div class="diversite__content">
 					<header>
 						<h1>
 							Nous sommes pro-diversité
@@ -23,28 +23,27 @@
 						popurquoi nous cherchons des gens différents.
 					</p>
 				</div>
-				<div class="lequipe__img">
+				<div class="diversite__img">
 					<img src="/images/goood-people.jpg" alt="Goood! équipe extrapreneurs">
 				</div>
 			</div>
 		</section>
-		<section class="competences">
+		<section class="profil">
 			<div class="row">
-				<div class="competences__content">
+				<div class="profil__content">
 					<header>
 						<h1>
 							Cherche mouton bleu à 7 pattes
 						</h1>
 						<p>
-							Bonne présentation, moins de 26 ans, 15 ans d'expérience, parlant Tamoul, Portugais et Russe. Fan de foot et philosophe un
-							plus.
+							Bonne présentation, moins de 26 ans, 15 ans d'expérience, parlant Tamoul, Portugais et Russe. Fan de foot un plus.
 						</p>
 					</header>
 					<p>Non, nous n'avons pas de profil pré-déterminé pour nos recrutements. Evidemment pour prendre un job il faut que vous
 						en ayez les compétences ou, à tout le moins, la capacité de les acquérir rapidement, mais ce qui nous intéresse tout
 						autant c'est ce qui ne rentre pas "dans le cadre": ce que vous apportez et qui est vous.</p>
 				</div>
-				<div class="competences__img">
+				<div class="profil__img">
 					<img src="/images/skill-cards.jpg" alt="Renforcer l'équipe Goood!">
 				</div>
 			</div>
@@ -65,17 +64,17 @@
 					point de départ du recrutement.
 				</p>
 				<p>
-					Avant de poser votre candidature, laissez-nous vous expliquer comment cela fonctionne et ce que nous attendons de vous.
+					Avant de <a href="mailto:jobs@goood.pro">poser votre candidature</a>, laissez-nous vous expliquer comment cela fonctionne et ce que nous attendons de vous.
 				</p>
 			</div>
 		</section>
-		<section class="process">
+		<section class="candidature">
 			<div class="row">
 				<div class="candidature__img">
-					<img src="/images/coffee.jpg" alt="Parlons un peu de vous">
+					
 				</div>
 				<div class="candidature__content">
-					<header class="process__header">
+					<header class="candidature__header">
 						<p>
 							Candidature
 						</p>
@@ -83,24 +82,20 @@
 							Parlez-nous de vous
 						</h1>
 					</header>
-					<div class="process__content">
+					<div class="candidature__text">
 						{{{ contents }}}
-						<a class="btn btn-primary" data-text="(envoyez un mail à Delphine)" href="mailto:jobs@goood.pro">
-							<span>
-                  Ecrivez-vous
-                </span>
+					</div>
+					<div class="candidature__action">
+						<a class="btn btn-primary" data-text="(mail à Delphine)" href="mailto:jobs@goood.pro">
+							<span>Ecrivez-nous</span>
 						</a>
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
-	{{> slide-nav-buttons 
-    prevTitle = 'Équipe et Culture' 
-    prevPath = '/equipe-et-culture/' 
-    nextTitle = 'Evts et Formations' 
-    nextPath = '/evenements-formations/' }} 
-  {{> footer }}
+	{{> slide-nav-buttons prevTitle = 'Équipe et Culture' prevPath = '/equipe-et-culture/' nextTitle = 'Evts et Formations' nextPath
+	= '/evenements-formations/' }} {{> footer }}
 </div>
 </div>
 {{/inline}} {{/layout}}
