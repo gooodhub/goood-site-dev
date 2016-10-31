@@ -1,5 +1,6 @@
 import homePage from './pages/home';
 import equipePage from './pages/equipe';
+import careersPage from './pages/recrutement';
 import recettePage from './pages/recette';
 import referencesPage from './pages/references';
 import eventsPage from './pages/evenements';
@@ -55,6 +56,7 @@ pages.push(createPage(homePage));
 pages.push(createPage(recettePage));
 pages.push(createPage(referencesPage));
 pages.push(createPage(equipePage));
+pages.push(createPage(careersPage));
 pages.push(createPage(eventsPage));
 pages.push(createPage(contactPage));
 
