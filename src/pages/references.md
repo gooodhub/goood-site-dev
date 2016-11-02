@@ -1,5 +1,6 @@
 ---
 title: Références et cas clients Goood!
+headline: Références
 slug: references
 description: Description de la troisième page
 layout: references.html
