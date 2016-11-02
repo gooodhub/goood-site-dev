@@ -11,13 +11,13 @@ Un CV ne signifie pas grand chose. Nous avons dans le passé reçu plein de CV t
 
 ## Comment candidater ##
 
-Plutôt qu'un formulaire de candidature, écrivez-nous un mail de motivation, sauce Goood!: 
+Plutôt qu'un formulaire de candidature, écrivez-nous un mail de motivation, sauce Goood! : 
 
 Parlez-nous de ce qui vous anime, de vos bonnes et mauvaises expériences, dites-nous comment et pourquoi vous voulez changer le monde avec nous.
 
 ## Je ne sais pas bien écrire ##
 
-Ce qui nous intéresse ici, ça n'est pas votre maitrise de l'imparfait du subjonctif ou que vous écriviez des phrases de dix-huit lignes mais que vous montriez les capacités essentielles de notre métier :
+Ce qui nous intéresse ici, ça n'est pas votre maîtrise de l'imparfait du subjonctif ou que vous écriviez des phrases de dix-huit lignes mais que vous montriez les capacités essentielles de notre métier :
 
 * structurer et ordonner vos idées pour que ce qui est logique pour vous le soit aussi pour celui qui vous lit,
 * savoir se mettre à la place de l'autre (le lecteur, le client),
