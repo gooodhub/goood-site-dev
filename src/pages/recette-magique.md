@@ -1,6 +1,7 @@
 ---
-title: Recette magique
+title: Démarche Goood (recette magique :-)
 slug: recette-magique
+headline: Recette magique
 description: Description de la deuxième page
 layout: recette-magique.html
 ---

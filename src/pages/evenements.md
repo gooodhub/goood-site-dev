@@ -1,6 +1,7 @@
 ---
-title: Evts & formations
+title: Événements & formations Goood!
 slug: evenements-formations
+headline: Evts & formations
 description: Retrouvez les prochaines dates de nos formations et des événements ouverts au public où vous pouvez nous rencontrer.
 layout: evenements.html
 ---
