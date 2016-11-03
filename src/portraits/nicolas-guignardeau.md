@@ -1,10 +1,10 @@
 ---
 name: Nicolas Guignardeau
-bulle1: "Ensemble, Ensemble
-bulle2: 1 + 1 + 1 + tout le monde." Sinclair
+bulle1: “Ensemble, Ensemble
+bulle2: 1 + 1 + 1 + tout le monde.” Sinclair
 bulle3: On est plus fort en équipe non?
 image: /images/portraits/nicoG.jpg
-hashtag: '#Dady'
+hashtag: '#Daddy'
 job: Chef de projet Technique .Net
 facebook: 
 twitter: https://twitter.com/lsonico
