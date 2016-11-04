@@ -80,17 +80,14 @@
           <div class="portraits__container">
             <div class="row">
               {{#each portraits}}
-              {{#if hashtag}}
-                <div
-                  class="portrait"
-                  data-portrait="{{this.path}}"
-                >
+              {{#if hashtag}}{{#if bulle2}}{{#if image}}{{#if job}}
+                <div class="portrait" data-portrait="{{this.path}}" >
                   <img data-src="{{this.image}}" alt="{{name}}" class="portrait__img b-lazy">
                   <span>
                     {{this.hashtag}}
                   </span>
                 </div>
-                {{/if}}
+                {{/if}}{{/if}}{{/if}}{{/if}}
               {{/each}}
             </div>
           </div>
@@ -153,7 +150,7 @@
             <div class="portrait__slides__close">✕</div>
             <div class="portrait__slick">
             {{#each portraits}}
-            {{#if hashtag}}
+            {{#if hashtag}}{{#if bulle2}}{{#if image}}{{#if job}}
               <div class="portrait__slick-item">
                 <div
                   class="portrait__slick-item__img"
@@ -181,7 +178,7 @@
                   </div>
                 </div>
               </div>
-              {{/if}}
+              {{/if}}{{/if}}{{/if}}{{/if}}
             {{/each}}
             </div>
           </div>
