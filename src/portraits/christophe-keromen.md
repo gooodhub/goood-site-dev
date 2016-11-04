@@ -1,8 +1,8 @@
 ---
 name: Christophe Keromen
 bulle1: “Toujours plus de la même chose 
-bulle2: donne toujours plus du même résultat” 
-bulle3: Paul Watzlawick
+bulle2: donne toujours plus 
+bulle3: du même résultat” Watzlawick
 image: /images/portraits/christopheK.jpg
 hashtag: '#StartWithWhy'
 job: Catalyseur respectueux
