@@ -9,7 +9,7 @@ job: Coach agile
 facebook: 
 twitter: https://twitter.com/cranedemorse
 linkedin: https://fr.linkedin.com/in/julienporot
-blog: http://blog.goood.pro
+blog: https://blog.goood.pro/author/jporot/
 ---
 
 Julien aide les personnes, les équipes et les organisations à mieux collaborer, et fait tout son possible pour que cela se fasse dans la joie et le respect. 
