@@ -3,7 +3,7 @@ name: Yacine Abid
 bulle1: Soyez le changement 
 bulle2: que vous voulez voir 
 bulle3: dans le monde. Gandhi
-image: /images/portraits/yacineA.jpg
+image: 
 hashtag: '#LifeLongLearning'
 job: Coach agile
 facebook: 
