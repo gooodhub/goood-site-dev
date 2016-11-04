@@ -2,7 +2,7 @@
 name: Julien Porot
 bulle1: «Never doubt that a small group of thoughtful,
 bulle2: committed people can change the world. Indeed,
-bulle3: it is the only thing that ever has » [Margaret Mead]
+bulle3: it is the only thing that ever has » M. Mead
 image: /images/portraits/julienP.jpg
 hashtags: ‘#HatersGonnaHate’
 job: Coach agile
