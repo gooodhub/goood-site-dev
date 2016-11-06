@@ -17,4 +17,4 @@ Coach, il les aide à devenir experts dans la résolution de leurs problèmes.
 Agiliste, il est expert dans l'adaptation basée sur l'intelligence collective.
 Point commun : l'importance des boucles de feedback !
 
-Comment le brancher ? essayez systémique - océan - théatre - apprentissage
+Comment le brancher ? essayez systémique - océan - théatre - apprentissage 
