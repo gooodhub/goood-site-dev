@@ -3,7 +3,7 @@ client: Serexim
 image: /images/clients/serexim.png
 demande: Notre métier sur tablettes
 hashtag: productivité
-enjeu: Un CA qui augmente 2x plus vite que l'effectif
+enjeu: Gagner 20% de productivité sur le traitement d'une commande
 solution: Logiciel sur mesure
 cat: operations
 ---
