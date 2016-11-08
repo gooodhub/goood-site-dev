@@ -3,7 +3,7 @@ name: Wandrille Peltier
 bulle1: “People who think they know 
 bulle2: everything are a great annoyance to
 bulle3: those of us who do.” Isaac Asimov
-image: /images/portraits/wandrille.jpg
+image: 
 hashtag: '#Normand'
 job: Développeur .NET
 facebook: 
