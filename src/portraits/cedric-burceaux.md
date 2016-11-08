@@ -1,7 +1,7 @@
 ---
 name: Cédric Burceaux
-bulle1: "Meilleur qu'hier, moins bon que demain"
-bulle2: 
+bulle1: 
+bulle2: Meilleur qu'hier, moins bon que demain
 bulle3: 
 image: /images/portraits/cedricB.jpg
 hashtag: '#Sportsmanlike'
