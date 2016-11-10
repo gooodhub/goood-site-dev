@@ -1,8 +1,8 @@
 ---
 name: Etienne Dussert
-bulle1: "Une personne qui n’a jamais commis
+bulle1: Une personne qui n’a jamais commis
 bulle2: d’erreurs n’a jamais tenté 
-bulle3: d’innover." A. Einstein
+bulle3: d’innover. A. Einstein
 image: /images/portraits/etienneD.jpg
 hashtag: '#'
 job: Développeur .NET
