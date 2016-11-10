@@ -11,7 +11,6 @@ twitter: https://twitter.com/g_rosenbaum
 linkedin: https://fr.linkedin.com/in/gillesrosenbaum
 blog: http://grosenbaum.fr
 ---
+Gilles ... est et fait plein de choses, surement, mais il n'a pas complètement rempli sa fiche ;-)
 
-Gilles ....
-
-Où le croiser ? En pleine forêt avec un appareil photo et un objectif marco en main.
+Où le croiser ? En pleine forêt avec un appareil photo et un objectif macro en main.

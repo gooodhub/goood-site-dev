@@ -3,7 +3,7 @@ name: Lionel Massiera
 bulle1: La règle d'or de la conduite est la tolérance mutuelle, 
 bulle2: car nous ne penserons jamais tous de la même façon, 
 bulle3: nous ne verrons qu'une partie de la vérité et sous des angles différents.
-image: /images/portraits/lionelmassiera.jpg
+image: 
 hashtag: '#BatteurFou'
 job: 
 facebook: 

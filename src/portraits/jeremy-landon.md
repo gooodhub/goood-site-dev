@@ -3,7 +3,7 @@ name: Jérémy Landon
 bulle1: 
 bulle2: 
 bulle3: 
-image: /images/portraits/jeremyL.jpg
+image: 
 hashtag: '#MangeurMasqué'
 job: Consultant ALM
 facebook: https://www.facebook.com/jeremy.landon.543
