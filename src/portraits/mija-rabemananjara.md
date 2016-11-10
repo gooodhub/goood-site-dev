@@ -2,7 +2,7 @@
 name: Mija Rabemananjara
 bulle1: ”If my mind can conceive it, 
 bulle2: and my heart can believe it, 
-bulle3: then I can achieve it” Muhammad Ali
+bulle3: then I can achieve it” M. Ali
 image: /images/portraits/mijaR.jpg
 hashtag: '#lamijatouch'
 job: Agilitatrice apprenante

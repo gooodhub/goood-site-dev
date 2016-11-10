@@ -1,7 +1,7 @@
 ---
 name: Jéromne Veneziani
-bulle1: En affaires ce sont souvent 
-bulle2: les personnes les plus carrées
+bulle1: En affaires ce sont souvent les
+bulle2: personnes les plus carrées qui
 bulle3: qui mènent les leur le plus rondement. (F. Blanche)
 image: /images/portraits/jeromeV.jpg
 hashtag: '#BetterSafeThanSorry'

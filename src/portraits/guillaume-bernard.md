@@ -1,7 +1,7 @@
 ---
 name: Guillaume Bernard
 bulle1: keep it simple,  
-bulle2: imagine yourself maintain
+bulle2: imagine yourself maintaining
 bulle3: it in one year
 image: /images/portraits/guillaumeB.jpg
 hashtag: '#DidYouSayRefacto'

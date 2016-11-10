@@ -1,8 +1,8 @@
 ---
 name: Cédric Burceaux
-bulle1: 
-bulle2: Meilleur qu'hier, moins bon que demain
-bulle3: 
+bulle1: Meilleur qu'hier, 
+bulle2: ...
+bulle3: moins bon que demain
 image: /images/portraits/cedricB.jpg
 hashtag: '#Sportsmanlike'
 job: Troubadour mignon

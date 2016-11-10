@@ -1,10 +1,10 @@
 ---
 name: Etienne Dussert
-bulle1: Une personne qui n’a jamais commis
-bulle2: d’erreurs n’a jamais tenté 
-bulle3: d’innover. A. Einstein
+bulle1: Une personne qui n’a jamais 
+bulle2: commis d’erreurs n’a jamais 
+bulle3: tenté d’innover. A. Einstein
 image: /images/portraits/etienneD.jpg
-hashtag: '#'
+hashtag: ''
 job: Développeur .NET
 facebook: 
 twitter: https://twitter.com/astr0penguin
