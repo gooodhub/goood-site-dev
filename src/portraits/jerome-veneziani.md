@@ -1,5 +1,5 @@
 ---
-name: Jéromne Veneziani
+name: Jérome Veneziani
 bulle1: En affaires ce sont souvent les
 bulle2: personnes les plus carrées qui mènent 
 bulle3: les leur le plus rondement (F. Blanche)
