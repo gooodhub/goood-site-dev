@@ -21,6 +21,8 @@ cd ..
 npm install
 NODE_ENV=production node index.js
 cd dist
+mv CNAME.BETA CNAME
+rm CNAME.PROD
 mv ../gitdeploy .git
 git add .
 git commit -am "$commitmsg"
