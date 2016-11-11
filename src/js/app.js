@@ -103,6 +103,11 @@ const goood = () => {
     }
     currentPage.onEnterCompleted();
     currentPage.getDOMElement().classList.add('slide--iosFix');
+    // prevent slide mecanics to handle basic links
+    document.querySelector('a.click-through').addEventListener('click', (e) => {
+      e.preventDefault();
+      document.location.href = e.target.href;
+    });
   }
 
 
@@ -114,7 +119,7 @@ const goood = () => {
     if (ctx.init) return;
 
     const pageItem = pagesData.find((p) => p.path === ctx.pathname);
-
+    
     if (ctx.pathname !== currentPage.path) {
       carousel.showPane(pageItem.position);
     }
