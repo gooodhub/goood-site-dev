@@ -6,4 +6,4 @@ description: Démarche en 5 points déployée par Goood! pour accompagner la tra
 layout: recette-magique.html
 ---
 
-Page 2
+
