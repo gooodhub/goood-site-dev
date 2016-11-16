@@ -1,5 +1,4 @@
 echo "!!!!!!!!! Déploiement en PROD !!!!!!!!!" 
-echo "$1"
 echo "Etes-vous sûr(e) ? tapez OUI[ENTRÉE]: " 
 read confirm
 if test "$confirm" = "OUI"
@@ -24,8 +23,7 @@ rm -rf dist
 fi
 git clone -b gh-pages --single-branch $GITURL dist
 cd dist
-git checkout gh-pages
-# ls -a | grep -v '^\.$' | grep -v '^\.\.$' | grep -v '^\.git$' | xargs rm -rf
+#git checkout gh-pages
 mv .git ../gitdeploy
 cd ..
 npm install
@@ -36,6 +34,5 @@ rm CNAME.BETA
 mv ../gitdeploy ./.git
 git add .
 git commit -am "$commitmsg"
-#git push origin gh-pages --force
 git push --force 
 cd ..
