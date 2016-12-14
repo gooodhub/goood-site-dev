@@ -27,8 +27,8 @@ Une autre forme de partage, c’est la formation. Beaucoup de sessions sont orga
 
 ### 1 Cube And Go ###
 * Sophia Antipolis le Jeudi 20 Janvier : prioriser, estimer et planifier [“inscription”](https://yurplan.com/event/1-CUBE-GO-PRIORISER-ESTIMER-ET-PLANIFIER-SOPHIA-ANTIPOLIS/12819).  
-* Sophia Antipolis le Jeudi 20 Janvier : cadrer un projet en Agile [“inscription”](https://yurplan.com/event/1-CUBE-GO-CADRER-UN-PROJET-EN-AGILE-SOPHIA-ANTIPOLIS/13118).
-* Sophia Antipolis le Jeudi 20 Janvier : exprimer et formation le besoin [“inscription”](https://yurplan.com/event/1-CUBE-GO-EXPRIMER-ET-FORMALISER-LE-BESOIN-SOPHIA-ANTIPOLIS/13119).
+* Sophia Antipolis le Mardi 28 Février : cadrer un projet en Agile [“inscription”](https://yurplan.com/event/1-CUBE-GO-CADRER-UN-PROJET-EN-AGILE-SOPHIA-ANTIPOLIS/13118).
+* Sophia Antipolis le Jeudi 24 Mars : exprimer et formation le besoin [“inscription”](https://yurplan.com/event/1-CUBE-GO-EXPRIMER-ET-FORMALISER-LE-BESOIN-SOPHIA-ANTIPOLIS/13119).
 
 <a name="prochaines-dates"></a>
 # Nous aimons, nous soutenons (événements publics) #
