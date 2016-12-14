@@ -41,7 +41,7 @@ Une autre forme de partage, c’est la formation. Beaucoup de sessions sont orga
 
 ### Janvier ###
 * Lundi 9 Janvier : [“Meetup Agile Playground Sophia Antipolis ”](https://www.meetup.com/fr-FR/Agile-Play-Ground/events/236211472/)
-* Mardi 10 Janvier :  [“Meetup : Entreprise agile et managemen : Programmation collaborative : que va-t-on faire en 2017  ”]https://www.meetup.com/fr-FR/entreprise-agile/events/235753823/)
+* Mardi 10 Janvier :  [“Meetup : Entreprise agile et managemen : Programmation collaborative : que va-t-on faire en 2017  ”](https://www.meetup.com/fr-FR/entreprise-agile/events/235753823/)
 * Jeudi 12 Janvier : Facilit'ON - Sophia Antipolis - [“la Métaphore dans tous ses états !”](https://www.meetup.com/fr-FR/FacilitON/events/236077421/)
 * Mardi 24 Janvier : PMI - Sophia Antipolis - Change Management 
 
