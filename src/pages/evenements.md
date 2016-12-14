@@ -33,33 +33,17 @@ Une autre forme de partage, c’est la formation. Beaucoup de sessions sont orga
 <a name="prochaines-dates"></a>
 # Nous aimons, nous soutenons (événements publics) #
 
-### Septembre ###
-* 27 septembre, Meetup [“Entreprise et Managers agiles”](http://www.meetup.com/fr-FR/entreprise-agile) : soirée autour de Jérémie Ruet sur l'agilité organisationnelle
-* 29, 30 septembre et 1er octobre : Emmanuelle participe à Paris Web et présente un atelier d'1h30 sur le thème de l'accessibilité numérique (samedi à 16h20).
-
-### Octobre ###
-* 4 Octobre : afterWork “Coding fuité”
-* 5 Octobre : Jérémie donne un talk sur Powershell 6 sous Linux dans le cadre de MSExperience (nouveau nom des Techdays)
-* 9 10 11 octobre : Les Fourmis du changement ICA France organisent une session de certification ToP&trade; en facilitation
-* 10 Octobre - GooodDay (sur invitation)
-* 12 octobre, Meetup [“Entreprise et Managers agiles”](http://www.meetup.com/fr-FR/entreprise-agile) : un petit-déjeuner sur l'Element Humain
-* 14 Octobre : Olivier anime l’atelier Kanban Values à l’agile Tour Rennes
-* 19 octobre : Damien fait la keynote des DevDays Orange sur le Software Craftsmanship
-
-### Novembre ###
-* 8 Novembre : afterWork “Coding fuité”
-* 8 et 17 Novembre, Aix-Marseille, Elab. [Ze Change Makers](http://zechangemakers.com) (avec Romain) co-produit et anime le Off
-* 14 Novembre - GooodDay (sur invitation)
-* 17 novembre : Petit-déjeuner REX sur le scaling agile (SAFe)
-* 23 novembre, Meetup [“Entreprise et Managers agiles”](http://www.meetup.com/fr-FR/entreprise-agile) : petit-déjeuner critique du livre de Jurgen Appelo, “Management 3.0”
-
 ### Décembre ###
 * 1er Agile Tour Marseille - Goood sponsor + speakers (tbd)
 * 6 Agile Tour Sophia-Antipolis - Goood sponsor + speakers (tbd)
 * 12 Décembre - GooodDay (sur invitation)
+* Jeudi 15 Décembre : [“Agile Playground - Paris”](https://www.meetup.com/fr-FR/Agile-Play-Ground/events/235914334)
 
 ### Janvier ###
 * Lundi 9 Janvier : [“Meetup Agile Playground Sophia Antipolis ”](https://www.meetup.com/fr-FR/Agile-Play-Ground/events/236211472/)
+* Mardi 10 Janvier :  [“Meetup : Entreprise agile et managemen : Programmation collaborative : que va-t-on faire en 2017  ”]https://www.meetup.com/fr-FR/entreprise-agile/events/235753823/)
+* Jeudi 12 Janvier : Facilit'ON - Sophia Antipolis - [“la Métaphore dans tous ses états !”](https://www.meetup.com/fr-FR/FacilitON/events/236077421/)
+* Mardi 24 Janvier : PMI - Sophia Antipolis - Change Management 
 
 ## Les groupes et communautés où nous sommes impliqués ##
 * Agile France 
