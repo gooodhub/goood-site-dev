@@ -25,6 +25,11 @@ Une autre forme de partage, c’est la formation. Beaucoup de sessions sont orga
 * Paris le 3 Février.
 * Lyon le 11 Janvier.
 
+### 1 Cube And Go ###
+* Sophia Antipolis le Jeudi 20 Janvier : prioriser, estimer et planifier [“inscription”](https://yurplan.com/event/1-CUBE-GO-PRIORISER-ESTIMER-ET-PLANIFIER-SOPHIA-ANTIPOLIS/12819).  
+* Sophia Antipolis le Jeudi 20 Janvier : cadrer un projet en Agile [“inscription”](https://yurplan.com/event/1-CUBE-GO-CADRER-UN-PROJET-EN-AGILE-SOPHIA-ANTIPOLIS/13118).
+* Sophia Antipolis le Jeudi 20 Janvier : exprimer et formation le besoin [“inscription”](https://yurplan.com/event/1-CUBE-GO-EXPRIMER-ET-FORMALISER-LE-BESOIN-SOPHIA-ANTIPOLIS/13119).
+
 <a name="prochaines-dates"></a>
 # Nous aimons, nous soutenons (événements publics) #
 
@@ -53,6 +58,9 @@ Une autre forme de partage, c’est la formation. Beaucoup de sessions sont orga
 * 6 Agile Tour Sophia-Antipolis - Goood sponsor + speakers (tbd)
 * 12 Décembre - GooodDay (sur invitation)
 
+### Janvier ###
+* Lundi 9 Janvier : [“Meetup Agile Playground Sophia Antipolis ”](https://www.meetup.com/fr-FR/Agile-Play-Ground/events/236211472/)
+*
 ## Les groupes et communautés où nous sommes impliqués ##
 * Agile France 
 * Agile at Heart (Paris)
