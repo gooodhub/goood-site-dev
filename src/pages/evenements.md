@@ -14,16 +14,11 @@ Une autre forme de partage, c’est la formation. Beaucoup de sessions sont orga
 
 *Astuce : Pour découvrir l’étendue de notre offre de formation le mieux c’est de [télécharger notre catalogue](http://www.goood.pro/files/catalogue-formations-goood.pdf) et de [contacter Célia](formation@goood.pro).* 
 
-### Facilitation : les bases de ToP (en anglais) ###
-* Paris les 8, 9 et 10 octobre.
+### Facilitation : les bases de ToP ###
+* Sophia Antipolis - Mars (Date à définir)
 
 ### Agilité, Complexité et Management : le Management "3.0" ###
-* Paris les 7-8 Janvier puis 21 février et 17 Mars.
-
-### Fondamentaux des méthodes agiles ###
-* Paris le 9 Décembre.
-* Paris le 3 Février.
-* Lyon le 11 Janvier.
+* Marseille - Mars (Date à définir)
 
 ### 1 Cube And Go ###
 * Sophia Antipolis le Jeudi 20 Janvier : prioriser, estimer et planifier [“inscription”](https://yurplan.com/event/1-CUBE-GO-PRIORISER-ESTIMER-ET-PLANIFIER-SOPHIA-ANTIPOLIS/12819).  
