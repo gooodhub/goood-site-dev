@@ -60,7 +60,7 @@ Une autre forme de partage, c’est la formation. Beaucoup de sessions sont orga
 
 ### Janvier ###
 * Lundi 9 Janvier : [“Meetup Agile Playground Sophia Antipolis ”](https://www.meetup.com/fr-FR/Agile-Play-Ground/events/236211472/)
-*
+
 ## Les groupes et communautés où nous sommes impliqués ##
 * Agile France 
 * Agile at Heart (Paris)
