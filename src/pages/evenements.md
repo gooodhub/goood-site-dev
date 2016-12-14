@@ -17,8 +17,9 @@ Une autre forme de partage, c’est la formation. Beaucoup de sessions sont orga
 ### Facilitation : les bases de ToP ###
 * Sophia Antipolis - Mars (Date à définir)
 
-### Agilité, Complexité et Management : le Management "3.0" ###
-* Paris et Marseille - Mars (Date à définir)
+### Manager Agile ###
+* 24-25 janvier, 23 février et 17 mars - Paris 
+* Marseille (Date à définir)
 
 ### 1 Cube And Go ###
 * Sophia Antipolis le Jeudi 20 Janvier : prioriser, estimer et planifier [“inscription”](https://yurplan.com/event/1-CUBE-GO-PRIORISER-ESTIMER-ET-PLANIFIER-SOPHIA-ANTIPOLIS/12819).  
