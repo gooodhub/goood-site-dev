@@ -5,6 +5,20 @@
       <div class="slide__content">
         <div class="row">
           <section class="intro">
+            {{#each evenements}}          
+                <div class="evenement" >
+                  <a href="/{{this.path}}">
+                  <h3>{{this.title}}</h3>
+                  <span>
+                    {{this.description}}
+                  </span>
+                  </a>
+                </div>                
+              {{/each}}
+          </section>
+          </div>
+          <div class="row">
+          <section class="intro">
             {{{ contents }}}
           </section>
         </div>
