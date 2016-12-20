@@ -3,7 +3,7 @@ const layouts = require('metalsmith-layouts');
 const markdown = require('metalsmith-markdown');
 const sass = require('metalsmith-sass');
 const autoprefixer = require('metalsmith-autoprefixer');
-const permalinks = require('metalsmith-permalinks');
+const permalinks = require('metalsmith-permalinks'); 
 const collections = require('metalsmith-collections');
 const metalSmithRegisterHelpers = require('metalsmith-register-helpers');
 const rootPath = require('metalsmith-rootpath');
@@ -39,9 +39,13 @@ const buildApp = metalsmith(__dirname)
   .use(metalSmithRegisterHelpers({
     directory: './layouts/helpers',
   }))
+
   .use(collections({
     pages: {
       pattern: 'pages/*.md',
+    },
+    evenements: {
+      pattern: 'evenements/*.md',
     },
     portraits: {
       pattern: 'portraits/*.md',
@@ -57,6 +61,26 @@ const buildApp = metalsmith(__dirname)
     },
   }))
   .use(markdown())
+
+  // Routing
+  .use(permalinks({
+    pattern: ':slug',
+    relative: false,
+    date: 'YYYY/MM',
+    linksets: [{
+        match: { collection: 'subPages' },
+        pattern: ':parent/:slug',
+      },{
+        match: { collection: 'pages' },
+        pattern: ':slug',
+      },{
+        match: { collection: 'evenements' },
+        pattern: 'evenements-formations/:slug',
+        date: 'YYYY',
+      }]
+  }))
+
+  // Contenu et mise en forme
   .use(layouts({
     engine: 'handlebars',
     partials: 'layouts/partials',
@@ -66,26 +90,9 @@ const buildApp = metalsmith(__dirname)
   .use(sass(sassParams()))
   .use(autoprefixer())
 
+
   // JS - app.js to bundle.js using babel transpiler
   .use(webpackPlugin(webpackConfig))
-
-  // Routing
-  .use(permalinks({
-    pattern: ':slug',
-    relative: false,
-
-    linksets: [
-      {
-        match: { collection: 'subPages' },
-        pattern: ':parent/:slug',
-        date: 'mmddyy',
-      },
-      {
-        match: { collection: 'pages' },
-        pattern: ':slug',
-      },
-    ],
-  }))
 ;
 
 // Live reload

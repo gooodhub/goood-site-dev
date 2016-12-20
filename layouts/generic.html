@@ -1,23 +1,9 @@
 {{#> layout }}
   {{#*inline "content"}}
-    <div class="slide" id="events">
+    <div class="slide" id="{{slug}}">
       {{> slide-header title=headline }}
       <div class="slide__content">
         <div class="row">
-          <section class="intro">
-            {{#each evenements}}          
-                <div class="evenement" >
-                  <a href="/{{this.path}}">
-                  <h3>{{this.title}}</h3>
-                  <span>
-                    {{this.description}}
-                  </span>
-                  </a>
-                </div>                
-              {{/each}}
-          </section>
-          </div>
-          <div class="row">
           <section class="intro">
             {{{ contents }}}
           </section>
