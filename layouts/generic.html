@@ -1,0 +1,21 @@
+{{#> layout }}
+  {{#*inline "content"}}
+    <div class="slide" id="{{slug}}">
+      {{> slide-header title=headline }}
+      <div class="slide__content">
+        <div class="row">
+          <section class="intro">
+            {{{ contents }}}
+          </section>
+        </div>
+        {{> slide-nav-buttons
+          prevTitle = 'Recrutement'
+          prevPath = '/recrutement/'
+          nextTitle = 'Contacts'
+          nextPath = '/contact/'
+        }}
+        {{> footer }}
+      </div>
+    </div>
+  {{/inline}}
+{{/layout}}

@@ -43,6 +43,12 @@ const buildApp = metalsmith(__dirname)
     pages: {
       pattern: 'pages/*.md',
     },
+    /**
+     * @EXAMPLE - 1 - On crée une collection d'évènements
+     */
+    evenements: {
+      pattern: 'evenements/*.md',
+    },
     portraits: {
       pattern: 'portraits/*.md',
     },
@@ -83,6 +89,14 @@ const buildApp = metalsmith(__dirname)
       {
         match: { collection: 'pages' },
         pattern: ':slug',
+      },
+      /**
+       * @EXAMPLE - 2 - On génère les permalinks associés pour les évènements
+       */
+      {
+        match: { collection: 'evenements' },
+        pattern: 'evenements-formations/:slug',
+        date: 'mmddyy',
       },
     ],
   }))
