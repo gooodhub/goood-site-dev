@@ -4,6 +4,7 @@ slug: mentions
 description: Informations juridiques obligatoires à propos du site Goood! 
 layout: popin.html
 robots: 'noindex, nofollow'
+permalink: false
 ---
 # Informations légales et autres détails prosaïques #
 ## ... mais parfois utiles ;-) ##
