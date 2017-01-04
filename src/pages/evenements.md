@@ -15,7 +15,7 @@ Une autre forme de partage, c’est la formation. Beaucoup de sessions sont orga
 *Astuce : Pour découvrir l’étendue de notre offre de formation le mieux c’est de [télécharger notre catalogue](http://www.goood.pro/files/catalogue-formations-goood.pdf) et de [contacter Célia](formation@goood.pro).* 
 
 ### Facilitation : les bases de ToP ###
-* Sophia Antipolis - Mars (Date à définir)
+* 13 - 15 Mars à Sophia Antipolis - Mars 
 
 ### Manager Agile ###
 * 24-25 janvier, 23 février et 17 mars - Paris 
