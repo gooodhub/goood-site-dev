@@ -1,3 +1,5 @@
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800';
 
 @import 'helpers/normalize';
@@ -37,6 +39,7 @@
 @import 'footer';
 
 @import '../../node_modules/modaal/dist/css/modaal.scss';
+
 
 
 * {
@@ -318,4 +321,24 @@ a {
   &.b-loaded {
     opacity: 1;
   }
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width:auto;
 }
