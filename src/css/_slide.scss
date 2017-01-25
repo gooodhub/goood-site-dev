@@ -90,10 +90,15 @@
     .slide__content {
       transform: translateY(-100vh);
     }
+
   }
 
   &--isSlided {
     overflow: auto;
   }
+
+  .mission__content > p{
+  margin : 1em 0;
+}
 
 }
