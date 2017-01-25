@@ -1,7 +1,7 @@
 ---
-title: Sous-Page 1 Cube & Go
-slug: 1cubeNGo-Sophia-Estimer-Prioriser
-date: 2017/02/10
+title: Un Cube & Go à Sophia-Antipolis
+slug: UnCubeEtGo-Sophia-Estimer-Prioriser
+date: 02 10, 2017
 headline: Bandeau de titre 
 description: Cube "Prioriser, Estimer et Planifier" à Sophia
 layout: generic.html

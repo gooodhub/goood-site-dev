@@ -7,7 +7,10 @@ const permalinks = require('metalsmith-permalinks');
 const collections = require('metalsmith-collections');
 const metalSmithRegisterHelpers = require('metalsmith-register-helpers');
 const rootPath = require('metalsmith-rootpath');
+const dateFormatter = require('metalsmith-date-formatter');
 const webpackPlugin = require('metalsmith-webpack');
+const buildDate = require('metalsmith-build-date');
+const updated = require('metalsmith-updated');
 
 const browserSync = require('./plugins/metalsmith-browser-sync');
 const webpackConfig = require('./webpack.conf.js');
@@ -40,12 +43,30 @@ const buildApp = metalsmith(__dirname)
     directory: './layouts/helpers',
   }))
 
+  .use(buildDate({
+    key: 'buildDate',
+  }))
+
+  .use(updated({
+    filePatterns: ["*.md"]
+  }))
+
+  .use(dateFormatter({
+    dates: [
+        {
+            key: 'date',
+            format: 'YYYY-MM'
+        },
+    ]
+  }))
+
   .use(collections({
     pages: {
       pattern: 'pages/*.md',
     },
     evenements: {
       pattern: 'evenements/*.md',
+      sortBy: 'date',
     },
     portraits: {
       pattern: 'portraits/*.md',
@@ -66,7 +87,6 @@ const buildApp = metalsmith(__dirname)
   .use(permalinks({
     pattern: ':slug',
     relative: false,
-    date: 'YYYY/MM',
     linksets: [{
         match: { collection: 'subPages' },
         pattern: ':parent/:slug',
@@ -75,8 +95,7 @@ const buildApp = metalsmith(__dirname)
         pattern: ':slug',
       },{
         match: { collection: 'evenements' },
-        pattern: 'evenements-formations/:slug',
-        date: 'YYYY',
+        pattern: 'evenements-formations/:date-:slug',
       }]
   }))
 
