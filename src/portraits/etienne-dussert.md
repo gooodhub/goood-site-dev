@@ -4,7 +4,7 @@ bulle1: Une personne qui n’a jamais
 bulle2: commis d’erreurs n’a jamais 
 bulle3: tenté d’innover. A. Einstein
 image: /images/portraits/etienneD.jpg
-hashtag: ''
+hashtag: '#pizz4life'
 job: Développeur .NET
 facebook: 
 twitter: https://twitter.com/astr0penguin
