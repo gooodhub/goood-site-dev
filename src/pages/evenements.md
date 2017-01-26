@@ -5,26 +5,7 @@ headline: Evts & formations
 description: Retrouvez les prochaines dates de nos formations et des événements ouverts au public où vous pouvez nous rencontrer.
 layout: evenements.html
 ---
-Chez Goood! on aime bien partager. Alors on s’investit dans des communautés proches de nos préoccupations : la diversité, le développement durable, le code, le software craftsmanship, l’agilité, la facilitation, les nouvelles formes d’organisations …
-Vous trouverez ci-dessous les [prochaines dates](#prochaines-dates) des événements que nous organisons, soutenons ou hébergeons. On s’y retrouve ?
 
-Une autre forme de partage, c’est la formation. Beaucoup de sessions sont organisées pour un client et privées mais il y a aussi quelques dates ouvertes à tous. 
-
-# Prochaines Formations inter-entreprises ouvertes #
-
-*Astuce : Pour découvrir l’étendue de notre offre de formation le mieux c’est de [télécharger notre catalogue](http://www.goood.pro/files/catalogue-formations-goood.pdf) et de [contacter Célia](formation@goood.pro).* 
-
-### Facilitation : les bases de ToP ###
-* 13 - 15 Mars à Sophia Antipolis - Mars 
-
-### Manager Agile ###
-* 24-25 janvier, 23 février et 17 mars - Paris 
-* Marseille (Date à définir)
-
-### 1 Cube And Go ###
-* Sophia Antipolis le Jeudi 20 Janvier : prioriser, estimer et planifier [“inscription”](https://yurplan.com/event/1-CUBE-GO-PRIORISER-ESTIMER-ET-PLANIFIER-SOPHIA-ANTIPOLIS/12819).  
-* Sophia Antipolis le Mardi 28 Février : cadrer un projet en Agile [“inscription”](https://yurplan.com/event/1-CUBE-GO-CADRER-UN-PROJET-EN-AGILE-SOPHIA-ANTIPOLIS/13118).
-* Sophia Antipolis le Jeudi 24 Mars : exprimer et formation le besoin [“inscription”](https://yurplan.com/event/1-CUBE-GO-EXPRIMER-ET-FORMALISER-LE-BESOIN-SOPHIA-ANTIPOLIS/13119).
 
 <a name="prochaines-dates"></a>
 # Nous aimons, nous soutenons (événements publics) #

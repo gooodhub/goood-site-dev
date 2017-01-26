@@ -5,6 +5,16 @@
       <div class="slide__content">
         <div class="row">
           <section class="intro">
+            {{ introductionEvenements }}
+            <p>Chez Goood! on aime bien partager. Alors on s’investit dans des communautés proches de nos préoccupations : la diversité, le développement durable, le code, le software craftsmanship, l’agilité, la facilitation, les nouvelles formes d’organisations …
+Vous trouverez ci-dessous les <a href="#prochaines-dates">prochaines dates</a> des événements que nous organisons, soutenons ou hébergeons. On s’y retrouve ?</p>
+
+            <p>Une autre forme de partage, c’est la formation. Beaucoup de sessions sont organisées pour un client et privées mais il y a aussi quelques dates ouvertes à tous.</p>
+
+            <h1>Prochaines Formations inter-entreprises ouvertes</h1>
+
+            <p><em>Astuce : Pour découvrir l’étendue de notre offre de formation le mieux c’est de <a href="http://www.goood.pro/files/catalogue-formations-goood.pdf">télécharger notre catalogue</a> et de <a href="mailto:formation@goood.pro">contacter Célia</a>.</em></p>
+
             {{#each evenements}}          
                 <div class="evenement" >
                   <h3><a href="/{{this.path}}">{{this.title}}</a></h3>
