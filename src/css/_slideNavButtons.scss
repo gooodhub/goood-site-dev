@@ -67,4 +67,11 @@
       background-image: url(/images/fleche-droite-ico.svg);
     }
   }
+
+    &__parent {
+    background: $primaryColor;
+    background-image: url(/images/next-page-bg.jpg);
+    background-size: cover;
+    justify-content: center;
+  }
 }

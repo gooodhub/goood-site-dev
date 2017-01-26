@@ -1,0 +1,18 @@
+---
+{
+	title: 1 Cube & Go, 
+	slug: UnCubeEtGo, 
+	headline: 1 Cube & Go, 
+	date: 02 10, 2017, 
+	description: 1CUBE&GO propose des stages à Lyon autour de problématiques de gestion de projet et leur résolution par des pratiques agiles., 
+	theme: agile, 
+	layout: sous-page.html, 
+	dates: [Sophia Antipolis le Jeudi 20 Janvier - prioriser estimer et planifier - 15 mars 2018, Sophia Antipolis le Mardi 28 Février - cadrer un projet en Agile, Sophia Antipolis le Jeudi 24 Mars - exprimer et former le besoin]
+}
+---
+
+# 1 Cube&Go #
+
+Nouveau ! Goood déploie l'offre "1 Cube & Go" à Sophia-Antipolis : 
+
+1er cube le 20 Janvier : prioriser, estimer et planifier [“inscription”](https://yurplan.com/event/1-CUBE-GO-PRIORISER-ESTIMER-ET-PLANIFIER-SOPHIA-ANTIPOLIS/12819).  

@@ -33,3 +33,15 @@
     background-image: url('../images/header-recette-'+$theme+'.jpg');
   }
 }
+
+#agile {
+  .slide__header {
+    background-image: url('../images/workshop.jpg');
+  }
+}
+
+#dev {
+  .slide__header {
+    background-image: url('../images/Coding dojo.jpeg');
+  }
+}
