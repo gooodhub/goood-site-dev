@@ -5,11 +5,9 @@ headline: Evts & formations
 description: Retrouvez les prochaines dates de nos formations et des événements ouverts au public où vous pouvez nous rencontrer.
 layout: evenements.html
 ---
-
-
-<a name="prochaines-dates"></a>
+<a name="prochaines-dates">
 # Nous aimons, nous soutenons (événements publics) #
-
+</a>
 ### Décembre ###
 * 1er Agile Tour Marseille - Goood sponsor + speakers (tbd)
 * 6 Agile Tour Sophia-Antipolis - Goood sponsor + speakers (tbd)

@@ -3,7 +3,6 @@
 	title: Facilitation - les bases de ToP, 
 	slug: facilitation-les-bases-de-top, 
 	headline: Les bases de ToP, 
-	date: 03 13, 2017, 
 	description: Ateliers et discussions pour explorer la posture de facilitateur, 
 	theme: agile, 
 	layout: sous-page.html, 

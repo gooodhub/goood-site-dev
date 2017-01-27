@@ -2,8 +2,7 @@
 {
 	title: Manager Agile, 
 	slug: manager-agile, 
-	headline: Manager Agile, 
-	date: 01 20 2017, 
+	headline: Manager Agile,
 	description: Être capable d'animer et faire grandir une équipe agile, 
 	theme: dev, 
 	layout: sous-page.html, 

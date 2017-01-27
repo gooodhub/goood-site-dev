@@ -95,7 +95,7 @@ const buildApp = metalsmith(__dirname)
         pattern: ':slug',
       },{
         match: { collection: 'evenements' },
-        pattern: 'evenements-formations/:date-:slug',
+        pattern: 'evenements-formations/:slug',
       }]
   }))
 

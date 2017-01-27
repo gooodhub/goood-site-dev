@@ -73,5 +73,10 @@
     background-image: url(/images/next-page-bg.jpg);
     background-size: cover;
     justify-content: center;
-  }
+    
+    &:before {
+      content: '';
+      background-image: url(/images/fleche-gauche-ico.svg);
+     }
+    }
 }
