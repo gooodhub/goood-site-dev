@@ -1,16 +1,10 @@
 echo "########## Déploiement en béta ##########" 
 echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
-commitmsg="auto"
-if test "$commitmsg" = ""
-then
-    echo "Le message de commit ne peut pas être vide. Arrêt."
-    exit -1
-fi
-set -e
+commitmsg = "auto-commit"
 GITURL=https://github.com/gooodhub/goood-site-dev.git
 if [ -d "./dist" ]
 then
-rm -rf dist
+	rm -rf dist
 fi
 git clone -b gh-pages --single-branch $GITURL dist
 cd dist
@@ -27,4 +21,3 @@ mv ../gitdeploy .git
 git add .
 git commit -am "$commitmsg"
 git push --force 
-cd ..
