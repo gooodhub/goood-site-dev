@@ -1,12 +1,11 @@
-git config user.email "cedric.burceaux"
-git config user.name "nrgy"
 echo "########## Déploiement en béta ##########" 
-set -e
 GITURL=https://github.com/gooodhub/goood-site-dev.git
 if [ -d "./dist" ]
 then
 rm -rf dist
 fi
+git config user.email "cedric.burceaux"
+git config user.name "nrgy"
 git clone -b gh-pages --single-branch $GITURL dist
 cd dist
 git checkout gh-pages
