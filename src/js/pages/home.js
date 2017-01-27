@@ -16,6 +16,18 @@ export default {
   },
 };
 
+$('#modal-video-dth').on('hidden.bs.modal', function () {
+    toggleVideo('pauseVideo');
+})
+
+function toggleVideo(state) {
+    var div = document.getElementById("modal-body-video-dth");
+    var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+    div.style.display = state == 'hide' ? 'none' : '';
+    state == 'hide' ? 'pauseVideo' : 'playVideo';
+    iframe.postMessage('{"event":"command","func":"' + state + '","args":""}','*');
+}
+
 function onLeaveCompleted() {
   this.scrollMagic.controller.destroy(true);
   this.scrollMagic.controller = null;
