@@ -2,6 +2,4 @@ language: node_js
 node_js:
   - "6.1"
 after_success:
-  - git config user.email "cedric.burceaux"
-  - git config user.name "nrgy"
-  - npm run deploy-beta
+  - npm run deploy-beta-travis
