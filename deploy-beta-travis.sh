@@ -1,11 +1,17 @@
 echo "########## Déploiement en béta ##########" 
+echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
+commitmsg="auto"
+if test "$commitmsg" = ""
+then
+    echo "Le message de commit ne peut pas être vide. Arrêt."
+    exit -1
+fi
+set -e
 GITURL=https://github.com/gooodhub/goood-site-dev.git
 if [ -d "./dist" ]
 then
 rm -rf dist
 fi
-git config user.email "cedric.burceaux"
-git config user.name "nrgy"
 git clone -b gh-pages --single-branch $GITURL dist
 cd dist
 git checkout gh-pages
@@ -19,6 +25,6 @@ mv CNAME.BETA CNAME
 rm CNAME.PROD
 mv ../gitdeploy .git
 git add .
-git commit -am "auto-commit"
+git commit -am "$commitmsg"
 git push --force 
 cd ..
