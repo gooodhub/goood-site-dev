@@ -1,8 +1,6 @@
 git config user.email "cedric.burceaux"
 git config user.name "nrgy"
 echo "########## Déploiement en béta ##########" 
-echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
-commitmsg = "auto-commit"
 set -e
 GITURL=https://github.com/gooodhub/goood-site-dev.git
 if [ -d "./dist" ]
@@ -22,6 +20,6 @@ mv CNAME.BETA CNAME
 rm CNAME.PROD
 mv ../gitdeploy .git
 git add .
-git commit -am "$commitmsg"
+git commit -am "auto-commit"
 git push --force 
 cd ..
