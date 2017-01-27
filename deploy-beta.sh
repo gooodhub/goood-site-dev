@@ -1,11 +1,6 @@
 echo "########## Déploiement en béta ##########" 
 echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
-read commitmsg
-if test "$commitmsg" = ""
-then
-    echo "Le message de commit ne peut pas être vide. Arrêt."
-    exit -1
-fi
+commitmsg = "auto-commit"
 set -e
 GITURL=https://github.com/gooodhub/goood-site-dev.git
 if [ -d "./dist" ]
