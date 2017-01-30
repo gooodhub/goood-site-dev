@@ -24,7 +24,7 @@ echo "########## Configuration du repo ##########"
 SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 REPO=`git config remote.origin.url`
-SSH_REPO=${REPO/https:\/\/github.com\//gooodhub/goood-site-dev:}
+SSH_REPO=${REPO/https:\/\/github.com\/gooodhub/goood-site-dev:}
 SHA=`git rev-parse --verify HEAD`
 
 echo "########## Configuration du compte git pour commit ##########" 
