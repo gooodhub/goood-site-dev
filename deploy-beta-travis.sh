@@ -20,6 +20,16 @@ mv CNAME.BETA CNAME
 rm CNAME.PROD
 mv ../gitdeploy .git
 
+# Save some useful information
+SOURCE_BRANCH="master"
+TARGET_BRANCH="gh-pages"
+REPO=`git config remote.origin.url`
+SSH_REPO=${REPO/https:\/\/github.com\//gooodhub/goood-site-dev:}
+SHA=`git rev-parse --verify HEAD`
+
+echo "########## Configuration du compte git pour commit ##########" 
+git config user.email "cedric.burceaux@gmail.com"
+git config user.name "nrgy"
 
 echo "########## Ajout des données à commit ##########"
 git add .
@@ -29,14 +39,12 @@ ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
 ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
 ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
 ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
-openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in deploy_key.enc -out deploy_key -d
-chmod 600 deploy_key
+openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in cle.enc -out cle -d
+chmod 600 cle
 eval `ssh-agent -s`
-ssh-add deploy_key
+ssh-add cle
 
-echo "########## Configuration du compte git pour commit ##########" 
-git config user.email "$COMMIT_AUTHOR_EMAIL"
-git config user.name "nrgy"
+
 
 echo "########## Push des modifications ##########" 
 # Now that we're all set up, we can push.
