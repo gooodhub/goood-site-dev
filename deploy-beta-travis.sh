@@ -1,7 +1,7 @@
 
 echo "########## Déploiement en béta ##########" 
 echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
-commitmsg = "auto-commit"
+commitmsg="auto-commit"
 GITURL=https://github.com/gooodhub/goood-site-dev.git
 if [ -d "./dist" ]
 then
@@ -23,9 +23,7 @@ mv ../gitdeploy .git
 echo "########## Configuration du repo ##########" 
 SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
-REPO=`git config remote.origin.url`
-SSH_REPO=${REPO/https:\/\/github.com\/gooodhub/goood-site-dev:}
-SHA=`git rev-parse --verify HEAD`
+SSH_REPO='git@github.com:gooodhub/goood-site-dev.git'
 
 echo "########## Configuration du compte git pour commit ##########" 
 git config user.email "cedric.burceaux@gmail.com"
@@ -35,16 +33,11 @@ echo "########## Ajout des données à commit ##########"
 git add .
 git commit -am "$commitmsg"
 
-ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
-ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
-ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
-ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
-openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in cle.enc -out cle -d
-chmod 600 cle
-eval `ssh-agent -s`
+echo "########## Chiffrement des données ##########"
+openssl aes-256-cbc -K $encrypted_ae9254447b5f_key -iv $encrypted_ae9254447b5f_iv -in cle.enc -out cle -d
+chmod 600 cle.enc
+eval 'ssh-agent -s'
 ssh-add cle
-
-
 
 echo "########## Push des modifications ##########" 
 # Now that we're all set up, we can push.
