@@ -20,7 +20,7 @@ mv CNAME.BETA CNAME
 rm CNAME.PROD
 mv ../gitdeploy .git
 
-# Save some useful information
+echo "########## Configuration du repo ##########" 
 SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 REPO=`git config remote.origin.url`
