@@ -1,5 +1,4 @@
-git config user.email "$COMMIT_AUTHOR_EMAIL"
-git config user.name "nrgy"
+
 echo "########## Déploiement en béta ##########" 
 echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
 commitmsg = "auto-commit"
@@ -20,6 +19,11 @@ cd dist
 mv CNAME.BETA CNAME
 rm CNAME.PROD
 mv ../gitdeploy .git
+
+echo "########## Configuration du compte git pour commit ##########" 
+git config user.email "$COMMIT_AUTHOR_EMAIL"
+git config user.name "nrgy"
+echo "########## Ajout des données à commit ##########"
 git add .
 git commit -am "$commitmsg"
 
