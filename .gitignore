@@ -23,3 +23,5 @@ Thumbs.db
 node_modules/
 dist/
 /cle.pub
+/deploy_key
+/deploy_key.pub

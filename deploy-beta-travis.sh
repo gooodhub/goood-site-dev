@@ -34,10 +34,10 @@ git add .
 git commit -am "$commitmsg"
 
 echo "########## Chiffrement des données ##########"
-openssl aes-256-cbc -K $encrypted_ae9254447b5f_key -iv $encrypted_ae9254447b5f_iv -in cle.enc -out cle -d
-chmod 600 cle.enc
+openssl aes-256-cbc -K $encrypted_ae9254447b5f_key -iv $encrypted_ae9254447b5f_iv -in deploy_key.enc -out deploy_key -d
+chmod 600 deploy_key
 eval 'ssh-agent -s'
-ssh-add cle
+ssh-add deploy_key
 
 echo "########## Push des modifications ##########" 
 # Now that we're all set up, we can push.
