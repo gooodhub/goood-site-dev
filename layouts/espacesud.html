@@ -1,0 +1,62 @@
+{{#> layout }} {{#*inline "content"}}
+<div class="slide" id="career">
+    {{> slide-header title=headline }}
+    <div class="slide__content">
+        <section class="description">
+            <div class="row">
+                <div class="description_text">
+                    {{{ contents }}}
+                </div>
+            </div>
+        </section>
+        <section class="maps">
+            <div class="row">
+                <div class="maps_google">
+                    <iframe width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23109.1801784189!2d7.047806052126984!3d43.613880160351414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cc2b01636ff2f3:0xf420fcad665148c7!2sEspace Goood *21 Sophia Antipolis!5e0!3m2!1sfr!2sfr!4v1485204281350"></iframe>
+                </div>
+                <div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                        <b>COMMUNAUTES</b><br>
+                                        <b>EVENEMENTS GRATUITS</b>
+                                </td>
+                                <td>
+                                        <b>EVENEMENTS PAYANTS</b><br>
+                                        <b>ENTREPRISES – FORMATIONS</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="text-align: center;">
+                                        <b>0€<br></b>1 espace de 40m²<br>
+                                        20 personnes max.<br>
+                                        Ménage à votre charge ou 55€
+                                    </p>
+                                </td>
+                                <td style="text-align: center;">
+                                    <strong>290€ HT / J</strong><br>
+                                    1 espace de 40m²<br>
+                                    20 personnes max.<br>
+                                    Café compris
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>
+                    <a href="mailto:sud@goood.pro">Nous contacter pour réserver</a>
+                </p>
+            </div>
+        </section>
+        {{> slide-nav-buttons
+	prevTitle = 'Équipe et Culture'
+	prevPath = '/equipe-et-culture/'
+	nextTitle = 'Evts et Formations'
+	nextPath = '/evenements-formations/'
+        }}
+        {{> footer }}
+    </div>
+</div>
+{{/inline}} {{/layout}}
