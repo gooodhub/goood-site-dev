@@ -38,6 +38,8 @@
 
 @import 'footer';
 
+@import 'table';
+
 
 * {
   box-sizing: border-box;
@@ -338,4 +340,17 @@ a {
   text-align: left;
   vertical-align: middle;
   width:auto;
+}
+
+#espace-sud-map-google{
+  margin:auto;
+}
+
+#location-espace-sud{
+  margin:auto;
+}
+
+#location-espace-sud-contact{
+  margin:auto;
+  padding-bottom:10px;
 }
