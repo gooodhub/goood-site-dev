@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "6.1"
+branches:
+  only:
+  - master
+env:
+  global:
+  - ENCRYPTION_LABEL: "<.... encryption label from previous step ....>"
+  - COMMIT_AUTHOR_EMAIL: "cedric.burceaux@gmail.com"
+after_success:
+  - npm run deploy-beta-travis

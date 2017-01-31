@@ -1,3 +1,4 @@
+import bootstrap from 'bootstrap';
 import ScrollMagic from 'ScrollMagic'; //eslint-disable-line
 import TimelineMax from 'TimelineMax'; //eslint-disable-line
 import MobileDetect from 'mobile-detect';
@@ -14,6 +15,18 @@ export default {
     controller: null,
   },
 };
+
+$('#modal-video-dth').on('hidden.bs.modal', function () {
+    toggleVideo('pauseVideo');
+})
+
+function toggleVideo(state) {
+    var div = document.getElementById("modal-body-video-dth");
+    var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+    div.style.display = state == 'hide' ? 'none' : '';
+    state == 'hide' ? 'pauseVideo' : 'playVideo';
+    iframe.postMessage('{"event":"command","func":"' + state + '","args":""}','*');
+}
 
 function onLeaveCompleted() {
   this.scrollMagic.controller.destroy(true);
