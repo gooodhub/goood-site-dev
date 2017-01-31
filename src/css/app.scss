@@ -375,6 +375,14 @@ a {
   }
 }
 
+@media screen and (min-width: 1280px), screen and (aspect-ratio: 16/10){ 
+  .modal:before {
+    height: 75%;
+  }
+}
+
+
+
 
 
 #espace-sud-map-google{
