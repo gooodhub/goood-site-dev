@@ -326,7 +326,7 @@ a {
   text-align: center;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (min-width: 324px) { 
   .modal:before {
     display: inline-block;
     vertical-align: middle;
@@ -346,7 +346,7 @@ a {
   }
 }
 
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 1024px) { 
   .modal:before {
     display: inline-block;
     vertical-align: middle;
@@ -358,6 +358,11 @@ a {
   text-align: left;
   vertical-align: middle;
   width:auto;
+  height:50%;
+  }
+  iframe{
+    width:853px;
+    height:480px;
   }
 }
 
