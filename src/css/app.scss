@@ -326,6 +326,24 @@ a {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height:100%;
+  }
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width:75%;
+  }
+  iframe{
+    width:100%;
+  }
+}
+
 @media screen and (min-width: 768px) { 
   .modal:before {
     display: inline-block;
@@ -333,14 +351,15 @@ a {
     content: " ";
     height: 100%;
   }
-}
-
-.modal-dialog {
+  .modal-dialog {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
   width:auto;
+  }
 }
+
+
 
 #espace-sud-map-google{
   margin:auto;
