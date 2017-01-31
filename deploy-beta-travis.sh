@@ -2,6 +2,10 @@
 echo "########## Déploiement en béta ##########" 
 echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
 commitmsg="auto-commit"
+if [ $TRAVIS_COMMIT_MESSAGE != "" ]
+then
+	$commitmsg = $TRAVIS_COMMIT_MESSAGE
+fi
 GITURL=https://github.com/gooodhub/goood-site-dev.git
 if [ -d "./dist" ]
 then
@@ -21,7 +25,6 @@ rm CNAME.PROD
 mv ../gitdeploy .git
 
 echo "########## Configuration du repo ##########" 
-SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 SSH_REPO='git@github.com:gooodhub/goood-site-dev.git'
 
