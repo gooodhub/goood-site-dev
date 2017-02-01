@@ -33,11 +33,12 @@
                         {{#each evenements}}
                         <div class="cd-timeline-block">
                             <div class="cd-timeline-img cd-movie">
-                                <img id={{this.theme}} alt={{this.theme}}>
+                                <i class="fa {{this.icon}} fa-2x" aria-hidden="true"></i>
+                                <!--<img id={{this.theme}} alt={{this.theme}}>-->
                             </div> <!-- cd-timeline-img -->
 
                             <div class="cd-timeline-content">
-                                <a href='{{this.lien}}'><h2>{{this.titre}}</h2></a>
+                                <a href="{{this.lien}}"><h2>{{this.titre}}</h2></a>
 
                                 <p>
                                     {{this.description}}
