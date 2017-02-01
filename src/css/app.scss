@@ -40,6 +40,9 @@
 
 @import 'table';
 
+@import 'timeline';
+
+@import 'badge';
 
 * {
   box-sizing: border-box;
@@ -382,10 +385,6 @@ a {
   }
 }
 
-
-
-
-
 #espace-sud-map-google{
   margin:auto;
 }
@@ -402,3 +401,26 @@ a {
 #location-espace-sud-table th,td{
   border : 1px solid #ddd;
 }
+
+.cd-timeline-content{
+  background-color:#e9f0f5;
+}
+
+.cd-timeline-content h2{
+  color:#44b7e9;
+}
+
+.type-evenement{
+  top:10px;
+  right:10px;
+  position:absolute;
+}
+
+@media only screen and (min-width: 1170px) {
+  .type-evenement{
+  top:10px;
+  left:10px;
+  position:absolute;
+}
+}
+

@@ -55,7 +55,7 @@ const buildApp = metalsmith(__dirname)
     dates: [
         {
             key: 'date',
-            format: 'YYYY-MM'
+            format: 'DD/MM'
         },
     ]
   }))
