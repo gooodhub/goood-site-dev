@@ -414,10 +414,16 @@ a {
   top:10px;
   right:10px;
   position:absolute;
+  left:10px;
 }
 
-@media only screen and (min-width: 1170px) {
-  .type-evenement{
-  left:10px;
+@media only screen and (max-width: 700px) {
+  #titre-evenement{
+    margin-top:25px;
+  }
+  .cd-timeline-img i{
+    margin-left: -11px;
+    margin-top: -10px;
   }
 }
+
