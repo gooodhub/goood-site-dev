@@ -5,7 +5,7 @@ headline: Evts & formations
 description: Retrouvez les prochaines dates de nos formations et des événements ouverts au public où vous pouvez nous rencontrer.
 layout: evenements.html
 ---
-## Les groupes et communautés où nous sommes impliqués ##
+# Les groupes et communautés où nous sommes impliqués #
 * Agile France 
 * Agile at Heart (Paris)
 * Agile Playground (dont nous sommes cofondateurs à Paris), a essaimé à Marseille, Lyon et [Sophia](http://www.meetup.com/Agile-Play-Ground/), groupes que nous soutenons ou organisons également.
