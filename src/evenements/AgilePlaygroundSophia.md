@@ -3,7 +3,7 @@
 	titre: Agile Playground Sophia Antipolis,
 	date: 2017-01-09,
 	type: Meetup,
-	ville: Sophia,
+	ville: Sophia Antipolis,
 	theme: agilite,
 	roles: [Sponsor, Speaker],
 	lien: "https://www.meetup.com/fr-FR/Agile-Play-Ground/events/236211472/",

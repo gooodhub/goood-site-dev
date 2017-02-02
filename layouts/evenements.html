@@ -35,8 +35,7 @@
                         <div class="cd-timeline-block">
                             <div class="cd-timeline-img cd-movie">
                                 <i class="fa {{this.icon}} fa-2x" aria-hidden="true"></i>
-                                <!--<img id={{this.theme}} alt={{this.theme}}>-->
-                            </div> <!-- cd-timeline-img -->
+                            </div>
 
                             <div class="cd-timeline-content">
                                 <a href="{{this.lien}}"><h2>{{this.titre}}</h2></a>
@@ -44,19 +43,20 @@
                                     {{this.description}}
                                 </p>
                                 <p>
+                                <span class="badge badge-info ville">{{this.ville}}</span>
                                 {{#each this.roles}}
                                     <span class="badge badge-primary">{{this}}</span>
                                 {{/each}}
                                 <span class="badge badge-success type-evenement">{{this.type}}</span>
                                 </p>
                                 <span class="cd-date">{{this.date}}</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            </div> 
+                        </div> 
                         {{/each}}
                     </section>
                 </div>
                 {{{ contents }}}
-            </section> <!-- cd-timeline -->
+            </section>
         </div>
     </div>
     {{> slide-nav-buttons
