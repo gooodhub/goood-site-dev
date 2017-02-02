@@ -1,4 +1,5 @@
 
+
 .wrap {
   background-color: white;
   display: flex;
@@ -90,10 +91,10 @@
     .slide__content {
       transform: translateY(-100vh);
     }
+
   }
 
   &--isSlided {
     overflow: auto;
   }
-
 }

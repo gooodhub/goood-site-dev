@@ -25,3 +25,9 @@ dist/
 
 # wtf file that appears on run dev
 src/.updated.json
+
+# fichiers de déploiement Travis
+/cle.pub
+/deploy_key
+/deploy_key.pub
+

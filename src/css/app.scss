@@ -1,3 +1,5 @@
+@import '../../src/css/bootstrap-modal.scss';
+
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800';
 
 @import 'helpers/normalize';
@@ -36,6 +38,11 @@
 
 @import 'footer';
 
+@import 'table';
+
+@import 'timeline';
+
+@import 'badge';
 
 * {
   box-sizing: border-box;
@@ -318,3 +325,100 @@ a {
     opacity: 1;
   }
 }
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 324px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height:75%;
+  }
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width:75%;
+    height:50%;
+  }
+  iframe{
+    width:100%;
+    height:360px;
+  }
+}
+
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    height: 75%;
+  }
+  .modal-dialog {
+    width:auto;
+    height:50%;
+  }
+  iframe{
+    width:853px;
+    height:480px;
+  }
+}
+
+@media screen and (min-width: 1280px) { 
+  .modal:before {
+    height: 100%;
+  }
+  .modal-dialog {
+    width:auto;
+    height:50%;
+  }
+  iframe{
+    width:853px;
+    height:480px;
+  }
+}
+
+@media screen and (min-width: 1280px), screen and (aspect-ratio: 16/10){ 
+  .modal:before {
+    height: 75%;
+  }
+}
+
+#espace-sud-map-google{
+  margin:auto;
+}
+
+#location-espace-sud{
+  margin:auto;
+}
+
+#location-espace-sud-contact{
+  margin:auto;
+  padding-bottom:10px;
+}
+
+#location-espace-sud-table th,td{
+  border : 1px solid #ddd;
+}
+
+.cd-timeline-content{
+  background-color:#e9f0f5;
+}
+
+.cd-timeline-content h2{
+  color:#44b7e9;
+}
+
+.type-evenement{
+  top:10px;
+  right:10px;
+  position:absolute;
+}
+
+@media only screen and (min-width: 1170px) {
+  .type-evenement{
+  left:10px;
+  }
+}
+

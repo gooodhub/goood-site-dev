@@ -51,22 +51,19 @@ const buildApp = metalsmith(__dirname)
     filePatterns: ["*.md"]
   }))
 
-  .use(dateFormatter({
-    dates: [
-        {
-            key: 'date',
-            format: 'YYYY-MM'
-        },
-    ]
-  }))
+
 
   .use(collections({
     pages: {
       pattern: 'pages/*.md',
     },
+    formations: {
+      pattern: 'formations/*.md',
+    },
     evenements: {
       pattern: 'evenements/*.md',
       sortBy: 'date',
+      reverse: true,
     },
     portraits: {
       pattern: 'portraits/*.md',
@@ -81,6 +78,16 @@ const buildApp = metalsmith(__dirname)
       pattern: 'clients/offre/*.md',
     },
   }))
+
+  .use(dateFormatter({
+    dates: [
+        {
+            key: 'date',
+            format: 'DD/MM'
+        },
+    ]
+  }))
+
   .use(markdown())
 
   // Routing
@@ -94,8 +101,8 @@ const buildApp = metalsmith(__dirname)
         match: { collection: 'pages' },
         pattern: ':slug',
       },{
-        match: { collection: 'evenements' },
-        pattern: 'evenements-formations/:slug',
+        match: { collection: 'formations' },
+        pattern: 'formations/:slug',
       }]
   }))
 

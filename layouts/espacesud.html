@@ -1,0 +1,63 @@
+{{#> layout }} {{#*inline "content"}}
+<div class="slide" id="career">
+    {{> slide-header title=headline }}
+    <div class="slide__content">
+        <section class="description">
+            <div class="row">
+                <div class="description_text">
+                    {{{ contents }}}
+                </div>
+            </div>
+        </section>
+        <section class="maps" style="text-center">
+            <div class="row">
+                <div id="espace-sud-map-google">
+                    <iframe width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23109.1801784189!2d7.047806052126984!3d43.613880160351414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cc2b01636ff2f3:0xf420fcad665148c7!2sEspace Goood *21 Sophia Antipolis!5e0!3m2!1sfr!2sfr!4v1485204281350"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+        <div class="row">
+            <div id="location-espace-sud">
+                <table id="location-espace-sud-table" class="rwd-table">
+                    <tr>
+                        <th>EVENEMENTS GRATUITS / COMMUNAUTES</th>
+                        <th>EVENEMENTS PAYANTS / ENTREPRISES / FORMATIONS</th>
+                    </tr>
+                    <tr>
+                        <td>0€</td>
+                        <td>290€ HT</td>
+                    </tr>
+                    <tr>
+                        <td>1 espace de 40m²</td>
+                        <td>1 espace de 40m²</td>
+                    </tr>
+                    <tr>
+                        <td>20 personnes max</td>
+                        <td>20 personnes max</td>
+                    </tr>
+                    <tr>
+                        <td>Ménage à votre charge ou 55€</td>
+                        <td>Café compris</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+            <div class="row">
+                <div id="location-espace-sud-contact">
+                    <a class="btn btn-primary" data-text="(mail à l'équipe Sud')" href="mailto:sud@goood.pro">
+                        <span>Nous contacter pour réserver</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        {{> slide-nav-buttons
+            prevTitle = 'Équipe et Culture'
+            prevPath = '/equipe-et-culture/'
+            nextTitle = 'Evts et Formations'
+            nextPath = '/evenements-formations/'
+        }}
+        {{> footer }}
+    </div>
+</div>
+{{/inline}} {{/layout}}
