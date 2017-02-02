@@ -1,7 +1,7 @@
 ---
 {
 	titre: ALT.NET TALKS 2017 02,
-	date: 2 23 2017,
+	date: 2017-02-23,
 	type: Meetup,
 	ville: Paris,
 	theme: dev,

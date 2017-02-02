@@ -1,7 +1,7 @@
 ---
 {
 	titre: Entreprise agile et management - Programmation collaborative - que va-t-on faire en 2017,
-	date: 10 1 2017,
+	date: 2017-01-10,
 	type: Meetup,
 	ville: Paris,
 	theme: agilite,
