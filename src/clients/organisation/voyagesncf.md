@@ -1,7 +1,7 @@
 ---
 client: Voyages-SNCF.com
 image: /images/clients/voyagesncf.png
-demande: Aider les managers à (re)trouver leur marque
+demande: Aider les managers à (re)trouver leurs marques
 hashtag: alignement
 enjeu: Accompagner 80 managers dans le changement
 solution: Développement personnel 
