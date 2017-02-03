@@ -1,7 +1,4 @@
 /* global navigator, document, window */
-// import 'whatwg-fetch';
-// import page from 'page';
-// import '../../node_modules/modaal/dist/js/modaal.min.js';
 import $ from 'jquery';
 
 import pagesData from './pages';
