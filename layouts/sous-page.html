@@ -5,7 +5,28 @@
       <div class="slide__content">
         <div class="row">
           <section class="intro">
+            <div>
+              <p class="intro-formation">
+                <span class="badge badge-info-formation"><i class="fa fa-clock-o" aria-hidden="true"></i> {{this.heures}} heures </span>
+                <span class="badge badge-info-formation"><i class="fa fa-users" aria-hidden="true"></i> {{this.participants}} participants</span>
+                <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> {{this.prixInter}} € HT inter-entreprises</span>
+                <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> {{this.prixIntra}} € HT intra-entreprise</span>
+              </p>
+            </div>
+          </section>
+          <section class="intro">
             {{{ contents }}}
+            <div id="conteneur-repartition-methodologie">
+            <canvas id="repartition-methodologie"></canvas>
+            </div>
+                  <div class="row">
+                    <div id="location-espace-sud-contact">
+                      <a class="btn btn-primary" data-text="(mail à Célia)" href="mailto:formation@goood.pro">
+                          <span>Nous contacter pour réserver</span>
+                      </a>
+                    </div>
+                </div>
+            </div>
           </section>
         </div>
         {{> slide-nav-sous-pages
