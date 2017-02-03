@@ -20,6 +20,8 @@ var data = {
             ]
         }]
 };
+Chart.defaults.global.defaultFontSize=26;
+
 var myPieChart = new Chart(ctx,{
     type: 'pie',
     data: data,
