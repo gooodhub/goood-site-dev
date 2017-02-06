@@ -1,8 +1,8 @@
 ---
 {
-	title: Théorie U, 
+	title: "Théorie U", 
 	slug: theorie-u, 
-	headline: Théorie U,
+	headline: "Théorie U",
 	description: "Cette formation veut vous faire vivre l'expérience des diverses étapes du U", 
 	theme: agile,
 	heures: 17,
@@ -10,7 +10,7 @@
 	prixInter: 1400,
 	prixIntra: 6000,
 	pourcentagePratique: 75,
-	lesPlus: ["Vivre le processus dans sa dynamique en tant qu'expérience apprenante","Elargir et approfondir son regard sur le changement en découvrant les étapes de la transformation aux différents niveaux systémiques : individuel, organisationnel, institutionnel et sociétal.","Expérimenter ces étapes au niveau de l'individu et de l'interaction entre eux.",""Appliquer le processus dans l'accompagnement au changement de projets innovants","Acquérir des outils et des techniques concrets pour mener à bien un processus de changement"],
+	lesPlus: ["Vivre le processus dans sa dynamique en tant qu'expérience apprenante","Elargir et approfondir son regard sur le changement en découvrant les étapes de la transformation aux différents niveaux systémiques : individuel, organisationnel, institutionnel et sociétal.","Expérimenter ces étapes au niveau de l'individu et de l'interaction entre eux.","Appliquer le processus dans l'accompagnement au changement de projets innovants","Acquérir des outils et des techniques concrets pour mener à bien un processus de changement"],
 	layout: sous-page.html, 
 	dates: [(Date à définir)]
 }
