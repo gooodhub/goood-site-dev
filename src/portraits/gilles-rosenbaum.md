@@ -3,7 +3,7 @@ name: Gilles Rosenbaum
 bulle1: “La mesure de l'intelligence
 bulle2: est la capacité à changer.”
 bulle3: - Albert Einstein
-image: /images/gilles-rosenbaum.jpg
+image: /images/gillesR.jpg
 hashtag: '#agile #lifehacker #photographie #comics #voyages #nature'
 job: Continuous improvment promoter
 facebook:

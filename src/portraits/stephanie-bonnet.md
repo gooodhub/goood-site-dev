@@ -3,7 +3,7 @@ name: Stéphanie Bonnet
 bulle1: 
 bulle2: 
 bulle3: 
-image: 
+image: /images/portraits/stephanieB.jpg
 hashtag: ''
 job:   
 facebook: 

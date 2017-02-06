@@ -3,7 +3,7 @@ name: Rémi Lesieur
 bulle1: Do not try and bend the spoon, that's impossible. 
 bulle2: Instead, only try to realize the truth... There is no spoon.
 bulle3: Then you will see it is not the spoon that bends, it is only yourself.
-image: /images/portraits/remi.jpg
+image: /images/portraits/remiL.jpg
 hashtag: '#JeFaisDuSon, #Soigneur'
 job: Craftsman, passeur de savoir
 facebook: 
