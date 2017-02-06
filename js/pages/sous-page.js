@@ -22,14 +22,11 @@ var data = {
             ]
         }]
 };
-Chart.defaults.global.defaultFontSize=26;
+Chart.defaults.global.defaultFontSize=14;
 
 var myPieChart = new Chart(ctx,{
     type: 'pie',
     data: data,
         options: {
-              scales: {
-                fontSize: 18
-              }
     }
 });
