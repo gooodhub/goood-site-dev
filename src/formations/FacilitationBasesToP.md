@@ -4,7 +4,13 @@
 	slug: facilitation-les-bases-de-top, 
 	headline: Les bases de ToP, 
 	description: Ateliers et discussions pour explorer la posture de facilitateur, 
-	theme: agile, 
+	theme: agile,
+	heures: 24,
+	participants: 12,
+	prixInter: 1800,
+	prixIntra: 8000,
+	pourcentagePratique: 60,
+	lesPlus: [Un programme de mise en pratique sur six semaines entre pairs, Une formation certifiante],
 	layout: sous-page.html, 
 	dates: [3 - 15 Mars à Sophia Antipolis, 15 mars 2018]
 }

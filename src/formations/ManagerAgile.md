@@ -10,7 +10,7 @@
 	prixInter: 1800,
 	prixIntra: 8000,
 	pourcentagePratique: 60,
-	lesPlus: "Un programme de mise en pratique sur six semaines, entre pairs. Une formation certifiante",
+	lesPlus: [Un programme de mise en pratique sur six semaines entre pairs, Une formation certifiante],
 	layout: sous-page.html, 
 	dates: [Paris - 24-25 janvier, 23 février et 17 mars - Paris, Marseille (Date à définir)]
 }

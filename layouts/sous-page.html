@@ -12,21 +12,43 @@
                 <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> {{this.prixInter}} € HT inter-entreprises</span>
                 <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> {{this.prixIntra}} € HT intra-entreprise</span>
               </p>
-            </div>
           </section>
           <section class="intro">
             {{{ contents }}}
             <div id="conteneur-repartition-methodologie">
-            <canvas id="repartition-methodologie"></canvas>
+              <canvas id="repartition-methodologie"></canvas>
             </div>
-                  <div class="row">
-                    <div id="location-espace-sud-contact">
-                      <a class="btn btn-primary" id="contact-formation" data-text="(mail à Célia)" href="mailto:formation@goood.pro">
-                          <span>Nous contacter pour réserver</span>
-                      </a>
-                    </div>
+            <div class="row">
+            <section class="intro">
+            <h2>Les +</h2>
+            <p>
+              <ul>
+                  {{#each this.lesPlus}}
+                  <li>
+                      {{this}}
+                  </li>
+                  {{/each}}
+              </ul>
+            </p>
+            </section>
+            </div>
+            <div class="row">
+            <h2>Les prochaines dates</h2>
+              <p class="prochaines-dates">
+                {{#each this.dates}}
+                  <span class="badge badge-info-dates"><i class="fa fa-clock-o" aria-hidden="true"></i> {{this}}</span>
+                {{/each}}
+              </p>
+            </div>
+            <div class="row">
+              <div id="location-espace-sud-contact">
+                <a class="btn btn-primary" id="contact-formation" data-text="(mail à Célia)" href="mailto:formation@goood.pro">
+                    <span>Nous contacter pour réserver</span>
+                </a>
+              </div>
                 </div>
             </div>
+            <span style="display:none" id="pourcentagePratique">{{this.pourcentagePratique}}</span>
           </section>
         </div>
         {{> slide-nav-sous-pages

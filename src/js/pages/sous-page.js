@@ -2,6 +2,8 @@ import $ from 'jquery';
 import Chart from 'chartjs';
 
 var ctx = $("#repartition-methodologie");
+var pourcentagePratique = $("#pourcentagePratique").html();
+var pourcentageTheorie = 100 - pourcentagePratique;
 var data = {
     labels: [
         "Pratique",
@@ -9,7 +11,7 @@ var data = {
     ],
     datasets: [
         {
-            data: [60, 40],
+            data: [pourcentagePratique, pourcentageTheorie],
             backgroundColor: [
                 "#fc4c02",
                 "#1d3f51",
