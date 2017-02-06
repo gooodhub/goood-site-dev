@@ -4,7 +4,13 @@
 	slug: UnCubeEtGo, 
 	headline: 1 Cube & Go, 
 	description: 1CUBE&GO propose des stages à Lyon autour de problématiques de gestion de projet et leur résolution par des pratiques agiles., 
-	theme: agile, 
+	theme: agile,
+	heures: 24,
+	participants: 12,
+	prixInter: 1800,
+	prixIntra: 8000,
+	pourcentagePratique: 60,
+	lesPlus: [Un programme de mise en pratique sur six semaines entre pairs, Une formation certifiante], 
 	layout: sous-page.html, 
 	dates: [Sophia Antipolis le Jeudi 20 Janvier - prioriser estimer et planifier - 15 mars 2018, Sophia Antipolis le Mardi 28 Février - cadrer un projet en Agile, Sophia Antipolis le Jeudi 24 Mars - exprimer et former le besoin]
 }
