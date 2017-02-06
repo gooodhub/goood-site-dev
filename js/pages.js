@@ -5,6 +5,7 @@ import recettePage from './pages/recette';
 import referencesPage from './pages/references';
 import eventsPage from './pages/evenements';
 import contactPage from './pages/contact';
+import sousPage from './pages/sous-page';
 
 const protoPage = {
   position: null,
