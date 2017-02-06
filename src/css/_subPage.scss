@@ -1,8 +1,12 @@
-.subPage {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: white;
+.sous-page {
+  .intro {
+    @extend %contentPadding;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: em(22);
+    line-height: em(23);
+  }
 }

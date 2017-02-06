@@ -1,19 +1,16 @@
 {{#> layout }}
   {{#*inline "content"}}
-    <div class="slide" id="{{theme}}">
+    <div class="slide sous-page" id="{{theme}}">
       {{> slide-header title=headline }}
       <div class="slide__content">
         <div class="row">
           <section class="intro">
-            <div>
               <p class="intro-formation">
                 <span class="badge badge-info-formation"><i class="fa fa-clock-o" aria-hidden="true"></i> {{this.heures}} heures </span>
                 <span class="badge badge-info-formation"><i class="fa fa-users" aria-hidden="true"></i> {{this.participants}} participants</span>
                 <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> {{this.prixInter}} € HT inter-entreprises</span>
                 <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> {{this.prixIntra}} € HT intra-entreprise</span>
               </p>
-          </section>
-          <section class="intro">
             {{{ contents }}}
             <div id="conteneur-repartition-methodologie">
               <canvas id="repartition-methodologie"></canvas>
@@ -21,7 +18,6 @@
             <div class="row">
             <section class="intro">
             <h2>Les +</h2>
-            <p>
               <ul>
                   {{#each this.lesPlus}}
                   <li>
@@ -29,7 +25,6 @@
                   </li>
                   {{/each}}
               </ul>
-            </p>
             </section>
             </div>
             <div class="row">

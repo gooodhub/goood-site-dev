@@ -429,24 +429,42 @@ a {
 
 .badge-info-formation{
   background-color:#5bc0de;
-  padding:15px;
-  font-size:24px;
+  padding:8px;
+  font-size:10px;
+  margin-top:10px;
 }
 
 .badge-info-dates{
   background-color:#5cb85c;
-  padding:15px;
-  font-size:24px;
+  padding:8px;
+  font-size:10px;
+  margin-top:10px;
 }
 
-.intro-formation{
+@media only screen and (min-width: 1170px) {
+.badge-info-formation,.badge-info-dates{
+  padding:15px;
+  font-size:24px;
+  margin-top:0px;
+  }
+}
+
+p.intro-formation{
   text-align:center;
+  margin-bottom:0px;
 }
 
 #conteneur-repartition-methodologie{
+  width:200px;
+  height:200px;
+  margin:auto;
+}
+
+@media only screen and (min-width: 1170px) {
+#conteneur-repartition-methodologie{
   width:400px;
   height:400px;
-  margin:auto;
+  }
 }
 
 #contact-formation{

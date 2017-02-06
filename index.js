@@ -31,7 +31,6 @@ const sassParams = () => {
   };
 };
 
-
 const buildApp = metalsmith(__dirname)
   .source('./src')
   .destination('./dist')
@@ -50,8 +49,6 @@ const buildApp = metalsmith(__dirname)
   .use(updated({
     filePatterns: ["*.md"]
   }))
-
-
 
   .use(collections({
     pages: {
