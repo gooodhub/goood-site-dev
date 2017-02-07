@@ -1,8 +1,8 @@
 ---
 {
-	title: Techniques et méthodes de facilitation de groupe,
+	title: "Techniques et méthodes de facilitation de groupe",
 	slug: Techniques-et-methodes-de-facilitation-de-groupe, 
-	headline: Techniques et méthodes de facilitation de groupe,
+	headline: "Techniques et méthodes de facilitation de groupe",
 	description: Etre capable de faciliter l'intelligence collective d'un groupe,
 	theme: facilitation,
 	heures: 24,
@@ -30,7 +30,7 @@ La formation Techniques et méthodes de facilitation de groupe, présente les m�
 * Intégrer les fondamentaux de la posture de facilitateur
 * Acquérir les moyens théoriques et pratiques pour faciliter la collaboration
 * Expérimenter et ressentir une dynamique collaborative
-* Découvrir et pratiquer la conversation structurée, le consensus workshop et le plan d’action
+* Découvrir et pratiquer la conversation structurée, le consensus workshop et le plan d’action 
 
 ## Public concerné ##
 * Facilitateur
