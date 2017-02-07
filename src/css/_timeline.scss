@@ -185,8 +185,7 @@
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
+  font-size: 100%;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -194,6 +193,10 @@
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
+  font-size: 100%;
+}
+#events .cd-timeline-content p {
+  font-size: 100%;
 }
 .cd-timeline-content .cd-read-more {
   float: right;
