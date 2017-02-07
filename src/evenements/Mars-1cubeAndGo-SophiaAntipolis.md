@@ -1,6 +1,6 @@
 ---
 {
-	titre: faire un daily meeting utile et efficace,
+	titre: Faire un daily meeting utile et efficace,
 	date: 2017-03-24,
 	type: Cube,
 	ville: Sophia Antipolis,
