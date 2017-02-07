@@ -4,7 +4,7 @@
 	slug: Techniques-et-methodes-de-facilitation-de-groupe, 
 	headline: "Techniques et méthodes de facilitation de groupe",
 	description: Etre capable de faciliter l'intelligence collective d'un groupe,
-	theme: facilitation,
+	theme: agile,
 	heures: 24,
 	participants: 12,
 	prixInter: 1800,
