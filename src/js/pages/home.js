@@ -1,4 +1,4 @@
-//import bootstrap from 'bootstrap';
+import bootstrap from 'bootstrap';
 import ScrollMagic from 'ScrollMagic'; //eslint-disable-line
 import TimelineMax from 'TimelineMax'; //eslint-disable-line
 import MobileDetect from 'mobile-detect';
