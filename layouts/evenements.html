@@ -32,12 +32,13 @@
                     <a name="prochaines-dates"><h1>Nous aimons, nous soutenons (événements publics)</h1></a>
                     <section id="cd-timeline" class="cd-container">
                         {{#each evenements}}
+                        <!--<a href="{{this.lien}}">-->
                         <div class="cd-timeline-block">
                             <div class="cd-timeline-img cd-movie">
                                 <i class="fa {{this.icon}} fa-2x" aria-hidden="true"></i>
                             </div>
 
-                            <div class="cd-timeline-content">
+                            <div class="cd-timeline-content" style="cursor: pointer;" onclick="window.location='{{this.lien}}';">
                                 <a href="{{this.lien}}"><h2 id="titre-evenement">{{this.titre}}</h2></a>
                                 <p>
                                     {{this.description}}
@@ -51,7 +52,8 @@
                                 </p>
                                 <span class="cd-date">{{this.date}}</span>
                             </div> 
-                        </div> 
+                        </div>
+                        <!--</a>--> 
                         {{/each}}
                     </section>
                 </div>

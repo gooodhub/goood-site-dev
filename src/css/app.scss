@@ -441,14 +441,20 @@ a {
   margin-top:10px;
 }
 
+.badge-info-numero-formation{
+  background-color:#337ab7;
+  padding:8px;
+  font-size:10px;
+  margin-top:10px;
+}
+
 @media only screen and (min-width: 1170px) {
-.badge-info-formation,.badge-info-dates{
+.badge-info-formation,.badge-info-dates,.badge-info-numero-formation{
   padding:15px;
   font-size:24px;
   margin-top:0px;
   }
 }
-
 p.intro-formation{
   text-align:center;
   margin-bottom:0px;
