@@ -1,7 +1,7 @@
 ---
 {
 	titre: faire un daily meeting utile et efficace,
-	date: 2017-03-09,
+	date: 2017-03-24,
 	type: Cube,
 	ville: Sophia Antipolis,
 	roles: [scrum master, product owner, membre d'équipe, coach, facilitateur, manager],
