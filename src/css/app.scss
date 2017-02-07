@@ -406,6 +406,10 @@ a {
   background-color:#e9f0f5;
 }
 
+.cd-timeline-content:hover{
+  box-shadow: 1px 1px 12px #555;
+}
+
 .cd-timeline-content h2{
   color:#44b7e9;
 }
@@ -415,6 +419,7 @@ a {
   right:10px;
   position:absolute;
   left:10px;
+  border-radius:25px;
 }
 
 @media only screen and (max-width: 1170px) {
