@@ -488,10 +488,20 @@ p.intro-formation{
   margin:auto;
 }
 
+.cd-date.cd-mobile{
+  display:none;
+}
+
 @media only screen and (min-width: 1170px) {
 #conteneur-repartition-methodologie{
   width:400px;
   height:400px;
+  }
+  .date-mobile{
+    display:none;
+  }
+  .cd-date.cd-mobile{
+    display:block;
   }
 }
 
