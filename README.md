@@ -12,6 +12,12 @@ Code source du site web Goood.
 * Permalinks
 * Webpack
 
+Le site est en build et deploiement continu sur beta.goood.pro
+Chaine d'intégration visible sur https://travis-ci.org/gooodhub/goood-site-dev
+
+Alternativement on peut installer Git et travailler en local. Il faut un environnement Linux ou Mac.
+
+# Travail en local 
 
 ## Installation
 
