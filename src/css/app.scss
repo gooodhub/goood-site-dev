@@ -446,6 +446,10 @@ a {
   margin-top:10px;
 }
 
+.badge-timeline{
+  padding:5px;
+}
+
 .badge-info-numero-formation{
   background-color:#337ab7;
   padding:8px;
@@ -454,10 +458,13 @@ a {
 }
 
 @media only screen and (min-width: 1170px) {
-.badge-info-formation,.badge-info-dates,.badge-info-numero-formation{
-  padding:15px;
-  font-size:24px;
-  margin-top:0px;
+  .badge-info-formation,.badge-info-dates,.badge-info-numero-formation{
+    padding:15px;
+    font-size:24px;
+    margin-top:0px;
+  }
+  .badge-timeline{
+    padding:12px;
   }
 }
 p.intro-formation{
