@@ -7,7 +7,7 @@
 	theme: agilite,
 	roles: [Sponsor, Speaker],
 	lien: "https://www.meetup.com/fr-FR/FacilitON/events/236077421/",
-	icon: "fa-pencil",
+	icon: "fa-meetup",
 	description: "Nous vous proposons un atelier autour de l'utilisation de la Métaphore en facilitation et en facilitation graphique."
 }
 ---
