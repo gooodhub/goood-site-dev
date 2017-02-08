@@ -7,7 +7,7 @@ echo "### version beta est : $versionBeta ####"
 echo $versionBeta;
 echo "### version prod est : $versionProd ####"
 echo $versionProd;
-if [ $versionBeta != $versionProd]
+if [ "$versionBeta" != "$versionProd" ]
 then
 	echo "#### La version de production ne correspond pas à la version actuellement en béta #####"
 	exit -1
