@@ -28,8 +28,9 @@
 ### Les Principales Méthodes agile ###
 * Les raisons et origines de l'agilité : valeurs et principes
 * Atelier pratique
+
 ### Scrum ###
-Aperçu de Scrum
+* Aperçu de Scrum
 * Les acteurs de Scrum
 * Développement itératif
 * Boîtes des temps, Timebox
