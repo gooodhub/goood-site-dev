@@ -1,5 +1,17 @@
 
-echo "########## Déploiement en béta ##########" 
+echo "########## Déploiement en production ##########"
+echo "##########  Vérification des numéros de version ######"
+versionBeta=$(npm version | grep 'goood:' | sed 's/^.*: //' | tr -d ',' | grep -oP "(?<=').*?(?=')");
+versionProd=$(cat version-production.txt);
+echo "### version beta est : $versionBeta ####"
+echo $versionBeta;
+echo "### version prod est : $versionProd ####"
+echo $versionProd;
+if [ $versionBeta != $versionProd]
+then
+	echo "#### La version de production ne correspond pas à la version actuellement en béta #####"
+	exit -1
+fi
 echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
 commitmsg="auto-commit"
 if [ $TRAVIS_COMMIT_MESSAGE != "" ]

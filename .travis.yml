@@ -10,3 +10,5 @@ env:
   - COMMIT_AUTHOR_EMAIL: "cedric.burceaux@gmail.com"
 after_success:
   - npm run deploy-beta-travis
+  - npm run deploy-prod-travis
+  - npm patch version
