@@ -12,7 +12,7 @@
 	pourcentagePratique: 50,
 	lesPlus: [],
 	layout: sous-page.html, 
-	dates: [Paris, Marseille (Date à définir)]
+	dates: [Paris (Date à définir), Marseille (Date à définir)]
 }
 ---
 
@@ -49,6 +49,3 @@
 ## Public concerné ##
 Ce stage s’adresse aux architectes, chefs de projets, directeurs de projets, développeurs, décideurs, responsables qualité, commerciaux...
 
-
-## Méthodologie ##
-Le parcours s’appuie sur 50% de pratique et 50% de théorie
