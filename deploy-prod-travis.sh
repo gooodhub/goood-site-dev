@@ -32,8 +32,8 @@ cd ..
 npm install
 NODE_ENV=production node index.js
 cd dist
-mv CNAME.BETA CNAME
-rm CNAME.PROD
+mv CNAME.PROD CNAME
+rm CNAME.BETA
 mv ../gitdeploy .git
 
 echo "########## Configuration du repo ##########" 
