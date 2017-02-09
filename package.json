@@ -1,6 +1,6 @@
 {
   "name": "goood",
-  "version": "1.1.6",
+  "version": "1.1.8",
   "description": "goood website",
   "main": "index.js",
   "scripts": {
