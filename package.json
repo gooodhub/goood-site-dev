@@ -13,7 +13,7 @@
     "test": ""
   },
   "git-pre-hooks": {
-    "pre-push": "npm version patch"
+    "pre-push": ""
     },
   "author": "Kilix",
   "dependencies": {
