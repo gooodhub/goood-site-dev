@@ -1,6 +1,6 @@
 ---
 {
-	titre: "Facilit'ON - Sophia Antipolis - La Métaphore dans tous ses états",
+	titre: "Facilit'ON - Sophia Antipolis - Design Thinking",
 	date: 2017-03-07,
 	type: Meetup,
 	ville: Sophia Antipolis,
