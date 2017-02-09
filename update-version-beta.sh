@@ -4,7 +4,7 @@ GITURL=https://github.com/gooodhub/goood-site-dev.git
 git clone -b master --single-branch $GITURL dist
 git checkout master
 # ls -a | grep -v '^\.$' | grep -v '^\.\.$' | grep -v '^\.git$' | xargs rm -rf
-npm patch version
+npm version patch
 
 echo "########## Configuration du repo ##########" 
 TARGET_BRANCH="master"
