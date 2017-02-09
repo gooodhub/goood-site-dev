@@ -1,6 +1,6 @@
 {
   "name": "goood",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "goood website",
   "main": "index.js",
   "scripts": {
@@ -64,7 +64,7 @@
   },
   "config": {
     "pre-git": {
-      "pre-push": [
+      "post-commit": [
         "npm --no-git-tag-version version patch"
       ]
     }
