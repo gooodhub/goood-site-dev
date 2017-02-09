@@ -10,11 +10,9 @@
     "deploy-prod": "./deploy-prod.sh",
     "deploy-prod-travis": "./deploy-prod-travis.sh",
     "update-version-beta": "./update-version-beta.sh",
+    "update-version" : "npm version patch",
     "test": ""
   },
-    "pre-commit": [
-    "update-version-beta",
-  ],
   "author": "Kilix",
   "dependencies": {
     "babel-core": "^6.10.4",
