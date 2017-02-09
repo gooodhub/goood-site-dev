@@ -11,4 +11,3 @@ env:
 after_success:
   - npm run deploy-beta-travis
   - npm run deploy-prod-travis
-  - npm run update-version-beta
