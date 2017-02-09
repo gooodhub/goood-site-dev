@@ -2,7 +2,7 @@
 {
 	titre: Faire un daily meeting utile et efficace,
 	date: 2017-03-24,
-	type: Cube,
+	type: 1CubeAndGo,
 	ville: Sophia Antipolis,
 	roles: [Animateur],
 	lien: "https://yurplan.com/event/1-CUBE-GO-FAIRE-UN-DAILY-MEETING-UTILE-ET-EFFICACE-SOPHIA-ANTIPOLIS/13119",
