@@ -7,7 +7,7 @@
 	theme: dev,
 	roles: [Sponsor],
 	lien: "https://www.meetup.com/altnetfr/events/235122579/",
-	icon: "fa-bug",
+	icon: "fa-meetup",
 	description: "Echanges autour des nouvelles technologies, et particulièrement de .NET et ses alternatives."
 }
 ---

@@ -6,7 +6,7 @@
 	ville: Lyon,
 	roles: [sponsor, speakers],
 	lien: "https://www.mix-it.fr/home",
-	icon: "fa-cube",
+	icon: "fa-user",
 	description: "La septième édition de Mix-IT se tiendra à Lyon, les 20 et 21 avril 2017."
 }
 ---

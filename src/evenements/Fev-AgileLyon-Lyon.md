@@ -2,7 +2,7 @@
 {
 	titre: Agile Lyon,
 	date: 2017-02-09,
-	type: Meetup,
+	type: Conférence,
 	ville: Lyon,
 	roles: [Sponsor],
 	lien: "http://agilelyon.fr/",
