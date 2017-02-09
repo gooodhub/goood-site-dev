@@ -1,6 +1,6 @@
 {
   "name": "goood",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "goood website",
   "main": "index.js",
   "scripts": {
@@ -64,7 +64,9 @@
   },
   "config": {
     "pre-git": {
-      "post-commit": ["npm version patch"]
+      "post-commit": [
+        "npm version patch"
+      ]
     }
   }
 }
