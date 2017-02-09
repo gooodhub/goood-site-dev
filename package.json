@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index",
+    "prepush": "npm version patch",
     "deploy-beta": "./deploy-beta.sh",
     "deploy-beta-travis": "./deploy-beta-travis.sh",
     "deploy-prod": "./deploy-prod.sh",
@@ -12,9 +13,6 @@
     "update-version-beta": "./update-version-beta.sh",
     "test": ""
   },
-  "git-pre-hooks": {
-    "pre-push": "npm version patch"
-    },
   "author": "Kilix",
   "dependencies": {
     "babel-core": "^6.10.4",
@@ -62,7 +60,7 @@
     "eslint": "^3.0.1",
     "eslint-config-airbnb-base": "^4.0.0",
     "eslint-plugin-import": "^1.10.2",
-    "git-pre-hooks": "^1.2.0",
+    "husky": "^0.13.1",
     "jquery": "^3.1.1"
   }
 }
