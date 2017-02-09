@@ -2,7 +2,7 @@
 {
 	titre: "PMI - Change Management",
 	date: 2017-03-02,
-	type: Conférence,
+	type: "Conférence",
 	ville: "Sophia Antipolis",
 	theme: Project Management,
 	roles: [Sponsor, Scribing],
