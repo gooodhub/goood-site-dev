@@ -1,7 +1,8 @@
 
 echo "########## Mise à jour de la version ##########" 
 GITURL=https://github.com/gooodhub/goood-site-dev.git
-git clone -b master --single-branch $GITURL dist
+git clone -b master --single-branch $GITURL version
+cd version
 git checkout master
 # ls -a | grep -v '^\.$' | grep -v '^\.\.$' | grep -v '^\.git$' | xargs rm -rf
 npm version patch
@@ -21,4 +22,4 @@ eval "$(ssh-agent)"
 ssh-add deploy_key
 
 echo "########## Push des modifications ##########" 
-git push $SSH_REPO $TARGET_BRANCH --force && git push $SSH_REPO $TARGET_BRANCH --tags
+git push $SSH_REPO $TARGET_BRANCH --force
