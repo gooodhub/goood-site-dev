@@ -8,8 +8,8 @@ then
 fi
 
 echo "#### Configuration du tag ###"
-taggen=$uuidgen
-echo "### tag généré : $tag ###"
+taggen=$(uuidgen)
+echo "### tag généré : $taggen ###"
 git tag -a $taggen -m "version $taggen"
 echo "$taggen" >> static/version.txt
 
