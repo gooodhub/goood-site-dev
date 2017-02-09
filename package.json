@@ -9,6 +9,7 @@
     "deploy-beta-travis": "./deploy-beta-travis.sh",
     "deploy-prod": "./deploy-prod.sh",
     "deploy-prod-travis": "./deploy-prod-travis.sh",
+    "update-version-beta": "./update-version-beta.sh",
     "test": ""
   },
   "author": "Kilix",
