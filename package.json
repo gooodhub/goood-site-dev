@@ -60,14 +60,5 @@
     "eslint-config-airbnb-base": "^4.0.0",
     "eslint-plugin-import": "^1.10.2",
     "jquery": "^3.1.1",
-    "pre-git": "^3.12.1"
   },
-  "config": {
-    "pre-git": {
-      "pre-commit": [
-        "npm --no-git-tag-version version patch",
-        "git add package.json"
-      ]
-    }
-  }
 }

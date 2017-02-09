@@ -6,6 +6,12 @@ if [ $TRAVIS_COMMIT_MESSAGE != "" ]
 then
 	$commitmsg = $TRAVIS_COMMIT_MESSAGE
 fi
+
+echo "#### Configuration du tag ###"
+uuid=$(uuidgen)
+git tag -a $uuid -m "version $uuid"
+echo "$uuid" >> static/version.txt
+
 GITURL=https://github.com/gooodhub/goood-site-dev.git
 if [ -d "./dist" ]
 then

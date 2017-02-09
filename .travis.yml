@@ -9,6 +9,4 @@ env:
   - ENCRYPTION_LABEL: "<.... encryption label from previous step ....>"
   - COMMIT_AUTHOR_EMAIL: "cedric.burceaux@gmail.com"
 after_success:
-  - npm run deploy-prod-travis
-  - npm version patch
   - npm run deploy-beta-travis
