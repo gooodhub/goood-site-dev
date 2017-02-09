@@ -8,9 +8,10 @@ then
 fi
 
 echo "#### Configuration du tag ###"
-uuid=$(uuidgen)
-git tag -a $uuid -m "version $uuid"
-echo "$uuid" >> static/version.txt
+taggen=$uuidgen
+echo "### tag généré : $tag ###"
+git tag -a $taggen -m "version $taggen"
+echo "$taggen" >> static/version.txt
 
 GITURL=https://github.com/gooodhub/goood-site-dev.git
 if [ -d "./dist" ]
