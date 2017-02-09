@@ -12,3 +12,4 @@ after_success:
   - npm run deploy-beta-travis
   - npm run deploy-prod-travis
   - npm patch version
+  - git push && git push --tags && rm -rf build/temp
