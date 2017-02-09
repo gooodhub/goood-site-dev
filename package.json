@@ -10,7 +10,6 @@
     "deploy-prod": "./deploy-prod.sh",
     "deploy-prod-travis": "./deploy-prod-travis.sh",
     "update-version-beta": "./update-version-beta.sh",
-    "update-version": "npm version patch",
     "test": ""
   },
   "author": "Kilix",
@@ -61,5 +60,11 @@
     "eslint-config-airbnb-base": "^4.0.0",
     "eslint-plugin-import": "^1.10.2",
     "jquery": "^3.1.1",
+    "pre-git": "^3.12.1"
+  },
+  "config": {
+    "pre-git": {
+      "pre-push": ["npm version patch"]
+    }
   }
 }
