@@ -7,6 +7,10 @@ then
 	$commitmsg = $TRAVIS_COMMIT_MESSAGE
 fi
 
+echo "########## Configuration du compte git pour commit ##########" 
+git config user.email "cedric.burceaux@gmail.com"
+git config user.name "nrgy"
+
 echo "#### Configuration du tag ###"
 taggen=$(date +%s)
 echo "### tag généré : $taggen ###"
