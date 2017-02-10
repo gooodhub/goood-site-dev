@@ -8,7 +8,7 @@ then
 fi
 
 echo "#### Configuration du tag ###"
-taggen=$(uuidgen)
+taggen=$(date +%s)
 echo "### tag généré : $taggen ###"
 git tag -a $taggen -m "version $taggen"
 >src/static/version.txt
