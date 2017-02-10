@@ -34,7 +34,6 @@ const sassParams = () => {
 const buildApp = metalsmith(__dirname)
   .source('./src')
   .destination('./dist')
-  .ignore('./static', './files')
   .use(rootPath())
 
   // HTML
