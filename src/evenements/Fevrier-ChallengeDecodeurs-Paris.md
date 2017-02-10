@@ -1,7 +1,7 @@
 ---
 {
 	titre: "Challenge dé)codeurs",
-	date: 2017-02-17,
+	date: 2017-02-16,
 	type: Meetup,
 	ville: Paris,
 	roles: [Organisateur],
