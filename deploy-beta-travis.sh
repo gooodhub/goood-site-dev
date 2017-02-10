@@ -11,8 +11,8 @@ echo "#### Configuration du tag ###"
 taggen=$(date +%s)
 echo "### tag généré : $taggen ###"
 git tag -a $taggen -m "version $taggen"
->src/static/version.txt
-echo "$taggen" >> static/version.txt
+echo "### Ajout du tag au fichier de version ###"
+echo "$taggen" >> src/static/version.txt
 
 echo "#### Récupération du repo de dev ####"
 GITURL=https://github.com/gooodhub/goood-site-dev.git
