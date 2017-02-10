@@ -1,6 +1,6 @@
 ---
 {
-	titre: Cadrer un projet Agile,
+	titre: Cadrer un projet en Agile,
 	date: 2017-02-28,
 	type: 1CubeAndGo,
 	ville: Sophia Antipolis,
