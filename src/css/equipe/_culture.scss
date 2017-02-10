@@ -138,6 +138,30 @@
 
 }
 
+.responsable {
+    text-align: center;
+    display: flex;
+
+    &__content {
+      text-align: justify;
+
+      .logos{
+        text-align: center;
+      }
+    }
+    
+    header {
+    
+    @media #{$medium-up} {
+      text-align: center;
+      p:after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+
 .temoignage {
   &__img {
     @extend %shadow;
