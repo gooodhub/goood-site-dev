@@ -143,18 +143,28 @@
     display: flex;
 
     &__content {
-      text-align: justify;
+      padding: 0 20px;
+      position: relative;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: left;
 
       .texte{
-        padding-left: 2em;
-        padding-right: 2em;
+        text-align: justify;
+        // padding-left: 2em;
+        // padding-right: 2em;
       }
 
       .logos{
         text-align: center;
       }
-    }
     
+      @media #{$medium-up} {
+        padding-bottom: 50px;
+        text-align: center;
+        align-items: center;
+      }
+    }    
     header {
     
     @media #{$medium-up} {
