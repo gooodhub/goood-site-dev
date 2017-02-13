@@ -12,7 +12,7 @@
 	pourcentagePratique: 80,
 	lesPlus: ["1 Micro-formation","Des pratiques concrètes","Près de chez-vous", "Thématiques d'agilité, management et développement"], 
 	layout: sous-page.html, 
-	dates: [Jeudi 20 Janvier, Mardi 28 Février, Jeudi 24 Mars]
+	dates: [Mercredi 23 Mars, Jeudi 24 Mars]
 }
 ---
 
