@@ -5,7 +5,11 @@
 	type: Meetup,
 	ville: Paris,
 	theme: agilite,
-	roles: [Sponsor, Speaker],
+	heberge: false,
+	finance: true,
+	intervient: true,
+	organise: false,
+	tags: [Sponsor, Speaker],
 	lien: "https://www.meetup.com/fr-FR/entreprise-agile/events/235753823/",
 	icon: "fa fa-meetup",
 	description: "Venez partager un verre et grignoter, échanger sur vos préoccupations de managers et construire les sujets du prochain semestre."
