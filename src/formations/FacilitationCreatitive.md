@@ -35,5 +35,6 @@
 ## JOUR 1 ##
 * Le rôle et la posture de facilitateur
 * Savoir générer des idées
+
 ## JOUR 2 ##
 * Le processus de construction et la facilitation bout en bout
