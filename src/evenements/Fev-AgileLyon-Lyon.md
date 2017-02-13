@@ -6,7 +6,7 @@
 	ville: Lyon,
 	heberge: false,
 	finance: true,
-	intervient: false,
+	intervient: true,
 	organise: false,
 	tags: [Ecosystème agile],
 	lien: "http://agilelyon.fr/",

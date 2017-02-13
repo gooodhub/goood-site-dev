@@ -6,7 +6,7 @@
 	ville: Sophia Antipolis,
 	heberge: false,
 	finance: true,
-	intervient: false,
+	intervient: true,
 	organise: false,
 	tags: [Jeu],
 	lien: "https://www.meetup.com/fr-FR/Agile-Play-Ground/events/236332175/",
