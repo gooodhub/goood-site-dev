@@ -4,3 +4,7 @@ export default {
   path: '/evenements-formations/',
   title: 'Évts et Formations',
 };
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

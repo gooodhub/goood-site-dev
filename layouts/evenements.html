@@ -36,15 +36,28 @@
                             <div class="cd-timeline-img cd-movie">
                                 <i class="fa {{this.icon}} fa-2x" aria-hidden="true"></i>
                             </div>
-
                             <div class="cd-timeline-content" style="cursor: pointer;" onclick="window.location='{{this.lien}}';">
                                 <h2 id="titre-evenement">{{this.titre}}</h2>
                                 <p>
                                     {{this.description}}
                                 </p>
+                                <p class="roles-timeline">
+                                {{#if organise}}
+                                    <span class="badge badge-info role badge-timeline" data-toggle="tooltip" title="On organise"><i class="fa fa-cogs fa-lg" aria-hidden="true"></i></span>
+                                {{/if}}
+                                {{#if heberge}}
+                                    <span class="badge badge-info role badge-timeline" data-toggle="tooltip" title="On héberge"><i class="fa fa-home fa-lg" aria-hidden="true"></i></span>
+                                {{/if}}
+                                {{#if finance}}
+                                    <span class="badge badge-info role badge-timeline" data-toggle="tooltip" title="On sponsorise"><i class="fa fa-money fa-lg" aria-hidden="true"></i></span>
+                                {{/if}}
+                                {{#if intervient}}
+                                    <span class="badge badge-info role badge-timeline" data-toggle="tooltip" title="On intervient"><i class="fa fa-comment-o fa-lg" aria-hidden="true"></i></span>
+                                {{/if}}
+                                </p>
                                 <p>
-                                <span class="badge badge-info ville badge-timeline">{{this.ville}}</span>
-                                {{#each this.roles}}
+                                <span class="badge ville badge-timeline">{{this.ville}}</span>
+                                {{#each this.tags}}
                                     <span class="badge badge-primary badge-timeline">{{this}}</span>
                                 {{/each}}
                                 <span class="badge badge-success type-evenement">{{this.type}} <span class="date-mobile"> - {{this.date}}</span>

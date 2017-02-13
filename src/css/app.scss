@@ -44,6 +44,8 @@
 
 @import 'badge';
 
+@import 'tooltip';
+
 * {
   box-sizing: border-box;
 }
@@ -519,4 +521,17 @@ p.numero-formation{
 
 .formation-link:hover{
   text-decoration: underline;
+}
+
+.role{
+  background:#fc4c02;
+}
+
+.roles-timeline{
+  width:100%;
+  margin-bottom:0px;
+}
+
+.ville{
+  background-color:#1d3f51;
 }
