@@ -32,9 +32,11 @@
 * Chef d'équipe
 * Toute personne intéressée par la facilitation de groupe
 
-## JOUR 1 ##
+## Jour 1 ##
 * Le rôle et la posture de facilitateur
 * Savoir générer des idées
 
-## JOUR 2 ##
-* Le processus de construction et la facilitation bout en bout
+## Jour 2 ##
+* Faire le design d’une session de créativité de bout en bout
+* Travailler avec son commanditaire
+* Ce qu’il vous faut retenir en sortant de la formation
