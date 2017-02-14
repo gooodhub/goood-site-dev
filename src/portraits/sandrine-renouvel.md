@@ -11,6 +11,6 @@ twitter:
 linkedin: 
 blog: 
 ---
-La tête dans l'écran, les oreilles à côtés :-) Sandrine est à l'affût de toute information pour avancer, comprendre et aider aux mieux le groupe. Son second surnom " Traqueuse de justificatifs (factures, facturettes...)
+La tête dans l'écran, les oreilles à côté :-) Sandrine est à l'affut de toute information pour avancer, comprendre et aider au mieux le groupe. Son second surnom " Traqueuse de justificatifs (factures, facturettes...)
 
 Où la trouver ? En haut de la Rhune dès qu'elle en a la possibilité. Qu'y fait-elle ? elle s'enivre du paysage. Sinon, elle regarde la vie à travers son incroyable kaléidoscope Goood!  :-)
