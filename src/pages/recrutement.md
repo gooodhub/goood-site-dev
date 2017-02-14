@@ -4,6 +4,7 @@ slug: recrutement
 headline: Rejoindre l'équipe
 description: Opportunités de carrière, missions ou postes, et process de recrutement et d'intégration chez Goood!
 layout: recrutement.html
+priority: 1
 ---
 
 ## La passion avant tout ##

@@ -1,5 +1,6 @@
 const metalsmith = require('metalsmith');
 const layouts = require('metalsmith-layouts');
+const sitemap = require('metalsmith-mapsite');
 const markdown = require('metalsmith-markdown');
 const sass = require('metalsmith-sass');
 const autoprefixer = require('metalsmith-autoprefixer');
@@ -102,16 +103,22 @@ const buildApp = metalsmith(__dirname)
       }]
   }))
 
-  // Contenu et mise en forme
-  .use(layouts({
-    engine: 'handlebars',
+    .use(layouts({
     partials: 'layouts/partials',
+    engine: 'handlebars',
+    "rename": false
   }))
 
   // CSS
   .use(sass(sassParams()))
   .use(autoprefixer())
 
+  .use(sitemap({
+    hostname: 'http://goood.pro',
+    omitIndex: true,
+    changefreq: 'weekly',
+    priority: 0.5,
+  }))
 
   // JS - app.js to bundle.js using babel transpiler
   .use(webpackPlugin(webpackConfig))

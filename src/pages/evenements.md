@@ -4,6 +4,8 @@ slug: evenements-formations
 headline: Evts & formations
 description: Retrouvez les prochaines dates de nos formations et des événements ouverts au public où vous pouvez nous rencontrer.
 layout: evenements.html
+changefreq: daily
+priority: 1
 ---
 # Les groupes et communautés où nous sommes impliqués #
 * Agile France 
