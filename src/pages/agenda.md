@@ -1,9 +1,9 @@
 ---
-title: Événements & formations Goood!
-slug: evenements-formations
-headline: Evts & formations
-description: Retrouvez les prochaines dates de nos formations et des événements ouverts au public où vous pouvez nous rencontrer.
-layout: evenements.html
+title: Événements Goood!
+slug: agenda
+headline: Agenda
+description: Retrouvez les prochaines dates des événements ouverts au public où vous pouvez nous rencontrer.
+layout: agenda.html
 changefreq: daily
 priority: 1
 ---

@@ -5,6 +5,7 @@ const markdown = require('metalsmith-markdown');
 const sass = require('metalsmith-sass');
 const autoprefixer = require('metalsmith-autoprefixer');
 const permalinks = require('metalsmith-permalinks'); 
+var ignore = require('metalsmith-ignore');
 const collections = require('metalsmith-collections');
 const metalSmithRegisterHelpers = require('metalsmith-register-helpers');
 const rootPath = require('metalsmith-rootpath');
@@ -87,6 +88,7 @@ const buildApp = metalsmith(__dirname)
 
   .use(markdown())
 
+  .use(ignore('evenements/*'))
   // Routing
   .use(permalinks({
     pattern: ':slug',
