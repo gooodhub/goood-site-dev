@@ -22,6 +22,12 @@
   }
 }
 
+#agenda {
+    .slide__header {
+    background-image: url('../images/agenda.jpg');
+  }
+}
+
 #references {
   .slide__header {
     background-image: url('../images/header-clients-'+$theme+'.jpg');
