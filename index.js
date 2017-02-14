@@ -89,6 +89,8 @@ const buildApp = metalsmith(__dirname)
   .use(markdown())
 
   .use(ignore('evenements/*'))
+  .use(ignore('clients/*/*'))
+  .use(ignore('portraits/*'))
   // Routing
   .use(permalinks({
     pattern: ':slug',
