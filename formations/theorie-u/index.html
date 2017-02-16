@@ -225,12 +225,12 @@ Le processus U, élaboré par Otto Scharmer, est un voyage apprenant par la renc
             </section>
             <div class="row">
               <div id="location-espace-sud-contact">
-                <a class="btn btn-primary" id="contact-formation" data-text="(mail à Célia)" href="mailto:formation@goood.pro?subject=Contact pour la formation : Théorie U">
+                <a class="btn btn-primary" id="contact-formation" data-title="Théorie U" data-text="(mail à Célia)" href="mailto:formation@goood.pro?subject=Contact pour la formation : Théorie U">
                     <span>Nous contacter</span>
                 </a>
               </div>
-                </div>
             </div>
+          </div>
             <span style="display:none" id="pourcentagePratique">75</span>
           </section>
         </div>
@@ -304,8 +304,24 @@ Le processus U, élaboré par Otto Scharmer, est un voyage apprenant par la renc
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-70741563-1', 'none');
+  ga('create', 'UA-70741563-1', {
+  'cookieDomain': 'none'
+  });
   ga('send', 'pageview');
+
+  ga('send', {
+  hitType: 'event',
+  eventCategory: 'Videos',
+  eventAction: 'play',
+  eventLabel: 'Fall Campaign'
+  });
+
+  ga('send', {
+    hitType: 'event',
+    eventCategory: 'AccesPage',
+    eventAction: 'acces',
+    eventLabel: window.location.href
+  });
 
 </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.3/outdatedbrowser.min.js"></script>
