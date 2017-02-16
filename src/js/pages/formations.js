@@ -27,8 +27,7 @@ function envoiGABeacon(category, action, label){
 envoiGA("AccesPage","acces", window.location.href);
 
 //formations
-$('.formation-link').on("click", function()
-{
+$('.formation-link').on("click", function(){
 	envoiGABeacon('formation','acces','Click depuis /formations/ vers la formation : ' + $(this).data('title'));
 });
 
@@ -53,19 +52,19 @@ window.onscroll = function(ev) {
 };
 
 //main page
-$('#video-dth').on("click",function(){
+$('#video-dth').on("click", function(){
 	envoiGA("home","video", "Ouverture de la pop-in vidéo");
 });
 
 //contacts
-$('#contact-sandrine').on("click", function(){
-	envoiGABeacon("contact","demande-contact", "Demande de contact pour Paris";
+$('#contact-sandrine').on('click', function(){
+	envoiGA("contact","demande-contact", "Demande de contact pour Paris");
 });
 
 $('#contact-gregory').on("click", function(){
-	envoiGABeacon("contact","demande-contact", "Demande de contact pour Lyon");
+	envoiGA("contact","demande-contact", "Demande de contact pour Lyon");
 });
 
 $('#contact-romain').on("click", function(){
-	envoiGABeacon("contact","demande-contact", "Demande de contact pour le Sud");
+	envoiGA("contact","demande-contact", "Demande de contact pour le Sud");
 });
