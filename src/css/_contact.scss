@@ -7,7 +7,6 @@
   .coord2 {
     background: $secondaryColor;
     @extend %contentPadding;
-    padding-top: 80px;
 
     h1 {
       margin: 0 auto;
@@ -37,7 +36,6 @@
 
   .coord {
     @extend %contentPadding;
-    padding-top: 80px;
 
     display: flex;
     flex-direction: column;
@@ -73,4 +71,21 @@
     font-size: em(22);
     line-height: em(23);
   }
+}
+
+.coord h2{
+  color:#fc4c02;
+}
+
+.espace-sud-link{
+  color:#44b7e9;
+  text-decoration:none;
+}
+
+.espace-sud-link:hover{
+  text-decoration: underline;
+}
+
+#contact .contact-goood p{
+  margin-bottom:20px;
 }
