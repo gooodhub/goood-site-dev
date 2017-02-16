@@ -2,7 +2,7 @@
 {
 	title: "Introduction aux Méthodes agiles", 
 	slug: "introduction-agile", 
-	headline: "Introduction aux méthodes agiles : Comprendre la démarche",
+	headline: "Méthodes agiles",
 	description: "Appréhender les principales méthodes agiles", 
 	theme: agile,
 	heures: 21,
