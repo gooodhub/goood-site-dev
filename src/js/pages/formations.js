@@ -39,7 +39,6 @@ $('.slide-nav-buttons__parent').on("click",function(){
 	envoiGA("formation","retour-formations", "Retour vers les formations");
 });
 
-// contact-celia-page-formations
 $('#contact-celia-page-formations').on("click",function(){
 	envoiGA("formations","contact", "contact depuis le listing de toutes les formations");
 });
