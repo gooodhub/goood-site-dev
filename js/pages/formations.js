@@ -39,6 +39,15 @@ $('.slide-nav-buttons__parent').on("click",function(){
 	envoiGA("formation","retour-formations", "Retour vers les formations");
 });
 
+// contact-celia-page-formations
+$('#contact-celia-page-formations').on("click",function(){
+	envoiGA("formations","contact", "contact depuis le listing de toutes les formations");
+});
+
+$('#telechargement-catalogue-formation').on("click",function(){
+	envoiGA("formations","catalogue", "téléchargement du catalogue de formation");
+});
+
 //agenda
 $('.cd-timeline-content').on("click", function(){
 	envoiGABeacon("agenda","visualisation-evenement", "Accès à l'événement : " + $(this).data('title'));
