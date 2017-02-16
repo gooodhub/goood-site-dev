@@ -2,7 +2,7 @@
 {
 	title: "Techniques et méthodes de facilitation de groupe",
 	slug: Techniques-et-methodes-de-facilitation-de-groupe, 
-	headline: "Techniques et méthodes de facilitation de groupe",
+	headline: "Facilitation de groupe",
 	description: Etre capable de faciliter l'intelligence collective d'un groupe,
 	theme: agile,
 	heures: 24,

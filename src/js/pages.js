@@ -6,6 +6,7 @@ import referencesPage from './pages/references';
 import eventsPage from './pages/evenements';
 import contactPage from './pages/contact';
 import sousPage from './pages/sous-page';
+import formationsPage from './pages/formations';
 
 const protoPage = {
   position: null,
@@ -60,5 +61,6 @@ pages.push(createPage(equipePage));
 pages.push(createPage(careersPage));
 pages.push(createPage(eventsPage));
 pages.push(createPage(contactPage));
+pages.push(createPage(formationsPage));
 
 export default pages;
