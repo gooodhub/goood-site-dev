@@ -37,12 +37,12 @@ $('#contact-formation').on("click", function(){
 });
 
 $('.slide-nav-buttons__parent').on("click",function(){
-	envoiGA("formation","retour", "Retour vers les formations");
+	envoiGA("formation","retour-formations", "Retour vers les formations");
 });
 
 //agenda
 $('.cd-timeline-content').on("click", function(){
-	envoiGABeacon("agenda","click", "Accès à l'événement :" + $(this).data('title'));
+	envoiGABeacon("agenda","visualisation-evenement", "Accès à l'événement : " + $(this).data('title'));
 });
 
 //global
@@ -55,4 +55,17 @@ window.onscroll = function(ev) {
 //main page
 $('#video-dth').on("click",function(){
 	envoiGA("home","video", "Ouverture de la pop-in vidéo");
+});
+
+//contacts
+$('#contact-sandrine').on("click", function(){
+	envoiGABeacon("contact","demande-contact", "Demande de contact pour Paris";
+});
+
+$('#contact-gregory').on("click", function(){
+	envoiGABeacon("contact","demande-contact", "Demande de contact pour Lyon");
+});
+
+$('#contact-romain').on("click", function(){
+	envoiGABeacon("contact","demande-contact", "Demande de contact pour le Sud");
 });
