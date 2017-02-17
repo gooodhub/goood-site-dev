@@ -33,6 +33,13 @@ const goood = () => {
 // Init App
 goood();
 
+  outdatedBrowser({
+    bgColor: '#f25648',
+    color: '#ffffff',
+    lowerThan: 'transform',
+    languagePath: ''
+  });
+
 function envoiGA(category, action, label){
   ga('send', {
     hitType: 'event',
