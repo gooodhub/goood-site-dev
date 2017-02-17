@@ -1,0 +1,19 @@
+CACHE MANIFEST
+# 2017-02-17 v1.0.1
+
+# Explicitly cached entries
+css/app.css
+js/bundle.js
+
+# offline.html will be displayed if the user is offline
+FALLBACK:
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+*
+
+# Additional resources to cache
+CACHE:
+images/FF34CFE65388C1A0.png
+images/FF34CFE65388C1A7.png
+images/femme-mobile-bas.jpg 
