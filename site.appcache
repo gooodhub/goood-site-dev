@@ -14,6 +14,10 @@ NETWORK:
 
 # Additional resources to cache
 CACHE:
-images/FF34CFE65388C1A0.png
+/images/FF34CFE65388C1A0.png
 images/FF34CFE65388C1A7.png
 images/femme-mobile-bas.jpg 
+images/fleche-droite-ico.svg
+images/fleche-orange.svg
+images/home-background-th2.jpg
+images/lecture-ico.svg
