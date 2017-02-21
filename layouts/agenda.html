@@ -1,4 +1,74 @@
-{{#> layout }}
+<!doctype html>
+<html lang="fr-FR" manifest="http://goood.pro/site.appcache">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="{{ description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>{{ title }}</title>
+  <meta property="og:title" content="Goood!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://goood.pro" />
+  <meta property="og:image" content="http://goood.pro/images/agenda.jpg" />
+  <meta property="og:description" content="Chez Goood! on aime partager, venez-nous rencontrer sur les prochains événements où nous participons." />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="Goood!" />
+  <meta property="og:video" content="https://youtu.be/BI7K9lWhMgc" />
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="icon" href="/images/favicon.ico" />
+  <script type="application/ld+json">
+{
+  "@graph":   [
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Goood!",
+      "url": "http://www.goood.pro"
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://goood.pro/formations",
+          "name": "Agenda",
+          "image": "http://goood.pro/images/header-events-th2.jpg"
+        }
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://goood.pro/formations/techniques-et-methodes-de-facilitation-de-groupe/",
+          "name": "TOP",
+          "image": "http://goood.pro/images/workshop.jpg"
+        }
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http://www.goood.pro/formations/manager-agile/",
+          "name": "Management 3.0",
+          "image": "http://goood.pro/images/workshop.jpg"
+        }
+      },{
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@id": "http://www.goood.pro/formations/introduction-agile/",
+          "name": "Introduction Agilité",
+          "image": "http://goood.pro/images/workshop.jpg"
+        }
+      }]
+    }
+  ]
+}
+</script>
+</head>
+
+{{#> body-layout }}
 {{#*inline "content"}}
 <div class="slide" id="agenda">
     {{> slide-header title=headline }}
@@ -63,4 +133,5 @@
 </div>
 </div>
 {{/inline}}
-{{/layout}}
+{{/body-layout}}
+
