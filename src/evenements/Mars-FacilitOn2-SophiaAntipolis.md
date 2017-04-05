@@ -1,6 +1,6 @@
 ---
 {
-	titre: "Facilit'ON - Sophia Antipolis - Design Thinking",
+	titre: "Facilit'ON - Sophia Antipolis - Anniversaire",
 	date: 2017-03-28,
 	type: Meetup,
 	ville: Sophia Antipolis,
