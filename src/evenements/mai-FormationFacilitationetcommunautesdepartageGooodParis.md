@@ -1,7 +1,7 @@
 ---
 {
 	titre: Facilitation et communautés de pratiques,
-	date: 2017-22-05,
+	date: 2017-05-22,
 	type: Formation,
 	ville: Paris,
 	heberge: true,
