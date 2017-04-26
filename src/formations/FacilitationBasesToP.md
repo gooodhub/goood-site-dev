@@ -12,7 +12,7 @@
 	pourcentagePratique: 60,
 	lesPlus: [Un programme de mise en pratique sur six semaines entre pairs, Une formation certifiante],
 	layout: sous-page.html, 
-	dates: [3 - 15 Mars à Sophia Antipolis, 15 mars 2018]
+	dates: [27,28 et 29 Septembre - à Sophia Antipolis]
 }
 ---
 
