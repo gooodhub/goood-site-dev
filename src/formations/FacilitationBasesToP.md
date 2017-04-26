@@ -10,7 +10,7 @@
 	prixInter: 1800,
 	prixIntra: 8000,
 	pourcentagePratique: 60,
-	lesPlus: [Un programme de mise en pratique sur six semaines entre pairs, Une formation certifiante],
+	lesPlus: [De la pratique sur 3 jours],
 	layout: sous-page.html, 
 	dates: [27,28 et 29 Septembre - à Sophia Antipolis]
 }
