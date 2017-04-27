@@ -8,9 +8,12 @@
 	finance: false,
 	intervient: true,
 	organise: true,
-	tags: ["Formateur", "Communautés de pratiques", "Facilitation"],
+	tags: ["Facilitation", "Communautés de pratiques", "Intelligence Collective"],
 	lien: "http://goood.pro",
 	icon: "fa-graduation-cap",
-	description: "Vous voulez expérimenter de nouveaux outils d'intelligence collective ? changer de posture pour adopter celle de facilitateur ? avoir des clés pour créer et animer des communautés de pratiques ? c'est ce que vous vivrez pendant ces trois jours (le 22-23 mai et le 7 juin) »",
+	description: "Vous souhaitez faire appel à l’intelligence collective de votre équipe, vous voulez créer et animer des communautés de pratiques pour faire grandir vos équipes. 
+Nous vous ferons expérimenter en tant que participant, concepteur et animateur, des outils d’intelligence collective. Nous vous transmettrons des clés pour créer et animer des communautés de pratiques.
+2 jours d’affilée et une journée de débrief et d’apprentissage qui aura lieu 15 jours plus tard, le temps que vous expérimentiez dans la vie réelle. 
+- 22-23 mai et 7 juin - »",
 }
 ---
