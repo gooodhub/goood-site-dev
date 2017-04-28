@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="Présentation de cas clients qui illustrent les compétences de Goood! en matière de développement de logiciel sur mesure, d&#x27;application métier, de coaching agile, de design et facilitation de séminaires et transformation des entreprises.">
+  <meta name="description" content="Adopter la posture du facilitateur">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <title>Références et cas clients Goood!</title>
+  <title>Facilitation de groupe et communautés de pratiques</title>
   <meta property="og:title" content="Goood!" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://goood.pro" />
@@ -140,7 +140,7 @@
   </div>
   <div class="main-wrapper">
     <div class="wrap">
-    <div class="slide" id="references">
+    <div class="slide sous-page" id="agile">
       <a class="logo" href="/">
         <svg version="1.1" id="Logo_Goood_blanc_copie_2" x="0px" y="0px" viewBox="0 0 147 71" style="enable-background:new 0 0 147 71;" xml:space="preserve">
       <style type="text/css">
@@ -182,247 +182,85 @@
       </a>
       <div class="slide__header">
         <div class="slide__title">
-          Références
+          Facilitation de groupe
         </div>
       </div>
       <div class="slide__content">
-        <section class="etude">
-          <header class="etude__header">
-            <p>
-              Études de cas
-            </p>
-            <h1>
-              Chacun de nos clients a une problématique unique
-            </h1>
-          </header>
-          <div class="etude__content">
-            <p>
-              <p>Voici quelques unes de nos références, organisées selon la problématique soulevée par notre client, à chaque fois différente. Nous intervenons pour tout type d’organisation sur des problématiques très diverses.</p>
+        <div class="row">
+          <section class="intro">
+              <p class="intro-formation">
+                <span class="badge badge-info-formation"><i class="fa fa-clock-o" aria-hidden="true"></i> 21 heures </span>
+                <span class="badge badge-info-formation"><i class="fa fa-users" aria-hidden="true"></i> 20 participants</span>
+                <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> 1800 € HT inter-entreprises</span>
+                <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> 8000 € HT intra-entreprise</span>
+              </p>
+            
+### Facilitation de groupe et communautés de pratiques ###
 
-            </p>
-            <div class="etude__groupe__btns">
-              <a class="btn btn--primary" href="/recette-magique/" data-text="Démarche">
-                <span>
-                  Démarche
-                </span>
-              </a>
-              <a class="btn" href="/contact/" data-text="Contacts">
-                <span>
-                  Contacts
-                </span>
-              </a>
+L’agilisation de vos organisations n’est possible que grâce à la révélation de la puissance de l’intelligence collective. Pour des facilitateurs en devenir qui ont envie de vivre une expérience. Chaque participant aura l’opportunité d’animer un temps de l’atelier (ouverture, jeux sérieux, clôture, autre).
+Nous vous invitons par cette formation à développer des compétences et à changer de posture.
+
+## Rythme : 3 jours (2 jours + 1 jour) ##
+
+
+## Objectifs de la formation : ##
+* Comprendre et acquérir la posture de facilitateur
+* Acquérir et pratiquer des outils d’intelligence collective
+* Comprendre les mécanismes de création, d’animation et de vie d’une communauté de pratique
+
+## Public concerné ##
+* Facilitateur
+* Manager
+* Chef de projet
+* Consultant
+* Coach
+* Formateur
+* Chef d'équipe
+* Toute personne intéressée par la facilitation de groupe
+
+## Méthodologie ##
+Au travers des ateliers et des debriefs, vous allez explorer et adopter la posture de facilitateur, échanger vos expériences et expérimenter les techniques et méthodes pour faire fructifier l’intelligence collective des groupes. Vous apprendrez à construire et à animer un atelier. Nous vous inviterons aussi à réfléchir aux meilleures pratiques connues aujourd’hui pour créer et animer une communauté de pratique. Ce sera l’occasion d’expérimenter le codéveloppement professionnel de groupe, une
+technique redoutable pour partager des pratiques et capitaliser. Ca peut être utile pour une communauté de pratique, n’est-ce pas ?
+
+Le nombre de participants est limité à 20 personnes.
+
+
+            <div id="conteneur-repartition-methodologie">
+              <canvas id="repartition-methodologie"></canvas>
+            </div>
+            <section class="intro">
+            <h2>Les +</h2>
+              <ul>
+                  <li>
+                      De la pratique et un peu de théorie sur 2 jours et beaucoup de retour d’expérience des formateurs
+                  </li>
+                  <li>
+                      15 jours d’expérimentation dans la vie réelle qui seront suivis d’un troisième jour de debrief de vos expériences
+                  </li>
+              </ul>
+            <h2>Les prochaines dates</h2>
+              <p class="prochaines-dates">
+                  <span class="badge badge-info-dates"><i class="fa fa-clock-o" aria-hidden="true"></i> 22-23 mai et 11 juin - à Paris</span>
+                  <span class="badge badge-info-dates"><i class="fa fa-clock-o" aria-hidden="true"></i> 12-13 juin et 3 juillet - à Paris</span>
+              </p>
+            <h2>Notre numéro de centre de formation</h2>
+            <p class="numero-formation">
+              <span class="badge badge-info-numero-formation"><i class="fa fa-book" aria-hidden="true"></i> 11 75 54328 75</span>
+            </section>
+            <div class="row">
+              <div id="location-espace-sud-contact">
+                <a class="btn btn-primary" id="contact-formation" data-title="Facilitation de groupe et communautés de pratiques" data-text="(mail à Célia)" href="mailto:formation@goood.pro?subject=Contact pour la formation : Facilitation de groupe et communautés de pratiques">
+                    <span>Nous contacter</span>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="slide__orange">
-              <svg width="97.45" height="139.96" viewBox="0 0 97.45 139.96">
-  <title>performant</title>
-  <path id="performantPath" d="M40.36,16.93S16.46,43,8.13,52.7C-3.32,66,6,82,22,82H40.65s-19.57,39.34-27.19,53.85C8.9,144.54,64.82,97.85,84,82S93.64,46.49,74,46.49H45.56L67,3.05" fill="none" stroke="#fc4c02" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.11"/>
-  <line id="performantLine" x1="46.6" y1="10.98" x2="52.88" y2="3.23" fill="none" stroke="#fc4c02" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.11"/>
-</svg>
-              <h2>Opérations</h2>
-              <p>
-                Revisiter les méthodes de travail et les outils ou les usages digitaux pour accélérer les opérations
-              </p>
-            </div>
-            <div class="slide__carousel slide__carousel--operations">
-            	<a class="slide__item" name="Serexim">
-            		<div class="slide__item__title">
-            			Logiciel sur mesure
-            		</div>
-            		<div class="slide__item__img">
-            			<img src="/images/clients/serexim.png" alt="Logo client Goood! Serexim">
-            		</div>
-            		<div class="slide__item__society">
-            			Notre métier sur tablettes
-            		</div>
-            		<div class="slide__item__descr">
-            			<p>Développement d&#39;une application sur tablette pour la collecte de données sur le terrain et la dématérialisation des flux d’information entre les clients et les experts</p>
-            
-            		</div>
-            		<span class="slide__item__results">Enjeu : Gagner 20% de productivité sur le traitement d&#x27;une commande</span>
-            		<span class="slide__item__hashtag">#productivité</span>
-            	</a>
-            	<a class="slide__item" name="SGCIB">
-            		<div class="slide__item__title">
-            			Réorganiser le délivery
-            		</div>
-            		<div class="slide__item__img">
-            			<img src="/images/clients/soge.png" alt="Logo client Goood! SGCIB">
-            		</div>
-            		<div class="slide__item__society">
-            			Un S.I. aussi réactif que nos marchés
-            		</div>
-            		<div class="slide__item__descr">
-            			<p>Réorganisation des équipes IT, introduction de nouvelles méthodes de travail et changement des pratiques d&#39;ingénierie et des relations avec les front-office</p>
-            
-            		</div>
-            		<span class="slide__item__results">Enjeu : Diviser le time-to-market par 6 en 3 ans</span>
-            		<span class="slide__item__hashtag">#réactivité</span>
-            	</a>
-            	<a class="slide__item" name="Services du 1er Ministre">
-            		<div class="slide__item__title">
-            			Coaching agile
-            		</div>
-            		<div class="slide__item__img">
-            			<img src="/images/clients/premierministre.png" alt="Logo client Goood! Services du 1er Ministre">
-            		</div>
-            		<div class="slide__item__society">
-            			Sécuriser un projet stratégique
-            		</div>
-            		<div class="slide__item__descr">
-            			<p>Accompagnement des dirigeants du projet, formation des intervenants - internes et prestataires - au projet et mise en place d&#39;un cadre méthodologique. </p>
-            
-            		</div>
-            		<span class="slide__item__results">Enjeu : Installer une culture de coopération dans un marché public</span>
-            		<span class="slide__item__hashtag">#sérénité</span>
-            	</a>
-            </div>          </div>
-          <div class="row">
-            <div class="slide__orange">
-              <svg width="129.86" height="144.92" viewBox="0 0 129.86 144.92">
-  <title>inspirant</title>
-  <line id="inspirantLine" x1="73.38" y1="23.52" x2="70.36" y2="11.14" fill="none" stroke="#fc4c02" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.11"/>
-  <path id="inspirantPath" d="M61.51,3.05,51.83,43a3.64,3.64,0,0,1-4.58,2.63L7.87,33.89A3.64,3.64,0,0,0,4.32,40L34.06,68.37a3.64,3.64,0,0,1,0,5.29L4.21,101.89A3.64,3.64,0,0,0,7.75,108L47.16,96.46a3.64,3.64,0,0,1,4.57,2.65l9.54,40a3.64,3.64,0,0,0,7.09,0L78,99.15a3.64,3.64,0,0,1,4.58-2.63L122,108.23a3.64,3.64,0,0,0,3.55-6.13L95.81,73.76a3.64,3.64,0,0,1,0-5.29l29.83-28.24a3.64,3.64,0,0,0-3.53-6.14L82.71,45.67A3.64,3.64,0,0,1,78.13,43l-2.66-9.36" fill="none" stroke="#fc4c02" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.11"/>
-</svg>
-              <h2>Organisation</h2>
-              <p>
-                Développer l’autonomie responsable pour fluidifier l’organisation
-              </p>
-            </div>
-            <div class="slide__carousel slide__carousel--organisation">
-            	<a class="slide__item" name="EasyParapharmacie">
-            		<div class="slide__item__title">
-            			Facilitation
-            		</div>
-            		<div class="slide__item__img">
-            			<img src="/images/clients/easyparapharmacie.png" alt="Logo client Goood! EasyParapharmacie">
-            		</div>
-            		<div class="slide__item__society">
-            			Construire un projet fédérateur
-            		</div>
-            		<div class="slide__item__descr">
-            			<p>Design et facilitation d&#39;un séminaire interne puis d&#39;ateliers de travail des personnes clés de l&#39;organisation pour articuler la vision pour l&#39;entreprise et l&#39;organisation qui en découle.</p>
-            
-            		</div>
-            		<span class="slide__item__results">Enjeu : Donner du sens pour autonomiser</span>
-            		<span class="slide__item__hashtag">#cohésion</span>
-            	</a>
-            	<a class="slide__item" name="LVMH Fragrance Brands Operations">
-            		<div class="slide__item__title">
-            			Changement de modèles
-            		</div>
-            		<div class="slide__item__img">
-            			<img src="/images/clients/lvmhfb.png" alt="Logo client Goood! LVMH Fragrance Brands Operations">
-            		</div>
-            		<div class="slide__item__society">
-            			Réveiller la capacité d&#x27;initiative
-            		</div>
-            		<div class="slide__item__descr">
-            			<p>Travail d&#39;appropriation des conditions de l&#39;innovation par les managers et co-conception de nouveaux rituels managériaux autorisant et protégeant la prise d&#39;initiative</p>
-            
-            		</div>
-            		<span class="slide__item__results">Enjeu : Faire évoluer la culture sans toucher aux performances</span>
-            		<span class="slide__item__hashtag">#innovation</span>
-            	</a>
-            	<a class="slide__item" name="Voyages-SNCF.com">
-            		<div class="slide__item__title">
-            			Développement personnel
-            		</div>
-            		<div class="slide__item__img">
-            			<img src="/images/clients/voyagesncf.png" alt="Logo client Goood! Voyages-SNCF.com">
-            		</div>
-            		<div class="slide__item__society">
-            			Aider les managers à (re)trouver leurs marques
-            		</div>
-            		<div class="slide__item__descr">
-            			<p>Construction d&#39;un parcours d&#39;accompagnement au changement de posture dans le cadre d&#39;une transformation de l&#39;organisation autour des méthodes agiles + devops.</p>
-            
-            		</div>
-            		<span class="slide__item__results">Enjeu : Accompagner 80 managers dans le changement</span>
-            		<span class="slide__item__hashtag">#alignement</span>
-            	</a>
-            </div>          </div>
-          <div class="row">
-            <div class="slide__orange">
-              <svg width="142.66" height="123.85" viewBox="0 0 142.66 123.85">
-  <title>innovant</title>
-  <path id="innovantPath" d="M77.93,40.9c35.49,10.91,89.17,58.47,45,70.19C80.4,122.4.55,99.65,3.12,65.45,5.21,37.59,114.3,18.64,131.26,35.17,154.19,57.52,66.24,129,32.2,120S17,52.69,65.8,15.95" fill="none" stroke="#fc4c02" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.11"/>
-  <line id="innovantLine" x1="72.87" y1="9.66" x2="82.25" y2="3.05" fill="none" stroke="#fc4c02" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.11"/>
-</svg>
-              <h2>Offre</h2>
-              <p>
-                Mobiliser l’éco-système pour co-créer une Offre en rupture
-              </p>
-            </div>
-            <div class="slide__carousel slide__carousel--offre">
-            	<a class="slide__item" name="L&#x27;Oréal">
-            		<div class="slide__item__title">
-            			Startup Interne
-            		</div>
-            		<div class="slide__item__img">
-            			<img src="/images/clients/loreal.png" alt="Logo client Goood! L&#x27;Oréal">
-            		</div>
-            		<div class="slide__item__society">
-            			Disrupter un marché compétitif et mature
-            		</div>
-            		<div class="slide__item__descr">
-            			<p>Démarche &quot;Océan Bleu&quot; puis &quot;Lean Startup&quot; menant à l&#39;incubation d&#39;une startup qui doit bousculer un segment du marché des cosmétiques.</p>
-            
-            		</div>
-            		<span class="slide__item__results">Enjeu : Relancer la consommation par le service</span>
-            		<span class="slide__item__hashtag">#business dev</span>
-            	</a>
-            	<a class="slide__item" name="MAIF">
-            		<div class="slide__item__title">
-            			Co-Design Thinking
-            		</div>
-            		<div class="slide__item__img">
-            			<img src="/images/clients/maif.png" alt="Logo client Goood! MAIF">
-            		</div>
-            		<div class="slide__item__society">
-            			Découvrir de nouveaux besoins clients
-            		</div>
-            		<div class="slide__item__descr">
-            			<p>Animation d&#39;une démarche &quot;test &amp; learn&quot; d&#39;innovation participative avec des usagers (sociétaires), des distributeurs (agents), des experts, des partenaires </p>
-            
-            		</div>
-            		<span class="slide__item__results">Enjeu : Créer de la valeur sur un marché apparemment saturé</span>
-            		<span class="slide__item__hashtag">#fidélisation</span>
-            	</a>
-            	<a class="slide__item" name="Pixelis">
-            		<div class="slide__item__title">
-            			Expérimentation digitale
-            		</div>
-            		<div class="slide__item__img">
-            			<img src="/images/clients/pixelis.png" alt="Logo client Goood! Pixelis">
-            		</div>
-            		<div class="slide__item__society">
-            			Innover dans la relation client
-            		</div>
-            		<div class="slide__item__descr">
-            			<p>Création d&#39;une plateforme Cloud pour explorer le brief client par itérations rapides autour de différentes idées créatives</p>
-            
-            		</div>
-            		<span class="slide__item__results">Enjeu : Gagner en agilité commerciale pour répondre mieux et plus vite</span>
-            		<span class="slide__item__hashtag">#différenciation</span>
-            	</a>
-            </div>          </div>
-        </section>
-        <section class="et-aussi">
-          <!--<div>Et aussi</div>
-          <div class="et-aussi__container">
-            <img src="/images/soge.png" alt="">
-            <img src="/images/soge.png" alt="">
-            <img src="/images/soge.png" alt="">
-          </div>-->
-        </section>
+            <span style="display:none" id="pourcentagePratique">70</span>
+          </section>
+        </div>
         <section class="slide-nav-buttons">
-          <a class="slide-nav-buttons__prev" href="/recette-magique/">
-            <span>Recette magique</span>
-          </a>
-          <a class="slide-nav-buttons__next" href="/equipe-et-culture/">
-            <span>Équipe et culture</span>
+          <a class="slide-nav-buttons__parent" href="/formations/">
+            <span>Formations</span>
           </a>
         </section>
         <footer class="footer">
