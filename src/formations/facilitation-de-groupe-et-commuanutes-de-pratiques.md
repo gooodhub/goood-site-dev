@@ -2,9 +2,9 @@
 {
 	title: "Facilitation de groupe et communautés de pratiques",
 	slug: Facilitation-de-groupe-et-communautés-de-pratiques, 
-	headline: "Facilitation de groupe et communautés de pratiques",
-	description: Adopter la posture du facilitateur, designer un atelier, créer et animer des communautés de pratiques,
-expérimenter le codéveloppement professionnel de groupe,
+	headline: "Facilitation et CoP",
+	description: "Adopter la posture du facilitateur, designer un atelier, créer et animer des communautés de pratiques,
+expérimenter le codéveloppement professionnel de groupe",
 	theme: agile,
 	heures: 21,
 	participants: 20,
@@ -14,7 +14,7 @@ expérimenter le codéveloppement professionnel de groupe,
 	lesPlus: [De la pratique et un peu de théorie sur 2 jours et beaucoup de retour d’expérience des formateurs,
 15 jours d’expérimentation dans la vie réelle qui seront suivis d’un troisième jour de debrief de vos expériences],
 	layout: sous-page.html, 
-	dates: [22-23 mai et 11 juin - à Paris, 12-13 juin et 3 juillet - à Paris]
+	dates: [22-23 mai et 7 juin - à Paris, 12-13 juin et 3 juillet - à Paris]
   
 }
 ---
