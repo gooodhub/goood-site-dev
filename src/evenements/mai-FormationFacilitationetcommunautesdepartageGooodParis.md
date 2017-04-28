@@ -1,6 +1,6 @@
 ---
 {
-	titre: Formation aux techniques de facilitations de groupe et de communautés de pratiques,
+	titre: Facilitations de groupe et communautés de pratiques,
 	date: 2017-05-22,
 	type: Formation,
 	ville: Paris,
@@ -9,7 +9,7 @@
 	intervient: true,
 	organise: true,
 	tags: ["Facilitation", "Communautés de pratiques", "Intelligence Collective"],
-	lien: "http://goood.pro/formations/facilitation-de-groupe-et-communaut-s-de-pratiques",
+	lien: "http://goood.pro/formations/facilitation-de-groupe-et-communautes-de-pratiques",
 	icon: "fa-graduation-cap",
 	description: "Vous souhaitez faire appel à l’intelligence collective de votre équipe, vous voulez créer et animer des communautés de pratiques pour faire grandir vos équipes. 
 Nous vous ferons expérimenter en tant que participant, concepteur et animateur, des outils d’intelligence collective. Nous vous transmettrons des clés pour créer et animer des communautés de pratiques.
