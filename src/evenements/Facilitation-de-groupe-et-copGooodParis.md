@@ -1,6 +1,6 @@
 ---
 {
-	titre: Facilitations de groupe et communautés de pratiques,
+	titre: Facilitation de groupe et communautés de pratiques,
 	date: 2017-06-12,
 	type: Formation,
 	ville: Paris,
@@ -14,6 +14,6 @@
 	description: "Vous souhaitez faire appel à l’intelligence collective de votre équipe, vous voulez créer et animer des communautés de pratiques pour faire grandir vos équipes. 
 Nous vous ferons expérimenter en tant que participant, concepteur et animateur, des outils d’intelligence collective. Nous vous transmettrons des clés pour créer et animer des communautés de pratiques.
 2 jours d’affilée et une journée de débrief et d’apprentissage qui aura lieu 15 jours plus tard, le temps que vous expérimentiez dans la vie réelle. 
-- 12-13 juin et 3 juillet - »",
+- 12-13 juin et 3 juillet - ",
 }
 ---
