@@ -19,7 +19,7 @@ expérimenter le codéveloppement professionnel de groupe",
 }
 ---
 
-### Facilitation de groupe et communautés de pratiques ###
+## Facilitation de groupe et communautés de pratiques ##
 
 L’agilisation de vos organisations n’est possible que grâce à la révélation de la puissance de l’intelligence collective. Pour des facilitateurs en devenir qui ont envie de vivre une expérience. Chaque participant aura l’opportunité d’animer un temps de l’atelier (ouverture, jeux sérieux, clôture, autre).
 Nous vous invitons par cette formation à développer des compétences et à changer de posture.
