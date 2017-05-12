@@ -15,7 +15,7 @@
                 </h1>
               </header>
               <p>
-                Nous adressons des sujets complexes et nous croyons à la diversité. Ça fait deux bonnes raisons pour rassembler des personnalités et des compétences très diversifiées : 
+                Nous adressons des sujets complexes et nous croyons à la diversité. Ça fait deux bonnes raisons pour rassembler des personnalités et des compétences très diversifiées :
                 systémique, coaching, méthodes agiles, développement de logiciels, design et animation d’ateliers et de séminaires, Product Ownership, Facilitation, Lean Startup, Software Craftsmanship …
               </p>
             </div>
@@ -36,19 +36,19 @@
                 </h1>
               </header>
               <p>
-                Nous sommes plus de 40 gooodiennes et gooodiens à partager un même état d’esprit à travailler en équipe 
-                pour relever vos défis, comprendre vos enjeux, bâtir vos solutions avec vous en partant du terrain :</p> 
-              <p>  
+                Nous sommes plus de 40 gooodiennes et gooodiens à partager un même état d’esprit à travailler en équipe
+                pour relever vos défis, comprendre vos enjeux, bâtir vos solutions avec vous en partant du terrain :</p>
+              <p>
                 Tous salariés mais ni consultants ni prestataires nous nous définissons comme des extrapreneurs : des intrapreneurs engagés (et un peu militants) au service de vos enjeux.
               </p>
-          
+
             </div>
             <div class="lequipe__img">
               <img src="/images/extrapreneurs.jpg" alt="Goood! équipe extrapreneurs">
             </div>
           </div>
         </section>
-        <section class="calltoaction">  
+        <section class="calltoaction">
             <header class="calltoaction__header">
             <p>
               Recrutement
@@ -66,7 +66,7 @@
                   Faisons connaissance
                 </span>
               </a>
-          </div>         
+          </div>
         </section>
         <section class="portraits">
           <header>
@@ -81,7 +81,7 @@
             <div class="row">
               {{#each portraits}}
               {{#if hashtag}}{{#if bulle2}}{{#if image}}{{#if job}}
-                <div class="portrait" data-portrait="{{this.path}}" >
+                <div class="portrait" data-portrait="{{this.path}}" id="{{this.path}}" >
                   <img data-src="{{this.image}}" alt="{{name}}" class="portrait__img b-lazy">
                   <span>
                     {{this.hashtag}}
@@ -195,10 +195,10 @@
                   </div>
                   {{{contents}}}
                   <div class="portrait_links">
-                    {{#if blog}}<div>Son blog : <a href="{{blog}}" target="_new" class="portrait-link,blog" >{{blog}}</a></div>{{/if}}                                      
-                    {{#if twitter}}<div>Son Twitter : <a href="{{twitter}}" target="_new" class="portrait-link,twitter" >{{twitter}}</a></div>{{/if}}                  
-                    {{#if linkedin}}<div>Son profil LinkedIn : <a href="{{linkedin}}" target="_new" class="portrait-link,linkedin" >{{linkedin}}</a></div>{{/if}}                  
-                    {{#if facebook}}<div>Sa page Facebook : <a href="{{facebook}}" target="_new" class="portrait-link,facebook" >{{facebook}}</a></div>{{/if}}                  
+                    {{#if blog}}<div>Son blog : <a href="{{blog}}" target="_new" class="portrait-link,blog" >{{blog}}</a></div>{{/if}}
+                    {{#if twitter}}<div>Son Twitter : <a href="{{twitter}}" target="_new" class="portrait-link,twitter" >{{twitter}}</a></div>{{/if}}
+                    {{#if linkedin}}<div>Son profil LinkedIn : <a href="{{linkedin}}" target="_new" class="portrait-link,linkedin" >{{linkedin}}</a></div>{{/if}}
+                    {{#if facebook}}<div>Sa page Facebook : <a href="{{facebook}}" target="_new" class="portrait-link,facebook" >{{facebook}}</a></div>{{/if}}
                   </div>
                 </div>
               </div>

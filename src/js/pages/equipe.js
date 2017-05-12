@@ -54,6 +54,7 @@ const createPortraitModal = () => {
   * Open Modal
   */
   function open(e) {
+    window.location.hash = e.target.id;
     const nodeList = Array.prototype.slice.call(document.querySelector('.portraits__container .row').children);
     const index = nodeList.indexOf(e.target);
 
