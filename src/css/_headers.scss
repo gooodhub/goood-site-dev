@@ -46,6 +46,12 @@
   }
 }
 
+#tooolkit {
+  .slide__header {
+    background-image: url('../images/espace-sud.jpg');
+  }
+}
+
 #agile {
   .slide__header {
     background-image: url('../images/workshop.jpg');
@@ -55,5 +61,11 @@
 #dev {
   .slide__header {
     background-image: url('../images/Coding dojo.jpeg');
+  }
+}
+
+#offre {
+  .slide__header {
+    background-image: url('../images/header-offre-'+$theme+'.jpg');
   }
 }
