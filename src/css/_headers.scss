@@ -27,7 +27,11 @@
     background-image: url('../images/agenda.jpg');
   }
 }
-
+#demande-validee {
+  .slide__header {
+    background-image: url('../images/header-clients-th3.jpg');
+  }
+}
 #references {
   .slide__header {
     background-image: url('../images/header-clients-'+$theme+'.jpg');
