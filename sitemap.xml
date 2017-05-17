@@ -12,6 +12,7 @@
 <url> <loc>http://goood.pro/formations/theorie-u/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/agenda/</loc> <changefreq>daily</changefreq> <priority>1.0</priority> </url>
 <url> <loc>http://goood.pro/contact/</loc> <changefreq>weekly</changefreq> <priority>0.6</priority> </url>
+<url> <loc>http://goood.pro/demande-validee/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/equipe-et-culture/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>http://goood.pro/espace-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/evenements-formations/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
