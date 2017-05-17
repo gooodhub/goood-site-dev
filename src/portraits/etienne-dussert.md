@@ -1,8 +1,8 @@
 ---
 name: Etienne Dussert
-bulle1: Une personne qui n’a jamais 
+bulle1: "Une personne qui n’a jamais 
 bulle2: commis d’erreurs n’a jamais 
-bulle3: tenté d’innover. A. Einstein
+bulle3: tenté d’innover." A. Einstein
 image: /images/portraits/etienneD.jpg
 hashtag: '#pizz4life'
 job: Développeur .NET
@@ -18,5 +18,4 @@ Ce qui le motive tous les jours c'est continuer d'apprendre par lui-même et ave
 Arrivé à Paris il y a peu, il part chasser le meetup sauvage lorsque la météo est propice. 
 
 Où le croiser ? Au grand air les baskets aux pieds, 
-au bar avec des amis, 
-à domicile avec une manette à la main.
+au bar avec des amis, à domicile avec une manette à la main.
