@@ -7,7 +7,7 @@ description:
 layout: generic.html
 priority: 0.5
 prevTitle : Formations
-prevPath : /formation/
+prevPath : /formations/
 nextTitle : Contacts
 nextPath : /contact/
 ---
