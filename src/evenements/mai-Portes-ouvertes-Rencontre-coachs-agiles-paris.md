@@ -1,6 +1,6 @@
 ---
 {
-	titre: Rencontre avec des coachs agiles Goood!
+	titre: Rencontre avec des coachs agiles Goood!,
 	date: 2017-05-30,
 	type: Portes ouvertes,
 	ville: paris,
