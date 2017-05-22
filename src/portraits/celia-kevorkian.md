@@ -1,7 +1,7 @@
 ---
 name: Celia Kevorkian
-bulle1: Quand ont veut, on peut ! 
-bulle2: 
+bulle1: 
+bulle2: Quand ont veut, on peut ! 
 bulle3: 
 image: /images/portraits/celiaK.jpg
 hashtag: '#salsa'
