@@ -1,8 +1,8 @@
 ---
 name: Jérémy Landon
-bulle1: 
-bulle2: 
-bulle3: 
+bulle1: “If you can't make it good,
+bulle2: at least make it look good ”
+bulle3: Bill Gates
 image: /images/portraits/jeremyL.jpg
 hashtag: '#MangeurMasqué'
 job: Consultant ALM
