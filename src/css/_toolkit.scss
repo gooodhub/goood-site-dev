@@ -1,0 +1,64 @@
+.toolkit {
+  @extend %sectionPadding;
+  @media #{$small-only} { padding-bottom: 0; }
+
+
+  .btn {
+    margin-right: auto;
+  }
+
+  &__content {
+    @extend %contentPadding;
+    @extend %shadow;
+    padding: 35px 30px;
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    @media #{$medium-up} {
+      align-self: center;
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+    p, ul, li {
+       line-height: em(36);
+       font-size: em(24);
+       margin: 0;
+    }
+    p, ul{
+      margin-top: 0.7em;
+    }
+    .btn {
+      margin: 0 20%;
+      margin-top: 1em;
+    }
+  }
+
+  &__title {
+    @extend %contentExtraBoldFont;
+    font-size: em(46);
+
+    span {
+      display: block;
+      font-size: em(25);
+    }
+  }
+
+
+
+    @media #{$small-only} {
+      margin: 10px;
+    }
+
+    @media #{$medium-up} {
+      order: -1;
+      flex-basis: 50%;
+      max-width: 50%;
+      //align-self: center;
+      height: auto;
+    }
+  }
+
+}

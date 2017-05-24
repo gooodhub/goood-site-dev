@@ -3,21 +3,26 @@ title: Produits "dérivés" et matériel Goood!
 slug: toolkit
 headline: Tooolkit 
 description: Description à écrire
-layout: page.html
+layout: toolkit.html
 id: tooolkit
 priority: 1
-prevTitle: Recette magique
-prevPath: /recette-magique/
-nextTitle: Références
-nextPath: /references/
+prevTitle: Formations
+prevPath: /formations/
+nextTitle: contact
+nextPath: /contact/
+pricekitHT: €110
+pricekitTTC: €132
+pricekitPort: + 10€ de frais de port
+pricestickyHT: €36
+pricestickyTTC: €45
+pricestickyPort: + 6€ de frais de port
+image-stikcy: http://www.coactiv.fr/wp-content/uploads/2014/09/atelier-kit.png
+2checkouturl: https://sandbox.2checkout.com/checkout/purchase
 ---
 
 # A Taste of Goood ! #
 
-## Vous aimez travaillez avec Gooood! Maintenant vous pouvez aussi faire un peu de Goood chez vous :-) ##
+ Vous aimez travaillez avec Gooood! Maintenant vous pouvez aussi faire un peu de Goood chez vous :-)
 
-Kit facilitateur
-
-Votre atelier chez Goood (location de salle facilitée)
 
 
