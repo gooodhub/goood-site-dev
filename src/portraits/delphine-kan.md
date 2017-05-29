@@ -5,7 +5,7 @@ bulle2: en bleu,
 bulle3: d’autres en noir.       G. Flaubert
 image: /images/portraits/delphineK.jpg
 hashtag: '#Éclectique'
-job:
+job: Orpailleuse
 twitter: 
 linkedin: https://fr.linkedin.com/in/delphinekan
 blog: https://blog.goood.pro/author/delphinekan/

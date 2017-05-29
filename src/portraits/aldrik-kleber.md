@@ -3,7 +3,7 @@ name: Aldrik KLEBER
 bulle1: “Ils ne savaient pas que c’était impossible,
 bulle2: alors il l’on fait.”
 bulle3: Mark Twain
-image: /images/portraits/aldrik.jpg
+image: /images/portraits/Aldrik.JPG
 hashtag: '#TrollHunter' 
 job: Coach & Agile Expert
 facebook: https://www.facebook.com/aldrik.kleber

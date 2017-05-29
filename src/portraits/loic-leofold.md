@@ -3,7 +3,7 @@ name: Loïc LEOFOLD
 bulle1: “Dream Big, Start small.  
 bulle2: But most of All, Start.”
 bulle3: Simon Sinek
-image: /images/portraits/loic.jpg
+image: /images/portraits/Loic.JPG
 hashtag: '#beyourself #happinesshacking'
 job: Alchimiste Agile
 facebook: 
