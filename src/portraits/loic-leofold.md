@@ -1,9 +1,9 @@
 ---
-name:LoÔc LEOFOLD
-bulle1: Leadership is a way of thinking
-bulle2: and a way of communicating
+name:Lo√Øc LEOFOLD
+bulle1: ‚ÄúDream Big, Start small.  
+bulle2: But most of All, Start.‚Äù
 bulle3: Simon Sinek
-image: /images/portraits/nicoG.jpg [OBLIGATOIRE MAIS JE M'EN CHARGE]
+image: /images/portraits/loic.jpg
 hashtag: #beyourself #happinesshacking
 job: Alchimiste Agile
 facebook: 
@@ -11,9 +11,9 @@ twitter: http://twitter.com/LEOFOLDLoic
 linkedin: https://www.linkedin.com/in/lo%C3%AFc-leofold-a5494a87/
 blog: https://lleofold.wordpress.com
 ---
-LoÔc est un vÈritable alchimiste agile, ‡ la recherche de la moindre pÈpite ‡ rÈvÈler ‡ ses clients. 
-Expert en happiness hacking, il accompagne ses clients ‡ explorer de nouvelles faÁon d'interagir et de travailler ensemble.
-L'agilitÈ ‡ l'Èchelle? C'est son quotidien, mais jamais sans un peu de systÈmique et de sociodynamique.
+Lo√Øc est un v√©ritable alchimiste agile, √† la recherche de la moindre p√©pite √† r√©v√©ler √† ses clients. 
+Expert en happiness hacking, il accompagne ses clients √† explorer de nouvelles fa√ßon d'interagir et de travailler ensemble.
+L'agilit√© √† l'√©chelle? C'est son quotidien, mais jamais sans un peu de syst√©mique et de sociodynamique.
 Il est co-animateur du meetup Harmocratie et Futur du Management.
 
-O˘ le croiser? Dans les bois de CompiËgne pour une balade en VTT ou ‡ Madagascar, un mojito au bord de mer.
+O√π le croiser? Dans les bois de Compi√®gne pour une balade en VTT ou √† Madagascar, un mojito au bord de mer.
