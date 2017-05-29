@@ -1,10 +1,10 @@
 ---
-name:Loïc LEOFOLD
+name: Loïc LEOFOLD
 bulle1: “Dream Big, Start small.  
 bulle2: But most of All, Start.”
 bulle3: Simon Sinek
 image: /images/portraits/loic.jpg
-hashtag: #beyourself #happinesshacking
+hashtag: '#beyourself #happinesshacking'
 job: Alchimiste Agile
 facebook: 
 twitter: http://twitter.com/LEOFOLDLoic
