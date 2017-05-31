@@ -75,6 +75,9 @@ const buildApp = metalsmith(__dirname)
     ref_offre: {
       pattern: 'clients/offre/*.md',
     },
+    toolkits: {
+      pattern: 'toolkits/*.md',
+    },
   }))
 
   .use(dateFormatter({
@@ -91,6 +94,7 @@ const buildApp = metalsmith(__dirname)
   .use(ignore('evenements/*'))
   .use(ignore('clients/*/*'))
   .use(ignore('portraits/*'))
+  .use(ignore('toolkits/*'))
   // Routing
   .use(permalinks({
     pattern: ':slug',
