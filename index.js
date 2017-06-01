@@ -77,6 +77,7 @@ const buildApp = metalsmith(__dirname)
     },
     toolkits: {
       pattern: 'toolkits/*.md',
+      sortBy: 'id'
     },
   }))
 
