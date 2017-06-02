@@ -1,0 +1,32 @@
+{{#> layout }} {{#*inline "content"}}
+<div class="toolitem__slide" id="toolitem">
+    {{> slide-header title=title }}
+    <div class="slide__content">
+        <section class="toolkit">
+               <header class="toolkit__header">
+                    {{headline}}
+               </header>    
+        </section>
+        <section class="orange">
+            <div class="row">
+                <div class="col-md-4">
+                <img src="{{image}}" width="600px" />
+                </div>
+                <div style="float:right;position:relative;min-height:100px;min-width:20%;margin:40px;background-color:#fc4c02;padding:1rem;text-align:center">
+                 {{priceHT}}      
+                </div>
+                <div style="float:left;">
+                    {{{content}}} 
+                </div>
+            </div>
+            </section>
+        {{> slide-nav-buttons
+          prevTitle = 'Savoirs Faire'
+          prevPath = '/savoir-faire/'
+          nextTitle = 'Équipe et culture'
+          nextPath = '/equipe-et-culture/'
+        }}
+        {{> footer }}
+    </div>
+    </div>    
+{{/inline}} {{/layout}}

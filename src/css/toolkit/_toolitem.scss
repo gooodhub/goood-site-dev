@@ -1,4 +1,4 @@
-.toolkit {
+.toolitem {
   @extend %sectionPadding;
   @media #{$small-only} { padding-bottom: 0; }
    position: relative;
@@ -107,8 +107,11 @@
     }
   }
 
-
-
+ &__slide {
+    @extend %contentExtraBoldFont;
+    font-size: em(46);
+    background: $secondaryColor;
   }
+}
 
 

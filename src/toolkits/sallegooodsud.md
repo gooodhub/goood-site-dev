@@ -1,24 +1,28 @@
 ---
+title:  Location de Salle
+slug: salle-sud
+layout: toolitem.html
 productname: Salle à louer à Sophia antipolis
 headline: Une formation, un événement communautaire ou tout simplement besoin de sortir du cadre, notre locaux Goood Sud peuvent vous accueillir.
 contentdescription: Description à écrire
-priority: 3
+order: 3
 id: sallesud
+Isfree: 0
 pricePort: 
-priceHT: 290€ HT/J ou 190€ HT 1/2 J
-priceTTC: €132
-image: ./images/espace-sud.jpg
-
+priceHT: €290 HT/J ou €190 HT 1/2 J
+priceTTC: €348
+image: /images/espace-sud.jpg
+2checkoutProductId: 3
 ---
 
-<p>Descriptif</p>
-<ul>
-<li>Superficie: 2 espaces de 40m²</li>
-<li>Capacité : 20 personnes max</li>
-<li>Le café est offert</li>
-<li>Ménage à votre charge ou 55€</li>
-</ul>
+Descriptif
 
- <h4>EVENEMENTS GRATUITS / COMMUNAUTES</h4>
+* Superficie: 2 espaces de 40m²
+* Capacité : 20 personnes max
+* Le café est offert
+* Ménage à votre charge ou 55€
+
+
+#### EVENEMENTS GRATUITS / COMMUNAUTES ####
 Pour les événements gratuits, c'est gratuit (0€)!
 Le ménage reste à votre charge.

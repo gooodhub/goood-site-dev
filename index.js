@@ -77,7 +77,7 @@ const buildApp = metalsmith(__dirname)
     },
     toolkits: {
       pattern: 'toolkits/*.md',
-      sortBy: 'id'
+      sortBy: 'order'
     },
   }))
 
@@ -95,7 +95,7 @@ const buildApp = metalsmith(__dirname)
   .use(ignore('evenements/*'))
   .use(ignore('clients/*/*'))
   .use(ignore('portraits/*'))
-  .use(ignore('toolkits/*'))
+  //.use(ignore('toolkits/*'))
   // Routing
   .use(permalinks({
     pattern: ':slug',
@@ -109,6 +109,9 @@ const buildApp = metalsmith(__dirname)
       },{
         match: { collection: 'formations' },
         pattern: 'formations/:slug',
+      },{
+        match: { collection: 'toolkits' },
+        pattern: 'tools/:slug',
       }]
   }))
 

@@ -10,12 +10,6 @@ prevTitle: Formations
 prevPath: /formations/
 nextTitle: contact
 nextPath: /contact/
-pricekitHT: €110
-pricekitTTC: €132
-pricekitPort: + 10€ de frais de port
-pricestickyHT: €36
-pricestickyTTC: €45
-pricestickyPort: + 6€ de frais de port
 image-stikcy: http://www.coactiv.fr/wp-content/uploads/2014/09/atelier-kit.png
 2checkouturl: https://sandbox.2checkout.com/checkout/purchase
 ---

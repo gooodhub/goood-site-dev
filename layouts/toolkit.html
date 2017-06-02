@@ -3,36 +3,34 @@
     {{> slide-header title=headline }}
     <div class="slide__content">
         <section class="toolkit">
-            <div class="row">
-                <div class="toolkit__content header">
+           
+                <header class="toolkit__header">
                     {{{ contents }}}
-                </div>
-            </div>
+                </header>
+           
         </section>
         
        {{#each toolkits}}
-        <div style="background:#FFF; left: auto; bottom: auto; right: auto; margin: 0px 0px 0px;
-         display: block; position: relative; box-sizing: content-box; min-height: 80px; 
-         height: auto;" >
-                &nbsp 
-            </div>
-      
-       <section class="orange">
+        
+               
+       <section class="orange"> 
           <div class="row">
             <div class="orange__content">
-                
-              <p style="font-size:2.5rem;font-weight:800;text-align:left;margin-bottom:10px">
-                 {{{this.productname}}}
+              <p style="font-size:2.5rem;font-weight:800;text-align:left;margin-bottom:10px;margin-top:10px;text-transform: uppercase;">
+                 {{{this.productname}}} 
               </p>
-              <p style="font-size:20px;"> {{{ priceHT }}} HT</p>
-              <p style="font-size:1.3rem;text-align:left;color:#1d3f51;">
+              <p style="font-size:26px;font-weight:400; margin-top:10px;margin-bottom:15px"> {{{ priceHT }}} HT</p>
+              <p style="font-size:1.3rem;text-align:left;color:#1d3f51;margin-top:10px">
                   {{{this.headline}}}                  
               </p>
             
-            <div class="row">
+            <div class="row" style="margin-left:0px;padding:0px">
              <a class="btn btn--third" data-text="(c'est par là)" href="#{{this.id}}" role="button"  data-toggle="modal">
-                        <span>+Detail</span>
-             </a>
+                        <span>Découvrir ce produit</span>
+              </a>
+              <a class="btn btn--third" data-text="(c'est par là)" href="/tools/{{this.slug}}" role="button"  data-toggle="modal">
+                        <span>Découvrir ce produit</span>
+              </a>
             </div>
             </div>
            
@@ -40,16 +38,11 @@
             </div>            
           </div>
         </section>
+        <div class="toolkit__rowseparator" >
+                &nbsp 
+            </div>
          {{/each}}
        
-
-        <section class="maps" style="text-center">
-            <div class="row">
-                <div id="espace-sud-map-google">
-                    <iframe width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23109.1801784189!2d7.047806052126984!3d43.613880160351414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cc2b01636ff2f3:0xf420fcad665148c7!2sEspace Goood *21 Sophia Antipolis!5e0!3m2!1sfr!2sfr!4v1485204281350"></iframe>
-                </div>
-            </div>
-        </section>
         
         {{> slide-nav-sous-pages
           parent = 'Contacts'
@@ -70,17 +63,18 @@
 }">{{{productname}}}</div>
             </div>
             <div class="modal-body">
+                <div>Prix  {{priceTTC}} TTC / {{priceHT}} HT</div>
                 <div style="float:left">
                     {{{contents}}}                      
                 </div>
                 <div>
-                    <form action='https://sandbox.2checkout.com/checkout/purchase' method='post'>
-                    <!--<input type='hidden' name='sid' value='103287487'>-->
+                    <form action='{{../2checkouturl}}' method='post'>
+                  
                     <input type='hidden' name='sid' value='901349646'>
                     
                     <input type='hidden' name='quantity' value='1'>
-                    <input type='hidden' name='product_id' value='1'>
-                    <input type='hidden' name='demo' value='Y' />  
+                    <input type='hidden' name='product_id' value='{{this.2checkoutProductId}}'>
+                    
                     <input name='submit' class="btn" type='submit' value='Commander' >
                     </form>
                    
