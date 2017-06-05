@@ -11,7 +11,7 @@ prevPath: /formations/
 nextTitle: contact
 nextPath: /contact/
 image-stikcy: http://www.coactiv.fr/wp-content/uploads/2014/09/atelier-kit.png
-2checkouturl: https://sandbox.2checkout.com/checkout/purchase
+
 ---
 
 # A Taste of Goood ! #

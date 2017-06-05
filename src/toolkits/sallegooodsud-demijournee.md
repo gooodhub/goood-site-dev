@@ -1,24 +1,24 @@
 ---
 {
-title:  Location de Salle,
-slug: salle-sud,
+title:  Location de Salle 1/2 journée,
+slug: salle-sud-demi-journee,
 layout: toolitem.html,
-productname: Salle à louer à Sophia antipolis,
+productname: Salle à louer à Sophia antipolis (1/2 journée),
 headline: "Une formation, un événement communautaire ou tout simplement besoin de sortir du cadre, notre locaux Goood Sud peuvent vous accueillir.
 contentdescription: Description à écrire",
-order: 3,
-id: sallesud,
+order: 4,
+id: sallesud-demijournee,
 IsPayment: 1,
 IsDelivery : 0,
 pricePort:, 
-priceHT: €290 HT/Jour,
+priceHT: 190€ HT (1/2 journée),
 TauxTVA: "20%",
-priceTTC: €348,
+priceTTC: €228,
 headerimage : "/images/espace-sud.jpg",
 image: [{path: "/images/espace-sud.jpg",alt: ""}],
 2checkouturl: https://sandbox.2checkout.com/checkout/purchase,
 2checkouturl_sid: 901349646,
-2checkoutProductId: 3,
+2checkoutProductId: 4,
 }
 ---
 En concevant notre nouveau lieu au cœur de Sophia Antipolis, nous nous sommes dit que ce serait bête de ne pas le partager !
