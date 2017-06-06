@@ -18,8 +18,10 @@
                     <p>TVA : {{TauxTVA}}</p>
                     <p>{{priceHT}} HT</p>
                     {{#if IsDelivery}}
+                     {{#if InStock}}
                     <H2>En stock</H2>
-                    <p>Le produit vous sera expédié sous 3 jours ouvrés.</p>
+                    {{/if}}
+                    <p>Le produit vous sera expédié sous 5 jours ouvrés.</p>
                     {{/if}}
                     <form action='{{2checkouturl}}' method='post'>
                     
