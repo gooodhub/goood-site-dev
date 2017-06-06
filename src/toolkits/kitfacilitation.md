@@ -23,8 +23,8 @@ image:[ {path: "/images/toolkits/kit-close.jpg", alt : "Saccoche de transport"},
 {path: "/images/toolkits/kit-focus-langage.jpg", alt : "Carte de photolangage"},
 {path: "/images/toolkits/kit-scotch.jpg", alt : "Rouleau de scotch"}
 ],
-2checkouturl: https://sandbox.2checkout.com/checkout/purchase,
-2checkouturl_sid: 901349646,
+2checkouturl: https://www.2checkout.com/checkout/purchase,
+2checkouturl_sid: 103287487,
 2checkoutProductId: 1,
 }
 ---
