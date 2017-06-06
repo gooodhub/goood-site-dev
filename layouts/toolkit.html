@@ -40,51 +40,16 @@
                 &nbsp 
             </div>
          {{/each}}
-       
-        
-        {{> slide-nav-sous-pages
-          parent = 'Contacts'
-          parentPath = '/contact/'
+        {{> slide-nav-buttons
+          prevTitle = 'Formations'
+          prevPath = '/formations/'
+          nextTitle = 'Contacts'
+          nextPath = '/contact/'
         }}
+            
         {{> footer }}
     </div>
 </div>
 
-<!-- Modal HTML -->
-{{#each toolkits}}
-<div id="{{{this.id}}}" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header ">
-                <div class="portrait__slides__close"  data-dismiss="modal" aria-hidden="true">✕</div>            
-                <div class="portrait__slick-item__title"style="font-size: 1.75rem; text-align: left; margin-bottom: 10px;
-}">{{{productname}}}</div>
-            </div>
-            <div class="modal-body">
-                <div>Prix  {{priceTTC}} TTC / {{priceHT}} HT</div>
-                <div style="float:left">
-                    {{{contents}}}                      
-                </div>
-                <div>
-                    <form action='{{../2checkouturl}}' method='post'>
-                  
-                    <input type='hidden' name='sid' value='901349646'>
-                    
-                    <input type='hidden' name='quantity' value='1'>
-                    <input type='hidden' name='product_id' value='{{this.2checkoutProductId}}'>
-                    
-                    <input name='submit' class="btn" type='submit' value='Commander' >
-                    </form>
-                   
-                    <span style="font-size: 9px">2Checkout.com Inc. (Ohio, USA) is a payment facilitator for goods and services provided by http://www.goood.pro/.</span>
-                </div>
-            </div>
-            <div class="modal-footer">
-                           
-            </div>
-        </div>
-    </div>
-</div>
-{{/each}}<!--Fin Modal HTML -->
 
 {{/inline}} {{/layout}}
