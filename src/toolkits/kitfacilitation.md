@@ -1,6 +1,6 @@
 ---
 {
-title: Kit de faciliation,
+title: Kit de facilitation,
 slug: kit-de-facilitation,
 layout: toolitem.html,
 headline: "Pour faciliter l'animation de vos réunion, nous vous avons préparé tous nos outils regroupés dans un kit." ,
