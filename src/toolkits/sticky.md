@@ -1,11 +1,12 @@
 ---
  {
-     title: Sticky Wall,
+title: Sticky Wall,
+description: Le Sticky Wall ou mur collant seul pour animer vos réunion d'équipe,
 slug: sticky-wall,
 layout: toolitem.html,
 productname: Sticky Wall,
-headline: "Le mur collant seul pour animer vos réunion d'équipe 
-contentdescription: Description à écrire",
+headline: "Le mur collant seul pour animer vos réunion d'équipe",
+
 order: 2,
 id: sticky,
 IsPayment: 1,

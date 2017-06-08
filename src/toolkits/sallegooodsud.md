@@ -1,11 +1,11 @@
 ---
 {
 title:  Location de Salle,
+description: Louer les locaux Goood! Sud à Sophia Antipolis pour une formation, un événement communautaire ou tout simplement besoin de sortir du cadre,
 slug: salle-sud,
 layout: toolitem.html,
 productname: Salle à louer à Sophia antipolis,
-headline: "Une formation, un événement communautaire ou tout simplement besoin de sortir du cadre, notre locaux Goood Sud peuvent vous accueillir.
-contentdescription: Description à écrire",
+headline: "Une formation, un événement communautaire ou tout simplement besoin de sortir du cadre, notre locaux Goood Sud peuvent vous accueillir.",
 order: 3,
 id: sallesud,
 IsPayment: 1,
@@ -15,8 +15,15 @@ pricePort:,
 priceHT: €290 HT/Jour,
 TauxTVA: "20%",
 priceTTC: €348,
-headerimage : "/images/espace-sud.jpg",
-image: [{path: "/images/espace-sud.jpg",alt: "Salle 1"}],
+headerimage : "/images/toolkits/espace-sud-piece1-canape-header.jpg",
+image: [{path: "/images/espace-sud.jpg",alt: "Salle 1"},
+{path: "/images/toolkits/espace-sud-piece1-vueensemble.jpg",alt: "Salle 1 vue d'ensemble"},
+{path: "/images/toolkits/espace-sud-piece1-whiteboard.jpg",alt: "Salle 1 White board"},
+{path: "/images/toolkits/espace-sud-piece1-canape.jpg",alt: "Salle 1 coin détente"},
+{path: "/images/toolkits/espace-sud-piece2-stickyWall.jpg",alt: "Salle 2 avec Sticky wall"},
+{path: "/images/toolkits/espace-sud-piece2-cuisine.jpg",alt: "Salle 2 espace cuisine"},
+{path: "/images/toolkits/espace-sud-plan.jpg",alt: "Plan"}
+],
 2checkouturl: https://sandbox.2checkout.com/checkout/purchase,
 2checkouturl_sid: 901349646,
 2checkoutProductId: 3,
@@ -37,7 +44,7 @@ Descriptif
 
 ## Pour connaitre les disponibilités, envoyez-nous un mail à sud[a]goood.pro ##
 
-#### EVENEMENTS GRATUITS / COMMUNAUTES ####
+### EVENEMENTS GRATUITS / COMMUNAUTES ###
 Pour les événements gratuits, c'est gratuit (0€)!
 Le ménage reste à votre charge.
 

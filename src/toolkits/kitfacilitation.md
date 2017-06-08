@@ -1,6 +1,7 @@
 ---
 {
 title: Kit de facilitation,
+description: "Tous nos outils pour faciliter vos réunion regroupés dans un kit Sticky Wall, feutres Neuland, carte de photo langage",
 slug: kit-de-facilitation,
 layout: toolitem.html,
 headline: "Pour faciliter l'animation de vos réunion, nous vous avons préparé tous nos outils regroupés dans un kit." ,
