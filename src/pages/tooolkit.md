@@ -16,7 +16,9 @@ image-stikcy: http://www.coactiv.fr/wp-content/uploads/2014/09/atelier-kit.png
 
 # A Taste of Goood ! #
 
- Vous aimez travailler avec Gooood! Maintenant vous pouvez aussi faire un peu de Goood chez vous :-)
+ Vous aimez travailler avec Goood! 
+ 
+ Maintenant vous pouvez aussi faire un peu de Goood! chez vous :-)
 
 
 
