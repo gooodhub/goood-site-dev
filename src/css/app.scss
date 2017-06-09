@@ -14,12 +14,15 @@
 @import 'slide';
 @import 'slideNavButtons';
 @import 'subPage';
+@import 'toolkit';
 
 @import 'home/landing';
 @import 'home/mission';
 @import 'home/vision';
 @import 'home/progres';
 @import 'home/chiffres';
+
+@import 'toolkit/toolitem';
 
 @import 'equipe/competences-equipes.scss';
 @import 'equipe/portraits';
@@ -35,16 +38,12 @@
 
 @import 'events';
 @import 'contact';
-
 @import 'footer';
-
 @import 'table';
-
 @import 'timeline';
-
 @import 'badge';
-
 @import 'tooltip';
+@import 'offre';
 
 * {
   box-sizing: border-box;
@@ -361,10 +360,10 @@ a {
     width:auto;
     height:50%;
   }
-  iframe{
-    width:853px;
-    height:480px;
-  }
+  //iframe{
+  //  width:853px;
+  //  height:480px;
+  //}
 }
 
 @media screen and (min-width: 1280px) { 
@@ -375,10 +374,10 @@ a {
     width:auto;
     height:50%;
   }
-  iframe{
-    width:853px;
-    height:480px;
-  }
+ // iframe{
+ //   width:853px;
+ //   height:480px;
+  //}
 }
 
 @media screen and (min-width: 1280px), screen and (aspect-ratio: 16/10){ 

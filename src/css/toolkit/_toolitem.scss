@@ -1,0 +1,183 @@
+#toolitem .slide
+{  
+  background-position: center center;  
+}
+#toolitem .slide__header
+{
+  height: 50vh;
+}
+.toolitem {
+  @extend %sectionPadding;
+  @media #{$small-only} { padding-bottom: 0; }
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+     background: $secondaryColor;
+  
+
+  .btn {
+    margin-right: auto;
+   
+  }
+
+  @media #{$medium-up} {
+    .row { margin-bottom: 20px; }
+    //margin-bottom: 30px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 500px;
+      background: $secondaryColor;
+      z-index: 0;
+
+      @media #{$large-up} {height: 600px;}
+    }
+  }
+  header {
+    @extend %contentPadding;
+    //padding-bottom: 0;
+    position: relative;
+    overflow: auto;
+    padding-bottom: 50px;
+    
+    background: $secondaryColor;
+     h1 {
+      max-width: 870px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    h1, p, p { color: white; }
+    p:after { background: white; }
+
+    @media #{$medium-up} {
+      text-align: center;
+      p:after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+      &__descriptif{
+        float:left;
+        width:40vw;
+        position:relative;
+
+  }
+  &__price {
+    float:left;
+    width:25vw;
+    display: block;
+    @media #{$medium-up} {
+    top:-7rem;
+    }
+    position:relative;
+    min-height:20vh;
+    min-width:30vw;  
+    margin:40px;
+    background-color:$primaryColor;
+    padding:2rem;
+    text-align:center;
+ 
+    a{
+      color:white;
+      font-family: inherit;
+      margin-top:10px;
+      font-size: 1rem;
+    }
+    h1,h2,h3,p {
+      color: white;
+      text-align: left;
+      margin-top: 5px;
+    }
+    h2{margin-bottom: 5px;}
+    .btn{ background-color: white;
+      border-color:white;
+      margin-top:40px;}
+    p:before{ margin-bottom:0px
+
+    }
+    p{
+      font-size: em(16);
+    }
+    .contact{
+      display:block;
+      float:left;
+      margin-top:20px;
+      text-align: left;
+      color:white;      
+      font-size: 1.4rem;
+    }
+    }    
+&__content_fullsize
+{
+  @extend %contentPadding;
+  padding: 35px 30px;
+   background:$secondaryColor;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+     flex: 1;
+}
+
+  &__content {
+    @extend %contentPadding;
+    @extend %shadow;
+    padding: 35px 30px;
+    background:$secondaryColor;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    flex: 1;
+    color:white;
+    @media #{$medium-up} {
+     // align-self: center;
+      flex-basis: 55%;
+      max-width: 55%;
+    }
+    h2{color:$primaryColor;}
+    p, ul, li {
+       line-height: em(36);
+       font-size: em(24);
+       margin: 0;
+       
+    }
+    p, ul{
+      margin-top: 0.7em;
+    }
+    .btn {
+      margin: 0 20%;
+      margin-top: 1em;   
+     
+    }
+  }
+
+  &__title {
+    @extend %contentExtraBoldFont;
+    font-size: em(46);
+
+    span {
+      display: block;
+      font-size: em(25);
+    }
+  }
+
+.w3-content{max-width:980px;margin:auto}
+
+}
+// display carrousel
+.w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
+.w3-display-container{position:relative}
+.w3-display-bottomleft{position:absolute;left:0;bottom:0}.w3-display-bottomright{position:absolute;right:0;bottom:0}
+.w3-large{font-size:18px!important}
+.w3-padding-16{padding:16px!important}
+.w3-orange,.w3-hover-black:hover{color:#fff!important;background-color:$primaryColor!important;border-radius: 4px}
+.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:$primaryColor;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+

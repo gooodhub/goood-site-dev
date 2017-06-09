@@ -27,7 +27,7 @@
     background-image: url('../images/agenda.jpg');
   }
 }
-#demande-validee {
+#receptionok {
   .slide__header {
     background-image: url('../images/header-clients-th3.jpg');
   }
@@ -50,6 +50,18 @@
   }
 }
 
+#tooolkit {
+  .slide__header {
+    background-image: url('../images/toolkit-header.jpg');
+  }
+}
+
+//#toolitem {
+//  .slide__header {
+//    background-image: url('../images/toolkits/photo-kit-used.jpg');
+//  }
+//}
+
 #agile {
   .slide__header {
     background-image: url('../images/workshop.jpg');
@@ -59,5 +71,11 @@
 #dev {
   .slide__header {
     background-image: url('../images/Coding dojo.jpeg');
+  }
+}
+
+#offre {
+  .slide__header {
+    background-image: url('../images/header-offre-'+$theme+'.jpg');
   }
 }

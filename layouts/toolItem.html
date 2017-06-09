@@ -1,0 +1,108 @@
+{{#> layout }} {{#*inline "content"}}
+<div class="slide" id="toolitem">
+    {{> slide-header title=title }}
+    <div class="slide__content">
+       <!-- <section class="toolitem">
+               <header class="toolitem__header">
+                    {{headline}}
+               </header>    
+        </section>-->
+        <section class="toolitem">
+            <div class="row">
+               <div class="toolitem__content">                    
+                     {{{ contents }}}
+               </div>
+                <div class="toolitem__price">
+                    {{# if IsPayment}}   
+                    <h1>{{priceTTC}} TTC</h1>
+                    <p>TVA : {{TauxTVA}}</p>
+                    <p>{{priceHT}} HT</p>
+                    {{#if IsDelivery}}
+                     {{#if InStock}}
+                    <H2>En stock</H2>
+                    {{/if}}
+                    <p>Le produit vous sera expédié sous 5 jours ouvrés.</p>
+                    {{/if}}
+                    <form action='{{2checkouturl}}' method='post'>
+                    
+                        <input type='hidden' name='sid' value='{{2checkouturl_sid}}'>
+                        
+                        <input type='hidden' name='quantity' value='1'>
+                        <input type='hidden' name='product_id' value='{{2checkoutProductId}}'>
+                         <input type='hidden' name='lang' value='fr'>                        
+                        <input name='submit' class="btn" type='submit' value='Acheter' >
+                        </form>
+                        <div style="display:block;float:left;">
+                            <a href="{{2checkouturl}}" > 
+                            <i class="fa-2x fa fa-shopping-cart" aria-hidden="true" style="margin-top: 20px; margin-right: 10px;"></i>Voir mon panier
+                        </a>
+                        </div>
+                    {{/if}}
+                    <div class="contact"  style="">Une question? Contactez nous :
+                        <ul>
+                        <li><i class="fa fa-phone" aria-hidden="true" style="margin-right: 20px;"></i>01 75 50 67 69</li>
+                        <li><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 20px;"></i>contact[a]goood.pro</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+             <div class="row">
+             <div class="toolitem__content_fullsize"> 
+                    {{#if image}}
+                    <div class="w3-content w3-display-container">
+            
+                            {{#each this.image}}
+                            <div class="w3-display-container mySlides">
+                                <img src="{{path}}" alt="{{alt}}" width="600px" style="width:100%" />
+                                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-orange">
+                                    {{alt}}
+                                </div>
+                            </div>
+                        {{/each}}
+                        
+                        <button class="w3-button w3-display-left w3-orange" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-display-right w3-orange" onclick="plusDivs(1)">&#10095;</button>
+
+                    </div>
+                    {{/if}}
+               </div>
+             </div>
+            </div>
+            </section>
+           
+<script>
+DocReady();
+function DocReady(){
+var el = document.getElementById("toolitem");
+el.style.backgroundImage = "url('{{headerimage}}')";
+el.style.backgroundPositionX ="center";
+el.style.backgroundPositionY ="center";
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+        {{> slide-nav-sous-pages
+          parent = 'Retour aux produits'
+          parentPath = '/toolkit'        
+        }}
+        {{> footer }}
+    </div>
+    </div>    
+{{/inline}} {{/layout}}
