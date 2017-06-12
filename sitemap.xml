@@ -17,7 +17,15 @@
 <url> <loc>http://goood.pro/espace-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/evenements-formations/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>http://goood.pro/formations/</loc> <changefreq>daily</changefreq> <priority>1.0</priority> </url>
+<url> <loc>http://goood.pro/savoir-faire/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>http://goood.pro/accuse-reception/</loc> <changefreq>weekly</changefreq> <priority>0.6</priority> </url>
 <url> <loc>http://goood.pro/recette-magique/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>http://goood.pro/recrutement/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>http://goood.pro/references/</loc> <changefreq>weekly</changefreq> <priority>0.9</priority> </url>
+<url> <loc>http://goood.pro/tool-item/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>http://goood.pro/toolkit/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>http://goood.pro/tools/kit-de-facilitation/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://goood.pro/tools/salle-sud-demi-journee/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://goood.pro/tools/salle-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://goood.pro/tools/sticky-wall/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
