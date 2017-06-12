@@ -1,4 +1,4 @@
-
+echo "##test##"
 echo "########## Déploiement en béta ##########" 
 echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
 commitmsg="auto-commit"
