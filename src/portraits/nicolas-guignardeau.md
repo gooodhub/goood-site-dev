@@ -2,7 +2,7 @@
 name: Nicolas Guignardeau
 bulle1: “Pour avoir une bonne idée,
 bulle2: il faut en avoir de nombreuses.” 
-bulle3: Linus Pauling
+bulle3:  Linus Pauling
 image: /images/portraits/nicoG.jpg
 hashtag: '#Daddy #ChercheurDeSens'
 job: Chef de projet Technique .Net / Product Owner
