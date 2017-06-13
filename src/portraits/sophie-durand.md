@@ -1,8 +1,8 @@
 ---
 name: Sophie Durand
-bulle1: “Time is the most abundant, free, and 
-bulle2: fairly distributed resource in the world
-bulle3: All you have to do is to decide what to do with it.” Henrik Kniberg
+bulle1: “They always say time changes things, 
+bulle2: but you actually have to change 
+bulle3: them yourself.” Andy Warhol
 image: /images/portraits/sophieD.jpg
 hashtag: '#COMMENCERPARSOI'
 job: Coach Agile
