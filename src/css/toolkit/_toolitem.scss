@@ -72,6 +72,13 @@
     float:left;
     
     display: block;
+     @media #{$small-only} {
+    top:1rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin:1rem;
+    }
     @media #{$medium-up} {
     top:-7rem;
     }
@@ -79,7 +86,7 @@
     min-height:20vh;
     min-width:20%;
     max-width: 30%;
-    margin:40px;
+    margin:1rem;
     background-color:$primaryColor;
     padding:2rem;
     text-align:center;
