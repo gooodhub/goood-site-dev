@@ -14,9 +14,9 @@
                </div>
                 <div class="toolitem__price">
                     {{# if IsPayment}}   
-                    <h1>{{priceTTC}} TTC</h1>
-                    <p>TVA : {{TauxTVA}}</p>
-                    <p>{{priceHT}} HT</p>
+                    <h1>{{priceHT}} HT</h1>
+                    <p>TVA : {{TauxTVA}}<br>                
+                    {{priceTTC}} TTC</p>
                     {{#if IsDelivery}}
                      {{#if InStock}}
                     <H2>En stock</H2>
@@ -30,7 +30,7 @@
                         <input type='hidden' name='quantity' value='1'>
                         <input type='hidden' name='product_id' value='{{2checkoutProductId}}'>
                          <input type='hidden' name='lang' value='fr'>                        
-                        <input name='submit' class="btn" type='submit' value='Acheter' >
+                        <input name='submit' class="btn" type='submit' value='{{buttonAchatLabel}}' >
                         </form>
                         <div style="display:block;float:left;">
                             <a href="{{2checkouturl}}" > 

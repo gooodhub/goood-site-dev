@@ -1,21 +1,22 @@
 ---
  {
 title: Sticky Wall,
-description: Le Sticky Wall ou mur collant seul pour animer vos réunion d'équipe,
+description: Le Sticky Wall ou mur collant seul pour animer vos réunions d'équipe,
 slug: sticky-wall,
 layout: toolitem.html,
+headline: "Le mur collant seul pour animer vos réunions d'équipe",
 productname: Sticky Wall,
-headline: "Le mur collant seul pour animer vos réunion d'équipe",
-
 order: 2,
 id: sticky,
 IsPayment: 1,
 IsDelivery : 1,
 InStock: 1,
-priceHT: €36,
-priceTTC: €45,
+priceHT: 36€,
+priceTTC: 45€,
 pricePort: + 6€ de frais de port,
 TauxTVA: "20%",
+buttonAchatLabel: Acheter, 
+mainimage : "/images/toolkits/kit-sticky.jpg",
 headerimage : /images/toolkits/kit-sticky.jpg,
 image: [{path: "/images/toolkits/kit-sticky.jpg", alt : "Sticky Wall"},
 {path: "/images/toolkits/sticky-open.jpg", alt : "Sticky Wall déplié"},
@@ -26,7 +27,7 @@ image: [{path: "/images/toolkits/kit-sticky.jpg", alt : "Sticky Wall"},
  }
 ---
 
-Descriptif
+Descriptif:
 
 * Un tissu bleu foncé avec ourlets et le Logo Goood! sur les 2 faces
 * Longueur: 3m

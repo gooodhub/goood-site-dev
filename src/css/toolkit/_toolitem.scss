@@ -34,7 +34,7 @@
       background: $secondaryColor;
       z-index: 0;
 
-      @media #{$large-up} {height: 600px;}
+      /*@media #{$large-up} {height: 600px;}*/
     }
   }
   header {
@@ -70,14 +70,15 @@
   }
   &__price {
     float:left;
-    width:25vw;
+    
     display: block;
     @media #{$medium-up} {
     top:-7rem;
     }
     position:relative;
     min-height:20vh;
-    min-width:30vw;  
+    min-width:20%;
+    max-width: 30%;
     margin:40px;
     background-color:$primaryColor;
     padding:2rem;
@@ -107,6 +108,7 @@
     .contact{
       display:block;
       float:left;
+      width:100%;
       margin-top:20px;
       text-align: left;
       color:white;      
