@@ -13,7 +13,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-     background: $secondaryColor;
+  background: $secondaryColor;
   
 
   .btn {
@@ -74,9 +74,9 @@
     display: block;
      @media #{$small-only} {
     top:1rem;
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
+    
+    max-width: 95%;
+    min-width: 95%;
     margin:1rem;
     }
     @media #{$medium-up} {
@@ -113,13 +113,15 @@
       font-size: em(16);
     }
     .contact{
-      display:block;
+      display:block;      
       float:left;
       width:100%;
-      margin-top:20px;
+      margin-top:2rem;
       text-align: left;
       color:white;      
-      font-size: 1.4rem;
+      font-size: 1rem;
+      ul{ list-style:none;padding:0px;
+    margin:1rem 0px;}
     }
     }    
 &__content_fullsize
