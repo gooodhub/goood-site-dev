@@ -9,9 +9,25 @@
         </section>-->
         <section class="toolitem">
             <div class="row">
-               <div class="toolitem__content">                    
-                     {{{ contents }}}
-               </div>
+              <div class="toolitem__content_fullsize"> 
+                    {{#if image}}
+                    <div class="w3-content w3-display-container">
+            
+                            {{#each this.image}}
+                            <div class="w3-display-container mySlides">
+                                <img src="{{path}}" alt="{{alt}}" width="600px" style="width:100%" />
+                                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-orange">
+                                    {{alt}}
+                                </div>
+                            </div>
+                        {{/each}}
+                        
+                        <button class="w3-button w3-display-left w3-orange" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-display-right w3-orange" onclick="plusDivs(1)">&#10095;</button>
+
+                    </div>
+                    {{/if}}
+               </div><!--End toolitem__content_fullsize -->
                 <div class="toolitem__price">
                     {{# if IsPayment}}   
                     <h1>{{priceHT}} HT</h1>
@@ -44,29 +60,14 @@
                         <li><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 20px;"></i>contact[a]goood.pro</li>
                         </ul>
                     </div>
-                </div>
+                </div><!--End toolitem__price -->
                 
             </div>
              <div class="row">
-             <div class="toolitem__content_fullsize"> 
-                    {{#if image}}
-                    <div class="w3-content w3-display-container">
-            
-                            {{#each this.image}}
-                            <div class="w3-display-container mySlides">
-                                <img src="{{path}}" alt="{{alt}}" width="600px" style="width:100%" />
-                                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-orange">
-                                    {{alt}}
-                                </div>
-                            </div>
-                        {{/each}}
-                        
-                        <button class="w3-button w3-display-left w3-orange" onclick="plusDivs(-1)">&#10094;</button>
-                        <button class="w3-button w3-display-right w3-orange" onclick="plusDivs(1)">&#10095;</button>
-
-                    </div>
-                    {{/if}}
-               </div>
+                  <div class="toolitem__content">                    
+                     {{{ contents }}}
+               </div><!--End toolitem__content -->
+             
              </div>
             </div>
             </section>

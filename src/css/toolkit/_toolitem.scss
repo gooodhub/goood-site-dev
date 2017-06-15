@@ -126,9 +126,9 @@
     }    
 &__content_fullsize
 {
-  @extend %contentPadding;
-  padding: 35px 30px;
-   background:$secondaryColor;
+ // @extend %contentPadding;
+    padding: 5px ;
+    background:$secondaryColor;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -137,7 +137,7 @@
 
   &__content {
     @extend %contentPadding;
-    @extend %shadow;
+   // @extend %shadow;
     padding: 35px 30px;
     background:$secondaryColor;
     text-align: left;
@@ -147,9 +147,9 @@
     flex: 1;
     color:white;
     @media #{$medium-up} {
-     // align-self: center;
-      flex-basis: 55%;
-      max-width: 55%;
+     
+      flex-basis: 65%;
+      max-width: 65%;
     }
     h2{color:$primaryColor;}
     p, ul, li {
@@ -185,7 +185,7 @@
 .w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
 .w3-display-container{position:relative}
 .w3-display-bottomleft{position:absolute;left:0;bottom:0}.w3-display-bottomright{position:absolute;right:0;bottom:0}
-.w3-large{font-size:18px!important}
+.w3-large{font-size:1rem!important}
 .w3-padding-16{padding:16px!important}
 .w3-orange,.w3-hover-black:hover{color:#fff!important;background-color:$primaryColor!important;border-radius: 4px}
 .w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:$primaryColor;text-align:center;cursor:pointer;white-space:nowrap}
