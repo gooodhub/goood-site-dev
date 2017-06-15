@@ -193,15 +193,15 @@ ga('send', 'pageview');
                     <div class="w3-content w3-display-container">
             
                             <div class="w3-display-container mySlides">
-                                <img src="/images/toolkits/kit-close.jpg" alt="Sac de transport" width="600px" style="width:100%" />
-                                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-orange">
-                                    Sac de transport
-                                </div>
-                            </div>
-                            <div class="w3-display-container mySlides">
                                 <img src="/images/toolkits/kit-open.jpg" alt="Contenu du kit" width="600px" style="width:100%" />
                                 <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-orange">
                                     Contenu du kit
+                                </div>
+                            </div>
+                            <div class="w3-display-container mySlides">
+                                <img src="/images/toolkits/kit-close.jpg" alt="Sac de transport" width="600px" style="width:100%" />
+                                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-orange">
+                                    Sac de transport
                                 </div>
                             </div>
                             <div class="w3-display-container mySlides">
@@ -252,7 +252,7 @@ ga('send', 'pageview');
                     TVA : 20%</p>
                     <H2>En stock</H2>
                     <p>Le produit vous sera expédié sous 5 jours ouvrés.</p>
-                    <form action='https://www.2checkout.com/checkout/purchase' method='post'>
+                    <form action='https://sandbox.2checkout.com/checkout/purchase' method='post'>
                     
                         <input type='hidden' name='sid' value='901349646'>
                         
@@ -262,7 +262,7 @@ ga('send', 'pageview');
                         <input name='submit' class="btn" type='submit' value='Acheter' >
                         </form>
                         <div style="display:block;float:left;">
-                            <a href="https://www.2checkout.com/checkout/purchase" > 
+                            <a href="https://sandbox.2checkout.com/checkout/purchase" > 
                             <i class="fa-2x fa fa-shopping-cart" aria-hidden="true" style="margin-top: 20px; margin-right: 10px;"></i>Voir mon panier
                         </a>
                         </div>
@@ -282,7 +282,7 @@ ga('send', 'pageview');
 <li>Un sticky wall en tissu bleu (longueur 3m ; hauteur 1,15m)</li>
 <li>Une bombe de colle repositionnable à appliquer sur le tissu </li>
 <li>Un rouleau de scotch pour accrocher le kit au mur</li>
-<li>Une boite de 10 feutres à l&#39;eau, Neuland rechargeables avec 4 couleurs (noir, vert, bleu et rouge)</li>
+<li>Une boite de 10 feutres à l&#39;eau, Neuland N°1 rechargeables avec 10 couleurs</li>
 <li>Un jeu de cartes de photolangage pour briser la glace à vos ateliers / réunions</li>
 <li>Une ampoule de parole anti-stress</li>
 <li>Un sac de transport</li>
@@ -295,13 +295,6 @@ ga('send', 'pageview');
             </section>
            
 <script>
-DocReady();
-function DocReady(){
-var el = document.getElementById("toolitem");
-el.style.backgroundImage = "url('/images/toolkits/kit-open.jpg')";
-el.style.backgroundPositionX ="center";
-el.style.backgroundPositionY ="center";
-}
 
 var slideIndex = 1;
 showDivs(slideIndex);
