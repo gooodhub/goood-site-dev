@@ -3,7 +3,7 @@ name: Guillaume Dutey-Harispe
 bulle1: “AIME...
 bulle2: ...ET FAIS CE QUE TU VEUX !”
 bulle3: SAINT AUGUSTIN
-image: /images/portraits/GuillaumeDH.jpg
+image: /images/portraits/guillaumeDH.jpg
 hashtag: '#INCORRIGIBLEOPTIMISTE'
 job: Agiliste facilitateur bienveillant
 
