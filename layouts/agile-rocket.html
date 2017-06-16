@@ -1,0 +1,55 @@
+{{#> layout }} {{#*inline "content"}}
+<div class="slide" id="tooolkit">
+    {{> slide-header title=headline }}
+    <div class="slide__content">
+        <section class="toolkit">
+           
+                <header class="toolkit__header">
+                    {{{ contents }}}
+                </header>
+           
+        </section>
+        
+       {{#each toolkits}}
+        
+               
+       <section class="orange"> 
+          <div class="row">
+            <div class="orange__content">
+              <p style="font-size:2.5rem;font-weight:800;text-align:left;margin-bottom:10px;margin-top:10px;text-transform: uppercase;">
+                 {{{this.productname}}} 
+              </p>
+              <p style="font-size:2rem;font-weight:400; margin-top:10px;margin-bottom:15px"> {{{ priceHT }}} HT</p>
+              <p style="font-size:1.3rem;text-align:left;color:#1d3f51;margin-top:10px">
+                  {{{this.headline}}}                  
+              </p>
+            
+            <div class="row" style="margin-left:0px;padding:0px">
+            
+              <a class="btn btn--third" data-text="C'est par ici" href="/tools/{{this.slug}}" role="button"  data-toggle="modal">
+                        <span>Découvrir ce produit</span>
+              </a>
+            </div>
+            </div>
+           
+            <div class="orange__img" style="background-image:url({{{this.mainimage}}})">
+            </div>            
+          </div>
+        </section>
+        <div class="toolkit__rowseparator" >
+                &nbsp 
+            </div>
+         {{/each}}
+        {{> slide-nav-buttons
+          prevTitle = 'Formations'
+          prevPath = '/formations/'
+          nextTitle = 'Contacts'
+          nextPath = '/contact/'
+        }}
+            
+        {{> footer }}
+    </div>
+</div>
+
+
+{{/inline}} {{/layout}}
