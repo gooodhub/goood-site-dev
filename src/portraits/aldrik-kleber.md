@@ -15,4 +15,4 @@ Le PDCA sont les 4 fondements qui font vivre Aldrik, la Passion, la Déterminati
 travail est un Art. Le monde de demain se fait maintenant, au quotidien, dans la vie privée comme dans le travail. 
 Mobiliser les personnes autour d’une vision et ambition commune et catalyser les énergies sont les préoccupations constante d’Aldrik.
 Où le croiser, dans une Milonga pour danser le tango argentin, près d’un fleuve 
-ou d’un lac pour faire du sport, ou dans les transports en commun en train de lire un livre.
+ou d’un lac pour faire du sport, ou dans les transports en commun en train de lire un livre. blabla
