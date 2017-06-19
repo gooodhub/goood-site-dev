@@ -42,7 +42,7 @@ Inclus :
 * Equipements: sticky wall, télévision avec caméra et micro pour les vidéos/conférences, posts-its, paper boards, wifi.
 * Le café est offert
  
-## Pour connaitre les disponibilités, envoyez-nous un mail à sud[a]goood.pro ##
+## Pour connaitre les disponibilités, envoyez-nous un mail à sud@goood.pro ##
 
 ### EVENEMENTS GRATUITS / COMMUNAUTES ###
 Goood! est très impliqué dans les différentes communautés Agile et Techniques. C’est pourquoi pour les évènements communautaires et sans but lucratif, nous offrons la location. Merci de nous contacter par mail pour plus de précisions.
