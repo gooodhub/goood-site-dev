@@ -1,0 +1,50 @@
+#agile-rocket-module .slide
+{  
+  background-position: center center;  
+}
+#agile-rocket-module .slide__header
+{
+  height: 50vh;
+}
+ 
+
+.module {
+  @extend %sectionPadding;
+  @media #{$small-only} { padding-bottom: 0; }
+
+
+  .btn {
+    margin-right: auto;
+  }
+
+  &__content {
+    @extend %contentPadding;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    @media #{$medium-up} {
+      align-self: center;
+    }
+  }
+
+  &__img {
+    @extend %shadow;
+
+    background-color: rgba(black, .2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+    }
+
+    @media #{$medium-up} {
+      order: -1;
+      flex-basis: 45%;
+      max-width: 45%;
+      align-self: center;
+    }
+  }
+}

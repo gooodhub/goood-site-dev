@@ -1,36 +1,6 @@
-.agile-rocket {
-  @extend %sectionPadding;
-  @media #{$small-only} { padding-bottom: 0; }
-   position: relative;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  //height: 75vh;
+#agile-rocket {
 
-   overflow: hidden; 
-  //overflow-x: hidden;
-
-  .btn {
-    margin-right: auto;
-  }
-
-  @media #{$medium-up} {
-    .row { margin-bottom: 20px; }
-    //margin-bottom: 30px;
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 500px;
-      background: $secondaryColor;
-      z-index: 0;
-
-      @media #{$large-up} {height: 600px;}
-    }
-  }
-  header {
+    .header {
     @extend %contentPadding;
     //padding-bottom: 0;
     position: relative;
@@ -55,60 +25,147 @@
     }
   }
 
- &__rowseparator  {
-    background:#FFF; 
-    left: auto;
-    bottom: auto; 
-    right: auto; 
-    margin: 0px 0px 0px;
-    display: block; 
-    position: relative; 
-    box-sizing: content-box; 
-    min-height: 100px; 
-    height: auto;
- }
+  .rocket {
+  @extend %contentPadding;
+
+  display: flex;
+  flex-direction: column;
+
+  @media #{$medium-up} {
+    flex-direction: row;
+  }
+
+    &__left {
+      padding-right: 20%;
+      @media #{$medium-up} {
+        padding-right: 0;
+        flex: 1;
+      }
+    }
+
+    &__middle {
+
+      @media #{$small-only} {
+      order: -1;
+      }
+      @media #{$medium-up} {
+        flex-basis: 40%;
+        max-width: 40%;
+        }
+      img { width: 100%;}
+
+    }
+
+    &__right {
+
+      padding-right: 20%;
+      @media #{$medium-up} {
+        padding-right: 0;
+        flex: 1;
+      }
+    } 
+      p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: em(20);
+    line-height: em(23);
+  }
+  }
+
+.row_header {
+    @extend %sectionPadding;
+  @media #{$small-only} { padding-bottom: 0; }
+     position: relative;
+       top: 0;
+  left: 0;
+  width: 100vw;
+      padding : 0 20px;
+      margin-bottom: 50px;
+      background-color:red;
+    }
+
+.row {
+      max-width: 800px;
+      padding-bottom: 20px;
+      margin-bottom: 50px;
+    }
+
+    
+
+
+.pink {
+    background-color:#FFD6DE;
+  }
+
+.yellow {
+    background-color:#FFEE62;
+  }
+
+.blue {
+    background-color:#9BCAE4;
+  }
+
+.green {
+    background-color:#B8D650;
+  }
+
+.grey {
+    background-color:#F0F2ED;
+  }
+
+.button_specific {
+  clear:both;
+  margin-bottom: 5px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.rocketdesc {
+  @extend %sectionPadding;
+  background: $secondaryColor;
+
+  @media #{$small-only} {
+    padding: 0;
+  }
+
+  header {
+    h1, p, p { color: white; }
+    p:after { background: white; }
+  }
 
   &__content {
     @extend %contentPadding;
-    @extend %shadow;
-    padding: 35px 30px;
-    background: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
     flex: 1;
-    
+
+    p {
+      color: white;
+    }
+
     @media #{$medium-up} {
       align-self: center;
-      flex-basis: 50%;
-      max-width: 50%;
-    }
-    p, ul, li {
-       line-height: em(36);
-       font-size: em(24);
-       margin: 0;
-    }
-    p, ul{
-      margin-top: 0.7em;
-    }
-    .btn {
-      margin: 0 20%;
-      margin-top: 1em;
     }
   }
 
-  &__title {
-    @extend %contentExtraBoldFont;
-    font-size: em(46);
+  &__img {
+    @extend %shadow;
 
-    span {
-      display: block;
-      font-size: em(25);
+    background-size: cover;
+    background-position: right center;
+    background-image: url('/images/agile-rocket/rocket.jpg');
+    background-color: lighten(black, 80%);
+    height: 58vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    @media #{$medium-up} {
+      flex-basis: 47%;
+      max-width: 47%;
+      height: 36vw;
+      max-height: 466px;
+      align-self: center;
     }
   }
+}
 
-
-
-  }
-
-
+}
