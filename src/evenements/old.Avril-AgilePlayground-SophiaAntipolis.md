@@ -1,6 +1,6 @@
 ---
 {
-	titre: old-Agile Playground Sophia Antipolis,
+	titre: Agile Playground Sophia Antipolis,
 	date: 2017-04-06,
 	type: Meetup,
 	ville: Sophia Antipolis,
