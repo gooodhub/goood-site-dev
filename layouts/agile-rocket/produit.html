@@ -1,0 +1,37 @@
+{{#> layout }} {{#*inline "content"}}
+<div class="slide" id="agile-rocket-module">
+    {{> slide-header title=title }}
+    <div class="slide__content">
+        <!--<section class="toolitem">
+               <header class="toolitem__header">
+                    {{headline}} 
+               </header>   
+        </section>-->
+        <section class="module">
+			<div class="row">
+				<div class="module__content">
+					<header>
+						<!--<h1>
+							{{title}}
+						</h1>-->
+						<p class="orangeText">
+							{{question}}
+						</p>
+					</header>
+					{{{contents}}}
+				</div>
+				<div class="module__img">
+		 			<img src="/images/agile-rocket/{{image}}" alt="Agile Rocket">
+				</div>
+			</div>
+		</section>
+        {{> slide-nav-buttons
+          prevTitle = 'Agile Rocket'
+          prevPath = '/agile-rocket'
+          nextTitle = nextTitle
+          nextPath = nextPath
+        }}
+        {{> footer }}
+    </div> 
+</div>
+{{/inline}} {{/layout}}
