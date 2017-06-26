@@ -47,3 +47,10 @@ Au travers des ateliers et des debriefs, vous allez explorer et adopter la postu
 
 Le nombre de participants est limité à 20 personnes.
 
+## Verbatim de facilitateurs en herbe suite à la formation ##
+Rémi " Super formation pour appréhender les fondamentaux de la facilitation et pouvoir les appliquer au bureau ou à la maison"
+Xavier "Ce n'est pas indispensable, mais c'est pourtant essentiel"
+Nathalie Geldermann "JE repars avec une vision de la posture du facilitateur (neutralité, bienveillance, ...) avec des bonnes pratiques de desig et d'animation d'ateliers et l'expérience d'applicaiton de quelques cas concrets d'ateliers. J'espère pouvoir contribuer à enrichir les conditions propres à l'émergence de l'intelligence collective au sein de ma société."
+Damien Bigot "Apprendre la facilitation en la vivant"
+Lucie Chevallereau "Formation d'excellente qualité qui permet d'insuffler de nouvelles idées de communication, des méthodesafin de rassembler les collaborateurs et de voir émerger des propositions qui font avancer votre entreprise avec un esprit fédérateur"
+
