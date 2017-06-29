@@ -8,12 +8,12 @@ headline: "Tous les outils Goood! réunis dans un kit pour faciliter vos atelier
 productname: Kit de facilitation,
 order: 1,
 id: kit,
-IsPayment: 0,
+IsPayment: 1,
 IsDelivery: 1,
 InStock: 1,
 pricePort: "+ 10€ de frais de port",
-priceHT: 110€,
-priceTTC: 132€,
+priceHT: 117€,
+priceTTC: 140.40€,
 TauxTVA: "20%",
 buttonAchatLabel: Acheter, 
 mainimage: "/images/toolkits/kit-open.jpg",
@@ -27,9 +27,7 @@ image:[
 {path: "/images/toolkits/ampoule.jpg", alt : "Ampoule de parole"},
 {path: "/images/toolkits/kit-scotch.jpg", alt : "Rouleau de scotch"}
 ],
-2checkouturl: https://sandbox.2checkout.com/checkout/purchase,
-2checkouturl_sid: 901349646,
-2checkoutProductId: 1,
+PaymentHtml: "<input type='hidden' name='hosted_button_id' value='KHJ9H3FYSJ562'>",
 }
 ---
 

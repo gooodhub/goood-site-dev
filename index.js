@@ -37,6 +37,7 @@ const buildApp = metalsmith(__dirname)
   .source('./src')
   .destination('./dist')
   .use(rootPath())
+  .metadata({paymenturl :"https://www.paypal.com/cgi-bin/webscr"})
 
   // HTML
   .use(metalSmithRegisterHelpers({

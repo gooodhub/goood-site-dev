@@ -41,22 +41,22 @@
                     <p>Le produit vous sera expédié sous 5 jours ouvrés.</p>
                     {{/if}}<!-- IsDelivery -->
                     {{# if IsPayment}}   
-                    <form action='{{2checkouturl}}' method='post'>
-                    
-                        <input type='hidden' name='sid' value='{{2checkouturl_sid}}'>
-                        
-                        <input type='hidden' name='quantity' value='1'>
-                        <input type='hidden' name='product_id' value='{{2checkoutProductId}}'>
-                         <input type='hidden' name='lang' value='fr'>                        
-                        <input name='submit' class="btn" type='submit' value='{{buttonAchatLabel}}' >
+                  
+                       <form action="{{paymenturl}}" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                           {{{PaymentHtml}}}
+                            <input name='submit' class="btn" type='submit' value='{{buttonAchatLabel}}' alt="PayPal, le réflexe sécurité pour payer en ligne">                            
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
                         </form>
-                        <div style="display:block;float:left;">
-                            <a href="{{2checkouturl}}" > 
+
+                        
+                       <!-- <div style="display:block;float:left;">
+                            <a href="{{paymenturl}}" > 
                             <i class="fa-2x fa fa-shopping-cart" aria-hidden="true" style="margin-top: 20px; margin-right: 10px;"></i>Voir mon panier
                         </a>
-                        </div>
+                        </div>-->
                     {{/if}}<!--End IsPayment -->
-                    <div class="contact"  >Pour commmander, contactez nous par mail ou téléphone:
+                    <div class="contact"  >Une question, contactez nous par mail ou téléphone:
                         <ul>
                         <li><i class="fa fa-phone" aria-hidden="true" style="margin-right: 20px;"></i>01 75 50 67 69</li>
                         <li><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 20px;"></i><a href="mailto:contact@goood.pro">contact@goood.pro</a></li>
