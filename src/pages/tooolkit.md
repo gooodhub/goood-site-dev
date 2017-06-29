@@ -10,8 +10,6 @@ prevTitle: Formations
 prevPath: /formations/
 nextTitle: contact
 nextPath: /contact/
-image-stikcy: http://www.coactiv.fr/wp-content/uploads/2014/09/atelier-kit.png
-
 ---
 
 # A Taste of Goood ! #
