@@ -1,13 +1,18 @@
 ---
 {
-product: Agile Rocket,
-title: Coopérer ,
-description: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?" ,
-layout: agile-rocket-module.html ,
-question: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?" ,
-image: "collaborate.jpg",
-nextTitle: "Améliorer",
-nextPath: ../ameliorer/
+  title: Coopérer,
+  slug: "cooperer",
+  headline: Agile Rocket > Coopérer,
+  description: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?",
+  layout: agile-rocket-module.html,
+  id: agile-rocket-cooperer,
+  priority: 1,
+  question: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?" ,
+  story : "",
+  subject : "",
+  image: "collaborate.jpg",
+  nextTitle: "Améliorer",
+  nextPath: "../ameliorer/"
 }
 ---
 Dans ce module, nous travaillons avec l'équipe à :

@@ -1,13 +1,18 @@
 ---
 {
-product: Agile Rocket,
-title: Fluidifier ,
-description: "Comment optimiser le flux de production de valeur, la prédictibilité de la livraison finale au client sans surcharger les équipes ?" ,
-layout: agile-rocket-module.html ,
-question: "Comment optimiser le flux de production de valeur, la prédictibilité de la livraison finale au client sans surcharger les équipes ?" ,
-image: "flow.jpg",
-nextTitle: "Management complexe",
-nextPath: ../management/
+  title: "Fluidifier",
+  slug: "fluidifier",
+  headline: "Agile Rocket > Fluidifier",
+  description: "Comment optimiser le flux de production de valeur, la prédictibilité de la livraison finale au client sans surcharger les équipes ?",
+  layout: agile-rocket-module.html,
+  id: agile-rocket-fluidifier,
+  priority: 1,
+  question: "Comment optimiser le flux de production de valeur, la prédictibilité de la livraison finale au client sans surcharger les équipes ?",
+  story : "",
+  subject : "",
+  image: "flow.jpg",
+  nextTitle: "Management complexe",
+  nextPath: ../management/,
 }
 ---
 Dans ce module, nous travaillons avec l'équipe à :

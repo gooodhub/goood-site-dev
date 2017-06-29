@@ -1,13 +1,18 @@
 ---
 {
-product: Agile Rocket,
-title: Culture Agile ,
-description: "Que changer ? Par où commencer ? Est-il suffisant d’adopter un jeu de bonnes pratiques ?" ,
-layout: agile-rocket-module.html ,
-question: "Que changer ? Par où commencer ? Est-il suffisant d’adopter un jeu de bonnes pratiques ?" ,
-image: "culture.jpg",
-nextTitle: "North Star",
-nextPath: ../north-star/,
+  title: Culture Agile,
+  slug: "culture",
+  headline: Agile Rocket > Culture,
+  description: "Que changer ? Par où commencer ? Est-il suffisant d’adopter un jeu de bonnes pratiques ?",
+  layout: agile-rocket-module.html,
+  id: agile-rocket-culture,
+  priority: 1,
+  question: "Que changer ? Par où commencer ? Est-il suffisant d’adopter un jeu de bonnes pratiques ?",
+  story : "",
+  subject : "",
+  image: "culture.jpg",
+  nextTitle: "North Star",
+  nextPath: "../north-star/"
 }
 ---
 Des enquêtes récurrentes alertent sur le principal frein vers une transformation agile : l’incapacité à changer la culture de l’organisation. Ex. version One
@@ -22,5 +27,4 @@ Le leader inspirant (Entreprises libérées, Bonheur au travail, Reinventing Org
 Contextualisation spécifique à l’entreprise, chaque cas est différent.
 
 La fameuse résistance au changement se nourrit d’une interprétation de l’écart entre les belles paroles, les discours de motivation et le constat des comportements, structures et processus qui demeurent inchangés.
-“Comment l’organisation crée-t-elle un environnement qui puisse encourager les personnes à adopter les comportements attendus ?”
-
+“Comment l’organisation crée-t-elle un environnement qui puisse encourager les personnes à adopter les comportements attendus ?”

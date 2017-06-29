@@ -1,15 +1,20 @@
 ---
 {
-product: Agile Rocket,
-title: Management Complexe ,
-description: "Comment le management peut-il soutenir le voyage de transformation agile en environnement complexe ?
+  title: Management Complexe,
+  slug: management,
+  headline: "Agile Rocket > Management",
+  description: "Comment le management peut-il soutenir le voyage de transformation agile en environnement complexe ?
 Comment peut-on accompagner le management à se transformer ?" ,
-layout: agile-rocket-module.html ,
-question: "Comment le management peut-il soutenir le voyage de transformation agile en environnement complexe ?\r\n
+  layout: agile-rocket-module.html,
+  id: agile-rocket-management,
+  priority: 1,
+  question: "Comment le management peut-il soutenir le voyage de transformation agile en environnement complexe ?\r\n
 Comment peut-on accompagner le management à se transformer ?" ,
-image: "manage.jpg",
-nextTitle: "Maîtrise Personnelle",
-nextPath: ../maitrise/
+  story : "",
+  subject : "",
+  image: "manage.jpg",
+  nextTitle: "Maîtrise Personnelle",
+  nextPath: ../maitrise/,
 }
 ---
 Aider le manager à devinir un stabilisateur :

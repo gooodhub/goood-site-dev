@@ -1,13 +1,18 @@
 ---
 {
-product: Agile Rocket,
-title: Le bon produit ,
-description: "Comment encourager et nourrir une culture d’entreprise qui satisfait le client en traitant positivement l’évolution continuelle des besoins utilisateurs ?" ,
-layout: agile-rocket-module.html ,
-question: "Comment encourager et nourrir une culture d’entreprise qui satisfait le client en traitant positivement l’évolution continuelle des besoins utilisateurs ?" ,
-image: "product.jpg",
-nextTitle: "Excellence (de l'ingénierie)",
-nextPath: ../excellence/
+  title: Le bon produit,
+  slug: produit,
+  headline: "Agile Rocket > Le bon produit",
+  description: "Comment encourager et nourrir une culture d’entreprise qui satisfait le client en traitant positivement l’évolution continuelle des besoins utilisateurs ?" ,
+  layout: agile-rocket-module.html,
+  id: agile-rocket-produit,
+  priority: 1,
+  question: "Comment encourager et nourrir une culture d’entreprise qui satisfait le client en traitant positivement l’évolution continuelle des besoins utilisateurs ?" ,
+  story : "",
+  subject : "",
+  image: "product.jpg",
+  nextTitle: "Excellence (de l'ingénierie)",
+  nextPath: ../excellence/,
 }
 ---
 Aider à nourrir une culture d’entreprise orientée produit
