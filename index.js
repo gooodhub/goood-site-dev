@@ -4,7 +4,7 @@ const sitemap = require('metalsmith-mapsite');
 const markdown = require('metalsmith-markdown');
 const sass = require('metalsmith-sass');
 const autoprefixer = require('metalsmith-autoprefixer');
-const permalinks = require('metalsmith-permalinks'); 
+const permalinks = require('metalsmith-permalinks');
 var ignore = require('metalsmith-ignore');
 const collections = require('metalsmith-collections');
 const metalSmithRegisterHelpers = require('metalsmith-register-helpers');
@@ -79,6 +79,9 @@ const buildApp = metalsmith(__dirname)
       pattern: 'toolkits/*.md',
       sortBy: 'order'
     },
+    agile_rocket: {
+      pattern: 'agile-rocket/*.md',
+    },
   }))
 
   .use(dateFormatter({
@@ -112,6 +115,9 @@ const buildApp = metalsmith(__dirname)
       },{
         match: { collection: 'toolkits' },
         pattern: 'tools/:slug',
+      },{
+        match: { collection: 'agile_rocket' },
+        pattern: 'agile-rocket/:slug',
       }]
   }))
 
