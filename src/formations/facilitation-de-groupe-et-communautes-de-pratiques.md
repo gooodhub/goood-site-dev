@@ -14,7 +14,7 @@ expérimenter le codéveloppement professionnel de groupe",
 	lesPlus: [De la pratique et un peu de théorie sur 2 jours et beaucoup de retour d’expérience des formateurs,
 15 jours d’expérimentation dans la vie réelle qui seront suivis d’un troisième jour de debrief de vos expériences],
 	layout: sous-page.html, 
-	dates: [21 et 22 aout et 11 septembre - à Paris, 23 et 24 octobre et 7 novembre - à Paris, 20 et 21 novembre et 14 décembre - à Paris]
+	dates: [21 et 22 aout et 11 septembre - à Paris, 16 et 17 octobre et 6 novembre - 23 et 24 octobre et 7 novembre - à Paris, 20 et 21 novembre et 14 décembre - à Paris]
   
 }
 ---
