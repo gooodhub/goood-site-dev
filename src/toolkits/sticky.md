@@ -8,7 +8,7 @@ headline: "Le mur collant seul pour animer vos réunions d'équipe",
 productname: Sticky Wall,
 order: 2,
 id: sticky,
-IsPayment: 0,
+IsPayment: 1,
 IsDelivery : 1,
 InStock: 1,
 priceHT: 41€,
@@ -30,4 +30,5 @@ Descriptif:
 * Longueur: 3m
 * Largeur: 1,15m
 
+La colle n’est pas incluse. Vous pouvez la trouver facilement dans le commerce (OfficeDepot, Amazon,...). Ref : Colle repositionnable 3M
 
