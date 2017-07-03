@@ -5,14 +5,14 @@
 	headline: Manager Agile,
 	description: Être capable d'animer et faire grandir une équipe agile, 
 	theme: agile,
-	heures: 24,
+	heures: 28,
 	participants: 12,
 	prixInter: 1800,
 	prixIntra: 8000,
 	pourcentagePratique: 60,
 	lesPlus: [Un programme de mise en pratique sur six semaines entre pairs, Une formation certifiante],
 	layout: sous-page.html, 
-	dates: [26 - 27 Septembre et 18 Octobre à Paris, 23 - 24 Novembre et 21 Décembre à Paris]
+	dates: [26 - 27 Septembre - 18 Octobre et 14 Novembre à Paris, 23 - 24 Novembre - 21 Décembre et 25 Janvier à Paris]
 }
 ---
 
