@@ -5,7 +5,7 @@
 	headline: Manager Agile,
 	description: Être capable d'animer et faire grandir une équipe agile, 
 	theme: agile,
-	heures: 28,
+	heures: 24,
 	participants: 12,
 	prixInter: 1800,
 	prixIntra: 8000,
