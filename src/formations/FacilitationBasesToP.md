@@ -12,7 +12,7 @@
 	pourcentagePratique: 60,
 	lesPlus: [De la pratique sur 3 jours],
 	layout: sous-page.html, 
-	dates: [27,28 et 29 Septembre - à Sophia Antipolis]
+	dates: [4 - 5 et 6 Octobre - à Paris, 4 - 5 et 6 Octobre - à Sophia Antipolis, ]
 }
 ---
 
