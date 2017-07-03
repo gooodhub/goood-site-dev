@@ -201,16 +201,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> 216 € HT inter-entreprises</span>
                 <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> (?) € HT intra-entreprise</span>
               </p>
-            <h1 id="1-cube-go">1 Cube&amp;Go</h1>
-<h2 id="j-ai-un-probl-me-dans-mon-projet-">J&#39;ai un problème dans mon projet...</h2>
-<p>…et je ne sais pas quoi faire. J’ai besoin de développer des compétences spécifiques. J’ai besoin d’outils concrets pour faire avancer l’organisation de mon projet et que ça ne me prenne pas trop de temps.</p>
-<h2 id="de-retour-dans-mon-projet-">De retour dans mon projet...</h2>
-<p>… je traite le problème en reproduisant ce que j’ai pratiqué.</p>
-<p>Le problème est mieux compris et partagé, mon équipe et moi pouvons le régler.</p>
-<h2 id="la-team-1-cube-go">La team 1 Cube &amp; Go</h2>
-<p>Baignés dans la gestion de projet et l’Agilité depuis plusieurs années, nous formons et accompagnons les équipes et les entreprises dans leur transformation agile. 1CUBE&amp;GO est le fruit de notre volonté de promouvoir les pratiques et les valeurs qui font le succès des équipes et des organisations agiles d’aujourd’hui.</p>
-<h2 id="je-veux-plus-d-informations-">Je veux plus d&#39;informations ???</h2>
-<p>C&#39;est par ici : <a href="http://1cube-and-go.com/">http://1cube-and-go.com/</a></p>
+            
+# 1 Cube&Go #
+
+## J'ai un problème dans mon projet... ##
+
+…et je ne sais pas quoi faire. J’ai besoin de développer des compétences spécifiques. J’ai besoin d’outils concrets pour faire avancer l’organisation de mon projet et que ça ne me prenne pas trop de temps.
+
+## De retour dans mon projet... ##
+… je traite le problème en reproduisant ce que j’ai pratiqué.
+
+Le problème est mieux compris et partagé, mon équipe et moi pouvons le régler.
+
+## La team 1 Cube & Go ##
+
+Baignés dans la gestion de projet et l’Agilité depuis plusieurs années, nous formons et accompagnons les équipes et les entreprises dans leur transformation agile. 1CUBE&GO est le fruit de notre volonté de promouvoir les pratiques et les valeurs qui font le succès des équipes et des organisations agiles d’aujourd’hui.
+
+## Je veux plus d'informations ??? ##
+
+C'est par ici : [http://1cube-and-go.com/](http://1cube-and-go.com/)
 
             <div id="conteneur-repartition-methodologie">
               <canvas id="repartition-methodologie"></canvas>

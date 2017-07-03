@@ -3,11 +3,6 @@
 <url> <loc>http://goood.pro/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/mentions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/static/annonce_goood/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://goood.pro/tools/kit-de-facilitation/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://goood.pro/tools/salle-sud-demi-journee/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://goood.pro/tools/salle-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://goood.pro/tools/sticky-wall/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://goood.pro/formations/uncubeetgo/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/formations/techniques-et-methodes-de-facilitation-de-groupe/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/formations/creativite-grace-aux-techniques-de-facilitation/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/formations/introduction-agile/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -28,4 +23,8 @@
 <url> <loc>http://goood.pro/references/</loc> <changefreq>weekly</changefreq> <priority>0.9</priority> </url>
 <url> <loc>http://goood.pro/tool-item/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>http://goood.pro/toolkit/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>http://goood.pro/tools/kit-de-facilitation/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://goood.pro/tools/salle-sud-demi-journee/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://goood.pro/tools/salle-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://goood.pro/tools/sticky-wall/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
