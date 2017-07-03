@@ -201,35 +201,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> 1100 € HT inter-entreprises</span>
                 <span class="badge badge-info-formation"><i class="fa fa-money" aria-hidden="true"></i> 4000 € HT intra-entreprise</span>
               </p>
-            <h2 id="rythme-2-jours">Rythme : 2 jours</h2>
-<h2 id="objectifs-de-la-formation-">Objectifs de la formation :</h2>
-<ul>
-<li>Maîtriser la posture de facilitateur permettant de rendre un groupe plus créatif</li>
-<li>Savoir animer des ateliers permettant aux groupes de générer et sélectionner les bonnes idées</li>
-<li>Savoir faciliter un groupe et gérer les tensions</li>
-</ul>
-<h2 id="public-concern-">Public concerné</h2>
-<ul>
-<li>Facilitateur</li>
-<li>Manager</li>
-<li>Chef de projet</li>
-<li>Consultant</li>
-<li>Coach</li>
-<li>Formateur</li>
-<li>Chef d&#39;équipe</li>
-<li>Toute personne intéressée par la facilitation de groupe</li>
-</ul>
-<h2 id="jour-1">Jour 1</h2>
-<ul>
-<li>Le rôle et la posture de facilitateur</li>
-<li>Savoir générer des idées</li>
-</ul>
-<h2 id="jour-2">Jour 2</h2>
-<ul>
-<li>Faire le design d’une session de créativité de bout en bout</li>
-<li>Travailler avec son commanditaire</li>
-<li>Ce qu’il vous faut retenir en sortant de la formation</li>
-</ul>
+            ## Rythme : 2 jours ##
+
+## Objectifs de la formation : ##
+* Maîtriser la posture de facilitateur permettant de rendre un groupe plus créatif
+* Savoir animer des ateliers permettant aux groupes de générer et sélectionner les bonnes idées
+* Savoir faciliter un groupe et gérer les tensions
+
+## Public concerné ##
+* Facilitateur
+* Manager
+* Chef de projet
+* Consultant
+* Coach
+* Formateur
+* Chef d'équipe
+* Toute personne intéressée par la facilitation de groupe
+
+## Jour 1 ##
+* Le rôle et la posture de facilitateur
+* Savoir générer des idées
+
+## Jour 2 ##
+* Faire le design d’une session de créativité de bout en bout
+* Travailler avec son commanditaire
+* Ce qu’il vous faut retenir en sortant de la formation
 
             <div id="conteneur-repartition-methodologie">
               <canvas id="repartition-methodologie"></canvas>
