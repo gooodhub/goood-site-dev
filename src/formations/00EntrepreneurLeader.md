@@ -1,7 +1,7 @@
 ---
 {
 	title: "L'entrepreneur leader", 
-	slug: "L'entrepreneur leader", 
+	slug: "agile", 
 	headline: "L'entrepreneur leader",
 	description: "Formation basée sur les travaux de Robert Dilts. Elle permettra de préciser votre vision et mission, de développer
 votre leadership en affinant votre posture de communication, de susciter l’adhésion des équipes et partenaires à votre projet et de transformer votre vision en plan d’actions.", 
