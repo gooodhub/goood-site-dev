@@ -1,7 +1,7 @@
 ---
 {
 title: Kit de facilitation,
-description: "Tous nos outils pour faciliter vos réunions regroupés dans un kit Sticky Wall, feutres Neuland, carte de photo langage",
+description: "Tous nos outils pour faciliter vos réunions regroupés dans un kit (Sticky Wall, feutres Neuland, carte de photo langage)",
 slug: kit-de-facilitation,
 layout: toolitem.html,
 headline: "Tous les outils Goood! réunis dans un kit pour faciliter vos ateliers de groupes et réunions.." ,
@@ -10,7 +10,7 @@ order: 1,
 id: kit,
 IsPayment: 1,
 IsDelivery: 1,
-InStock: 1,
+InStock: 0,
 pricePort: "+ 10€ de frais de port",
 priceHT: 117€,
 priceTTC: 140.40€,
@@ -30,6 +30,9 @@ image:[
 PaymentHtml: "<input type='hidden' name='hosted_button_id' value='KHJ9H3FYSJ562'>",
 }
 ---
+Le kit du facilitateur est l'ensemble d'éléments gravitant autour d'un support indispensable à tout travail de groupe : #### le mur collant ####.
+
+Le mur collant permet de créer un espace de collaboration sur n'importe quel mur. Utilisez n'importe quel format de papier, venez le placer sur le mur et le déplacer : tout est repositionnable.
 
 Le kit comprend : 
 * Un sticky wall en tissu bleu (longueur 3m ; hauteur 1,15m)

@@ -1,5 +1,5 @@
 ---
-title: Contacts et coordonnées Goood!
+title: Accuse Reception Goood!
 slug: accuse-reception
 id: receptionok
 headline: Demande validée
