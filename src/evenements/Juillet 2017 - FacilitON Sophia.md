@@ -1,6 +1,6 @@
 ---
 {
-	titre: "acilit'ON Sophia-Antipolis #15 - Découverte LEGO® SERIOUS PLAY®",
+	titre: "Facilit'ON Sophia-Antipolis #15 - Découverte LEGO® SERIOUS PLAY®",
 	date: 2017-07-12,
 	type: Meetup,
 	ville: Sophia Antipolis,
