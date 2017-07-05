@@ -12,7 +12,13 @@
 	pourcentagePratique: 50,
 	lesPlus: [],
 	layout: sous-page.html, 
-	dates: [18 - 19 et 20 Septembre à Paris, 18 - 19 et 20 Septembre à Sophia Antipolis, 6 - 7 et 8 Novembre à Paris, 6 - 7 et 8 Novembre à Sophia Antipolis,]
+	dates: [18 - 19 et 20 Septembre à Paris,
+	18 - 19 et 20 Septembre à Sophia Antipolis,
+	18 - 19 et 20 Septembre à Lyon,
+	6 - 7 et 8 Novembre à Paris,
+	6 - 7 et 8 Novembre à Sophia Antipolis
+	6 - 7 et 8 Novembre à Lyon,
+	]
 }
 ---
 
