@@ -1,6 +1,6 @@
 ---
 {
-	titre: "Agile Playground Paris #34",
+	titre: "Agile Playground Paris 34",
 	date: 2017-07-06,
 	type: Meetup,
 	ville: Paris,
