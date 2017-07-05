@@ -12,7 +12,7 @@
 	pourcentagePratique: 50,
 	lesPlus: [],
 	layout: sous-page.html, 
-	dates: [2 et 3 Octobre à Paris, 2 et 3 Octobre à Sophia Antipolis]
+	dates: [2 et 3 Octobre à Paris, 2 et 3 Octobre à Sophia Antipolis, 2 et 3 Octobre à Lyon]
 }
 ---
 
