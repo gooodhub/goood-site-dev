@@ -1,7 +1,7 @@
 ---
 {
 	title: "Devenir Product Owner", 
-	slug: "Product Owner", 
+	slug: "product-owner", 
 	headline: "Devenir Product Owner",
 	description: "Acquérir les outils pour être opérationnel en tant que Product Owner ", 
 	theme: agile,
