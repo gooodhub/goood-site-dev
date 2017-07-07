@@ -2,8 +2,8 @@
 {
 	title: "Test Driven Development", 
 	slug: "Agile", 
-	headline: " Appréhender le développement agile basé sur le TDD",
-	description: "", 
+	headline: "Formation TDD",
+	description: " Appréhender le développement agile basé sur le TDD", 
 	theme: agile,
 	heures: 14,
 	participants: 10,
