@@ -12,7 +12,7 @@
 	pourcentagePratique: 75,
 	lesPlus: [],
 	layout: sous-page.html, 
-	dates: [2 et 3 Octobre à Paris, 2 et 3 Octobre à Sophia Antipolis]
+	dates: [12 Septembre à Paris, 25 Octobre à Paris, 9 Novembre à paris, 9 Novembre à Sophia Antipolis]
 }
 ---
 ## Objectifs de la formation : ##
