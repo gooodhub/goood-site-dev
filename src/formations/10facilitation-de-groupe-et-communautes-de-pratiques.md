@@ -1,7 +1,7 @@
 ---
 {
 	title: "Facilitation de groupe et communautés de pratiques",
-	slug: Facilitation-de-groupe-et-communautes-de-pratiques, 
+	slug: facilitation-de-groupe-et-communautes-de-pratiques, 
 	headline: "Facilitation et CoP",
 	description: "Adopter la posture du facilitateur, designer et faciliter un atelier, créer et animer des communautés de pratiques,
 expérimenter le codéveloppement professionnel de groupe",
