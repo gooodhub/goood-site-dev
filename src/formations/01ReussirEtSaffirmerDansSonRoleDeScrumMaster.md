@@ -26,19 +26,37 @@
 
 # Programme #
 
-## Jour 1 ##
+## Jour 1 : ##
 
-* Quelques rappels sur le processus Scrum et les intéractions.
-* Rôle et responsabilités du Scrum Master.
-* Scrum masters, facilitez votre équipe avec la méthode de discussion structurée.
-* Comment conduire un planning ou une estimation ?
-* Comment animer un daily meeting ?
+### C'est quoi une équipe SCRUM ###
+
+### Le Scrum Master au service du Product Owner ###
+* Techniques de gestion efficace du Product Backlog
+* Techniques pour maximiser la valeur du produit
+* Accompagnement du Product Owner
+* Animer des sessions d'affinage de backlog et de planification de sprint éfficace 
+
+### Le Scrum Master au service de l’Équipe de Développement ###
+
+* Techniques pour aider l’Équipe de Développement à développer son auto-organisation et sa pluridisciplinarité
+* Techniques pour aider l’Équipe de Développement à créer des produits de grande valeur
+* Technique pour éliminer les obstacles au progrès de l’Équipe de Développement
+* Faciliter les événements Scrum
 
 ## Jour 2 ##
 
-* Comment animer une rétrospective ?
-* Comment sensibiliser votre équipe aux pratiques XP (Tests unitaires, intégration continue, développement itératif et incrémental…)?
-* Conclusion
+### Le Scrum Master au service de l’organisation ###
+
+* Accompagner l’organisation dans son adoption de Scrum
+* Planifier les mises en œuvre de Scrum dans l’organisation
+* Aider les employés et parties prenantes à comprendre et à mettre en œuvre Scrum et le développement empirique de produit
+* Causer des changements qui augmentent la productivité de l’Équipe Scrum
+* Collaborer avec d’autres Scrum Master pour améliorer l’efficacité de l’utilisation de Scrum dans l’organisation.
+* Accompagner l’Équipe de Développement dans les environnements organisationnels où Scrum n’est pas encore entièrement adopté et compris
+
+### Qu'est ce qu'un bon Scrum Master ###
+* Les caractéristiques d'un bon scrum Mster
+* L'autonomie responsable
 
 ## Public concerné ##
-Ce stage s’adresse aux Managers, facilitateurs, coachs, formateurs, accompagnateurs du changement, consultants et tout acteur d’un projet Scrum.
+Ce stage s’adresse aux Scrum Master, facilitateurs, coachs, formateurs, accompagnateurs du changement, consultants et tout acteur d’un projet Scrum.
