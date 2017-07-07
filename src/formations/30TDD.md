@@ -1,7 +1,7 @@
 ---
 {
 	title: "Test Driven Development", 
-	slug: "Formation TDD", 
+	slug: "formation-TDD", 
 	headline: "Formation TDD",
 	description: "Appréhender le développement agile basé sur le TDD", 
 	theme: agile,
