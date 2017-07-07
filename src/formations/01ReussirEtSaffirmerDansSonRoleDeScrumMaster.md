@@ -31,7 +31,7 @@
 
 ### Le Scrum Master au service du Product Owner ###
 * Techniques pour maximiser la valeur du produit
-* Animer des sessions d'affinage de backlog et de planification de sprint éfficace 
+* Animer des sessions d'affinage de backlog et de planification de sprint efficace 
 * Accompagnement du Product Owner
 
 ### Le Scrum Master au service de l’Équipe de Développement ###
