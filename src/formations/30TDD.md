@@ -3,7 +3,7 @@
 	title: "Test Driven Development", 
 	slug: "Agile", 
 	headline: "Formation TDD",
-	description: " Appréhender le développement agile basé sur le TDD", 
+	description: "Appréhender le développement agile basé sur le TDD", 
 	theme: agile,
 	heures: 14,
 	participants: 10,
@@ -12,7 +12,7 @@
 	pourcentagePratique: 75,
 	lesPlus: [],
 	layout: sous-page.html, 
-	dates: [12 Septembre à Paris, 25 Octobre à Paris, 9 Novembre à paris, 9 Novembre à Sophia Antipolis]
+	dates: [12 Septembre à Paris, 12 Septembre à Sophia Antipolis, 25 Octobre à Paris, 25 Octobre à Sophia Antipolis, 9 Novembre à Paris, 9 Novembre à Sophia Antipolis]
 }
 ---
 ## Objectifs de la formation : ##
