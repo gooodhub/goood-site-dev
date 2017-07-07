@@ -28,35 +28,29 @@
 
 ### C'est quoi une équipe SCRUM ###
 * Le pourquoi d'une équipe Scrum
+* Construire une équipe Scrum
 
 ### Le Scrum Master au service du Product Owner ###
 * Techniques pour maximiser la valeur du produit
-* Animer des sessions d'affinage de backlog et de planification de sprint efficace 
+* Animer des sessions d'affinage de backlog et de planification de Sprint efficace 
 * Accompagnement du Product Owner
 
 ### Le Scrum Master au service de l’Équipe de Développement ###
 * Encourager l'auto-organisation et la pluridisciplinarité
 * Aider l'équipe à rechercher l'excellence technique 
 * Éliminer les obstacles 
-* Animer les événements Scrum
-** Mêlée quotienne
-** Revue de sprint
-** Rétrospective
+* Animer efficacement les événements Scrum : mêlée quotienne, revue de Sprint, rétrospective
 
 ## Jour 2 ##
 
 ### Le Scrum Master au service de l’organisation ###
-
-* Accompagner l’organisation dans son adoption de Scrum
-* Planifier les mises en œuvre de Scrum dans l’organisation
-* Aider les employés et parties prenantes à comprendre et à mettre en œuvre Scrum et le développement empirique de produit
-* Causer des changements qui augmentent la productivité de l’Équipe Scrum
-* Collaborer avec d’autres Scrum Master pour améliorer l’efficacité de l’utilisation de Scrum dans l’organisation.
-* Accompagner l’Équipe de Développement dans les environnements organisationnels où Scrum n’est pas encore entièrement adopté et compris
+* Répendre la culture Agile dans l’organisation
+* Aider l'organisation à mettre en œuvre le développement empirique de produit
+* Collaborer avec d’autres Scrum Master pour péréniser l’utilisation de Scrum dans l’organisation
 
 ### Qu'est ce qu'un bon Scrum Master ###
 * Les caractéristiques d'un bon Scrum Master
-* L'autonomie responsable
+* Rendre l'équipe autonome et après ?
 
 ## Public concerné ##
 Ce stage s’adresse aux Scrum Master, facilitateurs, coachs, formateurs, accompagnateurs du changement, consultants et tout acteur d’un projet Scrum.
