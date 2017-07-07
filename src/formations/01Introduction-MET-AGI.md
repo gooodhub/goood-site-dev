@@ -1,7 +1,7 @@
 ---
 {
 	title: "Introduction aux Méthodes agiles", 
-	slug: "introduction-agile", 
+	slug: "introduction-methodes-agile", 
 	headline: "Méthodes agiles",
 	description: "Appréhender les principales méthodes agiles", 
 	theme: agile,
