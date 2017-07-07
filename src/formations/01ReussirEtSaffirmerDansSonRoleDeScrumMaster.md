@@ -35,11 +35,10 @@
 * Animer des sessions d'affinage de backlog et de planification de sprint éfficace 
 
 ### Le Scrum Master au service de l’Équipe de Développement ###
-
-* Techniques pour aider l’Équipe de Développement à développer son auto-organisation et sa pluridisciplinarité
-* Techniques pour aider l’Équipe de Développement à créer des produits de grande valeur
-* Technique pour éliminer les obstacles au progrès de l’Équipe de Développement
-* Faciliter les événements Scrum
+* Pour développer l'auto-organisation et la pluridisciplinarité de l'équipe
+* Aider l'équipe à rechercher l'excellence technique 
+* Pour éliminer les obstacles 
+* En facilitant les événements Scrum
 
 ## Jour 2 ##
 
