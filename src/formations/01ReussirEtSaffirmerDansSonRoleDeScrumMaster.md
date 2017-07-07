@@ -55,7 +55,7 @@
 * Accompagner l’Équipe de Développement dans les environnements organisationnels où Scrum n’est pas encore entièrement adopté et compris
 
 ### Qu'est ce qu'un bon Scrum Master ###
-* Les caractéristiques d'un bon scrum Mster
+* Les caractéristiques d'un bon Scrum Master
 * L'autonomie responsable
 
 ## Public concerné ##
