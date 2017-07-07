@@ -19,7 +19,7 @@
 ## Objectifs de la formation : ##
 * Comprendre le rôle du Scrum Master 
 * Maitriser les techniques et outils du Scrum Master
-* Identifier son plan d'action d'amélioration 
+* Identifier son plan d'actions d'amélioration 
 
 # Programme #
 
