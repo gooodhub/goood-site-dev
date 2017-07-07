@@ -27,10 +27,11 @@ image:[
 {path: "/images/toolkits/ampoule.jpg", alt : "Ampoule de parole"},
 {path: "/images/toolkits/kit-scotch.jpg", alt : "Rouleau de scotch"}
 ],
-PaymentHtml: "<input type='hidden' name='hosted_button_id' value='KHJ9H3FYSJ562'>",
+PaymentHtml: "<input type='hidden' name='hosted_button_id' value='KHJ9H3FYSJ562'>"
 }
 ---
-Le kit du facilitateur est l'ensemble d'éléments gravitant autour d'un support indispensable à tout travail de groupe : #### le mur collant ####.
+
+Le kit du facilitateur est l'ensemble d'éléments gravitant autour d'un support indispensable à tout travail de groupe : **le mur collant**.
 
 Le mur collant permet de créer un espace de collaboration sur n'importe quel mur. Utilisez n'importe quel format de papier, venez le placer sur le mur et le déplacer : tout est repositionnable.
 
@@ -39,7 +40,7 @@ Le kit comprend :
 * Une bombe de colle repositionnable à appliquer sur le tissu 
 * Un rouleau de scotch pour accrocher le kit au mur
 * Une boite de 10 feutres à l'eau, Neuland N°1 rechargeables avec 10 couleurs
-* Un jeu de cartes de photolangage pour briser la glace à vos ateliers / réunions
+* Un jeu de cartes de photo pour briser la glace à vos ateliers / réunions
 * Une ampoule de parole anti-stress
 * Un sac de transport
 
