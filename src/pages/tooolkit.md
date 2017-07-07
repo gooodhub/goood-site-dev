@@ -1,5 +1,5 @@
 ---
-title: Produits "dérivés" et matériel Goood!
+title: Produits "dérivés" et matériel - Toolkit Goood!
 slug: toolkit
 headline: Tooolkit 
 description: Nous avons regroupés un ensemble d'outils que Goood! utilise pour vous faire partager la meilleur expérience collective.
