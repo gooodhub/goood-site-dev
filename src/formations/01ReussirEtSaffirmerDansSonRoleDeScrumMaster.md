@@ -27,6 +27,7 @@
 ## Jour 1 : ##
 
 ### C'est quoi une équipe SCRUM ###
+* Le pourquoi d'une équipe Scrum
 
 ### Le Scrum Master au service du Product Owner ###
 * Techniques de gestion efficace du Product Backlog
