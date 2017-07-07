@@ -16,8 +16,6 @@
 }
 ---
 
-# 
-
 ## Objectifs de la formation : ##
 * Des techniques d’animation pour être capable d’animer en autonomie les rituels Scrum afin d’en tirer des bénéfices concrets.
 * Des techniques de facilitation afin de dénouer les problématiques humaines et améliorer la collaboration.
