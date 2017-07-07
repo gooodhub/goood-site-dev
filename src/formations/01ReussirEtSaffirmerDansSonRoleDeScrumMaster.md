@@ -17,10 +17,9 @@
 ---
 
 ## Objectifs de la formation : ##
-* Des techniques d’animation pour être capable d’animer en autonomie les rituels Scrum afin d’en tirer des bénéfices concrets.
-* Des techniques de facilitation afin de dénouer les problématiques humaines et améliorer la collaboration.
-* Des techniques de recherche de problèmes et de conduite de plan d’actions afin d’entrer dans une démarche d’amélioration continue.
-* Renforcer vos connaissances sur le processus Scrum.
+* Comprendre le rôle du Scrum Master 
+* Maitriser les techniques et outils du Scrum Master
+* Identifier son plan d'action d'amélioration 
 
 # Programme #
 
@@ -51,6 +50,9 @@
 ### Qu'est ce qu'un bon Scrum Master ###
 * Les caractéristiques d'un bon Scrum Master
 * Rendre l'équipe autonome et après ?
+
+### Mes prochaines étapes ####
+* Identifier son plan d'action personnel 
 
 ## Public concerné ##
 Ce stage s’adresse aux Scrum Master, facilitateurs, coachs, formateurs, accompagnateurs du changement, consultants et tout acteur d’un projet Scrum.
