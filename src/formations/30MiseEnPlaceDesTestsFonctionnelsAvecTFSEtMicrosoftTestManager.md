@@ -1,7 +1,7 @@
 ---
 {
 	title: "Mise en place des tests fonctionnels avec TFS et Microsoft Test Manager", 
-	slug: "Mise en place des tests fonctionnels avec TFS et Microsoft Test Manager", 
+	slug: "Agile", 
 	headline: "Mise en place des tests fonctionnels",
 	description: "Comprendre le rôle du testeur dans la suite ALM de Microsoft et avoir le recule nécessaire sur la solution afin de l’adapter au mieux au context de chaque entreprise", 
 	theme: agile,
