@@ -19,7 +19,6 @@
 * Appréhender le développement agile basé sur le TDD
 * Identifier rapidement les bugs afin de gagner du temps dans son développement
 
-
 # Programme #
 
 ## Jour 1 ##
