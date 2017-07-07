@@ -8,7 +8,7 @@
 	heures: 7,
 	participants: 8,
 	prixInter: 1800,
-	prixIntra: Nous Consulter,
+	prixIntra: ,
 	pourcentagePratique: 75,
 	lesPlus: [],
 	layout: sous-page.html, 
