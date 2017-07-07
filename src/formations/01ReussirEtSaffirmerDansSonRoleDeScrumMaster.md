@@ -30,16 +30,18 @@
 * Le pourquoi d'une équipe Scrum
 
 ### Le Scrum Master au service du Product Owner ###
-* Techniques de gestion efficace du Product Backlog
 * Techniques pour maximiser la valeur du produit
-* Accompagnement du Product Owner
 * Animer des sessions d'affinage de backlog et de planification de sprint éfficace 
+* Accompagnement du Product Owner
 
 ### Le Scrum Master au service de l’Équipe de Développement ###
-* Pour développer l'auto-organisation et la pluridisciplinarité de l'équipe
+* Encourager l'auto-organisation et la pluridisciplinarité
 * Aider l'équipe à rechercher l'excellence technique 
-* Pour éliminer les obstacles 
-* En facilitant les événements Scrum
+* Éliminer les obstacles 
+* Animer les événements Scrum
+** Mêlée quotienne
+** Revue de sprint
+** Rétrospective
 
 ## Jour 2 ##
 
