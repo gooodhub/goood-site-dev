@@ -20,7 +20,7 @@
 
 ## 20 semaines de cours et de travail réparties sur 6 mois avec un rythme identique chaque mois ##
 * semaine 1: un jour de formation hors site pour tout le groupe. Ateliers participatifs. 
-* semaine 2: auto-formation en ligne. Videos, lectures (articles et au moins un livre de la bibliographie pendant le parcours). Effort minimal équivalent à 1/2 journée de travail.
+* semaine 2: auto-formation en ligne. Videos, lectures (articles et au moins un livre de la bibliographie pendant le parcours). Effort minimal équivalent à 1/2 journée de travail.
 * semaine 3: atelier collaboratif facilité sur site
 * Questions - réponses sur les modules avec le formateur. Soumission de sujets de travail collaboratif par les participants. Élaboration d’expérimentations individuelles ou en petits groupes à mener sur le terrain et avec les équipes. Retour sur les expérimentations et les apprentissages. En option, complément d’explications théoriques déclenchées par les questions ou les expérimentations.
 Revue et progrès sur les livres lus.
