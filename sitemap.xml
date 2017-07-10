@@ -4,6 +4,7 @@
 <url> <loc>http://goood.pro/mentions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/static/annonce_goood/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/formations/entrepreneur-leader/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://goood.pro/formations/manager-as-a-service/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/formations/introduction-methodes-agile/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/formations/manager-agile/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/formations/product-owner/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
