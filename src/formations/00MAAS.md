@@ -2,7 +2,7 @@
 {
 	title: "Managers as a Service", 
 	slug: "manager-as-a-service", 
-	headline: Manager as a service",
+	headline: "Manager as a service",
 	description: "Parcours d'apprentissage : Ce n’est pas le changement qu’il faut manager, mais le management qu’il faut changer Le manager Agile, Jérôme Barrand, Ed. DunodF.", 
 	theme: agile,
 	heures: 700,
