@@ -1,20 +1,18 @@
 ---
 {
-	title: "L'entrepreneur leader", 
-	slug: "entrepreneur-leader", 
-	headline: "L'entrepreneur leader",
-	description: "Formation basée sur les travaux de Robert Dilts. Elle permettra de préciser votre vision et mission, de développer
-votre leadership en affinant votre posture de communication, de susciter l’adhésion des équipes et partenaires à votre projet et de transformer votre vision en plan d’actions.", 
+	title: "Managers as a Service", 
+	slug: "manager-as-a-service", 
+	headline: Manager as a service",
+	description: "Parcours d'apprentissage : Ce n’est pas le changement qu’il faut manager, mais le management qu’il faut changer Le manager Agile, Jérôme Barrand, Ed. DunodF.", 
 	theme: agile,
-	heures: 14,
+	heures: 700,
 	participants: 10,
-	prixInter: 1300,
-	prixIntra: 4500,
-	pourcentagePratique: 60,
-	lesPlus: ["Chaque participant repart avec une conviction renforcée, une expression de sa vision,mission, ambition et une stratégie
-de passage à l’action."],
+	prixInter: nous contacter,
+	prixIntra: nous contaxter,
+	pourcentagePratique: 75,
+	lesPlus: [""],
 	layout: sous-page.html, 
-	dates: [14 et 15 Septembre à Paris, 14 et 15 Septembre à Sophia Antipolis]
+	dates: [Nous contacter]
 }
 ---
 
