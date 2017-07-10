@@ -7,16 +7,15 @@
 	theme: agile,
 	heures: 700,
 	participants: 10,
-	prixInter: ,
+	prixInter: nous contacter,
 	prixIntra: nous contacter,
 	pourcentagePratique: 60,
-	lesPlus: ["Multiplier les encouragements à traduire le savoir en savoir-faire. Binômage, conférences, tutorat, coaching individuel et d’équipe, visites d’entreprises… 
-Groupes d’analyse de la pratique, ateliers de co-développement…
-"],
+	lesPlus: ["Multiplier les encouragements à traduire le savoir en savoir-faire. Binômage, conférences, tutorat, coaching individuel et d’équipe, visites d’entreprises. Groupes d’analyse de la pratique, ateliers de co-développement"],
 	layout: sous-page.html, 
 	dates: [Nous contacter]
 }
 ---
+
 # Structure du parcours : #
 
 ## 20 semaines de cours et de travail réparties sur 6 mois avec un rythme identique chaque mois ##
