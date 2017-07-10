@@ -3,8 +3,7 @@
 	title: "Parcours d'apprentrissage : Manager as a Service", 
 	slug: "Manager-as-a-service", 
 	headline: "Manager as a Service",
-	description: "Ce n’est pas le changement qu’il faut manager, mais le management qu’il faut changer Le manager Agile, Jérôme Barrand, Ed. Dunod"
-", 
+	description: "Ce n’est pas le changement qu’il faut manager, mais le management qu’il faut changer Le manager Agile, Jérôme Barrand, Ed. Dunod", 
 	theme: agile,
 	heures: 700,
 	participants: 10,
