@@ -1,18 +1,20 @@
 ---
 {
-	title: "Parcours d'apprentrissage : Manager as a Service", 
-	slug: "Manager-as-a-service", 
-	headline: "Manager as a Service",
-	description: "Ce n’est pas le changement qu’il faut manager, mais le management qu’il faut changer Le manager Agile, Jérôme Barrand, Ed. Dunod", 
+	title: "L'entrepreneur leader", 
+	slug: "entrepreneur-leader", 
+	headline: "L'entrepreneur leader",
+	description: "Formation basée sur les travaux de Robert Dilts. Elle permettra de préciser votre vision et mission, de développer
+votre leadership en affinant votre posture de communication, de susciter l’adhésion des équipes et partenaires à votre projet et de transformer votre vision en plan d’actions.", 
 	theme: agile,
-	heures: 700,
+	heures: 14,
 	participants: 10,
-	prixInter: nous contacter,
-	prixIntra: nous contacter,
+	prixInter: 1300,
+	prixIntra: 4500,
 	pourcentagePratique: 60,
-	lesPlus: ["Multiplier les encouragements à traduire le savoir en savoir-faire. Binômage, conférences, tutorat, coaching individuel et d’équipe, visites d’entreprises. Groupes d’analyse de la pratique, ateliers de co-développement"],
+	lesPlus: ["Chaque participant repart avec une conviction renforcée, une expression de sa vision,mission, ambition et une stratégie
+de passage à l’action."],
 	layout: sous-page.html, 
-	dates: [Nous contacter]
+	dates: [14 et 15 Septembre à Paris, 14 et 15 Septembre à Sophia Antipolis]
 }
 ---
 
