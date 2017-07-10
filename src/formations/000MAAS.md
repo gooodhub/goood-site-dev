@@ -34,57 +34,57 @@ Revue et progrès sur les livres lus.
 * 5) le parcours contextualisé ainsi défini se valide par la mise en route d’un premier pilote avant toute initiative à l’échelle
 
 
-## Exemple de modules ##
+# Exemple de modules #
 
-### 1 Fondamentaux Agile ###
+## 1 Fondamentaux Agile ##
 * Complexité
 * Agilité
 * Dualité
 
-### 2 Vagues Agile ###
+## 2 Vagues Agile ##
 * Equipes
 * Scaling
 * Organisation
 
-### 3 Value Management ###
+## 3 Value Management ##
 * Centré utilisateur
 * Entrée / Sortie
 * Vue économique
 * Boucle de feedback
 
-### 4 Culture Produit ###
+## 4 Culture Produit ##
 * Resilience
 * Lean Startup
 * Design Thinking
 
-### 5 Management Agile ###
+## 5 Management Agile ##
 * Auto-organisation
 * Leader
 * Organisation Apprenante
 * Constructivisme
 
-### 6 Leadership & Motivation ###
+## 6 Leadership & Motivation ##
 * PGJR
 * Servant Leader
 * Leader as a Host
 * Fixed/ Growth Mindset
 * Mastery Autonomy Purpose
 
-### 7 Outils Management Agile ###
+## 7 Outils Management Agile ##
 * Systémique
 * Management 3.0
 
-### 8 PLus d'Agilité ###
+## 8 PLus d'Agilité ##
 * Jurgen Appelo
 * Systémique
 * Révisions
 
-### 9 Transformation Agile ###
+## 9 Transformation Agile ##
 * Résistances ?
 * Modèles du Changement
 * Canevas pour co-construire
 
-## Public concerné ##
+# Public concerné #
 Ce parcours d'apprentissage s’adresse aux managers.
 
 
