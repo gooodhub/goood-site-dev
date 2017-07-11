@@ -15,6 +15,7 @@
 	dates: [2 et 3 Octobre à Paris, 2 et 3 Octobre à Sophia Antipolis, 2 et 3 Octobre à Lyon]
 }
 ---
+# Réussir et s'affirmer dans son rôle de Scrum Master
 
 ## Objectifs de la formation : ##
 * Comprendre le rôle du Scrum Master 
