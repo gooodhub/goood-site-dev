@@ -35,15 +35,15 @@ Cette démarche s'applique particulièrement aux contextes d'innovation entrepre
 
 ## Jour 1 et 2 ##
 
-### Introduction à la Théorie U ###
-### Apprendre du passé ###
-### Apprendre du contexte actuel ###
-### Approfondir les niveaux d’écoute et dialogue ###
+* Introduction à la Théorie U
+* Apprendre du passé
+* Apprendre du contexte actuel
+* Approfondir les niveaux d’écoute et dialogue
 
 ## Jour 3 ##
-### Co-créer, réagir à partir du futur émergent ###
-### Appropriation du processus par un retour sur chaque étape du changement ###
-### Les applications ###
+* Co-créer, réagir à partir du futur émergent
+* Appropriation du processus par un retour sur chaque étape du changement
+*Les applications
 
 ## Public concerné ##
 
