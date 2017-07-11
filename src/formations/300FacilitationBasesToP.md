@@ -1,6 +1,6 @@
 ---
 {
-	title: "Techniques et méthodes de facilitation de groupe",
+	title: "Techniques et méthodes de facilitation de groupe - ToP",
 	slug: techniques-et-methodes-de-facilitation-de-groupe, 
 	headline: "Facilitation de groupe",
 	description: Etre capable de faciliter l'intelligence collective d'un groupe,
