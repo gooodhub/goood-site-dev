@@ -8,7 +8,7 @@
 	heures: 700,
 	participants: 10,
 	prixInter: nous contacter,
-	prixIntra: nous contaxter,
+	prixIntra: nous contacter,
 	pourcentagePratique: 75,
 	lesPlus: [""],
 	layout: sous-page.html, 
