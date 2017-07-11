@@ -1,7 +1,7 @@
 ---
 {
 	title: "Introduction aux Méthodes agiles", 
-	slug: "introduction-methodes-agile", 
+	slug: "introduction-methodes-agiles", 
 	headline: "Méthodes agiles",
 	description: "Appréhender les principales méthodes agiles", 
 	theme: agile,
@@ -22,7 +22,7 @@
 }
 ---
 
-# Formation Introduction aux méthodes agiles: Comprendre la démarche
+# Formation - Introduction aux méthodes agiles: Comprendre la démarche #
 
 ## Objectifs de la formation : ##
 

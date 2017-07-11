@@ -16,7 +16,7 @@
 }
 ---
 
-# 
+# Formation - Devenir Product Owner #
 
 ## Objectifs de la formation : ##
 * Comprendre le rôle du Product Owner

@@ -1,8 +1,8 @@
 ---
 {
-	title: "Mise en place des tests fonctionnels avec TFS et Microsoft Test Manager", 
-	slug: "Agile", 
-	headline: "Mise en place des tests fonctionnels",
+	title: "Formation Mise en place des tests fonctionnels avec TFS et Microsoft Test Manager", 
+	slug: "tests-fonctionnels", 
+	headline: "Tests fonctionnels",
 	description: "Comprendre le rôle du testeur dans la suite ALM de Microsoft et avoir le recule nécessaire sur la solution afin de l’adapter au mieux au context de chaque entreprise", 
 	theme: agile,
 	heures: 14,
@@ -15,8 +15,7 @@
 	dates: [2 et 3 Octobre à Paris, 2 et 3 Octobre à Sophia Antipolis]
 }
 ---
-
-# 
+# Formation - Mise en place des tests fonctionnels avec TFS et Microsoft Test Manager #
 
 ## Objectifs de la formation : ##
 * Avoir une vision globale de l’offre ALM de Microsoft
