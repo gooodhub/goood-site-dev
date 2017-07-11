@@ -3,10 +3,6 @@
 <url> <loc>http://goood.pro/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/mentions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/static/annonce_goood/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://goood.pro/tools/kit-de-facilitation/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://goood.pro/tools/salle-sud-demi-journee/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://goood.pro/tools/salle-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://goood.pro/tools/sticky-wall/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/formations/entrepreneur-leader/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/formations/manager-agile/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://goood.pro/formations/manager-as-a-service/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -31,4 +27,8 @@
 <url> <loc>http://goood.pro/recrutement/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>http://goood.pro/references/</loc> <changefreq>weekly</changefreq> <priority>0.9</priority> </url>
 <url> <loc>http://goood.pro/toolkit/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>http://goood.pro/tools/kit-de-facilitation/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://goood.pro/tools/salle-sud-demi-journee/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://goood.pro/tools/salle-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://goood.pro/tools/sticky-wall/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
