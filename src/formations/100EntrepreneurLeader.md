@@ -14,7 +14,7 @@ votre leadership en affinant votre posture de communication, de susciter l’adh
 	lesPlus: ["Chaque participant repart avec une conviction renforcée, une expression de sa vision,mission, ambition et une stratégie
 de passage à l’action."],
 	layout: sous-page.html, 
-	dates: [14 et 15 Septembre à Paris, 14 et 15 Septembre à Sophia Antipolis]
+	dates: [14 et 15 Septembre 2017 à Paris, 14 et 15 Septembre 2017 à Sophia Antipolis]
 }
 ---
 
