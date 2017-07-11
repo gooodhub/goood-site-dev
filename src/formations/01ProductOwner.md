@@ -7,7 +7,7 @@
 	theme: agile,
 	heures: 14,
 	participants: 10,
-	prixInter: 1100,
+	prixInter: 1500,
 	prixIntra: 4000,
 	pourcentagePratique: 50,
 	lesPlus: [],
