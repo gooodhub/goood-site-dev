@@ -23,8 +23,6 @@
 * Acquérir les outils pour être opérationnel en tant que
 * Piloter son produit selon une démarche agile
 
-Product Owner
-
 # Programme #
 
 ## Jour 1 ##
