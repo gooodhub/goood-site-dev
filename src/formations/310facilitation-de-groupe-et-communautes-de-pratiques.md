@@ -16,7 +16,7 @@ expérimenter le codéveloppement professionnel de groupe",
 	layout: sous-page.html, 
 	dates: [21 et 22 août 2017 et 11 septembre 2017 à Paris,
 	16 et 17 octobre 2017 et 6 novembre 2017 à Paris,
-	23 - 24 octobre 2017 et 7 novembre 2017 à Paris,
+	23 - 24 octobre 2017 et 13 novembre 2017 à Paris,
 	20 et 21 novembre 2017 et 14 décembre 2017 à Paris]
   
 }
