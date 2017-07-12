@@ -18,6 +18,7 @@
 
   .btn {
     margin-right: auto;
+    
    
   }
 
@@ -68,6 +69,8 @@
         position:relative;
 
   }
+
+
   &__price {
     float:left;
     
@@ -103,9 +106,18 @@
       margin-top: 5px;
     }
     h2{margin-bottom: 5px;}
+
     .btn{ background-color: white;
       border-color:white;
-      margin-top:40px;}
+      margin-top:40px;
+      }
+      
+      .btnlink{
+        color:$primaryColor;
+        font-size: 1.625rem;
+         height: 3.5rem;
+         width:0%;
+      }
     p:before{ margin-bottom:0px
 
     }
@@ -123,6 +135,7 @@
       ul{ list-style:none;padding:0px;
     margin:1rem 0px;}
     }
+    
     }    
 &__content_fullsize
 {
