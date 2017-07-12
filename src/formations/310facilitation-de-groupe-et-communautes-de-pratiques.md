@@ -7,7 +7,7 @@
 expérimenter le codéveloppement professionnel de groupe",
 	theme: agile,
 	heures: 21,
-	participants: 20,
+	participants: 15,
 	prixInter: 1800,
 	prixIntra: 8000,
 	pourcentagePratique: 70,
@@ -22,9 +22,11 @@ expérimenter le codéveloppement professionnel de groupe",
 }
 ---
 
-## Formation à la facilitation de groupe et de communautés de pratiques ##
+# Formation à la facilitation de groupe et de communautés de pratiques
 
-Rendre nos organisations agiles ? Oui mais comment ? En facilitant les échanges et les discussions, en mobilisant l'intelligence collective par la facilitation d'atelier ou la facilitation de séminaire. Pour vous, facilitateurs en devenir qui voulez faire de vos ateliers des moments mémorables. Pour vous animateurs de communautés de pratiques, grâce à qui l'agilisation se diffuse dans l'organisation comme par magie, vous qui voulez que vos communautés soient vivantes et participatives. Nous vous proposons cette formation à la facilitation où chaque participant vivra l'expérience du participant à l'atelier et celle du facilitateur. Chaque participant aura l’opportunité de faciliter un temps de l’atelier (ouverture, jeux sérieux, clôture, autre).
+Rendre nos organisations agiles ? Oui mais comment ? En facilitant les échanges et les discussions, en mobilisant l'intelligence collective par la facilitation d'atelier ou la facilitation de séminaire. Pour vous, facilitateurs en devenir qui voulez faire de vos ateliers des moments mémorables. Pour vous animateurs de communautés de pratiques, grâce à qui l'agilisation se diffuse dans l'organisation comme par magie, vous qui voulez que vos communautés soient vivantes et participatives.
+
+Nous vous proposons cette formation à la facilitation où chaque participant vivra l'expérience du participant à l'atelier et celle du facilitateur. Chaque participant aura l’opportunité de faciliter un temps de l’atelier (ouverture, jeux sérieux, clôture, autre).
 Nous vous invitons par cette formation à développer vos talents de facilitateurs pour plus de joie et de résultats dans vos réunions et ateliers.
 
 ## Rythme : 3 jours (2 jours + 1 jour) ##
@@ -34,6 +36,28 @@ Nous vous invitons par cette formation à développer vos talents de facilitateu
 * Comprendre et acquérir la posture de facilitateur
 * Acquérir et pratiquer des outils d’intelligence collective
 * Comprendre les mécanismes de création, d’animation et de vie d’une communauté de pratique
+
+# Programme #
+
+## JOUR 1 ##
+### FACILITATION ###
+* Expérimentation par le vécu d’outils d’intelligence collective 
+* Changement de posture : pourquoi ? comment ?
+* Les outils et savoir-faire du facilitateur 
+
+## JOUR 2 ##
+### EXPERIMENTATION SUR LE THEME DES COMMUNAUTÉS DE PRATIQUES ###
+* Mise en pratique des outils utilisés la veille sur le thème des communautés de pratiques
+* Clôture de la journée et exercices pour la prochaine journée 
+
+## JOUR 3 ##
+### EBRIEFS DE MES EXPERIMENTATIONS ###
+* Ateliers de co-développement sur les expérimentations menées depuis la dernière journée 
+
+
+## Méthodologie ##
+Au travers des ateliers et des debriefs, vous allez explorer et adopter la posture de facilitateur, échanger vos expériences et expérimenter les techniques et méthodes pour faire fructifier l’intelligence collective des groupes. Vous apprendrez à construire et à faciliter un atelier. Nous vous inviterons aussi à réfléchir aux meilleures pratiques connues aujourd’hui pour créer et animer une communauté de pratique. Ce sera l’occasion d’expérimenter le codéveloppement professionnel de groupe, une technique redoutable pour partager des pratiques et capitaliser. Ca peut être utile pour une communauté de pratique, n’est-ce pas ?
+
 
 ## Public concerné ##
 * Facilitateur en herbe
@@ -45,10 +69,6 @@ Nous vous invitons par cette formation à développer vos talents de facilitateu
 * Chef d'équipe
 * Toute personne intéressée par la facilitation de groupe
 
-## Méthodologie ##
-Au travers des ateliers et des debriefs, vous allez explorer et adopter la posture de facilitateur, échanger vos expériences et expérimenter les techniques et méthodes pour faire fructifier l’intelligence collective des groupes. Vous apprendrez à construire et à faciliter un atelier. Nous vous inviterons aussi à réfléchir aux meilleures pratiques connues aujourd’hui pour créer et animer une communauté de pratique. Ce sera l’occasion d’expérimenter le codéveloppement professionnel de groupe, une technique redoutable pour partager des pratiques et capitaliser. Ca peut être utile pour une communauté de pratique, n’est-ce pas ?
-
-Le nombre de participants est limité à 20 personnes.
 
 ## Verbatim de facilitateurs en herbe suite à la formation ##
 Rémi " Super formation pour appréhender les fondamentaux de la facilitation et pouvoir les appliquer au bureau ou à la maison"
