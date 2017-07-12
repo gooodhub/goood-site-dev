@@ -51,7 +51,7 @@ Nous vous invitons par cette formation à développer vos talents de facilitateu
 * Clôture de la journée et exercices pour la prochaine journée 
 
 ## JOUR 3 ##
-### EBRIEFS DE MES EXPERIMENTATIONS ###
+### DEBRIEFS DE MES EXPERIMENTATIONS ###
 * Ateliers de co-développement sur les expérimentations menées depuis la dernière journée 
 
 
