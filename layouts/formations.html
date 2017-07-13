@@ -1,9 +1,97 @@
 {{#> layout }}
 {{#*inline "content"}}
-<div class="slide" id="events">
+<div class="slide" id="formations">
     {{> slide-header title=headline }}
     <div class="slide__content">
-        <div class="row">
+       <section class="conviction">
+            <div class="row">
+              <div class="conviction__content">
+                <header>
+                  <p>
+                    Nos convictions
+                  </p>
+                  <h1>
+                    Vous donner les moyens de faire mieux
+                  </h1>
+                </header>
+                <p>
+                 Nous vous délivrons des formations pour vous transmettre ce que l'on a appri en faisant avec nos clients. Si une formation est présente
+                 dans notre catalogue, c'est que nous pensons que vous ne la trouverez pas ailleurs et qu'elle vous fournira des leviers pour vous rendre
+                 plus efficace. 
+                </p>
+                
+              </div>
+              <div class="conviction__chiffres"> 
+                    <div class="nombre">850</div>
+                    <div class="">personnes formées depuis 2013</div>
+                    <div class="nombre">96%</div>
+                    <div class="">des participants très satisfaits</div>
+               </div>
+                <!--<a id="video-dth" href="#inline" data-toggle="modal" data-target="#modal-video-dth" class="mission__video">
+
+                </a>
+                <div class="modal fade" id="modal-video-dth" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body" id="modal-body-video-dth">
+                                <iframe width="853" height="480"  src="https://www.youtube.com/embed/BI7K9lWhMgc?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+          </section><!-- mission -->
+ <section class="formation">
+     <header class="formation__header">              
+        <h1>
+            Decouvrez nos formations
+        </h1>
+      </header>
+        <div class="formation__content">
+            <div>
+                <p>Et si vous souhaitez obtenir davantage d'informations<br>
+                <b>contactez Celia via: <a href="mailto:formations@goood.pro">formations@goood.pro</a></b></p>
+            </div>
+            <div >
+                <div class="affiliation"><p>N° affiliation
+                    <button class="btn btn-default" >11 75 54328 75</button></p> 
+                </div>
+            </div>
+        </div>
+        
+ </section><!-- formation -->
+ <section class="formation_liste">
+           <div class="row">
+                 {{#each formation_themes}}
+                 <div class="bloc_theme">
+                
+                    <div class="header">
+                            {{name}}
+                    </div>
+                    <div class="detail">
+                    <ul>
+                        {{#each this.formationslist}}
+                            
+                            <li><a href="#">{{formationname}} <i class="fa fa-long-arrow-right" aria-hidden="true" style="margin-left: 20px;"></i></a> </li>
+                            
+                    {{/each}}
+                    </ul>
+                    </div>
+                 </div>
+                 {{/each}}
+
+                 <div class="bloc_catalogue">
+                   <a href="http://www.goood.pro/files/catalogue-formations-goood.pdf"  >
+                   <img src="../images/catalogue_vignette.png" />
+                   <i class="fa fa-download fa-2x" aria-hidden="true" style="display:block; margin:8px 0px"></i>
+                    Téléchargez notre catalogue
+                   </a>    
+                    
+                    
+                 </div>
+           </div>
+</section><!-- formation_liste -->
             <section class="intro">
                 <p>Une autre forme de partage, c’est la formation. Beaucoup de sessions sont organisées pour un client et privées mais il y a aussi quelques dates ouvertes à tous.</p>
                 <h1>Prochaines Formations inter-entreprises ouvertes</h1>
@@ -25,7 +113,7 @@
                 </div>
                 {{/each}}
             </section>
-        </div>
+        
     </div>
     {{> slide-nav-buttons
           prevTitle = 'Agenda'
