@@ -12,7 +12,7 @@
 	pourcentagePratique: 50,
 	lesPlus: [],
 	layout: sous-page.html, 
-	dates: [2 et 3 Octobre 2017 à Paris, 2 et 3 Octobre 2017 à Sophia Antipolis, 2 et 3 Octobre 2017 à Lyon]
+	dates: [5 et 10 Octobre 2017 à Paris, 5 et 10 Octobre 2017 à Sophia Antipolis, 5 et 10 Octobre 2017 à Lyon]
 }
 ---
 # Réussir et s'affirmer dans son rôle de Scrum Master
