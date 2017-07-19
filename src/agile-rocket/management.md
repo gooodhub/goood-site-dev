@@ -10,11 +10,14 @@ Comment peut-on accompagner le management à se transformer ?" ,
   priority: 1,
   question: "Comment le management peut-il soutenir le voyage de transformation agile en environnement complexe ?\r\n
 Comment peut-on accompagner le management à se transformer ?" ,
+  but: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit auctor bibendum. Etiam quis magna vel ipsum vulputate mattis. Mauris quis facilisis arcu. Proin viverra sollicitudin neque eu ornare. Nam ut pellentesque mauris. Fusce mattis nunc sit amet diam sodales condimentum. Maecenas arcu orci, sagittis ac lectus quis, molestie ultrices lorem. Suspendisse dapibus mauris eu elit finibus, nec vulputate quam tristique. Fusce id sem sed orci placerat pretium quis vitae elit.",
   story : "",
   subject : "",
   image: "manage.jpg",
   nextTitle: "Maîtrise Personnelle",
-  nextPath: ../maitrise/,
+  nextPath: "../maitrise/",
+  prevTitle: "Fluidifier",
+  prevPath: "../fluidifier/",
 }
 ---
 Aider le manager à devinir un stabilisateur :

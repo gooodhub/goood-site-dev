@@ -8,11 +8,14 @@
   id: agile-rocket-ameliorer,
   priority: 1,
   question: "Comment savoir que l’on se concentre sur les problèmes qui nous impactent le plus ? Quelle démarche utiliser pour alléger ou résoudre les problèmes ?",
+  but: "L’objectif de ce module est d’aider l’équipe à construire une démarche d’amélioration continue structurée, en élargissant la portée d’un management visuel existant.",
   story : "",
   subject : "",
   image: "improve.jpg",
-  nextTitle: "Fluidifier",
-  nextPath: "../fluidifier/"
+  nextTitle: "Coopérer",
+  nextPath: "../cooperer/",
+  prevTitle: "Fluidifier",
+  prevPath: "../fluidifier/",
 }
 ---
 Dans ce module, nous travaillons avec l'équipe à :

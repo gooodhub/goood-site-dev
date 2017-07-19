@@ -7,12 +7,16 @@
   layout: agile-rocket-module.html,
   id: agile-rocket-cooperer,
   priority: 1,
-  question: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?" ,
+  question: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?",
+  but: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit auctor bibendum. Etiam quis magna vel ipsum vulputate mattis. Mauris quis facilisis arcu. Proin viverra sollicitudin neque eu ornare. Nam ut pellentesque mauris. Fusce mattis nunc sit amet diam sodales condimentum. Maecenas arcu orci, sagittis ac lectus quis, molestie ultrices lorem. Suspendisse dapibus mauris eu elit finibus, nec vulputate quam tristique. Fusce id sem sed orci placerat pretium quis vitae elit.",
   story : "",
   subject : "",
   image: "collaborate.jpg",
   nextTitle: "Améliorer",
-  nextPath: "../ameliorer/"
+  nextPath: "../ameliorer/",
+  prevTitle: "North Star",
+  prevPath: "../north-star/",
+
 }
 ---
 Dans ce module, nous travaillons avec l'équipe à :
