@@ -92,10 +92,51 @@
                  </div>
            </div>
 </section><!-- formation_liste -->
+<section class="formation">
+    <header class="formation__header">
+    <h1>
+        Découvrez nos formateurs
+    </h1>
+    
+    </header>
+    <div class="formation__content">
+        <div>
+            <p>Toutes nos formations sont animées par des gooodiens qui vous transmettent leur passion, leur énergie, leurs expériences terrain.<br/><br/>
+            Chacun a ses domaines de compétence  de prédilection, mais tous sont animés par la même envie de transmettre et de vous donner les clés pour vous aider à avancer.
+            </p>
+        </div>
+    </div>
+</section><!-- formation -->
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js' ></script>
+ <script src='/js/jquery.bxslider.min.js'></script>
+ <link rel="stylesheet" href="/css/jquery.bxslider.css">
+<section class="formateurs">
+    <div class="row">
+    <div class="slider1">
+       {{#each portraits}}
+       {{#if formateur}}
+         <div class="slidee"><img src="{{image}}"  height="350px" alt="{{name}}"></div>
+         {{/if}}
+       {{/each}}
+    </div>
+    </div>
+   
+    <script type="text/javascript">
+$(document).ready(function(){
+  $('.slider1').bxSlider({
+    slideWidth: 280,
+    minSlides: 1,
+    maxSlides: 3,
+	moveSlides: 1,
+    slideMargin: 10
+  });
+});
+</script>
+</section><!-- formateur -->
 <section class="next_session">
            <div class="row">
                <div class="header">
-                 <h1>  Prochaines Sessions</h1>
+                 <h1> Nos prochaines sessions</h1>
                </div>
            </div>
            <div class="row">
@@ -173,7 +214,8 @@
            </div>
         </section><!-- NextSession -->
             
-    
+   
+
     </div>
     {{> slide-nav-buttons
           prevTitle = 'Agenda'

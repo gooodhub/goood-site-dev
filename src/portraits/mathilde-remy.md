@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/wandanet
 linkedin: https://fr.linkedin.com/in/mathilderemy
 blog: 
+formateur: 1
 ---
 
 Mathilde a découvert la co-construction et la culture produit dans les jeux vidéo, 

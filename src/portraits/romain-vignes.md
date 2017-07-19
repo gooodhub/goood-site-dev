@@ -10,6 +10,7 @@ facebook:
 twitter: http://twitter.com/rvignes
 linkedin: https://fr.linkedin.com/in/rvignes
 blog: http://romain.vignes.me/
+formateur: 1
 ---
 Romain aide les organisations à se transformer, pour redonner la banane aux clients et la pêche aux collaborateurs. 
 

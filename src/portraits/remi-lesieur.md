@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/remi_lesieur
 linkedin: https://www.linkedin.com/in/remilesieur
 blog: 
+formateur: 1
 ---
 
 

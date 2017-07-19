@@ -10,6 +10,7 @@ facebook: https://www.facebook.com/mrabeman
 twitter: https://twitter.com/mrabeman
 linkedin: https://www.linkedin.com/in/mrabeman/
 blog: http://mijarabemananjara.me/
+formateur: 1
 ---
 Elle agite, elle agilise, elle échange avec vous pour apprendre et toujours apprendre. Un processus sans fin tellement nourrissant. Besoin d'énergiser une équipe, de définir des objectifs pour l'équipe, de créer du lien, des résultats dans la bonne humeur. Faites appel à notre G.O.O. gentil organisatrice en organisation qui mettra en oeuvre sa créativité et tout son dynamisme pour agiliser ce qu'il faut agiliser.
 

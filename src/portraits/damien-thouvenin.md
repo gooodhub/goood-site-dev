@@ -10,6 +10,7 @@ facebook:
 twitter: http://twitter.com/ThisIsMeDamien
 linkedin: https://fr.linkedin.com/in/dthouvenin/fr
 blog: http://blogdepatron.fr/
+formateur: 1
 ---
 
 Damien est « Tête chercheuse » chez Goood! Il explore constamment de nouveaux territoires, avec nos clients, dans plein de communautés ou le nez dans les bouquins, qu’il adore offrir. Il est également l’un des porte-parole de l’entreprise. Enfin, Damien est membre de l’équipe d’organisation d’AgileFrance depuis 2013.
