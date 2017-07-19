@@ -154,3 +154,139 @@
 
     }
 }
+
+.next_session
+{
+    margin: auto;
+    font-size: 1.3rem;
+    font-weight: 600;
+    @extend %contentPadding;
+
+    p{
+        line-height: 1.5rem;
+        font-size: 1.3rem;
+        margin-top:5px;
+        margin-bottom:0px;        
+    }
+    .tiret{
+        color:white;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        line-height: 1px; 
+    }
+    .header
+    {
+        width: 100%;
+        text-align: center;
+        margin:1rem 0  1rem 0 ;
+       h1{ display:inline-block;
+       ; color:$primaryColor;
+       }
+    }
+    .date{
+        font-weight: 800;
+        font-size: 1.3rem;
+        margin-bottom:10px;
+        
+    }
+    .titre_formation
+    {
+        font-weight: 400;
+        margin-top:0.1rem;
+        margin-bottom:1.5rem;
+    }
+
+    ul {
+        list-style: none;
+        padding-left:0px
+
+    } 
+    li{
+       
+        margin-left:0px;
+    }
+    
+ 
+ a{
+    color:white; 
+ }
+ h1{
+    color:white;
+    margin-top:0.5rem;
+ }
+ .paris
+ {
+      @extend %contentPadding;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: $secondaryColor;
+
+    @media #{$medium-up} {
+                width: 50%;
+                 }
+
+ }
+ .nice
+ {
+     @extend %contentPadding;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: $primaryColor;
+
+    @media #{$medium-up} {
+                width: 50%;
+                 }
+
+ }
+ .incription
+ {
+     z-index:1;
+     margin-top: -25px;
+     .btn
+     {
+         @extend %contentPadding;
+         background: $primaryColor;
+         color:white;
+         border-color: white;
+         font-size: 1.3rem;
+     }
+ }
+ .incriptionform
+ {
+     color: white;
+     padding:3rem;
+     background: $secondaryColor;
+     
+     width: 100%;
+     margin-top:3rem;
+     
+     p
+     {
+         margin: 10px 0px 10px 0px;
+     }
+    
+     select,input[type=select],input[type=Text]{
+        height: 3rem;
+        padding: 6px 12px;
+        line-height: 1.6 rem;
+        display: block;
+        color: $secondaryColor;
+        border-radius: 4px;       
+        margin-top:0.25rem;
+        margin-bottom:1.25rem;
+            border: 1px solid #ccc;
+     }
+     
+     .btn
+     {
+         margin-top:1.5rem;
+         background: white;
+         color: $secondaryColor;
+         border-color: white;
+     }
+ }
+
+}
