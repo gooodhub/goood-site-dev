@@ -1,14 +1,44 @@
 {{#> layout }}
   {{#*inline "content"}}
-  <div class="slide" id="agile-rocket">
-    {{> slide-header title=headline }}
+    <div class="slide" id="agile-rocket">
+      {{> slide-header title=headline }}
+      <div class="slide__content">
+        <section class="rocketmodule__question">
+          <div class="row">
+            <div class="rocketmodule__question__content">
+                <header>
+                    <p>Question(s)</p>
+                </header>
+                <p>{{{ question }}}</p>
+            </div>
+          </div>
+        </section>
+        <section class="rocketmodule__histoire-but" style="background-image: url('/images/agile-rocket/{{ image }}'); display: block; ">
+          <div class="row">
+            <div class="rocketmodule__histoire-but__content" >
+              <!-- <img src="/images/agile-rocket/{{ image }}" alt="Agile Rocket"> -->
+              <header>
+                  <p>Histoire</p>
+              </header>
 
-    <div class="row">
-      <div class="toolitem__content">
-          {{{ contents }}}
-      </div><!--End toolitem__content -->
+              <p>{{{ contents }}}</p>
+            </div>
+            <div class="rocketmodule__histoire-but__content">
+              <header>
+                  <p>But</p>
+              </header>
+              <p>{{ but }}</p>
+            </div>
+          </div>
+        </section>
+        {{> slide-nav-buttons
+          prevTitle = prevTitle
+          prevPath = prevPath
+          nextTitle = nextTitle
+          nextPath = nextPath
+        }}
+        {{> footer }}
+      </div>
     </div>
-    {{> footer }}
-  </div>
-  {{/inline}} 
+  {{/inline}}
 {{/layout}}

@@ -1,12 +1,12 @@
 #agile-rocket-module .slide
-{  
-  background-position: center center;  
+{
+  background-position: center center;
 }
 #agile-rocket-module .slide__header
 {
   height: 50vh;
 }
- 
+
 
 .module {
   @extend %sectionPadding;
@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 
     img {
       width: 100%;
@@ -51,5 +51,92 @@
 
   .orangeText{
     color:$primaryColor;
+  }
+}
+
+.rocketmodule__question {
+  // @extend %sectionPadding;
+
+  background: $primaryColor;
+  position: relative;
+  z-index: 1;
+
+  &__content {
+    @extend %contentPadding;
+    padding-top: 50px;
+    padding-bottom: 0;
+    flex: 1;
+
+    p {
+      color: white;
+    }
+
+    header p {
+      &:after {
+        background: white;
+      }
+    }
+
+    @media #{$medium-up} {
+      align-self: left;
+    }
+  }
+}
+
+.rocketmodule__histoire-but {
+  background: white;
+  position: relative;
+  z-index: 1;
+
+  // background-image: url('../images/agile-rocket/rocket.jpg');
+  // background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: contain;
+
+
+  @media #{$medium-up} {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    max-width: 50%;
+  }
+
+  @media #{$large-up} {
+    background-position: top right;
+  }
+
+  @media #{$small-only} {
+    // &:after {
+    //   content: '';
+    //   display: block;
+    //   height: 565px;
+    //   background-size: cover;
+    // }
+    padding-top: 100px;
+
+  }
+
+  &__content {
+    @extend %contentPadding;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex: 1;
+
+    p {
+      color: $secondaryColor;
+    }
+
+    header p {
+      &:after {
+        background: $secondaryColor;
+      }
+    }
+
+    // @media #{$medium-up} {
+    //   padding-left: 30px;
+    //   padding-bottom: 30px;
+    //   max-width: 50%;
+    // }
   }
 }
