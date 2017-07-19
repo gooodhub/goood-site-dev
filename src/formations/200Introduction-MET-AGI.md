@@ -71,7 +71,7 @@
 
 ## Jour 3 ##
 
-### kanban ###
+### Kanban ###
 
 * Mise en oeuvre de Kanban
 * Visualiser le flux
