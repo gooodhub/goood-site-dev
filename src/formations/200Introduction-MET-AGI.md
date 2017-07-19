@@ -71,7 +71,7 @@
 
 ## Jour 3 ##
 
-### Scrum ###
+### kanban ###
 
 * Mise en oeuvre de Kanban
 * Visualiser le flux
