@@ -1,62 +1,4 @@
-#agile-rocket-module .slide
-{
-  background-position: center center;
-}
-#agile-rocket-module .slide__header
-{
-  height: 50vh;
-}
-
-
-.module {
-  @extend %sectionPadding;
-  @media #{$small-only} { padding-bottom: 0; }
-
-
-  .btn {
-    margin-right: auto;
-  }
-
-  &__content {
-    @extend %contentPadding;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-
-    @media #{$medium-up} {
-      align-self: center;
-    }
-  }
-
-  &__img {
-    @extend %shadow;
-
-    background-color: rgba(black, .2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-    img {
-      width: 100%;
-    }
-
-    @media #{$medium-up} {
-      order: -1;
-      flex-basis: 45%;
-      max-width: 45%;
-      align-self: center;
-    }
-  }
-
-  .orangeText{
-    color:$primaryColor;
-  }
-}
-
 .rocketmodule__question {
-  // @extend %sectionPadding;
-
   background: $primaryColor;
   position: relative;
   z-index: 1;
@@ -65,7 +7,6 @@
     @extend %contentPadding;
     padding-top: 50px;
     padding-bottom: 0;
-    flex: 1;
 
     p {
       color: white;
@@ -87,34 +28,21 @@
   background: white;
   position: relative;
   z-index: 1;
-
-  // background-image: url('../images/agile-rocket/rocket.jpg');
-  // background-size: cover;
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-color: white;
-  background-size: contain;
-
+  display: flex;
 
   @media #{$medium-up} {
     padding-left: 30px;
     padding-bottom: 30px;
-    max-width: 50%;
+    max-width: 100%;
   }
 
   @media #{$large-up} {
     background-position: top right;
   }
 
-  @media #{$small-only} {
-    // &:after {
-    //   content: '';
-    //   display: block;
-    //   height: 565px;
-    //   background-size: cover;
-    // }
-    padding-top: 100px;
-
+  .row {
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   &__content {
@@ -127,16 +55,34 @@
       color: $secondaryColor;
     }
 
+    p, ul, li {
+       line-height: em(36);
+       font-size: em(24);
+       margin: 0;
+    }
+    p, ul{
+      margin-top: 0.7em;
+    }
+
     header p {
       &:after {
         background: $secondaryColor;
       }
     }
 
-    // @media #{$medium-up} {
-    //   padding-left: 30px;
-    //   padding-bottom: 30px;
-    //   max-width: 50%;
-    // }
+    &__img {
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      img {
+        width: 85%;
+      }
+    }
+
+    @media #{$medium-up} {
+      padding-left: 30px;
+      padding-bottom: 30px;
+      max-width: 100%;
+    }
   }
 }
