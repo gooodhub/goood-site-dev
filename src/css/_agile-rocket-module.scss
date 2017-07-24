@@ -75,7 +75,15 @@
       justify-content: center;
       flex: 1;
       img {
-        width: 85%;
+        width: 50%;
+      }
+    }
+     &__scribing {
+      align-items: left;
+      justify-content: left;
+      flex: 1;
+      img {
+        width: 100%;
       }
     }
 

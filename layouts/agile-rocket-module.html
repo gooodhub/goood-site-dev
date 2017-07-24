@@ -18,20 +18,30 @@
             <div class="rocketmodule__histoire-but__content__img" >
               <img src="/images/agile-rocket/{{ image }}" alt="Agile Rocket" />
             </div>
-            <div class="rocketmodule__histoire-but__content" >
+                       </div>
+             <div class="row">
+             <div class="rocketmodule__histoire-but__content__scribing">
+             <img src="/images/agile-rocket/2-Cooperer.jpeg" alt="Agile Rocket" />
+             </div>
+          </div>
+        </section>
+        <section class="rocketmodule__histoire-but">
+            <div class="rocketmodule__histoire-but__content" style="background-color:#9be4d1;" > 
               <header>
-                  <p>Histoire</p>
+                  <p>{{{ story }}}</p>
               </header>
 
               <p>{{{ contents }}}</p>
             </div>
+        </section>
+           <section class="rocketmodule__histoire-but">
+            
             <div class="rocketmodule__histoire-but__content">
               <header>
                   <p>But</p>
               </header>
-              <p>{{ but }}</p>
+              <p>{{{ but }}}</p>
             </div>
-          </div>
         </section>
         {{> slide-nav-buttons
           prevTitle = prevTitle
