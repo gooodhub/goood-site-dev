@@ -15,7 +15,6 @@
 <li> Mettre en place les piliers de Scrum : transparence (visibilité) - inspection - adaptation - itération.</li>
 <li> Gérer le travail pour agir collectivement : évoluer de comment être occupé à 100% sur le projet vers comment contribuer au collectif pour l’aider à réussir son challenge.</li>
 </ul>",
-  story : "Une équipe sous l’eau douce",
   subject : "",
   image: "collaborate.jpg",
   nextTitle: "Améliorer",
@@ -25,6 +24,8 @@
 
 }
 ---
+*Une équipe sous l’eau douce*
+
 L’équipe de Cathy travaille à la réalisation de la v2 d’un produit qui permet la surveillance de l’orignal en milieu d’eau douce.
 Son équipe est en charge de la réalisation des nouvelles fonctionnalités, mais aussi de la maintenance de la v1.
 
