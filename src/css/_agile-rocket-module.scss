@@ -1,3 +1,8 @@
+#agile-rocket-module .slide__header
+{
+  height: 50vh;
+}
+
 .rocketmodule__question {
   background: $primaryColor;
   position: relative;
@@ -83,7 +88,7 @@
       justify-content: left;
       flex: 1;
       img {
-        width: 70%;
+        width: 100%;
       }
     }
 

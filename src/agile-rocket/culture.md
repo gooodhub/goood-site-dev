@@ -2,7 +2,7 @@
 {
   title: Culture Agile,
   slug: "culture",
-  headline: Agile Rocket > Culture,
+  headline: Culture,
   description: "Que changer ? Par où commencer ? Est-il suffisant d’adopter un jeu de bonnes pratiques ?",
   layout: agile-rocket-module.html,
   id: agile-rocket-culture,

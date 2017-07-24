@@ -2,7 +2,7 @@
 {
   title: "Excellence (de l'ingénierie)" ,
   slug: "excellence",
-  headline: "Agile Rocket > Excellence",
+  headline: "Excellence",
   description: "Comment s’assurer que l’on livre fréquemment en production un produit de qualité qui répond au besoin de l’utilisateur ?",
   layout: agile-rocket-module.html,
   id: agile-rocket-excellence,

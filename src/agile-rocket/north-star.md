@@ -2,7 +2,7 @@
 {
   title: "Excellence (de l'ingénierie)",
   slug: north-star,
-  headline: "Agile Rocket > North Star",
+  headline: "North Star",
   description: "Comment s’assurer que l’on livre fréquemment en production un produit de qualité qui répond au besoin de l’utilisateur ?",
   layout: agile-rocket-module.html,
   id: agile-rocket-north-star,

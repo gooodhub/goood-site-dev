@@ -2,7 +2,7 @@
 {
   title: Améliorer,
   slug: "ameliorer",
-  headline: Agile Rocket > Améliorer,
+  headline: Améliorer,
   description: "Comment savoir que l’on se concentre sur les problèmes qui nous impactent le plus ? Quelle démarche utiliser pour alléger ou résoudre les problèmes ?",
   layout: agile-rocket-module.html,
   id: agile-rocket-ameliorer,

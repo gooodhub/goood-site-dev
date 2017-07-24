@@ -2,7 +2,7 @@
 {
   title: Management Complexe,
   slug: management,
-  headline: "Agile Rocket > Management",
+  headline: "Management",
   description: "Comment le management peut-il soutenir le voyage de transformation agile en environnement complexe ?
 Comment peut-on accompagner le management à se transformer ?" ,
   layout: agile-rocket-module.html,

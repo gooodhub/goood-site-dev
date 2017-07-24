@@ -2,7 +2,7 @@
 {
   title: Le bon produit,
   slug: produit,
-  headline: "Agile Rocket > Le bon produit",
+  headline: "Le bon produit",
   description: "Comment encourager et nourrir une culture d’entreprise qui satisfait le client en traitant positivement l’évolution continuelle des besoins utilisateurs ?" ,
   layout: agile-rocket-module.html,
   id: agile-rocket-produit,
