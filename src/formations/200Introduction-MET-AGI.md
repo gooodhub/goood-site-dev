@@ -11,7 +11,7 @@
 	prixIntra: 6000,
 	pourcentagePratique: 50,
 	lesPlus: [],
-	layout: sous-page.html, 
+	layout: formation-fiche.html, 
 	dates: [18 - 19 et 20 Septembre 2017 à Paris,
 	18 - 19 et 20 Septembre 2017 à Sophia Antipolis,
 	18 - 19 et 20 Septembre 2017 à Lyon,

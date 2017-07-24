@@ -13,7 +13,7 @@ votre leadership en affinant votre posture de communication, de susciter l’adh
 	pourcentagePratique: 60,
 	lesPlus: ["Chaque participant repart avec une conviction renforcée, une expression de sa vision,mission, ambition et une stratégie
 de passage à l’action."],
-	layout: sous-page.html, 
+	layout: formation-fiche.html, 
 	dates: [14 et 15 Septembre 2017 à Paris, 14 et 15 Septembre 2017 à Sophia Antipolis]
 }
 ---

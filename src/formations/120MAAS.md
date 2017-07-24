@@ -11,7 +11,7 @@
 	prixIntra: nous contacter,
 	pourcentagePratique: 75,
 	lesPlus: [""],
-	layout: sous-page.html, 
+	layout: formation-fiche.html, 
 	dates: [Nous contacter]
 }
 ---

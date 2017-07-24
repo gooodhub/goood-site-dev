@@ -1,0 +1,129 @@
+.synthese
+{
+    display: flex;
+    flex-direction: column;
+    .objectif
+    {
+         @media #{$medium-up} {
+            width: 60%;
+        }
+    }
+    .infos
+    {
+        float:left;
+        color:white;
+        font-size: 1rem;
+        
+        
+        
+        position:relative;
+        max-height:40rem;
+        width: 35%;
+        
+        margin:1rem;
+        padding: 2rem 3rem;
+        background-color:$primaryColor;
+        p{font-size: 1rem;}
+        b{
+            font-weight: 700;
+            font-size: 2rem;
+        }
+        i{
+            padding-right:1.5rem;
+        }
+        .bleu
+        {
+            color:$secondaryColor;
+            padding:0px;
+            font-size: 1rem;
+            display:block;
+        }
+        display: block;
+        @media #{$small-only} {
+            top:1rem;
+            
+            max-width: 95%;
+            min-width: 95%;
+            margin:1rem;
+        }
+        @media #{$medium-up} {
+            top:-5rem;
+        }
+        .btn-white
+        {
+            background-color: white;
+            font-size:1rem;
+        }
+       
+        a{
+            color: $secondaryColor;
+             text-decoration: none;
+        }
+    }
+    .info
+    {
+        div {
+            display: inline-block;
+        }
+        .bloc_icon
+        {
+          width:20%; 
+          vertical-align: top; 
+        }
+        .bloc_label
+        {
+          width:75%;  
+        }
+        
+    }
+ .incriptionform
+ {
+     color: white;
+     padding:3rem;
+     background: $secondaryColor;
+     
+     width: 100%;
+     margin-top:3rem;
+     
+     p
+     {
+         margin: 10px 0px 10px 0px;
+     }
+     select,input[type=select],input[type=Text]
+     {
+        height: 3rem;
+     }
+     select,input[type=select],input[type=Text],textarea{
+        
+        padding: 6px 12px;
+        line-height: 1.6 rem;
+        display: block;
+        color: $secondaryColor;
+        border-radius: 4px;       
+        margin-top:0.25rem;
+        margin-bottom:1.25rem;
+            border: 1px solid #ccc;
+     }
+     
+     .btn
+     {
+         margin-top:1.5rem;
+         background: white;
+         color: $secondaryColor;
+         border-color: white;
+     }
+ }
+ .paragraphebleu
+ {
+     background-color: $secondaryColor;
+     H2
+     {
+
+     }
+     H1{
+         color:white;
+         text-align: center;
+     }
+ }
+    
+}
