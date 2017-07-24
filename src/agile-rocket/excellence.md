@@ -9,9 +9,9 @@
   priority: 1,
   question: "Comment s’assurer que l’on livre fréquemment en production un produit de qualité qui répond au besoin de l’utilisateur ?",
   but: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit auctor bibendum. Etiam quis magna vel ipsum vulputate mattis. Mauris quis facilisis arcu. Proin viverra sollicitudin neque eu ornare. Nam ut pellentesque mauris. Fusce mattis nunc sit amet diam sodales condimentum. Maecenas arcu orci, sagittis ac lectus quis, molestie ultrices lorem. Suspendisse dapibus mauris eu elit finibus, nec vulputate quam tristique. Fusce id sem sed orci placerat pretium quis vitae elit.",
-  story : "",
-  subject : "",
+
   image: "mastery.jpg",
+  scribing : "8-Excellence.jpeg",
   nextTitle: "Culture Agile",
   nextPath: ../culture/,
   prevTitle: "Le bon produit",
