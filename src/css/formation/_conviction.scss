@@ -22,8 +22,12 @@
     padding:3rem;
     text-align: center;
     font-size: 1.6rem;
-    color:white;
-
+    color:white; 
+    @extend %shadow;
+    .texte
+    {
+      margin-bottom: 2rem;
+    }
     .nombre {
       font-size: 4rem;
       font-weight: 800;
