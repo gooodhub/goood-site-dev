@@ -15,8 +15,8 @@
 <li> Mettre en place les piliers de Scrum : transparence (visibilité) - inspection - adaptation - itération.</li>
 <li> Gérer le travail pour agir collectivement : évoluer de comment être occupé à 100% sur le projet vers comment contribuer au collectif pour l’aider à réussir son challenge.</li>
 </ul>",
-  subject : "",
   image: "collaborate.jpg",
+  scribing : "2-Cooperer.jpeg",
   nextTitle: "Améliorer",
   nextPath: "../ameliorer/",
   prevTitle: "North Star",
