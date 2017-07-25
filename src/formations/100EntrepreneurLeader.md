@@ -18,12 +18,16 @@ de passage à l’action."],
 }
 ---
 
-# Formation Introduction aux méthodes agiles: Comprendre la démarche
+# L'entrepreneur leader
 
 ## Objectifs de la formation : ##
 
-* Appréhender les principales méthodes Agile ( Scrum, Extreme Programming, Kanban, Lean)
-* Développer une sensibilisation aux défis d'une transformation Agile.
+* Préciser les différents axes de votre posture : vision, mission, ambition, rôle
+* Expérimenter l’intervision
+* Élaborer une stratégie de passage à l’action alignée avec votre posture
+* Renforcer votre conviction de succès
+
+Cette formation, basée sur les travaux de Robert Dilts, permettra de préciser votre vision et mission, de développer votre leadership en affinant votre posture de communication, de susciter l’adhésion des équipes et partenaires à votre projet et de transformer votre vision en plan d’actions.
 
 # Programme #
 
