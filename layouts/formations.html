@@ -193,8 +193,9 @@ $(document).ready(function(){
                   <p >Si vous êtes intéressé par une formation ou une autre, remplissez ce formulaire et nous vous recontactons très vite.
                   </p>
                   <form action="https://formspree.io/n.guignardeau@goood.pro" method="POST" >
-                      Nom* <input type="text" placeholder="Nom" name="nom" required/>
-                      Email* <input type="text" name="email" placeholder="dupont@domaine.fr" required/>
+                      Nom* <input type="text" placeholder="Nom" name="nom" required size="50"/>
+                      Email* <input type="text" name="email" placeholder="dupont@domaine.fr" required size="50"/>
+                      Tel <input type="text" name="tel" placeholder="06 xx xx xx xx" size="14"/>
                       Formation<select name="formation" >
                           {{#each promotedate_paris}}
                               <option>Paris - {{this.date_start}} - {{this.formationname}} </option>                        
