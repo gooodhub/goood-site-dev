@@ -1,39 +1,21 @@
 #agile-rocket {
 
-    .header {
-    @extend %contentPadding;
-    //padding-bottom: 0;
-    position: relative;
-    overflow: auto;
-    padding-bottom: 50px;
+  .rocket__demarche {
     background: $secondaryColor;
-     h1 {
-      max-width: 870px;
-      margin-left: auto;
-      margin-right: auto;
-    }
 
-    h1, p, p { color: white; }
-    p:after { background: white; }
-
-    @media #{$medium-up} {
-      text-align: center;
-      p:after {
-        left: 50%;
-        transform: translateX(-50%);
-      }
+    &__content h1 {
+      color: white;
     }
   }
 
   .rocket {
-  @extend %contentPadding;
+    @extend %contentPadding;
+    display: flex;
+    flex-direction: column;
 
-  display: flex;
-  flex-direction: column;
-
-  @media #{$medium-up} {
-    flex-direction: row;
-  }
+    @media #{$medium-up} {
+      flex-direction: row;
+    }
 
     &__left {
       padding-right: 20%;
@@ -44,46 +26,48 @@
     }
 
     &__middle {
-
       @media #{$small-only} {
-      order: -1;
+        order: -1;
       }
       @media #{$medium-up} {
         flex-basis: 40%;
         max-width: 40%;
-        }
-      img { width: 100%;}
-
+      }
+      img {
+        width: 100%;
+      }
     }
 
     &__right {
-
       padding-right: 20%;
       @media #{$medium-up} {
         padding-right: 0;
         flex: 1;
       }
-    } 
-      p {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: em(20);
-    line-height: em(23);
-  }
+    }
 
-      &__book {
+    p {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: em(20);
+      line-height: em(23);
+    }
 
+    &__book {
       @media #{$small-only} {
       order: -1;
-      }
-      @media #{$medium-up} {
-        flex-basis: 40%;
-        max-width: 40%;
-        }
-      img { width: 100%;}
+    }
 
+    @media #{$medium-up} {
+      flex-basis: 40%;
+      max-width: 40%;
+    }
+
+    img {
+      width: 100%;
     }
   }
+}
 
 .row_header {
     @extend %sectionPadding;
@@ -102,9 +86,6 @@
       padding-bottom: 20px;
       margin-bottom: 50px;
     }
-
-    
-
 
 .pink {
     background-color:#FFD6DE;
@@ -153,67 +134,64 @@
       align-self: center;
     }
   }
-
-  &__img {
-    @extend %shadow;
-
-    background-size: cover;
-    background-image: url('/images/workshop.jpg');
-    background-color: lighten(black, 80%);
-    height: 58vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
 
 
-    @media #{$medium-up} {
-      order: -1;
-      flex-basis: 35%;
-      max-width: 35%;
-      height: 26vw;
-      max-height: 320px;
-      margin: 0 50px;
-      transform: scale(1.2);
-      }
-    }
-  }
 
-.rocket_book {
+.rocket__full {
+  background: white;
   position: relative;
   z-index: 1;
+  display: flex;
 
+  @media #{$medium-up} {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+  }
+
+  @media #{$large-up} {
+    background-position: top right;
+  }
+
+  .row {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  &__img {
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    img {
+      width: 100%;
+    }
+  }
 
   &__content {
     @extend %contentPadding;
-    padding-top: 0;
-    padding-bottom: 0;
     flex: 1;
+    flex-grow: 2;
+    color: $secondaryColor;
 
-    @media #{$medium-up} {
-      align-self: center;
+    p {
+      color: $secondaryColor;
     }
-  }
 
-  &__img {
-    @extend %shadow;
+    p, ul, li {
+       line-height: em(36);
+       font-size: em(24);
+       margin: 0;
+    }
+    p, ul{
+      margin-top: 0.7em;
+    }
 
-    background-size: cover;
-    background-image: url('/images/agile-rocket/rocket_guide_book.jpg');
-    background-color: lighten(black, 80%);
-    height: 72vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-    @media #{$medium-up} {
-      order: -1;
-      flex-basis: 43%;
-      max-width: 43%;
-      height: 26vw;
-      margin: 0 50px;
-      transform: scale(1.2);
+    header p {
+      &:after {
+        background: $secondaryColor;
       }
     }
   }
+}
 }
