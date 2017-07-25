@@ -1,5 +1,16 @@
 .synthese
 {
+    i{
+            padding-right:1.5rem;
+        }
+    .w95{
+        width:98%;
+    }
+    p{
+    font-size: 1.375rem;
+        
+    }
+    font-size: 1.375rem;
     display: flex;
     flex-direction: column;
     .objectif
@@ -8,29 +19,63 @@
             width: 60%;
         }
     }
+    .blocright
+    {
+        position:relative;float:left;
+         p{margin-top: 0px;}
+        width:36%;
+         @media #{$small-only} {
+            top:1rem;
+            
+            max-width: 95%;
+            min-width: 95%;
+            margin:1rem;
+        }
+    }
+    .lesplus
+    {
+         float:left;
+         color:$secondaryColor;
+         width: 100%;
+         position:relative;
+         padding: 2rem 2rem;
+         margin:1rem;
+          @media #{$medium-up} {
+            top:-5rem;
+        }
+        .plus{
+                font-size: 2rem;          
+                font-weight: bold;
+                color: $secondaryColor;
+                font-family:'Open Sans', arial;
+                line-height: 24px;
+                
+                vertical-align: top;
+                
+                i{
+                    padding-right: 1rem;
+                }
+        }
+    }
     .infos
     {
         float:left;
         color:white;
-        font-size: 1rem;
-        
-        
-        
+        font-size: 1.375rem;
+     
         position:relative;
         max-height:40rem;
-        width: 35%;
+        width: 100%;
         
         margin:1rem;
         padding: 2rem 3rem;
         background-color:$primaryColor;
-        p{font-size: 1rem;}
+        p{font-size: 1.375rem;}
         b{
             font-weight: 700;
             font-size: 2rem;
         }
-        i{
-            padding-right:1.5rem;
-        }
+        
         .bleu
         {
             color:$secondaryColor;
@@ -52,7 +97,8 @@
         .btn-white
         {
             background-color: white;
-            font-size:1rem;
+            font-size: 1.375rem;
+            
         }
        
         a{
@@ -64,6 +110,7 @@
     {
         div {
             display: inline-block;
+            margin-top: 2rem;
         }
         .bloc_icon
         {
@@ -73,6 +120,7 @@
         .bloc_label
         {
           width:75%;  
+           vertical-align: top; 
         }
         
     }
@@ -113,17 +161,6 @@
          border-color: white;
      }
  }
- .paragraphebleu
- {
-     background-color: $secondaryColor;
-     H2
-     {
-
-     }
-     H1{
-         color:white;
-         text-align: center;
-     }
- }
+ 
     
 }
