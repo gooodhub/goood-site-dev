@@ -24,23 +24,21 @@
               <header>
                   <p>But</p>
               </header>
-
               <p>{{{ contents }}}</p>
+                        <div class="rocketmodule__histoire-but__content__scribing">
+             <img src="/images/agile-rocket/{{{scribing}}}" alt="Agile Rocket" />
+             </div>
             </div>
+               
             </div>
         </section>
         <section class="rocketmodule__histoire-but">
           <div class="row">
-             <div class="rocketmodule__histoire-but__content__scribing">
-             <img src="/images/agile-rocket/{{{scribing}}}" alt="Agile Rocket" />
-             </div>
           </div>
         </section>
-        {{> slide-nav-buttons
-          prevTitle = prevTitle
-          prevPath = prevPath
-          nextTitle = nextTitle
-          nextPath = nextPath
+        {{> slide-nav-sous-pages
+          parent = 'Retour à la rocket'
+          parentPath = '/agile-rocket'        
         }}
         {{> footer }}
 
