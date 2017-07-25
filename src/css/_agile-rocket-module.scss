@@ -1,6 +1,6 @@
 #agile-rocket-module .slide__header
 {
-  height: 50vh;
+  height: 60vh;
 }
 
 .rocketmodule__question {
@@ -55,9 +55,11 @@
     padding-top: 0;
     padding-bottom: 0;
     flex: 1;
+    background-color:$secondaryColor;
+    color:white;
 
     p {
-      color: $secondaryColor;
+      color: white;
     }
 
     p, ul, li {
@@ -71,7 +73,7 @@
 
     header p {
       &:after {
-        background: $secondaryColor;
+        background: white;
       }
     }
 
@@ -84,11 +86,11 @@
       }
     }
      &__scribing {
-      align-items: left;
-      justify-content: left;
+      align-items: center;
+      justify-content: center;
       flex: 1;
       img {
-        width: 100%;
+        width: 50%;
       }
     }
 

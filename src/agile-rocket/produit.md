@@ -8,7 +8,6 @@
   id: agile-rocket-produit,
   priority: 1,
   question: "Comment encourager et nourrir une culture d’entreprise qui satisfait le client en traitant positivement l’évolution continuelle des besoins utilisateurs ?" ,
-  but: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit auctor bibendum. Etiam quis magna vel ipsum vulputate mattis. Mauris quis facilisis arcu. Proin viverra sollicitudin neque eu ornare. Nam ut pellentesque mauris. Fusce mattis nunc sit amet diam sodales condimentum. Maecenas arcu orci, sagittis ac lectus quis, molestie ultrices lorem. Suspendisse dapibus mauris eu elit finibus, nec vulputate quam tristique. Fusce id sem sed orci placerat pretium quis vitae elit.",
   image: "product.jpg",
   scribing : "7-Le bon produit.jpeg",
   nextTitle: "Excellence (de l'ingénierie)",

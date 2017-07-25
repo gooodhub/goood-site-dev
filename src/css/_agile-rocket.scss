@@ -70,6 +70,19 @@
     font-size: em(20);
     line-height: em(23);
   }
+
+      &__book {
+
+      @media #{$small-only} {
+      order: -1;
+      }
+      @media #{$medium-up} {
+        flex-basis: 40%;
+        max-width: 40%;
+        }
+      img { width: 100%;}
+
+    }
   }
 
 .row_header {
@@ -119,21 +132,17 @@
   margin-right:auto;
   margin-left:auto;
 }
-.rocketdesc {
-  @extend %sectionPadding;
-  background: $secondaryColor;
 
-  @media #{$small-only} {
-    padding: 0;
-  }
+.rocket_orange {
+  background: $primaryColor;
+  position: relative;
+  z-index: 1;
 
-  header {
-    h1, p, p { color: white; }
-    p:after { background: white; }
-  }
 
   &__content {
     @extend %contentPadding;
+    padding-top: 0;
+    padding-bottom: 0;
     flex: 1;
 
     p {
@@ -149,8 +158,7 @@
     @extend %shadow;
 
     background-size: cover;
-    background-position: right center;
-    background-image: url('/images/agile-rocket/rocket.jpg');
+    background-image: url('/images/workshop.jpg');
     background-color: lighten(black, 80%);
     height: 58vw;
     display: flex;
@@ -159,13 +167,53 @@
 
 
     @media #{$medium-up} {
-      flex-basis: 47%;
-      max-width: 47%;
-      height: 36vw;
-      max-height: 466px;
+      order: -1;
+      flex-basis: 35%;
+      max-width: 35%;
+      height: 26vw;
+      max-height: 320px;
+      margin: 0 50px;
+      transform: scale(1.2);
+      }
+    }
+  }
+
+.rocket_book {
+  position: relative;
+  z-index: 1;
+
+
+  &__content {
+    @extend %contentPadding;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex: 1;
+
+    @media #{$medium-up} {
       align-self: center;
     }
   }
-}
 
+  &__img {
+    @extend %shadow;
+
+    background-size: cover;
+    background-image: url('/images/agile-rocket/rocket_guide_book.jpg');
+    background-color: lighten(black, 80%);
+    height: 72vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    @media #{$medium-up} {
+      order: -1;
+      flex-basis: 43%;
+      max-width: 43%;
+      height: 26vw;
+      margin: 0 50px;
+      transform: scale(1.2);
+      }
+    }
+  }
 }
