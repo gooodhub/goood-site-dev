@@ -13,6 +13,20 @@
     display: flex;
     flex-direction: column;
 
+    ul {
+      width: 100%;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    .arrow-link {
+      color: $primaryColor;
+      svg, path { fill: $primaryColor!important; }
+    }
+
+
     @media #{$medium-up} {
       flex-direction: row;
     }
@@ -70,21 +84,22 @@
 }
 
 .row_header {
-    @extend %sectionPadding;
+  @extend %sectionPadding;
   @media #{$small-only} { padding-bottom: 0; }
-     position: relative;
-       top: 0;
+  position: relative;
+  top: 0;
   left: 0;
   width: 100vw;
-      padding : 0 20px;
-      margin-bottom: 50px;
-      background-color:red;
-    }
+  padding : 0 20px;
+  margin-bottom: 50px;
+  background-color:red;
+}
 
 .row {
       max-width: 800px;
       padding-bottom: 20px;
       margin-bottom: 50px;
+      @media #{$small-only} { padding-right: 16px; }
     }
 
 .pink {
