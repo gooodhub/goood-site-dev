@@ -10,6 +10,7 @@ facebook:
 twitter: 
 linkedin: https://fr.linkedin.com/in/ludoviccharlot/fr
 blog: 
+formateur: 0
 ---
 Ludovic est le Directeur Général de Goood! Son rôle est de veiller à ce que les chantiers importants avancent et que les priorités soient mises au bon endroit. Il intervient également comme « simplifieur » pour aider nos clients ou nos consultants à identifier le plus petit premier pas qui permette d’avancer face à un problème.
 
