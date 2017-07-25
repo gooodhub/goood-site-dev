@@ -1,0 +1,40 @@
+.conviction{
+    @extend %sectionPadding;
+  @media #{$small-only} { padding-bottom: 0; }
+ 
+  &__content {
+    @extend %contentPadding;
+    flex: 1;
+    position: relative;
+    z-index: 2;
+
+    @media #{$medium-up} {
+      
+      align-self: center;
+    }
+  }
+
+  &__chiffres {
+    position:relative;
+    z-index: 1;
+    background-color: $primaryColor;
+    margin: 2rem;
+    padding:3rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color:white; 
+    @extend %shadow;
+    .texte
+    {
+      margin-bottom: 2rem;
+    }
+    .nombre {
+      font-size: 4rem;
+      font-weight: 800;
+      color:white;
+    }
+    
+      
+    
+  }
+}

@@ -11,7 +11,7 @@
 	prixIntra: 6000,
 	pourcentagePratique: 60,
 	lesPlus: [De la pratique sur 3 jours],
-	layout: sous-page.html, 
+	layout: formation-fiche.html, 
 	dates: [11 - 12 et 13 Octobre 2017 à Paris,
 	11 - 12 et 13 Octobre 2017 à Sophia Antipolis,
 	20 - 21 et 22 Novembre 2017 à Paris,

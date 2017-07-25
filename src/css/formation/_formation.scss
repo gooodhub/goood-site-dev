@@ -1,0 +1,298 @@
+.formation
+{
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+
+  .row {
+    width: 100%;
+  }
+
+  
+ &__content {
+       
+       @media #{$small-only} {
+        background: $secondaryColor;
+    }
+
+    @media #{$medium-up} {
+      padding-bottom: 50px;
+      text-align: center;
+      align-items: center;
+    }
+  }
+
+  @media #{$medium-up} {
+    margin-bottom: 30px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 400px;
+      background: $secondaryColor;
+      z-index: 0;
+
+      @media #{$large-up} {height: 400px;}
+    }
+  }
+  p {color: white;
+     text-align: center;
+     width: 100%;
+     position:relative;
+     flex: 1;
+     flex-direction: row;
+     b{
+         font-weight: 600;
+     }
+
+     }
+  .affiliation
+    {
+        width: 100%;
+        text-align: center;
+        p {
+            color:$primaryColor;
+            text-align: center;    
+            position:relative;
+            flex: 1;
+            flex-direction: row;
+            display: inline-block;
+        }
+        .btn{
+            display: inline-block;
+        }
+    }     
+
+
+  header {
+    @extend %contentPadding;
+    padding-bottom: 0;
+    position: relative;
+    background: $secondaryColor;
+
+    h1, p, p { color: white; }
+    p:after { background: white; }
+
+    @media #{$medium-up} {
+      text-align: center;
+      p:after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+}
+
+.formation_liste
+{
+    ul {
+        list-style: none;
+    } 
+
+    @media #{$medium-up} {
+    margin-bottom: 30px;
+    }
+    .bloc_catalogue
+    {
+        background: $secondaryColor;
+        a{
+            color:white;
+        }
+        @extend %contentBoldFont;
+        font-size:1.3rem;
+        text-align: center;
+        padding:2rem 0;
+        img{
+           margin: auto;
+            display: block;
+        }
+
+        margin: 2rem;
+        @media #{$medium-up} {
+                width: 40%;
+                 }
+
+    }
+    .bloc_theme
+    {
+        @media #{$medium-up} {
+                width: 40%;
+                 }
+
+        margin: 2rem;
+       .header{
+            @extend %contentPadding;
+            font-size: 2rem;
+            color:white;
+            background: $primaryColor;
+            text-align: center;
+                 
+
+        }
+        .detail
+        {
+              @extend %shadow;
+            @extend %contentPadding;
+            background:white;
+            @extend %contentBoldFont;
+             font-size: 1.3rem;
+             
+             li{
+                 margin-bottom:2rem;
+             }
+             a{
+                 color:$secondaryColor;
+             }
+        }
+        
+
+
+    }
+}
+.formateur
+{
+    .slider1
+    {
+        margin-top:-45px;
+    }
+}
+.next_session
+{
+    margin: auto;
+    font-size: 1.3rem;
+    font-weight: 600;
+    @extend %contentPadding;
+
+    p{
+        line-height: 1.5rem;
+        font-size: 1.3rem;
+        margin-top:5px;
+        margin-bottom:0px;        
+    }
+    .tiret{
+        color:white;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        line-height: 1px; 
+    }
+    .header
+    {
+        width: 100%;
+        text-align: center;
+        margin:1rem 0  1rem 0 ;
+       h1{ display:inline-block;
+       ; color:$primaryColor;
+       }
+    }
+    .date{
+        font-weight: 800;
+        font-size: 1.3rem;
+        margin-bottom:10px;
+        
+    }
+    .titre_formation
+    {
+        font-weight: 400;
+        margin-top:0.1rem;
+        margin-bottom:1.5rem;
+    }
+
+    ul {
+        list-style: none;
+        padding-left:0px
+
+    } 
+    li{
+       
+        margin-left:0px;
+    }
+    
+ 
+ a{
+    color:white; 
+ }
+ h1{
+    color:white;
+    margin-top:0.5rem;
+ }
+ .paris
+ {
+      @extend %contentPadding;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: $secondaryColor;
+
+    @media #{$medium-up} {
+                width: 50%;
+                 }
+
+ }
+ .nice
+ {
+     @extend %contentPadding;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: $primaryColor;
+
+    @media #{$medium-up} {
+                width: 50%;
+                 }
+
+ }
+ .incription
+ {
+     z-index:1;
+     margin-top: -25px;
+     .btn
+     {
+         @extend %contentPadding;
+         background: $primaryColor;
+         color:white;
+         border-color: white;
+         font-size: 1.3rem;
+     }
+ }
+ .incriptionform
+ {
+     color: white;
+     padding:3rem;
+     background: $secondaryColor;
+     
+     width: 100%;
+     margin-top:3rem;
+     
+     p
+     {
+         margin: 10px 0px 10px 0px;
+     }
+    
+     select,input[type=select],input[type=Text]{
+        height: 3rem;
+        padding: 6px 12px;
+        line-height: 1.6 rem;
+        display: block;
+        color: $secondaryColor;
+        border-radius: 4px;       
+        margin-top:0.25rem;
+        margin-bottom:1.25rem;
+            border: 1px solid #ccc;
+     }
+     
+     .btn
+     {
+         margin-top:1.5rem;
+         background: white;
+         color: $secondaryColor;
+         border-color: white;
+     }
+ }
+
+}

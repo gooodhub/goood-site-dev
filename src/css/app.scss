@@ -22,6 +22,10 @@
 @import 'home/progres';
 @import 'home/chiffres';
 
+@import 'formation/conviction';
+@import 'formation/formation';
+@import 'formation/formation_fiche';
+
 @import 'toolkit/toolitem';
 
 @import 'equipe/competences-equipes.scss';
@@ -495,8 +499,8 @@ p.intro-formation{
 
 @media only screen and (min-width: 1170px) {
 #conteneur-repartition-methodologie{
-  width:400px;
-  height:400px;
+  width:300px;
+  height:300px;
   }
   .date-mobile{
     display:none;

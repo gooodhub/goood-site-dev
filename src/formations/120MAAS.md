@@ -7,11 +7,12 @@
 	theme: agile,
 	heures: 700,
 	participants: 10,
-	prixInter: nous contacter,
-	prixIntra: nous contacter,
+	InterExiste: 0,
+	prixInter: ,
+	prixIntra: ,
 	pourcentagePratique: 75,
-	lesPlus: [""],
-	layout: sous-page.html, 
+	lesPlus: [],
+	layout: formation-fiche.html, 
 	dates: [Nous contacter]
 }
 ---

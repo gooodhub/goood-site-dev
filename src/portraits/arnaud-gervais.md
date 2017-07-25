@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/arnaud_gervais
 linkedin: https://www.linkedin.com/in/arnaud-gervais-87328a47
 blog: 
+formateur: 1
 ---
 Arnaud accompagne les personnes, équipes et organisations dans leur chemin vers l'agilité.
 A l'aide de ses années de pratique, il pourra mettre sa casquette d'expert pour vous transmettre sa passion.

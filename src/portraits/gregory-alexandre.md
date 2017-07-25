@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/gregalexandre
 linkedin: https://fr.linkedin.com/in/gregoryalexandre
 blog: https://blog.goood.pro/author/galexandre/
+formateur: 1
 ---
 
 Grégory est "Greg" chez Goood! En tant que Greg, il forme et accompagne les entreprises petites et grandes à faire les bons produits, les faire bien et dans de bonnes conditions pour chacun. 

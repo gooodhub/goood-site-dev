@@ -11,7 +11,7 @@
 	prixIntra: 4000,
 	pourcentagePratique: 50,
 	lesPlus: [],
-	layout: sous-page.html, 
+	layout: formation-fiche.html, 
 	dates: [5 et 10 Octobre 2017 à Paris, 5 et 10 Octobre 2017 à Sophia Antipolis, 5 et 10 Octobre 2017 à Lyon]
 }
 ---

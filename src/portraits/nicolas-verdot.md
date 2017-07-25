@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/nverdot
 linkedin: https://fr.linkedin.com/in/nicolasverdot/fr
 blog: 
+formateur: 1
 ---
 Nicolas est  « une boule d''énergie » chez Goood! Toujours à la recherche de nouveau défit. C'est pourquoi il a déménagé dans le sud (sophia Antipolis) pour accompagner les entreprises locales dans leur recherche d'agilité. Nicolas croit en la puissance d'action des groupes à réaliser ensemble l'impossible. Il est co-fondateur de l'association Fourmis du changement - ICA France (http://www.fourmisduchangement.org/).
 

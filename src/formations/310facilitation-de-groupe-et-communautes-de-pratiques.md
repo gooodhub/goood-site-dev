@@ -13,7 +13,7 @@ expérimenter le codéveloppement professionnel de groupe",
 	pourcentagePratique: 70,
 	lesPlus: [De la pratique et un peu de théorie sur 2 jours et beaucoup de retour d’expérience des formateurs,
 15 jours d’expérimentation dans la vie réelle qui seront suivis d’un troisième jour de debrief de vos expériences],
-	layout: sous-page.html, 
+	layout: formation-fiche.html, 
 	dates: [16 - 17 octobre 2017 et 6 novembre 2017 à Paris,
 	23 - 24 octobre 2017 et 13 novembre 2017 à Paris,
 	20 - 21 novembre 2017 et 14 décembre 2017 à Paris]
