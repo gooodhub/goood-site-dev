@@ -90,12 +90,14 @@
 
 .formation_liste
 {
+       
     ul {
         list-style: none;
     } 
 
     @media #{$medium-up} {
     margin-bottom: 30px;
+     margin-top: -6rem;
     }
     .bloc_catalogue
     {
