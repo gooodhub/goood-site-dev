@@ -8,8 +8,9 @@ votre leadership en affinant votre posture de communication, de susciter l’adh
 	theme: agile,
 	heures: 14,
 	participants: 10,
-	prixInter: 1300,
-	prixIntra: 4500,
+	InterExiste: 1,
+	prixInter: 1 300,
+	prixIntra: 4 500,
 	pourcentagePratique: 60,
 	lesPlus: ["Chaque participant repart avec une conviction renforcée, une expression de sa vision,mission, ambition et une stratégie
 de passage à l’action."],

@@ -29,8 +29,9 @@ formation_themes: [
                     {formationname: "Managers as a Service",path: "manager-as-a-service"}]}
         
     ],
-    promotedate_paris: [{date_start: "21/08/2017",formationname: "Facilitation de groupe et communautés de pratiques", path: "facilitation-de-groupe-et-communautes-de-pratiques"},
-    {date_start: "09/10/2017",formationname: "Devenir Product Owner", path: "devenir-product-owner"}],
+    promotedate_paris: [
+    {date_start: "09/10/2017",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
+    {date_start: "16/10/2017",formationname: "Facilitation de groupe et communautés de pratiques", path: "facilitation-de-groupe-et-communautes-de-pratiques"}],
 	promotedate_sophia: [{date_start: "16/10/2017",formationname: "Facilitation de groupe et communautés de pratiques", path: "facilitation-de-groupe-et-communautes-de-pratiques"}],
 	promotedate_lyon: [{date_start: "02/10/2017",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "reussir-et-s-affirmer-dans-son-role-de-Scrum-Master"}]
 }
