@@ -14,8 +14,7 @@ expérimenter le codéveloppement professionnel de groupe",
 	lesPlus: [De la pratique et un peu de théorie sur 2 jours et beaucoup de retour d’expérience des formateurs,
 15 jours d’expérimentation dans la vie réelle qui seront suivis d’un troisième jour de debrief de vos expériences],
 	layout: sous-page.html, 
-	dates: [21 - 22 août 2017 et 11 septembre 2017 à Paris,
-	16 - 17 octobre 2017 et 6 novembre 2017 à Paris,
+	dates: [16 - 17 octobre 2017 et 6 novembre 2017 à Paris,
 	23 - 24 octobre 2017 et 13 novembre 2017 à Paris,
 	20 - 21 novembre 2017 et 14 décembre 2017 à Paris]
   
@@ -80,4 +79,6 @@ Nathalie Geldermann "Je repars avec une vision de la posture du facilitateur (ne
 Damien Bigot "Apprendre la facilitation en la vivant"
 
 Lucie Chevallereau "Formation d'excellente qualité qui permet d'insuffler de nouvelles idées de communication, des méthodesafin de rassembler les collaborateurs et de voir émerger des propositions qui font avancer votre entreprise avec un esprit fédérateur"
+
+Stéphanie Lecoeur "Je repars de cette formation avec une grande positivité par rapport à ce rôle de facilitateur, une certaine confiance pour faire mes premiers pas grâce à de l'expérimentation en séance et une boite à outil de warm up, ice breaker et formats d'ateliers. En somme, merci Mathilde et Mija."
 
