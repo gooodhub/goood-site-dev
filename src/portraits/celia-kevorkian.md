@@ -10,6 +10,7 @@ facebook:
 twitter: 
 linkedin: https://www.linkedin.com/in/celiakevorkian
 blog: 
+formateur: 0
 ---
 Celia prospecte par téléphone, elle part à la rencontre de nouvelles personnes lors de salons ou de soirées professionnelles pour leur proposer notre savoir-faire.
 Elle essaie de voir régulièrement ses clients et ses collaborateurs pour être à leur écoute. Bref, elle fait plein de tâches variées tout au long de la journée et elle aime ça !

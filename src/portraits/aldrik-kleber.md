@@ -10,6 +10,7 @@ facebook: https://www.facebook.com/aldrik.kleber
 twitter: 
 linkedin: https://www.linkedin.com/in/aldrik/
 blog: www.aldrik.net
+formateur: 0
 ---
 Le PDCA sont les 4 fondements qui font vivre Aldrik, la Passion, la Détermination, la Conviction et le sentiment que tout 
 travail est un Art. Le monde de demain se fait maintenant, au quotidien, dans la vie privée comme dans le travail. 

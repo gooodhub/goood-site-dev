@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/MarineCloux
 linkedin: https://www.linkedin.com/in/marine-cloux-65648857
 blog: https://blog.goood.pro/author/marinecloux/
+formateur: 0
 ---
 Marine est une “responsable de produit créative”. Ce qui l’intéresse c’est de créer en équipe des produits innovants qui vont être utilisés par les futures cibles. De nature curieuse, à chaque problème elle cherchera la bonne méthode pour répondre au mieux au problème rencontré. Par contre, elle n’aime pas les machines à gaz : avec Marine, il faut que ça soit simple, efficace et créatif ! 
 

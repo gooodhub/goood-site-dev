@@ -9,6 +9,7 @@ job: Orpailleuse
 twitter: 
 linkedin: https://fr.linkedin.com/in/delphinekan
 blog: https://blog.goood.pro/author/delphinekan/
+formateur: 0
 ---
 Delphine est “Orpailleuse” – chercheuse d'or – pour Goood! 
 Elle écume les réseaux sociaux à la recherche des pépites qui viendront renforcer et diversifier les talents de Goood!

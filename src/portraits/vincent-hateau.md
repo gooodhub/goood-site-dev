@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/VincentHateau
 linkedin: https://www.linkedin.com/in/vincenthateau
 blog: 
+formateur: 0
 ---
 
 

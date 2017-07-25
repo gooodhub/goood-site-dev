@@ -10,6 +10,7 @@ facebook:
 twitter: http://twitter.com/Asuzanon
 linkedin: 
 blog: 
+formateur: 0
 ---
 Aimerick est un « software maker » chez Goood! Ce qu’il aime par dessus tout c’est apporter une valeur ajoutée digitale dans le but de répondre pertinemment à une problématique. 
 

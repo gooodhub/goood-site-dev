@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/yacineabid
 linkedin: http://www.linkedin.com/in/yacine-abid
 blog: 
+formateur: 1
 ---
 Yacine intervient en tant qu'agent du changement dans les équipes et organisations qui souhaitent relever les challenge de notre monde en changement rapide. En constant apprentissage, il s'intéresse à l'agilité, au lean, à la systémique, PNL... Autant de sujets qu'il est heureux de partager avec les personnes qu'il accompagne.
 

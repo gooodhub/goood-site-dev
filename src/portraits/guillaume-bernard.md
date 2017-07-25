@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/BERNARDGuilla11
 linkedin: https://fr.linkedin.com/in/guillaume-bernard-765a8559
 blog: 
+formateur: 0
 ---
 Guillaume est un développeur C# .NET et un craftsman chez Goood! 
 Ce qu'il aime c'est comprendre les problématiques et appliquer les méthodes agiles 

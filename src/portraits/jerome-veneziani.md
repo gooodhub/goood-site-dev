@@ -10,6 +10,7 @@ facebook:
 twitter: http://twitter.com/Vneze
 linkedin: https://www.linkedin.com/in/jerome-veneziani-5a15068
 blog: 
+formateur: 0
 ---
 
 Jérôme est « Serreur de boulons© » chez Goood! Il veille à ce que tout ce qui a été commandé soit livré, que tout ce qui a été livré soit facturé : une place pour chaque chose et chaque chose à sa place, telle pourrait être sa devise. Jérôme est également le secrétaire du Cercle Général de Goood! et le trésorier de l’association MOM21.

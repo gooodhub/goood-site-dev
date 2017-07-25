@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/astr0penguin
 linkedin: https://www.linkedin.com/in/etiennedg
 blog:
+formateur: 0
 ---
 
 Etienne est développeur .NET chez Goood! Il ne change pas (encore) le monde avec son code

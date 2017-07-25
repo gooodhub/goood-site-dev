@@ -10,6 +10,7 @@ facebook:
 twitter: 
 linkedin: 
 blog: 
+formateur: 0
 ---
 La tête dans l'écran, les oreilles à côté :-) Sandrine est à l'affut de toute information pour avancer, comprendre et aider au mieux le groupe. Son second surnom " Traqueuse de justificatifs (factures, facturettes...)
 

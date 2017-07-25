@@ -6,9 +6,10 @@ bulle3: SAINT AUGUSTIN
 image: /images/portraits/guillaumeDH.jpg
 hashtag: '#INCORRIGIBLEOPTIMISTE'
 job: Agiliste facilitateur bienveillant
-
+facebook: 
+twitter:
 linkedin: https://www.linkedin.com/in/guillaumeduteyharispe/
-
+formateur: 0
 ---
 
 Un domaine où on ne peux pas tricher ? C'est l'intérêt que l'on porte aux personnes ! Et Guillaume se réjouit de la chance qu'il a de pratiquer un métier où cet intérêt est central et dont le quotidien s'ancre dans les valeurs du Lean : respect des personnes, amélioration continue et... optimisme pragmatique.

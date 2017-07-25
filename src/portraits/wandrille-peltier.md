@@ -10,6 +10,7 @@ facebook:
 twitter: 
 linkedin: https://fr.linkedin.com/in/wandrille-peltier-42b11516
 blog:  http://blog.goood.pro
+formateur: 0
 ---
 
 Wandrille préfère parlez avec vous plutôt que parler de lui. 
