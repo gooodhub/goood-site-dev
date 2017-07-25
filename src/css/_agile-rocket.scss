@@ -26,6 +26,9 @@
       svg, path { fill: $primaryColor!important; }
     }
 
+    header {
+      width: 100%;
+    }
 
     @media #{$medium-up} {
       flex-direction: row;
