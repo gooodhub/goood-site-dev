@@ -10,8 +10,6 @@
 
   &__content {
     @extend %contentPadding;
-    padding-top: 50px;
-    padding-bottom: 0;
 
     p {
       color: white;
@@ -29,7 +27,7 @@
   }
 }
 
-.rocketmodule__histoire-but {
+.rocketmodule__but {
   background: white;
   position: relative;
   z-index: 1;
@@ -50,16 +48,23 @@
     max-width: 100% !important;
   }
 
+  &__img {
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    img {
+      width: 100%;
+    }
+  }
+
   &__content {
     @extend %contentPadding;
-    padding-top: 0;
-    padding-bottom: 0;
     flex: 1;
-    background-color:$secondaryColor;
-    color:white;
+    flex-grow: 2;
+    color: $secondaryColor;
 
     p {
-      color: white;
+      color: $secondaryColor;
     }
 
     p, ul, li {
@@ -73,19 +78,11 @@
 
     header p {
       &:after {
-        background: white;
+        background: $secondaryColor;
       }
     }
 
-    &__img {
-      align-items: center;
-      justify-content: center;
-      flex: 1;
-      img {
-        width: 100%;
-      }
-    }
-     &__scribing {
+    &__scribing {
       align-items: center;
       justify-content: center;
       flex: 1;
