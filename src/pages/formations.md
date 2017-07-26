@@ -15,7 +15,7 @@ formation_themes: [
         },
         {name: "Mettre en œuvre la transformation",formationslist: [
                     {formationname: "Introduction aux méthodes agiles",path: "introduction-methodes-agiles"},
-                    {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "/reussir-et-s-affirmer-dans-son-role-de-scrum-master"},
+                    {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "/scrum-master"},
                     {formationname: "Devenir Product Owner",path: "devenir-product-owner"},
                     {formationname: "Test Driven Development",path: "formation-tdd"},
                     {formationname: "Mise en place des tests fonctionnels avec TFS et Microsoft Test Manager",path: "tests-fonctionnels"}]},
@@ -40,9 +40,10 @@ formation_themes: [
 	promotedate_sophia: [
          {date_start: "12/09/2017",formationname: "Test Driven Development", path: "formation-tdd"},
         {date_start: "18/09/2017",formationname: "Introduction aux Méthodes agiles", path: "introduction-methodes-agiles"},
+	{date_start: "05/10/2017",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "scrum-master"}
         {date_start: "16/10/2017",formationname: "Facilitation de groupe et communautés de pratiques", path: "facilitation-de-groupe-et-communautes-de-pratiques"}],
 	promotedate_lyon: [
         {date_start: "18/09/2017",formationname: "Introduction aux Méthodes agiles", path: "introduction-methodes-agiles"},
-        {date_start: "02/10/2017",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "reussir-et-s-affirmer-dans-son-role-de-Scrum-Master"}]
+        {date_start: "02/10/2017",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "scrum-master"}]
 }
 ---
