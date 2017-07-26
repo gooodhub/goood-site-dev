@@ -40,7 +40,7 @@ formation_themes: [
 	promotedate_sophia: [
          {date_start: "12/09/2017",formationname: "Test Driven Development", path: "formation-tdd"},
         {date_start: "18/09/2017",formationname: "Introduction aux Méthodes agiles", path: "introduction-methodes-agiles"},
-	{date_start: "05/10/2017",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "scrum-master"}
+	{date_start: "05/10/2017",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "scrum-master"},
         {date_start: "16/10/2017",formationname: "Facilitation de groupe et communautés de pratiques", path: "facilitation-de-groupe-et-communautes-de-pratiques"}],
 	promotedate_lyon: [
         {date_start: "18/09/2017",formationname: "Introduction aux Méthodes agiles", path: "introduction-methodes-agiles"},
