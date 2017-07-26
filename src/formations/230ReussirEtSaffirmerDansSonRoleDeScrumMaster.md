@@ -1,7 +1,7 @@
 ---
 {
 	title: "Réussir et s'affirmer dans son rôle de Scrum Master", 
-	slug: "reussir-et-s-affirmer-dans-son-role-de-Scrum-Master", 
+	slug: "scrum-master", 
 	headline: "Formation Scrum Master",
 	description: "Des techniques d’animation pour être capable de conduire en autonomie les rituels Scrum afin d’en tirer des bénéfices concrets. ", 
 	theme: agile,
