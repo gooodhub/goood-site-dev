@@ -10,7 +10,7 @@ facebook:
 twitter: https://twitter.com/massieral
 linkedin: http://www.linkedin.com/in/lionelmassiera
 blog: 
-formateur: 0
+formateur: 1
 ---
 Lionel accompagne des équipes / entreprises sur le chemin de l'Agilité. Ce qui est passionant c'est que chaque équipe est un objectif nouveau avec des défis qui lui son propre. Ce n'est pas un éternellement recommencement, mais une source inépuisable d'apprentissage et de savoir. 
 

@@ -10,7 +10,7 @@ facebook:
 twitter: http://twitter.com/cstauder
 linkedin: https://fr.linkedin.com/in/c%C3%A9line-stauder-915b99a/fr
 blog: 
-formateur: 1
+formateur: 0
 ---
 Céline est « créatrice d'opportunités» chez Goood! Ce qu’elle aime par dessus tout c’est comprendre et aider les autres pour créer de l'impact positif dans leurs entreprises. Elle partage son temps entre le conseil autour de l’agilité, essentiellement auprès de dirigeants, et le business development de Goood!
 

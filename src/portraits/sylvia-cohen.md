@@ -10,7 +10,7 @@ facebook:
 twitter: 
 linkedin: 
 blog: 
-formateur: 0
+formateur: 1
 ---
 
 Sylvia est « Sylvia » chez Goood ! En restant elle-même, elle aide nos clients à définir les besoins et faire le produit correspondant.
