@@ -27,7 +27,7 @@
 
 ## Objectifs de la formation : ##
 
-* Appréhender les principales méthodes Agile ( Scrum, Extreme Programming, Kanban, Lean)
+* Appréhender les principales méthodes Agile (Scrum, Extreme Programming, Kanban, Lean)
 * Développer une sensibilisation aux défis d'une transformation Agile.
 
 # Programme #
