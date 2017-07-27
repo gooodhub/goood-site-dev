@@ -149,9 +149,10 @@ $(document).ready(function(){
                 
                   {{#each promotedate_paris}}
                 
-                 <li itemscope itemtype="http://schema.org/Event"> <a href="{{path}}" class="u-url"> <p class="date"><time itemprop="startDate" datetime="{{this.date_startYYYYMMDD}}">{{this.date_start}}</time></p> 
+                 <li itemscope itemtype="http://schema.org/Event"> <a href="{{path}}" itemprop="url"> <p class="date"><time itemprop="startDate" datetime="{{this.date_startYYYYMMDD}}">{{this.date_start}}</time></p> 
                                            <p class="titre_formation " itemprop="name"> {{this.formationname}}</p>  </a>
-                    <p  hidden itemprop="location">Paris</p>
+                    <p  hidden itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <meta itemprop="address" content="Paris, France"></p>
                  
                     </li>
                    {{/each}}
@@ -167,8 +168,11 @@ $(document).ready(function(){
                   {{#each promotedate_sophia}}
                 
                    
-                 <li> <a href="{{path}}"> <p class="date">{{this.date_start}}</p> 
-                                           <p class="titre_formation"> {{this.formationname}}</p>  </a></li>
+                 <li  itemscope itemtype="http://schema.org/Event"> <a href="{{path}}" itemprop="url"> 
+                     <p class="date"><time itemprop="startDate" datetime="{{this.date_startYYYYMMDD}}">{{this.date_start}}</time></p> 
+                                           <p class="titre_formation" itemprop="name"> {{this.formationname}}</p>  </a>
+                                           <p  hidden itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <meta itemprop="address" content="Sophia Antipolis Nice"></p></li>
                    {{/each}}
                 
                </ul>
@@ -182,8 +186,11 @@ $(document).ready(function(){
                   {{#each promotedate_lyon}}
                 
                   
-                 <li> <a href="{{path}}"> <p class="date">{{this.date_start}}</p> 
-                                           <p class="titre_formation"> {{this.formationname}}</p>  </a></li>
+               <li  itemscope itemtype="http://schema.org/Event"> <a href="{{path}}" itemprop="url"> 
+                     <p class="date"><time itemprop="startDate" datetime="{{this.date_startYYYYMMDD}}">{{this.date_start}}</time></p> 
+                                           <p class="titre_formation" itemprop="name"> {{this.formationname}}</p>  </a>
+                                           <p  hidden itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <meta itemprop="address" content="Lyon"></p></li>
                    {{/each}}
                 
                </ul>
