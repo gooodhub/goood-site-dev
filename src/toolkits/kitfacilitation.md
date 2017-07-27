@@ -44,3 +44,11 @@ Le kit comprend :
 * Une ampoule de parole anti-stress
 * Un sac de transport
 
+## Comment monter votre sticky wall?
+Sylvia vous donne sa méthode et ses conseils pour bien monter votre sticky wall.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sjWhlP04Yes" frameborder="0" allowfullscreen></iframe>
+
+## Comment les utiliser pour démarrer vos réunions comme Icebreaker?
+Gregory vous présente nos cartes de Photostory. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ykwarlNm_Ig" frameborder="0" allowfullscreen></iframe>

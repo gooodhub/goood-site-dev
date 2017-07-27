@@ -32,3 +32,6 @@ Descriptif:
 
 La colle n’est pas incluse. Vous pouvez la trouver facilement dans le commerce (OfficeDepot, Amazon,...). Ref : Colle repositionnable 3M
 
+## Comment monter votre sticky wall?
+ Sylvia vous donne sa méthode et ses conseils pour bien monter votre sticky wall.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sjWhlP04Yes" frameborder="0" allowfullscreen></iframe>
