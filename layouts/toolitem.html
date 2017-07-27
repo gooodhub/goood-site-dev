@@ -10,7 +10,7 @@
         <section class="toolitem" >
             <div class="row">
               <div class="toolitem__content_fullsize"> 
-                  <meta itemprop="price" content="{{productname}}" />
+                  <meta itemprop="name" content="{{productname}}" />
                   <meta itemprop="brand" content="Goood!" />
                   <meta itemprop="description" content="{{description}}" />
                    <meta itemprop="identifier" content="{{slug}}" />
@@ -39,8 +39,8 @@
                      <meta itemprop="priceCurrency" content="EUR" />
                      <meta itemprop="price" content="{{priceTTC}}" />
                      
-                    <h1>{{priceHT}} HT</h1>
-                    <p  >{{priceTTC}} TTC <br>                
+                    <h1>{{priceHT}}€ HT</h1>
+                    <p  >{{priceTTC}}€ TTC <br>                
                     TVA : {{TauxTVA}}</p>
                    
                     {{#if IsDelivery}}
