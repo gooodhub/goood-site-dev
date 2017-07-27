@@ -1,5 +1,5 @@
 {{#> layout }} {{#*inline "content"}}
-<div class="slide" id="toolitem" itemscope itemtype="http://schema.org/Product">
+<div class="slide" id="toolitem" itemscope itemtype="http://schema.org/Product" >
     {{> slide-header title=title }}
     <div class="slide__content">
        <!-- <section class="toolitem">
@@ -10,8 +10,15 @@
         <section class="toolitem" >
             <div class="row">
               <div class="toolitem__content_fullsize"> 
+                  <meta itemprop="price" content="{{productname}}" />
+                  <meta itemprop="brand" content="Goood!" />
+                  <meta itemprop="description" content="{{description}}" />
+                   <meta itemprop="identifier" content="{{slug}}" />
+                    <meta itemprop="image" content="{{mainimage}}" />
+                  
+                  
                     {{#if image}}
-                    <div class="w3-content w3-display-container" itemprop="image">
+                    <div class="w3-content w3-display-container" >
             
                             {{#each this.image}}
                             <div class="w3-display-container mySlides">
@@ -30,8 +37,10 @@
                </div><!--End toolitem__content_fullsize -->
                 <div class="toolitem__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                      <meta itemprop="priceCurrency" content="EUR" />
+                     <meta itemprop="price" content="{{priceTTC}}" />
+                     
                     <h1>{{priceHT}} HT</h1>
-                    <p  itemprop="price">{{priceTTC}} TTC <br>                
+                    <p  >{{priceTTC}} TTC <br>                
                     TVA : {{TauxTVA}}</p>
                    
                     {{#if IsDelivery}}
@@ -67,7 +76,7 @@
                 
             </div>
              <div class="row">
-                  <div class="toolitem__content" itemprop="description">                    
+                  <div class="toolitem__content" >                    
                      {{{ contents }}}
                </div><!--End toolitem__content -->
              
