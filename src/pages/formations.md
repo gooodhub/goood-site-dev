@@ -23,8 +23,7 @@ formation_themes: [
         {name: "Mobiliser l’intelligence collective",formationslist: [
                     {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
                     {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"}]},
-        {name: "Accompagner l’évolution des collaborateurs",formationslist: [
-                    {formationname: "",path: ""}]},
+       
         {name: "Passer de la formation à l’apprentissage",formationslist: [
                     {formationname: "Managers as a Service",path: "manager-as-a-service"}]}
         
