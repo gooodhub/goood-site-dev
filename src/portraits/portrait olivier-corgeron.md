@@ -1,10 +1,10 @@
 ---
 name: Olivier Corgeron
-bulle1: "Great things in business are never done 
-bulle2: by one person. They're done by 
-bulle3: a team of people." - Steve Jobs
-image: /images/portraits/olivierC.jpg [OBLIGATOIRE MAIS JE M'EN CHARGE]
-hashtag: '#WHEELER' [OBLIGATOIRE]
+bulle1: “Great things in business are never 
+bulle2:  done by one person. They're done by 
+bulle3: a team of people.” - Steve Jobs
+image: /images/portraits/olivierC.jpg
+hashtag: '#WHEELER'
 job: CTO
 facebook: https://www.facebook.com/olivier.corgeron
 twitter: 
