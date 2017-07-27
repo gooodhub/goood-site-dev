@@ -5,7 +5,7 @@
   flex-direction: column;
   position: relative;
   align-items: center;
-
+  
   .row {
     width: 100%;
   }
@@ -45,6 +45,9 @@
      position:relative;
      flex: 1;
      flex-direction: row;
+     padding:1rem;
+      
+
      b{
          font-weight: 600;
      }
@@ -73,7 +76,7 @@
     padding-bottom: 0;
     position: relative;
     background: $secondaryColor;
-
+    
     h1, p, p { color: white; }
     p:after { background: white; }
 
@@ -156,13 +159,13 @@
 
     }
 }
-.formateur
-{
-    .slider1
-    {
-        margin-top:-45px;
+.formateurs
+{ 
+    @media #{$medium-up} {
+     margin-top:-83px ;    
+                 }
+     
     }
-}
 .next_session
 {
     margin: auto;
@@ -187,7 +190,7 @@
     {
         width: 100%;
         text-align: center;
-        margin:1rem 0  1rem 0 ;
+        margin:6rem 0  1rem 0 ;
        h1{ display:inline-block;
        ; color:$primaryColor;
        }

@@ -34,7 +34,8 @@ ul.bxslider {
   border: 5px solid #fff;
   background: #fff;
   margin: auto;
-  margin-top:-3.5rem;
+   
+ 
 }
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
@@ -46,7 +47,7 @@ ul.bxslider {
 /* LOADER */
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url('images/bx_loader.gif') center center no-repeat #ffffff;
+  background: url('/images/bx_loader.gif') center center no-repeat #ffffff;
   height: 100%;
   width: 100%;
   position: absolute;
