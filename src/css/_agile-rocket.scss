@@ -2,11 +2,71 @@
 
   .rocket__demarche {
     background: $secondaryColor;
-
-    &__content h1 {
-      color: white;
+    padding-bottom:3rem;
+    &__content{ 
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      p{
+        color: white;
+        text-align: center;
+      }
+      
     }
+    
   }
+  .actions{
+        @extend %contentPadding;
+        @extend %shadow;
+        margin: auto;
+        display: flex;        
+        flex:1;
+        background-color: white;
+        width:75%;
+        margin-top:-5rem;
+        
+
+        @media #{$small-only} {
+          padding-right: 0;
+          margin-top:1rem;
+          width:95%;
+          flex: 1;
+         }
+      }
+      
+      .action
+      {
+        padding:0 2rem;
+        float: left;
+        position: relative;
+        display:block;
+        width:33%;
+        p{
+          text-align: center;
+          font-size:1.3rem;
+          color:$secondaryColor;
+          @extend %contentBoldFont;
+        }
+        .btn-secondary
+        {
+          background: #fc4c02;
+          color: white;
+          border-color: white;
+        }
+        .link-orange
+        {
+          text-align: right;
+          color:$primaryColor;
+          display:block;
+        }
+      }
+      .demarrer
+      {
+          @extend %contentBoldFont;
+          color:$secondaryColor;
+          margin:auto;
+      }
 
   .rocket {
     @extend %contentPadding;
@@ -99,7 +159,7 @@
 }
 
 .row {
-      max-width: 800px;
+      max-width: 870px;
       padding-bottom: 20px;
       margin-bottom: 50px;
       @media #{$small-only} { padding-right: 16px; }

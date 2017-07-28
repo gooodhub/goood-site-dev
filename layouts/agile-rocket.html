@@ -7,12 +7,31 @@
           <div class="row">
             <div class="rocket__demarche__content">
               <header class="header">
-                <h1>Une démarche alternative vers une agilité respectueuse, spécifique, modulaire et progressive</h1>
+                <p>Agile Rocket</p>
+                <h1>Une démarche modulaire et progressive pour mettre en oeuvre une transformation agile</h1>
               </header>
+              
             </div>
           </div>
+         
         </section>
-        <section class="rocket_modules">
+     <div class="actions">
+        <div class="action"> 
+          <p>Envie d'apprendre à mettre en oeuvre la démarche?</p>
+          <a href="#" class="btn btn-secondary">Formation</a>
+        </div>
+        <div class="action">
+          <p>On s'organise un dej pour présenter l'Agile Rocket chez vous?</p>
+          <a href="#" class="btn btn-secondary">BBL</a>
+        </div>
+        <div class="action">
+          <p>Le guide pour un voyage exploratoire agile et modulaire</p>
+          <a href="{{rocketguideAcheter}}" class="arrow-link link-orange">Acheter le livre  {{svg "./fleche-droite-ico.svg"}}</a>
+          <a href="{{rocketguidepdf}}" class="arrow-link link-orange">Télécharger le PDF {{svg "./fleche-droite-ico.svg"}}</a>
+        </div>
+     </div>
+     <div class="row"><p class="demarrer">Demarrer le voyage <p></div>
+     <section class="rocket_modules">
           {{#each agile_rocket_modules}}
           <div class="row">
             <H1>{{title}}</H1>
@@ -23,6 +42,9 @@
           </div>
           {{/each}}
         </section><!-- end section rocket_modules -->
+     </div>
+
+        
         <section class="rocket">
           <div class="rocket__left">
             <div class="row green">
