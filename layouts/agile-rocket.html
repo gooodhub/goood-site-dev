@@ -7,7 +7,7 @@
           <div class="row">
             <div class="rocket__demarche__content">
               <header class="header">
-                <p>Agile Rocket</p>
+                <p>Qu'est-ce que c'est?</p>
                 <h1>Une démarche modulaire et progressive pour mettre en oeuvre une transformation agile</h1>
               </header>
               
@@ -35,115 +35,17 @@
           {{#each agile_rocket_modules}}
           <div class="row">
             <H1>{{title}}</H1>
-            {{question}}
-            {{image}}
-            {{scribing}}
-            {{{content}}}
+            <h2>{{question}}</h2>
+            <img src="/images/agile-rocket/{{image}}" width="222px" height="315px"/>
+            <img src="/images/agile-rocket/{{scribing}}"  width="455px" height="341px"/>
+            {{{contents}}}
           </div>
           {{/each}}
         </section><!-- end section rocket_modules -->
      </div>
 
         
-        <section class="rocket">
-          <div class="rocket__left">
-            <div class="row green">
-              <h2>Les étages</h2>
-              <p>Matérialisation d’une progression dans la maturité.<br/> Trois étages orientés vers la production de valeur.</p>
-              <ul>
-                <li>
-                  <a href="/agile-rocket/cooperer" class="arrow-link"> Coopérer {{svg "./fleche-droite-ico.svg"}} </a>
-                </li>
-                <li>
-                  <a href="/agile-rocket/ameliorer" class="arrow-link"> Améliorer {{svg "./fleche-droite-ico.svg"}}</a>
-                </li>
-                <li>
-                  <a href="agile-rocket/fluidifier" class="arrow-link"> Fluidifier {{svg "./fleche-droite-ico.svg"}} </a>
-                </li>
-              </ul>
-            </div>
-            <div class="row blue">
-              <h2>Stabilisateurs</h2>
-              <p>Assurent le pilotage et le guidage du vol.</p>
-              <ul>
-              <li><a href="/agile-rocket/management" class="arrow-link">
-              	Management complexe
-              	{{svg "./fleche-droite-ico.svg"}}
-              </a></li>
-              <li><a href="/agile-rocket/maitrise" class="arrow-link">
-              	Maîtrise personnelle
-              	{{svg "./fleche-droite-ico.svg"}}
-              </a></li>
-            </ul>
-            </div>
-          </div>
-          <div class="rocket__middle">
-            <img src="/images/agile-rocket/rocket.jpg" alt="Agile Rocket">
-          </div>
-          <div class="rocket__right">
-            <div class="row yellow">
-              <h2>La North Star</h2>
-              <ul>
-              <li>
-              <a href="/agile-rocket/north-star" class="arrow-link">
-              	La North Star
-              	{{svg "./fleche-droite-ico.svg"}}
-              </a>
-            </li></ul>
-            </div>
-            <div class="row pink">
-              <h2>Boucliers thermiques</h2>
-              <p>Faire la bonne chose correctement.</p>
-              <ul>
-              <li><a href="/agile-rocket/produit" class="arrow-link">
-                Le bon produit
-                {{svg "./fleche-droite-ico.svg"}}
-              </a></li>
-              <li><a href="/agile-rocket/excellence" class="arrow-link">
-                Excellence (d'ingénierie)
-                {{svg "./fleche-droite-ico.svg"}}
-              </a></li>
-            </ul>
-            </div>
-            <div class="row grey">
-              <header>
-                <h2>Réussir</h2>
-              </header>
-              <p>Radar et carburant pour soutenir la réussite</p>
-              <ul>
-              <li><a href="/agile-rocket/culture" class="arrow-link">
-                Culture Agile
-                {{svg "./fleche-droite-ico.svg"}}
-              </a></li>
-            </ul>
-            </div>
-          </div>
-        </section>
-        <section class="rocket_orange">
-          <div class="row">
-            <div class="rocket_orange__content">
-              <p>La métaphore de l’Agile Rocket vise à guider progressivement le lecteur vers une meilleure compréhension de ce qu’est une démarche vers plus d’agilité, des problèmes auxquels nous tentons d’apporter des améliorations (faute de prétendre à LA solution)
-              et des invitations à la transformation progressive que nous portons.</p>
-            </div>
-          </div>
-        </section>
-        <section class="rocket__full">
-          <div class="row">
-            <div class="rocket__full__img">
-              <img src="/images/agile-rocket/rocket_guide_book.jpg"/>
-            </div>
-            <div class="rocket__full__content">
-              <header>
-                <p>Comprendre la démarche</p>
-              </header>
-              <p>Ce guide, rédigé par cinq coaches agiles de la société Goood!, propose de construire un voyage de transformation agile de façon modulaire et progressive.</p>
-              <p>Sponsor, managers et équipage sont conviés à imaginer leur destination et d'améliorer progressivement et de manière structurée leur fonctionnement quotidien.</p>
-              <p>Pour chaque module sont proposés : la question à résoudre, une introduction humoristique des dysfonctions, un scribing de synthèse des points-clés, une description d'ateliers, des exemples de durée et d'effort requis, une bibliographie et les incontournables trois conseils pour mieux réussir à ne pas décoller !</p>
-              <p><a href="http://bit.ly/rocket-guide-bookelis" title="Agile Rocket Guide Papier" target="_blank">Achetez le livre physique</a></p>
-              <p><a href="http://bit.ly/agile-rocket-guide-1-3" title="Agile Rocket Guide PDF" target="_blank">Téléchargez au format numérique</a></p>
-            </div>
-          </div>
-        </section>
+        
         {{> slide-nav-buttons
           prevTitle = 'Formations'
           prevPath = '/formations/'
