@@ -8,12 +8,12 @@ productname:  Louer une salle à Sophia antipolis (1j),
 headline: "Une formation, un événement communautaire ou tout simplement besoin de sortir du cadre, nos locaux Goood Sud peuvent vous accueillir.",
 order: 3,
 id: sallesud,
-IsPayment: 1,
+IsPayment: 0,
 IsDelivery : 0,
 InStock: 0,
 pricePort:, 
-priceHT: 290€,
-priceTTC: 348€,
+priceHT: 290,
+priceTTC: 348,
 TauxTVA: "20%",
 buttonAchatLabel: Payer ma réservation, 
 mainimage : "/images/toolkits/espace-sud-piece1-vueensemble.jpg",
@@ -42,7 +42,7 @@ Inclus :
 * Equipements: sticky wall, télévision avec caméra et micro pour les vidéos/conférences, posts-its, paper boards, wifi.
 * Le café est offert
  
-## Pour connaitre les disponibilités, envoyez-nous un mail à sud[a]goood.pro ##
+## Pour connaitre les disponibilités, envoyez-nous un mail à <sud@goood.pro> ##
 
 ### EVENEMENTS GRATUITS / COMMUNAUTES ###
 Goood! est très impliqué dans les différentes communautés Agile et Techniques. C’est pourquoi pour les évènements communautaires et sans but lucratif, nous offrons la location. Merci de nous contacter par mail pour plus de précisions.

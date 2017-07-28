@@ -10,6 +10,7 @@ facebook:
 twitter: http://twitter.com/LEOFOLDLoic
 linkedin: https://www.linkedin.com/in/lo%C3%AFc-leofold-a5494a87/
 blog: https://lleofold.wordpress.com
+formateur: 0
 ---
 Loïc est un véritable alchimiste agile, à la recherche de la moindre pépite à révéler à ses clients. 
 Expert en happiness hacking, il accompagne ses clients à explorer de nouvelles façon d'interagir et de travailler ensemble.

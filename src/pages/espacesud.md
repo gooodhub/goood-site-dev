@@ -2,7 +2,7 @@
 title: Espace Goood! Sophia Antipolis
 slug: espace-sud
 headline: Votre espace dans le sud
-description: Espace Goood! sud comme à la maison, utilisable pour vos besoins
+description: 2 salles à Sophia Antipolis pour faciliter vos ateliers, réunions, jeu et conférences
 layout: espacesud.html
 ---
 

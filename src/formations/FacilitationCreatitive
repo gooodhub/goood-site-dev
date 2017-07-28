@@ -1,7 +1,7 @@
 ---
 {
 	title: "Plus de créativité dans l’entreprise grâce aux techniques de facilitation",
-	slug: Creativite-grace-aux-techniques-de-facilitation, 
+	slug: creativite-grace-aux-techniques-de-facilitation, 
 	headline: "Plus de créativité dans l’entreprise grâce aux techniques de facilitation",
 	description: Catalyser la créativité des équipiers par les techniques de facilitation,
 	theme: agile,
@@ -11,7 +11,7 @@
 	prixIntra: 4000,
 	pourcentagePratique: 75,
 	lesPlus: [Découvrir plusieurs manières d'attaquer une problématique, Explorer la facilitation et la posture de facilitateur, Savoir structurer une démarche de créativité],
-	layout: sous-page.html, 
+	layout: formation-fiche.html, 
 	dates: [30 - 31 Mai à Lyon]
 }
 ---

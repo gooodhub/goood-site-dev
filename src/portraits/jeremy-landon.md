@@ -10,6 +10,7 @@ facebook: https://www.facebook.com/jeremy.landon.543
 twitter: 
 linkedin: https://fr.linkedin.com/in/jérémy-landon-985ab568
 blog: http://jeremylandon.com
+formateur: 1
 ---
 
 

@@ -1,5 +1,5 @@
 {{#> layout }} {{#*inline "content"}}
-<div class="slide" id="toolitem">
+<div class="slide" id="toolitem" itemscope itemtype="http://schema.org/Product" >
     {{> slide-header title=title }}
     <div class="slide__content">
        <!-- <section class="toolitem">
@@ -7,11 +7,18 @@
                     {{headline}}
                </header>   
         </section>-->
-        <section class="toolitem">
+        <section class="toolitem" >
             <div class="row">
               <div class="toolitem__content_fullsize"> 
+                  <meta itemprop="name" content="{{productname}}" />
+                  <meta itemprop="brand" content="Goood!" />
+                  <meta itemprop="description" content="{{description}}" />
+                   <meta itemprop="identifier" content="{{slug}}" />
+                    <meta itemprop="image" content="{{mainimage}}" />
+                  
+                  
                     {{#if image}}
-                    <div class="w3-content w3-display-container">
+                    <div class="w3-content w3-display-container" >
             
                             {{#each this.image}}
                             <div class="w3-display-container mySlides">
@@ -28,43 +35,48 @@
                     </div>
                     {{/if}}
                </div><!--End toolitem__content_fullsize -->
-                <div class="toolitem__price">
-                    {{# if IsPayment}}   
-                    <h1>{{priceHT}} HT</h1>
-                    <p>{{priceTTC}} TTC <br>                
+                <div class="toolitem__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                     <meta itemprop="priceCurrency" content="EUR" />
+                     <meta itemprop="price" content="{{priceTTC}}" />
+                     
+                    <h1>{{priceHT}}€ HT</h1>
+                    <p  >{{priceTTC}}€ TTC <br>                
                     TVA : {{TauxTVA}}</p>
+                   
                     {{#if IsDelivery}}
                      {{#if InStock}}
-                    <H2>En stock</H2>
-                    {{/if}}
+                    <H2 itemprop="availability" href="http://schema.org/InStock">En stock</H2>
+                    {{/if}}<!-- InStock-->
                     <p>Le produit vous sera expédié sous 5 jours ouvrés.</p>
-                    {{/if}}
-                    <form action='{{2checkouturl}}' method='post'>
+                    {{/if}}<!-- IsDelivery -->
+                    {{#if IsPayment}}   
+                   
                     
-                        <input type='hidden' name='sid' value='{{2checkouturl_sid}}'>
-                        
-                        <input type='hidden' name='quantity' value='1'>
-                        <input type='hidden' name='product_id' value='{{2checkoutProductId}}'>
-                         <input type='hidden' name='lang' value='fr'>                        
-                        <input name='submit' class="btn" type='submit' value='{{buttonAchatLabel}}' >
+                    {{#if InStock}}
+                   <form action="{{paymenturl}}" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                           {{{PaymentHtml}}}
+                            <input name='submit' class="btn" type='submit' value='{{buttonAchatLabel}}' alt="PayPal, le réflexe sécurité pour payer en ligne">                            
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
                         </form>
-                        <div style="display:block;float:left;">
-                            <a href="{{2checkouturl}}" > 
-                            <i class="fa-2x fa fa-shopping-cart" aria-hidden="true" style="margin-top: 20px; margin-right: 10px;"></i>Voir mon panier
-                        </a>
-                        </div>
-                    {{/if}}
-                    <div class="contact"  style="">Une question? Contactez nous :
+                    {{else}}<!-- InStock-->
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScIbgsLlH3jG63tV2hbMQlFWilhfxbi5C0l_fGLHS3e7IJFXw/viewform?usp=pp_url&entry.282939771={{slug}}"
+                   target="_blank" class="btn btnlink">{{{buttonAchatLabel}}}</a>   
+
+                    {{/if}}<!--End InStock -->                        
+                    {{/if}}<!--End IsPayment -->
+                  
+                    <div class="contact"  >Une question, contactez nous par mail ou téléphone:
                         <ul>
                         <li><i class="fa fa-phone" aria-hidden="true" style="margin-right: 20px;"></i>01 75 50 67 69</li>
-                        <li><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 20px;"></i>contact[a]goood.pro</li>
+                        <li><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 20px;"></i><a href="mailto:contact@goood.pro">contact@goood.pro</a></li>
                         </ul>
                     </div>
                 </div><!--End toolitem__price -->
                 
             </div>
              <div class="row">
-                  <div class="toolitem__content">                    
+                  <div class="toolitem__content" >                    
                      {{{ contents }}}
                </div><!--End toolitem__content -->
              

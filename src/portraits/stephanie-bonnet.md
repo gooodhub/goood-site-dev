@@ -10,6 +10,7 @@ facebook:
 twitter: 
 linkedin: https://fr.linkedin.com/in/stephaniebonnet/fr
 blog: 
+formateur: 0
 ---
 Depuis toujours passionnée par l’humain et la communication, Stéphanie a depuis ses débuts travaillé au sein d’équipes aux formats et cultures variés. Elle découvre l’agilité à l’occasion d’une mission dans une startup du secteur du jeu vidéo. Aujourd’hui, elle s’attache à accompagner des équipes vers l’agilité et surtout à réinjecter de l’humain dans l’entreprise. 
 

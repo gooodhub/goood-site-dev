@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/cranedemorse
 linkedin: https://fr.linkedin.com/in/julienporot
 blog: https://blog.goood.pro/author/jporot/
+formateur: 0
 ---
 Julien aide les personnes, les équipes et les organisations à mieux collaborer, et fait tout son possible pour que cela se fasse dans la joie et le respect. 
 Il s’appuie sur son goût pour la facilitation, le théâtre et le coaching systémique pour faire bouger les lignes.

@@ -10,6 +10,7 @@ facebook:
 twitter: 
 linkedin: 
 blog: 
+formateur: 0
 ---
 Le PL (pas "poids lourd", ni "ponction lombaire", mais bien Pier-Lionel) est une espèce qui aime travailler en équipe.
 

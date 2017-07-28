@@ -10,5 +10,6 @@ facebook:
 twitter: https://twitter.com/g_rosenbaum
 linkedin: https://fr.linkedin.com/in/gillesrosenbaum
 blog:
+formateur: 0
 ---
 Où le croiser ? En pleine forêt avec un appareil photo et un objectif macro en main.

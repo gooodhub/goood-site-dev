@@ -1,107 +1,234 @@
-<!doctype html>
-<html lang="fr-FR" manifest="http://goood.pro/site.appcache">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="{{ description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <title>{{ title }}</title>
-  <meta property="og:title" content="Goood!" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://goood.pro" />
-  <meta property="og:image" content="http://goood.pro/images/header-events-th2.jpg" />
-  <meta property="og:description" content="Chez Goood! on aime partager, une forme de partage, c’est la formation. Beaucoup de sessions sont organisées pour un client et privées mais il y a aussi quelques dates ouvertes à tous. Retrouvez notre catalogue en ligne." />
-  <meta property="og:locale" content="fr_FR" />
-  <meta property="og:site_name" content="Goood!" />
-  <meta property="og:video" content="https://youtu.be/BI7K9lWhMgc" />
-  <link rel="stylesheet" href="/css/app.css">
-  <link rel="icon" href="/images/favicon.ico" />
-  <script type="application/ld+json">
-{
-  "@graph":   [
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "Goood!",
-      "url": "http://www.goood.pro"
-    },
-    {
-      "@context": "http://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@id": "https://goood.pro/formations",
-          "name": "Agenda",
-          "image": "http://goood.pro/images/header-events-th2.jpg"
-        }
-      },{
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@id": "https://goood.pro/formations/techniques-et-methodes-de-facilitation-de-groupe/",
-          "name": "TOP",
-          "image": "http://goood.pro/images/workshop.jpg"
-        }
-      },{
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@id": "http://www.goood.pro/formations/manager-agile/",
-          "name": "Management 3.0",
-          "image": "http://goood.pro/images/workshop.jpg"
-        }
-      },{
-        "@type": "ListItem",
-        "position": 4,
-        "item": {
-          "@id": "http://www.goood.pro/formations/introduction-agile/",
-          "name": "Introduction Agilité",
-          "image": "http://goood.pro/images/workshop.jpg"
-        }
-      }]
-    }
-  ]
-}
-</script>
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-70741563-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-</head>
-
-{{#> body-layout }}
+{{#> layout }}
 {{#*inline "content"}}
-<div class="slide" id="events">
+<div class="slide" id="formations">
     {{> slide-header title=headline }}
     <div class="slide__content">
-        <div class="row">
-            <section class="intro">
-                <p>Une autre forme de partage, c’est la formation. Beaucoup de sessions sont organisées pour un client et privées mais il y a aussi quelques dates ouvertes à tous.</p>
-                <h1>Prochaines Formations inter-entreprises ouvertes</h1>
-                <p><em>Astuce : Pour découvrir l’étendue de notre offre de formation le mieux c’est de <a href="http://www.goood.pro/files/catalogue-formations-goood.pdf" id="telechargement-catalogue-formation">télécharger notre catalogue</a> et de <a href="mailto:formation@goood.pro" id="contact-celia-page-formations">contacter Célia</a>.</em></p>
-                {{#each formations}}
-                <div class="evenement">
-                    <h3><a href="/{{this.path}}" class="formation-link" data-title="{{this.title}}"><i class="fa fa-external-link" style="margin-right:10px;" aria-hidden="true"></i>{{this.title}}</a></h3>
-                    <span>
-                        {{this.description}}
-                    </span>
-                    <ul>
-                        {{#each this.dates}}
-                        <li>
-                            {{this}}
-                        </li>
-                        {{/each}}
-                    </ul>
-                    {{this.test}}
+       <section class="conviction">
+            <div class="row">
+              <div class="conviction__content">
+                <header>
+                  <p>
+                    Nos convictions
+                  </p>
+                  <h1>
+                    Vous donner les moyens de faire mieux
+                  </h1>
+                </header>
+                <p>
+                 Nous vous délivrons des formations pour vous transmettre ce que l'on a appris en faisant avec nos clients. Si une formation est présente
+                 dans notre catalogue, c'est que nous pensons que vous ne la trouverez pas ailleurs et qu'elle vous fournira des leviers pour vous rendre
+                 plus efficace. 
+                </p>
+                
+              </div>
+              <div class="conviction__chiffres"> 
+                    <div class="nombre">700+</div>
+                    <div class="texte">personnes formées en 2016</div>
+                    <div class="nombre">97%</div>
+                    <div class="texte">des participants satisfaits</div>
+               </div>
+                <!--<a id="video-dth" href="#inline" data-toggle="modal" data-target="#modal-video-dth" class="mission__video">
+
+                </a>
+                <div class="modal fade" id="modal-video-dth" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body" id="modal-body-video-dth">
+                                <iframe width="853" height="480"  src="https://www.youtube.com/embed/BI7K9lWhMgc?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                {{/each}}
-            </section>
+                -->
+            </div>
+          </section><!-- mission -->
+ <section class="formation">
+     <header class="formation__header">              
+        <h1>
+            Decouvrez nos formations
+        </h1>
+      </header>
+        <div class="formation__content">
+            <div>
+                <p>Et si vous souhaitez obtenir davantage d'informations<br>
+                <b>contactez Celia via: <a href="mailto:formations@goood.pro">formations@goood.pro</a></b></p>
+            </div>
+            <div >
+                <div class="affiliation"><p>N° affiliation
+                    <button class="btn btn-default" >11 75 54328 75</button></p> 
+                </div>
+            </div>
         </div>
+        
+ </section><!-- formation -->
+ <section class="formation_liste">
+           <div class="row">
+                 {{#each formation_themes}}
+                 <div class="bloc_theme">
+                
+                    <div class="header">
+                            {{name}}
+                    </div>
+                    <div class="detail">
+                    <ul>
+                        {{#each this.formationslist}}
+                            
+                            <li><a href="{{path}}" >{{formationname}} <!--{{svg "./fleche-orange.svg"}} -->
+                                <i class="fa fa-arrow-right" aria-hidden="true" style="margin-left: 20px;"></i>
+                                </a> </li>
+                            
+                    {{/each}}
+                    </ul>
+                    </div>
+                 </div>
+                 {{/each}}
+
+                 <div class="bloc_catalogue">
+                   <a href="http://www.goood.pro/files/catalogue-formations-goood.pdf"  >
+                   <img src="../images/catalogue_vignette.png" />
+                   <i class="fa fa-download fa-2x" aria-hidden="true" style="display:block; margin:8px 0px"></i>
+                    Téléchargez notre catalogue
+                   </a>    
+                    
+                    
+                 </div>
+           </div>
+</section><!-- formation_liste -->
+<section class="formation">
+    <header class="formation__header">
+    <h1>
+        Découvrez nos formateurs
+    </h1>
+    
+    </header>
+    <div class="formation__content">
+        <div>
+            <p>Toutes nos formations sont animées par des gooodiens qui vous transmettent leur passion, leur énergie, leurs expériences terrain.<br/><br/>
+            Chacun a ses domaines de compétence  de prédilection, mais tous sont animés par la même envie de transmettre et de vous donner les clés pour vous aider à avancer.
+            </p>
+        </div>
+    </div>
+</section><!-- formation -->
+ 
+ 
+<section class="formateurs">
+    <div class="row">
+    <div class="slider1">
+       {{#each portraits}}
+       {{#if formateur}}
+         <div class="slidee"><img src="{{image}}"  height="350px" alt="{{name}}"></div>
+         {{/if}}
+       {{/each}}
+    </div>
+    </div>
+   
+    <script type="text/javascript">
+$(document).ready(function(){
+  $('.slider1').bxSlider({
+    slideWidth: 280,
+    minSlides: 1,
+    maxSlides: 3,
+	moveSlides: 1,
+    slideMargin: 10
+  });
+});
+</script>
+</section><!-- formateur -->
+<section class="next_session">
+           <div class="row">
+               <div class="header">
+                 <h1> Nos prochaines sessions</h1>
+               </div>
+           </div>
+           <div class="row">
+              <div class="paris">     
+               <h1>Paris</h1>
+               <p class="tiret">____</p>
+               <ul>
+                
+                
+                  {{#each promotedate_paris}}
+                
+                 <li itemscope itemtype="http://schema.org/Event"> <a href="{{path}}" itemprop="url"> 
+                     <p class="date"><time itemprop="startDate" datetime="{{this.date_startYYYYMMDD}}">{{this.date_start}}</time><meta itemprop="endDate" content="{{this.date_endYYYYMMDD}}" /></p> 
+                                           <p class="titre_formation " itemprop="name"> {{this.formationname}}</p>  </a>
+                    <p  hidden itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <meta itemprop="address" content="Paris, France"></p>
+                 
+                    </li>
+                   {{/each}}
+                
+               </ul>
+              </div>
+              <div class ="nice">
+                  <h1>Sophia Antipolis</h1>
+                   <p class="tiret">____</p>
+                  <ul>
+                
+                
+                  {{#each promotedate_sophia}}
+                
+                   
+                 <li  itemscope itemtype="http://schema.org/Event"> <a href="{{path}}" itemprop="url"> 
+                     <p class="date"><time itemprop="startDate" datetime="{{this.date_startYYYYMMDD}}">{{this.date_start}}</time><meta itemprop="endDate" content="{{this.date_endYYYYMMDD}}" /></p> 
+                                           <p class="titre_formation" itemprop="name"> {{this.formationname}}</p>  </a>
+                                           <p  hidden itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <meta itemprop="address" content="Sophia Antipolis Nice"></p></li>
+                   {{/each}}
+                
+               </ul>
+              
+              
+                  <h1>Lyon</h1>
+                   <p class="tiret">____</p>
+                  <ul>
+                
+                
+                  {{#each promotedate_lyon}}
+                
+                  
+               <li  itemscope itemtype="http://schema.org/Event"> <a href="{{path}}" itemprop="url"> 
+                     <p class="date"><time itemprop="startDate" datetime="{{this.date_startYYYYMMDD}}">{{this.date_start}}</time><meta itemprop="endDate" content="{{this.date_endYYYYMMDD}}" /></p> 
+                                           <p class="titre_formation" itemprop="name"> {{this.formationname}}</p>  </a>
+                                           <p  hidden itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <meta itemprop="address" content="Lyon"></p></li>
+                   {{/each}}
+                
+               </ul>
+              </div>
+              <div class="row incription">
+                  <a href="#incriptionform" class="btn btn-secondary">Inscription à une session
+                      <i class="fa fa-arrow-down" aria-hidden="true" style="margin-left: 20px;"></i>
+                  </a>
+              </div>
+              <div  class="row incriptionform" id="incriptionform">
+                  <p >Si vous êtes intéressé par une formation ou une autre, remplissez ce formulaire et nous vous recontactons très vite.
+                  </p>
+                  <form action="https://formspree.io/n.guignardeau@goood.pro" method="POST" >
+                      Nom* <input type="text" placeholder="Nom" name="nom" required size="50"/>
+                      Email* <input type="text" name="email" placeholder="dupont@domaine.fr" required size="50"/>
+                      Tel <input type="text" name="tel" placeholder="06 xx xx xx xx" size="14"/>
+                      Formation<select name="formation" >
+                          {{#each promotedate_paris}}
+                              <option>Paris - {{this.date_start}} - {{this.formationname}} </option>                        
+                          {{/each}}
+                          {{#each promotedate_sophia}}
+                              <option>Sophia - {{this.date_start}} - {{this.formationname}} </option>                        
+                          {{/each}}
+                          {{#each promotedate_lyon}}
+                              <option>Lyon - {{this.date_start}} - {{this.formationname}} </option>                        
+                          {{/each}}
+                          <option>ou un autre formation</option>                        
+                      </select>
+                      <input type="submit" class="btn btn-primary" Value="Envoyer!"/>
+                  </form>
+
+              </div>    
+           </div>
+        </section><!-- NextSession -->
+            
+   
+
     </div>
     {{> slide-nav-buttons
           prevTitle = 'Agenda'
@@ -113,4 +240,5 @@ ga('send', 'pageview');
 </div>
 </div>
 {{/inline}}
-{{/body-layout}}
+
+{{/layout}}

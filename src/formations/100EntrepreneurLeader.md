@@ -1,0 +1,58 @@
+---
+{
+	title: "L'entrepreneur leader", 
+	slug: "entrepreneur-leader", 
+	headline: "L'entrepreneur leader",
+	description: "Formation basée sur les travaux de Robert Dilts. Elle permettra de préciser votre vision et mission, de développer
+votre leadership en affinant votre posture de communication, de susciter l’adhésion des équipes et partenaires à votre projet et de transformer votre vision en plan d’actions.", 
+	theme: agile,
+	heures: 14,
+	participants: 10,
+	InterExiste: 1,
+	prixInter: 1 300,
+	prixIntra: 4 500,
+	pourcentagePratique: 60,
+	lesPlus: ["Chaque participant repart avec une conviction renforcée, une expression de sa vision,mission, ambition et une stratégie
+de passage à l’action."],
+	layout: formation-fiche.html, 
+	dates: [14 et 15 Septembre 2017 à Paris, 14 et 15 Septembre 2017 à Sophia Antipolis]
+}
+---
+
+# L'entrepreneur leader
+
+## Objectifs de la formation : ##
+
+* Préciser les différents axes de votre posture : vision, mission, ambition, rôle
+* Expérimenter l’intervision
+* Élaborer une stratégie de passage à l’action alignée avec votre posture
+* Renforcer votre conviction de succès
+
+Cette formation, basée sur les travaux de Robert Dilts, permettra de préciser votre vision et mission, de développer votre leadership en affinant votre posture de communication, de susciter l’adhésion des équipes et partenaires à votre projet et de transformer votre vision en plan d’actions.
+
+# Programme #
+
+## Jour 1 ##
+
+### Vision, mission, ambition, rôle ###
+* De l’entrepreneur au leader, leadership
+* Les niveaux de processus
+* Le modèle des facteurs de succès de Robert Dilts
+* Comportements et succès
+* Vision et mission
+* Atelier : « Définition vision et mission »
+* Intervision : susciter l’échange et la coopération
+* Atelier : « Expérimenter l’intervision »
+* Atelier : « Ma vision, ma mission, mon ambition, mon rôle »
+
+
+### Transformer la vision en succès ###
+* Atelier : « Compléter votre cercle du succès du SFM™ »
+* Ingénierie de l’imagination : modèle de Disney
+* Atelier : « Répondez aux questions du rêveur, du réaliste, du critique »
+* Atelier : « Préparez la roadmap avec le storyboard de la réussite »
+* Renforcer la conviction
+
+
+## Public concerné ##
+Ce stage s’adresse aux etrepreneurs, décideurs, porteurs de projet, responsables produit, accompagnateurs du changement, RH et consultants.

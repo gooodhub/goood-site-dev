@@ -1,11 +1,16 @@
 {{#> layout }}
   {{#*inline "content"}}
-    <div class="slide" id="contact">
+    <div class="slide" id="contact" itemscope itemtype="http://schema.org/Corporation">
       {{> slide-header title=headline }}
       <div class="slide__content">
         <div class="row">
           <section class="intro">
-            <h1>
+            <meta itemprop="name" content="Goood!" />
+            <meta itemprop="url" content="http://www.goood.pro" />
+            <time itemprop="foundingDate" datetime="2004-02-04">2004</time>
+            
+            <h1 itemprop="location" itemscope itemtype="http://schema.org/Place">
+               <meta  itemprop="address" content="34 bd de Sébastopol, 75004 Paris">
               Un projet, une question,
               une envie furieuse de nous parler ?
             </h1>
@@ -18,39 +23,49 @@
               une de nos agences du sud.
             </p>
           </section>
-          <section class="coord">
+          <section class="coord" >
             <div class="coord__left">
             <div class="row">
-            <div class="contact-goood">
+            <div class="contact-goood"  itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
               <h2>À Paris :</h2>
-              <p>
+              <p >
                 34 bd de Sébastopol, 75004 Paris (quartier des Halles)
               </p>
-              <p>
+              <p >
                 Tél :  01 75 50 67 69
               </p>
-              <p>
+              <p  >
                 <a class="btn btn-primary" id="contact-sandrine" data-text="(mail à l'équipe Parisienne)" href="mailto:paris@goood.pro">
-                    <span>Contactez <strong>Sandrine</strong></span>
+                    <span >Contactez <strong>Sandrine</strong></span>
+                    <meta itemprop="contactType" content="sales contact point" />              
+                    <meta itemprop="name" content="Sandrine pour équipe Parisienne" />                    
+                    <meta itemprop="telephone" content="+33 1 75 50 67 69" />
+                    <meta itemprop="email" content="paris@goood.pro" />
                 </a>
               </p>
             </div>
             </div>
             <div class="row">
-            <div class="contact-goood">
+            <div class="contact-goood" >
+            
               <h2>À Lyon :</h2>
               <p>
                 Mobile :  06 83 21 20 45
               </p>
-              <p>
+              <p itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
                 <a class="btn btn-primary" id="contact-gregory" data-text="(mail à Grégory)" href="mailto:lyon@goood.pro">
                     <span>Contactez <strong>Grégory</strong></span>
+                    <meta itemprop="contactType" content="sales contact point" />              
+                    <meta itemprop="name" content="Grégory à Lyon" />  
+                    <meta itemprop="telephone" content="+33 6 83 21 20 45" />
+                    <meta itemprop="email" content="lyon@goood.pro" />
                 </a>
               </p>
               </div>
             </div>
             <div class="row">
-              <div class="contact-goood">
+              <div class="contact-goood" >
+              
               <h2>À Nice/Sophia-Antipolis, ou à Marseille :</h2>
               <p>
                 <a href="/espace-sud" class="espace-sud-link"><i class="fa fa-external-link" style="margin-right:10px;" aria-hidden="true"></i>Agora, Place Sophie Laffitte 06560 Valbonne</a>
@@ -58,9 +73,13 @@
               <p>
                 Mobile :  06 25 10 67 53
               </p>
-              <p>
+              <p itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
                 <a class="btn btn-primary" id="contact-romain" data-text="(mail à l'équipe sud)" href="mailto:sud@goood.pro">
                     <span>Contactez <strong>Romain</strong></span>
+                    <meta itemprop="contactType" content="sales contact point" />              
+                    <meta itemprop="name" content="Romain Nice ou Marseille" />  
+                    <meta itemprop="telephone" content="+33 6 25 10 67 53" />
+                    <meta itemprop="email" content="sud@goood.pro" />
                 </a>
               </p>
               </div>

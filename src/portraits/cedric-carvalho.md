@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/carvalhoced
 linkedin: https://www.linkedin.com/in/carvalhoced/
 blog: 
+formateur: 0
 ---
 Ce qui anime Cédric c’est de trouver des solutions pour résoudre les problèmes des gens. 
 Pour lui, un produit existe uniquement parce qu’il résout un “pain point” de l’utilisateur. 

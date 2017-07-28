@@ -10,6 +10,7 @@ facebook:
 twitter: https://twitter.com/MarienMonnier
 linkedin: https://www.linkedin.com/in/marien-monnier-a5578377
 blog: https://blog.goood.pro/author/marienmonnier/
+formateur: 0
 ---
 Marien chasse les bugs de père en fils depuis 1817, et ceci afin de les donner à manger à ses Pokémons (qu'il a dans son imagination, Windows Phone oblige...)
 

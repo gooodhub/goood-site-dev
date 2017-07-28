@@ -11,18 +11,16 @@ id: sticky,
 IsPayment: 1,
 IsDelivery : 1,
 InStock: 1,
-priceHT: 36€,
-priceTTC: 45€,
-pricePort: + 6€ de frais de port,
+priceHT: 41,
+priceTTC: 49.20,
+pricePort: + 5€ de frais de port,
 TauxTVA: "20%",
 buttonAchatLabel: Acheter, 
 mainimage : "/images/toolkits/kit-sticky.jpg",
 image: [{path: "/images/toolkits/kit-sticky.jpg", alt : "Sticky Wall"},
 {path: "/images/toolkits/sticky-open.jpg", alt : "Sticky Wall déplié"},
 {path: "/images/toolkits/stickywall.gif", alt : "ça colle et ça recolle!"}],
-2checkouturl: https://sandbox.2checkout.com/checkout/purchase,
-2checkouturl_sid: 901349646,
-2checkoutProductId: 2,
+PaymentHtml: "<input type='hidden' name='hosted_button_id' value='57YACB2HDM5NY'>",
  }
 ---
 
@@ -32,4 +30,8 @@ Descriptif:
 * Longueur: 3m
 * Largeur: 1,15m
 
+La colle n’est pas incluse. Vous pouvez la trouver facilement dans le commerce (OfficeDepot, Amazon,...). Ref : Colle repositionnable 3M
 
+## Comment monter votre sticky wall?
+ Sylvia vous donne sa méthode et ses conseils pour bien monter votre sticky wall.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sjWhlP04Yes" frameborder="0" allowfullscreen></iframe>

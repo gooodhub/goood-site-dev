@@ -7,12 +7,13 @@
 	theme: agile,
 	heures: 24,
 	participants: 12,
-	prixInter: 1800,
-	prixIntra: 8000,
+	InterExiste: 1,
+	prixInter: 1 800,
+	prixIntra: 8 000,
 	pourcentagePratique: 60,
 	lesPlus: [Un programme de mise en pratique sur six semaines entre pairs, Une formation certifiante],
-	layout: sous-page.html, 
-	dates: [Paris - 24-25 janvier, 23 février et 17 mars - Paris, Marseille (Date à définir)]
+	layout: formation-fiche.html, 
+	dates: [26 - 27 Septembre 2017 - 18 Octobre et 14 Novembre 2017 à Paris, 23 - 24 Novembre 2017 - 21 Décembre 2017 et 25 Janvier 2018 à Paris]
 }
 ---
 
