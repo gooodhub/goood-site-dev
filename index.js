@@ -80,8 +80,11 @@ const buildApp = metalsmith(__dirname)
       pattern: 'toolkits/*.md',
       sortBy: 'order'
     },
-    agile_rocket: {
+    agile_rocket_modules: {
       pattern: 'agile-rocket/*.md',
+    },
+    savoir_faire: {
+      pattern: 'pages/savoir-faire/*.md',
     },
   }))
 
@@ -99,6 +102,7 @@ const buildApp = metalsmith(__dirname)
   .use(ignore('evenements/*'))
   .use(ignore('clients/*/*'))
   .use(ignore('portraits/*'))
+  .use(ignore('agile-rocket/*'))
   //.use(ignore('toolkits/*'))
   // Routing
   .use(permalinks({
@@ -116,9 +120,10 @@ const buildApp = metalsmith(__dirname)
       },{
         match: { collection: 'toolkits' },
         pattern: 'tools/:slug',
-      },{
-        match: { collection: 'agile_rocket' },
-        pattern: 'agile-rocket/:slug',
+      },
+      {
+       match: { collection: 'savoir_faire' },
+        pattern: 'savoir-faire/:slug',
       }]
   }))
 

@@ -12,6 +12,17 @@
             </div>
           </div>
         </section>
+        <section class="rocket_modules">
+          {{#each agile_rocket_modules}}
+          <div class="row">
+            <H1>{{title}}</H1>
+            {{question}}
+            {{image}}
+            {{scribing}}
+            {{{content}}}
+          </div>
+          {{/each}}
+        </section><!-- end section rocket_modules -->
         <section class="rocket">
           <div class="rocket__left">
             <div class="row green">
