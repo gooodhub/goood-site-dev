@@ -61,7 +61,7 @@
     } 
     .shadow{
         @extend %shadow;
-        z-index:1000;
+       
         flex-basis: 45%;
         
       }
@@ -132,10 +132,22 @@
       .demarrer
       {
           @extend %contentBoldFont;
-          color:$secondaryColor;
+          color:$secondaryColor;        
           margin:auto;
+          display: block;
+          margin-bottom:0px;
+          margin-top: 4rem;
+         
       }
+      .flechebas
+      {
+        background: url('/images/flechebas.png')no-repeat ;
+        background-position: center;
+        width: 100%;
+        display: block;
+        min-height: 36px;
 
+      }
   
 
 .row {

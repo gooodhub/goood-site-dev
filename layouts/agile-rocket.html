@@ -27,11 +27,14 @@
         </div>
         <div class="action">
           <p>Le guide pour un voyage exploratoire agile et modulaire</p>
-          <a href="{{rocketguideAcheter}}" class="arrow-link link-orange">Acheter le livre  {{svg "./fleche-droite-ico.svg"}}</a>
-          <a href="{{rocketguidepdf}}" class="arrow-link link-orange">Télécharger le PDF {{svg "./fleche-droite-ico.svg"}}</a>
+          <a href="{{rocketguideAcheter}}" target="blank" class="arrow-link link-orange">Acheter le livre  {{svg "./fleche-droite-ico.svg"}}</a>
+          <a href="{{rocketguidepdf}}" target="blank" class="arrow-link link-orange">Télécharger le PDF {{svg "./fleche-droite-ico.svg"}}</a>
         </div>
      </div>
-     <div class="row"><p class="demarrer">Demarrer le voyage <p></div>
+     <div class="row">
+      <div style="margin:auto"><p class="demarrer">Demarrer le voyage </p></div>
+     <div class="flechebas">&nbsp;</div>  
+     </div>
      <section class="intro">
        <div class="row"> 
         <header>
@@ -48,7 +51,11 @@
          <img src="/images/agile-rocket/add_modules.jpg" width=97% alt="Décomposition des parties de la rocket">
        </div>
      </section>
-     <div class="row"><p class="demarrer">Décourvir les modules <p></div>
+     <div class="row">
+       <div style="margin:auto"><p class="demarrer">Décourvir les modules </p>
+         </div>
+       <div class="flechebas">&nbsp;</div>  
+     </div>
      <section class="rocket_modules">
 
           {{#each agile_rocket_modules}}
@@ -83,12 +90,10 @@
 
         
         
-        {{> slide-nav-buttons
-          prevTitle = 'Formations'
-          prevPath = '/formations/'
-          nextTitle = 'Contacts'
-          nextPath = '/contact/'
-        }} {
+       {{> slide-nav-sous-pages
+          parent = 'Retour aux savoir-faire'
+          parentPath = '/savoir-faire'        
+        }}{
         {> footer }}
       </div>
     </div>
