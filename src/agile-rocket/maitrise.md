@@ -1,12 +1,7 @@
 ---
 {
   title: Maîtrise Personnelle,
-  slug: maitrise,
-  headline: "Maîtrise",
   description: "Comment encourager et nourrir une culture d’entreprise qui satisfait le client en traitant positivement l’évolution continuelle des besoins utilisateurs ?",
-  layout: agile-rocket-module.html,
-  id: agile-rocket-maitrise,
-  priority: 1,
   question: "Comment encourager et nourrir une culture d’entreprise qui satisfait le client en traitant positivement l’évolution continuelle des besoins utilisateurs ?",
   image: "maitrise.jpg",
   scribing : "5-Maitrise Personnelle.jpeg",

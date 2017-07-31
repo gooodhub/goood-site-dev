@@ -1,12 +1,7 @@
 ---
 {
   title: "North Star",
-  slug: north-star,
-  headline: "North Star",
   description: "Comment embarquer mon équipe vers un objectif partagé - inspirant - suscitant le rêve ?",
-  layout: agile-rocket-module.html,
-  id: agile-rocket-north-star,
-  priority: 1,
   question: "",
   but: "",
   image: "northstar.jpg",

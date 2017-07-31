@@ -1,12 +1,7 @@
 ---
 {
   title: Coopérer,
-  slug: "cooperer",
-  headline: Coopérer,
   description: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?",
-  layout: agile-rocket-module.html,
-  id: agile-rocket-cooperer,
-  priority: 1,
   question: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?",
   image: "cooperer.jpg",
   scribing : "2-Cooperer.jpeg",

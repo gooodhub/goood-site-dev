@@ -1,13 +1,8 @@
 ---
 {
   title: Améliorer,
-  slug: "ameliorer",
-  headline: Améliorer,
   description: "Comment savoir que l’on se concentre sur les problèmes qui nous impactent le plus ? Quelle démarche utiliser pour alléger ou résoudre les problèmes ?",
-  id: agile-rocket-ameliorer,
-  priority: 1,
   question: "Comment savoir que l’on se concentre sur les problèmes qui nous impactent le plus ? Quelle démarche utiliser pour alléger ou résoudre les problèmes ?",
-  but: "",
   image: "ameliorer.jpg",
   scribing : "3-Ameliorer.jpeg",
   partie: "Les étages des fusées",

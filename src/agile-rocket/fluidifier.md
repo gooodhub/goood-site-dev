@@ -1,12 +1,7 @@
 ---
 {
   title: "Fluidifier",
-  slug: "fluidifier",
-  headline: "Fluidifier",
   description: "Comment optimiser le flux de production de valeur, la prédictibilité de la livraison finale au client sans surcharger les équipes ?",
-  layout: agile-rocket-module.html,
-  id: agile-rocket-fluidifier,
-  priority: 1,
   question: "Comment optimiser le flux de production de valeur, la prédictibilité de la livraison finale au client sans surcharger les équipes ?",
   image: "fluidifier.jpg",
   scribing : "4-Fluidifier.jpeg",

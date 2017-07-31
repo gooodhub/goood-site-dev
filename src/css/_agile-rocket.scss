@@ -136,95 +136,7 @@
           margin:auto;
       }
 
-  .rocket {
-    @extend %contentPadding;
-    display: flex;
-    flex-direction: column;
-    
-    ul {
-      width: 100%;
-    }
-
-    li {
-      list-style-type: none;
-    }
-
-    .arrow-link {
-      color: $primaryColor;
-      svg, path { fill: $primaryColor!important; }
-    }
-
-    header {
-      width: 100%;
-    }
-
-    @media #{$medium-up} {
-      flex-direction: row;
-    }
-
-    &__left {
-      padding-right: 20%;
-      @media #{$medium-up} {
-        padding-right: 0;
-        flex: 1;
-      }
-    }
-
-    &__middle {
-      @media #{$small-only} {
-        order: -1;
-      }
-      @media #{$medium-up} {
-        flex-basis: 30%;
-        max-width: 30%;
-      }
-      img {
-        width: 100%;
-      }
-    }
-
-    &__right {
-      padding-right: 20%;
-      @media #{$medium-up} {
-        padding-right: 0;
-        flex: 1;
-      }
-    }
-
-    p {
-      margin-top: 0;
-      margin-bottom: 20px;
-      font-size: em(20);
-      line-height: em(23);
-    }
-
-    &__book {
-      @media #{$small-only} {
-      order: -1;
-    }
-
-    @media #{$medium-up} {
-      flex-basis: 40%;
-      max-width: 40%;
-    }
-
-    img {
-      width: 100%;
-    }
-  }
-}
-
-.row_header {
-  @extend %sectionPadding;
-  @media #{$small-only} { padding-bottom: 0; }
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  padding : 0 20px;
-  margin-bottom: 50px;
-  background-color:red;
-}
+  
 
 .row {
      
@@ -232,39 +144,6 @@
       margin-bottom: 50px;
       @media #{$small-only} { padding-right: 16px; }
     }
-
-
-
-.button_specific {
-  clear:both;
-  margin-bottom: 5px;
-  margin-right:auto;
-  margin-left:auto;
-}
-
-.rocket_orange {
-  background: $primaryColor;
-  position: relative;
-  z-index: 1;
-
-
-  &__content {
-    @extend %contentPadding;
-    padding-top: 0;
-    padding-bottom: 0;
-    flex: 1;
-
-    p {
-      color: white;
-    }
-
-    @media #{$medium-up} {
-      align-self: center;
-    }
-  }
-}
-
-
 
 
 .rocket_modules

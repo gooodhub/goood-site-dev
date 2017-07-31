@@ -1,14 +1,8 @@
 ---
 {
   title: Culture Agile,
-  slug: "culture",
-  headline: Culture,
   description: "Que changer ? Par où commencer ? Est-il suffisant d’adopter un jeu de bonnes pratiques ?",
-  layout: agile-rocket-module.html,
-  id: agile-rocket-culture,
-  priority: 1,
   question: "Que changer ? Par où commencer ? Est-il suffisant d’adopter un jeu de bonnes pratiques ?",
-  but: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit auctor bibendum. Etiam quis magna vel ipsum vulputate mattis. Mauris quis facilisis arcu. Proin viverra sollicitudin neque eu ornare. Nam ut pellentesque mauris. Fusce mattis nunc sit amet diam sodales condimentum. Maecenas arcu orci, sagittis ac lectus quis, molestie ultrices lorem. Suspendisse dapibus mauris eu elit finibus, nec vulputate quam tristique. Fusce id sem sed orci placerat pretium quis vitae elit.",
   image: "reussir.jpg",
   scribing : "9-culture agile.PNG",
   partie: "Réussir",
