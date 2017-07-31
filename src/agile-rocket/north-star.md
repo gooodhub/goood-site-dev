@@ -1,6 +1,6 @@
 ---
 {
-  title: "Excellence (de l'ingénierie)",
+  title: "North Star",
   slug: north-star,
   headline: "North Star",
   description: "Comment embarquer mon équipe vers un objectif partagé - inspirant - suscitant le rêve ?",
@@ -9,8 +9,10 @@
   priority: 1,
   question: "",
   but: "",
-  image: "north-star.jpg",
+  image: "northstar.jpg",
   scribing : "1-Vision.jpeg",
+   partie: ,
+  tri: 1,
   nextTitle: "Coopérer",
   nextPath: "../cooperer/",
   prevTitle: "Culture Agile",

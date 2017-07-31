@@ -6,7 +6,7 @@
         <section class="rocket__demarche">
           <div class="row">
             <div class="rocket__demarche__content">
-              <header class="header">
+              <header >
                 <p>Qu'est-ce que c'est?</p>
                 <h1>Une démarche modulaire et progressive pour mettre en oeuvre une transformation agile</h1>
               </header>
@@ -15,6 +15,7 @@
           </div>
          
         </section>
+
      <div class="actions">
         <div class="action"> 
           <p>Envie d'apprendre à mettre en oeuvre la démarche?</p>
@@ -31,14 +32,48 @@
         </div>
      </div>
      <div class="row"><p class="demarrer">Demarrer le voyage <p></div>
+     <section class="intro">
+       <div class="row"> 
+        <header>
+          <p>Une histoire</p>
+        </header>
+        <div>
+          <div>{{{content}}}</div>
+          <div></div>
+        </div>
+       
+       </div>
+       <div class="row"> 
+         <img src="/images/agile-rocket/add_modules.jpg" width="1000" alt="Décomposition des parties de la rocket">
+       </div>
+     </section>
      <section class="rocket_modules">
+
           {{#each agile_rocket_modules}}
+          <div class="row margin0">
+            <div>
+              <img src="/images/agile-rocket/{{image}}" width="150px" height="150px"/> 
+            </div>
+            <div> 
+              <header>
+              {{#if partie}}
+              <p>{{partie}}</p>
+              {{/if}}
+              
+              <H1>{{title}}</H1>
+              </header>
+            </div>
+          </div>
           <div class="row">
-            <H1>{{title}}</H1>
-            <h2>{{question}}</h2>
-            <img src="/images/agile-rocket/{{image}}" width="222px" height="315px"/>
-            <img src="/images/agile-rocket/{{scribing}}"  width="455px" height="341px"/>
-            {{{contents}}}
+           <div>
+             {{#if scribing}}
+              <img src="/images/agile-rocket/{{scribing}}"  width="455px" height="341px"/>
+              {{/if}}
+           </div>
+           <div class="rocket_modules_content">
+              <h2>{{question}}</h2>          
+              {{{contents}}}
+           </div>
           </div>
           {{/each}}
         </section><!-- end section rocket_modules -->

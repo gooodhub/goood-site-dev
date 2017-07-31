@@ -11,7 +11,15 @@
       p{
         color: white;
         text-align: center;
+        
       }
+     header p {
+      &:after {
+       background: white;       
+       margin:auto;
+       margin-top:1rem;
+      }
+    }
       
     }
     
@@ -23,7 +31,11 @@
         display: flex;        
         flex:1;
         background-color: white;
-        width:75%;
+        width:98%;
+        @media #{$medium-up} {
+        width:75%; 
+        }
+        
         margin-top:-5rem;
         
 
@@ -32,16 +44,23 @@
           margin-top:1rem;
           width:95%;
           flex: 1;
+          flex-direction: column;
          }
       }
       
       .action
       {
+         display: flex;        
+        flex:1;
+        flex-direction: row;
         padding:0 2rem;
         float: left;
         position: relative;
         display:block;
-        width:33%;
+        width:100%;
+        @media #{$medium-up} {
+          width:33%;
+         }
         p{
           text-align: center;
           font-size:1.3rem;
@@ -159,7 +178,7 @@
 }
 
 .row {
-      max-width: 870px;
+     
       padding-bottom: 20px;
       margin-bottom: 50px;
       @media #{$small-only} { padding-right: 16px; }
@@ -270,6 +289,26 @@
         background: $secondaryColor;
       }
     }
+  }
+}
+
+.rocket_modules
+{
+  h1{
+    color:$secondaryColor;
+    margin-top:0px;
+  }
+  &_content{
+    @extend %contentPadding;
+    width:95%;
+    @media #{$medium-up} {
+      width:45%
+    }
+    
+  }
+  .margin0
+  {
+    margin-bottom:0rem;
   }
 }
 }

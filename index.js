@@ -82,6 +82,8 @@ const buildApp = metalsmith(__dirname)
     },
     agile_rocket_modules: {
       pattern: 'agile-rocket/*.md',
+      sortBy: 'tri',
+      reverse: false,
     },
     savoir_faire: {
       pattern: 'pages/savoir-faire/*.md',
