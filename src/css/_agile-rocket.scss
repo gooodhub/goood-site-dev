@@ -127,6 +127,12 @@
           text-align: right;
           color:$primaryColor;
           display:block;
+          
+          svg
+          {
+            width: 17px;
+            height:15px;
+          }
         }
       }
       .demarrer
