@@ -38,15 +38,17 @@
           <p>Une histoire</p>
         </header>
         <div>
-          <div>{{{content}}}</div>
-          <div></div>
+          <div class="div_left w55 movetextover">{{{contents}}}</div>
+          <div class="div_left w45" ><img src="/images/agile-rocket/{{image}}" class="shadow" alt="L'agile Rocket" width="85%" height="85%"/></div>
         </div>
        
        </div>
+     
        <div class="row"> 
-         <img src="/images/agile-rocket/add_modules.jpg" width="1000" alt="Décomposition des parties de la rocket">
+         <img src="/images/agile-rocket/add_modules.jpg" width=97% alt="Décomposition des parties de la rocket">
        </div>
      </section>
+     <div class="row"><p class="demarrer">Décourvir les modules <p></div>
      <section class="rocket_modules">
 
           {{#each agile_rocket_modules}}
@@ -65,9 +67,9 @@
             </div>
           </div>
           <div class="row">
-           <div>
+           <div class="w45">
              {{#if scribing}}
-              <img src="/images/agile-rocket/{{scribing}}"  width="455px" height="341px"/>
+              <img src="/images/agile-rocket/{{scribing}}"  class="scribbing"/>
               {{/if}}
            </div>
            <div class="rocket_modules_content">

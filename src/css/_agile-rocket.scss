@@ -1,4 +1,23 @@
 #agile-rocket {
+  .w45{
+      width:95%;
+       @media #{$medium-up} {
+         width:45%;
+         min-height: 40rem;
+       }
+    }
+    .w55{
+      width:95%;
+       @media #{$medium-up} {
+         width:55%;
+         min-height: 40rem;
+       }
+    }
+    .demarrer
+    {
+          text-transform: uppercase;
+          @extend %headingExtraBoldFont;
+    }
 
   .rocket__demarche {
     background: $secondaryColor;
@@ -20,9 +39,39 @@
        margin-top:1rem;
       }
     }
-      
+     
     }
+   
     
+  }
+  .intro
+  {
+     @extend %contentPadding;
+      
+    .div_left{
+      float: left;
+      position: relative;
+      flex:1;
+      display: flex;
+       flex-direction: column;
+       @media #{$small-only} {
+          flex-direction: column;
+       }
+     
+    } 
+    .shadow{
+        @extend %shadow;
+        z-index:1000;
+        flex-basis: 45%;
+        
+      }
+    .movetextover
+    {
+      
+        z-index:2;
+        flex:1;
+        position: relative;
+    } 
   }
   .actions{
         @extend %contentPadding;
@@ -50,7 +99,7 @@
       
       .action
       {
-         display: flex;        
+        display: flex;        
         flex:1;
         flex-direction: row;
         padding:0 2rem;
@@ -91,7 +140,7 @@
     @extend %contentPadding;
     display: flex;
     flex-direction: column;
-
+    
     ul {
       width: 100%;
     }
@@ -184,25 +233,7 @@
       @media #{$small-only} { padding-right: 16px; }
     }
 
-.pink {
-    background-color:#FFD6DE;
-  }
 
-.yellow {
-    background-color:#FFEE62;
-  }
-
-.blue {
-    background-color:#9BCAE4;
-  }
-
-.green {
-    background-color:#B8D650;
-  }
-
-.grey {
-    background-color:#F0F2ED;
-  }
 
 .button_specific {
   clear:both;
@@ -235,65 +266,15 @@
 
 
 
-.rocket__full {
-  background: white;
-  position: relative;
-  z-index: 1;
-  display: flex;
-
-  @media #{$medium-up} {
-    padding-left: 30px;
-    padding-bottom: 30px;
-    max-width: 100%;
-  }
-
-  @media #{$large-up} {
-    background-position: top right;
-  }
-
-  .row {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  &__img {
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    img {
-      width: 100%;
-    }
-  }
-
-  &__content {
-    @extend %contentPadding;
-    flex: 1;
-    flex-grow: 2;
-    color: $secondaryColor;
-
-    p {
-      color: $secondaryColor;
-    }
-
-    p, ul, li {
-       line-height: em(36);
-       font-size: em(24);
-       margin: 0;
-    }
-    p, ul{
-      margin-top: 0.7em;
-    }
-
-    header p {
-      &:after {
-        background: $secondaryColor;
-      }
-    }
-  }
-}
 
 .rocket_modules
 {
+ 
+  .scribbing{
+      width:95%;
+      
+      
+    }
   h1{
     color:$secondaryColor;
     margin-top:0px;
