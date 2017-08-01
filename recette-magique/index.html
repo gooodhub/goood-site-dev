@@ -38,12 +38,7 @@ ga('send', 'pageview');
  <link rel="stylesheet" href="/css/jquery.bxslider.css">
 </head>
 <body>
-  <script>
-  if ($('body').hasClass('mobile')) {
-  var viewportHeight = $('.slide__header').outerHeight();
-  $('.slide__header').css({ height: viewportHeight });
-}
-  </script>
+
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRR6F7H"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -723,6 +718,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
   }
 }( this ));
+  </script>
+    <script>
+ 
+  var viewportHeight = $('.slide__header').outerHeight();
+  $('.slide__header').css({ height: viewportHeight });
+
   </script>
 </body>
 </html>
