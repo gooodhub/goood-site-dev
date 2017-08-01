@@ -1,0 +1,151 @@
+#savoir-faire {
+
+  // background: white;
+
+  .savoirfaire-vision {
+
+    &__content {
+      @extend %contentPadding;
+
+      p {
+        color: $secondaryColor;
+      }
+
+      header h1 {
+        color: $primaryColor;
+      }
+
+      &__labels {
+
+        @extend %contentBoldFont;
+        color: $secondaryColor;
+        margin-bottom: 20px;
+
+        @media #{$medium-up} {
+          display: block;
+          display: flex;
+          justify-content: space-around;
+          line-height: 18px;
+        }
+
+        @media #{$small-only} {
+          display: block;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          line-height: 18px;
+        }
+      }
+
+      &__label {
+
+        margin-right: 30px;
+        margin-top: 20px;
+        width: 110px;
+        align-content: center;
+        text-align: center;
+
+        &--active {
+          color: $primaryColor!important;
+        }
+
+        &:hover {
+          color: lighten($primaryColor, 20%);
+        }
+
+        &__img {
+          box-shadow: 0px 8px 65px 0 rgba(0, 0, 0, 0.18);
+          line-height: 0;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 20px;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .timetomarket {
+    display: flex;
+    background: $secondaryColor;
+
+    &__img {
+      align-items: center;
+      justify-content: center;
+      margin-top: 70px;
+      flex: 1;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__content {
+      @extend %contentPadding;
+      flex: 1;
+      flex-grow: 2;
+
+
+      p {
+        color: white;
+      }
+
+      header h1 {
+        color: white;
+      }
+
+      header p {
+        &:after {
+          background: white;
+        }
+      }
+    }
+  }
+
+  .savoirfaire-rocket {
+    display: flex;
+
+    &__img {
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      img {
+        width: 100%;
+      }
+    }
+
+    &__content {
+      @extend %contentPadding;
+      flex: 1;
+      flex-grow: 2;
+
+      p {
+        color: $secondaryColor;
+      }
+
+      header h1 {
+        color: $secondaryColor;
+      }
+
+      .arrow-link {
+        color: $primaryColor;
+        margin-top: auto;
+        margin-bottom: em(20);
+        margin-right: em(20);
+        position: relative;
+        svg, path { fill: $primaryColor!important; }
+      }
+    }
+  }
+
+  .savoirfaire-rocket-description {
+
+    &__content {
+      @extend %contentPadding;
+      margin-bottom: 10px;
+    }
+  }
+}
