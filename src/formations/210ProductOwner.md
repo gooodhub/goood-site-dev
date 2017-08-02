@@ -13,7 +13,7 @@
 	pourcentagePratique: 50,
 	lesPlus: [],
 	layout: formation-fiche.html, 
-	dates: [9 et 10 Octobre 2017 à Paris, 9 et 10 Octobre 2017 à Sophia Antipolis, 9 et 10 Octobre 2017 à Lyon]
+	dates: [11 et 12 Décembre 2017 à Paris, 11 et 12 Décembre 2017 à Sophia Antipolis, 11 et 12 Décembre 2017 à Lyon]
 }
 ---
 
