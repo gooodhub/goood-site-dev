@@ -5,7 +5,7 @@
   display: flex;
   //position: relative;
   // cursor: grab;
-  height: 100%;
+  height: 100vh;
 
   //&--grabbing {
   //  cursor: grabbing;
@@ -22,8 +22,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 
   // overflow: hidden; // Uncomment when handleScrollBehaviour()
   overflow: scroll;
@@ -39,7 +39,7 @@
   // }
 
   &__header {
-    height: 100%;
+    height: 100vh;
     background: rgba(black, .1);
     display: flex;
     align-items: center;
