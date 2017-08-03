@@ -32,11 +32,11 @@
         </div>
      </div>
      <div class="row">
-      <div style="margin:auto"><p class="demarrer">Demarrer le voyage </p></div>
+      <div style="margin:auto"><a href="#introrocket"><p class="demarrer">Demarrer le voyage </p></a></div>
      <div class="flechebas">&nbsp;</div>  
      </div>
      <section class="intro">
-       <div class="row"> 
+       <div class="row" id="introrocket"> 
         <header>
           <p>Une histoire</p>
         </header>
@@ -55,11 +55,11 @@
        </div>
      </section>
      <div class="row">
-       <div style="margin:auto"><p class="demarrer">Décourvir les modules </p>
+       <div style="margin:auto"><a href="#rocket_modules"><p class="demarrer"> Décourvir les modules </p></a>
          </div>
        <div class="flechebas">&nbsp;</div>  
      </div>
-     <section class="rocket_modules">
+     <section class="rocket_modules" id="rocket_modules">
 
           {{#each agile_rocket_modules}}
           <div class="row  rowgray">
@@ -90,7 +90,7 @@
           {{/each}}
         </section><!-- end section rocket_modules -->
      </div>
-    
+    <button onclick="topFunction()" id="BtnGoTop" title="Go to top">Top</button>
      <!-- Modal Formation-->
         <div class="modal fade " id="modal-form" tabindex="-1" role="dialog" aria-labelledby="Formulaire Formation Agile rocket">
               <div class="modal-dialog " role="document">
@@ -99,7 +99,7 @@
                     <p id="modal-title"></p><span class="closecross" data-dismiss="modal">&times;</span>
                     </div>
                       <div class="modal-body divform" id="modal-body">
-                        <form action="https://formspree.io/n.guignardeau@goood.pro" method="POST" class="form-modal">
+                        <form action="https://formspree.io/formation@goood.pro" method="POST" class="form-modal">
                           <input type="hidden"  name="sujet"/>
                             Nom* <input type="text" placeholder="Nom" name="nom" required size="50"/>
                             Email* <input type="text" name="email" placeholder="dupont@domaine.fr" required size="50"/>
@@ -122,8 +122,32 @@
           });
 
       
+         
+</script>
+<script>
+   // When the user scrolls down 20px from the top of the document, show the button
+   
+       $('#agile-rocket').scroll (function() {
+            // console("Top"& $(window).scrollTop());
+              if ($(window).scrollTop() > 0) {
+              $('#BtnGoTop').fadeIn(800); // 800 milliseconds for the fade in effect
+              }
+            else {
+              $('#BtnGoTop').fadeOut('fast'); // 200  
+              //    $("#BtnGoTop").css( "display",  "block");
+              //} else {
+                //   $("#BtnGoTop").css( "display",  "none");
+              }
+          })
 
-       </script>
+         
+
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+             $('body,html').animate({scrollTop: 0}); // For Chrome, Safari and Opera 
+              //document.documentElement.scrollTop = 0; // For IE and Firefox
+          }
+  </script>
         
        {{> slide-nav-sous-pages
           parent = 'Retour aux savoir-faire'
