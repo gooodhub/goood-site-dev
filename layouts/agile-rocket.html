@@ -22,11 +22,11 @@
           <a href="#" class="btn btn-secondary">Formation</a>
         </div>
         <div class="action">
-          <p>On s'organise un dej pour présenter l'Agile Rocket chez vous?</p>
+          <p>On s'organise un dej. pour présenter l'Agile Rocket chez vous?</p>
           <a href="#" class="btn btn-secondary">BBL</a>
         </div>
         <div class="action">
-          <p>Le guide pour un voyage exploratoire agile et modulaire</p>
+          <p>Le guide pour un <voya></voya>ge exploratoire agile et modulaire</p>
           <a href="{{rocketguideAcheter}}" target="blank" class="arrow-link link-orange">Acheter le livre  {{svg "./fleche-orange.svg"}}</a>
           <a href="{{rocketguidepdf}}" target="blank" class="arrow-link link-orange">Télécharger le PDF {{svg "./fleche-orange.svg"}}</a>
         </div>
@@ -42,7 +42,7 @@
         </header>
         <div>
           <div class="div_left w55 movetextover">{{{contents}}}</div>
-          <div class="div_left w45" ><img src="/images/agile-rocket/{{image}}" class="shadow" alt="L'agile Rocket" width="85%" height="85%"/></div>
+          <div class="div_left w45" ><img src="/images/agile-rocket/{{image}}"  alt="L'agile Rocket" width="85%" height="85%"/></div>
         </div>
        
        </div>
@@ -59,9 +59,9 @@
      <section class="rocket_modules">
 
           {{#each agile_rocket_modules}}
-          <div class="row margin0">
+          <div class="row  rowgray">
             <div>
-              <img src="/images/agile-rocket/{{image}}" width="150px" height="150px"/> 
+              <img src="/images/agile-rocket/{{image}}" width="150px" height="150px" class="rocket_image"/> 
             </div>
             <div> 
               <header>
@@ -93,8 +93,8 @@
        {{> slide-nav-sous-pages
           parent = 'Retour aux savoir-faire'
           parentPath = '/savoir-faire'        
-        }}{
-        {> footer }}
+        }}
+        {{> footer }}
       </div>
     </div>
   {{/inline}}

@@ -1,9 +1,10 @@
 #agile-rocket {
+  
   .w45{
       width:95%;
        @media #{$medium-up} {
          width:45%;
-         min-height: 40rem;
+         min-height: 30rem;
        }
     }
     .w55{
@@ -23,6 +24,7 @@
     background: $secondaryColor;
     padding-bottom:3rem;
     &__content{ 
+      @extend %contentPadding;
       h1 {
         color: white;
         text-align: center;
@@ -163,10 +165,18 @@
       @media #{$small-only} { padding-right: 16px; }
     }
 
-
+.rowgray
+{
+  background-color: #F5F6FA;
+  margin-bottom: 2rem;
+  padding-bottom: 0rem;
+}
 .rocket_modules
 {
- 
+ .row {
+    padding-bottom: 10px;
+      margin-bottom: 10px;
+ }
   .scribbing{
       width:95%;
       
@@ -184,9 +194,10 @@
     }
     
   }
-  .margin0
+  
+  .rocket_image
   {
-    margin-bottom:0rem;
+    margin-top: -3rem;
   }
 }
 }

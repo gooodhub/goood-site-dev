@@ -3,7 +3,7 @@
   title: Coopérer,
   description: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?",
   question: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?",
-  image: "cooperer.jpg",
+  image: "cooperer.png",
   scribing : "2-Cooperer.jpeg",
   partie: "Les étages des fusées",
   tri: 2,
@@ -14,9 +14,7 @@
 
 }
 ---
-Dans ce module, nous travaillons avec l'équipe à :
+Dans ce module, nous travaillons avec l'équipe pour l’aider à passer de l’individuel au collectif.
 
-* Passer de l’individuel au collectif.
-* Partager une vision commune du système afin d’agir collectivement en s’appuyant sur les bonnes informations.
-* Mettre en place les piliers de Scrum : transparence (visibilité) - inspection - adaptation - itération.
-* Gérer le travail pour agir collectivement : évoluer de comment être occupé à 100% sur le projet vers comment contribuer au collectif pour l’aider à réussir son challenge.
+En partageant une vision commune des informations du système, chacun peut contribuer au collectif et aider l’équipe à réussir son challenge.
+
