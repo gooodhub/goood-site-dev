@@ -1,0 +1,222 @@
+#agile-rocket {
+  
+  .w45{
+      width:95%;
+       @media #{$medium-up} {
+         width:45%;
+         min-height: 30rem;
+       }
+    }
+    .w55{
+      width:95%;
+       @media #{$medium-up} {
+         width:55%;
+         min-height: 40rem;
+       }
+    }
+    .demarrer
+    {
+          text-transform: uppercase;
+          @extend %headingExtraBoldFont;
+    }
+
+  .rocket__demarche {
+    background: $secondaryColor;
+    padding-bottom:3rem;
+    &__content{ 
+      @extend %contentPadding;
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      p{
+        color: white;
+        text-align: center;
+        
+      }
+     header p {
+      &:after {
+       background: white;       
+       margin:auto;
+       margin-top:1rem;
+      }
+    }
+     
+    }
+   
+    
+  }
+  .intro
+  {
+     @extend %contentPadding;
+      
+    .div_left{
+      float: left;
+      position: relative;
+      flex:1;
+      display: flex;
+       flex-direction: column;
+       @media #{$small-only} {
+          flex-direction: column;
+       }
+     
+    } 
+    .shadow{
+        @extend %shadow;
+       
+        flex-basis: 45%;
+        
+      }
+    .movetextover
+    {
+      
+        z-index:2;
+        flex:1;
+        position: relative;
+    } 
+  }
+  .actions{
+        @extend %contentPadding;
+        @extend %shadow;
+        margin: auto;
+        display: flex;        
+        flex:1;
+        background-color: white;
+        width:98%;
+        @media #{$medium-up} {
+        width:75%; 
+        }
+        
+        margin-top:-5rem;
+        
+
+        @media #{$small-only} {
+          padding-right: 0;
+          margin-top:1rem;
+          width:95%;
+          flex: 1;
+          flex-direction: column;
+         }
+      }
+      
+      .action
+      {
+        display: flex;        
+        flex:1;
+        flex-direction: row;
+        padding:0 2rem;
+        float: left;
+        position: relative;
+        display:block;
+        width:100%;
+        @media #{$medium-up} {
+          width:33%;
+         }
+        p{
+          text-align: center;
+          font-size:1.3rem;
+          color:$secondaryColor;
+          @extend %contentBoldFont;
+        }
+        .btn-secondary
+        {
+          background: #fc4c02;
+          color: white;
+          border-color: white;
+        }
+        .link-orange
+        {
+          text-align: right;
+          color:$primaryColor;
+          display:block;
+          
+          svg
+          {
+            width: 17px;
+            height:15px;
+          }
+        }
+      }
+      .demarrer
+      {
+          @extend %contentBoldFont;
+          color:$secondaryColor;        
+          margin:auto;
+          display: block;
+          margin-bottom:0px;
+          margin-top: 4rem;
+         
+      }
+      .flechebas
+      {
+        background: url('/images/flechebas.png')no-repeat ;
+        background-position: center;
+        width: 100%;
+        display: block;
+        min-height: 36px;
+
+      }
+  
+
+.row {
+     
+      padding-bottom: 20px;
+      margin-bottom: 50px;
+      @media #{$small-only} { padding-right: 16px; }
+    }
+
+.rowgray
+{
+  background-color: #F5F6FA;
+  margin-bottom: 2rem;
+  padding-bottom: 0rem;
+}
+.rocket_modules
+{
+ .row {
+    padding-bottom: 10px;
+      margin-bottom: 10px;
+ }
+  .scribbing{
+      width:95%;
+      
+      
+    }
+  h1{
+    color:$secondaryColor;
+    margin-top:0px;
+  }
+  &_content{
+    @extend %contentPadding;
+    width:95%;
+    @media #{$medium-up} {
+      width:45%
+    }
+    
+  }
+  
+  .rocket_image
+  {
+    margin-top: -3rem;
+  }
+}
+}
+
+#BtnGoTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #555; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#BtnGoTop:hover {
+    background-color: $primaryColor; /* Add a dark-grey background on hover */
+}

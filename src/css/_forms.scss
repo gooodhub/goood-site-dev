@@ -1,0 +1,64 @@
+.divform{
+        color: white;
+    padding: 1rem;
+    background: #1d3f51;
+    width: 100%;
+    margin-top: 2rem;
+    overflow-y: auto;
+}
+.modal-content
+{
+    p{
+        float: left;
+        margin: 0.5rem;
+        font-size:1.5rem;
+    }
+}
+.closecross {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin:auto;
+    margin-right: 0.5rem;
+
+}
+
+.closecross:hover,
+.closecross:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+select,input[type=select],input[type=Text]
+     {
+        height: 3rem;
+         @media #{$small-only} {
+        width:250px;   
+       }
+     }
+select,input[type=select],input[type=Text],textarea{
+
+padding: 6px 12px;
+line-height: 1.6 rem;
+display: block;
+color: $secondaryColor;
+border-radius: 4px;       
+margin-top:0.25rem;
+margin-bottom:1.25rem;
+    border: 1px solid #ccc;
+        @media #{$small-only} {
+width:100%;   
+}
+}
+.form-modal
+{
+    .btn-white
+    {
+        margin-top: 1.5rem;
+        background: white;
+        color: #1d3f51;
+        border-color: white;
+    }
+}

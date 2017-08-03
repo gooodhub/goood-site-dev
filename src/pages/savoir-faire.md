@@ -1,9 +1,9 @@
 ---
 title: Savoirs faire Goood pour l'entreprise agile
 slug: savoir-faire
-headline: Savoir-Faire 
+headline: Savoir-Faire
 description: Description à écrire
-layout: page.html
+layout: savoir-faire.html
 id: offre
 priority: 1
 prevTitle: Recette magique
@@ -11,13 +11,13 @@ prevPath: /recette-magique/
 nextTitle: Références
 nextPath: /references/
 ---
-
+[Agile Rocket](agile-rocket)
 1 vision
-1 mission 
+1 mission
 1 proposition : développer l'agilité des organisations
-1 démarche : 
+1 démarche :
 
-2 champs d'expertises 
+2 champs d'expertises
 
 3 dimensions d'action
 
@@ -34,5 +34,3 @@ Pour cela, pas de solutions toutes faites mais une démarche en 5 points :
 3. Comprendre et imaginer ensemble
 4. Construire, apprendre, et itérer
 5. Pérenniser
-
-

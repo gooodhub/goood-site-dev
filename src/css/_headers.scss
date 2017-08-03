@@ -62,6 +62,18 @@
   }
 }
 
+#agile-rocket {
+  .slide__header {
+    background-image: url('../images/agilerocket-header.jpeg');
+  }
+}
+
+#agile-rocket-module {
+  .slide__header {
+    background-image: url('../images/agilerocket-header.jpeg');
+  }
+}
+
 #agile {
   .slide__header {
     background-image: url('../images/workshop.jpg');
@@ -74,7 +86,7 @@
   }
 }
 
-#offre {
+#savoir-faire {
   .slide__header {
     background-image: url('../images/header-offre-'+$theme+'.jpg');
   }

@@ -58,8 +58,19 @@
   }
 
   &--third {
- color: $primaryColor;
-  background-color: white;
+    color: $primaryColor;
+    background-color: white;
+  }
+
+  &--small {
+     border: none;
+    color: white;
+    background: $primaryColor;
+    font-size: em(24);
+    height: em(36);
+    padding: 0 em(15);
+    border-radius: 28px;
+
   }
 }
 

@@ -1,0 +1,101 @@
+#agile-rocket-module .slide__header
+{
+  height: 60vh;
+}
+
+.rocketmodule__question {
+  background: $primaryColor;
+  position: relative;
+  z-index: 1;
+
+  &__content {
+    @extend %contentPadding;
+
+    p {
+      color: white;
+    }
+
+    header p {
+      &:after {
+        background: white;
+      }
+    }
+
+    @media #{$medium-up} {
+      align-self: left;
+    }
+  }
+}
+
+.rocketmodule__but {
+  background: white;
+  position: relative;
+  z-index: 1;
+  display: flex;
+
+  @media #{$medium-up} {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+  }
+
+  @media #{$large-up} {
+    background-position: top right;
+  }
+
+  .row {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  &__img {
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    img {
+      width: 100%;
+    }
+  }
+
+  &__content {
+    @extend %contentPadding;
+    flex: 1;
+    flex-grow: 2;
+    color: $secondaryColor;
+
+    p {
+      color: $secondaryColor;
+    }
+
+    p, ul, li {
+       line-height: em(36);
+       font-size: em(24);
+       margin: 0;
+    }
+    p, ul{
+      margin-top: 0.7em;
+    }
+
+    header p {
+      &:after {
+        background: $secondaryColor;
+        color:white;
+      }
+    }
+
+    &__scribing {
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      img {
+        width: 100%;
+      }
+    }
+
+    @media #{$medium-up} {
+      padding-left: 30px;
+      padding-bottom: 30px;
+      max-width: 100%;
+    }
+  }
+}

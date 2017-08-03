@@ -1,0 +1,40 @@
+{{#> layout }}
+  {{#*inline "content"}}
+    <div class="slide" id="agile-rocket-module">
+      {{> slide-header title=headline }}
+      <div class="slide__content">
+        <section class="rocketmodule__question">
+          <div class="row">
+            <div class="rocketmodule__question__content">
+                <header>
+                    <p>Question(s)</p>
+                </header>
+                <p>{{{ question }}}</p>
+            </div>
+          </div>
+        </section>
+        <section class="rocketmodule__but">
+          <div class="row">
+            <div class="rocketmodule__but__img" >
+              <img src="/images/agile-rocket/{{ image }}" alt="Agile Rocket" />
+            </div>
+            <div class="rocketmodule__but__content">
+              <header>
+                 <p>But</p>
+              </header>
+              <p>{{{ contents }}}</p>
+              <div class="rocketmodule__but__content__scribing">
+                <img src="/images/agile-rocket/{{{scribing}}}" alt="Agile Rocket Scribing" />
+              </div>
+            </div>
+          </div>
+        </section>
+        {{> slide-nav-sous-pages
+          parent = 'Retour à la rocket'
+          parentPath = '/agile-rocket'
+        }}
+        {{> footer }}
+      </div>
+    </div>
+  {{/inline}}
+{{/layout}}

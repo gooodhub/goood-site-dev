@@ -1,0 +1,160 @@
+{{#> layout }}
+  {{#*inline "content"}}
+    <div class="slide" id="agile-rocket">
+      {{> slide-header title=headline }}
+      <div class="slide__content">
+        <section class="rocket__demarche">
+          <div class="row">
+            <div class="rocket__demarche__content">
+              <header >
+                <p>Qu'est-ce que c'est?</p>
+                <h1>Une démarche modulaire et progressive pour mettre en oeuvre une transformation agile</h1>
+              </header>
+              
+            </div>
+          </div>
+         
+        </section>
+
+     <div class="actions">
+        <div class="action"> 
+          <p>Envie d'apprendre à mettre en oeuvre la démarche?</p>
+          <a href="#inlinemodal" class="btn btn-secondary" data-toggle="modal" data-target="#modal-form" titlesubject="Formation Agile Rocket">Formation</a>
+        </div>
+        <div class="action">
+          <p>On s'organise un dej. pour présenter l'Agile Rocket chez vous?</p>
+          <a href="#inlinemodal" class="btn btn-secondary"  data-toggle="modal" data-target="#modal-form" titlesubject="Demande de Brown Bag Launch pour Agile Rocket">BBL</a>
+        </div>
+        <div class="action">
+          <p>Le guide pour un <voya></voya>ge exploratoire agile et modulaire</p>
+          <a href="{{rocketguideAcheter}}" target="blank" class="arrow-link link-orange">Acheter le livre  {{svg "./fleche-orange.svg"}}</a>
+          <a href="{{rocketguidepdf}}" target="blank" class="arrow-link link-orange">Télécharger le PDF {{svg "./fleche-orange.svg"}}</a>
+        </div>
+     </div>
+     <div class="row">
+      <div style="margin:auto"><a href="#introrocket"><p class="demarrer">Demarrer le voyage </p></a></div>
+     <div class="flechebas">&nbsp;</div>  
+     </div>
+     <section class="intro">
+       <div class="row" id="introrocket"> 
+        <header>
+          <p>Une histoire</p>
+        </header>
+        <div>
+          <div class="div_left w55 movetextover">{{{contents}}}</div>
+          <div class="div_left w45" ><img src="/images/agile-rocket/{{image}}"  alt="L'agile Rocket" width="85%" height="85%"/></div>
+        </div>
+       
+       </div>
+     
+       <div class="row"> 
+         <img src="/images/agile-rocket/add_modules.jpg" width=97% alt="Décomposition des parties de la rocket">
+          
+               
+        
+       </div>
+     </section>
+     <div class="row">
+       <div style="margin:auto"><a href="#rocket_modules"><p class="demarrer"> Décourvir les modules </p></a>
+         </div>
+       <div class="flechebas">&nbsp;</div>  
+     </div>
+     <section class="rocket_modules" id="rocket_modules">
+
+          {{#each agile_rocket_modules}}
+          <div class="row  rowgray">
+            <div>
+              <img src="/images/agile-rocket/{{image}}" width="150px" height="150px" class="rocket_image"/> 
+            </div>
+            <div> 
+              <header>
+              {{#if partie}}
+              <p>{{partie}}</p>
+              {{/if}}
+              
+              <H1>{{title}}</H1>
+              </header>
+            </div>
+          </div>
+          <div class="row">
+           <div class="w45">
+             {{#if scribing}}
+              <img src="/images/agile-rocket/{{scribing}}"  class="scribbing"/>
+              {{/if}}
+           </div>
+           <div class="rocket_modules_content">
+              <h2>{{question}}</h2>          
+              {{{contents}}}
+           </div>
+          </div>
+          {{/each}}
+        </section><!-- end section rocket_modules -->
+     </div>
+    <button onclick="topFunction()" id="BtnGoTop" title="Go to top">Top</button>
+     <!-- Modal Formation-->
+        <div class="modal fade " id="modal-form" tabindex="-1" role="dialog" aria-labelledby="Formulaire Formation Agile rocket">
+              <div class="modal-dialog " role="document">
+                  <div class="modal-content">
+                    <div>
+                    <p id="modal-title"></p><span class="closecross" data-dismiss="modal">&times;</span>
+                    </div>
+                      <div class="modal-body divform" id="modal-body">
+                        <form action="https://formspree.io/formation@goood.pro" method="POST" class="form-modal">
+                          <input type="hidden"  name="sujet"/>
+                            Nom* <input type="text" placeholder="Nom" name="nom" required size="50"/>
+                            Email* <input type="text" name="email" placeholder="dupont@domaine.fr" required size="50"/>
+                            Tel <input type="text" name="tel" placeholder="06 xx xx xx xx" size="14"/>
+                            Message<textarea name="comment" cols="80" rows="5"></textarea>                      
+                            </select>
+                            <input type="submit" class="btn btn-primary btn-white" Value="Envoyer!"/>
+                        </form>
+                      </div>
+                  </div>
+              </div>
+           </div><!-- End Modal Formation-->
+       <script>
+         
+          $('a[data-toggle]').on('click', function(e) {
+              e.preventDefault();
+              var title= $(this).attr('titlesubject');              
+              $('#modal-title').text(title);
+              $("input[name='sujet']").val(title);
+          });
+
+      
+         
+</script>
+<script>
+   // When the user scrolls down 20px from the top of the document, show the button
+   
+       $('#agile-rocket').scroll (function() {
+            // console("Top"& $(window).scrollTop());
+              if ($(window).scrollTop() > 0) {
+              $('#BtnGoTop').fadeIn(800); // 800 milliseconds for the fade in effect
+              }
+            else {
+              $('#BtnGoTop').fadeOut('fast'); // 200  
+              //    $("#BtnGoTop").css( "display",  "block");
+              //} else {
+                //   $("#BtnGoTop").css( "display",  "none");
+              }
+          })
+
+         
+
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+             $('body,html').animate({scrollTop: 0}); // For Chrome, Safari and Opera 
+              //document.documentElement.scrollTop = 0; // For IE and Firefox
+          }
+  </script>
+        
+       {{> slide-nav-sous-pages
+          parent = 'Retour aux savoir-faire'
+          parentPath = '/savoir-faire'        
+        }}
+        {{> footer }}
+      </div>
+    </div>
+  {{/inline}}
+{{/layout}}

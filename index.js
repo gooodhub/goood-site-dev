@@ -4,7 +4,7 @@ const sitemap = require('metalsmith-mapsite');
 const markdown = require('metalsmith-markdown');
 const sass = require('metalsmith-sass');
 const autoprefixer = require('metalsmith-autoprefixer');
-const permalinks = require('metalsmith-permalinks'); 
+const permalinks = require('metalsmith-permalinks');
 var ignore = require('metalsmith-ignore');
 const collections = require('metalsmith-collections');
 const metalSmithRegisterHelpers = require('metalsmith-register-helpers');
@@ -80,6 +80,14 @@ const buildApp = metalsmith(__dirname)
       pattern: 'toolkits/*.md',
       sortBy: 'order'
     },
+    agile_rocket_modules: {
+      pattern: 'agile-rocket/*.md',
+      sortBy: 'tri',
+      reverse: false,
+    },
+    savoir_faire: {
+      pattern: 'pages/savoir-faire/*.md',
+    },
   }))
 
   .use(dateFormatter({
@@ -96,6 +104,7 @@ const buildApp = metalsmith(__dirname)
   .use(ignore('evenements/*'))
   .use(ignore('clients/*/*'))
   .use(ignore('portraits/*'))
+  .use(ignore('agile-rocket/*'))
   //.use(ignore('toolkits/*'))
   // Routing
   .use(permalinks({
@@ -113,6 +122,10 @@ const buildApp = metalsmith(__dirname)
       },{
         match: { collection: 'toolkits' },
         pattern: 'tools/:slug',
+      },
+      {
+       match: { collection: 'savoir_faire' },
+        pattern: 'savoir-faire/:slug',
       }]
   }))
 
