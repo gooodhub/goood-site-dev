@@ -19,11 +19,11 @@
      <div class="actions">
         <div class="action"> 
           <p>Envie d'apprendre à mettre en oeuvre la démarche?</p>
-          <a href="#" class="btn btn-secondary">Formation</a>
+          <a href="#inlinemodal" class="btn btn-secondary" data-toggle="modal" data-target="#modal-form" titlesubject="Formation Agile Rocket">Formation</a>
         </div>
         <div class="action">
           <p>On s'organise un dej. pour présenter l'Agile Rocket chez vous?</p>
-          <a href="#" class="btn btn-secondary">BBL</a>
+          <a href="#inlinemodal" class="btn btn-secondary"  data-toggle="modal" data-target="#modal-form" titlesubject="Demande de Brown Bag Launch pour Agile Rocket">BBL</a>
         </div>
         <div class="action">
           <p>Le guide pour un <voya></voya>ge exploratoire agile et modulaire</p>
@@ -49,6 +49,9 @@
      
        <div class="row"> 
          <img src="/images/agile-rocket/add_modules.jpg" width=97% alt="Décomposition des parties de la rocket">
+          
+               
+        
        </div>
      </section>
      <div class="row">
@@ -87,8 +90,40 @@
           {{/each}}
         </section><!-- end section rocket_modules -->
      </div>
+    
+     <!-- Modal Formation-->
+        <div class="modal fade " id="modal-form" tabindex="-1" role="dialog" aria-labelledby="Formulaire Formation Agile rocket">
+              <div class="modal-dialog " role="document">
+                  <div class="modal-content">
+                    <div>
+                    <p id="modal-title"></p><span class="closecross" data-dismiss="modal">&times;</span>
+                    </div>
+                      <div class="modal-body divform" id="modal-body">
+                        <form action="https://formspree.io/n.guignardeau@goood.pro" method="POST" class="form-modal">
+                          <input type="hidden"  name="sujet"/>
+                            Nom* <input type="text" placeholder="Nom" name="nom" required size="50"/>
+                            Email* <input type="text" name="email" placeholder="dupont@domaine.fr" required size="50"/>
+                            Tel <input type="text" name="tel" placeholder="06 xx xx xx xx" size="14"/>
+                            Message<textarea name="comment" cols="80" rows="5"></textarea>                      
+                            </select>
+                            <input type="submit" class="btn btn-primary btn-white" Value="Envoyer!"/>
+                        </form>
+                      </div>
+                  </div>
+              </div>
+           </div><!-- End Modal Formation-->
+       <script>
+         
+          $('a[data-toggle]').on('click', function(e) {
+              e.preventDefault();
+              var title= $(this).attr('titlesubject');              
+              $('#modal-title').text(title);
+              $("input[name='sujet']").val(title);
+          });
 
-        
+      
+
+       </script>
         
        {{> slide-nav-sous-pages
           parent = 'Retour aux savoir-faire'

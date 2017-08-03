@@ -142,27 +142,7 @@
      {
          margin: 10px 0px 10px 0px;
      }
-     select,input[type=select],input[type=Text]
-     {
-        height: 3rem;
-         @media #{$small-only} {
-        width:250px;   
-       }
-     }
-     select,input[type=select],input[type=Text],textarea{
-        
-        padding: 6px 12px;
-        line-height: 1.6 rem;
-        display: block;
-        color: $secondaryColor;
-        border-radius: 4px;       
-        margin-top:0.25rem;
-        margin-bottom:1.25rem;
-            border: 1px solid #ccc;
-             @media #{$small-only} {
-        width:300px;   
-       }
-     }
+     
       
      .btn
      {

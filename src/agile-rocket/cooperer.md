@@ -14,7 +14,8 @@
 
 }
 ---
-Dans ce module, nous travaillons avec l'équipe pour l’aider à passer de l’individuel au collectif.
+Une équipe n’est pas une somme d’individus. Notre accompagnement sur la coopération aide l’équipe à passer de l’individuel au collectif.
 
 En partageant une vision commune des informations du système, chacun peut contribuer au collectif et aider l’équipe à réussir son challenge.
+
 

@@ -14,6 +14,7 @@
 
 }
 ---
-Dans ce module, nous travaillons avec l’équipe à optimiser le flux de création de valeur dans une perspective globale.
+Nous aidons l’équipe à optimiser le flux de création de valeur dans une perspective globale.
 
 Nous travaillons avec l’équipe pour identifier la capacité actuelle du système à satisfaire les besoins des clients et nous l’aidons à prendre des décisions sur le travail à faire ou ne pas faire.
+

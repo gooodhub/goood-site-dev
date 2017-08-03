@@ -13,7 +13,7 @@
   prevPath: "../maitrise/",
 }
 ---
-Dans ce module, nous accompagnons les équipes à passer de “avons-nous assez de budget pour délivrer ce périmètre ?” à “comment livrer le plus de valeur aux utilisateurs grâce à notre budget ?”.
+Pour protéger du risque de perdre l’objectif qui est de satisfaire le client final, nous aidons les équipes à passer de “avons-nous assez de budget pour délivrer ce périmètre ?” à “comment livrer le plus de valeur aux utilisateurs grâce à notre budget ?”.
 
 Nous les aidons à s’appuyer sur les utilisateurs pour imaginer, construire et tester le produit au travers de boucles de feedback courtes.
 

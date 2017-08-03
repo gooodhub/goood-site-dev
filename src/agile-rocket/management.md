@@ -15,6 +15,7 @@ Comment peut-on accompagner le management à se transformer ?" ,
   prevPath: "../fluidifier/",
 }
 ---
-Dans ce module, nous travaillons avec le manager pour l’aider à prendre en compte la complexité et assumer l’incertitude.
+La transformation agile impose un changement de management. Nous travaillons avec le manager pour l’aider à prendre en compte la complexité et assumer l’incertitude.
 
 Pour gérer cette incertitude et renforcer les capacités d’adaptation, nous l’aidons à mettre en place un cadre permettant de développer l’auto-organisation de l’équipe et catalyser l’intelligence collective.
+

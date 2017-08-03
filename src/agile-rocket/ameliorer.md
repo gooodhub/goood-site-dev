@@ -13,7 +13,7 @@
   prevPath: "../fluidifier/",
 }
 ---
-Dans ce module, nous travaillons avec l’équipe pour construire une démarche d’amélioration continue structurée.
+Nous travaillons avec l’équipe pour construire une démarche d’amélioration continue structurée.
 
 Nous aidons l’équipe à capter et exploiter les feedbacks provenant des clients ainsi que les insatisfactions relayées par la couche managériale afin de mener des expérimentations d’amélioration.
 
