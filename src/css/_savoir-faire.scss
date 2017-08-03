@@ -1,7 +1,5 @@
 #savoir-faire {
 
-  // background: white;
-
   .savoirfaire-vision {
 
     &__content {
@@ -16,10 +14,9 @@
       }
 
       &__labels {
-
         @extend %contentBoldFont;
         color: $secondaryColor;
-        margin-bottom: 20px;
+        margin: 30px 0 20px 0;
 
         @media #{$medium-up} {
           display: block;
@@ -38,30 +35,43 @@
       }
 
       &__label {
-
         margin-right: 30px;
         margin-top: 20px;
         width: 110px;
         align-content: center;
         text-align: center;
 
-        &--active {
-          color: $primaryColor!important;
-        }
-
-        &:hover {
-          color: lighten($primaryColor, 20%);
-        }
-
         &__img {
-          box-shadow: 0px 8px 65px 0 rgba(0, 0, 0, 0.18);
+          // box-shadow: 0px 8px 65px 0 rgba(0, 0, 0, 0.18);
           line-height: 0;
           align-items: center;
           justify-content: center;
           margin-bottom: 20px;
 
-          img {
-            width: 100%;
+          svg, path {
+            height: 100px;
+            width: 100px;
+          }
+
+          // img {
+            // width: 100%;
+          // }
+        }
+
+        &__img__active {
+          line-height: 0;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          top: 50px;
+
+          @media #{$medium-only} {
+            position: relative;
+            top: 44px;
+          }
+
+          @media #{$small-only} {
+            display: none;
           }
         }
       }
@@ -81,13 +91,16 @@
       img {
         width: 100%;
       }
+
+      @media #{$small-only} {
+        display: none;
+      }
     }
 
     &__content {
       @extend %contentPadding;
       flex: 1;
       flex-grow: 2;
-
 
       p {
         color: white;
@@ -100,6 +113,50 @@
       header p {
         &:after {
           background: white;
+        }
+      }
+    }
+  }
+
+  .savoirfaire-rocket-notre-demarche {
+    display: flex;
+
+    &__buttons {
+      flex: 1;
+      justify-content: center;
+      box-shadow: 0px 8px 65px 0 rgba(0, 0, 0, 0.18);
+      position: relative;
+      top: -30px;
+      color: red;
+      margin-bottom: 30px;
+
+      @media #{$small-only} {
+        top: -20px;
+      }
+
+      @media #{$medium-only} {
+        top: -25px;
+      }
+
+      .btn {
+        border-radius: 0;
+      }
+
+      .btn--primary {
+        color: white;
+        background-color: #fc4c02;
+      }
+
+      .btn--vision {
+        position: relative;
+        &:after {
+          margin-left: 10px;
+          content: '';
+          background: url('/images/fleche-droite-ico.svg');
+          background-size: cover;
+          width: 20px;
+          height: 15px;
+          transform: rotate(90deg);
         }
       }
     }
@@ -136,6 +193,7 @@
         margin-bottom: em(20);
         margin-right: em(20);
         position: relative;
+        font-size: 30px;
         svg, path { fill: $primaryColor!important; }
       }
     }
