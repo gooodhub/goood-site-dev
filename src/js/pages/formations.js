@@ -1,5 +1,5 @@
 export default {
-  position: 5,
+  position: 8,
   id: 'formations',
   path: '/formations/',
   title: 'Formations',

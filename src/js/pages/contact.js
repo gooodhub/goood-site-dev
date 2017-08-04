@@ -1,5 +1,5 @@
 export default {
-  position: 6,
+  position: 10,
   id: 'contact',
   path: '/contact/',
   title: 'Contacts',

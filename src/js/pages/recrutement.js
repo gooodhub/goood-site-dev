@@ -1,5 +1,5 @@
 export default {
-  position: 4,
+  position: 6,
   id: 'career',
   path: '/recrutement/',
   title: 'Rejoindre l\'équipe',

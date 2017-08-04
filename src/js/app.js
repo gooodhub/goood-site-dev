@@ -27,6 +27,7 @@ const goood = () => {
     if (currentPage) {
       currentPage.onEnterCompleted();
     }
+    if(firstElement) firstElement.classList.add('slide--iosFix');
   }
 };
 
