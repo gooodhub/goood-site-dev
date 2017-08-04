@@ -358,18 +358,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="formateurs">
     <div class="row">
     <div class="slider1">
-         <div class="slidee"><img src="/images/portraits/arnaudG.jpg"  height="350px" alt="Arnaud Gervais"></div>
+         <div class="slidee"><img src="/images/portraits/LionelM.jpg"  height="350px" alt="Lionel Massiera"></div>
          <div class="slidee"><img src="/images/portraits/christopheK.jpg"  height="350px" alt="Christophe Keromen"></div>
          <div class="slidee"><img src="/images/portraits/damienT.jpg"  height="350px" alt="Damien Thouvenin"></div>
          <div class="slidee"><img src="/images/portraits/gregA.jpg"  height="350px" alt="Grégory Alexandre"></div>
          <div class="slidee"><img src="/images/portraits/jeremyL.jpg"  height="350px" alt="Jérémy Landon"></div>
-         <div class="slidee"><img src="/images/portraits/LionelM.jpg"  height="350px" alt="Lionel Massiera"></div>
+         <div class="slidee"><img src="/images/portraits/arnaudG.jpg"  height="350px" alt="Arnaud Gervais"></div>
          <div class="slidee"><img src="/images/portraits/mathildeR.jpg"  height="350px" alt="Mathilde Remy"></div>
          <div class="slidee"><img src="/images/portraits/mijaR.jpg"  height="350px" alt="Mija Rabemananjara"></div>
          <div class="slidee"><img src="/images/portraits/nicolasV.jpg"  height="350px" alt="Nicolas Verdot"></div>
          <div class="slidee"><img src="/images/portraits/olivier-my.jpg"  height="350px" alt="Olivier My"></div>
-         <div class="slidee"><img src="/images/portraits/romainV.jpg"  height="350px" alt="Romain Vignes"></div>
          <div class="slidee"><img src="/images/portraits/remiL.jpg"  height="350px" alt="Rémi Lesieur"></div>
+         <div class="slidee"><img src="/images/portraits/romainV.jpg"  height="350px" alt="Romain Vignes"></div>
          <div class="slidee"><img src="/images/portraits/sebD.jpg"  height="350px" alt="Sébastien Delest"></div>
          <div class="slidee"><img src="/images/portraits/sophieD.jpg"  height="350px" alt="Sophie Durand"></div>
          <div class="slidee"><img src="/images/portraits/sylviaC.jpg"  height="350px" alt="Sylvia Cohen"></div>
@@ -607,17 +607,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </footer>
 </div>
 </div>
-  <script type="text/javascript">
-$(document).ready(function(){
-  $('.slider1').bxSlider({
-    slideWidth: 280,
-    minSlides: 1,
-    maxSlides: 3,
-	moveSlides: 1,
-    slideMargin: 10
-  });
-});
-</script>
+
     </div>
     <div class="subPageContainer">
     </div>
@@ -763,6 +753,18 @@ $(document).ready(function(){
     }
   }
 }( this ));
+
+
+// formation slider must be at the end to prevent any error of js loading order
+$(document).ready(function(){
+  $('.slider1').bxSlider({
+    slideWidth: 280,
+    minSlides: 1,
+    maxSlides: 3,
+	moveSlides: 1,
+    slideMargin: 10
+  });
+});
   </script>
 </body>
 </html>

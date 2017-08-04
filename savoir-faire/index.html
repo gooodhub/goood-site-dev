@@ -153,7 +153,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="row">
             <div class="savoirfaire-vision__content">
               <header>
-                <h1>LA VISION DE GOOOD! SUR L’AGILITÉ ET NOTRE RECETTE MAGIQUE SE DECLINENT EN DIFFÉRENTS TYPES D’INTERVENTIONS</h1>
+                <h1>LA VISION DE GOOOD! SUR L’AGILITÉ ET NOTRE RECETTE MAGIQUE SE DÉCLINENT EN DIFFÉRENTS TYPES D’INTERVENTIONS</h1>
               </header>
               <div class="savoirfaire-vision__content__labels">
                 <div class="savoirfaire-vision__content__label">
@@ -601,6 +601,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
   }
 }( this ));
+
+
+// formation slider must be at the end to prevent any error of js loading order
+$(document).ready(function(){
+  $('.slider1').bxSlider({
+    slideWidth: 280,
+    minSlides: 1,
+    maxSlides: 3,
+	moveSlides: 1,
+    slideMargin: 10
+  });
+});
   </script>
 </body>
 </html>

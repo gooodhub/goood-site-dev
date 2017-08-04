@@ -468,6 +468,18 @@ C'est par ici : [http://1cube-and-go.com/](http://1cube-and-go.com/)
     }
   }
 }( this ));
+
+
+// formation slider must be at the end to prevent any error of js loading order
+$(document).ready(function(){
+  $('.slider1').bxSlider({
+    slideWidth: 280,
+    minSlides: 1,
+    maxSlides: 3,
+	moveSlides: 1,
+    slideMargin: 10
+  });
+});
   </script>
 </body>
 </html>
