@@ -17,20 +17,14 @@
         @extend %contentBoldFont;
         color: $secondaryColor;
         margin: 30px 0 20px 0;
-
-        @media #{$medium-up} {
-          display: block;
-          display: flex;
-          justify-content: space-around;
-          line-height: 18px;
-        }
+        display: flex;
+        justify-content: space-around;
+        line-height: 18px;
 
         @media #{$small-only} {
-          display: block;
-          display: flex;
           align-items: center;
           flex-direction: column;
-          line-height: 18px;
+          flex-wrap: nowrap;
         }
       }
 
@@ -42,7 +36,6 @@
         text-align: center;
 
         &__img {
-          // box-shadow: 0px 8px 65px 0 rgba(0, 0, 0, 0.18);
           line-height: 0;
           align-items: center;
           justify-content: center;
@@ -52,10 +45,6 @@
             height: 100px;
             width: 100px;
           }
-
-          // img {
-            // width: 100%;
-          // }
         }
 
         &__img__active {
@@ -196,14 +185,6 @@
         font-size: 30px;
         svg, path { fill: $primaryColor!important; }
       }
-    }
-  }
-
-  .savoirfaire-rocket-description {
-
-    &__content {
-      @extend %contentPadding;
-      margin-bottom: 10px;
     }
   }
 }
