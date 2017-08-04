@@ -17,20 +17,14 @@
         @extend %contentBoldFont;
         color: $secondaryColor;
         margin: 30px 0 20px 0;
-
-        @media #{$medium-up} {
-          display: block;
-          display: flex;
-          justify-content: space-around;
-          line-height: 18px;
-        }
+        display: flex;
+        justify-content: space-around;
+        line-height: 18px;
 
         @media #{$small-only} {
-          display: block;
-          display: flex;
           align-items: center;
           flex-direction: column;
-          line-height: 18px;
+          flex-wrap: nowrap;
         }
       }
 
