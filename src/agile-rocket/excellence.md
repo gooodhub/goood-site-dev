@@ -13,6 +13,4 @@
   prevPath: "../produit/",
 }
 ---
-Nous travaillons avec l’équipe à livrer fréquemment en production un produit de qualité répondant aux besoins de l’utilisateur.
-
 Nous aidons l’équipe à écrire un code de qualité, détecter les problèmes au plus tôt et mettre en place des stratégies de tests automatisés et de déploiement continu.
