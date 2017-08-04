@@ -7,6 +7,9 @@ import eventsPage from './pages/evenements';
 import contactPage from './pages/contact';
 import sousPage from './pages/sous-page';
 import formationsPage from './pages/formations';
+import toolkitPage from './pages/toolkit';
+import savoirPage from './pages/savoir-faire';
+import rocketPage from './pages/rocket';
 
 const protoPage = {
   position: null,

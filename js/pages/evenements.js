@@ -1,5 +1,5 @@
 export default {
-  position: 5,
+  position: 7,
   id: 'events',
   path: '/evenements-formations/',
   title: 'Évts et Formations',

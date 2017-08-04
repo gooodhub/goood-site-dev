@@ -3,7 +3,7 @@ import objectFitImages from 'object-fit-images';
 import Blazy from 'blazy';
 
 export default {
-  position: 3,
+  position: 5,
   id: 'equipe',
   title: 'Équipe et culture',
   path: '/equipe-et-culture/',
