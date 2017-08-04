@@ -92,7 +92,7 @@
 
         @media #{$small-only} {
           padding-right: 0;
-          margin-top:1rem;
+          
           width:95%;
           flex: 1;
           flex-direction: column;
@@ -129,7 +129,10 @@
           text-align: right;
           color:$primaryColor;
           display:block;
-          
+           @media #{$small-only} {
+
+          font-size: 25px;
+           }
           svg
           {
             width: 17px;
