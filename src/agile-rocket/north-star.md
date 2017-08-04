@@ -2,7 +2,7 @@
 {
   title: "North Star",
   description: "Comment embarquer mon équipe vers un objectif partagé - inspirant - suscitant le rêve ?",
-  question: "",
+  question: "Comment embarquer mon équipe vers un objectif partagé - inspirant - suscitant le rêve ?",
   but: "",
   image: "northstar.png",
   scribing : "1-Vision.jpeg",

@@ -5,7 +5,7 @@
   question: "Comment s’appuyer sur le collectif pour prendre les bonnes décisions ?",
   image: "cooperer.png",
   scribing : "2-Cooperer.jpeg",
-  partie: "Les étages des fusées",
+  partie: "Les étages de la fusée",
   tri: 2,
   nextTitle: "Améliorer",
   nextPath: "../ameliorer/",

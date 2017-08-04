@@ -1,8 +1,8 @@
 ---
 {
   title: Maîtrise Personnelle,
-  description: "Comment encourager et nourrir une culture d’entreprise qui satisfait le client en traitant positivement l’évolution continuelle des besoins utilisateurs ?",
-  question: "Comment encourager et nourrir une culture d’entreprise qui satisfait le client en traitant positivement l’évolution continuelle des besoins utilisateurs ?",
+  description: "Comment l’organisation peut-elle augmenter sa capacité d’adaptation et développer sa résilience ? Comment passer de la réaction à la pro-action ? Comment passer d’un focus sur l’individu à un focus sur le collectif? Comment passer de l’efficacité à l’efficience ?",
+  question: "Comment l’organisation peut-elle augmenter sa capacité d’adaptation et développer sa résilience ? Comment passer de la réaction à la pro-action ? Comment passer d’un focus sur l’individu à un focus sur le collectif ? Comment passer de l’efficacité à l’efficience ?",
   image: "maitrise.png",
   scribing : "5-Maitrise Personnelle.jpeg",
   partie: "Stabilisateurs de vol",

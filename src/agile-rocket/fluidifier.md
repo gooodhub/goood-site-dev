@@ -5,7 +5,7 @@
   question: "Comment optimiser le flux de production de valeur, la prédictibilité de la livraison finale au client sans surcharger les équipes ?",
   image: "fluidifier.png",
   scribing : "4-Fluidifier.jpeg",
-  partie: "Les étages des fusées",
+  partie: "Les étages de la fusée",
   tri: 4,
   nextTitle: "Management complexe",
   nextPath: ../management/,
