@@ -8,6 +8,7 @@ export default {
   position: 0,
   id: 'home',
   path: '/',
+  noScrollFix: true,
   onEnterCompleted,
   onLeaveCompleted,
   scrollMagic: {
