@@ -59,11 +59,14 @@ const pages = [];
 
 pages.push(createPage(homePage));
 pages.push(createPage(recettePage));
+pages.push(createPage(savoirPage));
+pages.push(createPage(rocketPage));
 pages.push(createPage(referencesPage));
 pages.push(createPage(equipePage));
 pages.push(createPage(careersPage));
+pages.push(createPage(formationsPage));
 pages.push(createPage(eventsPage));
 pages.push(createPage(contactPage));
-pages.push(createPage(formationsPage));
+pages.push(createPage(toolkitPage));
 
 export default pages;
