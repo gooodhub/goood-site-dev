@@ -8,6 +8,7 @@ export default {
   id: 'recette-magique',
   title: 'Recette magique',
   path: '/recette-magique/',
+  noScrollFix: true,
   onEnterCompleted,
   onLeaveCompleted,
   scrollMagic: {

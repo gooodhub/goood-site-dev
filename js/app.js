@@ -26,8 +26,8 @@ const goood = () => {
   function bindEvents() {
     if (currentPage) {
       currentPage.onEnterCompleted();
+      if(firstElement && !(currentPage.noScrollFix)) firstElement.classList.add('slide--iosFix');
     }
-    if(firstElement) firstElement.classList.add('slide--iosFix');
   }
 };
 
