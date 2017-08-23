@@ -16,5 +16,5 @@
 ---
 L’agilité n’est pas un objectif : la fusée est un moyen de transport, pas la finalité du voyage.
  
-Notre accompagnement sur la North Star permettra de définir la vision, une destination qui suscite le rêve, aide à maintenir le cap de la transformation agile.	
+Notre accompagnement sur la North Star permet de définir la vision, une destination qui suscite le rêve, aide à maintenir le cap de la transformation agile.	
 
