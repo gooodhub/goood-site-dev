@@ -13,4 +13,4 @@
   prevPath: "../produit/",
 }
 ---
-Nous aidons l’équipe à écrire un code de qualité, détecter les problèmes au plus tôt et mettre en place des stratégies de tests automatisés et de déploiement continu.
+Nous aidons l’équipe à écrire un code de qualité, détecter les problèmes au plus tôt et mettre en place des stratégies de tests automatisés et de déploiement continu. La démarche s'applique également hors du cadre du développement logiciel en utilisant des approches comme le Lean Office pour les activités de service, par exemple.
