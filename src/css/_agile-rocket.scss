@@ -43,8 +43,7 @@
     }
      
     }
-   
-    
+     
   }
   .intro
   {
@@ -180,6 +179,20 @@
     padding-bottom: 10px;
       margin-bottom: 10px;
  }
+
+.arrow-link {
+  color: $primaryColor;
+  margin-top: auto;
+  margin-bottom: em(20);
+  margin-right: em(20);
+  position: relative;
+  text-align: right;
+  font-size: 30px;
+
+  svg, path { fill: $primaryColor!important; }
+}
+
+ 
   .scribbing{
       width:95%;
       
