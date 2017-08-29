@@ -8,7 +8,7 @@ priority: 1
 rocketguidepdf: https://gooodpro.files.wordpress.com/2017/07/agile-rocket-1-3.pdf
 rocketguideAcheter: https://www.bookelis.com/economie/28089-Agile-Rocket-Guide.html
 image : rocket_full.jpg
-imagereseauxsociaux: rocket_guide_book.jpg
+imagereseauxsociaux: rocket-couleur-fr.png
 ---
 
 ## Lorsque l’on se lance sur le chemin de l’agilité arrive souvent cette fameuse question : est-ce que je fais du Scrum ou du Kanban ? Mais est-ce véritablement la bonne question ? Quels sont les objectifs que l’on souhaite atteindre ? ##  
