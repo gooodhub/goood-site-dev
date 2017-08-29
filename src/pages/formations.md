@@ -7,6 +7,7 @@ description: Retrouvez notre catalogue de formations.,
 layout: formations.html,
 changefreq: daily,
 priority: 1,
+imagereseauxsociaux: header-events-th2.jpg,
 formation_themes: [
         {name: "Concevoir l'entreprise agile",formationslist: [
                     {formationname: "L’entrepreneur leader",path: "entrepreneur-leader"},

@@ -7,11 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <title>{{ title }}</title>
+  {{#if title}}
+  <meta property="og:title" content="{{title}}" />
+  {{else}}
   <meta property="og:title" content="Goood!" />
+  {{/if}}
   <meta property="og:type" content="website" />
+  {{#if path}}
+  <meta property="og:url" content="http://goood.pro/{{path}}/" />
+  {{else}}
   <meta property="og:url" content="http://goood.pro" />
+  {{/if}}
+  {{#if imagereseauxsociaux}}
+  <meta property="og:image" content="http://goood.pro/images/{{imagereseauxsociaux}}" />
+{{else}}
   <meta property="og:image" content="http://goood.pro/images/photo-video.jpg" />
+  {{/if}}
+  {{#if description}}
+  <meta property="og:description" content="{{description}}" />
+  {{else}}
   <meta property="og:description" content="Luttons contre le gâchis dans les entreprises. Les énergies dispersées, les processus inefficaces, les décisions interminables, les talents qui ne s’expriment pas … Ce n’est pas une fatalité. Ensemble, nous pouvons lutter." />
+  {{/if}}
   <meta property="og:locale" content="fr_FR" />
   <meta property="og:site_name" content="Goood!" />
   <meta property="og:video" content="https://youtu.be/BI7K9lWhMgc" />

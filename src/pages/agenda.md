@@ -6,6 +6,7 @@ description: Retrouvez les prochaines dates des événements ouverts au public o
 layout: agenda.html
 changefreq: daily
 priority: 1
+imagereseauxsociaux: agenda.jpg
 ---
 # Les groupes et communautés où nous sommes impliqués #
 * [100 000 Entrepreneurs]()

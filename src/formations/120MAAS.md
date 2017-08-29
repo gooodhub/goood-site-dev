@@ -13,7 +13,8 @@
 	pourcentagePratique: 75,
 	lesPlus: [],
 	layout: formation-fiche.html, 
-	dates: [Nous contacter]
+	dates: [Nous contacter],
+	imagereseauxsociaux: raisinghand.jpg
 }
 ---
 

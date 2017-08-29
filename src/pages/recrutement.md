@@ -5,6 +5,7 @@ headline: Rejoindre l'équipe
 description: Opportunités de carrière, missions ou postes, et process de recrutement et d'intégration chez Goood!
 layout: recrutement.html
 priority: 1
+imagereseauxsociaux: header-career-th2.jpg
 ---
 
 ## La passion avant tout ##

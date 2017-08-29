@@ -4,6 +4,7 @@ slug: espace-sud
 headline: Votre espace dans le sud
 description: 2 salles à Sophia Antipolis pour faciliter vos ateliers, réunions, jeu et conférences
 layout: espacesud.html
+imagereseauxsociaux: espace-sud.jpg
 ---
 
 En concevant notre nouveau lieu au cœur de Sophia Antipolis, nous nous sommes dit que ce serait bête de ne pas le partager !

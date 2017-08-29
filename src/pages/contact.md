@@ -5,6 +5,7 @@ headline: Contacts
 description: Adresses des locaux et coordonnées des points de contact Goood! 
 layout: contact.html
 priority: 0.6
+imagereseauxsociaux: header-contact-th2.jpg
 ---
 
 #### Accès ####

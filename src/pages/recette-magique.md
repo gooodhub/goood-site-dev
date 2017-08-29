@@ -5,6 +5,7 @@ headline: Recette magique
 description: Démarche en 5 points déployée par Goood! pour accompagner la transformation agile des entreprises
 layout: recette-magique.html
 priority: 1
+imagereseauxsociaux: header-recette-th2.jpg
 ---
 
 

@@ -10,6 +10,7 @@ prevTitle: Formations
 prevPath: /formations/
 nextTitle: contact
 nextPath: /contact/
+imagereseauxsociaux: toolkit-header.jpg
 ---
 
 # A Taste of Goood ! #

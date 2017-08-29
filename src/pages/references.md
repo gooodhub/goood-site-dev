@@ -6,5 +6,6 @@ description: Présentation de cas clients qui illustrent les compétences de Goo
 layout: references.html
 h1: Chacun de nos clients a une problématique unique
 priority: 0.9
+imagereseauxsociaux: header-clients-th2.jpg
 ---
 Voici quelques unes de nos références, organisées selon la problématique soulevée par notre client, à chaque fois différente. Nous intervenons pour tout type d’organisation sur des problématiques très diverses.
