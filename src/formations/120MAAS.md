@@ -1,6 +1,6 @@
 ---
 {
-	title: "Managers as a Service", 
+	title: "Manager as a Service", 
 	slug: "manager-as-a-service", 
 	headline: "Manager as a service",
 	description: "Parcours d'apprentissage : Ce n’est pas le changement qu’il faut manager, mais le management qu’il faut changer Le manager Agile, Jérôme Barrand, Ed. DunodF.", 
@@ -29,11 +29,11 @@ Revue et progrès sur les livres lus.
 * semaine 4: travail libre - évaluation des acquis par remplissage d’un quizz
 
 # Une offre contextualisée #
-* 1) L’intention est immuable : accompagner et favoriser le changement de perception des managers pour mieux évoluer dans un monde de plus en plus complexe.
-* 2) Le format est résolument celui d’un parcours d’apprentissage dans la durée (minimum plusieurs mois) mixant les pédagogies.
-* 3) Le contexte et le temps accordé aux managers sont à définir avec le sponsor de l’initiative.
-* 4) les sujets abordés dans les modules sont à préciser avec le sponsor de l’initiative, le thème général restant celui de l’évolution vers un management plus agile, catalyseur de valeur pour l’entreprise
-* 5) le parcours contextualisé ainsi défini se valide par la mise en route d’un premier pilote avant toute initiative à l’échelle
+1) L’intention est immuable : accompagner et favoriser le changement de perception des managers pour mieux évoluer dans un monde de plus en plus complexe.
+2) Le format est résolument celui d’un parcours d’apprentissage dans la durée (minimum plusieurs mois) mixant les pédagogies.
+3) Le contexte et le temps accordé aux managers sont à définir avec le sponsor de l’initiative.
+4) les sujets abordés dans les modules sont à préciser avec le sponsor de l’initiative, le thème général restant celui de l’évolution vers un management plus agile, catalyseur de valeur pour l’entreprise
+5) le parcours contextualisé ainsi défini se valide par la mise en route d’un premier pilote avant toute initiative à l’échelle
 
 
 # Exemple de modules #
@@ -76,7 +76,7 @@ Revue et progrès sur les livres lus.
 * Systémique
 * Management 3.0
 
-## 8 PLus d'Agilité ##
+## 8 Plus d'Agilité ##
 * Jurgen Appelo
 * Systémique
 * Révisions

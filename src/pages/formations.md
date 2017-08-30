@@ -26,7 +26,7 @@ formation_themes: [
                     {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"}]},
        
         {name: "Passer de la formation à l’apprentissage",formationslist: [
-                    {formationname: "Managers as a Service",path: "manager-as-a-service"}]}
+                    {formationname: "Manager as a Service",path: "manager-as-a-service"}]}
         
     ],
     promotedate_paris: [
