@@ -39,8 +39,6 @@ function onEnterCompleted() {
   const md = new MobileDetect(window.navigator.userAgent);
   const isMobile = !!md.mobile();
   const headerHeight = document.querySelector('.vision__header').clientHeight;
-  const missionheaderHeight = document.querySelector('.mission_header').clientHeight;
-  
 
   // init
   this.scrollMagic.controller = new ScrollMagic.Controller({
@@ -151,27 +149,15 @@ function onEnterCompleted() {
     .insert(animationContent);
 
   // Create scene
-  
-  const missionScene = new ScrollMagic.Scene({
-    triggerElement: '.mission',
-    triggerHook: 'onLeave',
-    duration: '120%',
-    offset: isMobile ? missionheaderHeight : 20,
-  });
-
   const visionScene = new ScrollMagic.Scene({
     triggerElement: '.vision',
     triggerHook: 'onLeave',
     duration: '120%',
     offset: isMobile ? headerHeight : 0,
   });
-// Vision button link on inspirant label
-  document.querySelector('.lnk_mission').addEventListener('click', (e) => {
-    e.preventDefault();
-    this.scrollMagic.controller.scrollTo(missionScene);
-  });
+
   // Vision button link on inspirant label
-  document.querySelector('.lnk_vision').addEventListener('click', (e) => {
+  document.querySelector('.btn.btn--vision').addEventListener('click', (e) => {
     e.preventDefault();
     this.scrollMagic.controller.scrollTo(visionScene);
   });
@@ -204,20 +190,5 @@ function onEnterCompleted() {
       if (progress > 0.25 && progress < 0.75) document.querySelector('.vision__leftSquare__label.innovant').classList.add('active');
       if (progress >= 0.75) document.querySelector('.vision__leftSquare__label.performant').classList.add('active');
     })
-  );
-
-  // Pin and link animation
-  this.scrollMagic.scenes.push(
-    missionScene
-    .setPin('.mission')
-    .setTween(timeline)
-     .addTo(this.scrollMagic.controller)
-  //  .on('progress', (e) => {
-  //    const progress = e.progress.toFixed(2);
-  //    [...document.querySelectorAll('.vision__leftSquare__label')].forEach(item => item.classList.remove('active'));
-  //    if (progress <= 0.25) document.querySelector('.vision__leftSquare__label.inspirant').classList.add('active');
-  //    if (progress > 0.25 && progress < 0.75) document.querySelector('.vision__leftSquare__label.innovant').classList.add('active');
-  //    if (progress >= 0.75) document.querySelector('.vision__leftSquare__label.performant').classList.add('active');
-  //  })
   );
 }
