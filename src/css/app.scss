@@ -161,6 +161,12 @@ a {
   background-position: center center;
   background-size: em(32);
   background-repeat: no-repeat;
+
+  &__menu{
+    color:$primaryColor;
+    padding-top: 6rem;    
+    font-weight: 600;
+  }
 }
 
 .body--hasMenuOpened .ham {

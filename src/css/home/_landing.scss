@@ -1,7 +1,7 @@
 
 #home {
   .slide__header {
-    background-image: url('../images/home-background-'+$theme+'.jpg');
+    background-image: url('../images/header-home-'+$theme+'.jpg');
     background-position-x: right; 
     display:flex;
     align-items: flex-end;
@@ -13,13 +13,61 @@
   }
 
   .landing {
-
+    h3{
+      line-height: 2rem;
+      font-weight: 400;
+    }
+    width:100vw;
+  margin-top:0px;
+padding-top:0px;
+    &__pitch{
+      margin:auto;
+      color:white;
+      width:40%;
+      text-align: center;
+      top:0rem;
+      position:relative;
+      margin-bottom:5rem;
+    }
     &__citation {
       margin: 0 10px;
       margin-bottom: 50px;
       svg {
         width: 100%;
         height: 100%;
+      }
+    }
+    &__links{
+      display:flex;
+      justify-content: center;
+      margin-bottom:10rem;
+      a{
+      color: $primaryColor;
+      }
+      font-size:1.625rem;
+      
+      .lnk_mission,.lnk_vision{
+        position: relative;
+        padding-right:15px;
+        &:after{
+          display:block;
+          margin-left: 10px;
+          content: '';
+          background: url('/images/fleche-home-bas.png');
+          width: 70px; height: 114px;
+          background-size: cover;
+        }
+      }
+      .lnk_savoir-faire{
+        position: relative;
+        padding-right:15px;
+        &:after{
+          display: block;
+          content: '';
+          background: url('/images/fleche-home-droite.png');
+           height: 47px; width: 150px;
+          background-size: cover;
+        }
       }
     }
 
