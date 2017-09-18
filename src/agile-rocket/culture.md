@@ -4,7 +4,7 @@
   description: "Que changer ? Par où commencer ? Est-il suffisant d’adopter un jeu de bonnes pratiques ?",
   question: "Que changer ? Par où commencer ? Est-il suffisant d’adopter un jeu de bonnes pratiques ?",
   image: "reussir.png",
-  scribing : "9-culture agile.jpg",
+  scribing : "9-culture-agile.jpg",
   partie: "Réussir",
   tri: 9,
   nextTitle: "North Star",
