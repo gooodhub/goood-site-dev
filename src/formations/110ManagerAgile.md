@@ -13,7 +13,7 @@
 	pourcentagePratique: 60,
 	lesPlus: [Un programme de mise en pratique sur six semaines entre pairs, Une formation certifiante],
 	layout: formation-fiche.html, 
-	dates: [26 - 27 Septembre 2017 - 18 Octobre et 14 Novembre 2017 à Paris, 23 - 24 Novembre 2017 - 21 Décembre 2017 et 25 Janvier 2018 à Paris]
+	dates: [ 23 - 24 Novembre 2017 - 21 Décembre 2017 et 25 Janvier 2018 à Paris]
 }
 ---
 

@@ -13,7 +13,7 @@
 	pourcentagePratique: 75,
 	lesPlus: ["Vivre le processus dans sa dynamique en tant qu'expérience apprenante","Elargir et approfondir son regard sur le changement en découvrant les étapes de la transformation aux différents niveaux systémiques : individuel, organisationnel, institutionnel et sociétal.","Expérimenter ces étapes au niveau de l'individu et de l'interaction entre eux.","Appliquer le processus dans l'accompagnement au changement de projets innovants","Acquérir des outils et des techniques concrets pour mener à bien un processus de changement"],
 	layout: formation-fiche.html, 
-	dates: [2 - 3 et 4 Octobre 2017 à Paris,
+	dates: [
 	4 - 5 et 6 Décembre 2017 à Paris
 	]
 }
