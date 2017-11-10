@@ -42,8 +42,8 @@ TARGET_BRANCH="gh-pages"
 SSH_REPO='git@github.com:gooodhub/goood-site-dev.git'
 
 echo "########## Configuration du compte git pour commit ##########" 
-git config user.email "cedric.burceaux@gmail.com"
-git config user.name "nrgy"
+git config user.email "n.guignardeau@goood.pro"
+git config user.name "lsonicoGoood"
 
 echo "########## Ajout des données à commit ##########"
 git add .
