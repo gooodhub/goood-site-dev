@@ -46,7 +46,7 @@ npm run deploy-prod
 ```
 Compile les fichiers et déploie sur le repo [goood-site-prod](https://github.com/gooodhub/goood-site-prod)
 
-Visible sur: http://www.goood.pro/
+Visible sur: https://www.goood.pro/
 
 ## Plugins utilisés
 

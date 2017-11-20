@@ -140,7 +140,7 @@ const buildApp = metalsmith(__dirname)
   .use(autoprefixer())
 
   .use(sitemap({
-    hostname: 'http://goood.pro',
+    hostname: 'https://goood.pro',
     omitIndex: true,
     changefreq: 'weekly',
     priority: 0.5,

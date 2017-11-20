@@ -8,8 +8,8 @@ then
 fi
 
 echo "########## Configuration du compte git pour commit ##########" 
-git config user.email "cedric.burceaux@gmail.com"
-git config user.name "nrgy"
+git config user.email "n.guignardeau@goood.pro"
+git config user.name "lsonicoGoood"
 
 echo "#### Configuration du tag ###"
 taggen=$(date +%s)
