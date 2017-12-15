@@ -23,7 +23,7 @@ image:[
 {path: "/images/toolkits/deadline2.png", alt : "A l'agile Tour Grenoble"},
 {path: "/images/toolkits/deadline3.png", alt : "le plateau"}
 ],
-PaymentHtml: "<input type='hidden' name='hosted_button_id' value='KHJ9H3FYSJ562'>"
+PaymentHtml: "<input type='hidden' name='hosted_button_id' value='D5X97CVKMPWDL'>"
 }
 ---
 
