@@ -20,10 +20,10 @@
 <url> <loc>https://goood.pro/tools/salle-sud-demi-journee/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/tools/salle-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/tools/sticky-wall/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://goood.pro/agenda/</loc> <changefreq>daily</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://goood.pro/contact/</loc> <changefreq>weekly</changefreq> <priority>0.6</priority> </url>
 <url> <loc>https://goood.pro/demande-validee/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/equipe-et-culture/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>https://goood.pro/agenda/</loc> <changefreq>daily</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://goood.pro/espace-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/evenements-formations/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://goood.pro/formations/</loc> <changefreq>daily</changefreq> <priority>1.0</priority> </url>
