@@ -19,14 +19,14 @@
 # Réussir et s'affirmer dans son rôle de Scrum Master
 
 ## Objectifs de la formation : ##
-* Des techniques d'animation pour ê tre capable d'animer en autonomie les rituels Scrum afin d'en tirer des bénéfices concrets
+* Des techniques d'animation pour être capable d'animer en autonomie les rituels Scrum afin d'en tirer des bénéfices concrets
 * Des techniques de facilitation afin de dénouer les problématiques humaines et améliorer la collaboration
 * Des techniques de recherche de problèmes et de conduite de plan d'actions afin d'entrer dans une démarche d'amélioration continue
 * Renforcer vos connaissances sur le processus Scrum
 
 # Programme #
 
-## Jour 1 : ##
+## Jour 1 ##
 
 * Quelques rappels sur le processus Scrum et les intéractions
 * Rôle et responsabilités du Scrum Master
