@@ -1,0 +1,62 @@
+---
+{
+	title: "Sensibilsation aux démarches agiles", 
+	slug: "sensibilsation-démarches-agiles", 
+	headline: "Sensibilsation aux démarches agiles",
+	description: "Comprendre la différence entre les méthodes agiles et les méthodes traditionnelles ", 
+	theme: mettre en oeuvre la transformation,
+	heures: 14,
+	participants: 12,
+	InterExiste: 0,
+	prixInter: ,
+	prixIntra: 4 000,
+	pourcentagePratique: 50,
+	lesPlus: [],
+	layout: formation-fiche.html, 
+	dates: [15 et 16 Février 2018 à Paris, 20 et 21 Février 2018 à Sophia Antipolis, 1er et 2 Mars 2018 à Lyon]
+}
+---
+
+# Formation - Sensibilsation aux démarches agiles #
+
+## Objectifs de la formation : ##
+* Comprendre les différences entre les méthodes agiles et les méthodes traditionnelles.
+* Comprendre le fonctionnement des méthodes Agile.
+* Appréhender les bases de Scrum et de Kanban
+
+A l’issue de cette formation vous aurez :
+* Appréhendé les principales méthodes Agile
+* Développé une sensibilisation aux défis d'une transformation Agile.
+
+# Programme #
+
+## Jour 1 ##
+
+### Découverte de l'Agilité ? ###
+* Les caractéristiques de l’approche traditionnelle
+* Complexité, approche prédictive, approche empirique
+* Les raisons et origines de l'agilité : valeurs et principes
+* Développement itératif
+
+### Les dimensions du Manager Agile ###
+* Le manager et la dynamique du groupe
+* La posture du manager
+* Les comportements
+
+## Jour 2 ##
+
+### Scrum et Kanban ###
+* Le cadre méthodologique Scrum
+* Les rôles, les événements et les artéfacts de Scrum
+* Product Backlog
+* Définition de « Terminé », « Prêt »
+* Pilotage : burndown / up charts
+
+### Les inspirations de Kanban : le Lean ###
+
+### Les valeurs, les principes et les pratiques de Kanban ###
+
+### Management Visuel : voir pour passer à l’action ###
+
+## Public concerné ##
+Ce stage s’adresse aux chefs de projet, managers ou toute personne intéressée par les méthodes agiles.
