@@ -4,16 +4,16 @@
 	slug: "devenir-product-owner", 
 	headline: "Devenir Product Owner",
 	description: "Acquérir les outils pour être opérationnel en tant que Product Owner ", 
-	theme: agile,
+	theme: mettre en oeuvre la transformation,
 	heures: 14,
-	participants: 10,
+	participants: 8,
 	InterExiste: 1,
-	prixInter: 1 500,
-	prixIntra: 4 000,
+	prixInter: 1 100,
+	prixIntra: 3 000,
 	pourcentagePratique: 50,
-	lesPlus: [],
+	lesPlus: [De manière concrète comment mettre la gestion de la valeur au coeur de l'action, Les outils qui ne se trouvent pas dans Scrum],
 	layout: formation-fiche.html, 
-	dates: [11 et 12 Décembre 2017 à Paris, 11 et 12 Décembre 2017 à Sophia Antipolis, 11 et 12 Décembre 2017 à Lyon]
+	dates: [19 et 20 Février 2018 à Paris, 22 et 23 Février 2018 à Sophia Antipolis, 26 et 27 Février 2018 à Lyon]
 }
 ---
 
@@ -64,6 +64,5 @@
 * Bonnes pratiques
 
 ## Public concerné ##
-Ce stage s’adresse aux Managers, consultants, Chefs de projet, fonctionnel, maîtrise d’ouvrage, managers, accompagnateurs du changement,
-consultants.
+Ce stage s’adresse aux Managers, consultants, Chefs de projet, fonctionnel, maîtrise d’ouvrage, managers, accompagnateurs du changement, consultants.
 
