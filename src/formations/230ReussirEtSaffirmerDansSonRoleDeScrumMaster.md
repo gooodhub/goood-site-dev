@@ -8,53 +8,37 @@
 	heures: 14,
 	participants: 10,
 	InterExiste: 1,
-	prixInter: 1 500,
-	prixIntra: 4 000,
+	prixInter: 1 300,
+	prixIntra: 3 000,
 	pourcentagePratique: 50,
-	lesPlus: [],
+	lesPlus: [Des techniques de facilitation afin de dénouer les problématiques humaines et améliorer la collaboration, Des techniques de recherche de problèmes et de conduite de plan d'actions afin d'entrer dans une démarche d'amélioration continue, Renforcer vos connaissances sur le processus Scrum]
 	layout: formation-fiche.html, 
-	dates: [9 et 10 Octobre 2017 à Paris, 9 et 10 Octobre 2017 à Sophia Antipolis, 9 et 10 Octobre 2017 à Lyon]
+	dates: [1er et 2 Mars 2018 à Paris, 15 et 16 Mars 2018 à Sophia Antipolis, 19 et 20 Mars 2018 à Lyon]
 }
 ---
 # Réussir et s'affirmer dans son rôle de Scrum Master
 
 ## Objectifs de la formation : ##
-* Comprendre le rôle du Scrum Master 
-* Maitriser les techniques et outils du Scrum Master
-* Identifier son plan d'actions d'amélioration 
+* Des techniques d'animation pour ê tre capable d'animer en autonomie les rituels Scrum afin d'en tirer des bénéfices concrets
+* Des techniques de facilitation afin de dénouer les problématiques humaines et améliorer la collaboration
+* Des techniques de recherche de problèmes et de conduite de plan d'actions afin d'entrer dans une démarche d'amélioration continue
+* Renforcer vos connaissances sur le processus Scrum
 
 # Programme #
 
 ## Jour 1 : ##
 
-### C'est quoi une équipe SCRUM ###
-* Le pourquoi d'une équipe Scrum
-* Construire une équipe Scrum
-
-### Le Scrum Master au service du Product Owner ###
-* Techniques pour maximiser la valeur du produit
-* Animer des sessions d'affinage de backlog et de planification de Sprint efficace 
-* Accompagnement du Product Owner
-
-### Le Scrum Master au service de l’Équipe de Développement ###
-* Encourager l'auto-organisation et la pluridisciplinarité
-* Aider l'équipe à rechercher l'excellence technique 
-* Éliminer les obstacles 
-* Animer efficacement les événements Scrum : mêlée quotienne, revue de Sprint, rétrospective
+* Quelques rappels sur le processus Scrum et les intéractions
+* Rôle et responsabilités du Scrum Master
+* Scrum masters, facilitez votre équipe avec la méthode de discussion structurée
+* Comment conduire un planning ou une estimation ?
+* Comment animer un daily meeting ?
 
 ## Jour 2 ##
 
-### Le Scrum Master au service de l’organisation ###
-* Répendre la culture Agile dans l’organisation
-* Aider l'organisation à mettre en œuvre le développement empirique de produit
-* Collaborer avec d’autres Scrum Master pour péréniser l’utilisation de Scrum dans l’organisation
-
-### Qu'est ce qu'un bon Scrum Master ###
-* Les caractéristiques d'un bon Scrum Master
-* Rendre l'équipe autonome et après ?
-
-### Mes prochaines étapes ####
-* Identifier son plan d'action personnel 
+* Comment animer une rétrospective ?
+* Comment sensibiliser votre équipe aux pratiques XP (Tests unitaires, intégration continue, développement itératif et incrémental...)?
+* Conclusion
 
 ## Public concerné ##
-Ce stage s’adresse aux Scrum Master, facilitateurs, coachs, formateurs, accompagnateurs du changement, consultants et tout acteur d’un projet Scrum.
+Ce stage s’adresse aux managers, facilitateurs, coachs, formateurs, accompagnateurs du changement, consultants et tout acteur d’un projet Scrum.
