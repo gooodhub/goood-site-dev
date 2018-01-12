@@ -9,10 +9,9 @@
 	finance: false,
 	intervient: true,
 	organise: false,
-	tags: [Accessibilité, Scrum, Kanban, Management],
+	tags: [Accessibilité numérique, a11y, HTML],
 	lien: "http://meetu.ps/e/DJFY7/DxHk6/a",
 	icon: "fa-users",
-	description: "Nous avons le plaisir d'organiser le 2ème Meetup UX Incognita qui aura pour thème l'accessibilité. Nous commençons cette nouvelle année avec quelques questions :
-Qu'en est-il de l'accessibilité Web ? Les bonnes pratiques, est-ce compliqué ? Nous aurons pour discuter de ce sujet 3 intervenantes expertes dans le domaine."
+	description: "Trois mini-conférences sur l'accessibilité numérique auront lieu au meetup UX Incognita. Notre collègue Emmanuelle Aboaf présentera "HTML & Accessibilité" pour montrer à quel point il est facile d'implementer l'accessibilité avec le code HTML sur un site web dès le début."
 }
 ---
