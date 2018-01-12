@@ -4,7 +4,7 @@
 	slug: "creativite-grace-aux-techniques-de-facilitation", 
 	headline: "Plus de Créativité dans l'entreprise grâce aux techniques de facilitation",
 	description: "Catalyser la créativité des équipiers par les techniques de facilitation ", 
-	theme: mobiliser l'intelligence collective,
+	theme: agile,
 	heures: 14,
 	participants: 10,
 	InterExiste: 1,

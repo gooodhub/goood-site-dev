@@ -4,7 +4,7 @@
 	slug: "devenir-product-owner", 
 	headline: "Devenir Product Owner",
 	description: "Acquérir les outils pour être opérationnel en tant que Product Owner ", 
-	theme: mettre en oeuvre la transformation,
+	theme: agile,
 	heures: 14,
 	participants: 8,
 	InterExiste: 1,

@@ -4,7 +4,7 @@
 	slug: "tests-fonctionnels", 
 	headline: "Tests fonctionnels",
 	description: "Comprendre le rôle du testeur dans la suite ALM de Microsoft et avoir le recul nécessaire sur la solution afin de l’adapter au mieux au contexte de chaque entreprise", 
-	theme: mettre en oeuvre la transformation,
+	theme: agile,
 	heures: 14,
 	participants: 10,
 	InterExiste: 1,

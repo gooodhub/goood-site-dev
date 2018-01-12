@@ -4,7 +4,7 @@
 	slug: "dialog-program", 
 	headline: "Dialog Program",
 	description: "Maîtrisons-nous vraiment l’art de dialoguer ? Comment faire du dialogue un puissant outil pour la facilitation de groupe ? ", 
-	theme: accompagner l'évolution des collaborateurs,
+	theme: agile,
 	heures: 21,
 	participants: 12,
 	InterExiste: 1,

@@ -4,7 +4,7 @@
 	slug: "performance-par-intelligence-collective", 
 	headline: "Améliorer la performance par l'intelligence collective",
 	description: "Développez l'agilité participative de vos collaborateurs ", 
-	theme: mobiliser l'intelligence collective,
+	theme: agile,
 	heures: 7,
 	participants: 10,
 	InterExiste: 1,

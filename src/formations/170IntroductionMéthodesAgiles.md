@@ -1,11 +1,11 @@
 ---
 {
 	title: "Introduction aux méthodes agiles", 
-	slug: "introduction-méthodes-agiles", 
+	slug: "introduction-methodes-agiles", 
 	headline: "Introduction aux méthodes agiles",
 	description: "Comprendre les méthodes agiles ", 
-	theme: mettre en oeuvre la transformation,
-	heures: 3,30,
+	theme: agile,
+	heures: 3.5,
 	participants: 10,
 	InterExiste: 1,
 	prixInter: 300,
