@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="Appréhender les principales méthodes agiles">
+  <meta name="description" content="Maîtriser les concepts du Design Thinking">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <title>Introduction aux Méthodes agiles</title>
+  <title>Introduction au Design Thinking</title>
   <meta property="fb:app_id" content="1965590823681005" /> 
-  <meta property="og:title" content="Introduction aux Méthodes agiles" />
+  <meta property="og:title" content="Introduction au Design Thinking" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://goood.pro" />
   <meta property="og:image" content="https://goood.pro/images/photo-video.jpg" />
-  <meta property="og:description" content="Appréhender les principales méthodes agiles" />
+  <meta property="og:description" content="Maîtriser les concepts du Design Thinking" />
   <meta property="og:locale" content="fr_FR" />
   <meta property="og:site_name" content="Goood!" />
   <meta property="og:video" content="https://youtu.be/BI7K9lWhMgc" />
@@ -146,7 +146,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </a>
       <div class="slide__header">
         <div class="slide__title">
-          Méthodes agiles
+          Introduction au Design Thinking
         </div>
       </div>
       <div class="slide__content">
@@ -156,73 +156,47 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="objectif">
             
             
-# Formation - Introduction aux méthodes agiles: Comprendre la démarche #
+# Formation - Introduction au Design Thinking #
 
 ## Objectifs de la formation : ##
-
-* Appréhender les principales méthodes Agile (Scrum, Extreme Programming, Kanban, Lean)
-* Développer une sensibilisation aux défis d'une transformation Agile.
+* Maîtriser les concepts du Design Thinking
+* Savoir sonder et formaliser les besoins fondamentaux d'un consommateur
+* Maîtriser les techniques d'une démarche d'expérimentation
 
 # Programme #
 
-## Jour 1 ##
+## Matin ##
 
-### Les Principales Méthodes agiles ###
-* Les raisons et origines de l'agilité : valeurs et principes
-* Atelier pratique
+### Les limites de l'approche traditionnelle ###
 
-### Scrum ###
-* Aperçu de Scrum
-* Les acteurs de Scrum
-* Développement itératif
-* Boîtes des temps, Timebox
-* Communication, interaction
-* Notion de "fini"
-* Visualisation et "radiateurs" d'information
-* Les cérémonies
-* Les Plannings et Backolog grooming
-* Les burndown / up charts
-* Les standups
-* Les revues
-* Les rétrospectives
-* Atelier pratique
+### Qu'est ce que le Design Thinking ###
+* L'historique
+* La philosophie
+* Les étapes
 
-## Jour 2 ##
+### Entrer en empathie avec ses potentiels utilisateurs ###
+* Savoir mener une interview
+* Creuser les informations structurantes
 
-### Scrum (suite) ###
-* Pratiques d'expression du besoin
-* Délivrer de la valeur
-* Les User Stories, Backlog
-* Personas
-* Atelier pratique
+### Définir une problématique ###
+* Identifier un sujet
+* Formaliser un sujet
 
-### Pratiques d’ingénierie logicielle ### 
-* Extreme Programming
-* Les pratiques d'ingénieries
-* Dette technique
-* Feedback, partage du code
-* Tests automatisés, refactoring
+## Après-midi ##
 
-## Jour 3 ##
+### Générer des idées ###
+* L'état d'esprit
+* Les techniques et outil de brainstorming
 
-### Kanban ###
+### Savoir expérimenter ### 
+* S'organiser pour itérer
+* Donner forme à l'idée
+* Mener un test utilisateur
 
-* Mise en oeuvre de Kanban
-* Visualiser le flux
-* Gérer le flux
-* Limiter le travail
-* Classes de service
-* Atelier pratique
-
-### Management Visuel ### 
-* Visualiser
-* Modéliser
-* Décider
-* Atelier pratique
+### Clôture ### 
 
 ## Public concerné ##
-Ce stage s’adresse aux architectes, chefs de projets, directeurs de projets, développeurs, décideurs, responsables qualité, commerciaux...
-
+Ce stage s’adresse aux Managers, Consultants, Chefs de projet, formateurs, équipes marketing, équipes commerciales.
 
            
 
@@ -231,7 +205,7 @@ Ce stage s’adresse aux architectes, chefs de projets, directeurs de projets, d
             <div class="infos">
                 <div class="info">
                  <div class="bloc_icon"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></div>
-                 <div class="bloc_label"><p class=""><b> 21 heures</b> </p></div>
+                 <div class="bloc_label"><p class=""><b> 7 heures</b> </p></div>
                 </div>
                 <div class="info">
                  <div class="bloc_icon"><i class="fa fa-users fa-2x" aria-hidden="true"></i></div>
@@ -241,7 +215,7 @@ Ce stage s’adresse aux architectes, chefs de projets, directeurs de projets, d
                 
                  <div class="bloc_icon"><i class="fa fa-euro fa-2x" aria-hidden="true"></i></div>
                  <div class="bloc_label"><p class=""> 
-                 <b>1 850  HT</b> /personne <span class="bleu">en inter-entreprises</span>
+                 <b>700  HT</b> /personne <span class="bleu">en inter-entreprises</span>
                  
                    </p></div>
                 </div>
@@ -250,7 +224,7 @@ Ce stage s’adresse aux architectes, chefs de projets, directeurs de projets, d
                 <div class="info">
                  <div class="bloc_icon"><i class="fa fa-euro fa-2x" aria-hidden="true"></i></div>
                  <div class="bloc_label"><p class="">
-                   <b>6 000 HT</b> / groupe <span class="bleu">uniquement pour votre entreprise!</span>
+                   <b>2 500 HT</b> / groupe <span class="bleu">uniquement pour votre entreprise!</span>
                        </p></div>
                 </div>
                 
@@ -260,7 +234,24 @@ Ce stage s’adresse aux architectes, chefs de projets, directeurs de projets, d
             </div>
               
             <div class="lesplus">
-              <span style="display:none" id="pourcentagePratique">50</span>
+             <p>
+               <div class="plus">
+              <i class="fa fa-plus-circle " aria-hidden="true"></i>Les plus
+              </div>
+              <ul>
+                  <li>
+                      Pratique de l&#x27;interview en situation réelle
+                  </li>
+                  <li>
+                      Introduction au Lean Start Up
+                  </li>
+                  <li>
+                      Découverte d&#x27;outils directement applicables
+                  </li>
+              </ul>
+             </p>
+         
+              <span style="display:none" id="pourcentagePratique">75</span>
             <div id="conteneur-repartition-methodologie">
               <canvas id="repartition-methodologie"></canvas>
             </div>
@@ -273,9 +264,7 @@ Ce stage s’adresse aux architectes, chefs de projets, directeurs de projets, d
             <div  class="row w95">
               <ul >
 
-                <li> 6 - 7 et 8 Novembre 2017 à Paris</span></li>
-                <li> 6 - 7 et 8 Novembre 2017 à Sophia Antipolis</span></li>
-                <li> 6 - 7 et 8 Novembre 2017 à Lyon</span></li>
+                <li> 22 Janvier 2018 à Paris - 24 Janvier 2018 à Lyon</span></li>
               </ul>
               </div>
           </div>
@@ -284,15 +273,13 @@ Ce stage s’adresse aux architectes, chefs de projets, directeurs de projets, d
                     Ou si vous préférez contactez directement Célia par téléphone au 06 59 25 24 68. 
                   </p>
                   <form action="https://formspree.io/formation@goood.pro" method="POST" >
-                      <input name="formation_intitule" hidden value="Introduction aux Méthodes agiles"/>
+                      <input name="formation_intitule" hidden value="Introduction au Design Thinking"/>
                       Nom* <input type="text" placeholder="Nom" name="nom" required size="50"/>  Prénom <input type="text" placeholder="Prénom" name="prenom"  size="50"/>
                       Email* <input type="text" name="email" placeholder="dupont@domaine.fr"  required size="50"/>
                       Téléphone* <input type="text" name="email" placeholder="06 xx xx xx xx"  required size="14"/>                                         
                       Date souhaitée<select name="formation" >
                         <option>Date à convenir</option>                        
-                              <option>6 - 7 et 8 Novembre 2017 à Paris </option>                        
-                              <option>6 - 7 et 8 Novembre 2017 à Sophia Antipolis </option>                        
-                              <option>6 - 7 et 8 Novembre 2017 à Lyon </option>                        
+                              <option>22 Janvier 2018 à Paris - 24 Janvier 2018 à Lyon </option>                        
                           
                       </select>
                      Message
