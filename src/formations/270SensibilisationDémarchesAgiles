@@ -4,7 +4,7 @@
 	slug: "sensibilsation-démarches-agiles", 
 	headline: "Sensibilsation aux démarches agiles",
 	description: "Comprendre la différence entre les méthodes agiles et les méthodes traditionnelles ", 
-	theme: agile,
+	theme: mettre en oeuvre la transformation,
 	heures: 14,
 	participants: 12,
 	InterExiste: 0,

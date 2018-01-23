@@ -3,16 +3,15 @@
 title: "Innover grâce au Design Thinking", 
 	slug: "innover-design-thinking", 
 	headline: "Innover grâce au Design Thinking",
-	description: "Innover grâce au Design Thinking", 
 	theme: agile,
 	heures: 21,
 	participants: 12,
 	InterExiste: 0,
-  	prixInter: ,
+  prixInter:
 	prixIntra: 5 000,
 	pourcentagePratique: 70,
 	layout: formation-fiche.html, 
-	dates: [4 5 et 6 avril 2018 à Paris, 28 29 et 30 mars 2018 à Lyon]
+	dates: [4, 5 et 6 avril 2018 à Paris, 28, 29 et 30 mars 2018 à Lyon]
 }
 ---
 

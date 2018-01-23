@@ -14,7 +14,7 @@
 	pourcentagePratique: 75,
 	lesPlus: [Pratique de l'interview en situation réelle, Introduction au Lean Start Up, Découverte d'outils directement applicables],
 	layout: formation-fiche.html, 
-	dates: [ 22 Janvier 2018 à Paris , 24 Janvier 2018 à Lyon]
+	dates: [ 22 Janvier 2018 à Paris - 24 Janvier 2018 à Lyon]
 }
 ---
 

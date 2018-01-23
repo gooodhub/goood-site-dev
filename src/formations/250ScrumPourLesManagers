@@ -4,7 +4,7 @@
 	slug: "scrum-pour-les-managers", 
 	headline: "Scrum pour les Managers",
 	description: "Adapter Scrum pour développer l'agilité de vos équipes ", 
-	theme: agile,
+	theme: mettre en oeuvre la transformation,
 	heures: 14,
 	participants: 10,
 	InterExiste: 1,
@@ -13,9 +13,7 @@
 	pourcentagePratique: 50,
 	lesPlus: [Comprendre les objectifs de Scrum, la gestion de risque au coeur du framework pour mieux se préparer aux difficultés de mise en oeuvre, Scrum comme un projet de transformation],
 	layout: formation-fiche.html, 
-	dates: [7 et 8 Février 2018 à Paris, 
-	        22 et 23 Février 2018 à Sophia Antipolis, 
-			14 et 15 Mars 2018 à Lyon]
+	dates: [7 et 8 Février 2018 à Paris, 22 et 23 Février 2018 à Sophia Antipolis, 14 et 15 Mars 2018 à Lyon]
 }
 ---
 

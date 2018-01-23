@@ -1,7 +1,7 @@
 ---
 {
 	title: "Plan Stratégique Participatif", 
-	slug: "plan-strategique-participatif", 
+	slug: "plan-stratégique-participatif", 
 	headline: "Plan Stratégique Participatif",
 	description: "Implication de vos collaborateurs et de vos partenaires à vos projets ", 
 	theme: agile,
@@ -11,7 +11,7 @@
 	prixInter: 1 300,
 	prixIntra: 4 500,
 	pourcentagePratique: 75,
-	lesPlus: ["Pour les participants: Expérimenter le processus de Plan Stratégique Participatif, Comprendre et pouvoir appliquer cette méthode dans votre projet personnel ou professionnel, Renforcer la posture de facilitateur, Approfondir les techniques de facilitation (Conversation structurée, le Consensus et le PSP)"," Pour l'entreprise: Avoir une stratégie commune, comprise par tous, Fédérer des collaborateurs, Impliquer et rendre les collaborateurs acteurs de ce plan d'action, Encourager plus d'initiatives et de la responsabilité, Donner un cadre pour la prise de décision, la communication, le planning et la recherche de solutions"],
+	lesPlus: [Pour les participants: Expérimenter le processus de Plan Stratégique Participatif, Comprendre et pouvoir appliquer cette méthode dans votre projet personnel ou professionnel, Renforcer la posture de facilitateur, Approfondir les techniques de facilitation (Conversation structurée, le Consensus et le PSP), Pour l'entreprise: Avoir une stratégie commune, comprise par tous, Fédérer des collaborateurs, Impliquer et rendre les collaborateurs acteurs de ce plan d'action, Encourager plus d'initiatives et de la responsabilité, Donner un cadre pour la prise de décision, la communication, le planning et la recherche de solutions],
 	layout: formation-fiche.html, 
 	dates: [1er et 2 Février 2018 à Paris, 15 et 16 Février 2018 à Sophia Antipolis]
 }
