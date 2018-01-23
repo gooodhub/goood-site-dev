@@ -31,20 +31,22 @@ formation_themes: [
         
     ],
     promotedate_paris: [
-    {date_startYYYYMMDD: "2017-10-23",date_endYYYYMMDD: "2017-10-24",date_start: "23/10/2017",formationname: "Facilitation de groupe et communautés de pratiques", path: "facilitation-de-groupe-et-communautes-de-pratiques"},
-    {date_startYYYYMMDD: "2017-11-20",date_endYYYYMMDD: "2017-11-21",date_start: "20/11/2017",formationname: "Facilitation de groupe et communautés de pratiques", path: "facilitation-de-groupe-et-communautes-de-pratiques"},
-    {date_startYYYYMMDD: "2017-11-20",date_endYYYYMMDD: "2017-11-21",date_start: "20/11/2017",formationname: "Techniques et méthodes de facilitation de groupe - ToP", path: "techniques-et-methodes-de-facilitation-de-groupe"},
-    {date_startYYYYMMDD: "2017-11-23",date_endYYYYMMDD: "2017-11-24",date_start: "23/11/2017",formationname: "Manager Agile", path: "manager-agile"},
-    {date_startYYYYMMDD: "2017-12-04",date_endYYYYMMDD: "2017-12-06",date_start: "04/12/2017",formationname: "Theorie U", path: "theorie-u"},
-    {date_startYYYYMMDD: "2017-12-11",date_endYYYYMMDD: "2017-12-12",date_start: "11/12/2017",formationname: "Devenir Product Owner", path: "devenir-product-owner"}],
+
+                          {date_startYYYYMMDD: "2018-01-24",date_endYYYYMMDD: "2018-01-24",date_start: "24/01/2018",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"},
+                          {date_startYYYYMMDD: "2018-02-06",date_endYYYYMMDD: "2018-02-07",date_start: "06/02/2018",formationname: "Facilitation de groupe et communautés de pratiques", path: "facilitation-de-groupe-et-communautes-de-pratiques"},
+    {date_startYYYYMMDD: "2018-03-07",date_endYYYYMMDD: "2018-03-09",date_start: "07/03/2018",formationname: "Techniques et méthodes de facilitation de groupe - ToP", path: "techniques-et-methodes-de-facilitation-de-groupe"},
+    {date_startYYYYMMDD: "2018-03-14",date_endYYYYMMDD: "2018-03-15",date_start: "14/03/2018",formationname: "Devenir animateur de jeux d'apprentissage", path: "devenir-animateur-jeux-apprentissage"}],
     
     promotedate_sophia: [
     
-    {date_startYYYYMMDD: "2017-11-06",date_endYYYYMMDD: "2017-11-08",date_start: "06/11/2017",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"}],
+    {date_startYYYYMMDD: "2018-01-25",date_endYYYYMMDD: "2018-01-25",date_start: "25/01/2018",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"}],
     
     promotedate_lyon: [
-     {date_startYYYYMMDD: "2017-11-06",date_endYYYYMMDD: "2017-11-08",date_start: "06/11/2017",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"},
-     {date_startYYYYMMDD: "2017-11-20",date_endYYYYMMDD: "2017-11-21",date_start: "20/11/2017",formationname: "Techniques et méthodes de facilitation de groupe - ToP", path: "techniques-et-methodes-de-facilitation-de-groupe"}]
+     {date_startYYYYMMDD: "2018-02-02",date_endYYYYMMDD: "2018-02-02",date_start: "02/02/2018",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"},
+     {date_startYYYYMMDD: "2018-02-26",date_endYYYYMMDD: "2018-02-27",date_start: "26/02/2018",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
+     
+     {date_startYYYYMMDD: "2018-04-05",date_endYYYYMMDD: "2018-04-06",date_start: "06/04/2018",formationname: "Devenir animateur de jeux d'apprentissage", path: "devenir-animateur-jeux-apprentissage"}]
 
 }
+
 ---
