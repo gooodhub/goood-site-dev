@@ -11,7 +11,7 @@
 	prixInter: 1 300,
 	prixIntra: 3 000,
 	pourcentagePratique: 50,
-	lesPlus: [Des techniques de facilitation afin de dénouer les problématiques humaines et améliorer la collaboration, Des techniques de recherche de problèmes et de conduite de plan d'actions afin d'entrer dans une démarche d'amélioration continue, Renforcer vos connaissances sur le processus Scrum]
+	lesPlus: [Des techniques de facilitation afin de dénouer les problématiques humaines et améliorer la collaboration, Des techniques de recherche de problèmes et de conduite de plan d'actions afin d'entrer dans une démarche d'amélioration continue, Renforcer vos connaissances sur le processus Scrum],
 	layout: formation-fiche.html, 
 	dates: [1er et 2 Mars 2018 à Paris, 15 et 16 Mars 2018 à Sophia Antipolis, 19 et 20 Mars 2018 à Lyon]
 }
