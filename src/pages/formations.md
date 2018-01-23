@@ -39,9 +39,11 @@ formation_themes: [
     
     promotedate_sophia: [
     
-    {date_startYYYYMMDD: "2018-01-25",date_endYYYYMMDD: "2018-01-25",date_start: "25/01/2018",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"}],
+    {date_startYYYYMMDD: "2018-01-25",date_endYYYYMMDD: "2018-01-25",date_start: "25/01/2018",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"},
+    {date_startYYYYMMDD: "2018-03-15",date_endYYYYMMDD: "2018-03-16",date_start: "15/03/2018",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "scrum-master"}],
     
     promotedate_lyon: [
+
      {date_startYYYYMMDD: "2018-02-02",date_endYYYYMMDD: "2018-02-02",date_start: "02/02/2018",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"},
      {date_startYYYYMMDD: "2018-02-26",date_endYYYYMMDD: "2018-02-27",date_start: "26/02/2018",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
      
