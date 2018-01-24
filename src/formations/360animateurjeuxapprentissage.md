@@ -20,8 +20,7 @@
 ---
 # Devenir animateur de jeux d'apprentissage" ###
 
-Les bénéfices de l’apprentissage par le jeu ne sont plus, aujourd’hui, à démontrer.
-Meilleur ancrage des connaissances par l’implication émotionnelle des joueurs app
+Les bénéfices de l’apprentissage par le jeu ne sont plus, aujourd’hui, à démontrer. Meilleur ancrage des connaissances par l’implication émotionnelle des joueurs apprentis, cadre sécurisé pour expérimenter, découverte de soi et du groupe pour améliorer la collaboration.
 
 Depuis plusieurs années, le jeu d’apprentissage est sorti du cadre scolaire et du domaine du récréatif pour arriver dans nos entreprises et permettre aux collaborateurs de découvrir de nouveaux concepts et de réfléchir autrement à l’aide d’ateliers ludiques.
 Cependant, pour que ces ateliers soient efficaces et agréables, il est important d’avoir un bon animateur et des jeux adaptés.
