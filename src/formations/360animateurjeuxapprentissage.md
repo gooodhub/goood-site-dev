@@ -40,8 +40,8 @@ La formation “Devenir animateur de jeux d’apprentissage” vous propose de c
 
 ## JOUR 1 ##
 ### QU'EST-CE QUE LE JEU D'ENTREPRISE ? ###
-* Qu’est-ce que le jeu d’entreprise ou jeu sérieux?
-* Quels sont les types de jeux d’entreprise?
+* Qu’est-ce que le jeu d’entreprise ou jeu sérieux ?
+* Quels sont les types de jeux d’entreprise ?
 * Savoir vendre le jeu dans son entreprise
 
 ### DECOUVRIR DES JEUX ET LES JOUER ###
@@ -60,9 +60,9 @@ La formation “Devenir animateur de jeux d’apprentissage” vous propose de c
 
 ## JOUR 2 ##
 ### LE RÔLE D'ANIMATEUR ###
-* Quelles sont les caractéristiques de l’animateur.trice?
+* Quelles sont les caractéristiques de l’animateur.trice ?
 * Quelles postures ?
-* Comment débriefer un jeu d’apprentissage?
+* Comment débriefer un jeu d’apprentissage ?
 
 ### DECOUVRIR SON MOI ANIMATEUR PAR LA PRATIQUE ###
 * Par la pratique et l’échange, comprendre sa posture, sa zone de confort et d’inconfort
@@ -70,7 +70,7 @@ La formation “Devenir animateur de jeux d’apprentissage” vous propose de c
 
 ### BONUS : CREER UN JEU D'APPRENTISSAGE, LES RUDIMENTS ###
 * Créer un nouveau jeu, par quoi commencer ?
-* Quels sont les ingrédients d'un bon jeu d'apprentissage?
+* Quels sont les ingrédients d'un bon jeu d'apprentissage ?
 
 ## Public concerné ##
 Ce stage s’adresse aux : 
