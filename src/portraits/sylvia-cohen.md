@@ -5,7 +5,7 @@ bulle2: il faut ensuite avoir le courage de le dire,
 bulle3: il faut enfin l’énergie de le faire. Georges Clémenceau
 image: /images/portraits/sylviaC.jpg
 hashtag: '#Curiuse'
-job: 
+job: Coach agile
 facebook: 
 twitter: 
 linkedin: 

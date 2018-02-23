@@ -3,8 +3,8 @@ name: Maria Ternard
 bulle1: “Croyez en vos rêves, ils se   
 bulle2: réaliseront peut-être. Croyez en vous,
 bulle3: ils se réaliseront sûrement” (ML KING)
-image: 
-hashtag: '#trouversaplacedanslemonde'
+image: /images/portraits/maria.jpg
+hashtag: '#trouversaplace'
 job: team potentialist
 facebook: 
 twitter: 
