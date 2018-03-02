@@ -11,7 +11,7 @@ permalink: false
 
 Goood! est une SAS au capital de 300 000 €, créée en 2004, immatriculée au RCS de Paris sous le numéro 451 903 637 B et représentée par son Directeur Général, Monsieur Ludovic Charlot.
 
-Notre siège social est situé à Paris, 34 boulevard de Sébastopol (75004) ; nous avons une agence à Sophia Antipolis, et des antennes à Lyon et Marseille.
+Notre siège social est situé à Paris, 20 rue Bachaumont (75002) ; nous avons une agence à Sophia Antipolis, et des antennes à Lyon et Marseille.
 
 Goood est enregistré auprès de la préfecture de Paris sous le N°11 75 54328 75 comme prestataire de formation et notre N° de TVA intracommunautaire est : FR26 451903637.
 
