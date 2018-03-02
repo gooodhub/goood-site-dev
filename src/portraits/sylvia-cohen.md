@@ -2,10 +2,10 @@
 name: Sylvia Cohen
 bulle1: Il faut d’abord savoir ce que l’on veut, 
 bulle2: il faut ensuite avoir le courage de le dire, 
-bulle3: il faut enfin l’énergie de le faire. Georges Clémenceau
+bulle3: il faut enfin l’énergie de le faire. G.Clémenceau
 image: /images/portraits/sylviaC.jpg
-hashtag: '#Curiuse'
-job: Coach agile
+hashtag: '#Curieuse'
+job: Coach agile, Product Ownership, Facilitatrice
 facebook: 
 twitter: 
 linkedin: 
