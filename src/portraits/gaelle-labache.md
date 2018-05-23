@@ -1,7 +1,7 @@
 ﻿---
 name: Gaëlle Labache
 bulle1:
-bulle2: Learning by doing
+bulle2: “Learning by doing”
 bulle3: John Dewey
 image: /images/portraits/gaelleL.jpg 
 hashtag: '#patchworkeuse'
