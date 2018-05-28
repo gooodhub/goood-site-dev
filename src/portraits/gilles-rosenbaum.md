@@ -1,8 +1,8 @@
 ---
 name: Gilles Rosenbaum
-bulle1: “L’intelligence ce n'est pas ce que l’on sait,
-bulle2: mais ce que l’on fait quand on ne sait pas”
-bulle3: Jean Piaget
+bulle1: “L’intelligence ce n'est pas ce que 
+bulle2: l’on sait, mais ce que l’on fait 
+bulle3: quan on ne sait pas” Jean Piaget
 image: /images/portraits/gillesR.jpg
 hashtag: '#agile, #lifehacker, #equipe'
 job: Continuous improvment promoter
