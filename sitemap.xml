@@ -7,12 +7,12 @@
 <url> <loc>https://goood.pro/formations/manager-agile/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/formations/manager-as-a-service/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/formations/130InnoverDesignThinking/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://goood.pro/formations/introduction-methodes-agiles/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/formations/devenir-product-owner/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/formations/scrum-master/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/formations/techniques-et-methodes-de-facilitation-de-groupe/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/formations/facilitation-de-groupe-et-communautes-de-pratiques/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/formations/theorie-u/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://goood.pro/formations/introduction-methodes-agiles/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/formations/devenir-animateur-jeux-apprentissage/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/formations/tests-fonctionnels/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/formations/formation-tdd/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -29,8 +29,8 @@
 <url> <loc>https://goood.pro/demande-validee/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/equipe-et-culture/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://goood.pro/espace-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://goood.pro/evenements-formations/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://goood.pro/formations/</loc> <changefreq>daily</changefreq> <priority>1.0</priority> </url>
+<url> <loc>https://goood.pro/evenements-formations/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://goood.pro/accuse-reception/</loc> <changefreq>weekly</changefreq> <priority>0.6</priority> </url>
 <url> <loc>https://goood.pro/recette-magique/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://goood.pro/recrutement/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
