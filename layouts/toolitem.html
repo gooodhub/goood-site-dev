@@ -50,9 +50,8 @@
                     <p>Les frais de port sont inclus.</p>
                     <p>Le produit vous sera expédié sous 5 jours ouvrés.</p>
                     {{/if}}<!-- IsDelivery -->
+
                     {{#if IsPayment}}   
-                   
-                    
                     {{#if InStock}}
                    <form action="{{paymenturl}}" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -61,10 +60,15 @@
                             <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     {{else}}<!-- InStock-->
+                    {{#if InExternalLink}}
+                    <a href="{{{ExternalURL}}}" target="_blank" class="btn btnlink">{{{buttonAchatLabel}}}</a>   
+
+                    {{else}}
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScIbgsLlH3jG63tV2hbMQlFWilhfxbi5C0l_fGLHS3e7IJFXw/viewform?usp=pp_url&entry.282939771={{slug}}"
                    target="_blank" class="btn btnlink">{{{buttonAchatLabel}}}</a>   
-
+                   {{/if}}<!--End InExternalLink -->  
                     {{/if}}<!--End InStock -->                        
+                                          
                     {{/if}}<!--End IsPayment -->
                   
                     <div class="contact"  >Une question, contactez nous par mail ou téléphone:
