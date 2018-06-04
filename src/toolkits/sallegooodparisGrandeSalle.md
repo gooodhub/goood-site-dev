@@ -33,6 +33,7 @@ L'espace de travail est équipé de :
 - paper board 
 
 Vous pouvez louer cette salle de formation de 9:30 à 19:00 du lundi au vendredi. L'établissement se situe à proximité de l’arrêt métro Sentier.
+## La location à la demi-journée est également possible au tarif de 600 € HT.##
 
 Descriptif :
 * Superficie : 75m²
@@ -42,7 +43,9 @@ Descriptif :
 Inclus :
 * Equipements: sticky wall, vidéo projecteur, tableau blanc, paper board, wifi, photocopie, micro-ondes.
 * Le café est offert
+
  
+
 ## Pour toute question, envoyez-nous un mail à <location@goood.pro> ##
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d780.2906730954908!2d2.3440982590794874!3d48.86632334615242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1952e2add5%3A0xe85272493d3c80f9!2sGoood*21!5e0!3m2!1sfr!2sfr!4v1527862350187"  width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>

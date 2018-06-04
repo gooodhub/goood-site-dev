@@ -40,6 +40,8 @@ L'espace de travail est équipé de :
 - paper board 
 
 Vous pouvez louer cette salle de formation de 9:30 à 19:00 du lundi au vendredi. L'établissement se situe à proximité de l’arrêt métro Sentier.
+## La location à la demi-journée est également possible au tarif de 400 € HT.##
+
 
 Descriptif :
 * Superficie : 60m²
