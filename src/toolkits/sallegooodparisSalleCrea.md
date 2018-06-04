@@ -1,6 +1,6 @@
 ---
 {
-title:  Salle Création Paris,
+title:  Salle Créa Paris,
 description: Louer les locaux Goood! en plein coeur de Paris pour une formation, être créatif, un événement communautaire ou tout simplement besoin de sortir du cadre,
 slug: location-salle-crea-paris,
 layout: toolitem.html,
