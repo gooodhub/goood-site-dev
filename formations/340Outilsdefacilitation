@@ -289,7 +289,7 @@ Avoir déjà suivi la formation Méthodes et techniques de participation.
                       <input name="formation_intitule" hidden value="Accompagner les projets efficacement avec les outils de facilitation"/>
                       Nom* <input type="text" placeholder="Nom" name="nom" required size="50"/>  Prénom <input type="text" placeholder="Prénom" name="prenom"  size="50"/>
                       Email* <input type="text" name="email" placeholder="dupont@domaine.fr"  required size="50"/>
-                      Téléphone* <input type="text" name="email" placeholder="06 xx xx xx xx"  required size="14"/>                                         
+                      Téléphone* <input type="text" name="tel" placeholder="06 xx xx xx xx"  required size="14"/>                                         
                       Date souhaitée<select name="formation" >
                         <option>Date à convenir</option>                        
                               <option>28 </option>                        
