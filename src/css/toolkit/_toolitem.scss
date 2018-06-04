@@ -8,7 +8,10 @@
 }
 .toolitem {
   @extend %sectionPadding;
-  @media #{$small-only} { padding-bottom: 0; }
+  @media #{$small-only} { 
+    .row{flex-direction: row;}
+    iframe{width:auto;margin-right:5px};
+   padding-bottom: 0; }
   position: relative;
   top: 0;
   left: 0;
@@ -149,6 +152,10 @@
 }
 
   &__content {
+    @media #{$small-only} {
+      padding:0;
+      margin:10px;
+    }
     @extend %contentPadding;
    // @extend %shadow;
     padding: 35px 30px;
