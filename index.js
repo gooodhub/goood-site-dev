@@ -62,7 +62,7 @@ const buildApp = metalsmith(__dirname)
     evenements: {
       pattern: 'evenements/*.md',
       sortBy: 'date',
-      reverse: false,
+      reverse: true,
     },
     portraits: {
       pattern: 'portraits/*.md',
@@ -94,7 +94,7 @@ const buildApp = metalsmith(__dirname)
     dates: [
         {
             key: 'date',
-            format: 'DD/MM'
+            format: 'DD/MM/YYYY'
         },
     ]
   }))
