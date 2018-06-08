@@ -28,7 +28,6 @@
 <url> <loc>https://goood.pro/contact/</loc> <changefreq>weekly</changefreq> <priority>0.6</priority> </url>
 <url> <loc>https://goood.pro/demande-validee/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/equipe-et-culture/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
-<url> <loc>https://goood.pro/espace-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/evenements-formations/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://goood.pro/formations/</loc> <changefreq>daily</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://goood.pro/accuse-reception/</loc> <changefreq>weekly</changefreq> <priority>0.6</priority> </url>
@@ -37,5 +36,6 @@
 <url> <loc>https://goood.pro/references/</loc> <changefreq>weekly</changefreq> <priority>0.9</priority> </url>
 <url> <loc>https://goood.pro/savoir-faire/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://goood.pro/toolkit/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>https://goood.pro/espace-sud/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://goood.pro/savoir-faire/agile-rocket/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
 </urlset>
