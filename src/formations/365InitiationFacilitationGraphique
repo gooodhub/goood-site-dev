@@ -1,7 +1,7 @@
 ---
 {
 	title: Initiation facilitation graphique,
-	slug: devenir-animateur-jeux-apprentissage, 
+	slug: initiation-facilitation-graphique, 
 	headline: "Facilitation graphique",
 	description: Le Visuel au service des interactions,
 	theme: agile,
@@ -11,12 +11,11 @@
 	prixInter: 750,
 	prixIntra: 3350,
 	pourcentagePratique: 80,
-	lesPlus: [Un carnet de note, un starter kit de facilitation graphique de la marque neuland, prise en charge du repas 
-],
+	lesPlus: [Un carnet de note, un starter kit de facilitation graphique de la marque neuland, prise en charge du repas],
 	layout: formation-fiche.html, 
 	dates: [
 	12 Octobre à Paris,
-	19 Octobre à Sophia Antipolis]
+	19 Octobre à Sophia Antipolis,]
 }
 ---
 
