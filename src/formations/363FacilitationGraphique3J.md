@@ -14,7 +14,7 @@
 	lesPlus: [Un carnet de note, un starter kit de facilitation graphique de la marque neuland, prise en charge du repas],
 	layout: formation-fiche.html, 
 	dates: [
-	15 Novembre 2018 suivi du 13 et 14 Décembre 2018 à Sophia Antipolis
+	15 Novembre 2018 suivi du 13 et 14 Décembre 2018 à Sophia Antipolis,
   23 Novembre 2018 suivi du 31 Janvier 2019 et 1er février 2019 à Paris,
 	]
 }
