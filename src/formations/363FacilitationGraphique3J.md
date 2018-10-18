@@ -1,6 +1,6 @@
 ---
 {
-	title: "Facilitation graphique - 3 jours",
+	title: "Facilitation graphique",
 	slug: facilitation-graphique-avancee-3jours, 
 	headline: "Facilitation graphique 3",
 	description: "Apprehender le monde complexe grace au visuel",
