@@ -1,8 +1,8 @@
 ---
 {
-	title: "Facilitation graphique",
+	title: "Facilitation graphique 3 jours",
 	slug: facilitation-graphique-avancee-3jours, 
-	headline: "Facilitation graphique 3",
+	headline: "Facilitation graphique",
 	description: "Apprehender le monde complexe grace au visuel",
 	theme: facilitation,
 	heures: 21,
