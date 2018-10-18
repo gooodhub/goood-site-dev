@@ -19,17 +19,16 @@ formation_themes: [
                     {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "scrum-master"},
                     {formationname: "Devenir Product Owner",path: "devenir-product-owner"},
                     {formationname: "Test Driven Development",path: "formation-tdd"},
-                    {formationname: "Mise en place des tests fonctionnels avec TFS et Microsoft Test Manager",path: "tests-fonctionnels"}]},
-                    
+                    {formationname: "Mise en place des tests fonctionnels avec TFS et Microsoft Test Manager",path: "tests-fonctionnels"}]
+         },          
         {name: "Mobiliser l’intelligence collective",formationslist: [
                     {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
                     {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
                     {formationname: "Initiation à la facilitation graphique",path: "initiation-facilitation-graphique"},
-                    {formationname: "Devenir animateur de jeux d'apprentissage",path: "devenir-animateur-jeux-apprentissage"}]},
-       
+                    {formationname: "Devenir animateur de jeux d'apprentissage",path: "devenir-animateur-jeux-apprentissage"}]
+         },
         {name: "Passer de la formation à l’apprentissage",formationslist: [
                     {formationname: "Manager as a Service",path: "manager-as-a-service"}]}
-        
     ],
     promotedate_paris: [
 
