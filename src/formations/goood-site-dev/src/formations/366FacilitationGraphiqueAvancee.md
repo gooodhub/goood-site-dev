@@ -45,9 +45,9 @@
 * Construire un template visuelle 
 * Mise en pratique 
 
-2 mois plus tard
 
- ## JOUR 2 et 3  ##
+
+ ## JOUR 2 et 3  (1 à 3 mois plus tard) ## 
  
 ### Aller plus loin sur les fondamentaux ###
 * Lettrage, séparateurs, conteneurs, connecteurs, puces, structures
