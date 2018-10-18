@@ -1,9 +1,9 @@
 ---
 {
-	title: Initiation facilitation graphique,
+	title: "Initiation facilitation graphique",
 	slug: initiation-facilitation-graphique, 
-	headline: "Facilitation graphique",
-	description: Le Visuel au service des interactions,
+	headline: "Initiation Facilitation graphique",
+	description: "Le visuel au service des interactions",
 	theme: agile,
 	heures: 7,30,
 	participants: 10,
