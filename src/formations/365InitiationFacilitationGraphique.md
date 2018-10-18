@@ -2,7 +2,7 @@
 {
 	title: "Initiation facilitation graphique",
 	slug: initiation-facilitation-graphique, 
-	headline: "Initiation Facilitation graphique",
+	headline: "Facilitation graphique",
 	description: "Le visuel au service des interactions",
 	theme: agile,
 	heures: 7,30,
