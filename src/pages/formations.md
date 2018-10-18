@@ -25,6 +25,8 @@ formation_themes: [
                     {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
                     {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
                     {formationname: "Initiation à la facilitation graphique",path: "initiation-facilitation-graphique"},
+                    {formationname: "Facilitation graphique 3 Jours",path: "facilitation-graphique-avancee-2jours"},
+                    {formationname: "Facilitation graphique 3 Jours",path: "facilitation-graphique-avancee-3jours"},
                     {formationname: "Devenir animateur de jeux d'apprentissage",path: "devenir-animateur-jeux-apprentissage"}]
          },
         {name: "Passer de la formation à l’apprentissage",formationslist: [
