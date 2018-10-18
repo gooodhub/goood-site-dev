@@ -4,7 +4,7 @@
 	slug: facilitation-graphique-avancee-3jours, 
 	headline: "Facilitation graphique",
 	description: "Apprehender le monde complexe grace au visuel",
-	theme: facilitation,
+	theme: agile,
 	heures: 21,
 	participants: 10,
 	InterExiste: 1,
