@@ -1,8 +1,8 @@
 ---
 {
-	title: "Facilitation graphiques",
+	title: "Facilitation graphiques 2 jours",
 	slug: facilitation-graphique-avancee-2jours, 
-	headline: "Facilitation graphique 2 jours",
+	headline: "Facilitation graphique",
 	description: "Apprehender le monde complexe grace au visuel",
 	theme: agile,
 	heures: 14,
