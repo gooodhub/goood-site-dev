@@ -4,7 +4,7 @@
 	slug: facilitation-graphique-avancee-2jours, 
 	headline: "Facilitation graphique 2 jours",
 	description: "Apprehender le monde complexe grace au visuel",
-	theme: facilitation,
+	theme: agile,
 	heures: 14,
 	participants: 10,
 	InterExiste: 1,
@@ -25,6 +25,7 @@
 * Découvrir les différentes postures du facilitateur graphique
 * Faciliter des ateliers de travail avec des outils d’animation visuels
 
+## pré requis : avoir suivi la formation d'initation à la facilitation graphique ##
 
 # Programme #
 
