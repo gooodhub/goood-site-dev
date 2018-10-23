@@ -1,8 +1,8 @@
 ---
 name: Pierre Marjolet
-bulle1: “Si la magie donne aux gens ce qu’ils veulent, 
-bulle2: ne pas s’en servir leur donne ce qui leur manque."
-bulle3: Terry Pratchett
+bulle1: “Si la magie donne aux gens ce qu’ils 
+bulle2: veulent, ne pas s’en servir leur donne
+bulle3: ce qui leur manque." Terry Pratchett
 image: /images/portraits/pierreM.jpg
 hashtag: '#Integrator #Dreamer'
 job: Coach Agile
