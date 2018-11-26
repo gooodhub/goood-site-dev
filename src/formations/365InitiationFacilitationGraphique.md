@@ -41,7 +41,7 @@
 * Construire sa bibliothèque visuelle
 * Ecouter et visualiser
 
-### Expérimenter et construire sa boite à outil s### 
+### Expérimenter et construire sa boite à outils ### 
 * Les outils pour un meeting (agenda, règles, feedback doors)
 * Construire un template visuelle 
 * Mise en pratique 
