@@ -34,15 +34,16 @@ formation_themes: [
     ],
     promotedate_paris: [
 
-                          {date_startYYYYMMDD: "2018-01-24",date_endYYYYMMDD: "2018-01-24",date_start: "24/01/2018",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"},
-                          {date_startYYYYMMDD: "2018-02-06",date_endYYYYMMDD: "2018-02-07",date_start: "06/02/2018",formationname: "Facilitation de groupe et communautés de pratiques", path: "facilitation-de-groupe-et-communautes-de-pratiques"},
-    {date_startYYYYMMDD: "2018-03-07",date_endYYYYMMDD: "2018-03-09",date_start: "07/03/2018",formationname: "Techniques et méthodes de facilitation de groupe - ToP", path: "techniques-et-methodes-de-facilitation-de-groupe"},
-    {date_startYYYYMMDD: "2018-03-14",date_endYYYYMMDD: "2018-03-15",date_start: "14/03/2018",formationname: "Devenir animateur de jeux d'apprentissage", path: "devenir-animateur-jeux-apprentissage"}],
+                          {date_startYYYYMMDD: "2019-01-30",date_endYYYYMMDD: "2019-01-30",date_start: "30/01/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
+                          {date_startYYYYMMDD: "2019-01-31",date_endYYYYMMDD: "2019-02-01",date_start: "31/01/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
+                          {date_startYYYYMMDD: "2019-02-14",date_endYYYYMMDD: "2019-02-15",date_start: "14/02/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"}],
     
     promotedate_sophia: [
     
-    {date_startYYYYMMDD: "2018-01-25",date_endYYYYMMDD: "2018-01-25",date_start: "25/01/2018",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"},
-    {date_startYYYYMMDD: "2018-03-15",date_endYYYYMMDD: "2018-03-16",date_start: "15/03/2018",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "scrum-master"}],
+    {date_startYYYYMMDD: "2019-01-18",date_endYYYYMMDD: "2019-01-18",date_start: "18/01/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
+     {date_startYYYYMMDD: "2019-02-08",date_endYYYYMMDD: "2019-02-08",date_start: "08/01/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
+                          {date_startYYYYMMDD: "2019-03-06",date_endYYYYMMDD: "2019-03-07",date_start: "06/03/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
+                          {date_startYYYYMMDD: "2019-04-04",date_endYYYYMMDD: "2019-04-05",date_start: "04/04/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"}],
     
     promotedate_lyon: [
 
