@@ -13,8 +13,7 @@
 	pourcentagePratique: 60,
 	lesPlus: [De la pratique sur 3 jours],
 	layout: formation-fiche.html, 
-	dates: [
-	Mercredi 23, Jeudi 24 et Vendredi 25 Janvier 2019 à Paris,
+	dates: [Mercredi 23 et Jeudi 24 et Vendredi 25 Janvier 2019 à Paris,
 	]
 }
 ---
