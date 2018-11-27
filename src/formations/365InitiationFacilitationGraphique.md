@@ -15,6 +15,7 @@
 	layout: formation-fiche.html, 
 	dates: [
 	Vendredi 15 Novembre à Sophia Antipolis,
+	Mercredi 30 Janvier à Paris,
 	Vendredi 8 Février à Sophia Antipolis,
 	Mercredi 13 Février à Paris 
 	]
