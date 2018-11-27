@@ -14,8 +14,8 @@
 	lesPlus: [De la pratique sur 3 jours],
 	layout: formation-fiche.html, 
 	dates: [
-	20 - 21 et 22 Novembre 2017 à Paris,
-	20 - 21 et 22 Novembre 2017 à Sophia Antipolis]
+	Mercredi 23, Jeudi 24 et Vendredi 25 Janvier 2019 à Paris,
+	]
 }
 ---
 # Techniques et méthodes de facilitation de groupe - les Technology Of Participation ###
