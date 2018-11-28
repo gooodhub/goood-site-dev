@@ -24,7 +24,7 @@ formation_themes: [
         {name: "Mobiliser l’intelligence collective",formationslist: [
                     {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
                     {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
-                    {formationname: "Graphic Bootcamp 1/2 journée",path: "graphic-Bootcamp"},
+                    {formationname: "Graphic Bootcamp 1/2 journée",path: "graphic-bootcamp"},
                     {formationname: "Initiation à la facilitation graphique",path: "initiation-facilitation-graphique"},
                     {formationname: "Facilitation graphique 2 jours",path: "facilitation-graphique-avancee-2jours"},
                     {formationname: "Facilitation graphique 3 jours",path: "facilitation-graphique-avancee-3jours"},
