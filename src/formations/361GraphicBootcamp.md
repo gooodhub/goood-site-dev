@@ -14,7 +14,7 @@
 	lesPlus: [Un carnet de note, un starter kit],
 	layout: formation-fiche.html, 
 	dates: [
-	28 Février 2019 à Sophia Antipolis,
+	Jeudi 28 Février 2019 à Sophia Antipolis,
 	]
 }
 ---
