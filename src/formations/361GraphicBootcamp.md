@@ -1,7 +1,7 @@
 ---
 {
 	title: "Graphic Bootcamp",
-	slug: graphic-bootcamps, 
+	slug: graphic-bootcamp, 
 	headline: "Graphic Bootcamp",
 	description: "Debloquer vos marqueurs",
 	theme: agile,
