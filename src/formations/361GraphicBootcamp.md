@@ -8,7 +8,7 @@
 	heures: 3.5,
 	participants: 20,
 	InterExiste: 1,
-	prixInter: 300,
+	prixInter: 299,
 	prixIntra: nous consulter,
 	pourcentagePratique: 100,
 	lesPlus: [Un carnet de note, un starter kit],
