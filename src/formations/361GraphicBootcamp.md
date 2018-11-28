@@ -14,12 +14,7 @@
 	lesPlus: [Un carnet de note, un starter kit],
 	layout: formation-fiche.html, 
 	dates: [
-	13 et 14 Décembre 2018 à Sophia Antipolis,
-  Jeudi 31 Janvier 2019 et Vendredi 1er février 2019 à Paris,
-  Jeudi 14 Février 2019 et Vendredi 15 Février 2019 à Paris,
-  Mercredi 6 Mars 2019 et Jeudi 7 Mars à Sophia Antipolis,
-  Jeudi 4 Avril 2019 et Vendredi 5 Avril 2019 à Sophia Antipolis,
-  
+	1er mars 2019 à Sophia Antipolis,
 	]
 }
 ---
@@ -36,16 +31,6 @@
 * les ombres et couleurs
 * bibliothèque visuelle
 * structurer un agenda de réunion
-
-* Construire des modèles avec des métaphores : brainstorming, victoire, plan d’actions, amélioration continue ...
-
-* Faciliter à l’aide d’un support visuel
-### Faciliter une discussion / débrief de groupe ###
-* Expérimenter la conversation structurée
-* Décortiquer le processus de la conversation structurée
-* Pratiquer la captation graphique d’une conversation structurée
-* Faciliter graphiquement une conversation structurée avec une
-métaphore
 
 ## Public concerné ##
 Ce stage s’adresse aux : 
