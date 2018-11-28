@@ -39,11 +39,13 @@ formation_themes: [
                            {date_startYYYYMMDD: "2019-01-23",date_endYYYYMMDD: "2019-01-25",date_start: "23/01/2019",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe"},
                           {date_startYYYYMMDD: "2019-01-31",date_endYYYYMMDD: "2019-02-01",date_start: "31/01/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
                           {date_startYYYYMMDD: "2019-02-14",date_endYYYYMMDD: "2019-02-15",date_start: "14/02/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"}],
+                          
     
     promotedate_sophia: [
     
-    {date_startYYYYMMDD: "2019-01-18",date_endYYYYMMDD: "2019-01-18",date_start: "18/01/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
-     {date_startYYYYMMDD: "2019-02-08",date_endYYYYMMDD: "2019-02-08",date_start: "08/01/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
+                          {date_startYYYYMMDD: "2019-01-18",date_endYYYYMMDD: "2019-01-18",date_start: "18/01/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
+                          {date_startYYYYMMDD: "2019-02-28",date_endYYYYMMDD: "2019-02-28",date_start: "28/02/2019",formationname: "Graphic Bootcamp", path: "graphic-bootcamp"},
+                          {date_startYYYYMMDD: "2019-01-30",date_endYYYYMMDD: "2019-01-30",date_start: "30/01/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
                           {date_startYYYYMMDD: "2019-03-06",date_endYYYYMMDD: "2019-03-07",date_start: "06/03/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
                           {date_startYYYYMMDD: "2019-04-04",date_endYYYYMMDD: "2019-04-05",date_start: "04/04/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"}],
     
