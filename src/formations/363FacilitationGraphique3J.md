@@ -91,6 +91,5 @@ Ce stage s’adresse aux :
 * Toute personne intéressée par la facilitation de groupe
 
 ## Témoignages clients ##
-<a href="https://www.youtube.com/embed/B-FXqJe8BjQ
-" target="_blank"><img src="http://img.youtube.com/vi/B-FXqJe8BjQ/0.jpg" 
-alt="Témoignage client" width="240" height="180" border="10" /></a>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/B-FXqJe8BjQ/0.jpg)](http://www.youtube.com/watch?v=B-FXqJe8BjQ)
+
