@@ -19,6 +19,7 @@
 	Mercredi 13 Février à Paris 
 	Vendredi 12 Avril à Paris,
 	Vendredi 19 Avril à Sophia Antipolis,
+	Vendredi 24 Mai à Sophia Antipolis,
 	]
 }
 ---
