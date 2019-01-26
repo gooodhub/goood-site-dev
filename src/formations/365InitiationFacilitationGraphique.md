@@ -14,10 +14,11 @@
 	lesPlus: [Un carnet de note, un starter kit de facilitation graphique de la marque neuland, prise en charge du repas],
 	layout: formation-fiche.html, 
 	dates: [
-	Vendredi 15 Novembre à Sophia Antipolis,
 	Mercredi 30 Janvier à Paris,
 	Vendredi 8 Février à Sophia Antipolis,
 	Mercredi 13 Février à Paris 
+	Vendredi 12 Avril à Paris,
+	Vendredi 19 Avril à Sophia Antipolis,
 	]
 }
 ---
