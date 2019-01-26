@@ -16,6 +16,9 @@
 	dates: [
 	Vendredi 18 Janvier 2019 suivi du 6 et 7 Mars 2019 à Sophia Antipolis,
 	Vendredi 8 Février 2019 suivi du 5 et 6 Avril 2019 à Sophia Antipolis,
+	Vendredi 19 Avril 2019 suivi du 20 et 21 Juin à Sophia Antipolis,
+	Vendredi 12 Avril 2019 suivi du 27 et 28 Juin à Paris,
+	
 	]
 }
 ---
