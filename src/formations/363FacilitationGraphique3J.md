@@ -93,3 +93,5 @@ Ce stage s’adresse aux :
 ## Témoignages clients ##
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/B-FXqJe8BjQ/0.jpg)](http://www.youtube.com/watch?v=B-FXqJe8BjQ)
 
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+
