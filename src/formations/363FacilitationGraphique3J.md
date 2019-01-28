@@ -95,4 +95,3 @@ Ce stage s’adresse aux :
 [![Formation Facilitation Graphique](https://img.youtube.com/vi/B-FXqJe8BjQ/0.jpg)](https://www.youtube.com/embed/B-FXqJe8BjQ "Formation facilitation graphique")
 
 
-https://www.youtube.com/embed/B-FXqJe8BjQ
