@@ -91,3 +91,8 @@ Ce stage s’adresse aux :
 * Toute personne intéressée par la facilitation de groupe
 
 
+## Témoignages clients ##
+[![Formation Facilitation Graphique](https://img.youtube.com/vi/B-FXqJe8BjQ/0.jpg)](https://www.youtube.com/embed/B-FXqJe8BjQ "Formation facilitation graphique")
+
+
+https://www.youtube.com/embed/B-FXqJe8BjQ
