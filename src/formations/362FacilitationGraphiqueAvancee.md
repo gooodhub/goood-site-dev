@@ -15,10 +15,7 @@
 	layout: formation-fiche.html, 
 	dates: [
 	
-  Jeudi 31 Janvier 2019 et Vendredi 1er février 2019 à Paris,
-  Jeudi 14 Février 2019 et Vendredi 15 Février 2019 à Paris,
-  Mercredi 6 Mars 2019 et Jeudi 7 Mars à Sophia Antipolis,
-  Jeudi 25 et Vendredi 26 à Paris,
+  Jeudi 25 Avril et Vendredi 26 Avril à Paris,
   Jeudi 20 et Vendredi 21 Juin à Sophia Antipolis,
   Jeudi 27 et Vendredi 28 Juin à Paris,
 	]
