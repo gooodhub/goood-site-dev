@@ -69,13 +69,20 @@
 * Quand et pourquoi l’utiliser ?
 * Construire des modèles avec des métaphores : brainstorming, victoire, plan d’actions, amélioration continue ...
 
-* Faciliter à l’aide d’un support visuel
+
 ### Faciliter une discussion / débrief de groupe ###
 * Expérimenter la conversation structurée
 * Décortiquer le processus de la conversation structurée
 * Pratiquer la captation graphique d’une conversation structurée
 * Faciliter graphiquement une conversation structurée avec une
 métaphore
+
+### Le plan d'action avec la facilitation graphique ### 
+* Poser le contexte
+* Faire émerger la vision / victoir
+* Identifier les forces, faibles, gains, et risques 
+* Construire l'engagement de l'équipe
+* Identifier et plannifier les actions 
 
 ## Public concerné ##
 Ce stage s’adresse aux : 
