@@ -79,7 +79,7 @@ métaphore
 
 ### Le plan d'action avec la facilitation graphique ### 
 * Poser le contexte
-* Faire émerger la vision / victoir
+* Faire émerger la vision / victoire
 * Identifier les forces, faibles, gains, et risques 
 * Construire l'engagement de l'équipe
 * Identifier et plannifier les actions 
