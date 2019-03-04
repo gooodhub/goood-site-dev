@@ -17,7 +17,8 @@
 	Vendredi 12 Avril à Paris,
 	Vendredi 19 Avril à Sophia Antipolis,
 	Jeudi 25 Avril à Paris,
-	Vendredi 24 Mai à Sophia Antipolis,
+	Vendredi 17 Mai à Sophia Antipolis,
+	Jeudi 6 Juin à Sophia Antipolis,
 	]
 }
 ---
