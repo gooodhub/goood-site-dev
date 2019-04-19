@@ -58,3 +58,4 @@ Ce stage s’adresse aux :
 * Formateur
 * Chef d'équipe
 * Toute personne intéressée par la facilitation de groupe
+
