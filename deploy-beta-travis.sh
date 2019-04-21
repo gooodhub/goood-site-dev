@@ -1,10 +1,8 @@
 echo "##test##"
 echo "########## Déploiement en béta ##########" 
 echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
-commitmsg="auto-commit"
-if [ $TRAVIS_COMMIT_MESSAGE != "" ]; then
-	$commitmsg = $TRAVIS_COMMIT_MESSAGE
-fi
+commitmsg="$TRAVIS_COMMIT_MESSAGE"
+if [[ ${TRAVIS_COMMIT_MESSAGE} == "" ]]; then $commitmsg = "auto-commit"; fi;
 
 echo "########## Configuration du compte git pour commit ##########" 
 git config user.email "n.guignardeau@goood.pro"
@@ -12,10 +10,8 @@ git config user.name "lsonicoGoood"
 
 echo "#### Configuration du tag ###"
 taggen=$(date +%s)
-tag="v$taggen"
 echo "### tag généré : $taggen ###"
-echo "tag $tag"
-git tag -a $tag -m "version $taggen"
+git tag -a $taggen -m "version $taggen"
 echo "### Ajout du tag au fichier de version ###"
 echo "$taggen" >> src/static/version.txt
 
