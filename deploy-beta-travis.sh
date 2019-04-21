@@ -13,8 +13,10 @@ git config user.name "lsonicoGoood"
 
 echo "#### Configuration du tag ###"
 taggen=$(date +%s)
+tag="v$taggen"
 echo "### tag généré : $taggen ###"
-git tag -a $taggen -m "version $taggen"
+echo "tag $tag"
+git tag -a $tag -m "version $taggen"
 echo "### Ajout du tag au fichier de version ###"
 echo "$taggen" >> src/static/version.txt
 
