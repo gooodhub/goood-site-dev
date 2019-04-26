@@ -1,5 +1,5 @@
-import $ from 'jquery';
-import Chart from 'chartjs';
+﻿import $ from 'jquery';
+import Chart from 'chart.js';
 
 var ctx = $("#repartition-methodologie");
 var pourcentagePratique = $("#pourcentagePratique").html();
