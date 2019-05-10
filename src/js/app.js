@@ -101,11 +101,11 @@ $('#video-dth').on("click", function(){
 });
 
 //contacts
-$('#contact-sandrine').on('click', function(){
+$('#contact-paris').on('click', function(){
   envoiGA("contact","demande-contact", "Demande de contact pour Paris");
 });
 
-$('#contact-gregory').on("click", function(){
+$('#contact-lyon').on("click", function(){
   envoiGA("contact","demande-contact", "Demande de contact pour Lyon");
 });
 
