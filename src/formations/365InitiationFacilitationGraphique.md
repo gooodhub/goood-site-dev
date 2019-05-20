@@ -19,6 +19,7 @@
 	Jeudi 6 Juin à Sophia Antipolis,
 	Mardi 18 Juin à Paris
 	Mardi 25 Juin à Paris,
+	Jeudi 5 Septembre à Sophia Antipolis,
 	]
 }
 ---
