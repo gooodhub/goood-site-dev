@@ -43,11 +43,11 @@ formation_themes: [
                           {date_startYYYYMMDD: "2019-06-27",date_endYYYYMMDD: "2019-06-28",date_start: "27/06/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
                            {date_startYYYYMMDD: "2019-10-03",date_endYYYYMMDD: "2019-10-03",date_start: "03/10/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
                            {date_startYYYYMMDD: "2019-11-07",date_endYYYYMMDD: "2019-11-07",date_start: "07/11/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
+                           {date_startYYYYMMDD: "2019-11-27",date_endYYYYMMDD: "2019-11-29",date_start: "27/11/2019",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
                            {date_startYYYYMMDD: "2019-12-03",date_endYYYYMMDD: "2019-12-03",date_start: "03/12/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
-                           {date_startYYYYMMDD: "2019-10-03",date_endYYYYMMDD: "2019-10-03",date_start: "03/10/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
                            
                          
-                          {date_startYYYYMMDD: "2019-11-27",date_endYYYYMMDD: "2019-11-29",date_start: "27/11/2019",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
+      
                          ],
                           
     
