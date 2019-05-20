@@ -19,6 +19,9 @@
 	Mardi 18 Juin à Paris,
 	Mardi 25 Juin à Paris,
 	Jeudi 5 Septembre à Sophia Antipolis,
+	Jeudi 3 Octobre à Paris,
+	Jeudi 7 Novembre à Paris,
+	Mardi 3 Décembre à Paris,
 	]
 }
 ---
