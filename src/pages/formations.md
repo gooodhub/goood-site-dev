@@ -46,9 +46,9 @@ formation_themes: [
     
     promotedate_sophia: [
     
-                          {date_startYYYYMMDD: "2019-04-19",date_endYYYYMMDD: "2019-05-17",date_start: "17/05/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
                           {date_startYYYYMMDD: "2019-04-25",date_endYYYYMMDD: "2019-06-06",date_start: "06/06/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
-                          {date_startYYYYMMDD: "2019-06-20",date_endYYYYMMDD: "2019-06-21",date_start: "21/06/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
+                          {date_startYYYYMMDD: "2019-06-20",date_endYYYYMMDD: "2019-06-21",date_start: "21/06/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},                 
+                          {date_startYYYYMMDD: "2019-09-5",date_endYYYYMMDD: "2019-09-05",date_start: "05/09/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
                            {date_startYYYYMMDD: "2019-09-12",date_endYYYYMMDD: "2019-09-13",date_start: "12/09/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},],
     
     promotedate_lyon: [
