@@ -9,6 +9,15 @@ changefreq: daily,
 priority: 1,
 imagereseauxsociaux: header-events-th2.jpg,
 formation_themes: [
+         {name: "Mobiliser l’intelligence collective",formationslist: [
+                    {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
+                    {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
+                    {formationname: "Graphic Bootcamp 1/2 journée",path: "graphic-bootcamp"},
+                    {formationname: "Initiation à la facilitation graphique",path: "initiation-facilitation-graphique"},
+                    {formationname: "Facilitation graphique 2 jours",path: "facilitation-graphique-avancee-2jours"},
+                    {formationname: "Facilitation graphique 3 jours",path: "facilitation-graphique-avancee-3jours"},
+                    {formationname: "Devenir animateur de jeux d'apprentissage",path: "devenir-animateur-jeux-apprentissage"}]
+         },
         {name: "Concevoir l'entreprise agile",formationslist: [
                     {formationname: "L’entrepreneur leader",path: "entrepreneur-leader"},
                      {formationname: "Manager Agile",path: "manager-agile"},
@@ -21,15 +30,7 @@ formation_themes: [
                     {formationname: "Test Driven Development",path: "formation-tdd"},
                     {formationname: "Mise en place des tests fonctionnels avec TFS et Microsoft Test Manager",path: "tests-fonctionnels"}]
          },          
-        {name: "Mobiliser l’intelligence collective",formationslist: [
-                    {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
-                    {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
-                    {formationname: "Graphic Bootcamp 1/2 journée",path: "graphic-bootcamp"},
-                    {formationname: "Initiation à la facilitation graphique",path: "initiation-facilitation-graphique"},
-                    {formationname: "Facilitation graphique 2 jours",path: "facilitation-graphique-avancee-2jours"},
-                    {formationname: "Facilitation graphique 3 jours",path: "facilitation-graphique-avancee-3jours"},
-                    {formationname: "Devenir animateur de jeux d'apprentissage",path: "devenir-animateur-jeux-apprentissage"}]
-         },
+       
         {name: "Passer de la formation à l’apprentissage",formationslist: [
                     {formationname: "Manager as a Service",path: "manager-as-a-service"}]}
     ],
