@@ -13,7 +13,8 @@
 	pourcentagePratique: 60,
 	lesPlus: [De la pratique sur 3 jours],
 	layout: formation-fiche.html, 
-	dates: [Mercredi 23 et Jeudi 24 et Vendredi 25 Janvier 2019 à Paris,
+	dates: [Mercredi 16 et Jeudi 17 et Vendredi 18 Octobre 2019 à Sophia Antipolis,
+	Mercredi 27 et Jeudi 28 et Vendredi 29 Novembre 2019 à Paris,
 	]
 }
 ---
