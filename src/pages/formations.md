@@ -14,7 +14,7 @@ formation_themes: [
                     {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
                     {formationname: "Graphic Bootcamp 1/2 journée",path: "graphic-bootcamp"},
                     {formationname: "Initiation à la facilitation graphique",path: "initiation-facilitation-graphique"},
-                    {formationname: "Facilitation graphique 2 jours",path: "facilitation-graphique-avancee-2jours"},
+                    {formationname: "Facilitation graphique avancée",path: "facilitation-graphique-avancee-2jours"},
                     {formationname: "Facilitation graphique 3 jours",path: "facilitation-graphique-avancee-3jours"},
                     {formationname: "Devenir animateur de jeux d'apprentissage",path: "devenir-animateur-jeux-apprentissage"}]
          },
