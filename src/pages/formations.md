@@ -41,6 +41,7 @@ formation_themes: [
                           {date_startYYYYMMDD: "2019-06-18",date_endYYYYMMDD: "2019-06-18",date_start: "18/06/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
                           {date_startYYYYMMDD: "2019-06-25",date_endYYYYMMDD: "2019-06-25",date_start: "25/06/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
                           {date_startYYYYMMDD: "2019-06-27",date_endYYYYMMDD: "2019-06-28",date_start: "27/06/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
+                          {date_startYYYYMMDD: "2019-11-27",date_endYYYYMMDD: "2019-11-29",date_start: "27/11/2019",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
                          ],
                           
     
@@ -49,7 +50,9 @@ formation_themes: [
                           {date_startYYYYMMDD: "2019-04-25",date_endYYYYMMDD: "2019-06-06",date_start: "06/06/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
                           {date_startYYYYMMDD: "2019-06-20",date_endYYYYMMDD: "2019-06-21",date_start: "21/06/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},                 
                           {date_startYYYYMMDD: "2019-09-5",date_endYYYYMMDD: "2019-09-05",date_start: "05/09/2019",formationname: "Initiaiton à la facilitation graphique", path: "initiation-facilitation-graphique"},
-                           {date_startYYYYMMDD: "2019-09-12",date_endYYYYMMDD: "2019-09-13",date_start: "12/09/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},],
+                           {date_startYYYYMMDD: "2019-09-12",date_endYYYYMMDD: "2019-09-13",date_start: "12/09/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
+                               {date_startYYYYMMDD: "2019-10-16",date_endYYYYMMDD: "2019-10-18",date_start: "16/10/2019",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
+                               ],
     
     promotedate_lyon: [
 
