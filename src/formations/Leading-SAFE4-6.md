@@ -6,7 +6,7 @@
 	description: "Devenez Leader dans votre transformation Agile à l'échelle",
 	theme: agile,
 	heures: 14,
-	participants: >15,
+	participants: supérieur à 15,
 	InterExiste: 1,
 	prixInter: 2000,
 	prixIntra: ,
