@@ -11,7 +11,7 @@
 	prixInter: 2000,
 	prixIntra: nous consulter,
 	pourcentagePratique: 50,
-	lesPlus: [Le coût de la formation inclut les petits déjeuners, déjeuners et le passage de l’examen de certification.],
+	lesPlus: ["Le coût de la formation inclut les petits déjeuners, déjeuners et le passage de l’examen de certification."],
 	layout: formation-fiche.html, 
 	dates: [
 	Jeudi 16 et Vendredi 17 Mai 2019 à Sophia Antipolis,
