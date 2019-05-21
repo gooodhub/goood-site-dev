@@ -3,7 +3,7 @@
 	title: "Leading SAFe 4.6",
 	slug: leading-safe-4-6, 
 	headline: "Leading SAFe 4.6",
-	description: "Devenez Leader dans votre transformation Agile à l'échelle",
+	description: "Devenez Leader dans votre transformation Agile à l échelle",
 	theme: agile,
 	heures: 14,
 	participants: >15,
