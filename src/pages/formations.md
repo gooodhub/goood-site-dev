@@ -20,7 +20,8 @@ formation_themes: [
          },
         {name: "Concevoir l'entreprise agile",formationslist: [
                     {formationname: "L’entrepreneur leader",path: "entrepreneur-leader"},
-                     {formationname: "Manager Agile",path: "manager-agile"},
+                    {formationname: "Manager Agile",path: "manager-agile"},
+                    {formationname: "Leading SAFe 4.6",path: "leading-safe-4-6"},
                     {formationname: "Théorie U",path: "theorie-u"}]
         },
         {name: "Mettre en œuvre la transformation",formationslist: [
