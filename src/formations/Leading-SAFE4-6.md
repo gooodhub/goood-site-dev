@@ -15,9 +15,12 @@
 	layout: formation-fiche.html, 
 	dates: [
 	Mercredi 15 - Jeudi 16 et Vendredi 17 Mai 2019 à Sophia Antipolis,
+	Mercredi 4 - Jeudi 5 et Vendredi 6 Juin 2019 à Paris,
   Mercredi 10 - Jeudi 11 et Vendredi 12 Juin 2019 à Sophia Antipolis,
+  Mercredi 9 - Jeudi 10 et Vendredi 11 Juillet 2019 à Paris,
   Mercredi 24 - Jeudi 25 et Vendredi 26 Juillet 2019 à Sophia Antipolis,
   Mardi 27 - Mercredi 28 et Jeudi 29 Aout 2019 à sophia Antipolis,
+  Mercredi 18 - Jeudi 19 et Vendredi 20 Septembre 2019 à Paris,
 	]
 }
 ---
