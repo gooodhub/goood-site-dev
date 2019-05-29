@@ -5,7 +5,7 @@ bulle2:
 bulle3: 
 image: /images/portraits/charlesB.jpg
 hashtag: ''
-job: 
+job: Coach Agile
 facebook: 
 twitter: 
 linkedin: 
