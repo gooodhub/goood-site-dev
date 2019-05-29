@@ -37,8 +37,6 @@ formation_themes: [
     ],
     promotedate_paris: [
 
-                          
-                          {date_startYYYYMMDD: "2019-04-25",date_endYYYYMMDD: "2019-04-25",date_start: "25/04/2019",formationname: "Initiation à la facilitation graphique", path: "initiation-facilitation-graphique"},
                           {date_startYYYYMMDD: "2019-06-18",date_endYYYYMMDD: "2019-06-18",date_start: "18/06/2019",formationname: "Initiation à la facilitation graphique", path: "initiation-facilitation-graphique"},
                           {date_startYYYYMMDD: "2019-06-25",date_endYYYYMMDD: "2019-06-25",date_start: "25/06/2019",formationname: "Initiation à la facilitation graphique", path: "initiation-facilitation-graphique"},
                           {date_startYYYYMMDD: "2019-06-27",date_endYYYYMMDD: "2019-06-28",date_start: "27/06/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
