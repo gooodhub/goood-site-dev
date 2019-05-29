@@ -3,7 +3,7 @@ name: Ramon Amo
 bulle1:  
 bulle2:  
 bulle3: 
-image: /images/portraits/celineS.jpg
+image: /images/portraits/ramonA.jpg
 hashtag: ''
 job: Créatreur d'opportunités
 facebook: 
