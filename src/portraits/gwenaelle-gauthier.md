@@ -5,7 +5,7 @@ bulle2:
 bulle3: 
 image: /images/portraits/gwenaelleG.jpg
 hashtag: ''
-job: 
+job: Coach Agile
 facebook: 
 twitter: 
 linkedin: https://www.linkedin.com/in/gwenaelle-gautier-a0bbb95a/
