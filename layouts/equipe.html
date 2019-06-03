@@ -215,7 +215,9 @@
         <div class="portrait__slides__close">✕</div>
         <div class="portrait__slick">
           {{#each portraits}}
-          {{#if hashtag}}{{#if bulle2}}{{#if image}}{{#if job}}
+          {{!--
+              {{#if hashtag
+          }}{{#if bulle2}}{{#if image}}{{#if job}} --}} {{#if image}}{{#if job}}
           <div class="portrait__slick-item">
             <div
               class="portrait__slick-item__img"
