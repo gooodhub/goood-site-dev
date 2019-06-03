@@ -1,4 +1,4 @@
-﻿---
+---
 name: Isabelle Gauthier
 bulle1: “Rien ne se perd,
 bulle2: rien ne se crée,
