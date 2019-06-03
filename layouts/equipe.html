@@ -1,226 +1,299 @@
 {{#> layout }}
-  {{#*inline "content"}}
-    <div class="slide" id="equipe">
-      {{> slide-header title=headline }}
-      <div class="slide__content">
-        <section class="competences">
-          <div class="row">
-            <div class="competences__content">
-              <header>
-                <p>
-                  Compétences
-                </p>
-                <h1>
-                  La diversité comme un atout
-                </h1>
-              </header>
-              <p>
-                Nous adressons des sujets complexes et nous croyons à la diversité. Ça fait deux bonnes raisons pour rassembler des personnalités et des compétences très diversifiées : 
-                systémique, coaching, méthodes agiles, développement de logiciels, design et animation d’ateliers et de séminaires, Product Ownership, Facilitation, Lean Startup, Software Craftsmanship …
-              </p>
-            </div>
-            <div class="competences__img">
-              <img src="/images/competences.jpg" alt="Goood! compétences">
-            </div>
-          </div>
-          </section>
-        <section class="lequipe">
-          <div class="row">
-            <div class="lequipe__content">
-              <header>
-                <p>
-                  Posture
-                </p>
-                <h1>
-                  Tous extrapreneurs
-                </h1>
-              </header>
-              <p>
-                Nous sommes plus de 40 gooodiennes et gooodiens à partager un même état d’esprit à travailler en équipe 
-                pour relever vos défis, comprendre vos enjeux, bâtir vos solutions avec vous en partant du terrain :</p> 
-              <p>  
-                Tous salariés mais ni consultants ni prestataires nous nous définissons comme des extrapreneurs : des intrapreneurs engagés (et un peu militants) au service de vos enjeux.
-              </p>
-          
-            </div>
-            <div class="lequipe__img">
-              <img src="/images/extrapreneurs.jpg" alt="Goood! équipe extrapreneurs">
-            </div>
-          </div>
-        </section>
-        <section class="calltoaction">  
-            <header class="calltoaction__header">
-            <p>
-              Recrutement
-            </p>
-            <h1>
-              Questions clés
-            </h1>
-          </header>
-          <div class="calltoaction__content">
-            <p>
-              Votre personnalité et vos compétences renforcent ou complètent les nôtres ? Vous vous reconnaissez dans notre culture et notre mission ?
-            </p>
-              <a class="btn" data-text="Nous recrutons" href="/recrutement/">
-                <span>
-                  Faisons connaissance
-                </span>
-              </a>
-          </div>         
-        </section>
-        <section class="portraits">
+{{#*inline "content"}}
+<div class="slide" id="equipe">
+  {{> slide-header title=headline }}
+  <div class="slide__content">
+    <section class="competences">
+      <div class="row">
+        <div class="competences__content">
           <header>
             <p>
-              Visages de notre diversité de talents
+              Compétences
             </p>
             <h1>
-              Quelques Gooodiennes & Gooodiens
+              La diversité comme un atout
             </h1>
           </header>
-          <div class="portraits__container">
-            <div class="row">
-              {{#each portraits}}
-              <!--
-              {{#if hashtag}}{{#if bulle2}}{{#if image}}{{#if job}}-->
-              {{#if image}}{{#if job}}
-                <div class="portrait" data-portrait="{{this.path}}" >
-                  <img data-src="{{this.image}}" alt="{{name}}" class="portrait__img b-lazy">
-                  <span>
-                    {{this.hashtag}}
-                  </span>
-                </div>
-                {{/if}}{{/if}}
-              {{/each}}
-            </div>
+          <p>
+            Nous adressons des sujets complexes et nous croyons à la diversité.
+            Ça fait deux bonnes raisons pour rassembler des personnalités et des
+            compétences très diversifiées : systémique, coaching, méthodes
+            agiles, développement de logiciels, design et animation d’ateliers
+            et de séminaires, Product Ownership, Facilitation, Lean Startup,
+            Software Craftsmanship …
+          </p>
+        </div>
+        <div class="competences__img">
+          <img src="/images/competences.jpg" alt="Goood! compétences" />
+        </div>
+      </div>
+    </section>
+    <section class="lequipe">
+      <div class="row">
+        <div class="lequipe__content">
+          <header>
+            <p>
+              Posture
+            </p>
+            <h1>
+              Tous extrapreneurs
+            </h1>
+          </header>
+          <p>
+            Nous sommes plus de 40 gooodiennes et gooodiens à partager un même
+            état d’esprit à travailler en équipe pour relever vos défis,
+            comprendre vos enjeux, bâtir vos solutions avec vous en partant du
+            terrain :
+          </p>
+          <p>
+            Tous salariés mais ni consultants ni prestataires nous nous
+            définissons comme des extrapreneurs : des intrapreneurs engagés (et
+            un peu militants) au service de vos enjeux.
+          </p>
+        </div>
+        <div class="lequipe__img">
+          <img
+            src="/images/extrapreneurs.jpg"
+            alt="Goood! équipe extrapreneurs"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="calltoaction">
+      <header class="calltoaction__header">
+        <p>
+          Recrutement
+        </p>
+        <h1>
+          Questions clés
+        </h1>
+      </header>
+      <div class="calltoaction__content">
+        <p>
+          Votre personnalité et vos compétences renforcent ou complètent les
+          nôtres ? Vous vous reconnaissez dans notre culture et notre mission ?
+        </p>
+        <a class="btn" data-text="Nous recrutons" href="/recrutement/">
+          <span>
+            Faisons connaissance
+          </span>
+        </a>
+      </div>
+    </section>
+    <section class="portraits">
+      <header>
+        <p>
+          Visages de notre diversité de talents
+        </p>
+        <h1>
+          Quelques Gooodiennes & Gooodiens
+        </h1>
+      </header>
+      <div class="portraits__container">
+        <div class="row">
+          {{#each portraits}}
+          {{!--
+              {{#if hashtag
+          }}{{#if bulle2}}{{#if image}}{{#if job}} --}} {{#if image}}{{#if job}}
+          <div class="portrait" data-portrait="{{ this.path }}">
+            <img
+              data-src="{{ this.image }}"
+              alt="{{ name }}"
+              class="portrait__img b-lazy"
+            />
+            <span>
+              {{ this.hashtag }}
+            </span>
           </div>
-        </section>
-        <section class="culture">
-          <header class="culture__header">
-            <p>
-              Culture
-            </p>
-            <h1>
-              Respect de soi, respect de l’autre
-            </h1>
-          </header>
-          <div class="culture__content">
-            <p>
-              Autonomie et responsabilité ce sont les qualités que nous recherchons et cultivons dans l'équipe. Chacun est libre de s'organiser comme il le souhaite pour respecter ses engagements mais nous sommes tous conscients de nos interdépendances et nous prenons soin les uns des autres.
-            </p>
-            <!--<a class="btn" data-text="Culture Goood! sur Slideshare">
+          {{/if}}{{/if}}
+          {{/each}}
+        </div>
+      </div>
+    </section>
+    <section class="culture">
+      <header class="culture__header">
+        <p>
+          Culture
+        </p>
+        <h1>
+          Respect de soi, respect de l’autre
+        </h1>
+      </header>
+      <div class="culture__content">
+        <p>
+          Autonomie et responsabilité ce sont les qualités que nous recherchons
+          et cultivons dans l'équipe. Chacun est libre de s'organiser comme il
+          le souhaite pour respecter ses engagements mais nous sommes tous
+          conscients de nos interdépendances et nous prenons soin les uns des
+          autres.
+        </p>
+        <!--<a class="btn" data-text="Culture Goood! sur Slideshare">
               <span>
                 Lire la suite ...
               </span>
             </a>-->
+      </div>
+      <div class="row">
+        <div class="temoignage__img"></div>
+        <div class="temoignage__content">
+          <div class="temoignage__title">
+            Maria Ternard
+            <span>
+              Team Potentialist
+            </span>
           </div>
-          <div class="row">
-            <div class="temoignage__img">
-
+          <div class="temoignage__bulle">
+            <svg class="temoignage__bulle__bottom" viewBox="0 0 172 77">
+              <use xlink:href="#bulle-bottom" />
+            </svg>
+            <svg class="temoignage__bulle__border">
+              <use xlink:href="#bulle-border" />
+            </svg>
+            <div class="temoignage__bulle__content">
+              <p>
+                La première fois que j'ai rencontré l'équipe, c'était avant même
+                d'intégrer Goood! lors d'une journée d'apprenance. Je suis
+                arrivée avant même d'arriver! J'ai été marquée par l'énergie des
+                gens, j'avais trouvé ça super en terme d'intelligence
+                collective, l'envie de faire pleins de choses.
+              </p>
             </div>
-            <div class="temoignage__content">
-              <div class="temoignage__title">
-                Maria Ternard
-                <span>
-                  Team Potentialist
-                </span>
-              </div>
-              <div class="temoignage__bulle">
-                <svg class="temoignage__bulle__bottom" viewBox="0 0 172 77">
-                  <use xlink:href="#bulle-bottom"/>
-                </svg>
-                <svg class="temoignage__bulle__border">
-                  <use xlink:href="#bulle-border"/>
-                </svg>
-                <div class="temoignage__bulle__content">
-                  <p>
-                    La première fois que j'ai rencontré l'équipe, c'était avant même d'intégrer Goood! lors d'une journée d'apprenance. Je suis arrivée avant même d'arriver!
-J'ai été marquée par l'énergie des gens, j'avais trouvé ça super en terme d'intelligence collective, l'envie de faire pleins de choses.
-                  </p>
-                </div>
-              </div>
-              <!--<a class="btn btn--secondary" data-text="Autres témoignages sur Facebook">
+          </div>
+          <!--<a class="btn btn--secondary" data-text="Autres témoignages sur Facebook">
                 <span>
                   Autres témoignages sur Facebook
                 </span>
               </a>-->
+        </div>
+      </div>
+    </section>
+    <section class="responsable">
+      <div class="row">
+        <div class="responsable__content">
+          <header>
+            <p>
+              <a name="responsable"></a>
+              Engagés !
+            </p>
+            <h1>
+              Goood! entreprise responsable
+            </h1>
+          </header>
+          <p class="texte">
+            La mission de Goood est de lutter contre le gâchis dans les
+            entreprises. Construire une entreprise qui réussit dans cette
+            mission mais dont le modèle ne serait pas lui-même durable nous
+            semble être le plus grand gâchis possible. C'est pourquoi nous
+            affirmons que la responsabilité sociale, sociétale et
+            environnementale de Goood est intrinsèquement liée à sa mission.
+          </p>
+          <p class="texte">
+            Et c'est ainsi qu'à travers nos choix de missions, l'évolution de
+            nos pratiques et l'évaluation de nos impacts, nous recherchons
+            constamment le mieux en devenant une entreprise plus responsable.
+          </p>
+          <p class="logos">
+            <img
+              alt="Logo charte de la diversité"
+              src="/images/logo-charte-diversite-signataire.jpg"
+              height="120"
+            />
+            <img alt="Logo Lucie" src="/images/logo-lucie.jpg" height="120" />
+            <img
+              alt="Logo Manifeste de l'Entreprise Responsable'"
+              src="/images/logo-manifeste-entreprise-responsable.png"
+              height="70"
+            />
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Portraits Slide Container -->
+    <section class="portrait__slides-container">
+      <div class="portrait__slides__overlay"></div>
+      <div class="portrait__slides">
+        <div class="portrait__slides__close">✕</div>
+        <div class="portrait__slick">
+          {{#each portraits}}
+          {{#if hashtag}}{{#if bulle2}}{{#if image}}{{#if job}}
+          <div class="portrait__slick-item">
+            <div
+              class="portrait__slick-item__img"
+              style="background-image: url({{ this.image }})"
+            >
+              {{> svg-bulle-texte texte1=bulle1 texte2=bulle2 texte3=bulle3 }}
             </div>
-          </div>
-        </section>
-        <section class="responsable">
-          <div class="row">
-            <div class="responsable__content">
-              <header>
-                <p><a name="responsable"></a>
-                  Engagés !
-                </p>
-                <h1>
-                  Goood! entreprise responsable
-                </h1>
-              </header>
-              <p class="texte">
-                La mission de Goood est de lutter contre le gâchis dans les entreprises. Construire une entreprise qui réussit dans cette mission mais dont le modèle ne serait pas lui-même durable nous semble être le plus grand gâchis possible. 
-                C'est pourquoi nous affirmons que la responsabilité sociale, sociétale et environnementale de Goood est intrinsèquement liée à sa mission. </p>
-              <p class="texte">
-                Et c'est ainsi qu'à travers nos choix de missions, l'évolution de nos pratiques et l'évaluation de nos impacts, nous recherchons constamment le mieux en devenant une entreprise plus responsable.</p>             
-              <p class="logos">
-                <img alt="Logo charte de la diversité" src="/images/logo-charte-diversite-signataire.jpg" height="120"/>
-                <img alt="Logo Lucie" src="/images/logo-lucie.jpg" height="120" />
-                <img alt="Logo Manifeste de l'Entreprise Responsable'" src="/images/logo-manifeste-entreprise-responsable.png" height="70" />
-              </p>
-            </div>
-          </div>
-          </section>
-        <!-- Portraits Slide Container -->
-        <section class="portrait__slides-container">
-          <div class="portrait__slides__overlay"></div>
-          <div class="portrait__slides">
-            <div class="portrait__slides__close">✕</div>
-            <div class="portrait__slick">
-            {{#each portraits}}
-            {{#if hashtag}}{{#if bulle2}}{{#if image}}{{#if job}}
-              <div class="portrait__slick-item">
-                <div
-                  class="portrait__slick-item__img"
-                  style="background-image: url({{this.image}})"
-                >
-                  {{> svg-bulle-texte texte1=bulle1 texte2=bulle2 texte3=bulle3 }}
-                </div>
-                <div class="portrait__slick-item__content">
-                  <div class="portrait__slick-item__prev">
-                    {{svg "./fleche-gauche-ico.svg"}}
-                  </div>
-                  <div class="portrait__slick-item__next">
-                    {{svg "./fleche-droite-ico.svg"}}
-                  </div>
-                  <div class="portrait__slick-item__title">
-                    {{name}}
-                    <span>{{job}}</span>
-                  </div>
-                  {{{contents}}}
-                  <div class="portrait_links">
-                    {{#if blog}}<div>Son blog : <a href="{{blog}}" target="_new" class="portrait-link,blog" >{{blog}}</a></div>{{/if}}                                      
-                    {{#if twitter}}<div>Son Twitter : <a href="{{twitter}}" target="_new" class="portrait-link,twitter" >{{twitter}}</a></div>{{/if}}                  
-                    {{#if linkedin}}<div>Son profil LinkedIn : <a href="{{linkedin}}" target="_new" class="portrait-link,linkedin" >{{linkedin}}</a></div>{{/if}}                  
-                    {{#if facebook}}<div>Sa page Facebook : <a href="{{facebook}}" target="_new" class="portrait-link,facebook" >{{facebook}}</a></div>{{/if}}                  
-                  </div>
-                </div>
+            <div class="portrait__slick-item__content">
+              <div class="portrait__slick-item__prev">
+                {{svg "./fleche-gauche-ico.svg"}}
               </div>
-              {{/if}}{{/if}}{{/if}}{{/if}}
-            {{/each}}
+              <div class="portrait__slick-item__next">
+                {{svg "./fleche-droite-ico.svg"}}
+              </div>
+              <div class="portrait__slick-item__title">
+                {{ name }}
+                <span>{{ job }}</span>
+              </div>
+              {{{contents}}}
+              <div class="portrait_links">
+                {{#if blog}}
+                <div>
+                  Son blog :
+                  <a
+                    href="{{ blog }}"
+                    target="_new"
+                    class="portrait-link,blog"
+                    >{{ blog }}</a
+                  >
+                </div>
+                {{/if}} {{#if twitter}}
+                <div>
+                  Son Twitter :
+                  <a
+                    href="{{ twitter }}"
+                    target="_new"
+                    class="portrait-link,twitter"
+                    >{{ twitter }}</a
+                  >
+                </div>
+                {{/if}} {{#if linkedin}}
+                <div>
+                  Son profil LinkedIn :
+                  <a
+                    href="{{ linkedin }}"
+                    target="_new"
+                    class="portrait-link,linkedin"
+                    >{{ linkedin }}</a
+                  >
+                </div>
+                {{/if}} {{#if facebook}}
+                <div>
+                  Sa page Facebook :
+                  <a
+                    href="{{ facebook }}"
+                    target="_new"
+                    class="portrait-link,facebook"
+                    >{{ facebook }}</a
+                  >
+                </div>
+                {{/if}}
+              </div>
             </div>
           </div>
-        </section>
-        <section>
-          {{{contents}}}
-        </section>
-        {{> slide-nav-buttons
+          {{/if}}{{/if}}{{/if}}{{/if}}
+          {{/each}}
+        </div>
+      </div>
+    </section>
+    <section>{{{contents}}}</section>
+    {{> slide-nav-buttons
           prevTitle = 'Références'
           prevPath = '/references/'
           nextTitle = 'Nous rejoindre'
           nextPath = '/recrutement/'
-        }}
-        {{> footer }}
-      </div>
-    </div>
-  {{/inline}}
+    }}
+    {{> footer }}
+  </div>
+</div>
+{{/inline}}
 {{/layout}}

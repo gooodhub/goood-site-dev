@@ -2,7 +2,7 @@ echo "##test##"
 echo "########## Déploiement en béta ##########" 
 echo "Entrez le descriptif des changements et tapez [ENTRÉE]: " 
 commitmsg="$TRAVIS_COMMIT_MESSAGE"
-if [[ ${TRAVIS_COMMIT_MESSAGE} == "" ]]; then $commitmsg = "auto-commit"; fi;
+if [ ${TRAVIS_COMMIT_MESSAGE} == "" ]; then $commitmsg = "auto-commit"; fi;
 
 echo "########## Configuration du compte git pour commit ##########" 
 git config user.email "n.guignardeau@goood.pro"
