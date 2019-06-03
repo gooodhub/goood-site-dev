@@ -10,5 +10,5 @@ facebook:
 twitter: 
 linkedin: https://www.linkedin.com/in/val%C3%A9rie-rivas-0952a1105/
 blog: 
-formateur: 1
+formateur: 0
 ---
