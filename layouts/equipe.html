@@ -215,16 +215,15 @@
         <div class="portrait__slides__close">✕</div>
         <div class="portrait__slick">
           {{#each portraits}}
-          {{!--
-              {{#if hashtag
-          }}{{#if bulle2}}{{#if image}}{{#if job}} --}} 
           {{#if image}}{{#if job}}
           <div class="portrait__slick-item">
             <div
               class="portrait__slick-item__img"
               style="background-image: url({{ this.image }})"
             >
-              {{> svg-bulle-texte texte1=bulle1 texte2=bulle2 texte3=bulle3 }}
+              {{#if bulle2}}
+                {{> svg-bulle-texte texte1=bulle1 texte2=bulle2 texte3=bulle3 }}
+              {{/if}}
             </div>
             <div class="portrait__slick-item__content">
               <div class="portrait__slick-item__prev">
