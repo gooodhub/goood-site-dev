@@ -13,6 +13,7 @@
 	pourcentagePratique: 80,
 	lesPlus: [Un carnet de note, un starter kit de facilitation graphique de la marque neuland, prise en charge du repas],
 	layout: formation-fiche.html, 
+	programmePdf : initiationFacilitationGraphique.pdf,
 	dates: [
 	Jeudi 25 Avril à Paris (complet),
 	Vendredi 17 Mai à Sophia Antipolis (complet),
