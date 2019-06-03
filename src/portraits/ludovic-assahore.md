@@ -3,7 +3,7 @@ name: Ludovic Assahoré
 bulle1:  
 bulle2:  
 bulle3: 
-image: /images/portraits/ludovicA.jpg
+image: /images/portraits/LudovicA.jpg
 hashtag: ''
 job: Créatreur d'opportunités
 facebook: 
