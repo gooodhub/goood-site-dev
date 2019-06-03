@@ -3,7 +3,7 @@ name: Sylvie Mallet
 bulle1: 
 bulle2: 
 bulle3: 
-image: /images/portraits/sylvieM.JPG
+image: /images/portraits/sylvieM.jpg
 hashtag: 
 job: Coach professionnelle et personnelle
 facebook: 
