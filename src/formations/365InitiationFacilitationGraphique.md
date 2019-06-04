@@ -14,6 +14,7 @@
 	lesPlus: [Un carnet de note, un starter kit de facilitation graphique de la marque neuland, prise en charge du repas],
 	layout: formation-fiche.html, 
 	programmePdf : initiationFacilitationGraphique.pdf,
+	lienVideo : "https://www.youtube.com/watch?v=B-FXqJe8BjQ&t",
 	dates: [
 	Jeudi 25 Avril à Paris (complet),
 	Vendredi 17 Mai à Sophia Antipolis (complet),
