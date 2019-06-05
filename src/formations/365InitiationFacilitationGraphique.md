@@ -5,7 +5,7 @@
 	headline: "Facilitation graphique",
 	description: "Le visuel au service des interactions",
 	theme: agile,
-	heures: 7,30,
+	heures: 7,
 	participants: 10,
 	InterExiste: 1,
 	prixInter: 750,
@@ -20,7 +20,10 @@
 	Mardi 25 Juin à Paris (complet),
 	Jeudi 5 Septembre à Sophia Antipolis,
 	Jeudi 3 Octobre à Paris,
+	Lundi 14 Octobre à Sophia Antipolis,
+	Mardi 5 Novembre à Sophia Antipolis,
 	Jeudi 7 Novembre à Paris,
+	Jeudi 12 Décembre à Sophia Antipolis,
 	Mardi 3 Décembre à Paris,
 	]
 }
