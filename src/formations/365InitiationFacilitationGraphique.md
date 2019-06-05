@@ -16,10 +16,8 @@
 	programmePdf : initiationFacilitationGraphique.pdf,
 	lienVideo : "https://www.youtube.com/embed/B-FXqJe8BjQ",
 	dates: [
-	Jeudi 25 Avril à Paris (complet),
-	Vendredi 17 Mai à Sophia Antipolis (complet),
-	Mardi 18 Juin à Paris,
-	Mardi 25 Juin à Paris,
+	Mardi 18 Juin à Paris (complet),
+	Mardi 25 Juin à Paris (complet),
 	Jeudi 5 Septembre à Sophia Antipolis,
 	Jeudi 3 Octobre à Paris,
 	Jeudi 7 Novembre à Paris,
