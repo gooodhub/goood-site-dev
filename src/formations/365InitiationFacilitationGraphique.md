@@ -24,7 +24,7 @@
 	Mardi 5 Novembre à Sophia Antipolis,
 	Jeudi 7 Novembre à Paris,
 	Jeudi 12 Décembre à Sophia Antipolis,
-	Mardi 3 Décembre à Paris,
+	Mardi 3 Décembre à Paris ,
 	]
 }
 ---
