@@ -22,7 +22,8 @@ formation_themes: [
                     {formationname: "L’entrepreneur leader",path: "entrepreneur-leader"},
                     {formationname: "Manager Agile",path: "manager-agile"},
                     {formationname: "Leading SAFe 4.6",path: "leading-safe-4-6"},
-                    {formationname: "Théorie U",path: "theorie-u"}]
+                    {formationname: "Théorie U",path: "theorie-u"},
+                    {formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1)",path: "lean-agile-procurement-1"}]
         },
         {name: "Mettre en œuvre la transformation",formationslist: [
                     {formationname: "Introduction aux méthodes agiles",path: "introduction-methodes-agiles"},
