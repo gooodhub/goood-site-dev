@@ -13,7 +13,9 @@
 	pourcentagePratique: 50,
 	lesPlus: [De manière concrète comment mettre la gestion de la valeur au coeur de l'action, Les outils qui ne se trouvent pas dans Scrum],
 	layout: formation-fiche.html, 
-	dates: [Jeudi 10 et Vendredi 11 Octobre 2019 à Sophia Antipolis, Jeudi 28 et Vendredi 29 Novembre 2019 à Sophia Antipolis]
+	dates: [Jeudi 12 et Vendredi 13 Septembre 2019 à Paris,
+	eudi 10 et Vendredi 11 Octobre 2019 à Sophia Antipolis,
+	Jeudi 28 et Vendredi 29 Novembre 2019 à Sophia Antipolis]
 }
 ---
 
