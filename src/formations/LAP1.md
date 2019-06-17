@@ -31,7 +31,7 @@ Cette formation vous permettra d’obtenir la certification Lean Agile Procureme
 ## Public concerné ##
 Ce stage s’adresse aux : 
 * Acheteurs, 
-* directeurs opérationnels
+* Directeurs opérationnels
 * Commerciaux
 * Chef de projet
 * Chef de programme
