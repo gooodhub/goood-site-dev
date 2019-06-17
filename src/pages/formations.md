@@ -57,8 +57,8 @@ formation_themes: [
     
                              
                           {date_startYYYYMMDD: "2019-09-5",date_endYYYYMMDD: "2019-09-05",date_start: "05/09/2019",formationname: "Initiation à la facilitation graphique", path: "initiation-facilitation-graphique"},
-                          {date_startYYYYMMDD: "2019-09-12",date_endYYYYMMDD: "2019-09-13",date_start: "12/09/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
-                          {date_startYYYYMMDD: "2019-09-09",date_endYYYYMMDD: "2019-09-10",date_start: "09/09/2019",formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1) ", path: "lean-agile-procurement-1"},
+                                {date_startYYYYMMDD: "2019-09-09",date_endYYYYMMDD: "2019-09-10",date_start: "09/09/2019",formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1) ", path: "lean-agile-procurement-1"},
+                          {date_startYYYYMMDD: "2019-09-12",date_endYYYYMMDD: "2019-09-13",date_start: "12/09/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},                    
                            {date_startYYYYMMDD: "2019-10-10",date_endYYYYMMDD: "2019-10-11",date_start: "10/10/2019",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
                           {date_startYYYYMMDD: "2019-10-20",date_endYYYYMMDD: "2019-10-21",date_start: "20/10/2019",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "scrum-master"},
                           {date_startYYYYMMDD: "2019-10-16",date_endYYYYMMDD: "2019-10-18",date_start: "16/10/2019",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
