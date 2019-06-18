@@ -11,6 +11,7 @@
 	prixInter: 1 800,
 	prixIntra: 8 000,
 	pourcentagePratique: 70,
+	programmePDF: formationCOP.pdf,
 	lesPlus: [De la pratique et un peu de théorie sur 2 jours et beaucoup de retour d’expérience des formateurs,
 15 jours d’expérimentation dans la vie réelle qui seront suivis d’un troisième jour de debrief de vos expériences],
 	layout: formation-fiche.html, 
