@@ -15,8 +15,8 @@
 15 jours d’expérimentation dans la vie réelle qui seront suivis d’un troisième jour de debrief de vos expériences],
 	layout: formation-fiche.html, 
 	dates: [
-	6 - 7 février 2018 et 2 mars 2018 à Paris,
-	29 - 30 mars 2018 et 20 avril 2018 à Paris]
+	Jeudi 19 et vendredi 20 septembre ainsi que le mardi 8 octobre à Paris, 
+lundi 21 et mardi 22 octobre ainsi que le vendredi 8 novembre 2019 à Paris,]
   
 }
 ---
