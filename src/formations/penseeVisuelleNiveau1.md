@@ -52,11 +52,7 @@
 * Identifier les étapes pour continuer à l’enrichir
 
 ### Avant un atelier ###
-* Réalisation de supports pour vos réunions et ateliers : 
-** agenda,
-** règles d'équipe,
-** template,
-*** carte d’expérimentation, ... 
+* Réalisation de supports pour vos réunions et ateliers : agenda, règles d'équipe, template, carte d’expérimentation, ... 
 
 ### Pendant un atelier ###
 * Travailler l’écoute active, apprendre à capter en temps réel
