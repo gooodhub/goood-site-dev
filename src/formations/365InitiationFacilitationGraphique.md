@@ -55,7 +55,7 @@
 * Mise en pratique 
 
 ### Votre Kit ###
-![40% center](images/kitNeulandInitiation.jpg)
+![40% center](images/kitNeulandInitiation.png)
 (les couleurs peuvent varifier en fonction du stock disponible chez notre fournisseur)
 
 
