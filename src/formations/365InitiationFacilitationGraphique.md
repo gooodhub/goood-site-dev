@@ -9,7 +9,7 @@
 	participants: 10,
 	InterExiste: 1,
 	prixInter: 790,
-	prixIntra: 3350,
+	prixIntra: ,
 	pourcentagePratique: 80,
 	lesPlus: [Un carnet de note, un starter kit de facilitation graphique de la marque neuland, prise en charge du repas],
 	layout: formation-fiche.html, 
@@ -46,15 +46,52 @@
 * Les outils et techniques du facilitateur graphique
 * Le vocabulaire (personnages, picto, texte, encadrement…)
 * Les structures (couleurs, espaces et rythmes)
+
+
+#### Bibliothèque visuelle ####
 * Construire sa bibliothèque visuelle
-* Ecouter et visualiser
+* Identifier les étapes pour continuer à l’enrichir
+
+
+### Mise en pratique ###
+#### Avant un atelier ####	
+* Réalisation d’un support pour vos réunions et ateliers : agenda, règles d'équipe, template, carte d’expérimentation
+
+#### Pendant un atelier ####
+* Travailler l’écoute active, apprendre à capter en temps réel
+
+#### Après un atelier #### 
+* Récupérer du feedback à la fin d’un atelier de façon visuelle
+* Clôturer un atelier avec l'aide du visuel 
+* Numériser son travail
 
 ### Expérimenter et construire sa boite à outils ### 
 * Les outils pour un meeting (agenda, règles, feedback doors)
 * Construire un template visuelle 
 * Mise en pratique 
 
-### Votre Kit ###
+
+# Les apprentissages #
+A l’issue de la formation, les stagiaires seront en mesure de : 
+
+* Réaliser un agenda et savoir l’utiliser dans son processus de facilitation 
+* Animer une inclusion avec le pouvoir du visuel 
+* Animer et récolter visuellement les attentes des participants
+* Gérer la mise en place d’une salle d’atelier
+* Utiliser la musique comme outil de facilitation
+* Maîtriser les bases du vocabulaire et de la grammaire visuelle 
+* Construire sa bibliothèque visuelle et identifier des techniques pour continuer
+* Réaliser des panneaux pour animer des ateliers  (agenda, feedback, template, canvas  …)
+* Capter en temps réel un message : travailler l’écoute active et la mise en forme
+* Modéliser une information connue de façon visuelle
+* Utiliser une méthode de co-développement
+* Expérimenter une technique d’ancrage des points clés de la formation
+* Récupérer les feedbacks lors d’un atelier 
+* Faciliter la fin d’un workshop 
+* Numériser les réalisations pour pouvoir communiquer avec le digital 
+
+
+# Votre Kit #
 ![40% center](/images/KitNeulandInitiation.png)
 (les couleurs peuvent varifier en fonction du stock disponible chez notre fournisseur)
 
