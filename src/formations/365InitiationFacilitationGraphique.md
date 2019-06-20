@@ -8,7 +8,7 @@
 	heures: 7,
 	participants: 10,
 	InterExiste: 1,
-	prixInter: 750,
+	prixInter: 790,
 	prixIntra: 3350,
 	pourcentagePratique: 80,
 	lesPlus: [Un carnet de note, un starter kit de facilitation graphique de la marque neuland, prise en charge du repas],
@@ -53,6 +53,11 @@
 * Les outils pour un meeting (agenda, règles, feedback doors)
 * Construire un template visuelle 
 * Mise en pratique 
+
+### Votre Kit ###
+![40% center](images/kitNeulandInitiation.jpg)
+(les couleurs peuvent varifier en fonction du stock disponible chez notre fournisseur)
+
 
 ## Public concerné ##
 Ce stage s’adresse aux : 
