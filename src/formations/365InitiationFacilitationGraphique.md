@@ -1,9 +1,9 @@
 ---
 {
-	title: "Initiation facilitation graphique",
+	title: "Pensée visuelle niveau 1",
 	slug: initiation-facilitation-graphique, 
-	headline: "Facilitation graphique",
-	description: "Le visuel au service des interactions",
+	headline: "Pensée visuelle niveau 1",
+	description: "Activez la pensée visuelle au service des interactions grâce à la facilitation graphique - niveau 1",
 	theme: agile,
 	heures: 7,
 	participants: 10,
@@ -30,10 +30,9 @@
 ---
 
 ## Objectifs de la formation : ##
+* Utiliser la pensée visuelle dans votre pratique professionnelle 
 * Comprendre et expérimenter les différentes approches de la facilitation graphique
 * Maîtriser les fondamentaux  (langage, représentation, et structure) 
-* Utiliser le visuel dans votre pratique professionnelle
-
 
 # Programme #
 
@@ -64,11 +63,6 @@
 * Récupérer du feedback à la fin d’un atelier de façon visuelle
 * Clôturer un atelier avec l'aide du visuel 
 * Numériser son travail
-
-### Expérimenter et construire sa boite à outils ### 
-* Les outils pour un meeting (agenda, règles, feedback doors)
-* Construire un template visuelle 
-* Mise en pratique 
 
 
 # Les apprentissages #
