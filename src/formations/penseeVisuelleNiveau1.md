@@ -1,7 +1,7 @@
 ---
 {
 	title: "Pensée visuelle niveau 1",
-	slug: initiation-facilitation-graphique, 
+	slug: pensee-visuelle-niveau1, 
 	headline: "Pensée visuelle niveau 1",
 	description: "Activez la pensée visuelle au service des interactions grâce à la facilitation graphique - niveau 1",
 	theme: agile,
