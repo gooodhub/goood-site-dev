@@ -6,7 +6,7 @@
 	description: Etre capable de faciliter l'intelligence collective d'un groupe,
 	theme: agile,
 	heures: 24,
-	participants: 12,
+	participants: 10,
 	InterExiste: 1,
 	prixInter: 2100,
 	prixIntra: ,
