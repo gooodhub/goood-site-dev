@@ -13,7 +13,7 @@ formation_themes: [
                     {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
                     {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
                     {formationname: "Graphic Bootcamp 1/2 journée",path: "graphic-bootcamp"},
-                    {formationname: "Initiation à la facilitation graphique",path: "initiation-facilitation-graphique"},
+                    {formationname: "Activez la pensée visuelle avec la facilitation graphique - niveau 1",path: "pensee-visuelle-niveau1"},
                     {formationname: "Facilitation graphique avancée",path: "facilitation-graphique-avancee-2jours"},
                     {formationname: "Facilitation graphique 3 jours",path: "facilitation-graphique-avancee-3jours"},
                     {formationname: "Devenir animateur de jeux d'apprentissage",path: "devenir-animateur-jeux-apprentissage"}]
@@ -38,17 +38,17 @@ formation_themes: [
     ],
     promotedate_paris: [
 
-                          {date_startYYYYMMDD: "2019-06-18",date_endYYYYMMDD: "2019-06-18",date_start: "18/06/2019",formationname: "Initiation à la facilitation graphique", path: "initiation-facilitation-graphique"},
-                          {date_startYYYYMMDD: "2019-06-25",date_endYYYYMMDD: "2019-06-25",date_start: "25/06/2019",formationname: "Initiation à la facilitation graphique", path: "initiation-facilitation-graphique"},
+                          {date_startYYYYMMDD: "2019-06-18",date_endYYYYMMDD: "2019-06-18",date_start: "18/06/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
+                          {date_startYYYYMMDD: "2019-06-25",date_endYYYYMMDD: "2019-06-25",date_start: "25/06/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
                           {date_startYYYYMMDD: "2019-06-27",date_endYYYYMMDD: "2019-06-28",date_start: "27/06/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},
                            {date_startYYYYMMDD: "2019-09-19",date_endYYYYMMDD: "2019-10-08",date_start: "19/09/2019",formationname: "Facilitation de groupe et communautés de pratiques ", path: "facilitation-de-groupe-et-communautes-de-pratiques"},
                            {date_startYYYYMMDD: "2019-09-12",date_endYYYYMMDD: "2019-09-13",date_start: "12/09/2019",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
                            {date_startYYYYMMDD: "2019-09-21",date_endYYYYMMDD: "2019-11-8",date_start: "21/09/2019",formationname: "Facilitation de groupe et communautés de pratiques ", path: "facilitation-de-groupe-et-communautes-de-pratiques"},
-                           {date_startYYYYMMDD: "2019-10-03",date_endYYYYMMDD: "2019-10-03",date_start: "03/10/2019",formationname: "Initiation à la facilitation graphique", path: "initiation-facilitation-graphique"},
+                           {date_startYYYYMMDD: "2019-10-03",date_endYYYYMMDD: "2019-10-03",date_start: "03/10/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
                            {date_startYYYYMMDD: "2019-09-18",date_endYYYYMMDD: "2019-09-19",date_start: "18/09/2019",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
-                           {date_startYYYYMMDD: "2019-11-07",date_endYYYYMMDD: "2019-11-07",date_start: "07/11/2019",formationname: "Initiation à la facilitation graphique", path: "initiation-facilitation-graphique"},
+                           {date_startYYYYMMDD: "2019-11-07",date_endYYYYMMDD: "2019-11-07",date_start: "07/11/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
                            {date_startYYYYMMDD: "2019-11-27",date_endYYYYMMDD: "2019-11-29",date_start: "27/11/2019",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
-                           {date_startYYYYMMDD: "2019-12-03",date_endYYYYMMDD: "2019-12-03",date_start: "03/12/2019",formationname: "Initiation à la facilitation graphique", path: "initiation-facilitation-graphique"},
+                           {date_startYYYYMMDD: "2019-12-03",date_endYYYYMMDD: "2019-12-03",date_start: "03/12/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
                            
                          
       
@@ -58,7 +58,7 @@ formation_themes: [
     promotedate_sophia: [
     
                              
-                          {date_startYYYYMMDD: "2019-09-5",date_endYYYYMMDD: "2019-09-05",date_start: "05/09/2019",formationname: "Initiation à la facilitation graphique", path: "initiation-facilitation-graphique"},
+                          {date_startYYYYMMDD: "2019-09-5",date_endYYYYMMDD: "2019-09-05",date_start: "05/09/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
                           {date_startYYYYMMDD: "2019-09-09",date_endYYYYMMDD: "2019-09-10",date_start: "09/09/2019",formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1) ", path: "lean-agile-procurement-1"},
                           {date_startYYYYMMDD: "2019-09-12",date_endYYYYMMDD: "2019-09-13",date_start: "12/09/2019",formationname: "Facilitation grahique avancée", path: "facilitation-graphique-avancee-2jours"},                    
                            {date_startYYYYMMDD: "2019-10-10",date_endYYYYMMDD: "2019-10-11",date_start: "10/10/2019",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
