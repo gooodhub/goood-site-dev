@@ -14,8 +14,7 @@ formation_themes: [
                     {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
                     {formationname: "Graphic Bootcamp 1/2 journée",path: "graphic-bootcamp"},
                     {formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 1",path: "pensee-visuelle-niveau1"},
-                    {formationname: "Facilitation graphique avancée",path: "facilitation-graphique-avancee-2jours"},
-                    {formationname: "Facilitation graphique 3 jours",path: "facilitation-graphique-avancee-3jours"},
+                    {formationname: "Le pouvoir du visuel grâce à la facilitation graphique - niveau 2",path: "facilitation-graphique-avancee-2jours"},
                     {formationname: "Devenir animateur de jeux d'apprentissage",path: "devenir-animateur-jeux-apprentissage"}]
          },
         {name: "Concevoir l'entreprise agile",formationslist: [
