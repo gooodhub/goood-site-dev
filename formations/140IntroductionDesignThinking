@@ -206,8 +206,9 @@ Ce stage s’adresse aux Managers, Consultants, Chefs de projet, formateurs, éq
             <div class="infos">
                 <div class="info">
                  <div class="bloc_icon"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></div>
-                 <div class="bloc_label"><p class=""><b> 
-                   (7 heures)</b> </p></div>
+                 <div class="bloc_label">
+                      <p class=""><b>(7 heures)</p>
+                  </div>
                 </div>
                 <div class="info" pdf>
                  <div class="bloc_icon"><i class="fa fa-users fa-2x" aria-hidden="true"></i></div>
