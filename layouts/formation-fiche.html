@@ -21,7 +21,11 @@
               {{#if heures}}
                 <div class="info">
                  <div class="bloc_icon"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></div>
-                 <div class="bloc_label"><p class=""><b> {{this.heures}} heures</b> </p></div>
+                 <div class="bloc_label"><p class=""><b> 
+                   {{#if nbJours}}
+                      {{this.nbJours}} Jours
+                   {{/if}} 
+                   ({{this.heures}} heures)</b> </p></div>
                 </div>
                {{/if}}  
                 {{#if participants}}
