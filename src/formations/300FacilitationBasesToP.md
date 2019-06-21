@@ -5,6 +5,7 @@
 	headline: "Facilitation de groupe",
 	description: Etre capable de faciliter l'intelligence collective d'un groupe,
 	theme: agile,
+	nbJours: 3,
 	heures: 24,
 	participants: 10,
 	InterExiste: 1,
