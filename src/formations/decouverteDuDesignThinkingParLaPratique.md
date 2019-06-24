@@ -1,6 +1,6 @@
 ---
 {
-	title: "Découverte du design thinking par la pratique",
+	title: "Design thinking par la pratique",
 	slug: decouverte-du-design-thinking-par-la-pratique, 
 	headline: "Découverte du design thinking par la pratique",
 	description: " ",
