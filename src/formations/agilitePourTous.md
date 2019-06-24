@@ -18,8 +18,8 @@
 	dates: [
   Mardi 2 Juillet 2019 à Paris,
   Lundi 29 Juillet 2019 à Paris,
-  Lundi 19 Aout 2019 à Paris,
-  Jeudi 29 Aout 2019 à Paris,
+  Lundi 19 Août 2019 à Paris,
+  Jeudi 29 Août 2019 à Paris,
 	]
 }
 ---
