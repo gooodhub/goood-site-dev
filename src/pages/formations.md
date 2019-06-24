@@ -14,7 +14,7 @@ formation_themes: [
                     {formationname: "Découverte du Design Thinking par la pratique ",path: "decouverte-du-design-thinking-par-la-pratique"},
                     {formationname: "Management visuel",path: "management-visuel"},
                     {formationname: "Perfectionnement Product Owner",path: "perfectionnement-product-owner"},
-                    {formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1)",path: "lean-agile-procurement-1"}]
+                    {formationname: "Perfectionnement Scrum Master",path: "perfectionnement-scrum-master"}]
         },
 
          {name: "Mobiliser l’intelligence collective",formationslist: [
