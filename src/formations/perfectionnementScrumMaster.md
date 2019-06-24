@@ -1,6 +1,6 @@
 ---
 {
-	title: "Perfectionnement Scrum Master",
+	title: "Scrum Master",
 	slug: perfectionnement-scrum-master, 
 	headline: "Perfectionnement Scrum Master",
 	description: " ",
