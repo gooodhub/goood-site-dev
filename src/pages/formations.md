@@ -14,7 +14,8 @@ formation_themes: [
                     {formationname: "Découverte du Design Thinking par la pratique ",path: "decouverte-du-design-thinking-par-la-pratique"},
                     {formationname: "Management visuel",path: "management-visuel"},
                     {formationname: "Perfectionnement Product Owner",path: "perfectionnement-product-owner"},
-                    {formationname: "Perfectionnement Scrum Master",path: "perfectionnement-scrum-master"}]
+                    {formationname: "Perfectionnement Scrum Master",path: "perfectionnement-scrum-master"},
+                    {formationname: "Management Agile, des outils pratiques",path: "management-agile-des-outils-pratiques"}]
         },
 
          {name: "Mobiliser l’intelligence collective",formationslist: [
