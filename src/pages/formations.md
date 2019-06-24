@@ -9,6 +9,14 @@ changefreq: daily,
 priority: 1,
 imagereseauxsociaux: header-events-th2.jpg,
 formation_themes: [
+      {name: "Formation spécial été 2019",formationslist: [
+                    {formationname: "Agilité pour tous !",path: "agilite-pour-tous"},
+                    {formationname: "Découverte du Design Thinking par la pratique ",path: "decouverte-du-design-thinking-par-la-pratique"},
+                    {formationname: "Management visuel",path: "management-visuel"},
+                    {formationname: "Perfectionnement Product Owner",path: "perfectionnement-product-owner"},
+                    {formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1)",path: "lean-agile-procurement-1"}]
+        },
+
          {name: "Mobiliser l’intelligence collective",formationslist: [
                     {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
                     {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
@@ -24,7 +32,7 @@ formation_themes: [
                     {formationname: "Théorie U",path: "theorie-u"},
                     {formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1)",path: "lean-agile-procurement-1"}]
         },
-        {name: "Mettre en œuvre la transformation",formationslist: [
+        {name: "Mettre en œuvre la transformation Agile",formationslist: [
                     {formationname: "Introduction aux méthodes agiles",path: "introduction-methodes-agiles"},
                     {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "scrum-master"},
                     {formationname: "Devenir Product Owner",path: "devenir-product-owner"},
