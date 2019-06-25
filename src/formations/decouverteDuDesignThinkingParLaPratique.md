@@ -8,7 +8,7 @@
 	heures: 7,
 	participants: 16,
 	InterExiste: 1,
-	prixInter: 750,
+	prixInter: 800,
 	prixIntra: ,
 	pourcentagePratique: 90,
 	lesPlus: [2 cas abordés par la pratique, un produit et un concept],
