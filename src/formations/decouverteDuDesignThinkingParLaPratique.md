@@ -2,7 +2,7 @@
 {
 	title: "Design thinking par la pratique",
 	slug: decouverte-du-design-thinking-par-la-pratique, 
-	headline: "Découverte du design thinking par la pratique",
+	headline: "Design thinking",
 	description: " ",
 	theme: agile,
 	heures: 7,
