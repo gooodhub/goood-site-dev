@@ -155,7 +155,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="row">
             <div class="objectif">
             
-            
+              
 # Formation - Scrum pour les Managers #
 
 ## Objectifs de la formation : ##
@@ -201,7 +201,17 @@ Si votre projet se situe hors informatique, vous saurez comment adapter Scrum po
 ## Public concerné ##
 Ce stage s’adresse aux décideurs, managers, directeurs de projet, responsables produit, accompagnateurs du changement, RH et consultants.
 
-             
+
+
+              <h2><i class="fa fa-calendar-o" aria-hidden="true"></i>Les prochaines dates</h2>
+              <div  class="row w95">
+                <ul >
+
+                  <li> 7 et 8 Février 2018 à Paris</span></li>
+                  <li> 22 et 23 Février 2018 à Sophia Antipolis</span></li>
+                  <li> 14 et 15 Mars 2018 à Lyon</span></li>
+                </ul>
+                </div>
            
 
             </div>
@@ -266,17 +276,7 @@ Ce stage s’adresse aux décideurs, managers, directeurs de projet, responsable
             
             </div>
           </div>
-          <div class="row w95">
-            <h2><i class="fa fa-calendar-o" aria-hidden="true"></i>Les prochaines dates</h2>
-            <div  class="row w95">
-              <ul >
 
-                <li> 7 et 8 Février 2018 à Paris</span></li>
-                <li> 22 et 23 Février 2018 à Sophia Antipolis</span></li>
-                <li> 14 et 15 Mars 2018 à Lyon</span></li>
-              </ul>
-              </div>
-          </div>
            <div  class="row incriptionform" id="incriptionform">
                   <p >Si vous êtes intéressé par cette formation, remplissez ce formulaire et nous vous recontactons très vite.
                     Ou si vous préférez contactez directement Célia par téléphone au 06 59 25 24 68. 

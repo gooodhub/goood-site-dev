@@ -155,7 +155,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="row">
             <div class="objectif">
             
-            
+              
 # Formation - Introduction aux méthodes agiles #
 
 ## Objectifs de la formation : ##
@@ -178,7 +178,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 ## Public concerné ##
 Toute personne souhaitant acquérir les fondamentaux de la gestion de projet agile.
 
-             
+
+
+              <h2><i class="fa fa-calendar-o" aria-hidden="true"></i>Les prochaines dates</h2>
+              <div  class="row w95">
+                <ul >
+
+                  <li> 24 Janvier 2018 à Paris</span></li>
+                  <li> 25 Janvier 2018 à Sophia Antipolis</span></li>
+                  <li> 2 Février 2018 à Lyon</span></li>
+                </ul>
+                </div>
            
 
             </div>
@@ -237,17 +247,7 @@ Toute personne souhaitant acquérir les fondamentaux de la gestion de projet agi
             
             </div>
           </div>
-          <div class="row w95">
-            <h2><i class="fa fa-calendar-o" aria-hidden="true"></i>Les prochaines dates</h2>
-            <div  class="row w95">
-              <ul >
 
-                <li> 24 Janvier 2018 à Paris</span></li>
-                <li> 25 Janvier 2018 à Sophia Antipolis</span></li>
-                <li> 2 Février 2018 à Lyon</span></li>
-              </ul>
-              </div>
-          </div>
            <div  class="row incriptionform" id="incriptionform">
                   <p >Si vous êtes intéressé par cette formation, remplissez ce formulaire et nous vous recontactons très vite.
                     Ou si vous préférez contactez directement Célia par téléphone au 06 59 25 24 68. 
