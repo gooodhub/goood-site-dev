@@ -6,12 +6,12 @@
 	description: " ",
 	theme: agile,
 	heures: 7,
-	participants: 10,
+	participants: 16,
 	InterExiste: 1,
 	prixInter: ,
 	prixIntra: ,
-	pourcentagePratique: 80,
-	lesPlus: [],
+	pourcentagePratique: 90,
+	lesPlus: [2 cas abordés par la pratique : un produit et un concept],
 	layout: formation-fiche.html, 
 	programmePdf : .pdf,
 	lienVideo : " ",
@@ -20,3 +20,27 @@
 	]
 }
 ---
+
+## Objectifs de la formation : ##
+En une journée vous allez découvrir les principes du design thinking et expérimenter cette méthode sur deux cas réels.
+A la fin de la journée, pour pourrez animer un atelier quel que soit votre contexte.
+
+## Partie théorique: ##
+
+* Qu’est-ce que le Design Thinking ?
+* Comment ça marche ?
+* Dans quels contextes est-ce utile ?
+
+## Pratique : ##
+
+* Cas n° 1 - design d’un produit - passage par toutes les étapes du processus.
+* Cas n° 2 - design d’un concept - passage par toutes les étapes du processus.
+
+## Public concerné ##
+* Designers
+* Chefs de produit, Product Owners ou Product Managers
+* Marketing
+* Concepteurs
+
+
+
