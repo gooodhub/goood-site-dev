@@ -15,7 +15,7 @@
 	lesPlus: [2 cas abordés par la pratique, un produit et un concept],
 	layout: formation-fiche.html, 
 	programmePdf : ,
-	lienVideo : " ",
+	lienVideo : ,
 	dates: [
   Mardi 9 Juillet 2019 à Paris,
 	]
