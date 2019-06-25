@@ -25,7 +25,7 @@
 En une journée vous allez découvrir les principes du design thinking et expérimenter cette méthode sur deux cas réels.
 A la fin de la journée, pour pourrez animer un atelier quel que soit votre contexte.
 
-## Partie théorique: ##
+## Partie théorique : ##
 
 * Qu’est-ce que le Design Thinking ?
 * Comment ça marche ?
