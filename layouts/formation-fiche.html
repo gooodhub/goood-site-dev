@@ -8,11 +8,21 @@
           <div class="row">
             <div class="objectif">
             
-            {{{ contents }}}
-             
-            {{#if lienVideo}}
-              <iframe width="560" height="315" src="{{this.lienVideo}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            {{/if}}
+              {{{ contents }}}
+
+              {{#if lienVideo}}
+                <iframe width="560" height="315" src="{{this.lienVideo}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              {{/if}}
+
+              <h2><i class="fa fa-calendar-o" aria-hidden="true"></i>Les prochaines dates</h2>
+              <div  class="row w95">
+                <ul >
+
+                  {{#each this.dates}}
+                  <li> {{this}}</span></li>
+                  {{/each}}
+                </ul>
+                </div>
            
 
             </div>
@@ -104,6 +114,7 @@
             
             </div>
           </div>
+        {{!--
           <div class="row w95">
             <h2><i class="fa fa-calendar-o" aria-hidden="true"></i>Les prochaines dates</h2>
             <div  class="row w95">
@@ -115,6 +126,8 @@
               </ul>
               </div>
           </div>
+          --}}
+
            <div  class="row incriptionform" id="incriptionform">
                   <p >Si vous êtes intéressé par cette formation, remplissez ce formulaire et nous vous recontactons très vite.
                     Ou si vous préférez contactez directement Célia par téléphone au 06 59 25 24 68. 
