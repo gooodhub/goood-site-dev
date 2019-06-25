@@ -6,6 +6,7 @@
 	description: " ",
 	theme: agile,
 	heures: 7,
+	nbJours: 1,
 	participants: 10,
 	InterExiste: 1,
 	prixInter: ,
@@ -13,8 +14,8 @@
 	pourcentagePratique: 80,
 	lesPlus: [],
 	layout: formation-fiche.html, 
-	programmePdf : .pdf,
-	lienVideo : " ",
+	programmePdf : ,
+	lienVideo : ,
 	dates: [
   Mardi 16 Juillet 2019 à Paris,
   Jeudi 1er Août 2019 à Paris,
