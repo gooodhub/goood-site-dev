@@ -33,7 +33,7 @@
                  <div class="bloc_icon"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></div>
                  <div class="bloc_label">
                    {{#if nbJours}}
-                   <p class=""><b>{{this.nbJours}} jours</b> <i>({{this.heures}} heures)</i></p>
+                   <p class=""><b>{{this.nbJours}}{{#if this.nbJours > 1}}jour{{else}}s{{/if}}</b> <i>({{this.heures}} heures)</i></p>
                    {{else}}
                       <p class=""><b>{{this.heures}} heures</p>
                    {{/if}} 
