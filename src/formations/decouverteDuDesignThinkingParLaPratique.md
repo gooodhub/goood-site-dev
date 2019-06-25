@@ -11,7 +11,7 @@
 	prixInter: 750,
 	prixIntra: ,
 	pourcentagePratique: 90,
-	lesPlus: [2 cas abordés par la pratique : un produit et un concept],
+	lesPlus: [2 cas abordés par la pratique, un produit et un concept],
 	layout: formation-fiche.html, 
 	programmePdf : .pdf,
 	lienVideo : " ",
