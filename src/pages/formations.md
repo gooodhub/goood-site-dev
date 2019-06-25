@@ -9,7 +9,7 @@ changefreq: daily,
 priority: 1,
 imagereseauxsociaux: header-events-th2.jpg,
 formation_themes: [
-      {name: "Formation spécial été 2019",formationslist: [
+      {name: "Formations GoooD! Summer 2019",formationslist: [
                     {formationname: "Agilité pour tous !",path: "agilite-pour-tous"},
                     {formationname: "Découverte du Design Thinking par la pratique ",path: "decouverte-du-design-thinking-par-la-pratique"},
                     {formationname: "Management visuel",path: "management-visuel"},
