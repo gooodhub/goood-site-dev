@@ -12,7 +12,7 @@
 	prixInter: 700,
 	prixIntra: ,
 	pourcentagePratique: 80,
-	lesPlus: [],
+	lesPlus: [Formation pratique en mode Agile, Incorporation des concepts par le jeu],
 	layout: formation-fiche.html, 
 	programmePdf : ,
 	lienVideo : ,
@@ -51,3 +51,9 @@ Quel est ce rôle et comment l’aborder ? Cette journée vous donnera des premi
 * Questions/ réponses
 * Échanges d’expériences au sein du groupe
 * Par quoi commencer ?
+
+** Public : **
+
+* Managers
+* Toute personne impliquée dans une transformation Agile.
+
