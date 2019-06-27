@@ -7,11 +7,11 @@
 	theme: agile,
 	heures: 7,
 	participants: 10,
-	InterExiste: 1,
-	prixInter: ,
+	InterExiste: "1 jour",
+	prixInter: 700,
 	prixIntra: ,
-	pourcentagePratique: 80,
-	lesPlus: [],
+	pourcentagePratique: 60,
+	lesPlus: [Formation dispensée en mode Agile],
 	layout: formation-fiche.html, 
 	programmePdf : .pdf,
 	lienVideo : " ",
@@ -23,3 +23,33 @@
 	]
 }
 ---
+
+## Objectifs de la formation ##
+
+En une journée vous allez comprendre la différence entre le mode agile et les méthodes traditionnelles et ce que l’agilité peut apporter à une personne, une équipe, une organisation..
+Cette journée vous donnera une profondeur de vue qui vous permettra de choisir en toute conscience comment vous voulez travailler et pourquoi.
+
+## Partie théorique : ##
+
+* Qu’est-ce que l’agilité ?
+* Pourquoi ça marche (ou pourquoi ça ne marche pas) ?
+* Des exemples et des chiffres
+
+
+## Pratique/jeux : ##
+
+* Mise en place d’un cadre Agile pour la journée
+* Expérimentation ludique en temps réel d’un travail en mode Agile
+
+
+## Partage dans le groupe : ##
+
+* Questions / réponses du groupe
+* Echanges d’expériences parmi les participants
+* Par quoi commencer ?
+
+## Public ##
+
+* Tous
+
+
