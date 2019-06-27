@@ -27,8 +27,9 @@ Mercredi 28 Août à Paris,
 ---
 
 ** Objectifs de la formation **
-Les managers ont un rôle très important dans les entreprises agiles. En fait, ils sont indispensable à la réussite de l’agilité.
-Quel est ce rôle et comment l’aborder ? Cette journée vous donnera des premières pistes et quelques outils pratiques immédiatement utilisables.
+
+* Les managers ont un rôle très important dans les entreprises agiles. En fait, ils sont indispensable à la réussite de l’agilité.
+* Quel est ce rôle et comment l’aborder ? Cette journée vous donnera des premières pistes et quelques outils pratiques immédiatement utilisables.
 
 
 ** Partie théorique : **
