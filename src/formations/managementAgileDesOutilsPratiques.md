@@ -26,34 +26,34 @@ Mercredi 28 Août à Paris,
 }
 ---
 
-** Objectifs de la formation **
+## Objectifs de la formation ##
 
 * Les managers ont un rôle très important dans les entreprises agiles. En fait, ils sont indispensable à la réussite de l’agilité.
 * Quel est ce rôle et comment l’aborder ? Cette journée vous donnera des premières pistes et quelques outils pratiques immédiatement utilisables.
 
 
-** Partie théorique : **
+## Partie théorique : ##
 
 * Qu’est-ce qu’un manager Agile ?
 * Les biais cognitifs et les modèles mentaux
 * Comment devenir un manager Agile ?
 * Des notions de constructivisme, systémique, intelligence collective...
 
-** Pratique et jeux : **
+## Pratique et jeux : ##
 
 * Jeu constructivisme
 * Jeu systémique
-¨Plusieurs activités basées sur l’intelligence collective
+* Plusieurs activités basées sur l’intelligence collective
 * Codev
 * Jeux de rôles
 
-** Partage dans le groupe : **
+## Partage dans le groupe : ##
 
 * Questions/ réponses
 * Échanges d’expériences au sein du groupe
 * Par quoi commencer ?
 
-** Public : **
+## Public : ##
 
 * Managers
 * Toute personne impliquée dans une transformation Agile.
