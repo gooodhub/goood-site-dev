@@ -13,8 +13,8 @@
 	pourcentagePratique: 60,
 	lesPlus: [Formation dispensée en mode Agile],
 	layout: formation-fiche.html, 
-	programmePdf : .pdf,
-	lienVideo : " ",
+	programmePdf :,
+	lienVideo :,
 	dates: [
   Mardi 2 Juillet 2019 à Paris,
   Lundi 29 Juillet 2019 à Paris,
