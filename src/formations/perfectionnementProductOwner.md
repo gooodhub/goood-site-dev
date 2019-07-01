@@ -8,8 +8,8 @@
 	heures: 7,
 	nbJours: "1 jour",
 	participants: 10,
-	InterExiste: 1,
-	prixInter: ,
+	InterExiste: ,
+	prixInter: 690,
 	prixIntra: ,
 	pourcentagePratique: 80,
 	lesPlus: [],
@@ -24,4 +24,4 @@ Mardi 27 Août 2019 à Paris,
 ]
 }
 ---
-Programme en cours 
+Programme à venir
