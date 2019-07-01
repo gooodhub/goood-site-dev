@@ -6,6 +6,7 @@
 	description: "Activez la pensée visuelle au service des interactions grâce à la facilitation graphique - niveau 1",
 	theme: agile,
 	heures: 7,
+	nbJour: 1 jours,
 	participants: 10,
 	InterExiste: 1,
 	prixInter: 800,
