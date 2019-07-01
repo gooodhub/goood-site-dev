@@ -9,7 +9,7 @@
 	nbJours: "1 jour",
 	participants: 16,
 	InterExiste: 1,
-	prixInter: 700,
+	prixInter: 7690,
 	prixIntra: ,
 	pourcentagePratique: 90,
 	lesPlus: [2 cas abordés par la pratique, un produit et un concept],
