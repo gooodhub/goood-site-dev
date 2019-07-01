@@ -10,7 +10,7 @@
 	participants: 12,
 	InterExiste: ,
 	prixInter: 700,
-	prixIntra: ,
+	prixIntra: 1,
 	pourcentagePratique: 80,
 	lesPlus: [Formation pratique en mode Agile, Incorporation des concepts par le jeu],
 	layout: formation-fiche.html, 
