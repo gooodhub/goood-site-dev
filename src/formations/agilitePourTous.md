@@ -8,7 +8,7 @@
 	heures: 7,
 	participants: 10,
 	InterExiste: "1 jour",
-	prixInter: 700,
+	prixInter: 690,
 	prixIntra: ,
 	pourcentagePratique: 60,
 	lesPlus: [Formation dispensée en mode Agile],
@@ -51,5 +51,7 @@ Cette journée vous donnera une profondeur de vue qui vous permettra de choisir 
 ## Public ##
 
 * Tous
+
+
 
 
