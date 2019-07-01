@@ -7,7 +7,7 @@
 	theme: agile,
 	heures: 7,
 	nbJours: 1,
-	participants: 10,
+	participants: 12,
 	InterExiste: "1 jour",
 	prixInter: 690,
 	prixIntra: ,
