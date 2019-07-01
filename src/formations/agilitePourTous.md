@@ -6,6 +6,7 @@
 	description: " ",
 	theme: agile,
 	heures: 7,
+	nbJours: 1,
 	participants: 10,
 	InterExiste: "1 jour",
 	prixInter: 690,
