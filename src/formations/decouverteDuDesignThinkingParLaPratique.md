@@ -8,7 +8,7 @@
 	heures: 7,
 	nbJours: "1 jour",
 	participants: 16,
-	InterExiste: ,
+	InterExiste: 1,
 	prixInter: 690,
 	prixIntra: ,
 	pourcentagePratique: 90,
