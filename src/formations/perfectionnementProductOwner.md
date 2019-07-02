@@ -27,7 +27,7 @@ Mardi 27 Août 2019 à Paris,
 }
 ---
 
-## Objectifs de la formation :"
+## Objectifs de la formation : ##
 
 Vous êtes déjà ou vous allez bientôt devenir Product Owner. C'est un métier passionnant et particulièrement exigeant. 
 Pendant cette journée vous élargirez votre compréhension sur la posture du PO. Vous vous exercerez aussi à mener des ateliers classiques comme le story mapping ou l'impact mapping, et vous découvrirez quelques pratiques moins connues et terriblement utiles.
