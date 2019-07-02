@@ -16,7 +16,7 @@
 Formation essentiellement pratique avec beaucoup d’échanges
 ],
 	layout: formation-fiche.html, 
-	programmePdf :perfectionnementProductOwner.pdf,
+	programmePdf : perfectionnementProductOwner.pdf,
 	lienVideo : ,
 	dates: [
 Mercredi 10 Juillet 2019 à Paris,
