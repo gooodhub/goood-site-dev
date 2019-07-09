@@ -17,9 +17,6 @@
 	programmePdf : agilitePourTous.pdf,
 	lienVideo : ,
 	dates: [
-  Mardi 2 Juillet 2019 à Paris (complet),
-  Lundi 29 Juillet 2019 à Paris (complet),
-  Lundi 19 Août 2019 à Paris (complet),
   Jeudi 29 Août 2019 à Paris,
 	]
 }
