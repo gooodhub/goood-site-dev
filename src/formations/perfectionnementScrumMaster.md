@@ -18,8 +18,6 @@
 	lienVideo : ,
 	dates: [
 Mercredi 7 Août 2019 à Paris,
-Mardi 20 Août 2019 à Paris,
-Lundi 26 Août 2019 à Paris,
 ]
 }
 ---
