@@ -46,10 +46,6 @@ formation_themes: [
     ],
     promotedate_paris: [
 
-                          {date_startYYYYMMDD: "2019-06-18",date_endYYYYMMDD: "2019-06-18",date_start: "18/06/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
-                          {date_startYYYYMMDD: "2019-06-25",date_endYYYYMMDD: "2019-06-25",date_start: "25/06/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
-                          {date_startYYYYMMDD: "2019-06-27",date_endYYYYMMDD: "2019-06-28",date_start: "27/06/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2", path: "facilitation-graphique-avancee-2jours"},
-
                         {date_startYYYYMMDD: "2019-07-09",date_endYYYYMMDD: "2019-07-09",date_start: "09/07/2019",formationname: "Découverte du Design Thinking par la pratique", path: "decouverte-du-design-thinking-pour-tous"},
                         {date_startYYYYMMDD: "2019-07-16",date_endYYYYMMDD: "2019-07-16",date_start: "16/07/2019",formationname: "Management visuel ", path: "management-visuel"},
                         {date_startYYYYMMDD: "2019-07-30",date_endYYYYMMDD: "2019-07-30",date_start: "30/07/2019",formationname: "Management Agile, des outils pratiques", path: "management-agile-des-outils-pratiques"},
@@ -87,10 +83,7 @@ formation_themes: [
     
     promotedate_lyon: [
 
-     {date_startYYYYMMDD: "2018-02-02",date_endYYYYMMDD: "2018-02-02",date_start: "02/02/2018",formationname: "introduction aux methodes agiles", path: "introduction-methodes-agiles"},
-     {date_startYYYYMMDD: "2018-02-26",date_endYYYYMMDD: "2018-02-27",date_start: "26/02/2018",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
-     
-     {date_startYYYYMMDD: "2018-04-05",date_endYYYYMMDD: "2018-04-06",date_start: "06/04/2018",formationname: "Devenir animateur de jeux d'apprentissage", path: "devenir-animateur-jeux-apprentissage"}]
+     ]
 
 }
 
