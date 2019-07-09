@@ -18,9 +18,7 @@
 	lienVideo : ,
 	dates: [
   
-Mercredi 31 Juillet 2019 à Paris,
-Vendredi 5 Août 2019 à Paris, 
-Jeudi 22 Août 2019 à Paris,
+Mardi 30 Juillet 2019 à Paris,
 Mercredi 28 Août à Paris,
 	]
 }
