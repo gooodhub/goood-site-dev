@@ -50,15 +50,11 @@ formation_themes: [
                           {date_startYYYYMMDD: "2019-06-25",date_endYYYYMMDD: "2019-06-25",date_start: "25/06/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
                           {date_startYYYYMMDD: "2019-06-27",date_endYYYYMMDD: "2019-06-28",date_start: "27/06/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2", path: "facilitation-graphique-avancee-2jours"},
 
-                          {date_startYYYYMMDD: "2019-07-09",date_endYYYYMMDD: "2019-07-09",date_start: "09/07/2019",formationname: "Découverte du Design Thinking par la pratique", path: "decouverte-du-design-thinking-pour-tous"},
-                        {date_startYYYYMMDD: "2019-07-10",date_endYYYYMMDD: "2019-07-10",date_start: "10/07/2019",formationname: "Perfectionnement Product Owner", path: "perfectionnement-product-owner"},
+                        {date_startYYYYMMDD: "2019-07-09",date_endYYYYMMDD: "2019-07-09",date_start: "09/07/2019",formationname: "Découverte du Design Thinking par la pratique", path: "decouverte-du-design-thinking-pour-tous"},
                         {date_startYYYYMMDD: "2019-07-16",date_endYYYYMMDD: "2019-07-16",date_start: "16/07/2019",formationname: "Management visuel ", path: "management-visuel"},
- 
-                        {date_startYYYYMMDD: "2019-07-30",date_endYYYYMMDD: "2019-07-30",date_start: "30/07/2019",formationname: "Perfectionnement Product Owner", path: "perfectionnement-product-owner"},
                         {date_startYYYYMMDD: "2019-07-30",date_endYYYYMMDD: "2019-07-30",date_start: "30/07/2019",formationname: "Management Agile, des outils pratiques", path: "management-agile-des-outils-pratiques"},
                         {date_startYYYYMMDD: "2019-08-01",date_endYYYYMMDD: "2019-08-01",date_start: "01/08/2019",formationname: "Management visuel ", path: "management-visuel"},
                         {date_startYYYYMMDD: "2019-08-07",date_endYYYYMMDD: "2019-08-07",date_start: "07/08/2019",formationname: "Perfectionnement Scrum Master", path: "perfectionnement-scrum-master"},
-                        {date_startYYYYMMDD: "2019-08-08",date_endYYYYMMDD: "2019-08-08",date_start: "08/08/2019",formationname: "Perfectionnement Product Owner", path: "perfectionnement-product-owner"},
                         {date_startYYYYMMDD: "2019-08-27",date_endYYYYMMDD: "2019-08-27",date_start: "27/08/2019",formationname: "Perfectionnement Product Owner", path: "perfectionnement-product-owner"},
                         {date_startYYYYMMDD: "2019-08-28",date_endYYYYMMDD: "2019-08-28",date_start: "28/08/2019",formationname: "Management Agile, des outils pratiques", path: "management-agile-des-outils-pratiques"},
                         {date_startYYYYMMDD: "2019-08-29",date_endYYYYMMDD: "2019-08-29",date_start: "29/08/2019",formationname: "Agilité pour tous", path: "agilite-pour-tous"},
