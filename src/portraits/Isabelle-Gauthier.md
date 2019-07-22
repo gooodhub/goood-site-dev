@@ -3,7 +3,7 @@ name: Isabelle Gauthier
 bulle1: “Rien ne se perd,
 bulle2: rien ne se crée,
 bulle3: tout se transforme.” (Lavoisier)
-image: /images/portraits/isabelle.jpg
+image: /images/portraits/isabelleG.jpg
 hashtag: '#DRIVEYOUREVOLUTION' 
 job: Design de services & Management participatif
 facebook: 
