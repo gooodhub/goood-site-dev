@@ -8,7 +8,7 @@
 	heures: 14,
 	participants: supérieur à 15,
 	InterExiste: 1,
-	prixInter: 1300,
+	prixInter: 1400,
 	prixIntra: nous consulter,
 	pourcentagePratique: 50,
 	lesPlus: ["Le coût de la formation inclut les petits déjeuners, déjeuners et le passage de l’examen de certification."],
