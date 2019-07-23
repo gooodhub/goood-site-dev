@@ -21,6 +21,7 @@
   Mercredi 24 - Jeudi 25 et Vendredi 26 Juillet 2019 à Sophia Antipolis,
   Mardi 27 - Mercredi 28 et Jeudi 29 Aout 2019 à sophia Antipolis,
   Mercredi 18 - Jeudi 19 et Vendredi 20 Septembre 2019 à Paris,
+  Mardi 23 - Mercredi 24 et Jeudi 25 Octobre 2019 à Paris,
 	]
 }
 ---
