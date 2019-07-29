@@ -46,8 +46,6 @@ formation_themes: [
     ],
     promotedate_paris: [
 
-                        {date_startYYYYMMDD: "2019-07-09",date_endYYYYMMDD: "2019-07-09",date_start: "09/07/2019",formationname: "Découverte du Design Thinking par la pratique", path: "decouverte-du-design-thinking-pour-tous"},
-                        {date_startYYYYMMDD: "2019-07-16",date_endYYYYMMDD: "2019-07-16",date_start: "16/07/2019",formationname: "Management visuel ", path: "management-visuel"},
                         {date_startYYYYMMDD: "2019-07-30",date_endYYYYMMDD: "2019-07-30",date_start: "30/07/2019",formationname: "Management Agile, des outils pratiques", path: "management-agile-des-outils-pratiques"},
                         {date_startYYYYMMDD: "2019-08-01",date_endYYYYMMDD: "2019-08-01",date_start: "01/08/2019",formationname: "Management visuel ", path: "management-visuel"},
                         {date_startYYYYMMDD: "2019-08-07",date_endYYYYMMDD: "2019-08-07",date_start: "07/08/2019",formationname: "Perfectionnement Scrum Master", path: "perfectionnement-scrum-master"},
@@ -71,9 +69,9 @@ formation_themes: [
     promotedate_sophia: [
     
                              
-                          {date_startYYYYMMDD: "2019-09-5",date_endYYYYMMDD: "2019-09-05",date_start: "05/09/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
+                          {date_startYYYYMMDD: "2019-09-13",date_endYYYYMMDD: "2019-09-13",date_start: "13/09/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
                           {date_startYYYYMMDD: "2019-09-09",date_endYYYYMMDD: "2019-09-10",date_start: "09/09/2019",formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1) ", path: "lean-agile-procurement-1"},
-                          {date_startYYYYMMDD: "2019-09-12",date_endYYYYMMDD: "2019-09-13",date_start: "12/09/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2", path: "facilitation-graphique-avancee-2jours"},                    
+                          {date_startYYYYMMDD: "2019-12-02",date_endYYYYMMDD: "2019-12-2",date_start: "2/12/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2", path: "facilitation-graphique-avancee-2jours"},                    
                            {date_startYYYYMMDD: "2019-10-10",date_endYYYYMMDD: "2019-10-11",date_start: "10/10/2019",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
                           {date_startYYYYMMDD: "2019-10-20",date_endYYYYMMDD: "2019-10-21",date_start: "20/10/2019",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "scrum-master"},
                           {date_startYYYYMMDD: "2019-10-16",date_endYYYYMMDD: "2019-10-18",date_start: "16/10/2019",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
