@@ -15,10 +15,7 @@
 	layout: formation-fiche.html, 
 	dates: [
 	
-  Jeudi 25 Avril et Vendredi 26 Avril à Paris,
-  Jeudi 20 et Vendredi 21 Juin à Sophia Antipolis,
-  Jeudi 27 et Vendredi 28 Juin à Paris,
-  Jeudi 12 et Vendredi 13 Septembre à Sophia Antipolis,
+ Lundi 2 et Mardi 3 Décembre à Sophia Antipolis,
 	]
 }
 ---
