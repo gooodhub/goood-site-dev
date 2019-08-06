@@ -11,8 +11,6 @@ imagereseauxsociaux: header-events-th2.jpg,
 formation_themes: [
       {name: "Formations GoooD! Summer 2019",formationslist: [
                     {formationname: "Agilité pour tous !",path: "agilite-pour-tous"},
-                    {formationname: "Découverte du Design Thinking par la pratique ",path: "decouverte-du-design-thinking-par-la-pratique"},
-                    {formationname: "Management visuel",path: "management-visuel"},
                     {formationname: "Perfectionnement Product Owner",path: "perfectionnement-product-owner"},
                     {formationname: "Perfectionnement Scrum Master",path: "perfectionnement-scrum-master"},
                     {formationname: "Management Agile, des outils pratiques",path: "management-agile-des-outils-pratiques"}]
