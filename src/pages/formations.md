@@ -46,9 +46,7 @@ formation_themes: [
     ],
     promotedate_paris: [
 
-                        {date_startYYYYMMDD: "2019-07-30",date_endYYYYMMDD: "2019-07-30",date_start: "30/07/2019",formationname: "Management Agile, des outils pratiques", path: "management-agile-des-outils-pratiques"},
-                        {date_startYYYYMMDD: "2019-08-01",date_endYYYYMMDD: "2019-08-01",date_start: "01/08/2019",formationname: "Management visuel ", path: "management-visuel"},
-                        {date_startYYYYMMDD: "2019-08-07",date_endYYYYMMDD: "2019-08-07",date_start: "07/08/2019",formationname: "Perfectionnement Scrum Master", path: "perfectionnement-scrum-master"},
+                        
                         {date_startYYYYMMDD: "2019-08-27",date_endYYYYMMDD: "2019-08-27",date_start: "27/08/2019",formationname: "Perfectionnement Product Owner", path: "perfectionnement-product-owner"},
                         {date_startYYYYMMDD: "2019-08-28",date_endYYYYMMDD: "2019-08-28",date_start: "28/08/2019",formationname: "Management Agile, des outils pratiques", path: "management-agile-des-outils-pratiques"},
                         {date_startYYYYMMDD: "2019-08-29",date_endYYYYMMDD: "2019-08-29",date_start: "29/08/2019",formationname: "Agilité pour tous", path: "agilite-pour-tous"},
