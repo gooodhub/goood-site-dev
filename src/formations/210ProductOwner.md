@@ -15,7 +15,7 @@
 	layout: formation-fiche.html, 
 	dates: [Jeudi 12 et Vendredi 13 Septembre 2019 à Paris,
 	Jeudi 18 et Vendredi 19 Septembre 2019 à Paris,
-	eudi 10 et Vendredi 11 Octobre 2019 à Sophia Antipolis,
+	eudi 10 et Vendredi 11 Octobre 2019 à Sophia Antipolis (complet),
 	Jeudi 28 et Vendredi 29 Novembre 2019 à Sophia Antipolis]
 }
 ---
