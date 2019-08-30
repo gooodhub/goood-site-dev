@@ -6,32 +6,34 @@
 	description: "A l’issue de cette formation certifiante, les participants comprendront l’approche Lean Agile Procurement et ses domaines d’application",
 	theme: agile,
 	heures: 14,
-	participants: 15,
-	InterExiste: 1,
-	prixInter: 2000,
-	prixIntra: ,
+	participants: 12,
+	InterExiste: 0,
+	prixInter: ,
+	prixIntra: 18000,
 	pourcentagePratique: 70,
-	lesPlus: [En venant avec votre cas concret, vous partirez de la formation avec des éléments actionnables pour lancer votre premier pilote.],
+	lesPlus: [En venant avec votre cas concret vous partirez de la formation avec des éléments actionnables pour lancer votre premier pilote.],
 	layout: formation-fiche.html, 
 	programmePdf : formationLAP1.pdf,
 	lienVideo : "https://www.youtube.com/embed/rbzmh53ocQk",
-	dates: [ Lundi 9 et Mardi 10 Septembre 2019 à Sophia Antipolis,
-		]
+	dates: [Nous consulter]
 }
 ---
 
+# Innovez dans vos appels d’offres, formez-vous au Lean Agile Procurement #
+Le Lean Agile Procurement (LAP) est une démarche innovante et purement Agile qui permet de trouver rapidement les meilleurs partenaires pour vous aider à remporter vos défis stratégiques.
+
 ## Objectifs de la formation : ##
-A l’issue de cette formation certifiante, les participants comprendront l’approche Lean Agile Procurement et ses domaines d’application.
+A l’issue de cette formation certifiante, les participants seront en mesure de : 
+* comprendre l’approche LAP  et ses domaines d’application
+* vendre la démarche au sein de leur organisation
+* organiser et de mettre en oeuvre une démarche LAP sur un projet pilote avec l’aide d’un consultant LAP2
 
-# Formation certifiante Lean Agile Procurement 1 #
-Avec l’aide d’un facilitateur Lean Agile Procurement 2, ils pourront mettre le Lean Agile Procurement en oeuvre,  dans leur contexte, sur un projet pilote. 
-Cette formation vous permettra d’obtenir la certification Lean Agile Procurement 1.
-
+Cette formation vous permettra d’obtenir la certification LAP1 de la LAP Alliance.
 
 ## Public concerné ##
 Ce stage s’adresse aux : 
-* Acheteurs, 
+* Acheteurs 
 * Directeurs opérationnels
 * Commerciaux
-* Chef de projet
-* Chef de programme
+* Chefs de projet
+* Chefs de programme
