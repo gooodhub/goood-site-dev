@@ -9,7 +9,7 @@
 	participants: 12,
 	InterExiste: 1,
 	prixInter: 1 800,
-	prixIntra: 8 000,
+	prixIntra: 10 000,
 	pourcentagePratique: 60,
 	lesPlus: [Un programme de mise en pratique sur six semaines entre pairs, Une formation certifiante],
 	layout: formation-fiche.html, 
