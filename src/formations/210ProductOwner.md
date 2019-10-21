@@ -9,13 +9,11 @@
 	participants: 8,
 	InterExiste: 1,
 	prixInter: 1 100,
-	prixIntra: 3 000,
+	prixIntra: ,
 	pourcentagePratique: 50,
 	lesPlus: [De manière concrète comment mettre la gestion de la valeur au coeur de l'action, Les outils qui ne se trouvent pas dans Scrum],
 	layout: formation-fiche.html, 
-	dates: [Jeudi 12 et Vendredi 13 Septembre 2019 à Paris,
-	Jeudi 18 et Vendredi 19 Septembre 2019 à Paris,
-	eudi 10 et Vendredi 11 Octobre 2019 à Sophia Antipolis (complet),
+	dates: [Jeudi 10 et Vendredi 11 Octobre 2019 à Sophia Antipolis (complet),
 	Jeudi 28 et Vendredi 29 Novembre 2019 à Sophia Antipolis]
 }
 ---
