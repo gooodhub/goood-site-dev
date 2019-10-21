@@ -6,7 +6,7 @@
 	description: "Activez la pensée visuelle au service des interactions grâce à la facilitation graphique - niveau 1",
 	theme: agile,
 	heures: 7,
-	nbJours: 1 jour,
+	nbJours: 1,
 	participants: 10,
 	InterExiste: 1,
 	prixInter: 800,
@@ -17,7 +17,6 @@
 	programmePdf : initiationPenseeVisuelleNiveau1.pdf,
 	lienVideo : "https://www.youtube.com/embed/B-FXqJe8BjQ",
 	dates: [
-	Jeudi 13 Septembre à Sophia Antipolis,
 	Jeudi 3 Octobre à Paris,
 	Lundi 14 Octobre à Sophia Antipolis,
 	Mardi 5 Novembre à Sophia Antipolis,
