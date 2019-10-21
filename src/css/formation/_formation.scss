@@ -57,6 +57,7 @@
     {
         width: 100%;
         text-align: center;
+        padding:0rem;
         p {
             color:$primaryColor;
             text-align: center;    
@@ -64,6 +65,8 @@
             flex: 1;
             flex-direction: row;
             display: inline-block;
+            padding:0rem;
+            margin-top: 0px;
         }
         .btn{
             display: inline-block;
