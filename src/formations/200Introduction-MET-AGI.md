@@ -5,86 +5,41 @@
 	headline: "Méthodes agiles",
 	description: "Appréhender les principales méthodes agiles", 
 	theme: agile,
-	heures: 21,
+	heures: 3,5,
 	participants: 10,
 	InterExiste: 1,
-	prixInter: 1 850,
-	prixIntra: 6 000,
-	pourcentagePratique: 50,
-	lesPlus: [],
+	prixInter: 300,
+	prixIntra: ,
+	pourcentagePratique: 75,
+	lesPlus: [Mise en application directe de la formation grâce aux pratiques agiles de base qui sont présentées.],
 	layout: formation-fiche.html, 
 	dates: [
-	6 - 7 et 8 Novembre 2017 à Paris,
-	6 - 7 et 8 Novembre 2017 à Sophia Antipolis,
-	6 - 7 et 8 Novembre 2017 à Lyon,
+		Contactez-nous !
 	]
 }
 ---
 
-# Formation - Introduction aux méthodes agiles: Comprendre la démarche #
+# Introduction aux méthodes agiles: Comprendre la démarche #
 
 ## Objectifs de la formation : ##
 
-* Appréhender les principales méthodes Agile (Scrum, Extreme Programming, Kanban, Lean)
-* Développer une sensibilisation aux défis d'une transformation Agile.
+* Comprendre les différences entre les méthodes agiles et les méthodes traditionnelles
+* Comprendre les limites des méthodes de gestion de projets en cycle en V
+* Comprendre le fonctionnement des méthodes agiles
+* Appréhender les bases et 3 méthodes : Lean, XP, Scrum
 
 # Programme #
 
 ## Jour 1 ##
 
-### Les Principales Méthodes agiles ###
-* Les raisons et origines de l'agilité : valeurs et principes
-* Atelier pratique
+* Pourquoi les méthodes classiques ne fonctionnent pas ?
+* Un peu d’histoire
+* La combinaison gagnante : Lean, Scrum et XP
+* Principes fondamentaux
+* Contraintes et bénéfices
+* Lean, Scrum et XP par la pratique
 
-### Scrum ###
-* Aperçu de Scrum
-* Les acteurs de Scrum
-* Développement itératif
-* Boîtes des temps, Timebox
-* Communication, interaction
-* Notion de "fini"
-* Visualisation et "radiateurs" d'information
-* Les cérémonies
-* Les Plannings et Backolog grooming
-* Les burndown / up charts
-* Les standups
-* Les revues
-* Les rétrospectives
-* Atelier pratique
-
-## Jour 2 ##
-
-### Scrum (suite) ###
-* Pratiques d'expression du besoin
-* Délivrer de la valeur
-* Les User Stories, Backlog
-* Personas
-* Atelier pratique
-
-### Pratiques d’ingénierie logicielle ### 
-* Extreme Programming
-* Les pratiques d'ingénieries
-* Dette technique
-* Feedback, partage du code
-* Tests automatisés, refactoring
-
-## Jour 3 ##
-
-### Kanban ###
-
-* Mise en oeuvre de Kanban
-* Visualiser le flux
-* Gérer le flux
-* Limiter le travail
-* Classes de service
-* Atelier pratique
-
-### Management Visuel ### 
-* Visualiser
-* Modéliser
-* Décider
-* Atelier pratique
 
 ## Public concerné ##
-Ce stage s’adresse aux architectes, chefs de projets, directeurs de projets, développeurs, décideurs, responsables qualité, commerciaux...
+Toute personne souhaitant acquérir les fondamentaux de la gestion de projet agile
 
