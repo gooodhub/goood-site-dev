@@ -2,19 +2,19 @@
 {
 	title: "Réussir et s'affirmer dans son rôle de Scrum Master", 
 	slug: "scrum-master", 
-	headline: "Formation Scrum Master",
+	headline: "Rôle de Scrum Master",
 	description: "Des techniques d’animation pour être capable de conduire en autonomie les rituels Scrum afin d’en tirer des bénéfices concrets. ", 
 	theme: agile,
+	nbJours: 2,
 	heures: 14,
 	participants: 10,
 	InterExiste: 1,
 	prixInter: 1 300,
-	prixIntra: 3 000,
+	prixIntra: ,
 	pourcentagePratique: 50,
 	lesPlus: [Des techniques de facilitation afin de dénouer les problématiques humaines et améliorer la collaboration, Des techniques de recherche de problèmes et de conduite de plan d'actions afin d'entrer dans une démarche d'amélioration continue, Renforcer vos connaissances sur le processus Scrum],
 	layout: formation-fiche.html, 
-	dates: [Jeudi 19 et Vendredi 20 Septembre 2019 à Sophia Antipolis,
-	Jeudi 21 et vendredi 22 Novembre 2019 à Sophia Antipolis]
+	dates: [	Jeudi 21 et vendredi 22 Novembre 2019 à Sophia Antipolis]
 }
 ---
 # Réussir et s'affirmer dans son rôle de Scrum Master
