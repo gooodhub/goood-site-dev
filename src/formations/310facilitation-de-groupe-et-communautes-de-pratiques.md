@@ -6,10 +6,10 @@
 	description: "Adopter la posture du facilitateur, designer et faciliter un atelier, créer et animer des communautés de pratiques, expérimenter le codéveloppement professionnel de groupe",
 	theme: agile,
 	heures: 21,
-	participants: 10,
+	participants: 12,
 	InterExiste: 1,
 	prixInter: 1 800,
-	prixIntra: 8 000,
+	prixIntra: ,
 	pourcentagePratique: 70,
 	programmePDF: formationCOP.pdf,
 	lesPlus: [De la pratique et un peu de théorie sur 2 jours et beaucoup de retour d’expérience des formateurs,
@@ -61,12 +61,9 @@ Au travers des ateliers et des debriefs, vous allez explorer et adopter la postu
 
 ## Public concerné ##
 * Facilitateur en herbe
-* Manager
-* Chef de projet
-* Consultant
-* Coach
+* Facilitateur Expert
+* Managers
 * Formateur
-* Chef d'équipe
 * Toute personne intéressée par la facilitation de groupe
 
 
