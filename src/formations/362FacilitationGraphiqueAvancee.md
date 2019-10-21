@@ -2,14 +2,15 @@
 {
 	title: "Facilitation graphiques 2 jours",
 	slug: facilitation-graphique-avancee-2jours, 
-	headline: "Facilitation graphique",
+	headline: "Pensée visuelle niveau 2",
 	description: "Apprehender le monde complexe grace au visuel",
 	theme: agile,
+	nbJours: 2,
 	heures: 14,
 	participants: 10,
 	InterExiste: 1,
 	prixInter: 1500,
-	prixIntra: 6800,
+	prixIntra: ,
 	pourcentagePratique: 80,
 	lesPlus: [Un carnet de note, un starter kit de facilitation graphique de la marque neuland, prise en charge du repas],
 	layout: formation-fiche.html, 
@@ -21,11 +22,11 @@
 ---
 
 ## Objectifs de la formation : ##
-* les bases du vocabulaire, de la grammaire visuelle, de la gestion de l’espace
+* Revoir les bases du vocabulaire, de la grammaire visuelle, de la gestion de l’espace
 * Découvrir les différentes postures du facilitateur graphique
 * Faciliter des ateliers de travail avec des outils d’animation visuels
 
-## pré requis : avoir suivi la formation d'initation à la facilitation graphique ##
+## pré requis : avoir suivi la formation d'[initation à la facilitation graphique niveau 1](/formations/pensee-visuelle-niveau1)##
 
 # Programme #
 
