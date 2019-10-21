@@ -9,29 +9,34 @@ changefreq: daily,
 priority: 1,
 imagereseauxsociaux: header-events-th2.jpg,
 formation_themes: [
-         {name: "Mobiliser l’intelligence collective",formationslist: [
-                    {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
-                    {formationname: "Facilitation de groupe et communautés de pratiques",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
-                    {formationname: "Graphic Bootcamp 1/2 journée",path: "graphic-bootcamp"},
-                    {formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 1",path: "pensee-visuelle-niveau1"},
-                    {formationname: "Activez la pensée pouvoir du visuel grâce à la facilitation graphique - niveau 2",path: "facilitation-graphique-avancee-2jours"},
-                    {formationname: "Devenir animateur de jeux d'apprentissage",path: "devenir-animateur-jeux-apprentissage"}]
-         },
-        {name: "Concevoir l'entreprise agile",formationslist: [
-                    {formationname: "Manager Agile",path: "manager-agile"},
-                    {formationname: "Leading SAFe 4.6",path: "leading-safe-4-6"},
-                    {formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1)",path: "lean-agile-procurement-1"}]
-        },
-        {name: "Mettre en œuvre la transformation Agile",formationslist: [
-                    {formationname: "Introduction aux méthodes agiles",path: "introduction-methodes-agiles"},
-                    {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "scrum-master"},
-                    {formationname: "Devenir Product Owner",path: "devenir-product-owner"}]
-         },          
-       
-        {name: "Passer de la formation à l’apprentissage",formationslist: [
-                    {formationname: "Manager as a Service",path: "manager-as-a-service"}]
-		}
-    ],
+  {name: "Management",formationslist: [
+    {formationname: "Manager des équipes Scrum (nous consulter)",path: ""},
+    {formationname: "Le rôle et métier de manager (nous consulter)",path: ""},
+    {formationname: "Manager inspiré Leader inspirant (nous consulter)",path: ""},
+    {formationname: "Manager acteur de la transformation  (nous consulter)",path: ""},
+    {formationname: "Prise de décisions (nous consulter)",path: ""},
+    {formationname: "Leading SAFe 4.6",path: "leading-safe-4-6"}
+  ]},
+  {name: "Agilité dans les DSI",formationslist: [
+    {formationname: "Sensibilisation à l'agilité (nous consulter)",path: ""},
+    {formationname: "Introduction aux méthodes agiles",path: "introduction-methodes-agiles"},
+    {formationname: "Développer l'agilité des équipes (nous consulter)",path: ""},
+    {formationname: "Rafraîchissez votre Scrum (nous consulter)",path: ""},
+    {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "scrum-master"},
+    {formationname: "Perfectionnement Scrum Master (nous contacter)",path: ""},
+    {formationname: "Devenir Product Owner",path: "devenir-product-owner"},
+    {formationname: "Perfectionnement Product Owner (nous contacter)",path: ""}
+  ]},
+  {name: "Facilitation & intelligence collective",formationslist: [
+      {formationname: "De la culture projet à la culture produit (nous contacter)",path: ""},
+      {formationname: "Innover grâce au Design Thinking (nous contacter)",path: ""},
+      {formationname: "Facilitation de groupe et communautés de pratiques (COP)",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
+      {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
+      {formationname: "Doper vos performances grâce à l'amélioration continue (nous contacter)",path: ""},
+      {formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 1",path: "pensee-visuelle-niveau1"},
+      {formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2",path: "facilitation-graphique-avancee-2jours"},
+      {formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1)",path: "lean-agile-procurement-1"}
+  ]}    ],
     promotedate_paris: [
                         {date_startYYYYMMDD: "2019-08-27",date_endYYYYMMDD: "2019-08-27",date_start: "27/08/2019",formationname: "Perfectionnement Product Owner", path: "perfectionnement-product-owner"},
                         {date_startYYYYMMDD: "2019-08-28",date_endYYYYMMDD: "2019-08-28",date_start: "28/08/2019",formationname: "Management Agile, des outils pratiques", path: "management-agile-des-outils-pratiques"},

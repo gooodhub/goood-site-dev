@@ -50,7 +50,7 @@
       </header>
         <div class="formation__content">
             <div>
-                <p>Et si vous souhaitez obtenir davantage d'informations<br>
+                <p>Et si vous souhaitez obtenir davantage d'informations ou un besoin de formation personnalisée<br>
                 <b>contactez Celia via: <a href="mailto:formation@goood.com">formation@goood.com</a></b></p>
             </div>
             <div >
@@ -72,11 +72,15 @@
                     <div class="detail">
                     <ul>
                         {{#each this.formationslist}}
-                            
-                            <li><a href="{{path}}" >{{formationname}} <!--{{svg "./fleche-orange.svg"}} -->
+                                                    
+                            <li>
+                                    {{#if path}}  <a href="{{path}}" >{{/if}}
+                                        {{formationname}} <!--{{svg "./fleche-orange.svg"}} -->    
                                 <i class="fa fa-arrow-right" aria-hidden="true" style="margin-left: 20px;"></i>
-                                </a> </li>
-                            
+                                {{#if path}}</a>{{/if}}
+                             </li>
+                        
+                                           
                     {{/each}}
                     </ul>
                     </div>
