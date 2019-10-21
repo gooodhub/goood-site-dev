@@ -6,13 +6,18 @@
 	description: Etre capable de faciliter l'intelligence collective d'un groupe,
 	theme: agile,
 	nbJours: 3,
-	heures: 24,
+	heures: 21,
 	participants: 10,
 	InterExiste: 1,
 	prixInter: 2100,
 	prixIntra: ,
-	pourcentagePratique: 60,
-	lesPlus: [De la pratique sur 3 jours],
+	pourcentagePratique: 75,
+	lesPlus: [De la pratique sur 3 jours, Explorer la facilitation et la posture
+de facilitateur, Expérimenter des méthodes participatives
+pour travailler avec des groupes, Approfondir des techniques de facilitation, 
+Découvrir et pratiquer la méthode de
+Conversation Structurée, le Consensus
+Workshop et le Plan d’action],
 	layout: formation-fiche.html, 
 	dates: [Mercredi 23 et Jeudi 24 et Vendredi 25 Octobre 2019 à Sophia Antipolis,
 	Mercredi 27 et Jeudi 28 et Vendredi 29 Novembre 2019 à Paris,
@@ -23,24 +28,31 @@
 
 La participation devient la manière dominante de prendre des décisions dans les organisations, les communautés. Les personnes s'attendent à être invités à participer. Pour cela, les organisations de toutes sortes répondent avec des changements structurels qui placent la responsabilité dans les mains des équipes de première ligne. Pourtant, un sondage mené auprès des cadres supérieurs a révélé que 80% de toutes les réunions auxquelles ils assistaient étaient «sans valeur». Le coût d'un tel gaspillage de temps, d'argent et d'énergie est énorme.
 	
-La formation Techniques et méthodes de facilitation de groupe, présente les méthodes et techniques de participation (ToP : Technology of Participation) de The Institut of Cultural Affairs (www.ica-international.org) qui proposent des clés pour créer une dynamique collective. 
+La formation Techniques et méthodes de facilitation de groupe, présente les méthodes et techniques de participation (ToP : Technology of Participation) de The Institut of Cultural Affairs [www.ica-international.org](http://www.ica-international.org) qui proposent des clés pour créer une dynamique collective. 
 
 
 ## Rythme : 3 jours ##
 
 ## Objectifs de la formation : ##
-* Intégrer les fondamentaux de la posture de facilitateur
-* Acquérir les moyens théoriques et pratiques pour faciliter la collaboration
-* Expérimenter et ressentir une dynamique collaborative
+* Vous êtes manager ou chef de projet et vous souhaitez renforcer la collaboration dans
+  vos équipes, augmenter l’implication de vos collaborateurs.
+* Vous êtes consultant ou coach et vous souhaitez augmenter la participation, exploiter les
+  expériences et les potentiels de tous les acteurs dans votre intervention.
+* Vous êtes formateur et vous aimeriez enrichir votre palette de techniques pour améliorer la
+dynamique du groupe. Au travers des ateliers et des discussions, vous
+allez explorer la posture de facilitateur, échanger
+vos expériences et expérimenter les techniques
+et méthodes pour travailler avec les groupes.
 * Découvrir et pratiquer la conversation structurée, le consensus workshop et le plan d’action 
 
 # Programme #
 
 ## JOUR 1 ##
-### LES ENJEUX DE LA FACILITATION ###
-* Les différents styles de leadership
-* Les fondements de la facilitation
-* Les malentendus sur la facilitation
+### La Facilitation et la méthode de Conversation Structurée  ###
+* Pourquoi la facilitation ?
+* Le rôle de facilitateur
+* La méthode de Conversation Structurée
+* La mise en pratique par les participants
 
 ### LE RÔLE DU FACILITATEUR ###
 * Définition de la facilitation de groupe
@@ -57,14 +69,9 @@ La formation Techniques et méthodes de facilitation de groupe, présente les m�
 ## JOUR 2 ##
 ### LA PRATIQUE CONTINUE DE CONVERSATION STRUCTURÉE ###
 * Théorie de la méthode et ses variations
-* Choix d’un sujet par les participants
-* Un des participants guide une conversation
-* Retour sur l’animation
-* ATELIER : “DÉMONSTRATION DE LA MÉTHODE CONSENSUS WORKSHOP”
+
+### ATELIER : “DÉMONSTRATION DE LA MÉTHODE CONSENSUS WORKSHOP” ###
 * Utiliser les étapes d’un consensus workshop pour faire un atelier autour d’un sujet choisi en amont
-* Travail en sous-groupes pour déterminer chaque étape
-* Retour sur les étapes de la méthode
-* Questions/réponses
 
 ### ATELIER DE MISE EN PRATIQUE ###
 * Les participants choisissent un sujet commun
@@ -102,11 +109,11 @@ La formation Techniques et méthodes de facilitation de groupe, présente les m�
 
 ## Public concerné ##
 Ce stage s’adresse aux : 
-* Facilitateur
-* Manager
-* Chef de projet
-* Consultant
-* Coach
-* Formateur
-* Chef d'équipe
+* Facilitateurs
+* Managers
+* Chefs de projet
+* Consultants
+* Coachs
+* Formateurs
+* Chefs d'équipe
 * Toute personne intéressée par la facilitation de groupe
