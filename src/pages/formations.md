@@ -25,11 +25,12 @@ formation_themes: [
         {name: "Mettre en œuvre la transformation Agile",formationslist: [
                     {formationname: "Introduction aux méthodes agiles",path: "introduction-methodes-agiles"},
                     {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "scrum-master"},
-                    {formationname: "Devenir Product Owner",path: "devenir-product-owner"},
+                    {formationname: "Devenir Product Owner",path: "devenir-product-owner"}]
          },          
        
         {name: "Passer de la formation à l’apprentissage",formationslist: [
-                    {formationname: "Manager as a Service",path: "manager-as-a-service"}]}
+                    {formationname: "Manager as a Service",path: "manager-as-a-service"}]
+		}
     ],
     promotedate_paris: [
                         {date_startYYYYMMDD: "2019-08-27",date_endYYYYMMDD: "2019-08-27",date_start: "27/08/2019",formationname: "Perfectionnement Product Owner", path: "perfectionnement-product-owner"},
