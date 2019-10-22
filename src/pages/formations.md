@@ -11,9 +11,9 @@ imagereseauxsociaux: header-events-th2.jpg,
 formation_themes: [
   {name: "Management",formationslist: [
     {formationname: "Manager des équipes Scrum (nous consulter)",path: ""},
-    {formationname: "Le rôle et métier de manager (nous consulter)",path: ""},
-    {formationname: "Manager inspiré Leader inspirant (nous consulter)",path: ""},
-    {formationname: "Manager acteur de la transformation  (nous consulter)",path: ""},
+    {formationname: "Le rôle et métier de manager",path: "role-metier-manager"},
+    {formationname: "Manager inspiré Leader inspirant",path: "manager-inspire-leader-inspirant"},
+    {formationname: "Manager acteur de la transformation",path: "manager-acteur-de-la-transformation"},
     {formationname: "Prise de décisions (nous consulter)",path: ""},
     {formationname: "Leading SAFe 4.6",path: "leading-safe-4-6"}
   ]},
@@ -53,8 +53,8 @@ formation_themes: [
                             {date_startYYYYMMDD: "2019-12-02",date_endYYYYMMDD: "2019-12-2",date_start: "2/12/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2", path: "facilitation-graphique-avancee-2jours"}                    
     ],
     promotedate_lyon: [
-                          {date_startYYYYMMDD: "2019-11-26",date_endYYYYMMDD: "2019-11-27",date_start: "26/11/2019",formationname: "Manager inspiré, Leader inspirant", path: "manager-agile"},
-                          {date_startYYYYMMDD: "2019-12-10",date_endYYYYMMDD: "2019-12-11",date_start: "10/12/2019",formationname: "Manager inspiré, Leader inspirant", path: "manager-agile"},
+                          {date_startYYYYMMDD: "2019-11-26",date_endYYYYMMDD: "2019-11-27",date_start: "26-27/11/2019",formationname: "Le rôle et métier de manager", path: "role-metier-manager"},
+                          {date_startYYYYMMDD: "2019-12-10",date_endYYYYMMDD: "2019-12-11",date_start: "10-11/12/2019",formationname: "Le rôle et métier de manager", path: "role-metier-manager"},
     ]
 }
 
