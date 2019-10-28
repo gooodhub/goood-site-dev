@@ -48,7 +48,7 @@ formation_themes: [
                           {date_startYYYYMMDD: "2019-11-21",date_endYYYYMMDD: "2019-11-22",date_start: "21/11/2019",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "scrum-master"},
                           {date_startYYYYMMDD: "2019-11-28",date_endYYYYMMDD: "2019-11-29",date_start: "28/11/2019",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
                           {date_startYYYYMMDD: "2019-12-02",date_endYYYYMMDD: "2019-12-2",date_start: "2/12/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2", path: "facilitation-graphique-avancee-2jours"},
-                          {date_startYYYYMMDD: "2020-02-26",date_endYYYYMMDD: "2020-02-28",date_start: "26/02/2020",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
+                          {date_startYYYYMMDD: "2020-04-04",date_endYYYYMMDD: "2020-04-06",date_start: "04/04/2020",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
     ],
     promotedate_lyon: [
                           {date_startYYYYMMDD: "2019-11-26",date_endYYYYMMDD: "2019-11-27",date_start: "26-27/11/2019",formationname: "Le rôle et métier de manager", path: "role-metier-manager"},
