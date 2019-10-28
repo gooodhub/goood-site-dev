@@ -19,7 +19,7 @@ Découvrir et pratiquer la méthode de
 Conversation Structurée, le Consensus
 Workshop et le Plan d’action],
 	layout: formation-fiche.html, 
-	dates: [Mercredi 26 et Jeudi 27 et Vendredi 28 Février 2020 à Sophia Antipolis,
+	dates: [Mercredi 04 et Jeudi 05 et Vendredi 06 Avril 2020 à Sophia Antipolis,
 	Mercredi 27 et Jeudi 28 et Vendredi 29 Novembre 2019 à Paris (complet),
 	]
 }
