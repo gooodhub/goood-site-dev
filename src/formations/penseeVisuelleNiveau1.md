@@ -17,12 +17,11 @@
 	programmePdf : initiationPenseeVisuelleNiveau1.pdf,
 	lienVideo : "https://www.youtube.com/embed/B-FXqJe8BjQ",
 	dates: [
-	Jeudi 3 Octobre à Paris,
-	Lundi 14 Octobre à Sophia Antipolis,
-	Mardi 5 Novembre à Sophia Antipolis,
-	Jeudi 7 Novembre à Paris,
-	Jeudi 12 Décembre à Sophia Antipolis,
-	Mardi 3 Décembre à Paris ,
+	Jeudi 7 Novembre 2019 à Paris,
+	Jeudi 12 Décembre 2019 à Sophia Antipolis,
+	Mardi 3 Décembre 2019 à Paris ,
+	Vendredi 31 Janvier 2020 à Sophia Antipolis,
+	Vendredi 3 Avril 2020 à Sophia Antipolis,
 	]
 }
 ---
