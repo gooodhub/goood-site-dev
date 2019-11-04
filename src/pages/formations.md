@@ -50,7 +50,7 @@ formation_themes: [
                           {date_startYYYYMMDD: "2019-12-02",date_endYYYYMMDD: "2019-12-2",date_start: "2/12/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2", path: "facilitation-graphique-avancee-2jours"},
                           {date_startYYYYMMDD: "2020-04-04",date_endYYYYMMDD: "2020-04-06",date_start: "04/04/2020",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
                           {date_startYYYYMMDD: "2020-01-31",date_endYYYYMMDD: "2020-01-31",date_start: "31/01/2020",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
-                          {date_startYYYYMMDD: "2020-04-03",date_endYYYYMMDD: "2020-04-03",date_start: "03/01/2020",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
+                          {date_startYYYYMMDD: "2020-04-03",date_endYYYYMMDD: "2020-04-03",date_start: "03/04/2020",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
     ],
     promotedate_lyon: [
                           {date_startYYYYMMDD: "2019-11-26",date_endYYYYMMDD: "2019-11-27",date_start: "26-27/11/2019",formationname: "Le rôle et métier de manager", path: "role-metier-manager"},
