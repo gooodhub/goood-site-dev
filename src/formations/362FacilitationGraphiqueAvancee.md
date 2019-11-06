@@ -26,7 +26,7 @@
 * Découvrir les différentes postures du facilitateur graphique
 * Faciliter des ateliers de travail avec des outils d’animation visuels
 
-## pré requis :## avoir suivi la formation d'[initation à la facilitation graphique niveau 1](/formations/pensee-visuelle-niveau1)
+## pré requis : ## avoir suivi la formation d'[initation à la facilitation graphique niveau 1](/formations/pensee-visuelle-niveau1)
 
 # Programme #
 
