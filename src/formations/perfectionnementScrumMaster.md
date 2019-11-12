@@ -1,51 +1,46 @@
 ---
 {
-	title: "Scrum Master",
+	title: "Perfectionnement Scrum Master",
 	slug: perfectionnement-scrum-master, 
-	headline: "Scrum Master",
+	headline: "Perfectionnement Scrum Master",
 	description: " ",
 	theme: agile,
 	heures: 7,
-	nbJours: "1 jour",
+	nbJours: ,
 	participants: 12,
 	InterExiste: 1,
-	prixInter: 690,
-	prixIntra: ,
-	pourcentagePratique: 80,
-	lesPlus: [],
+	prixInter: 990,
+	prixIntra: , 
+	pourcentagePratique: 70,
+	lesPlus: [Une prise de conscience du rôle réel d’un SM et de la posture qui va avec],
 	layout: formation-fiche.html, 
-	programmePdf : perfectionnementScrumMaster.pdf,
+	programmePdf : ,
 	lienVideo : ,
-	dates: [
-Mercredi 7 Août 2019 à Paris,
-]
+	dates: [ Contactez-nous ! ]
 }
 ---
 
+# Perfectionnement Scrum Master #
 
 ## Objectifs de la formation ##
 
 Vous êtes déjà ou vous allez bientôt devenir Scrum Master et vous souhaitez élargir votre palette d'outils pour faire face à des situations complexes que vous pouvez rencontrer dans vos équipes. 
 Pendant cette journée vous découvrirez des pratiques très utiles pour mieux exercer ce passionnant métier de Scrum Master.
 
-## Partie théorique : ##
+## Programme ##
 
-* A quoi sert réellement un Scrum Master ?
-* Le Scrum Master / Manager / Coach
-* Le Scrum Master dans un contexte non agile
-* Passer à l’échelle
-* Le Scrum Master dans une équipe difficile
+* La posture du Scrum Master
+* La théorie de Tuckman du fonctionnement des équipes
+* Utiliser la systémique pour comprendre le contexte des équipes Prévention et gestion des conflits (les bases de la CNV)
+* Garder le cap tout en souplesse (guider sans diriger, suggérer sans imposer...)
+* Faciliter avec aisance
+* Animer des rétrospectives efficientes
+* Le management visuel (mise en place, animation, amélioration)
 
-## Partie pratique : ##
+## Public Concerné ##
 
-* Différentes posture selon les cas
-* Les jeux sérieux
-* Animer des rétros mémorables
-* Gestion des conflits
+Ce stage s’adresse aux Scrum Masters en exercice ou aux futurs Scrum Masters déjà formés aux bases du métier...
 
-## Partage dans le groupe : ##
 
-Questions/ réponses
-Échanges d’expériences au sein du groupe.
-CoScrum
-
+## Pré-requis ##
+Pratiquer ou connaître les bases du métier de Scrum Master
