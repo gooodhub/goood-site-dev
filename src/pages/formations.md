@@ -23,9 +23,9 @@ formation_themes: [
     {formationname: "Développer l'agilité des équipes (nous contacter)",path: ""},
     {formationname: "Rafraîchissez votre Scrum (nous contacter)",path: ""},
     {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "scrum-master"},
-    {formationname: "Perfectionnement Scrum Master (nous contacter)",path: "perfectionnement-scrum-master"},
+    {formationname: "Perfectionnement Scrum Master",path: "perfectionnement-scrum-master"},
     {formationname: "Devenir Product Owner",path: "devenir-product-owner"},
-    {formationname: "Perfectionnement Product Owner (nous contacter)",path: "perfectionnement-product-owner"}
+    {formationname: "Perfectionnement Product Owner",path: "perfectionnement-product-owner"}
   ]},
   {name: "Facilitation & intelligence collective",formationslist: [
       {formationname: "De la culture projet à la culture produit",path: "culture-projet-a-culture-produit"},
