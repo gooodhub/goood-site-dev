@@ -3,7 +3,7 @@
 	title: "Perfectionnement Scrum Master",
 	slug: perfectionnement-scrum-master, 
 	headline: "Perfectionnement S.M.",
-	description: " ",
+	description: "Enrichir ses pratiques et ses outils pour mieux accompagner les équipes Scrum",
 	theme: agile,
 	heures: 7,
 	nbJours: ,
