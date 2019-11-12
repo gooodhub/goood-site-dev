@@ -14,7 +14,7 @@ formation_themes: [
     {formationname: "Le rôle et métier de manager",path: "role-metier-manager"},
     {formationname: "Manager inspiré Leader inspirant",path: "manager-inspire-leader-inspirant"},
     {formationname: "Manager acteur de la transformation",path: "manager-acteur-de-la-transformation"},
-    {formationname: "Prise de décisions (nous contacter)",path: ""},
+    {formationname: "Prise de décision",path: "prise-de-decision"},
     {formationname: "Leading SAFe 4.6",path: "leading-safe-4-6"}
   ]},
   {name: "Agilité dans les DSI",formationslist: [
