@@ -10,7 +10,7 @@ priority: 1,
 imagereseauxsociaux: header-events-th2.jpg,
 formation_themes: [
   {name: "Management",formationslist: [
-    {formationname: "Manager des équipes Scrum (nous contacter)",path: ""},
+    {formationname: "Manager des équipes Scrum",path: "manager-equipes-scrum"},
     {formationname: "Le rôle et métier de manager",path: "role-metier-manager"},
     {formationname: "Manager inspiré Leader inspirant",path: "manager-inspire-leader-inspirant"},
     {formationname: "Manager acteur de la transformation",path: "manager-acteur-de-la-transformation"},
