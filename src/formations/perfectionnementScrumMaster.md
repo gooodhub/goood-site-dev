@@ -1,8 +1,8 @@
 ---
 {
-	title: "Perfectionnement S.M.",
+	title: "Perfectionnement Scrum Master",
 	slug: perfectionnement-scrum-master, 
-	headline: "Perfectionnement Scrum Master",
+	headline: "Perfectionnement S.M.",
 	description: " ",
 	theme: agile,
 	heures: 7,
