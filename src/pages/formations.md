@@ -10,18 +10,18 @@ priority: 1,
 imagereseauxsociaux: header-events-th2.jpg,
 formation_themes: [
   {name: "Management",formationslist: [
-    {formationname: "Manager des équipes Scrum (nous consulter)",path: ""},
+    {formationname: "Manager des équipes Scrum (nous contacter)",path: ""},
     {formationname: "Le rôle et métier de manager",path: "role-metier-manager"},
     {formationname: "Manager inspiré Leader inspirant",path: "manager-inspire-leader-inspirant"},
     {formationname: "Manager acteur de la transformation",path: "manager-acteur-de-la-transformation"},
-    {formationname: "Prise de décisions (nous consulter)",path: ""},
+    {formationname: "Prise de décisions (nous contacter)",path: ""},
     {formationname: "Leading SAFe 4.6",path: "leading-safe-4-6"}
   ]},
   {name: "Agilité dans les DSI",formationslist: [
-    {formationname: "Sensibilisation à l'agilité (nous consulter)",path: ""},
+    {formationname: "Sensibilisation à l'agilité (nous contacter)",path: ""},
     {formationname: "Introduction aux méthodes agiles",path: "introduction-methodes-agiles"},
-    {formationname: "Développer l'agilité des équipes (nous consulter)",path: ""},
-    {formationname: "Rafraîchissez votre Scrum (nous consulter)",path: ""},
+    {formationname: "Développer l'agilité des équipes (nous contacter)",path: ""},
+    {formationname: "Rafraîchissez votre Scrum (nous contacter)",path: ""},
     {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "scrum-master"},
     {formationname: "Perfectionnement Scrum Master (nous contacter)",path: "perfectionnement-scrum-master"},
     {formationname: "Devenir Product Owner",path: "devenir-product-owner"},
