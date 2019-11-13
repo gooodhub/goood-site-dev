@@ -32,7 +32,7 @@ formation_themes: [
       {formationname: "Innover grâce au Design Thinking",path: "innover-grace-au-design-thinking"},
       {formationname: "Facilitation de groupe et communautés de pratiques (COP)",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
       {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
-      {formationname: "Doper vos performances grâce à l'amélioration continue (nous contacter)",path: ""},
+      {formationname: "Doper vos performances grâce à l'amélioration continue",path: "doper-vos-performances-grace-a-l-amelioration-continue"},
       {formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 1",path: "pensee-visuelle-niveau1"},
       {formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2",path: "facilitation-graphique-avancee-2jours"},
       {formationname: "Competitive Advantage via Lean-Agile Procurement (LAP1)",path: "lean-agile-procurement-1"}
