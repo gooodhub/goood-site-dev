@@ -18,7 +18,7 @@ formation_themes: [
     {formationname: "Leading SAFe 4.6",path: "leading-safe-4-6"}
   ]},
   {name: "Agilité dans les DSI",formationslist: [
-    {formationname: "Sensibilisation à l'agilité (nous contacter)",path: ""},
+    {formationname: "Sensibilisation aux démarches agiles",path: "sensibilisation-aux-demarches-agiles"},
     {formationname: "Introduction aux méthodes agiles",path: "introduction-methodes-agiles"},
     {formationname: "Développer l'agilité des équipes (nous contacter)",path: ""},
     {formationname: "Rafraîchissez votre Scrum (nous contacter)",path: ""},
