@@ -2,7 +2,7 @@
 {
 	title: "Perfectionnement Product Owner",
 	slug: perfectionnement-product-owner, 
-	headline: "Product Owner",
+	headline: "Perfectionnement P.O.",
 	description: "Enrichir ses pratiques et ses outils pour maximiser la valeur produite",
 	theme: agile,
 	heures: 7,
@@ -12,13 +12,15 @@
 	prixInter: 990,
 	prixIntra: ,
 	pourcentagePratique: 70,
-	lesPlus: ["Une prise de conscience du rôle réel d’un SM et de la posture qui va avec"],
+	lesPlus: ["Une prise de conscience du rôle réel d’un PO et de la posture qui va avec"],
 	layout: formation-fiche.html, 
 	programmePdf : ,
 	lienVideo : ,
 	dates: [ Contactez-nous ! ]
 }
 ---
+
+# Perfectionnement Product Owner #
 
 ## Objectifs de la formation : ##
 
