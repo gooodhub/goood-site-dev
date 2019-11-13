@@ -29,7 +29,7 @@ formation_themes: [
   ]},
   {name: "Facilitation & intelligence collective",formationslist: [
       {formationname: "De la culture projet à la culture produit",path: "culture-projet-a-culture-produit"},
-      {formationname: "Innover grâce au Design Thinking (nous contacter)",path: ""},
+      {formationname: "Innover grâce au Design Thinking",path: "innover-grace-au-design-thinking"},
       {formationname: "Facilitation de groupe et communautés de pratiques (COP)",path: "facilitation-de-groupe-et-communautes-de-pratiques"},
       {formationname: "Techniques et méthodes de facilitation de groupe - ToP",path: "techniques-et-methodes-de-facilitation-de-groupe"},
       {formationname: "Doper vos performances grâce à l'amélioration continue (nous contacter)",path: ""},
