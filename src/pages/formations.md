@@ -20,7 +20,7 @@ formation_themes: [
   {name: "Agilité dans les DSI",formationslist: [
     {formationname: "Sensibilisation aux démarches agiles",path: "sensibilisation-aux-demarches-agiles"},
     {formationname: "Introduction aux méthodes agiles",path: "introduction-methodes-agiles"},
-    {formationname: "Développer l'agilité des équipes (nous contacter)",path: ""},
+    {formationname: "Développer l'agilité des équipes",path: "developper-l-agilite-des-equipes"},
     {formationname: "Rafraîchissez votre Scrum",path: "rafraichissez-votre-scrum"},
     {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "scrum-master"},
     {formationname: "Perfectionnement Scrum Master",path: "perfectionnement-scrum-master"},
