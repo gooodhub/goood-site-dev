@@ -21,7 +21,7 @@ formation_themes: [
     {formationname: "Sensibilisation aux démarches agiles",path: "sensibilisation-aux-demarches-agiles"},
     {formationname: "Introduction aux méthodes agiles",path: "introduction-methodes-agiles"},
     {formationname: "Développer l'agilité des équipes (nous contacter)",path: ""},
-    {formationname: "Rafraîchissez votre Scrum (nous contacter)",path: ""},
+    {formationname: "Rafraîchissez votre Scrum",path: "rafraichissez-votre-scrum"},
     {formationname: "Réussir et s'affirmer dans son rôle de Scrum Master",path: "scrum-master"},
     {formationname: "Perfectionnement Scrum Master",path: "perfectionnement-scrum-master"},
     {formationname: "Devenir Product Owner",path: "devenir-product-owner"},

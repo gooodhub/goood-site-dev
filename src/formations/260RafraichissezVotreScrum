@@ -3,21 +3,24 @@
 	title: "Rafraîchissez votre Scrum", 
 	slug: "rafraichissez-votre-scrum", 
 	headline: "Rafraîchissez votre Scrum",
-	description: "Redonner de l'élan aux équipes ayant déjà expérimenté Scrum pendant quelques mois ", 
-	theme: mettre en oeuvre la transformation,
+	description: "Redonner de l'élan aux équipes ayant déjà expérimenté Scrum pendant quelques mois", 
+	theme: agile,
 	heures: 7,
+	nbJours: ,
 	participants: 10,
 	InterExiste: 1,
 	prixInter: 700,
-	prixIntra: 2 500,
+	prixIntra: ,
 	pourcentagePratique: 50,
 	lesPlus: [Prise de recul sur les pratiques, à vivre comme une méga-rétrospective, Homogénéisation des connaissances entre les membres de l'équipe, Redynamisation de la démarche agile],
 	layout: formation-fiche.html, 
-	dates: [26 Janvier 2018 à Paris, 2 Février 2018 à Sophia Antipolis, 9 Février 2018 à Lyon]
+	programmePdf : ,
+	lienVideo : ,
+	dates: [ Contactez-nous ! ]
 }
 ---
 
-# Formation - Rafraîchissez votre Scrum #
+# Rafraîchissez votre Scrum #
 
 ## Objectifs de la formation : ##
 * Revoir et actualiser les fondamentaux de Scrum (dernière version du Guide Scrum)
@@ -26,8 +29,6 @@
 * Elargir la vision de Scrum vers un outil de transformation organisationnelle
 
 # Programme #
-
-## Jour 1 ##
 
 ## Mieux comprendre Scrum ##
 * Atelier Scrum tests
