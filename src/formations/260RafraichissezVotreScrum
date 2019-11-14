@@ -1,7 +1,7 @@
 ---
 {
 	title: "Rafraîchissez votre Scrum", 
-	slug: "rafraichissez-votre-scrum", 
+	slug: rafraichissez-votre-scrum, 
 	headline: "Rafraîchissez votre Scrum",
 	description: "Redonner de l'élan aux équipes ayant déjà expérimenté Scrum pendant quelques mois", 
 	theme: agile,
@@ -12,7 +12,7 @@
 	prixInter: 700,
 	prixIntra: ,
 	pourcentagePratique: 50,
-	lesPlus: [Prise de recul sur les pratiques, à vivre comme une méga-rétrospective, Homogénéisation des connaissances entre les membres de l'équipe, Redynamisation de la démarche agile],
+	lesPlus: ["Prise de recul sur les pratiques, à vivre comme une méga-rétrospective", "Homogénéisation des connaissances entre les membres de l'équipe", "Redynamisation de la démarche agile"],
 	layout: formation-fiche.html, 
 	programmePdf : ,
 	lienVideo : ,
@@ -28,24 +28,24 @@
 * Approfondir la notion de ScrumBut
 * Elargir la vision de Scrum vers un outil de transformation organisationnelle
 
-# Programme #
+## Programme ##
 
-## Mieux comprendre Scrum ##
+### Mieux comprendre Scrum ###
 * Atelier Scrum tests
 * Scrum Core – mieux comprendre Scrum
 * Causes d’échecs et facteurs de réussite
 
-## 20 ans de Scrum : quelle évolution ? ##
+### 20 ans de Scrum : quelle évolution ? ###
 * 2011 version majeure
 * Les précisions de 2013, comment l’interpréter ?
 
-## ScrumButs ##
+### ScrumButs ###
 * Atelier vos ScrumButs
 * Comment tirer parti des difficultés de mise en oeuvre ?
 * Changer Scrum pour ne pas changer ?
 * Le backlog de transformation
 
-## Au-delà de Scrum ##
+### Au-delà de Scrum ###
 * Compléter et étendre le framework
 * Les axes de la transformation agile
 * Atelier d’appropriation
