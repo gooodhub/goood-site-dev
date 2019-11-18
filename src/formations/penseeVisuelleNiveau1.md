@@ -21,7 +21,10 @@
 	Jeudi 12 Décembre 2019 à Sophia Antipolis,
 	Mardi 3 Décembre 2019 à Paris ,
 	Vendredi 31 Janvier 2020 à Sophia Antipolis,
-	Vendredi 3 Avril 2020 à Sophia Antipolis,
+	Jeudi 27 Février 2020 à Paris,
+	Jeudi 23 Avril 2020 à Paris,
+	Jeudi 30 Avril 2020 à Sophia Antipolis,
+	
 	]
 }
 ---
