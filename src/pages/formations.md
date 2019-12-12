@@ -49,11 +49,10 @@ formation_themes: [
     ],
     promotedate_sophia: [
                                             
-                          {date_startYYYYMMDD: "2019-11-21",date_endYYYYMMDD: "2019-11-22",date_start: "21/11/2019",formationname: "Réussir et s'affirmer dans son rôle de Scrum Master", path: "scrum-master"},
-                          {date_startYYYYMMDD: "2019-11-28",date_endYYYYMMDD: "2019-11-29",date_start: "28/11/2019",formationname: "Devenir Product Owner", path: "devenir-product-owner"},
-                          {date_startYYYYMMDD: "2019-12-02",date_endYYYYMMDD: "2019-12-2",date_start: "2/12/2019",formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2", path: "facilitation-graphique-avancee-2jours"},
-                          {date_startYYYYMMDD: "2020-04-04",date_endYYYYMMDD: "2020-04-06",date_start: "04/04/2020",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
-                          {date_startYYYYMMDD: "2020-01-31",date_endYYYYMMDD: "2020-01-31",date_start: "31/01/2020",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
+                         
+                         
+                          {date_startYYYYMMDD: "2020-01-30",date_endYYYYMMDD: "2020-01-30",date_start: "30/01/2020",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
+                          {date_startYYYYMMDD: "2020-04-02",date_endYYYYMMDD: "2020-04-04",date_start: "02/04/2020",formationname: "Techniques et méthodes de facilitation de groupe", path: "techniques-et-methodes-de-facilitation-de-groupe/"},
                           {date_startYYYYMMDD: "2020-04-30",date_endYYYYMMDD: "2020-04-30",date_start: "30/04/2020",formationname: "Activez la pensée visuelle grâce à la facilitation graphique", path: "pensee-visuelle-niveau1"},
                           {date_startYYYYMMDD: "2020-05-13",date_endYYYYMMDD: "2020-05-14",date_start: "13/05/2020",formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2", path: "facilitation-graphique-avancee-2jours"},
                           {date_startYYYYMMDD: "2020-09-09",date_endYYYYMMDD: "2020-09-10",date_start: "09/09/2020",formationname: "Activez la pensée visuelle grâce à la facilitation graphique - niveau 2", path: "facilitation-graphique-avancee-2jours"},
