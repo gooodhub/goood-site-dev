@@ -9,7 +9,7 @@
 	participants: 12,
 	InterExiste: 0,
 	prixInter: ,
-	prixIntra: 18000,
+	prixIntra: "Nous contacter pour un devis intra-entreprise",
 	pourcentagePratique: 70,
 	lesPlus: [En venant avec votre cas concret vous partirez de la formation avec des éléments actionnables pour lancer votre premier pilote.],
 	layout: formation-fiche.html, 
