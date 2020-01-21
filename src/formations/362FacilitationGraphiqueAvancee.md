@@ -15,11 +15,10 @@
 	lesPlus: [Un carnet de note, un starter kit de facilitation graphique de la marque neuland, prise en charge du repas],
 	layout: formation-fiche.html, 
 	dates: [
-		Lundi 2 et Mardi 3 Décembre 2019 à Sophia Antipolis,
-		Mardi 13 et Jeudi 14 Mai 2020 à Sophia Antipolis,
+		Mardi 21 et Mercredi 22 Avril 2020 à Sophia Antipolis,
 		Mercredi 10 et Jeudi 11 Juin 2020 à Paris,
 		Mercredi 2 et Jeudi 3 Septembre 2020 à Paris,
-		Mercredi 9 et Jeudi 10 Septembre 2020 à Sophia Antipolis		
+		Mercredi 9 et Jeudi 10 Septembre 2020 à Sophia Antipolis,		
 	]
 }
 ---
