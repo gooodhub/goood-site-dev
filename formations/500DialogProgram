@@ -198,7 +198,7 @@ ga('send', 'pageview');
 Ce stage s’adresse aux facilitateurs, coachs, formateurs, accompagnateurs du changement, managers, RH et consultants.
 
 
-
+              <!--
               <h2><i class="fa fa-calendar-o" aria-hidden="true"></i>Les prochaines dates</h2>
               <div>
                 <ul >
@@ -210,9 +210,8 @@ Ce stage s’adresse aux facilitateurs, coachs, formateurs, accompagnateurs du c
                   <li> 24</span></li>
                   <li> 25 et 26 Avril 2018 à Lyon</span></li>
                 </ul>
-                </div>
-           
-
+              </div>
+              -->
             </div>
             <div class="blocright">
             <div class="infos">
@@ -281,7 +280,8 @@ Ce stage s’adresse aux facilitateurs, coachs, formateurs, accompagnateurs du c
             
             </div>
           </div>
-
+        <!--
+        -->
            <div  class="row incriptionform" id="incriptionform">
                   <p >Si vous êtes intéressé par cette formation, remplissez ce formulaire et nous vous recontactons très vite.
                     Ou si vous préférez contactez directement Célia par téléphone au 06 59 25 24 68. 
@@ -291,7 +291,7 @@ Ce stage s’adresse aux facilitateurs, coachs, formateurs, accompagnateurs du c
                       Nom* <input type="text" placeholder="Nom" name="nom" required size="50"/>  Prénom <input type="text" placeholder="Prénom" name="prenom"  size="50"/>
                       Email* <input type="text" name="email" placeholder="dupont@domaine.fr"  required size="50"/>
                       Téléphone* <input type="text" name="tel" placeholder="06 xx xx xx xx"  required size="14"/>                                         
-                      Date souhaitée<select name="formation" >
+                      <!--Date souhaitée<select name="formation" >
                         <option>Date à convenir</option>                        
                               <option>27 </option>                        
                               <option>28 et 29 Mars 2018 à Paris </option>                        
@@ -301,6 +301,7 @@ Ce stage s’adresse aux facilitateurs, coachs, formateurs, accompagnateurs du c
                               <option>25 et 26 Avril 2018 à Lyon </option>                        
                           
                       </select>
+                    -->
                      Message
                      <textarea name="comment" cols="80" rows="5"></textarea>
                       <input type="submit" class="btn btn-primary" Value="Envoyer!"/>

@@ -179,7 +179,7 @@ ga('send', 'pageview');
 Ce stage s’adresse aux Managers, Chefs de projet, consultants, formateurs, équipes marketing, équipes commerciales.
 
 
-
+              <!--
               <h2><i class="fa fa-calendar-o" aria-hidden="true"></i>Les prochaines dates</h2>
               <div>
                 <ul >
@@ -188,9 +188,8 @@ Ce stage s’adresse aux Managers, Chefs de projet, consultants, formateurs, éq
                   <li> 1er et 2 Mars 2018 à Sophia Antipolis</span></li>
                   <li> 7 et 8 Mars 2018 à Lyon</span></li>
                 </ul>
-                </div>
-           
-
+              </div>
+              -->
             </div>
             <div class="blocright">
             <div class="infos">
@@ -253,7 +252,8 @@ Ce stage s’adresse aux Managers, Chefs de projet, consultants, formateurs, éq
             
             </div>
           </div>
-
+        <!--
+        -->
            <div  class="row incriptionform" id="incriptionform">
                   <p >Si vous êtes intéressé par cette formation, remplissez ce formulaire et nous vous recontactons très vite.
                     Ou si vous préférez contactez directement Célia par téléphone au 06 59 25 24 68. 
@@ -263,13 +263,14 @@ Ce stage s’adresse aux Managers, Chefs de projet, consultants, formateurs, éq
                       Nom* <input type="text" placeholder="Nom" name="nom" required size="50"/>  Prénom <input type="text" placeholder="Prénom" name="prenom"  size="50"/>
                       Email* <input type="text" name="email" placeholder="dupont@domaine.fr"  required size="50"/>
                       Téléphone* <input type="text" name="tel" placeholder="06 xx xx xx xx"  required size="14"/>                                         
-                      Date souhaitée<select name="formation" >
+                      <!--Date souhaitée<select name="formation" >
                         <option>Date à convenir</option>                        
                               <option>22 et 23 Février 2018 à Paris </option>                        
                               <option>1er et 2 Mars 2018 à Sophia Antipolis </option>                        
                               <option>7 et 8 Mars 2018 à Lyon </option>                        
                           
                       </select>
+                    -->
                      Message
                      <textarea name="comment" cols="80" rows="5"></textarea>
                       <input type="submit" class="btn btn-primary" Value="Envoyer!"/>
