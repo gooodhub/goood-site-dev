@@ -134,9 +134,10 @@
 <section class="next_session">
            <div class="row">
                <div class="header">
-                 <h1> Nos prochaines sessions</h1>
+                 <h1> Un besoin de formation, contactez-nous!</h1>
                </div>
            </div>
+           <!--
            <div class="row">
               <div class="paris">     
                <h1>Paris</h1>
@@ -198,6 +199,7 @@
                       <i class="fa fa-arrow-down" aria-hidden="true" style="margin-left: 20px;"></i>
                   </a>
               </div>
+              -->
               <div  class="row incriptionform" id="incriptionform">
                   <p >Si vous êtes intéressé par une formation ou une autre, remplissez ce formulaire et nous vous recontactons très vite.
                   </p>
@@ -206,22 +208,19 @@
                       Email* <input type="text" name="email" placeholder="dupont@domaine.fr" required size="50"/>
                       Tel <input type="text" name="tel" placeholder="06 xx xx xx xx" size="14"/>
                       Formation<select name="formation" >
-                          {{#each promotedate_paris}}
-                              <option>Paris - {{this.date_start}} - {{this.formationname}} </option>                        
-                          {{/each}}
-                          {{#each promotedate_sophia}}
-                              <option>Sophia - {{this.date_start}} - {{this.formationname}} </option>                        
-                          {{/each}}
-                          {{#each promotedate_lyon}}
-                              <option>Lyon - {{this.date_start}} - {{this.formationname}} </option>                        
-                          {{/each}}
+                          {{#each formation_themes}}
+                              {{#each formationslist}}
+                                  <option>{{this.formationname}} </option>                        
+                            {{/each}}                 
+                           {{/each}}                          
                           <option>ou un autre formation</option>                        
                       </select>
                       <input type="submit" class="btn btn-primary" Value="Envoyer!"/>
                   </form>
 
               </div>    
-           </div>
+          <!-- </div> -->
+        
         </section><!-- NextSession -->
             
    
