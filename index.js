@@ -18,6 +18,7 @@ const browserSync = require('./plugins/metalsmith-browser-sync');
 const webpackConfig = require('./webpack.conf.js');
 
 const __DEV__ = (process.env.NODE_ENV !== 'production');
+const __BETA__ = (process.env.BETA !== 'true');
 
 const sassParams = () => {
   if (__DEV__) {
@@ -32,12 +33,23 @@ const sassParams = () => {
     sourceMap: false,
   };
 };
+var metadata = {}
+
+if (__BETA__)
+{
+  metadata = {
+    paymenturl :"https://www.paypal.com/cgi-bin/webscr",
+    production: true }
+} else {
+  metadata = {
+    paymenturl :"https://www.paypal.com/cgi-bin/webscr"}
+}
 
 const buildApp = metalsmith(__dirname)
   .source('./src')
   .destination('./dist')
   .use(rootPath())
-  .metadata({paymenturl :"https://www.paypal.com/cgi-bin/webscr"})
+  .metadata(metadata)
 
   // HTML
   .use(metalSmithRegisterHelpers({
@@ -140,7 +152,7 @@ const buildApp = metalsmith(__dirname)
   .use(autoprefixer())
 
   .use(sitemap({
-    hostname: 'https://goood.pro',
+    hostname: 'https://goood.com',
     omitIndex: true,
     changefreq: 'weekly',
     priority: 0.5,
