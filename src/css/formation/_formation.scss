@@ -1,309 +1,368 @@
-.formation
-{
+.formation {
 
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  align-items: center;
-  
-  .row {
-    width: 100%;
-  }
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
 
-  
- &__content {
-       
-       @media #{$small-only} {
-        background: $secondaryColor;
+    .row {
+        width: 100%;
+    }
+
+
+    &__content {
+
+        @media #{$small-only} {
+            background: $secondaryColor;
+        }
+
+        @media #{$medium-up} {
+            padding-bottom: 50px;
+            text-align: center;
+            align-items: center;
+        }
     }
 
     @media #{$medium-up} {
-      padding-bottom: 50px;
-      text-align: center;
-      align-items: center;
+        margin-bottom: 30px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 400px;
+            background: $secondaryColor;
+            z-index: 0;
+
+            @media #{$large-up} {
+                height: 400px;
+            }
+        }
     }
-  }
 
-  @media #{$medium-up} {
-    margin-bottom: 30px;
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 400px;
-      background: $secondaryColor;
-      z-index: 0;
+    p {
+        color: white;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        flex: 1;
+        flex-direction: row;
+        padding: 1rem;
 
-      @media #{$large-up} {height: 400px;}
+
+        b {
+            font-weight: 600;
+        }
+
     }
-  }
-  p {color: white;
-     text-align: center;
-     width: 100%;
-     position:relative;
-     flex: 1;
-     flex-direction: row;
-     padding:1rem;
-      
 
-     b{
-         font-weight: 600;
-     }
-
-     }
-  .affiliation
-    {
+    .affiliation {
         width: 100%;
         text-align: center;
-        padding:0rem;
+        padding: 0rem;
+
         p {
-            color:$primaryColor;
-            text-align: center;    
-            position:relative;
+            color: $primaryColor;
+            text-align: center;
+            position: relative;
             flex: 1;
             flex-direction: row;
             display: inline-block;
-            padding:0rem;
+            padding: 0rem;
             margin-top: 0px;
         }
-        .btn{
+
+        .btn {
             display: inline-block;
         }
-    }     
-
-
-  header {
-    @extend %contentPadding;
-    padding-bottom: 0;
-    position: relative;
-    background: $secondaryColor;
-    
-    h1, p, p { color: white; }
-    p:after { background: white; }
-
-    @media #{$medium-up} {
-      text-align: center;
-      p:after {
-        left: 50%;
-        transform: translateX(-50%);
-      }
     }
-  }
+
+
+    header {
+        @extend %contentPadding;
+        padding-bottom: 0;
+        position: relative;
+        background: $secondaryColor;
+
+        h1,
+        p,
+        p {
+            color: white;
+        }
+
+        p:after {
+            background: white;
+        }
+
+        @media #{$medium-up} {
+            text-align: center;
+
+            p:after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
 
 }
 
-.formation_liste
-{
-       
+.formation_liste {
+
     ul {
         list-style: none;
-    } 
+    }
 
     @media #{$medium-up} {
-    margin-bottom: 30px;
-     margin-top: -6rem;
+        margin-bottom: 30px;
+        margin-top: -6rem;
     }
-    .bloc_catalogue
-    {
+
+    .bloc_catalogue {
         background: $secondaryColor;
-        a{
-            color:white;
+
+        a {
+            color: white;
         }
+
         @extend %contentBoldFont;
         font-size:1.3rem;
         text-align: center;
         padding:2rem 0;
-        img{
-           margin: auto;
+
+        img {
+            margin: auto;
             display: block;
         }
 
         margin: 2rem;
+
         @media #{$medium-up} {
-                width: 40%;
-                 }
+            width: 40%;
+        }
 
     }
-    .bloc_theme
-    {
+
+    .bloc_theme {
         @media #{$medium-up} {
-                width: 40%;
-                 }
+            width: 40%;
+        }
 
         margin: 2rem;
-       .header{
+
+        .header {
             @extend %contentPadding;
             font-size: 2rem;
-            color:white;
+            color: white;
             background: $primaryColor;
             text-align: center;
-                 
+
 
         }
-        .detail
-        {
-              @extend %shadow;
+
+        .detail {
+            @extend %shadow;
             @extend %contentPadding;
-            background:white;
+            background: white;
             @extend %contentBoldFont;
-             font-size: 1.3rem;
-             
-             li{
-                 margin-bottom:2rem;
-             }
-             a{
-                 color:$secondaryColor;
-             }
+            font-size: 1.3rem;
+
+            li {
+                margin-bottom: 2rem;
+            }
+
+            a {
+                color: $secondaryColor;
+            }
         }
-        
+
 
 
     }
 }
-.formateurs
-{ 
+
+.formateurs {
     @media #{$medium-up} {
-     margin-top:-83px ;    
-                 }
-     
+        margin-top: -83px;
     }
-.next_session
-{
+
+}
+
+.next_session {
     margin: auto;
     font-size: 1.3rem;
     font-weight: 600;
     @extend %contentPadding;
 
-    p{
+    p {
         line-height: 1.5rem;
         font-size: 1.3rem;
-        margin-top:5px;
-        margin-bottom:0px;        
+        margin-top: 5px;
+        margin-bottom: 0px;
     }
-    .tiret{
-        color:white;
+
+    .tiret {
+        color: white;
         padding-top: 0px;
         margin-top: 0px;
         margin-bottom: 5px;
-        line-height: 1px; 
+        line-height: 1px;
     }
-    .header
-    {
+
+    .header {
         width: 100%;
         text-align: center;
-        margin:6rem 0  1rem 0 ;
-       h1{ display:inline-block;
-       ; color:$primaryColor;
-       }
+        margin: 6rem 0 1rem 0;
+
+        h1 {
+            display: inline-block;
+            ;
+            color: $primaryColor;
+        }
     }
-    .date{
+
+    .date {
         font-weight: 800;
         font-size: 1.3rem;
-        margin-bottom:10px;
-        
+        margin-bottom: 10px;
+
     }
-    .titre_formation
-    {
+
+    .titre_formation {
         font-weight: 400;
-        margin-top:0.1rem;
-        margin-bottom:1.5rem;
+        margin-top: 0.1rem;
+        margin-bottom: 1.5rem;
     }
 
     ul {
         list-style: none;
-        padding-left:0px
-
-    } 
-    li{
-       
-        margin-left:0px;
+        padding-left: 0px
     }
-    
- 
- a{
-    color:white; 
- }
- h1{
-    color:white;
-    margin-top:0.5rem;
- }
- .paris
- {
-      @extend %contentPadding;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    background-color: $secondaryColor;
 
-    @media #{$medium-up} {
-                width: 50%;
-                 }
+    li {
 
- }
- .nice
- {
-     @extend %contentPadding;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    background-color: $primaryColor;
+        margin-left: 0px;
+    }
 
-    @media #{$medium-up} {
-                width: 50%;
-                 }
 
- }
- .incription
- {
-     z-index:1;
-     margin-top: -25px;
-     .btn
-     {
-         @extend %contentPadding;
-         background: $primaryColor;
-         color:white;
-         border-color: white;
-         font-size: 1.3rem;
-     }
- }
- .incriptionform
- {
-     color: white;
-     padding:3rem;
-     background: $secondaryColor;
-     
-     width: 100%;
-     margin-top:3rem;
-     
-     p
-     {
-         margin: 10px 0px 10px 0px;
-     }
-    
-     select,input[type=select],input[type=Text]{
-        height: 3rem;
-        padding: 6px 12px;
-        line-height: 1.6 rem;
-        display: block;
-        color: $secondaryColor;
-        border-radius: 4px;       
-        margin-top:0.25rem;
-        margin-bottom:1.25rem;
+    a {
+        color: white;
+    }
+
+    h1 {
+        color: white;
+        margin-top: 0.5rem;
+    }
+
+    .paris {
+        @extend %contentPadding;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: $secondaryColor;
+
+        @media #{$medium-up} {
+            width: 50%;
+        }
+
+    }
+
+    .nice {
+        @extend %contentPadding;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: $primaryColor;
+
+        @media #{$medium-up} {
+            width: 50%;
+        }
+
+    }
+
+    .incription {
+        z-index: 1;
+        margin-top: -25px;
+
+        .btn {
+            @extend %contentPadding;
+            background: $primaryColor;
+            color: white;
+            border-color: white;
+            font-size: 1.3rem;
+        }
+    }
+
+    .incriptionform {
+        color: white;
+        padding: 3rem;
+        background: $secondaryColor;
+
+        width: 100%;
+        margin-top: 3rem;
+
+        p {
+            margin: 10px 0px 10px 0px;
+        }
+
+        select,
+        input[type=select],
+        input[type=Text] {
+            height: 3rem;
+            padding: 6px 12px;
+            line-height: 1.6 rem;
+            display: block;
+            color: $secondaryColor;
+            border-radius: 4px;
+            margin-top: 0.25rem;
+            margin-bottom: 1.25rem;
             border: 1px solid #ccc;
-            @media #{$small-only} {
-              width:300px;
-         }
-     }
-     
-     .btn
-     {
-         margin-top:1.5rem;
-         background: white;
-         color: $secondaryColor;
-         border-color: white;
-     }
- }
 
+            @media #{$small-only} {
+                width: 300px;
+            }
+        }
+
+        .btn {
+            margin-top: 1.5rem;
+            background: white;
+            color: $secondaryColor;
+            border-color: white;
+        }
+    }
+}
+
+#sessions {
+    width: 80%;
+    margin: auto;
+
+    table {
+        margin-top: 200px;
+    }
+
+    a {
+        color: #fc4c02;
+    }
+
+    .btn {
+        background-color: #fc4c02;
+        color: white !important;
+        height: 1.5em;
+    }
+}
+
+.btn-centered {
+    width: 20%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.formationListe__content:before {
+    height: 170px;
+}
+
+.formationListe__content {
+    margin-bottom: 100px;
 }
