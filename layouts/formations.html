@@ -3,30 +3,32 @@
 <div class="slide" id="formations">
     {{> slide-header title=headline }}
     <div class="slide__content">
-       <section class="conviction">
+        <section class="conviction">
             <div class="row">
-              <div class="conviction__content">
-                <header>
-                  <p>
-                    Nos convictions
-                  </p>
-                  <h1>
-                    Vous donner les moyens de faire mieux
-                  </h1>
-                </header>
-                <p>
-                 Nous vous délivrons des formations pour vous transmettre ce que l'on a appris en faisant avec nos clients. Si une formation est présente
-                 dans notre catalogue, c'est que nous pensons que vous ne la trouverez pas ailleurs et qu'elle vous fournira des leviers pour vous rendre
-                 plus efficace. 
-                </p>
-                
-              </div>
-              <div class="conviction__chiffres"> 
+                <div class="conviction__content">
+                    <header>
+                        <p>
+                            Nos convictions
+                        </p>
+                        <h1>
+                            Vous donner les moyens de faire mieux
+                        </h1>
+                    </header>
+                    <p>
+                        Nous vous délivrons des formations pour vous transmettre ce que l'on a appris en faisant avec
+                        nos clients. Si une formation est présente
+                        dans notre catalogue, c'est que nous pensons que vous ne la trouverez pas ailleurs et qu'elle
+                        vous fournira des leviers pour vous rendre
+                        plus efficace.
+                    </p>
+
+                </div>
+                <div class="conviction__chiffres">
                     <div class="nombre">700+</div>
                     <div class="texte">personnes formées en 2018</div>
                     <div class="nombre">97%</div>
                     <div class="texte">des participants satisfaits</div>
-               </div>
+                </div>
                 <!--<a id="video-dth" href="#inline" data-toggle="modal" data-target="#modal-video-dth" class="mission__video">
 
                 </a>
@@ -41,196 +43,105 @@
                 </div>
                 -->
             </div>
-          </section><!-- mission -->
- <section class="formation">
-     <header class="formation__header">              
-        <h1>
-            Decouvrez nos formations
-        </h1>
-      </header>
-        <div class="formation__content">
-            <div>
-                <p>Et si vous souhaitez obtenir davantage d'informations ou si vous avez un besoin de formation personnalisée<br>
-                <b>contactez l'équipe commerciale via: <a href="mailto:formation@goood.com">formation@goood.com</a></b></p>
-            </div>
-            
-                <div class="affiliation">
-                    
-                    <p>Goood! est reconnu organisme de formation.</br> N° affiliation
-                    <button class="btn btn-default" >11 75 54328 75</button></p> 
+        </section><!-- mission -->
+        <section class="formation">
+            <header class="formation__header">
+                <h1>
+                    Decouvrez nos formations
+                </h1>
+            </header>
+            <div class="formation__content">
+                <div>
+                    <p>Et si vous souhaitez obtenir davantage d'informations ou si vous avez un besoin de formation
+                        personnalisée<br>
+                        <b>contactez l'équipe commerciale via: <a
+                                href="mailto:formation@goood.com">formation@goood.com</a></b>
+
+                    </p>
                 </div>
-            
-        </div>
-        
- </section> 
+
+                <div class="affiliation">
+
+                    <p>Goood! est reconnu organisme de formation.</br> N° affiliation
+                        <button class="btn btn-default">11 75 54328 75</button></p>
+                </div>
+
+            </div>
+        </section><!-- formation -->
 
 
- <section class="formation_liste">
-    <a class="btn btn-primary" id="agenda" data-text="Découvrir nos dates de formation" href="http://goood.com/agenda">
-                    <span >Agenda des formations</strong></span>
-                </a>
-     <!-- 
-           <div class="row">
-                 {{#each formation_themes}}
-                 <div class="bloc_theme">
-                
-                    <div class="header">
-                            {{name}}
-                    </div>
-                    <div class="detail">
-                    <ul>
-                        {{#each this.formationslist}}
-                                                    
-                            <li>
-                                    {{#if path}}  <a href="{{path}}" >{{/if}}
-                                        {{formationname}} <!--{{svg "./fleche-orange.svg"}} 
-                                <i class="fa fa-arrow-right" aria-hidden="true" style="margin-left: 20px;"></i>
-                                {{#if path}}</a>{{/if}}
-                             </li>
-                        
-                                           
+        <section class="formationListe">
+            <a target="_blank" rel="noopener noreferrer" href="https://goood.catalogueformpro.com"
+                class="btn btn--primary btn-centered">Voir le catalogue</a>
+
+            <div class="formationListe__content">
+                <div id="training-container"></div>
+            </div>
+        </section><!-- formation_liste -->
+
+        <section class="formation">
+            <header class="formation__header">
+                <h1>
+                    Découvrez nos formateurs
+                </h1>
+
+            </header>
+            <div class="formation__content">
+                <div>
+                    <p>Toutes nos formations sont animées par des gooodiens qui vous transmettent leur passion, leur
+                        énergie, leurs expériences terrain.<br /><br />
+                        Chacun a ses domaines de compétence de prédilection, mais tous sont animés par la même envie de
+                        transmettre et de vous donner les clés pour vous aider à avancer.
+                    </p>
+                </div>
+            </div>
+        </section><!-- formation -->
+
+
+        <section class="formateurs">
+            <div class="row">
+                <div class="slider1">
+                    {{#each portraits}}
+                    {{#if formateur}}
+                    <div class="slidee"><img src="{{image}}" height="350px" alt="{{name}}"></div>
+                    {{/if}}
                     {{/each}}
-                    </ul>
-                    </div>
-                 </div>
-                 {{/each}}
-<!-- catalogue de formation, en attendant nouvelle version
-                 <div class="bloc_catalogue">
-                   <a href="https://www.goood.pro/files/catalogue-formations-goood.pdf"  >
-                   <img src="../images/catalogue_vignette.png" />
-                   <i class="fa fa-download fa-2x" aria-hidden="true" style="display:block; margin:8px 0px"></i>
-                    Téléchargez notre catalogue
-                   </a>     
-                    
-                    
-                 </div>
- 
-           </div>
-</section> -->
+                </div>
+            </div>
 
-<section class="formation">
-    <header class="formation__header">
-    <h1>
-        Découvrez nos formateurs
-    </h1>
-    
-    </header>
-    <div class="formation__content">
-        <div>
-            <p>Toutes nos formations sont animées par des gooodiens qui vous transmettent leur passion, leur énergie, leurs expériences terrain.<br/><br/>
-            Chacun a ses domaines de compétence  de prédilection, mais tous sont animés par la même envie de transmettre et de vous donner les clés pour vous aider à avancer.
-            </p>
-        </div>
-    </div>
-</section><!-- formation -->
- 
- 
-<section class="formateurs">
-    <div class="row">
-    <div class="slider1">
-       {{#each portraits}}
-       {{#if formateur}}
-         <div class="slidee"><img src="{{image}}"  height="350px" alt="{{name}}"></div>
-         {{/if}}
-       {{/each}}
-    </div>
-    </div>
-   
-  
-</section><!-- formateur -->
-<section class="next_session">
-           <div class="row">
-               <div class="header">
-                 <h1> Un besoin de formation, contactez-nous!</h1>
-               </div>
-           </div>
-           <!--
-           <div class="row">
-              <div class="paris">     
-               <h1>Paris</h1>
-               <p class="tiret">____</p>
-               <ul>
-                
-                
-                  {{#each promotedate_paris}}
-                
-                 <li itemscope itemtype="http://schema.org/Event"> <a href="{{path}}" itemprop="url"> 
-                     <p class="date"><time itemprop="startDate" datetime="{{this.date_startYYYYMMDD}}">{{this.date_start}}</time><meta itemprop="endDate" content="{{this.date_endYYYYMMDD}}" /></p> 
-                                           <p class="titre_formation " itemprop="name"> {{this.formationname}}</p>  </a>
-                    <p  hidden itemprop="location" itemscope itemtype="http://schema.org/Place">
-                    <meta itemprop="address" content="Paris, France"></p>
-                 
-                    </li>
-                   {{/each}}
-                
-               </ul>
-              </div>
-              <div class ="nice">
-                  <h1>Sophia Antipolis</h1>
-                   <p class="tiret">____</p>
-                  <ul>
-                
-                
-                  {{#each promotedate_sophia}}
-                
-                   
-                 <li  itemscope itemtype="http://schema.org/Event"> <a href="{{path}}" itemprop="url"> 
-                     <p class="date"><time itemprop="startDate" datetime="{{this.date_startYYYYMMDD}}">{{this.date_start}}</time><meta itemprop="endDate" content="{{this.date_endYYYYMMDD}}" /></p> 
-                                           <p class="titre_formation" itemprop="name"> {{this.formationname}}</p>  </a>
-                                           <p  hidden itemprop="location" itemscope itemtype="http://schema.org/Place">
-                    <meta itemprop="address" content="Sophia Antipolis Nice"></p></li>
-                   {{/each}}
-                
-               </ul>
-              
-              
-                  <h1>Lyon</h1>
-                   <p class="tiret">____</p>
-                  <ul>
-                
-                
-                  {{#each promotedate_lyon}}
-                
-                  
-               <li  itemscope itemtype="http://schema.org/Event"> <a href="{{path}}" itemprop="url"> 
-                     <p class="date"><time itemprop="startDate" datetime="{{this.date_startYYYYMMDD}}">{{this.date_start}}</time><meta itemprop="endDate" content="{{this.date_endYYYYMMDD}}" /></p> 
-                                           <p class="titre_formation" itemprop="name"> {{this.formationname}}</p>  </a>
-                                           <p  hidden itemprop="location" itemscope itemtype="http://schema.org/Place">
-                    <meta itemprop="address" content="Lyon"></p></li>
-                   {{/each}}
-                
-               </ul>
-              </div>
-              <div class="row incription">
-                  <a href="#incriptionform" class="btn btn-secondary">Inscription à une session
-                      <i class="fa fa-arrow-down" aria-hidden="true" style="margin-left: 20px;"></i>
-                  </a>
-              </div>
-              -->
-              <div  class="row incriptionform" id="incriptionform">
-                  <p >Si vous êtes intéressé par une formation ou une autre, remplissez ce formulaire et nous vous recontactons très vite.
-                  </p>
-                  <form action="https://formspree.io/formation@goood.pro" method="POST" >
-                      Nom* <input type="text" placeholder="Nom" name="nom" required size="50"/>
-                      Email* <input type="text" name="email" placeholder="dupont@domaine.fr" required size="50"/>
-                      Tel <input type="text" name="tel" placeholder="06 xx xx xx xx" size="14"/>
-                      Formation<select name="formation" >
-                          {{#each formation_themes}}
-                              {{#each formationslist}}
-                                  <option>{{this.formationname}} </option>                        
-                            {{/each}}                 
-                           {{/each}}                          
-                          <option>ou un autre formation</option>                        
-                      </select>
-                      <input type="submit" class="btn btn-primary" Value="Envoyer!"/>
-                  </form>
 
-              </div>    
-          <!-- </div> -->
-        
+        </section><!-- formateur -->
+        <section class="next_session">
+            <div class="row">
+                <div class="header">
+                    <h1> Un besoin de formation, contactez-nous!</h1>
+                </div>
+            </div>
+            <div class="row incriptionform" id="incriptionform">
+                <p>Si vous êtes intéressé par une formation ou une autre, remplissez ce formulaire et nous vous
+                    recontactons très vite.
+                </p>
+                <form action="https://formspree.io/formation@goood.pro" method="POST">
+                    Nom* <input type="text" placeholder="Nom" name="nom" required size="50" />
+                    Email* <input type="text" name="email" placeholder="dupont@domaine.fr" required size="50" />
+                    Tel <input type="text" name="tel" placeholder="06 xx xx xx xx" size="14" />
+                    Formation<select name="formation">
+                        {{#each formation_themes}}
+                        {{#each formationslist}}
+                        <option>{{this.formationname}} </option>
+                        {{/each}}
+                        {{/each}}
+                        <option>ou un autre formation</option>
+                    </select>
+                    <input type="submit" class="btn btn-primary" Value="Envoyer!" />
+                </form>
+
+            </div>
+            <!-- </div> -->
+
         </section><!-- NextSession -->
-            
-   
+
+
 
     </div>
     {{> slide-nav-buttons
@@ -242,6 +153,8 @@
     {{> footer }}
 </div>
 </div>
+
+<script src="../js/TrainingSessions.js" type="module"></script>
 
 {{/inline}}
 
