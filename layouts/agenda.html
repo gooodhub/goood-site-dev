@@ -37,46 +37,10 @@ ga('send', 'pageview');
                     Chez Goood! on aime bien partager. Alors on s’investit dans des communautés proches de nos préoccupations : la diversité, le développement durable, le code, le software craftsmanship, l’agilité, la facilitation, les nouvelles formes d’organisations …
                     Vous trouverez ci-dessous les <a href="#prochaines-dates">prochaines dates</a> des événements que nous organisons, soutenons ou hébergeons. On s’y retrouve ?
                 </p>
-                <div class="evenement">
-                    <a name="prochaines-dates"><h1>Nous aimons, nous soutenons (événements publics)</h1></a>
-                    <section id="cd-timeline" class="cd-container">
-                        {{#each evenements}}
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-movie">
-                                <i class="fa {{this.icon}} fa-2x" aria-hidden="true"></i>
-                            </div>
-                            <div class="cd-timeline-content" data-title="{{this.titre}}" style="cursor: pointer;" onclick="window.location='{{this.lien}}';">
-                                <h2 id="titre-evenement">{{this.titre}}</h2>
-                                <p>
-                                    {{this.description}}
-                                </p>
-                                <p class="roles-timeline">
-                                {{#if organise}}
-                                    <span class="badge badge-info role badge-timeline" data-toggle="tooltip" title="On organise"><i class="fa fa-cogs fa-lg" aria-hidden="true"></i></span>
-                                {{/if}}
-                                {{#if heberge}}
-                                    <span class="badge badge-info role badge-timeline" data-toggle="tooltip" title="On héberge"><i class="fa fa-home fa-lg" aria-hidden="true"></i></span>
-                                {{/if}}
-                                {{#if finance}}
-                                    <span class="badge badge-info role badge-timeline" data-toggle="tooltip" title="On sponsorise"><i class="fa fa-money fa-lg" aria-hidden="true"></i></span>
-                                {{/if}}
-                                {{#if intervient}}
-                                    <span class="badge badge-info role badge-timeline" data-toggle="tooltip" title="On intervient"><i class="fa fa-comment-o fa-lg" aria-hidden="true"></i></span>
-                                {{/if}}
-                                </p>
-                                <p>
-                                <span class="badge ville badge-timeline">{{this.ville}}</span>
-                                {{#each this.tags}}
-                                    <span class="badge badge-primary badge-timeline">{{this}}</span>
-                                {{/each}}
-                                <span class="badge badge-success type-evenement">{{this.type}} <span class="date-mobile"> - {{this.date}}</span>
-                                </p>
-                                <span class="cd-date cd-mobile">{{this.date}}</span>
-                            </div> 
-                        </div>
-                        {{/each}}
-                    </section>
-                </div><a name="communautes">&nbsp;</a>
+                <div class="formationListe__content">
+                    <div id="training-container"></div>
+                </div>
+                <a name="communautes">&nbsp;</a>
                 {{{ contents }}}
             </section>
         </div>
@@ -90,6 +54,13 @@ ga('send', 'pageview');
     {{> footer }}
 </div>
 </div>
+
+<script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="../js/TrainingSessions.js" type="module"></script>
+
 {{/inline}}
 {{/body-layout}}
 
