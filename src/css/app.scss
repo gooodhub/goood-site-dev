@@ -559,3 +559,15 @@ p.numero-formation{
 #contact .contact-goood p{
   margin-bottom:20px;
 }
+
+.beta-mode {
+  height: auto;
+  width: auto;
+  position: fixed;
+  left: 0px;
+  top: 0;
+  z-index: 100;
+  background-color: grey;
+  color: white;
+  opacity: 50%;
+}

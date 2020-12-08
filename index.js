@@ -18,7 +18,7 @@ const browserSync = require('./plugins/metalsmith-browser-sync');
 const webpackConfig = require('./webpack.conf.js');
 
 const __DEV__ = (process.env.NODE_ENV !== 'production');
-const __BETA__ = (process.env.BETA !== 'true');
+const __BETA__ = (process.env.BETA == 'true');
 
 const sassParams = () => {
   if (__DEV__) {
@@ -33,17 +33,11 @@ const sassParams = () => {
     sourceMap: false,
   };
 };
-var metadata = {}
 
-if (__BETA__)
-{
-  metadata = {
-    paymenturl :"https://www.paypal.com/cgi-bin/webscr",
-    production: true }
-} else {
-  metadata = {
-    paymenturl :"https://www.paypal.com/cgi-bin/webscr"}
-}
+var metadata = {
+  paymenturl :"https://www.paypal.com/cgi-bin/webscr",
+  production: !__DEV__ || __BETA__,
+  beta: __BETA__ }
 
 const buildApp = metalsmith(__dirname)
   .source('./src')
