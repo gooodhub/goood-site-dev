@@ -19,7 +19,7 @@ const webpackConfig = require('./webpack.conf.js');
 
 env.config();
 
-if (process.env.NODE_ENV) {
+if (process.env.NODE_ENV == 'production') {
   console.log('Environment is set to PROD');
 } else {
   console.log('Environment is set to DEV');
@@ -46,7 +46,8 @@ const sassParams = () => {
 var metadata = {
   paymenturl :"https://www.paypal.com/cgi-bin/webscr",
   production: !__DEV__ || __BETA__,
-  beta: __BETA__ }
+  beta: __BETA__,
+  analytics: !__BETA__ }
 
 const buildApp = metalsmith(__dirname)
   .source('./src')
