@@ -1,6 +1,6 @@
 <body>
   {{#if beta}}
-    <div class="beta-mode">Site Web Beta - modification numéro $(Build.SourceVersion) par $(Build.RequestedFor)</div>
+    <div class="beta-mode">Site Web Beta - modification numéro #[commit]# par #[auteur]#</div>
   {{/if}}
   {{> svg-bulle}}
   <div class="ham">
