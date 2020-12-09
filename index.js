@@ -13,9 +13,18 @@ const dateFormatter = require('metalsmith-date-formatter');
 const webpackPlugin = require('metalsmith-webpack');
 const buildDate = require('metalsmith-build-date');
 const updated = require('metalsmith-updated');
-
+const env = require('dotenv');
 const browserSync = require('./plugins/metalsmith-browser-sync');
 const webpackConfig = require('./webpack.conf.js');
+
+env.config();
+
+if (process.env.NODE_ENV) {
+  console.log('Environment is set to PROD');
+} else {
+  console.log('Environment is set to DEV');
+}
+console.log('Beta Mode is : ' + process.env.BETA);
 
 const __DEV__ = (process.env.NODE_ENV !== 'production');
 const __BETA__ = (process.env.BETA == 'true');
