@@ -30,5 +30,3 @@ src/.updated.json
 /cle.pub
 /deploy_key
 /deploy_key.pub
-
-package-lock.json
