@@ -74,9 +74,7 @@
             <a target="_blank" rel="noopener noreferrer" href="https://goood.catalogueformpro.com"
                 class="btn btn--primary btn-centered">Voir le catalogue</a>
 
-            <div class="formationListe__content">
-                <div id="training-container"><span>Chargement ...</span><div class="loader"></div></div>
-            </div>
+            {{> sessions }}
         </section><!-- formation_liste -->
 
         <section class="formation">
@@ -153,12 +151,6 @@
     {{> footer }}
 </div>
 </div>
-
-<script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="../js/TrainingSessions.js" type="module"></script>
 
 {{/inline}}
 
