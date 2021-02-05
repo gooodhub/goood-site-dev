@@ -4,7 +4,7 @@ bulle1:
 bulle2:  
 bulle3: 
 image: /images/portraits/Portrait_Placeholder.jpg
-hashtag:
+hashtag: ''
 job: Software Craftsman
 facebook: 
 twitter: 
