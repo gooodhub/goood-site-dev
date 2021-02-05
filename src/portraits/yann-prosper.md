@@ -5,7 +5,7 @@ bulle2:
 bulle3: 
 image: /images/portraits/Portrait_Placeholder.jpg
 hashtag:
-job: 
+job: Software Craftsman
 facebook: 
 twitter: 
 linkedin: 
